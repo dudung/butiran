@@ -94,6 +94,8 @@
 	20210109
 	0459 Create new butiran and rearrange folder structure.
 	0503 Produce min.js version.
+	0620 Add Graout for cellasexreprodforces app.
+	0624 Test it and ok.
 	
 	Note
 	1. To-Do: compile for abm.
@@ -121,6 +123,7 @@ var Gravitational = require('./md/force/gravitational')();
 var Magnetic = require('./md/force/magnetic')();
 var Normal = require('./md/force/normal')();
 var Spring = require('./md/force/spring')();
+var Gravout = require('./md/force/gravout')();
 
 // abm
 var Agent = require('./abm/agent')();
@@ -154,6 +157,7 @@ if(typeof window !== 'undefined') {
 	window["Magnetic"] = Magnetic;
 	window["Normal"] = Normal;
 	window["Spring"] = Spring;
+	window["Gravout"] = Gravout;
 	
 	// abm/matrix
 	window["Agent"] = Agent;
