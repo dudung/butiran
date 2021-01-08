@@ -8,8 +8,8 @@
 	node main.js
 	
 	Compile:
-	webpack main.js --mode=production -o ..\lib\butiran.min.js --display-modules
-	webpack main.js --mode=none -o ..\lib\butiran.js --display-modules
+	webpack main.js --mode=production -o ..\..\dist\js\butiran.min.js --display-modules
+	webpack main.js --mode=none -o ..\..\dist\js\butiran.js --display-modules
 	
 	Version info:
 		Node.js	v10.1.0
@@ -89,7 +89,11 @@
 	0656 Add --display-modules option to show all modules [2].
 	
 	20200705
-	Add ui libs.
+	0000 Add ui libs.
+	
+	20210109
+	0459 Create new butiran and rearrange folder structure.
+	0503 Produce min.js version.
 	
 	Note
 	1. To-Do: compile for abm.
