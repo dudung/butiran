@@ -1,0 +1,8 @@
+[20210109]
+0444 Get some references for folder structure.
+url https://stackoverflow.com/a/22844164
+url https://stackoverflow.com/a/5193206
+url https://stackoverflow.com/a/26347358
+url https://stackoverflow.com/a/49995394
+0445 Find grain meaning
+url https://dictionary.cambridge.org/de/worterbuch/englisch/grain
