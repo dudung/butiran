@@ -1,5 +1,5 @@
 # pmpe-bf
-A proposed model for Patimban deep sea port as a green port is simulated using system dynamics written in JS.
+Principle of minimum potential energy is applied for buoyant force and written in JS.
 
 
 ## note

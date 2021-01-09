@@ -2,12 +2,11 @@
 A grain-based simulation
 
 
-## app
-
-+ 2020 [abm-md-sc-np](app/js/abm-md-sc-np)
-[abm-odm](app/js/abm-odm)
-[abm-sir](app/js/abm-sir)
-[cellasexreprodforces](app/js/cellasexreprodforces)
-[greenport](app/js/greenport)
-[pmpe-bf](app/js/pmpe-bf)
-[capcharge](app/js/capcharge)
+## 2020
++ [`abm-md-sc-np`](app/js/abm-md-sc-np) stem cell deposition on nanopattern
++ [`abm-odm`](app/js/abm-odm) origin-destination matrix using agent-based model
++ [`abm-sir`](app/js/abm-sir) agent-based model interaction through susceptible-infected-recovered model
++ [`cellasexreprodforces`](app/js/cellasexreprodforces) cell asexual reproduction through budding and binary fission
++ [`greenport`](app/js/greenport) system dynamics for a green port modeling
++ [`pmpe-bf`](app/xlsx/pmpe-bf) principle of minimum potential energy for buoyant force
++ [`capcharge`](app/xlsx/capcharge) modeling battery charging using capacitor and resistor equivalent circuit
