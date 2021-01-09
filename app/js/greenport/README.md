@@ -1,5 +1,10 @@
 # greenport
-A proposed model for Patimban deep sea port as a green port is simulated using system dynamics.
+A proposed model for Patimban deep sea port as a green port is simulated using system dynamics written in JS.
+
+
+## files
++ [greenport.js](greenport.js)
++ [greenport.html](greenport.html)
 
 
 ## causal loop diagram
