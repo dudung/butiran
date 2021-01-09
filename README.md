@@ -10,3 +10,7 @@ A grain-based simulation
 + [`greenport`](app/js/greenport) system dynamics for a green port modeling
 + [`pmpe-bf`](app/xlsx/pmpe-bf) principle of minimum potential energy for buoyant force
 + [`capcharge`](app/xlsx/capcharge) modeling battery charging using capacitor and resistor equivalent circuit
+
+
+## 2016
++ [`nwcurve`](app/cpp/nwcurve) calculaton of nanowire curvature due to its weight againts the shear modulus

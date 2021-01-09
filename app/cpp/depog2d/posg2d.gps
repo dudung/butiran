@@ -1,0 +1,22 @@
+#
+# posg2d.gps
+# Plot 2-d position of grains
+# Sparisoma Viridi | dudung@gmail.com
+# 20141112
+#
+
+set output "data.eps"
+set term post eps color enhanced font "Times, 24"
+set size 1, 1.02
+#set size 1, 0.62
+#set size 1, 0.42
+set xlabel "{/Times-Oblique x}"
+set ylabel "{/Times-Oblique y}"
+set xrange [0:1]
+set xtics 0.1
+set yrange [0:0.8]
+#set yrange [0:0.4]
+#set yrange [0:0.2]
+set ytics 0.1
+set grid
+plot "data.txt" u 1:2 pt 6 notitle
