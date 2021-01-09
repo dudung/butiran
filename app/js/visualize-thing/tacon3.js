@@ -6,8 +6,9 @@
 	
 	20170112
 	1622 Start (rewrite from file date).
-	20200109
+	20210109
 	2154 Write the whole information.
+	2157 Correct this year.
 */
 
 var c = document.createElement("canvas");
