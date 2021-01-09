@@ -15,3 +15,7 @@ A grain-based simulation
 ## 2016
 + [`nwcurve`](app/cpp/nwcurve) calculaton of nanowire curvature due to its weight againts the shear modulus
 + [`bootree`](app/cpp/bootree) Simulation of bamboo tree oscillation
+
+
+## 2014
++ [`depog2d`](app/cpp/depog2d) Simulation of 2-d grains deposition

@@ -6,7 +6,7 @@ Bamboo tree oscillation is modeled with spring and mass written in C++.
 + [bootree.cpp](bootree.cpp) (not final)
 
 
-## model
+## model and results
 ![](bootree.png)
 
 
