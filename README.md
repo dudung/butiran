@@ -12,6 +12,10 @@ A grain-based simulation
 + [`capcharge`](app/xlsx/capcharge) modeling battery charging using capacitor and resistor equivalent circuit
 
 
+## 2017
++ [`cf1d2i`](app/cpp/cf1d2i) simulation of Casimir force in 2-d for two intruders
+
+
 ## 2016
 + [`nwcurve`](app/cpp/nwcurve) calculation of nanowire curvature due to its weight againts the shear modulus
 + [`bootree`](app/cpp/bootree) simulation of bamboo tree oscillation
