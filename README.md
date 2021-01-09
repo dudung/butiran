@@ -14,6 +14,7 @@ A grain-based simulation
 
 ## 2017
 + [`cf1d2i`](app/cpp/cf1d2i) simulation of Casimir force in 2-d for two intruders
++ [`visualize-thing`](app/js/visualize-thing) experiment in visualizing some information
 
 
 ## 2016

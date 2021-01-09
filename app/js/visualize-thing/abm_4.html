@@ -1,0 +1,57 @@
+<!--
+	abm_4.html
+	Display configuration for agent-based modelling
+	
+	Sparisoma Viridi | dudung@gmail.compile
+	
+	20171004
+	Create this script by modifying abm_3.html
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='ISO-8859-1'>
+		<title>abm_0</title>
+		<script type='text/javascript' src='abm_4.js'>
+		</script>
+	</head>
+	<body>
+		<!-- Define room data -->
+		<p>Room</p>
+		<textarea
+		 style="
+		  width: 395px;
+			height: 160px;
+			overflow-y: scroll;
+			"
+		 id="room"
+		></textarea>
+		
+		<!-- Define graphical display -->
+		<p>
+			Display &nbsp;&nbsp;&nbsp;&nbsp;
+			<b id="left">0</b>
+			|
+			<b id="right">0</b>
+		</p>
+		<canvas
+			style=" 
+				border: solid black 1px;
+				width: 400px;
+				height: 160px;
+			"
+			id="display"
+		></canvas>
+		
+		<!-- Define some controls -->
+		<p>Control</p>
+		<button onclick="btnLoad()">Load</button>
+		<button onclick="btnDraw()">Draw</button>
+		<button onclick="btnClear()">Clear</button>
+		<button onclick="btnStep()">Step</button>
+		<button id="btnSS" onclick="btnStartStop()">Start</button>
+		<script>
+			init();
+		</script>
+	</body>
+</html>
