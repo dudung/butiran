@@ -1,25 +1,16 @@
 # abm-sir
-Agent-based model (ABM) and susceptible-infected-recovered (SIR) model
+Spread of disease is simulated using agent-based model (ABM) interacting through Susceptible-Infected-Recovered (SIR) model written in JS.
 
-## matrix.js
-`constructor()` Initialize instance of `Matrix` object.
 
-`toString()` Convert matrix content to string with `\t` and `\n`.
+## files
++ [abm-sir.js](abm-sir.js)
++ [abm-sir.html](abm-sir.html)
 
-`beZero()` Make zero all matrix elements.
 
-`beOne()` Make one all matrix elements.
+## ui
+![](abm-sir.png)
 
-`set().to()` Set value of a matrix element to a certain value.
 
-`get()` Get value of a matrix element.
-
-`setCol().to()` Set a colum to a certain value.
-
-`setCols().to()` Set some columns to a certain value.
-
-`setRow().to()` Set a row to a certain value.
-
-`setRows().to()` Set some rows to a certain value.
-
-`setRows().cols().to()` Set some rows and cols to a certain value.
+## note
++ `Event` The 9th National Physics Seminar (SNF), 20 June 2020, Universitas Negeri Jakarta, Jakarta, Indonesia, url <https://snf2020.snf-unj.ac.id/>
++ `Slide` A. Susandi, I. Taufik, P. Aditiawati, S. Viridi, "The Relation between ABM (Agent-Based Model) and SIR (Susceptible-Infected-Recovered) Model for Spread of Disease", SlideShare, 19 Jun, 2020, url <https://de2.slideshare.net/sparisoma/the-relation-between-abm-agentbased-model-and-sir-susceptibleinfectedrecovered-model-for-spread-of-disease>
