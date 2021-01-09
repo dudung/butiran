@@ -1,3 +1,15 @@
+/*
+	tacon3.js
+	Use textarea as input for drawing in canvas.
+	
+	Sparisoma Viridi | https://github.com/dudung/butiran
+	
+	20170112
+	1622 Start (rewrite from file date).
+	20200109
+	2154 Write the whole information.
+*/
+
 var c = document.createElement("canvas");
 document.body.appendChild(c);
 c.id = "canvas";
@@ -106,9 +118,7 @@ ta.onkeypress = function() {
 		if(cl == "<") {
 			READING = true;
 		}
-		
-		
-		
+			
 		/*
 		display("\nLast line:" + lines[L - 1]);
 		var lines = ta.value.split('\n');
