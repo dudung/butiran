@@ -18,4 +18,4 @@ Some experiments are conducted to visualize some information using JS.
 
 
 ## note
-+ The three JS are still experimental in visualizing information
++ The JS codes are still experimental in visualizing information
