@@ -12,6 +12,9 @@ A grain-based simulation
 + [`capcharge`](app/xlsx/capcharge) modeling battery charging using capacitor and resistor equivalent circuit
 
 
+## 2018
++ [`ics1vmgps`](app/xlsx/ics1vmgps) simulation of induced current triggered by a magnetic granular particle
+
 ## 2017
 + [`cf1d2i`](app/cpp/cf1d2i) simulation of Casimir force in 2-d for two intruders
 + [`visualize-thing`](app/js/visualize-thing) experiment in visualizing some information

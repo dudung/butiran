@@ -1,15 +1,17 @@
-# capcharge
-Simulation of capacitor charging in modeling solar power plant battery using finite difference (FD) method.
+# ics1vmgps
+Simulation of induced current while a single magnetic granular particle is bounching on stationary base through a solenoid.
 
 
-## equivalent circuit
-![](capcharge.png)
+## system
+![](ics1vmgps.png)
 
 
 ## files
-+ [capcharge.xlsx](capcharge.xlsx)
++ [ics1vmgps.xls](ics1vmgps.xls)
 
 
 ## note
-+ `Event`  2nd International Conference on Innovation in Science Technology (ICIST 2020), 17 December 2020, Politeknik Negeri Semarang, Semarang, Indonesia, url <http://icist.asia/>
-+ `Slide` A. W. Hasanah, I. Pujotomo, R. Hariyati, M. N. Qosima, J. Sabaryati, S. Viridi, "Modeling of the relation of SoC, SoH, DoD for VRLA Battery of Solar Power Plant in IT-PLN", Google Meet (private communication), 15 Nov 2020
++ `Event` The 2nd International Conference on Applied Electromagnetic Technology (AEMT) 2018, 9-12 April 2018, Mataram, Indonesia, url <https://aemt-geomagnetic.org/english/aemt/>
++ `Slide` S. Viridi, Suprijadi, "Induced Current Simulation of One-Dimensional Vibrating Magnetic Granular Particles System: Free Fall of Single Magnetic Granular Particle Hitting Stationary Base", SlideShare, 8 Apr 2018, url <https://de2.slideshare.net/sparisoma/induced-current-simulation-of-onedimensional-vibrating-magnetic-granular-particles-system-free-fall-of-single-magnetic-granular-particle-hitting-stationary-base>
++ `Abstract` S. Viridi, Suprijadi, "Induced Current Simulation of One-Dimensional Vibrating Magnetic Granular Particles System", The 2nd International Conference on  Applied Electromagnetic Technology (AEMT) 2018, url <https://aemt-geomagnetic.org/onewebmedia/AEMT/Proceedings/1.%20Proceeding%20AEMT%202018.pdf#page=119>
++ `Article` S. Viridi, Suprijadi, "Induced Current Simulation of One-Dimensional Vibrating Magnetic Granular Particles System", 2018 2nd International Conference on Applied Electromagnetic Technology (AEMT), Lombok, 2018, pp. 50-56, doi: [10.1109/AEMT.2018.8572401](https://doi.org/10.1109/AEMT.2018.8572401).
