@@ -2,6 +2,10 @@
 Principle of minimum potential energy is applied for buoyant force and written in JS.
 
 
+## system
+![](pmpe-bf.png)
+
+
 ## files
 + [pmpe-bf.xlsx](pmpe-bf.xlsx)
 
