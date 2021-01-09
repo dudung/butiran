@@ -8,7 +8,7 @@ Motion of charged particle in perpendicular constant magnetic field is simulated
 + [cppcmf-data.xls](cppcmf-data.xls)
 
 
-## model and results
+## ui
 ![](cppcmf.png)
 
 
