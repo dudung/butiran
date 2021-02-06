@@ -96,3 +96,15 @@ toolbelt: 0.9.1, tqdm: 4.56.0)
 
 py>
 ```
+HTTPError: 400 Bad Request from https://upload.pypi.org/legacy/
+File already exists. See https://pypi.org/help/#file-name-reuse for more information.
+
+ERROR: Could not find a version that satisfies the requirement python>=3.6 (from butiran)
+ERROR: No matching distribution found for python>=3.6
+
+
+HTTPError: 400 Bad Request from https://test.pypi.org/legacy/
+File already exists. See https://test.pypi.org/help/#file-name-reuse for more information
+
+ERROR: Could not find a version that satisfies the requirement python>=3.6 (from butiran)
+ERROR: No matching distribution found for python>=3.6

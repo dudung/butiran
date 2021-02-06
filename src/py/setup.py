@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
+VERSION = '0.0.8'
 DESCRIPTION = 'Python package for simulation of grain-based system'
 LONG_DESCRIPTION = 'Python package for simulation of grain-based system using molecular dynamics method and agent-based model'
 
@@ -14,9 +14,7 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[
-					"python >= 3.9"
-				], # add any additional packages that 
+        install_requires=[], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
 				url="https://github.com/dudung/butiran",
