@@ -1,3 +1,7 @@
+# Set search path to subfolder
+import sys
+#sys.path.insert(0, "math")
+
 # Import module in butiran for test
 from vect3 import Vect3
 
