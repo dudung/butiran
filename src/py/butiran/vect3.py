@@ -24,6 +24,10 @@
 # 1509 Done with mul (scalar, Vect3) and (Vect3, scalar).
 # 1512 Done with div and it works after test.
 # 1523 Set .gitignore for butiran compiled bytecode [8].
+#	1527 Change to_str to strval as in JS and C++.
+# 1558 Finish len and unit, even the first works fortunately.
+# 1604 Finish neg function and test it. It is ok.
+#	1604 Add note and finalize this class.
 #	
 #	References
 #	1. Jason Dzouza, "How to Build Your Very First Python Package", freeCodeCamp, 27 Oct 2020, url https://www.freecodecamp.org/news/build-your-first-python-package/ [20210206].
@@ -35,7 +39,11 @@
 #	7. Karleigh Moore, Evans Njeru, Matas Pocevicius, ChongHeng Tan, N A, B! C, Jimin Khim, "Classes (OOP)", Brillian, url https://brilliant.org/wiki/classes-oop/ [20210206].
 #	8. fmaline, "Answer to 'What is __pycache__?'", StackOverflow, 6 Feb 2015 at 11:52, url https://stackoverflow.com/a/28365204 [20210206].
 #	
+#	Notes
+#	1. That l = sqrt(self.dot(self)) is confusing, even it works.
+#	
 
+from numpy import sqrt
 
 class Vect3:
 	"""Vect3 class has 3 attributes and 3 functions"""
@@ -54,7 +62,7 @@ class Vect3:
 		else:
 			self.z = z
 	
-	def to_string(self):
+	def strval(self):
 		"""Get string value of Vect3 instance"""
 		x = str(self.x)
 		y = str(self.y)
@@ -116,3 +124,28 @@ class Vect3:
 		z = v.z / a
 		w = Vect3(x, y, z)
 		return w
+	
+	def len(self):
+		"""Get length or magnitude of a Vect3 instance"""
+		x = self.x
+		y = self.y
+		z = self.z
+		l = sqrt(self.dot(self))
+		return l
+	
+	def unit(self):
+		"""Get unit vector of a Vect3 instance"""
+		l = self.len()
+		v = Vect3()
+		v.x = self.x / l
+		v.y = self.y / l
+		v.z = self.z / l
+		return v
+	
+	def neg(self):
+		"""Set a Vect3 instance to opposite direction"""
+		v = Vect3()
+		v.x = -self.x
+		v.y = -self.y
+		v.z = -self.z
+		return v
