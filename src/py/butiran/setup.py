@@ -27,8 +27,3 @@ setup(
             "Operating System :: Microsoft :: Windows",
         ]
 )
-
-#	
-#	url https://www.freecodecamp.org/news/build-your-first-python-package/
-#	20210206
-#	1637 Try python setup.py sdist bdist_wheel

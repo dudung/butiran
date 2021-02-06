@@ -90,6 +90,16 @@ adding 'butiran-0.0.1.dist-info/RECORD'
 removing build\bdist.win-amd64\wheel
 ```
 
+```
+#	
+#	url https://www.freecodecamp.org/news/build-your-first-python-package/
+#	20210206
+#	1637 Try python setup.py sdist bdist_wheel
+#	1639 
+
+ERROR: You must give at least one requirement to wheel (see "pip help wheel")
+```
+
 Add `.gitignore` according to https://gist.github.com/GhostofGoes/94580e76cd251972b15b4821c8a06f59
 ```
 # Editors
