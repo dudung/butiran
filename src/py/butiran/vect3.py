@@ -23,6 +23,7 @@
 # 1503 Problem by mul due to different arguments types.
 # 1509 Done with mul (scalar, Vect3) and (Vect3, scalar).
 # 1512 Done with div and it works after test.
+# 1523 Set .gitignore for butiran compiled bytecode [8].
 #	
 #	References
 #	1. Jason Dzouza, "How to Build Your Very First Python Package", freeCodeCamp, 27 Oct 2020, url https://www.freecodecamp.org/news/build-your-first-python-package/ [20210206].
@@ -32,6 +33,7 @@
 #	5.  Wikipedia contributors, "Docstring", Wikipedia, The Free Encyclopedia, 28 Nov 2020, 13:46 UTC, url https://en.wikipedia.org/w/index.php?oldid=991140087 [20210206].
 #	6. Yong Cui, "Declare Your First Python Class — Understand 3 Basic Components: Better organize your code using custom classes", The Startup, 24 May 2020, url https://medium.com/swlh/declare-your-first-python-class-understand-3-basic-components-15768c8d35b0 [20210206].
 #	7. Karleigh Moore, Evans Njeru, Matas Pocevicius, ChongHeng Tan, N A, B! C, Jimin Khim, "Classes (OOP)", Brillian, url https://brilliant.org/wiki/classes-oop/ [20210206].
+#	8. fmaline, "Answer to 'What is __pycache__?'", StackOverflow, 6 Feb 2015 at 11:52, url https://stackoverflow.com/a/28365204 [20210206].
 #	
 
 
