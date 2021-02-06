@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
-DESCRIPTION = 'Python package for simulation of granular system'
-LONG_DESCRIPTION = 'Python package for simulation of granular system using molecular dynamics method and agent-based model'
+VERSION = '0.0.2' 
+DESCRIPTION = 'Python package for simulation of grain-based system'
+LONG_DESCRIPTION = 'Python package for simulation of grain-based system using molecular dynamics method and agent-based model'
 
 # Setting up
 setup(
@@ -14,9 +14,13 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[], # add any additional packages that 
+        install_requires=[
+					"python >= 3.9"
+				], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
+				url="https://github.com/dudung/butiran",
+				
         keywords=['python', 'first package'],
         classifiers= [
             "Development Status :: 3 - Alpha",

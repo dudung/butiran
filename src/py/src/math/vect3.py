@@ -43,7 +43,7 @@
 #	7. Karleigh Moore, Evans Njeru, Matas Pocevicius, ChongHeng Tan, N A, B! C, Jimin Khim, "Classes (OOP)", Brillian, url https://brilliant.org/wiki/classes-oop/ [20210206].
 #	8. fmaline, "Answer to 'What is __pycache__?'", StackOverflow, 6 Feb 2015 at 11:52, url https://stackoverflow.com/a/28365204 [20210206].
 #	9. Johannes Weiss, "Answer to 'Type checking of arguments Python [duplicate]'", StackOverflow, 9 Apr 2009 at 14:00, url https://stackoverflow.com/a/734385 [20210206].
-#	10. Shibero, "Answer to ''", StackOverflow, 29 Jan 2020 at 04:06, url https://stackoverflow.com/a/28712742 [20210206].
+#	10. Shibero, "Answer to 'Importing modules from parent folder'", StackOverflow, 29 Jan 2020 at 04:06, url https://stackoverflow.com/a/28712742 [20210206].
 #	11. Jasmine Finer, "How to Write Beautiful Python Code With PEP 8", Real Python, 2019, url https://realpython.com/python-pep8/ [20210206].
 #	
 #	Notes
