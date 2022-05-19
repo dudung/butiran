@@ -58,3 +58,11 @@ class Vect3:
       lz = self.z * other.z
       l = lx + ly + lz
     return l
+  
+  def __truediv__ (self, other):
+    r = Vect3()
+    if isinstance(other, Vect3):
+      r.x = self.x / other
+      r.y = self.y / other
+      r.z = self.z / other
+    return r

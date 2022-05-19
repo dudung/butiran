@@ -57,9 +57,16 @@ if False:
   u = s * t
   print(s, '*', t, '=', u)
 
-# overload or binary operator -- 20220519
-if True:
+# overload or operator -- 20220519
+if False:
   r1 = Vect3(-1, 2, -3)
   r2 = Vect3(-5, -2, 1)
   l = r1 | r2
   print(r1, '|', r2, '=', l)
+
+# overload truediv operator -- 20220519
+if True:
+  r = Vect3(-1, 2, -3)
+  c = 4
+  s = r / c
+  print(r, '/', c, '=', s)
