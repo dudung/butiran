@@ -1,7 +1,8 @@
 # 20220519
-# 1909 __init__, _str__ and tested ok.
-# 1915 __add__, __sub__ and tested ok.
-# 1928 __mul__, __rmul__ and tested ok.
+# 1909 define __init__, _str__ and test ok.
+# 1915 define __add__, __sub__ and test ok.
+# 1928 define __mul__, __rmul__ and test ok.
+# 1938 define __or__ and test ok.
 
 class Vect3:
   def __init__(self, x=0, y=0, z=0):
@@ -49,7 +50,7 @@ class Vect3:
       r = self.__mul__(other)
     return r
   
-  def __or__(self):
+  def __or__(self, other):
     l = 0
     if isinstance(other, Vect3):
       lx = self.x * other.x
