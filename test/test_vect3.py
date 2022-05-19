@@ -43,7 +43,7 @@ if False:
   r3 = r1 + r2
   print(r1, '+', r2, '=', r3)
 
-# overload addition operator -- 20220519
+# overload substraction operator -- 20220519
 if False:
   r1 = Vect3(1, -2, 3)
   r2 = Vect3(-1, 2, -3)
