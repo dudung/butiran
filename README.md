@@ -1,2 +1,2 @@
 # butiran
-butiran (id), granule (en), körnchen (de)
+butiran (id), körnchen (de), granule (en)
