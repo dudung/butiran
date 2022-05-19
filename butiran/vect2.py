@@ -5,6 +5,7 @@
 # 20220520
 #   0503 Copy from vect3.
 #   0512 Erase some methods.
+#   0520 Test all methods from vect3 and ok.
 
 import math
 
@@ -47,7 +48,7 @@ class Vect2:
   
   def __or__(self, other):
     l = 0
-    if isinstance(other, Vect3):
+    if isinstance(other, Vect2):
       lx = self.x * other.x
       ly = self.y * other.y
       l = lx + ly
