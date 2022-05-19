@@ -12,6 +12,7 @@
 #   0313 define len and test ok.
 #   0314 add space between __str__ items after comma.
 #   0324 define __rshift__ and test ok.
+#   0334 define copy and test ok.
 
 import math
 
@@ -90,3 +91,10 @@ class Vect3:
       u = r / l
     s = u * other 
     return s
+
+  def copy(self):
+    r = Vect3()
+    r.x = self.x
+    r.y = self.y
+    r.z = self.z
+    return r

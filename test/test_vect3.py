@@ -86,9 +86,21 @@ if False:
   print('|', r, '| =', l)
 
 # overload rshift operator -- 20220520
-if True:
+if False:
   r = Vect3(3, 4, 0)
   u1 = r >> 1
   print(r, '>> 1 =', u1)
   u4 = r >> 4
   print(r, '>> 4 =', u4)
+
+# remind assign operator and define copy method -- 20220520
+if True:
+  r = Vect3(3, 4, 0)
+  s = r
+  t = r.copy()
+  s.x = 100
+  print('r =', r)
+  print('s = r =', s)
+  print( 't = r.copy() =', t)
+
+  
