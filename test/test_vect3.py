@@ -37,22 +37,29 @@ if False:
   r1 = Vect3(1, 2, 3)
   r2 = Vect3(-1, -2, -3)
   r3 = r1 + r2
-  print(r1, "+", r2, "=", r3)
+  print(r1, '+', r2, '=', r3)
 
 # overload addition operator -- 20220519
 if False:
   r1 = Vect3(1, -2, 3)
   r2 = Vect3(-1, 2, -3)
   r3 = r1 - r2
-  print(r1, "-", r2, "=", r3)
+  print(r1, '-', r2, '=', r3)
 
 # overload multiplication operator -- 20220519
 if False:
   r = Vect3(1, -2, 3)
   c = 2
   s = r * c
-  print(r, "*", c, "=", s)
+  print(r, '*', c, '=', s)
   t = c * r
-  print(c, "*", r, "=", t)
+  print(c, '*', r, '=', t)
   u = s * t
-  print(s, "*", t, "=", u)
+  print(s, '*', t, '=', u)
+
+# overload or binary operator -- 20220519
+if True:
+  r1 = Vect3(-1, 2, -3)
+  r2 = Vect3(-5, -2, 1)
+  l = r1 | r2
+  print(r1, '|', r2, '=', l)

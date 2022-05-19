@@ -8,7 +8,7 @@ class Vect3:
     self.x = x
     self.y = y
     self.z = z
-
+  
   def __str__(self):
     str = '('
     str += f'{self.x}' + ','
@@ -16,7 +16,7 @@ class Vect3:
     str += f'{self.z}'
     str += ')'
     return str
-
+  
   def __add__(self, other):
     r = Vect3()
     r.x = self.x + other.x
@@ -30,7 +30,7 @@ class Vect3:
     r.y = self.y - other.y
     r.z = self.z - other.z
     return r
-
+  
   def __mul__(self, other):
     r = Vect3()
     if isinstance(other, int) | isinstance(other, float):
@@ -42,9 +42,18 @@ class Vect3:
       r.y = self.z * other.x - self.x * other.z
       r.z = self.x * other.y - self.y * other.x
     return r
-
+  
   def __rmul__(self, other):
     r = Vect3()
     if isinstance(other, int) | isinstance(other, float):
       r = self.__mul__(other)
     return r
+  
+  def __or__(self):
+    l = 0
+    if isinstance(other, Vect3):
+      lx = self.x * other.x
+      ly = self.y * other.y
+      lz = self.z * other.z
+      l = lx + ly + lz
+    return l
