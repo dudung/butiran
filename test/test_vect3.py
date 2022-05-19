@@ -102,3 +102,10 @@ if False:
   print('r =', r)
   print('s = r =', s)
   print( 't = r.copy() =', t)
+
+# overload negative operator -- 20220520
+if False:
+  r = Vect3(3, 4, -11)
+  s = -r
+  print("r =", r)
+  print("s =", s)

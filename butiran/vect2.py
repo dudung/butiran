@@ -3,9 +3,10 @@
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20220520
-#   0503 Copy from vect3.
-#   0512 Erase some methods.
-#   0520 Test all methods from vect3 and ok.
+#   0503 copy from vect3.
+#   0512 erase some methods.
+#   0520 test all methods from vect3 and ok.
+#   0528 define __neg__ and test ok.
 
 import math
 
@@ -78,4 +79,10 @@ class Vect2:
     r = Vect2()
     r.x = self.x
     r.y = self.y
+    return r
+  
+  def __neg__(self):
+    r = Vect2()
+    r.x = -self.x
+    r.y = -self.y
     return r

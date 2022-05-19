@@ -13,6 +13,7 @@
 #   0314 add space between __str__ items after comma.
 #   0324 define __rshift__ and test ok.
 #   0334 define copy and test ok.
+#   0524 define __neg__ and test ok.
 
 import math
 
@@ -97,4 +98,11 @@ class Vect3:
     r.x = self.x
     r.y = self.y
     r.z = self.z
+    return r
+  
+  def __neg__(self):
+    r = Vect3()
+    r.x = -self.x
+    r.y = -self.y
+    r.z = -self.z
     return r

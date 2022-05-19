@@ -86,7 +86,7 @@ if False:
   print(r, '>> 4 =', u4)
 
 # remind assign operator and define copy method -- 20220520
-if True:
+if False:
   r = Vect2(3, 4)
   s = r
   t = r.copy()
@@ -94,3 +94,10 @@ if True:
   print('r =', r)
   print('s = r =', s)
   print( 't = r.copy() =', t)
+
+# overload negative operator -- 20220520
+if False:
+  r = Vect2(3, -2)
+  s = -r
+  print("r =", r)
+  print("s =", s)
