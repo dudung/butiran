@@ -1,9 +1,19 @@
+# vect3.py
+# vect3 module
+# Sparisoma Viridi | https://github.com/dudung
+
 # 20220519
-# 1909 define __init__, _str__ and test ok.
-# 1915 define __add__, __sub__ and test ok.
-# 1928 define __mul__, __rmul__ and test ok.
-# 1938 define __or__ and test ok.
-# 1945 define __truediv__ and test ok.
+#   1909 define __init__, _str__ and test ok.
+#   1915 define __add__, __sub__ and test ok.
+#   1928 define __mul__, __rmul__ and test ok.
+#   1938 define __or__ and test ok.
+#   1945 define __truediv__ and test ok.
+# 20220520
+#   0313 define len and test ok.
+#   0314 add space between __str__ items after comma.
+#   0324 define __rshift__ and test ok.
+
+import math
 
 class Vect3:
   def __init__(self, x=0, y=0, z=0):
@@ -13,8 +23,8 @@ class Vect3:
   
   def __str__(self):
     str = '('
-    str += f'{self.x}' + ','
-    str += f'{self.y}' + ','
+    str += f'{self.x}' + ', '
+    str += f'{self.y}' + ', '
     str += f'{self.z}'
     str += ')'
     return str
@@ -67,3 +77,16 @@ class Vect3:
       r.y = self.y / other
       r.z = self.z / other
     return r
+  
+  def len(self):
+    l = math.sqrt(self | self);
+    return l
+  
+  def __rshift__(self, other):
+    u = Vect3()
+    r = self
+    l = r.len()
+    if l != 0:
+      u = r / l
+    s = u * other 
+    return s

@@ -1,3 +1,7 @@
+# test_vect3.py
+# unit test of vect3 module
+# Sparisoma Viridi | https://github.com/dudung
+
 # to try a unit test from root folder use
 # python -m test.test_vect3
 
@@ -65,8 +69,26 @@ if False:
   print(r1, '|', r2, '=', l)
 
 # overload truediv operator -- 20220519
-if True:
+if False:
   r = Vect3(-1, 2, -3)
   c = 4
   s = r / c
   print(r, '/', c, '=', s)
+
+# define len method -- 20220520
+if False:
+  r = Vect3(3, 4, 12)
+  l = r.len()
+  print('|', r, '| =', l)
+
+  r = Vect3(3, 0, 4)
+  l = r.len()
+  print('|', r, '| =', l)
+
+# overload rshift operator -- 20220520
+if True:
+  r = Vect3(3, 4, 0)
+  u1 = r >> 1
+  print(r, '>> 1 =', u1)
+  u4 = r >> 4
+  print(r, '>> 4 =', u4)
