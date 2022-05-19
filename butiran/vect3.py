@@ -3,6 +3,7 @@
 # 1915 define __add__, __sub__ and test ok.
 # 1928 define __mul__, __rmul__ and test ok.
 # 1938 define __or__ and test ok.
+# 1945 define __truediv__ and test ok.
 
 class Vect3:
   def __init__(self, x=0, y=0, z=0):
@@ -61,7 +62,7 @@ class Vect3:
   
   def __truediv__ (self, other):
     r = Vect3()
-    if isinstance(other, Vect3):
+    if isinstance(other, float) | isinstance(other, int):
       r.x = self.x / other
       r.y = self.y / other
       r.z = self.z / other
