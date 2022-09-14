@@ -26,11 +26,11 @@ class Vect3:
     self.z = z
   
   def __str__(self):
-    str = '{'
+    str = '{ '
     str += f'"x": {self.x}' + ', '
     str += f'"y": {self.y}' + ', '
     str += f'"z": {self.z}'
-    str += '}'
+    str += ' }'
     return str
   
   def __add__(self, other):

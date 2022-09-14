@@ -18,10 +18,10 @@ class Vect2:
     self.y = y
   
   def __str__(self):
-    str = '{'
+    str = '{ '
     str += f'"x": {self.x}' + ', '
     str += f'"y": {self.y}'
-    str += '}'
+    str += ' }'
     return str
   
   def __add__(self, other):
