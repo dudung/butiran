@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, '../../butiran')
 
 # import Vect3 class
-from butiran.vect3 import Vect3
+from butiran.math.vect3 import Vect3
 
 # set False to True to show the results of a test block
 
