@@ -15,3 +15,8 @@ from butiran.color import Color
 if True:
   c = Color()
   print(c)
+
+# instantiate with parameters -- 20220915
+if True:
+  c2 = Color('#00f', '#eef')
+  print(c2)

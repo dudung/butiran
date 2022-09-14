@@ -1,5 +1,5 @@
-# vector-operation
-Operations of vector
+# vect3
+Operations of 3-d vector
 
 ## define a vector
 A vector of

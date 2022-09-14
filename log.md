@@ -2,6 +2,10 @@
 When remember to record the progress
 
 
+## 15-sep-2022
+0537 Try to mimic some syntax of [Spinx](https://www.sphinx-doc.org/en/master/) for arguments of a class.
+
+
 ## 14-sep-2022
 1727 Move vectx to math.vectx.
 1926 Create grain.py test_grain.py.
