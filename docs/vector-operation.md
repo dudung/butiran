@@ -21,4 +21,10 @@ r = Vect3(1, 5, -4)
 print(r)
 ```
 
-will define $\vec{r} = \hat{x} + 5 \hat{y} - 4 \hat{z}$
+will define $\vec{r} = \hat{x} + 5 \hat{y} - 4 \hat{z}$ and print
+
+```
+(1, 5, -4)
+```
+
+as output.
