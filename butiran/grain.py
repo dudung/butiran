@@ -3,20 +3,32 @@
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20220914
-#   Learn to make this module
+#   1755 Learn to make this module.
+#   1843 Use Vect3 module.
 
-#from math.vect3 import Vect3
+# add folder butiran to path -- 20220914
+import sys
+sys.path.insert(0, '../../butiran')
+
+from butiran.math.vect3 import Vect3
 
 class Grain:
-  def __init__(self, d=0, m=0, q=0):
-    self.d = d
+  def __init__(self, sid="0000", m=0, d=0, q=0):
+    self.sid = sid
     self.m = m
+    self.d = d
     self.q = q
+    self.r = Vect3()
+    self.v = Vect3()
+    self.a = Vect3()
   
   def __str__(self):
-    str = '{'
-    str += f'"d":{self.d}' + ', '
-    str += f'"m":{self.m}' + ', '
-    str += f'"q":{self.q}'
+    str = '{\n'
+    str += f'  "m":{self.m}' + ',\n'
+    str += f'  "d":{self.d}' + ',\n'
+    str += f'  "q":{self.q}' + ',\n'
+    str += f'  "r":{self.r}' + ',\n'
+    str += f'  "v":{self.r}' + ',\n'
+    str += f'  "a":{self.r}' + '\n'
     str += '}'
     return str
