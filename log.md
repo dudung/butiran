@@ -4,6 +4,7 @@ When remember to record the progress
 
 ## 15-sep-2022
 0537 Try to mimic some syntax of [Spinx](https://www.sphinx-doc.org/en/master/) for arguments of a class.
+0610 Make README.md in each folder. Not yet very structured. Pause for today.
 
 
 ## 14-sep-2022
