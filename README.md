@@ -1,5 +1,5 @@
 # butiran
-butiran (id), körnchen (de), granule (en)
+butiran (id), körnchen (de), granule (en) -based system in Python
 
 
 ## folders
