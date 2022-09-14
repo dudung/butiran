@@ -19,8 +19,8 @@ class Vect2:
   
   def __str__(self):
     str = '{'
-    str += f'"x":{self.x}' + ', '
-    str += f'"y":{self.y}'
+    str += f'"x": {self.x}' + ', '
+    str += f'"y": {self.y}'
     str += '}'
     return str
   

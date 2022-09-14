@@ -13,22 +13,24 @@ sys.path.insert(0, '../../butiran')
 from butiran.math.vect3 import Vect3
 
 class Grain:
-  def __init__(self, sid="0000", m=0, d=0, q=0):
+  def __init__(self, sid="0000", m=0, d=0, q=0, b=0):
     self.sid = sid
     self.m = m
     self.d = d
     self.q = q
+    self.b = b
     self.r = Vect3()
     self.v = Vect3()
     self.a = Vect3()
   
   def __str__(self):
     str = '{\n'
-    str += f'  "m":{self.m}' + ',\n'
-    str += f'  "d":{self.d}' + ',\n'
-    str += f'  "q":{self.q}' + ',\n'
-    str += f'  "r":{self.r}' + ',\n'
-    str += f'  "v":{self.r}' + ',\n'
-    str += f'  "a":{self.r}' + '\n'
+    str += f'  "m": {self.m}' + ',\n'
+    str += f'  "d": {self.d}' + ',\n'
+    str += f'  "q": {self.q}' + ',\n'
+    str += f'  "b": {self.b}' + ',\n'
+    str += f'  "r": {self.r}' + ',\n'
+    str += f'  "v": {self.r}' + ',\n'
+    str += f'  "a": {self.r}' + '\n'
     str += '}'
     return str

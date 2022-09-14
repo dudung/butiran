@@ -27,9 +27,9 @@ class Vect3:
   
   def __str__(self):
     str = '{'
-    str += f'"x":{self.x}' + ', '
-    str += f'"y":{self.y}' + ', '
-    str += f'"z":{self.z}'
+    str += f'"x": {self.x}' + ', '
+    str += f'"y": {self.y}' + ', '
+    str += f'"z": {self.z}'
     str += '}'
     return str
   
