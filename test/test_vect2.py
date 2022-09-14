@@ -2,10 +2,11 @@
 # unit test of vect2 module
 # Sparisoma Viridi | https://github.com/dudung
 
-# to try a unit test from root folder use
-# python -m test.test_vect2
+# add folder butiran to path -- 20220914
+import sys
+sys.path.insert(0, '../../butiran')
 
-# import Vect3 class
+# import Vect2 class
 from butiran.vect2 import Vect2
 
 # set False to True to show the results of a test block
