@@ -11,8 +11,14 @@ $$
 can be defined as follow
 
 ```python
+r = Vect3(x, y, z)
+```
+
+and as example following code
+
+```python
 r = Vect3(1, 5, 4)
 print(r)
 ```
 
-which define $\vec{r} = \hat{x} + 5 \hat{y} + 4 \hat{z}$
+will define $\vec{r} = \hat{x} + 5 \hat{y} + 4 \hat{z}$
