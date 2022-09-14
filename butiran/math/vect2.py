@@ -2,6 +2,8 @@
 # vect2 module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20220914
+#   1838 Change __str__ output to JSON format.
 # 20220520
 #   0503 copy from vect3.
 #   0512 erase some methods.
@@ -16,10 +18,10 @@ class Vect2:
     self.y = y
   
   def __str__(self):
-    str = '('
-    str += f'{self.x}' + ', '
-    str += f'{self.y}'
-    str += ')'
+    str = '{'
+    str += f'"x":{self.x}' + ', '
+    str += f'"y":{self.y}'
+    str += '}'
     return str
   
   def __add__(self, other):

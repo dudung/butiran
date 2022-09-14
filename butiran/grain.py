@@ -8,15 +8,15 @@
 #from math.vect3 import Vect3
 
 class Grain:
-  def __init__(self, m=0, d=0, q=0):
-    self.m = m
+  def __init__(self, d=0, m=0, q=0):
     self.d = d
+    self.m = m
     self.q = q
   
   def __str__(self):
-    str = '{\n'
-    str += f'  "m": {self.m}' + ',\n'
-    str += f'  "d": {self.d}' + ',\n'
-    str += f'  "q": {self.q}\n'
+    str = '{'
+    str += f'"d":{self.d}' + ', '
+    str += f'"m":{self.m}' + ', '
+    str += f'"q":{self.q}'
     str += '}'
     return str

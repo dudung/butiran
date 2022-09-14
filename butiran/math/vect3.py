@@ -2,6 +2,8 @@
 # vect3 module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20220914
+#   1839 Change __str__ output to JSON format.
 # 20220519
 #   1909 define __init__, _str__ and test ok.
 #   1915 define __add__, __sub__ and test ok.
@@ -24,11 +26,11 @@ class Vect3:
     self.z = z
   
   def __str__(self):
-    str = '('
-    str += f'{self.x}' + ', '
-    str += f'{self.y}' + ', '
-    str += f'{self.z}'
-    str += ')'
+    str = '{'
+    str += f'"x":{self.x}' + ', '
+    str += f'"y":{self.y}' + ', '
+    str += f'"z":{self.z}'
+    str += '}'
     return str
   
   def __add__(self, other):
