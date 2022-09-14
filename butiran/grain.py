@@ -5,6 +5,7 @@
 # 20220914
 #   1755 Learn to make this module.
 #   1843 Use Vect3 module.
+#   1925 Set __str__ with JSON format.
 
 # add folder butiran to path -- 20220914
 import sys
