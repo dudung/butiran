@@ -15,5 +15,3 @@ from butiran.grain import Grain
 if True:
   g = Grain()
   print(g)
-  g.id = "0001"
-  print(g)

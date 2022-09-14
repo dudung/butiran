@@ -16,7 +16,7 @@ class Color:
   
   def __str__(self):
     str = '{ '
-    str += f'"stroke": {self.stroke}' + ', '
-    str += f'"fill": {self.fill}'
+    str += f'"stroke": "{self.stroke}"' + ', '
+    str += f'"fill": "{self.fill}"'
     str += ' }'
     return str
