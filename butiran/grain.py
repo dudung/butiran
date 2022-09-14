@@ -14,9 +14,9 @@ class Grain:
     self.q = q
   
   def __str__(self):
-    str = '{'
-    str += f'm:{self.m}' + '; '
-    str += f'd:{self.d}' + '; '
-    str += f'q:{self.q}'
+    str = '{\n'
+    str += f'  "m": {self.m}' + ',\n'
+    str += f'  "d": {self.d}' + ',\n'
+    str += f'  "q": {self.q}\n'
     str += '}'
     return str
