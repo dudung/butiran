@@ -2,7 +2,7 @@
 Operations of vector
 
 ## define a vector
-A vector
+A vector of
 
 $$
 \vec{r} = x \hat{x} + y \hat{y} + z \hat{z}
@@ -17,8 +17,8 @@ r = Vect3(x, y, z)
 and as example following code
 
 ```python
-r = Vect3(1, 5, 4)
+r = Vect3(1, 5, -4)
 print(r)
 ```
 
-will define $\vec{r} = \hat{x} + 5 \hat{y} + 4 \hat{z}$
+will define $\vec{r} = \hat{x} + 5 \hat{y} - 4 \hat{z}$
