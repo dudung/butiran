@@ -4,9 +4,9 @@ Operations of vector
 ## define a vector
 A vector
 
-\begin{equation}
+$$
 \vec{r} = x \hat{x} + y \hat{y} + z \hat{z}
-\end{equation}
+$$
 
 can be defined as follow
 
