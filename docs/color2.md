@@ -1,11 +1,11 @@
 # color2
-Store color for two-dimensional shapes
+Color for two-dimensional shapes
 
 
 ## instantiation
 Syntax
 
-`Color2([stroke[, [fill]])`
+`Color2([stroke[, fill]])`
 
 + `stroke`: stroke color, e.g. `#00f`, default `#000`.
 + `fill` : fill color, e.g. `#eef`, default `#fff`.
