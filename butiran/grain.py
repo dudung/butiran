@@ -2,6 +2,8 @@
 # grain module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20220916
+#   1642 Correct Color to Color2.
 # 20220914
 #   1755 Learn to make this module.
 #   1843 Use Vect3 module.
@@ -12,7 +14,7 @@ import sys
 sys.path.insert(0, '../../butiran')
 
 from butiran.math.vect3 import Vect3
-from butiran.color import Color
+from butiran.color2 import Color2
 
 class Grain:
   def __init__(self, id="0000", m=0, d=0, q=0, b=0):
@@ -21,7 +23,7 @@ class Grain:
     self.d = d
     self.q = q
     self.b = b
-    self.color = Color() 
+    self.color = Color2() 
     self.r = Vect3()
     self.v = Vect3()
     self.a = Vect3()
