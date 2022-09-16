@@ -12,7 +12,7 @@ from butiran.math.vect2 import Vect2
 # set False to True to show the results of a test block
 
 # initialize an instance -- 20220520
-if False:
+if True:
   r = Vect2()
   print(r)
   

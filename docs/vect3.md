@@ -1,30 +1,26 @@
 # vect3
-Operations of 3-d vector
+A 3-d vector
 
-## define a vector
-A vector of
 
-$$
-\vec{r} = x \hat{x} + y \hat{y} + z \hat{z}
-$$
+## instantiation
+Syntax
 
-can be defined as follow
+`Vect3([x[, y[, z]]])`
 
-```python
-r = Vect3(x, y, z)
-```
++ `x`: x-coordinate, e.g. `1.5`, default `0`.
++ `y`: y-coordinate, e.g. `-2`, default `0`.
++ `z`: z-coordinate, e.g. `100.2`, default `0`.
 
-and as example following code
+Code
 
 ```python
-r = Vect3(1, 5, -4)
+r = Vect3(y=0.2)
+r.z = 159
 print(r)
 ```
 
-will define $\vec{r} = \hat{x} + 5 \hat{y} - 4 \hat{z}$ and print
+Output
 
+```json
+{ "x": 0, "y": 0.2, "z": 159 }
 ```
-(1, 5, -4)
-```
-
-as output.
