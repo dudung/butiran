@@ -3,7 +3,7 @@ Documentation for butiran package
 
 
 ## module
-+ [Vect2](vect2.md)
-+ [Vect3](vect3.md)
-+ [Color2](color2.md)
-+ [Grain](grain.md)
++ [vect2](vect2.md)
++ [vect3](vect3.md)
++ [color2](color2.md)
++ [grain](grain.md)
