@@ -1,11 +1,11 @@
-# color
+# color2
 Store color for two-dimensional shapes
 
 
 ## instantiation
 Syntax
 
-`Color([stroke[, [fill]])`
+`Color2([stroke[, [fill]])`
 
 + `stroke`: stroke color, e.g. `#00f`, default `#000`.
 + `fill` : fill color, e.g. `#eef`, default `#fff`.
@@ -13,7 +13,7 @@ Syntax
 Code
 
 ```python
-c2 = Color('#00f', '#eef')
+c2 = Color2('#00f', '#eef')
 print(c2)
 ```
 

@@ -1,7 +1,9 @@
-# color.py
-# color module
+# color2.py
+# color2 module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20220916
+#   1639 Rename it from Color to Color2.
 # 20220914
 #   2039 Learn to make this module.
 
@@ -9,7 +11,7 @@
 import sys
 sys.path.insert(0, '../../butiran')
 
-class Color:
+class Color2:
   def __init__(self, stroke='#000', fill='#fff'):
     self.stroke = stroke
     self.fill = fill
