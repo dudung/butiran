@@ -8,6 +8,7 @@
 #   1628 Use isinstance() to assure field is Vect3.
 #   1830 Try to use assert.
 #   1903 Implement assert to force field argument as Vect3.
+#   1929 Create force() for magnetic force worked on the grain.
 
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
@@ -23,6 +24,10 @@ class Magnetic:
     str += '}'
     return str
   
-  def force():
-    f = Vect3()
+  def force(self, grain):
+    assert isinstance(grain, Grain)
+    v = grain.v
+    q = grain.q
+    B = self.field
+    f = q * v * B
     return f

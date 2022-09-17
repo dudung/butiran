@@ -29,7 +29,16 @@ if False:
   print(fB)
 
 if True:
-  B = 2
-  #B = Vect3(1.2, -2.3, 3.4)
-  fB = Magnetic(field=B)
+  B = Vect3(0, 0, -1)
   print(B)
+  
+  magnetic = Magnetic(field=B)
+  print(magnetic)
+  
+  grain = Grain(id="0001", m = 1, q = 1)
+  grain.r = Vect3(1, 0, 0)
+  grain.v = Vect3(0, 1, 0)
+  print(grain)
+  
+  fB = magnetic.force(grain)
+  print(fB)
