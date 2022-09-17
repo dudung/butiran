@@ -6,19 +6,23 @@
 #   1548 Start this module.
 #   1614 Remove sys.path.insert(0, '../../butiran') line.
 #   1628 Use isinstance() to assure field is Vect3.
+#   1830 Try to use assert.
+#   1903 Implement assert to force field argument as Vect3.
 
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
 
 class Magnetic:
   def __init__(self, field=Vect3()):
-    if(isinstance(field, Vect3)):
-      self.field = field
-    else:
-      self.field = Vect3()
-   
+    assert isinstance(field, Vect3), 'field should be a Vect3'
+    self.field = field
+  
   def __str__(self):
     str = '{\n'
     str += f'  "field": "{self.field}"' + ',\n'
     str += '}'
     return str
+  
+  def force():
+    f = Vect3()
+    return f
