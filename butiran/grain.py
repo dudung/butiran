@@ -2,16 +2,15 @@
 # grain module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20220917
+#   1613 Remove sys.path.insert(0, '../../butiran') line.
 # 20220916
 #   1642 Correct Color to Color2.
 # 20220914
 #   1755 Learn to make this module.
 #   1843 Use Vect3 module.
 #   1925 Set __str__ with JSON format.
-
-# add folder butiran to path -- 20220914
-import sys
-sys.path.insert(0, '../../butiran')
+#   XXXX sys.path.insert(0, '../../butiran') line.
 
 from butiran.math.vect3 import Vect3
 from butiran.color2 import Color2
