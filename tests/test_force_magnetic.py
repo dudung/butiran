@@ -6,9 +6,12 @@
 #   1617 Add sys.path.insert(0, '../../butiran') line.
 #   1618 Import necessary modules and test instantiation.
 #   1824 Change Bfield to B in the instantiation example.
+# 20220918
+#   0746 Add environmental variable PYTHONPATH L:\home\butiran.
+#   0747 Comment import sys and sys.path.insert lines.
 
-import sys
-sys.path.insert(0, '../../butiran')
+#import sys
+#sys.path.insert(0, '../../butiran')
 
 from butiran.color2 import Color2
 from butiran.math.vect3 import Vect3
