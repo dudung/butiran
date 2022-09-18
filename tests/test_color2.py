@@ -4,9 +4,13 @@
 
 # 20220916 Rename Color to Color2.
 
+# 20220918
+#   0746 Add environmental variable PYTHONPATH L:\home\butiran.
+#   0747 Comment import sys and sys.path.insert lines.
+
 # add folder butiran to path -- 20220914
-import sys
-sys.path.insert(0, '../../butiran')
+#import sys
+#sys.path.insert(0, '../../butiran')
 
 # import Grain class
 from butiran.color2 import Color2
