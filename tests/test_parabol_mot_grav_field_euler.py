@@ -11,7 +11,7 @@ from butiran.grain import Grain
 from butiran.force.gravitational import Gravitational
 
 # define grain with initial position and velocity
-grain = Grain(id="0002", m = 1, q = 1)
+grain = Grain(id="0002", m = 1)
 grain.r = Vect3(0, 0, 0)
 grain.v = Vect3(30, 40, 0)
 
@@ -78,9 +78,8 @@ plt.ylim([0, 80])
 plt.xticks(np.arange(0, 240+0.01, 40))
 plt.yticks(np.arange(0, 80+0.01, 20))
 
-#plt.text(-0.5, 0.2, "$B = 1, m = 1, q = 1$", fontsize=12)
-#plt.text(-0.4, -0.05, "$\Delta t = 2 \pi \ / \ 10^4$", fontsize=12)
-#plt.text(-0.3, -0.3, "$T \in [0, 2\pi]$", fontsize=12)
+plt.text(60, 39, "$v_x = 30$, $v_y = 40$, $m = 1$", fontsize=12)
+plt.text(98, 30, "$g = -10$", fontsize=12)
 
 print("Save figure.")
 plt.savefig('test_parabol_mot_grav_field_euler.png', bbox_inches='tight')
