@@ -1,7 +1,10 @@
-# test_parabol_mot_grav_field_euler.py
+# parabolic_gravitational_euler.py
 # unit test of gravitational module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1728 Rename from test_parabol_mot_grav_field_euler.py to
+#        parabolic_gravitational_euler.py and move to motion folder.
 # 20220919
 #   1734 Start this unit test.
 
@@ -82,4 +85,4 @@ plt.text(60, 39, "$v_x = 30$, $v_y = 40$, $m = 1$", fontsize=12)
 plt.text(98, 30, "$g = -10$", fontsize=12)
 
 print("Save figure.")
-plt.savefig('parabolic_grav_field_euler.png', bbox_inches='tight')
+plt.savefig('parabolic_gravitational_euler.png', bbox_inches='tight')

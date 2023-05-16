@@ -1,7 +1,10 @@
-# test_circ_mot_mag_field_euler.py
+# circular_magnetic_euler.py
 # unit test of magnetic module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1727 Rename from test_circ_mot_mag_field_euler.py to
+#        circular_magnetic_euler.py and move to motion folder.
 # 20220918
 #   0839 Start simulate motion of paticle with Euler algorithm.
 #   1105 Finish this example.
@@ -84,4 +87,4 @@ plt.text(-0.4, -0.05, "$\Delta t = 2 \pi \ / \ 10^4$", fontsize=12)
 plt.text(-0.3, -0.3, "$T \in [0, 2\pi]$", fontsize=12)
 
 print("Save figure.")
-plt.savefig('circular_mag_field_euler.png', bbox_inches='tight')
+plt.savefig('circular_magnetic_euler.png', bbox_inches='tight')
