@@ -1,16 +1,17 @@
-# gravitational.py
-# module for gravitational force on a point mass particle
+# drag.py
+# module for drag force on a point particle
 # Sparisoma Viridi | https://github.com/dudung
 
-# 20220919
-#   1731 Start this module.
-#   1743 Finish test it.
+# 20230516
+#   1928 Start this module, raw copy from magnetic force.
+#   1937 Pause zum Abendessen.
 
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
 
-class Gravitational:
-  def __init__(self, field=Vect3()):
+class Drag:
+  def __init__(self, coeff=1, field=Vect3()):
+    self.coeff = coeff
     assert isinstance(field, Vect3), 'field should be a Vect3'
     self.field = field
   
@@ -22,7 +23,8 @@ class Gravitational:
   
   def force(self, grain):
     assert isinstance(grain, Grain)
-    m = grain.m
-    g = self.field
-    f = m * g
+    v = grain.v
+    u = self.field
+    b = self.coeff
+    f = - b * (v - u)
     return f

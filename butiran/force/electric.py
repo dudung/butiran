@@ -1,5 +1,5 @@
 # electric.py
-# module for electric force of a point mass particle
+# module for electric force on a point mass particle
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230516

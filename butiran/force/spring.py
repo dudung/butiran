@@ -1,5 +1,5 @@
 # spring.py
-# module for spring force of a point mass particle to a point
+# module for spring force on a point mass particle to a point
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230516

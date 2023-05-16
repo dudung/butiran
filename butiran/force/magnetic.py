@@ -1,5 +1,5 @@
 # magnetic.py
-# module for force of a moving charged point particle
+# module for magnetic force on a moving charged point particle
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20220917
