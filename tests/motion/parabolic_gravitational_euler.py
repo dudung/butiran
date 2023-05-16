@@ -1,5 +1,5 @@
 # parabolic_gravitational_euler.py
-# unit test of gravitational module
+# unit test of gravitational force module
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230516

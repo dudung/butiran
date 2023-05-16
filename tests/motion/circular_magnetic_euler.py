@@ -1,5 +1,5 @@
 # circular_magnetic_euler.py
-# unit test of magnetic module
+# unit test of magnetic force module
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230516
