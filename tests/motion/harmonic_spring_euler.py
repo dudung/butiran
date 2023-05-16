@@ -13,12 +13,17 @@ from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
 from butiran.force.spring import Spring
 
-"""
+# define a pivot
+p = Vect3(0, 0, 0)
+
+0.2 / 4pi^2 = m/k
+
 # define grain with initial position and velocity
-grain = Grain(id="0002", m = 1)
-grain.r = Vect3(0, 0, 0)
+grain = Grain(id="0011", m=1)
+grain.r = Vect3(2, 0, 0)
 grain.v = Vect3(30, 40, 0)
 
+"""
 # define gravitational field and force
 g = Vect3(0, -10, 0)
 gravitational = Gravitational(field=g)
