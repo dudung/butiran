@@ -12,12 +12,11 @@
 #   1902 Display result x-t.
 #   1916 Finish labeling and ticks.
 
-import math
-
 from butiran.color2 import Color2
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
 from butiran.force.spring import Spring
+import math
 
 # define a pivot
 p = Vect3(0, 0, 0)
