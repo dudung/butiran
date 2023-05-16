@@ -9,6 +9,8 @@
 #   1734 Start this unit test.
 #   1821 Continue after unexpected shutdown, break fasting.
 #   1827 Calculate force firts. Pause for ruqyah.
+#   1902 Display result x-t.
+#   1916 Finish labeling and ticks.
 
 import math
 
@@ -31,22 +33,14 @@ spring = Spring(length=l, constant=k, pivot=p)
 A = 0.5
 grain = Grain(id="0011", m=1)
 grain.r = Vect3(0 + l + A, 0, 0)
-grain.v = Vect3(30, 40, 0)
-
-f = spring.force(grain)
-print(f)
-
-"""
-# define gravitational field and force
-g = Vect3(0, -10, 0)
-gravitational = Gravitational(field=g)
+grain.v = Vect3(0, 0, 0)
 
 import numpy as np
 
 # define iteration
 tbeg = 0
-tend = 8
-N = 100
+tend = 1
+N = 1000
 dt = (tend - tbeg) / N
 
 # define lists
@@ -56,11 +50,11 @@ data_y = []
 data_vx = []
 data_vy = []
 
+
 # perform iteration
-#print("#t x y vx vy")
 print("Calculate position and velocity.")
 for i in range(N + 1):
-  t = i
+  t = i * dt
   
   m = grain.m
   v = grain.v
@@ -72,17 +66,13 @@ for i in range(N + 1):
   data_vx.append(v.x)
   data_vy.append(v.y)
 
-  fg = gravitational.force(grain)
-  a = fg / m
+  fs = spring.force(grain)
+  a = fs / m
   v += a * dt
   r += v * dt
   
   grain.v = v
   grain.r = r
-  
-  #print(t, ' ', end='')
-  #print(r.x, ' ', r.y, ' ', end='')
-  #print(v.x, ' ', v.y)
   
 print("Plot data.")
 from matplotlib.pyplot import figure
@@ -90,19 +80,19 @@ import matplotlib.pyplot as plt
 
 figure(figsize=(5,3.5), dpi=80)
 
-plt.plot(data_x, data_y, c='r')
-plt.xlabel('x')
-plt.ylabel('y')
+plt.plot(data_t, data_x, c='r')
+plt.xlabel('t')
+plt.ylabel('x')
 
 plt.grid()
-plt.xlim([0, 240])
-plt.ylim([0, 80])
-plt.xticks(np.arange(0, 240+0.01, 40))
-plt.yticks(np.arange(0, 80+0.01, 20))
+plt.xlim([0, 1])
+plt.ylim([0.5, 1.5])
+plt.xticks(np.arange(0, 1+0.01, 0.1))
+plt.yticks(np.arange(0.4, 1.6+0.01, 0.2))
 
-plt.text(60, 39, "$v_x = 30$, $v_y = 40$, $m = 1$", fontsize=12)
-plt.text(98, 30, "$g = -10$", fontsize=12)
+plt.text(0.29, 1.07, "$A = 0.5$, $x_0 = 0$, $l = 1$", fontsize=12)
+plt.text(0.325, 0.87, "$m = 1$, $k = 157.9$", fontsize=12)
+plt.text(0.35, 0.67, "$T = 0.5$, $f = 2$", fontsize=12)
 
 print("Save figure.")
 plt.savefig('harmonic_spring_euler.png', bbox_inches='tight')
-"""
