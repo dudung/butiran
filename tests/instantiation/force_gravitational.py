@@ -1,7 +1,9 @@
-# test_force_graviational.py
+# force_graviational.py
 # unit test of gravitational module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1735 Remove name prefix 'test_' and move to instantiation folder.
 # 20220919
 #   1848 Test instantiation.
 

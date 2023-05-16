@@ -1,7 +1,9 @@
-# test_force_magnetic.py
+# force_magnetic.py
 # unit test of magnetic module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1735 Remove name prefix 'test_' and move to instantiation folder.
 # 20220917
 #   1617 Add sys.path.insert(0, '../../butiran') line.
 #   1618 Import necessary modules and test instantiation.

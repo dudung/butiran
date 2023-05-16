@@ -1,7 +1,9 @@
-# test_force_electric.py
+# force_electric.py
 # unit test of electric module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1735 Remove name prefix 'test_' and move to instantiation folder.
 # 20220919
 #   1855 Write instantiation, not yet tested.
 

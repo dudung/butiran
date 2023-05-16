@@ -1,7 +1,9 @@
-# test_grain.py
+# grain.py
 # unit test of grain module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1735 Remove name prefix 'test_' and move to instantiation folder.
 # 20220918
 #   0746 Add environmental variable PYTHONPATH L:\home\butiran.
 #   0747 Comment import sys and sys.path.insert lines.
