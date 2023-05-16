@@ -4,10 +4,8 @@
 
 # 20230516
 #   1538 Correct m to q in force function, but not tested yet.
-
 # 20220919
 #   1846 Start this module.
-#   18XX Finish test it.
 
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
