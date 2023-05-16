@@ -2,6 +2,9 @@
 # module for electric force of a point mass particle
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230516
+#   1538 Correct m to q in force function, but not tested yet.
+
 # 20220919
 #   1846 Start this module.
 #   18XX Finish test it.
@@ -22,7 +25,7 @@ class Electric:
   
   def force(self, grain):
     assert isinstance(grain, Grain)
-    m = grain.m
+    q = grain.q
     E = self.field
-    f = m * E
+    f = q * E
     return f
