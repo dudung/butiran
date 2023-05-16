@@ -84,4 +84,4 @@ plt.text(-0.4, -0.05, "$\Delta t = 2 \pi \ / \ 10^4$", fontsize=12)
 plt.text(-0.3, -0.3, "$T \in [0, 2\pi]$", fontsize=12)
 
 print("Save figure.")
-plt.savefig('test_circ_mot_mag_field_euler.png', bbox_inches='tight')
+plt.savefig('circular_mag_field_euler.png', bbox_inches='tight')

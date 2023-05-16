@@ -82,4 +82,4 @@ plt.text(60, 39, "$v_x = 30$, $v_y = 40$, $m = 1$", fontsize=12)
 plt.text(98, 30, "$g = -10$", fontsize=12)
 
 print("Save figure.")
-plt.savefig('test_parabol_mot_grav_field_euler.png', bbox_inches='tight')
+plt.savefig('parabolic_grav_field_euler.png', bbox_inches='tight')
