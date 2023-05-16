@@ -7,6 +7,10 @@
 #        parabolic_gravitational_euler.py and move to motion folder.
 # 20220919
 #   1734 Start this unit test.
+#   1821 Continue after unexpected shutdown, break fasting.
+#   1827 Calculate force firts. Pause for ruqyah.
+
+import math
 
 from butiran.color2 import Color2
 from butiran.math.vect3 import Vect3
@@ -16,12 +20,21 @@ from butiran.force.spring import Spring
 # define a pivot
 p = Vect3(0, 0, 0)
 
-0.2 / 4pi^2 = m/k
+# define spring force
+m = 1
+f = 2
+k = 4 * math.pi**2 * m * f**2
+l = 1
+spring = Spring(length=l, constant=k, pivot=p)
 
 # define grain with initial position and velocity
+A = 0.5
 grain = Grain(id="0011", m=1)
-grain.r = Vect3(2, 0, 0)
+grain.r = Vect3(0 + l + A, 0, 0)
 grain.v = Vect3(30, 40, 0)
+
+f = spring.force(grain)
+print(f)
 
 """
 # define gravitational field and force
