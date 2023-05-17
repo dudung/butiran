@@ -6,6 +6,10 @@
 #   0459 Start this unit test.
 #   0543 Not finish, error. Pause, Duschen, zu Uni.
 
+import sys
+# set configuration at the university, comment while at home
+sys.path.insert(0, "D:\\butiran")
+
 from butiran.color2 import Color2
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
