@@ -1,6 +1,7 @@
 # Windows shortcut
 powershell.lnk
 cygwin.lnk
+pshise.lnk
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
