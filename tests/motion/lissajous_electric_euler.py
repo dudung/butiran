@@ -32,12 +32,12 @@ def efield(t):
   omega1 = 2 * math.pi * f1
   omega2 = 2 * math.pi * f2
   
-  phi = 0.25 * math.pi
-  x = A1 * math.cos(omega1 * t)
-  y = A2 * math.cos(omega2 * t + phi)
-  z = 0
+  phi = 0.5 * math.pi
+  xx = A1 * math.cos(omega1 * t)
+  yy = A2 * math.cos(omega2 * t + phi)
+  zz = 0
   
-  return Vect3(x, y, z)
+  return Vect3(xx, yy, zz)
 
 electric = Electric()
 
@@ -45,7 +45,7 @@ import numpy as np
 
 # define iteration
 tbeg = 0
-tend = 4
+tend = 2
 N = 10000
 dt = (tend - tbeg) / N
 
@@ -91,7 +91,8 @@ import matplotlib.pyplot as plt
 
 figure(figsize=(3.5, 3.5), dpi=80)
 
-plt.plot(data_x, data_y, c='r')
+plt.plot(data_t, data_ax, c='r')
+plt.plot(data_t, data_ay, c='b')
 plt.xlabel('x')
 plt.ylabel('y')
 
