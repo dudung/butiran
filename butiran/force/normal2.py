@@ -4,6 +4,7 @@
 
 # 20230523
 #   0449 Start this module.
+#   0504 Pass instantiation test.
 
 from butiran.math.vect3 import Vect3
 from butiran.grain import Grain
@@ -27,10 +28,9 @@ class Normal2:
     r2 = grain2.r
     l = 0.5 * (grain1.d + grain2.d)
     k = self.constant
-    """
     d = Vect3.len(r1 - r2)
     u = (r1 - r2) >> 1
-    fr = -k * (d - l) * u
+    fr = -k * min(0, d - l) * u
     
     v1 = grain1.v
     v2 = grain2.v
@@ -39,4 +39,3 @@ class Normal2:
     
     f = fr + fv
     return f
-    """
