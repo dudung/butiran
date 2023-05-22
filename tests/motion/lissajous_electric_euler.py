@@ -19,19 +19,22 @@ from butiran.force.electric import Electric
 import math
 
 # define grain with initial position and velocity
+A1 = 1
+A2 = 1
+f1 = 1
+f2 = 2
+omega1 = 2 * math.pi * f1
+omega2 = 2 * math.pi * f2
+
+vx = 0
+vy = 0.025 * math.pi # unclear why this value
+
 grain = Grain(id="0102", m=1, q=1)
 grain.r = Vect3(0, 0, 0)
-grain.v = Vect3(0, 0, 0)
+grain.v = Vect3(vx, vy, 0)
 
 # define electric field and force
 def efield(t):
-  A1 = 1
-  A2 = 1
-  f1 = 1
-  f2 = 1
-  omega1 = 2 * math.pi * f1
-  omega2 = 2 * math.pi * f2
-  
   phi = 0.5 * math.pi
   xx = A1 * math.cos(omega1 * t)
   yy = A2 * math.cos(omega2 * t + phi)
@@ -91,21 +94,17 @@ import matplotlib.pyplot as plt
 
 figure(figsize=(3.5, 3.5), dpi=80)
 
-plt.plot(data_t, data_ax, c='r')
-plt.plot(data_t, data_ay, c='b')
+plt.plot(data_x, data_y, c='r')
 plt.xlabel('x')
 plt.ylabel('y')
 
 plt.grid()
-#plt.xlim([0, 240])
-#plt.ylim([0, 80])
-#plt.xticks(np.arange(0, 240+0.01, 40))
-#plt.yticks(np.arange(0, 80+0.01, 20))
 
-#plt.text(60, 39, "$v_x = 30$, $v_y = 40$, $m = 1$", fontsize=12)
-#plt.text(98, 30, "$g = -10$", fontsize=12)
+plt.text(0.002, 0, "$A_x = A_y = 1$,      $f_x = 2$, $f_y = 2$", fontsize=12)
+plt.text(0.005, -0.002, "$v_x(0) = 0$,        $v_y(0) = \pi/40$", fontsize=12)
 
 print("Save figure.")
 plt.savefig('lissajous_electric_euler.png', bbox_inches='tight')
 
-print("Error: Trajectory should be ellipse")
+print("Warning: Initial velocity must be carefully considered.")
+
