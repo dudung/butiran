@@ -32,7 +32,7 @@ class Gravitational2:
     f = -G * (m1 * m2) / (d12 * d12) * u12
     return f
  
- """
+"""
  $ python force_gravitational2.py
 {
   "constant": "5",
@@ -61,4 +61,4 @@ class Gravitational2:
 }
 { "x": 6.0, "y": 8.0, "z": -0.0 }
 { "x": -6.0, "y": -8.0, "z": -0.0 }
- """
+"""
