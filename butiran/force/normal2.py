@@ -1,5 +1,5 @@
 # normal2.py
-# module for normal force between two point mass particles
+# module for normal force between two spherical particles
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230523
