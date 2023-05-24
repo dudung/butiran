@@ -5,6 +5,8 @@
 # 20230524
 #   1734 Start this module.
 #   1836 Finish formulating normal force.
+#   1907 Correct overlap.
+#   1911 Pass the test but not completely.
 
 from butiran.math.vect3 import Vect3
 from butiran.entity.grain import Grain
@@ -39,7 +41,7 @@ class Normal:
     l = 0.5 * grain.d
     k = self.constant
     d = (r - pc) | n
-    fr = k * max(0, d - l) * n
+    fr = k * max(0, l - d) * n
     
     v = grain.v
     g = self.damping
