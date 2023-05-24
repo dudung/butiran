@@ -6,6 +6,7 @@
 #   0249 Start this test.
 #   0302 Rename from triangles to triangle.
 #   0310 Finish test, $v_z$ become $-v_z$.
+#   0510 Note: Technically it is still an infinite plain surface.
 
 from butiran.math.vect3 import Vect3
 from butiran.entity.color2 import Color2
