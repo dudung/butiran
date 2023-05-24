@@ -4,6 +4,7 @@
 
 # 20230524
 #   1734 Start this module.
+#   1836 Finish formulating normal force.
 
 from butiran.math.vect3 import Vect3
 from butiran.entity.grain import Grain
@@ -24,22 +25,25 @@ class Normal:
   def force(self, grain, triangle):
     assert isinstance(grain, Grain)
     assert isinstance(triangle, Triangle)
-    r = grain.r
+    
+    # calculate normal vector of triangle mesh
     p0 = triangle.p0
     p1 = triangle.p1
     p2 = triangle.p2
+    q1 = p1 - p0
+    q2 = p2 - p0
+    n = (q1 * q2) >> 1
+    pc = (p0 + p1 + p2) / 3
+    
+    r = grain.r
     l = 0.5 * grain.d
     k = self.constant
-    """
-    d = Vect3.len(r1 - r2)
-    u = (r1 - r2) >> 1
-    fr = -k * min(0, d - l) * u
+    d = (r - pc) | n
+    fr = k * max(0, d - l) * n
     
-    v1 = grain1.v
-    v2 = grain2.v
+    v = grain.v
     g = self.damping
-    fv = -g * (v1 - v2)
+    fv = -g * (v - Vect3())
     
     f = fr + fv
     return f
-    """

@@ -2,6 +2,8 @@
 # grain module
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230524
+#   1843 Correct butiran.color2 --> butiran.entity.color2.
 # 20220917
 #   1613 Remove sys.path.insert(0, '../../butiran') line.
 # 20220916
@@ -13,7 +15,7 @@
 #   XXXX sys.path.insert(0, '../../butiran') line.
 
 from butiran.math.vect3 import Vect3
-from butiran.color2 import Color2
+from butiran.entity.color2 import Color2
 
 class Grain:
   def __init__(self, id="0000", m=0, d=0, q=0, b=0):
