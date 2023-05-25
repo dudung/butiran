@@ -2,6 +2,8 @@
 # unit test for a simple system
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230526
+#   0306 Change tend for better illustration.
 # 20230525
 #   2037 Start this test.
 #   2101 Pass the basic test, moving in xz plane.
@@ -70,8 +72,8 @@ grain.v = Vect3(1, 0, 0.4)
 
 # define iteration
 tbeg = 0
-tend = 20
-N = 20000
+tend = 4
+N = 4000
 dt = (tend - tbeg) / N
 
 # define lists

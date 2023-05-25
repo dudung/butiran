@@ -2,7 +2,9 @@
 # plot result from simulate.py for box_2d_grain_1 system
 # Sparisoma Viridi | https://github.com/dudung
 
-# 20230523
+# 20230526
+#   0306 Change end time to produce better illustration.
+# 20230525
 #   2140 Start this script.
 #   2244 Create table https://stackoverflow.com/a/53246690/9475509.
 #   2312 Finish layout of plot results in README.md file.
@@ -52,8 +54,8 @@ set ylabel "{/Times:Italic x}"
 plot $data2 u 3:1 t '' w l lw 1 lc rgb c1
 
 # reset axis tics and ranges
-set xtics 5
-set xrange [0:20]
+set xtics 1
+set xrange [0:4]
 set yrange [-1.1:1.1]
 set ytics 0.5
 
