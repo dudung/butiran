@@ -20,7 +20,7 @@ import numpy as np
 k = 1000; d = 0
 normal = Normal(constant=k, damping=d)
 
-# define triangle
+# define rectangle
 rectangle = Rectangle(
   m=10,
   p0=Vect3(0, 0, 0),
