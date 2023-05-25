@@ -6,6 +6,7 @@
 #   2140 Start this script.
 #   2244 Create table https://stackoverflow.com/a/53246690/9475509.
 #   2312 Finish layout of plot results in README.md file.
+#   2323 Correct xz graph.
 
 # svg, grid, xlabel
 set term svg size 300,300 font "Times, 16" enhanced
