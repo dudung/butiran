@@ -1,9 +1,10 @@
 # simulate.py
-# unit test for a simple system
+# unit test for sytem of spherical grain in a 2d box
 # Sparisoma Viridi | https://github.com/dudung
 
 # 20230526
 #   0306 Change tend for better illustration.
+#   0505 Advance the title.
 # 20230525
 #   2037 Start this test.
 #   2101 Pass the basic test, moving in xz plane.
