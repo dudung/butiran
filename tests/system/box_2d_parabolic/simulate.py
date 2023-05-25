@@ -4,6 +4,7 @@
 
 # 20230526
 #   0501 Start this system unit test, derived from box_2d_grain_1.
+#   0604 Realize that front and back sides are still missing.
 
 import sys
 sys.path.insert(0, "L:\\butiran")
@@ -20,7 +21,7 @@ import math
 import numpy as np
 
 # define gravitational force from earth
-g = Vect3(0, 0, -10)
+g = Vect3(-1, 0, 0)
 gravitational = Gravitational(field=g)
 
 # define normal force between grain and rectangle
@@ -67,12 +68,12 @@ sideL = Rectangle(
 m = 0.01; R = 0.01
 grain = Grain(id="0000", m=m, d=2*R)
 grain.r = Vect3(0.5, 0.5, 0.5)
-grain.v = Vect3(1, 0, 0.4)
+grain.v = Vect3(0, 0, 1)
 
 # define iteration
 tbeg = 0
-tend = 4
-N = 4000
+tend = 2
+N = 2000
 dt = (tend - tbeg) / N
 
 # define lists

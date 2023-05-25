@@ -54,9 +54,9 @@ set ylabel "{/Times:Italic x}"
 plot $data2 u 3:1 t '' w l lw 1 lc rgb c1
 
 # reset axis tics and ranges
-set xtics 1
-set xrange [0:4]
-set yrange [-1.1:1.1]
+set xtics 0.5
+set xrange [0:2]
+unset yrange
 set ytics 0.5
 
 # plot vx vs t from previous table
@@ -72,6 +72,8 @@ set ylabel "{/Times:Italic v_y}"
 plot $data2 u ($0*dt):5 t '' w l lw 1 lc rgb c1
 
 # plot vz vs t from previous table
+set yrange [-2:2]
+set ytics 1
 set output 'vzt.svg'
 set xlabel "{/Times:Italic t}" offset 0, 0.5
 set ylabel "{/Times:Italic v_z}"
