@@ -2,12 +2,14 @@
 # module for normal force between two spherical particles
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230525
+#   2049 Correct .grain to .entity.grain (entity folder).
 # 20230523
 #   0449 Start this module.
 #   0504 Pass instantiation test.
 
 from butiran.math.vect3 import Vect3
-from butiran.grain import Grain
+from butiran.entity.grain import Grain
 
 class Normal2:
   def __init__(self, constant=1, damping=0):
