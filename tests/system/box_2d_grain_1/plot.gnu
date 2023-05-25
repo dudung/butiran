@@ -48,7 +48,7 @@ plot $data2 u 2:3 t '' w l lw 1 lc rgb c1
 set output 'xz.svg'
 set xlabel "{/Times:Italic z}" offset 0, 0.5
 set ylabel "{/Times:Italic x}"
-plot $data2 u 1:3 t '' w l lw 1 lc rgb c1
+plot $data2 u 3:1 t '' w l lw 1 lc rgb c1
 
 # reset axis tics and ranges
 set xtics 5
