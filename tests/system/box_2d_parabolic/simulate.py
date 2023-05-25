@@ -20,7 +20,7 @@ import math
 import numpy as np
 
 # define gravitational force from earth
-g = Vect3(0, 0, 10)
+g = Vect3(0, 0, -10)
 gravitational = Gravitational(field=g)
 
 # define normal force between grain and rectangle

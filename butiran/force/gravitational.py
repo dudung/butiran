@@ -2,12 +2,14 @@
 # module for gravitational force on a point mass particle
 # Sparisoma Viridi | https://github.com/dudung
 
+# 20230526
+#   0509 Correct .grain to .entity.grain (change folder).
 # 20220919
 #   1731 Start this module.
 #   1743 Finish test it.
 
 from butiran.math.vect3 import Vect3
-from butiran.grain import Grain
+from butiran.entity.grain import Grain
 
 class Gravitational:
   def __init__(self, field=Vect3()):
