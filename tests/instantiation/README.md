@@ -1,0 +1,18 @@
+# instantiation (15)
+test code for class instantiation
+
++ [vect2](vect2.py)
++ [vect3](vect3.py)
++ [color2](color2.py)
++ [grain](grain.py)
++ [force_gravitational](force_gravitational.py)
++ [force_electric](force_electric.py)
++ [force_magnetic](force_magnetic.py)
++ [force_spring](force_spring.py)
++ [force_drag](force_drag.py)
++ [force_spring2](force_spring2.py)
++ [force_normal2](force_normal2.py)
++ [force_gravitational2](force_gravitational2.py)
++ [triangle](triangle.py)
++ [force_normal](force_normal.py)
++ [rectangle](rectangle.py)
