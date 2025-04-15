@@ -29,12 +29,15 @@ a {
   text-decoration: none;
 }
 
-nav ul {
-  display: inline-block;
+nav {
+  text-align: right;
 }
 
-nav ul li {
+nav > ul > li {
+  display: inline;
+  padding-left: 0.5em;
 }
+
 
 .homepage-posts-box {
   display: inline-block;
@@ -101,3 +104,21 @@ nav ul li {
   #color: #888; /* Subtle color */
   padding: 0 5px; /* Optional padding */
 }
+
+
+.footnotes {
+  border-top: 0px solid #222;
+  > hr {
+     display: none;
+   }
+  > ol > li:not(:first-child):not(:last-child) {
+    margin: -1em 0;
+  }
+}
+
+a[href^="#fn:"],
+a[href^="#fnref:"] {
+  font-family: monospace;
+}
+a[href^="#fn:"]:before{ content: '[' }
+a[href^="#fn:"]:after{ content: ']' }

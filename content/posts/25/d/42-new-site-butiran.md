@@ -451,3 +451,7 @@ public
 + Delete information related to `.gitignore` content.
 + Rename `butiran` to `default` for themes.
 + Fix problem by rendering while change CSS and template.
+  - Solved by changing `layouts/index.html` to `layouts/_default/home.html` as informed [^gpt-4o_2025].
+
+## refs
+[^gpt-4o_2025]: GPT-4o, "Hugo landing page setup", ChatGPT, 15 Apr 2025, url https://chatgpt.com/share/67fe7385-ce80-800a-bddc-ee803cae61cc [20250415].
