@@ -9,6 +9,7 @@ categories = ['butiran']
 url = '25d42'
 +++
 
+<!--more-->
 
 ## create new repository
 Visit https://github.com/new using any browsers.
@@ -17,7 +18,7 @@ Visit https://github.com/new using any browsers.
 ## clone repository
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m
 $ git clone https://github.com/dudung/butiran butiran
 Cloning into 'butiran'...
@@ -32,7 +33,7 @@ Resolving deltas: 100% (1/1), done.
 ## download hugo installer
 Visit https://github.com/gohugoio/hugo/releases/tag/v0.146.4 using any browsers.
 
-```
+```txt
 hugo_extended_0.146.4_windows-amd64.zip
 18.5 MB
 20 hours ago
@@ -43,7 +44,7 @@ https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_extended_0.146.
 ## install hugo
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo version
 hugo v0.146.4-985af1c097fd6a7830ba1ab307dc0d959663e344+extended windows/amd64 BuildDate=2025-04-14T13:10:30Z VendorInfo=gohugoio
@@ -52,7 +53,7 @@ hugo v0.146.4-985af1c097fd6a7830ba1ab307dc0d959663e344+extended windows/amd64 Bu
 ## create new site
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m
 $ hugo new site butiran
 Error: M:\butiran already exists and is not empty. See --force.
@@ -77,7 +78,7 @@ See documentation at https://gohugo.io/.
 ## create new theme
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo new theme butiran
 Creating new theme in M:\butiran\themes\butiran
@@ -86,7 +87,7 @@ Creating new theme in M:\butiran\themes\butiran
 ## remove default content
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ rm -r themes/butiran/content/*
 ```
@@ -94,15 +95,42 @@ $ rm -r themes/butiran/content/*
 ## edit hugo.toml
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ nano hugo.toml
 ```
 
+Then, edit it to have following content.
+
+```toml
+baseURL = 'https://dudung.github.io/butiran'
+languageCode = 'en-us'
+title = 'butiran'
+theme = 'butiran'
+
+ignoreLogs = ['warning-goldmark-raw-html']
+enableEmoji = true
+
+[pagination]
+pagerSize = 36
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = 'Home'
+  weight = 0
+  identifier = 'home'
+  url = '/'
+```
+
+
 ## view hugo.toml
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ cat hugo.toml
 baseURL = 'https://dudung.github.io/butiran'
@@ -131,7 +159,7 @@ pagerSize = 36
 ## create new post
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo new content/posts/25/d/42-new-site-butiran.md
 Content "M:\\butiran\\content\\posts\\25\\d\\42-new-site-butiran.md" created
@@ -140,7 +168,7 @@ Content "M:\\butiran\\content\\posts\\25\\d\\42-new-site-butiran.md" created
 ## launch site
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo server -D
 Watching for changes in M:\butiran\{archetypes,assets,content,data,i18n,layouts,static,themes}
@@ -170,7 +198,7 @@ Press Ctrl+C to stop
 ## test site
 Open http://localhost:1313/butiran/ in a browser or in a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ curl http://localhost:1313/butiran/
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -224,7 +252,7 @@ $ curl http://localhost:1313/butiran/
 ## check changes
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ git status
 On branch main
@@ -246,7 +274,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ## stage changes
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ git add .
 warning: in the working copy of 'archetypes/default.md', LF will be replaced by CRLF the next time Git touches it
@@ -303,7 +331,7 @@ warning: in the working copy of 'themes/butiran/layouts/term.html', LF will be r
 ## commit changes
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ git commit -a -m "new site, theme, post"
 [main bb6c96f] new site, theme, post
@@ -367,7 +395,7 @@ $ git commit -a -m "new site, theme, post"
 ## push changes
 In a CLI perform following.
 
-```
+```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ git push
 Enumerating objects: 90, done.
