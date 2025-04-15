@@ -445,3 +445,9 @@ public
 # Hugo
 .hugo_build.lock
 ```
+
+## to-do
++ Change order of creating `.gitignore` file.
++ Delete information related to `.gitignore` content.
++ Rename `butiran` to `default` for themes.
++ Fix problem by rendering while change CSS and template.
