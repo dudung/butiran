@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+  <main aria-role="main">
+    <header class="homepage-header">
+      {{ with .Params.subtitle }}
+        <span class="subtitle">{{ . }}</span>
+      {{ end }}
+    </header>
+    <div class="homepage-content">
+      {{ .Content }}
+    </div>
+    
+    {{ $key := "type" }}
+    {{ $value := "talks" }}
+    {{ $paramskey := (printf "Params.%s" $key) }}
+    
+    <!--
+    url https://chatgpt.com/share/676fcffa-931c-800a-8ae9-3363762a8316 [20241228].
+    -->
+    <div class="posts-box-container">
+      {{ $filteredPages := .Site.RegularPages }}
+      {{ if in (slice "type" "title" "date") $key }}
+        {{ $filteredPages = where .Site.RegularPages $paramskey "in" (slice $value) }}
+      {{ else }}
+        {{ $filteredPages = where .Site.RegularPages (printf "Params.%s" $key) "intersect" (slice $value) }}
+      {{ end }}
+      
+      {{ $filteredPages := .Site.RegularPages }}
+      {{ $paginator := .Paginate $filteredPages }}
+      {{ range $paginator.Pages }}
+      
+        <div class="homepage-posts-box">
+          <code>
+            {{ dateFormat "02-Jan-2006" .Date }}
+          </code><br>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </div>
+      
+      {{ end }}
+    </div>
+
+    <!--
+    url https://chatgpt.com/share/674c42d8-7298-800a-9d2f-57af4c77c925 [20241201]
+    -->
+    <div class="pagination-container">
+      <div class="pagination">
+        <!-- "Previous" button -->
+        {{ if $paginator.HasPrev }}
+          <a href="{{ $paginator.Prev.URL }}" class="prev">&lt;</a>
+        {{ end }}
+        
+        <!-- Numeric pagination -->
+        {{ range $paginator.Pagers }}
+          {{ if eq . $paginator }}
+            <span class="current">{{ .PageNumber }}</span> <!-- Current page -->
+          {{ else }}
+            <a href="{{ .URL }}" class="page">{{ .PageNumber }}</a>
+          {{ end }}
+        {{ end }}
+             
+        <!-- "Next" button -->
+        {{ if $paginator.HasNext }}
+          <a href="{{ $paginator.Next.URL }}" class="next">&gt;</a>
+        {{ end }}
+      </div>
+    </div>
+
+  </main>
+{{ end }}

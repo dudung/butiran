@@ -1,0 +1,2 @@
+raw, unstructured, spontaneous notes.
+
