@@ -368,4 +368,20 @@ $ git commit -a -m "new site, theme, post"
 In a CLI perform following.
 
 ```
+Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ git push
+Enumerating objects: 90, done.
+Counting objects: 100% (90/90), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (73/73), done.
+Writing objects: 100% (89/89), 39.66 KiB | 1.28 MiB/s, done.
+Total 89 (delta 19), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (19/19), done.
+To https://github.com/dudung/butiran
+   6f26540..5b442ce  main -> main
 ```
+
+## view repository
+Visit https://github.com/dudung/butiran to view the changes on the repository.
+
+For example a point in the history is available on https://github.com/dudung/butiran/tree/bb6c96f85fd616849f56f615d180cd92a343d4ab.
