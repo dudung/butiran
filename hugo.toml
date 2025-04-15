@@ -1,0 +1,21 @@
+baseURL = 'https://dudung.github.io/butiran'
+languageCode = 'en-us'
+title = 'butiran'
+theme = 'butiran'
+
+ignoreLogs = ['warning-goldmark-raw-html']
+enableEmoji = true
+
+[pagination]
+pagerSize = 36
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = 'Home'
+  weight = 0
+  identifier = 'home'
+  url = '/'

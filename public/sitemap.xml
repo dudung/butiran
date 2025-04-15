@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/butiran/authors/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/categories/butiran/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/categories/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/25d42/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/tags/notes/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/posts/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/tags/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/butiran/authors/viridi/</loc>
+    <lastmod>2025-04-15T17:18:35+07:00</lastmod>
+  </url>
+</urlset>

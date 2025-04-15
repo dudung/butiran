@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>new site butiran | butiran</title>
+
+    <link rel="stylesheet" href="/butiran/css/main.css">
+
+
+      <script src="/butiran/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>butiran</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/butiran/">Home</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>new site butiran</h1>
+
+  
+  
+  <time datetime="2025-04-15T17:18:35&#43;07:00">April 15, 2025</time>
+
+  <h2 id="create-new-repository">create new repository</h2>
+<p>Visit <a href="https://github.com/new">https://github.com/new</a> using any browsers.</p>
+<h2 id="clone-repository">clone repository</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m
+$ git clone https://github.com/dudung/butiran butiran
+Cloning into &#39;butiran&#39;...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), done.
+Resolving deltas: 100% (1/1), done.
+</code></pre><h2 id="download-hugo-installer">download hugo installer</h2>
+<p>Visit <a href="https://github.com/gohugoio/hugo/releases/tag/v0.146.4">https://github.com/gohugoio/hugo/releases/tag/v0.146.4</a> using any browsers.</p>
+<pre tabindex="0"><code>hugo_extended_0.146.4_windows-amd64.zip
+18.5 MB
+20 hours ago
+
+https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_extended_0.146.4_windows-amd64.zip
+</code></pre><h2 id="install-hugo">install hugo</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ hugo version
+hugo v0.146.4-985af1c097fd6a7830ba1ab307dc0d959663e344+extended windows/amd64 BuildDate=2025-04-14T13:10:30Z VendorInfo=gohugoio
+</code></pre><h2 id="create-new-site">create new site</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m
+$ hugo new site butiran
+Error: M:\butiran already exists and is not empty. See --force.
+
+Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m
+$ hugo new site butiran --force
+Congratulations! Your new Hugo site was created in M:\butiran.
+
+Just a few more steps...
+
+1. Change the current directory to M:\butiran.
+2. Create or install a theme:
+   - Create a new theme with the command &#34;hugo new theme &lt;THEMENAME&gt;&#34;
+   - Or, install a theme from https://themes.gohugo.io/
+3. Edit hugo.toml, setting the &#34;theme&#34; property to the theme name.
+4. Create new content with the command &#34;hugo new content &lt;SECTIONNAME&gt;\&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;.
+5. Start the embedded web server with the command &#34;hugo server --buildDrafts&#34;.
+
+See documentation at https://gohugo.io/.
+</code></pre><h2 id="create-new-theme">create new theme</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ hugo new theme butiran
+Creating new theme in M:\butiran\themes\butiran
+</code></pre><h2 id="remove-default-content">remove default content</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ rm -r themes/butiran/content/*
+</code></pre><h2 id="edit-hugotoml">edit hugo.toml</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ nano hugo.toml
+</code></pre><h2 id="view-hugotoml">view hugo.toml</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ cat hugo.toml
+baseURL = &#39;https://dudung.github.io/butiran&#39;
+languageCode = &#39;en-us&#39;
+title = &#39;butiran&#39;
+theme = &#39;butiran&#39;
+
+ignoreLogs = [&#39;warning-goldmark-raw-html&#39;]
+enableEmoji = true
+
+[pagination]
+pagerSize = 36
+
+[taxonomies]
+  author = &#34;authors&#34;
+  tag = &#34;tags&#34;
+  category = &#34;categories&#34;
+
+[[menu.main]]
+  name = &#39;Home&#39;
+  weight = 0
+  identifier = &#39;home&#39;
+  url = &#39;/&#39;
+</code></pre><h2 id="create-new-post">create new post</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ hugo new content/posts/25/d/42-new-site-butiran.md
+Content &#34;M:\\butiran\\content\\posts\\25\\d\\42-new-site-butiran.md&#34; created
+</code></pre><h2 id="launch-site">launch site</h2>
+<p>In a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ hugo server -D
+Watching for changes in M:\butiran\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in M:\butiran\hugo.toml, M:\butiran\themes\butiran\hugo.toml
+Start building sites …
+hugo v0.146.4-985af1c097fd6a7830ba1ab307dc0d959663e344+extended windows/amd64 BuildDate=2025-04-14T13:10:30Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  9
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  1
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 18 ms
+Environment: &#34;development&#34;
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/butiran/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><h2 id="test-site">test site</h2>
+<p>Open http://localhost:1313/butiran/ in a browser or in a CLI perform following.</p>
+<pre tabindex="0"><code>Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
+$ curl http://localhost:1313/butiran/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   782  100   782    0     0   3763      0 --:--:-- --:--:-- --:--:--  3777&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en-us&#34; dir=&#34;ltr&#34;&gt;
+&lt;head&gt;
+        &lt;meta name=&#34;generator&#34; content=&#34;Hugo 0.146.4&#34;&gt;&lt;script src=&#34;/butiran/livereload.js?mindelay=10&amp;amp;v=2&amp;amp;port=1313&amp;amp;path=butiran/livereload&#34; data-no-instant defer&gt;&lt;/script&gt;
+  &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;&gt;
+&lt;title&gt;butiran&lt;/title&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;/butiran/css/main.css&#34;&gt;
+
+
+      &lt;script src=&#34;/butiran/js/main.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;butiran&lt;/h1&gt;
+
+  &lt;nav&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href=&#34;/butiran/&#34;&gt;Home&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+
+
+  &lt;/header&gt;
+  &lt;main&gt;
+
+
+
+    &lt;h2&gt;&lt;a href=&#34;/butiran/25d42/&#34;&gt;new site butiran&lt;/a&gt;&lt;/h2&gt;
+
+
+
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;Copyright 2025. All rights reserved.&lt;/p&gt;
+
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h2 id="commit-changes">commit changes</h2>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/butiran/tags/notes/">Notes</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
