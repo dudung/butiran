@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a
+
+	{{ if or (strings.HasPrefix .Destination `http`) (strings.HasPrefix .Destination `#`) (strings.HasPrefix .Destination `/`) }}
+	
+		href = "{{ .Destination | safeURL }}"
+
+		{{ else if strings.HasPrefix .Destination `mailto` }}
+
+			href = "mailto:{{ .Text }}"
+
+	{{ end }}
+
+	{{ with .Title}}
+		
+		title = "{{ . }}"
+	
+	{{ end }}
+
+	{{ if strings.HasPrefix .Destination "http" }}
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		{{ else if strings.HasPrefix .Destination "mailto" }}
+
+			onClick = "javascript:window.open('mailto:{{ .Text }}', 'mail'); event.preventDefault()"
+
+	{{ end }}>
+	
+	{{ if strings.HasPrefix .Destination "/" }}
+	<span>
+		{{ .Text | safeHTML }}
+	</span>  
+  {{ else }}
+	<span>
+		{{ .Text | safeHTML }} <i class="fa fa-external-link" style="font-size:14px"></i>
+	</span>
+  {{ end }}
+</a>

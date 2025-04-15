@@ -1,0 +1,56 @@
+/* note.css */
+
+html {
+  scrollbar-color: #4f81bd #f1f1f1;
+}
+
+body {
+  margin: 2em;
+  padding: 0;
+  font-family: Calibri;
+}
+
+.note-container {
+}
+
+.note-title {
+}
+
+.note-content {
+}
+
+.note-content h2 {
+}
+
+.info-after-title {
+  display: flex;
+}
+
+.date-reading-time {
+  flex: 2;
+  text-align: right;
+}
+
+.authors-container {
+  flex: 5;
+  padding-left: 0;
+  margin: 0;
+}
+
+.author {
+  display: inline-block;
+}
+
+.author::after {
+  content: ",";
+}
+
+.author:last-child::after {
+  content: "";
+}
+
+.note-content pre {
+  padding: 1.5em 2em;
+  word-wrap: break-word;
+  overflow-x: scroll;
+}
