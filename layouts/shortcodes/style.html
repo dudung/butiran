@@ -1,0 +1,8 @@
+{{ $class := .Get "class" }}
+{{ $css := printf "%s.css" $class }}
+
+<link rel="stylesheet" href="/butiran/css/{{ $css }}?v={{ now.Unix }}">
+
+<div class="{{ $class }}">
+{{ .Inner | markdownify }}
+</div>

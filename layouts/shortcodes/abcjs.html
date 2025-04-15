@@ -1,0 +1,13 @@
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+<div class="abcd-js-container">
+<div id="{{ $id }}"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/abcjs/6.2.3/abcjs-basic-min.js"></script>
+
+<script>
+var text = {{ ( .Inner | chomp) }};
+ABCJS.renderAbc({{ $id }}, text, { responsive: "resize" });
+</script>

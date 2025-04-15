@@ -1,0 +1,9 @@
+{{ $id := .Get "id" | default "script-container" }}
+
+<div id="{{ $id }}"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    {{ .Inner | safeJS }}
+  });
+</script>

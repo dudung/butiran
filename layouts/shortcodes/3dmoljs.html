@@ -1,0 +1,35 @@
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+{{ $fov := .Get "fov" | default "17" }}
+{{ $tx := .Get "tx" | default "0" }}
+{{ $ty := .Get "ty" | default "0" }}
+{{ $ang := .Get "ang" | default "45" }}
+{{ $ax := .Get "ax" | default "z" }}
+
+<div id="{{ $id }}" class="mol-container"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
+
+<script>
+var text = {{ ( .Inner | chomp) }};
+var lines = text.split('\n');
+lines.shift();
+data = lines.join('\n');
+
+var element = document.getElementById("{{ $id }}");
+var config = { backgroundColor: 'white' };
+var viewer = $3Dmol.createViewer( element, config );
+viewer.addModelsAsFrames(data, "xyz");
+viewer.animate({loop: "forward",reps: 1});
+// cross, line, stick, sphere
+viewer.setStyle(
+{
+  sphere: {colorscheme:'grayCarbon', radius:0.5},
+  stick: {colorscheme:'grayCarbon'}
+});
+viewer.zoomTo();
+viewer.setCameraParameters({ fov:{{ $fov }} , z: 300 });
+viewer.translate({{ $tx }}, {{ $ty }});
+viewer.rotate({{ $ang }}, {{ $ax }});
+viewer.render();
+</script>
