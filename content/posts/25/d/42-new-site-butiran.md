@@ -84,8 +84,8 @@ In a CLI perform following.
 
 ```bash
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
-$ hugo new theme butiran
-Creating new theme in M:\butiran\themes\butiran
+$ hugo new theme default
+Creating new theme in M:\butiran\themes\default
 ```
 
 

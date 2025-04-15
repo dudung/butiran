@@ -1,7 +1,7 @@
 baseURL = 'https://dudung.github.io/butiran'
 languageCode = 'en-us'
 title = 'butiran'
-theme = 'butiran'
+theme = 'default'
 
 ignoreLogs = ['warning-goldmark-raw-html']
 enableEmoji = true
