@@ -3,7 +3,7 @@ title = 'new site butiran'
 date = '2025-04-15T17:18:35+07:00'
 draft = true
 type = 'notes'
-authors = ['viridi']
+authors = ['viridi', 'arimasen', 'renik', 'dasch']
 tags = ['notes']
 categories = ['butiran']
 url = '25d42'
@@ -429,17 +429,19 @@ For example a point in the history is available on https://github.com/dudung/but
 
 
 ## other actions
-+ Copy authors
-  - from notes: https://github.com/dudung/notes/tree/main/content/authors
-  - to butiran: https://github.com/dudung/butiran/tree/main/content/authors
-+ Add `.gitignore`
-  ```txt
-  # Shortcuts
-  cmd.lnk
-  
-  # Folders
-  public
-  
-  # Hugo
-  .hugo_build.lock
-  ```
+Copy authors
++ from notes: https://github.com/dudung/notes/tree/main/content/authors
++ to butiran: https://github.com/dudung/butiran/tree/main/content/authors
+
+Add `.gitignore` with following content.
+
+```txt
+# Shortcuts
+cmd.lnk
+
+# Folders
+public
+
+# Hugo
+.hugo_build.lock
+```
