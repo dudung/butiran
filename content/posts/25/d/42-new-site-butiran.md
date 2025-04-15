@@ -30,6 +30,7 @@ Receiving objects: 100% (7/7), done.
 Resolving deltas: 100% (1/1), done.
 ```
 
+
 ## download hugo installer
 Visit https://github.com/gohugoio/hugo/releases/tag/v0.146.4 using any browsers.
 
@@ -41,6 +42,7 @@ hugo_extended_0.146.4_windows-amd64.zip
 https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_extended_0.146.4_windows-amd64.zip
 ```
 
+
 ## install hugo
 In a CLI perform following.
 
@@ -49,6 +51,7 @@ Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo version
 hugo v0.146.4-985af1c097fd6a7830ba1ab307dc0d959663e344+extended windows/amd64 BuildDate=2025-04-14T13:10:30Z VendorInfo=gohugoio
 ```
+
 
 ## create new site
 In a CLI perform following.
@@ -75,6 +78,7 @@ Just a few more steps...
 See documentation at https://gohugo.io/.
 ```
 
+
 ## create new theme
 In a CLI perform following.
 
@@ -84,6 +88,7 @@ $ hugo new theme butiran
 Creating new theme in M:\butiran\themes\butiran
 ```
 
+
 ## remove default content
 In a CLI perform following.
 
@@ -91,6 +96,7 @@ In a CLI perform following.
 Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ rm -r themes/butiran/content/*
 ```
+
 
 ## edit hugo.toml
 In a CLI perform following.
@@ -156,6 +162,7 @@ pagerSize = 36
   url = '/'
 ```
 
+
 ## create new post
 In a CLI perform following.
 
@@ -164,6 +171,7 @@ Sparisoma Viridi@LAPTOP-FOL5T5OD MINGW64 /m/butiran (main)
 $ hugo new content/posts/25/d/42-new-site-butiran.md
 Content "M:\\butiran\\content\\posts\\25\\d\\42-new-site-butiran.md" created
 ```
+
 
 ## launch site
 In a CLI perform following.
@@ -194,6 +202,7 @@ Running in Fast Render Mode. For full rebuilds on change: hugo server --disableF
 Web Server is available at http://localhost:1313/butiran/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
+
 
 ## test site
 Open http://localhost:1313/butiran/ in a browser or in a CLI perform following.
@@ -248,6 +257,7 @@ $ curl http://localhost:1313/butiran/
 </body>
 </html>
 ```
+
 
 ## check changes
 In a CLI perform following.
@@ -328,6 +338,7 @@ warning: in the working copy of 'themes/butiran/layouts/taxonomy.html', LF will 
 warning: in the working copy of 'themes/butiran/layouts/term.html', LF will be replaced by CRLF the next time Git touches it
 ```
 
+
 ## commit changes
 In a CLI perform following.
 
@@ -392,6 +403,7 @@ $ git commit -a -m "new site, theme, post"
  create mode 100644 themes/butiran/static/favicon.ico
 ```
 
+
 ## push changes
 In a CLI perform following.
 
@@ -409,7 +421,25 @@ To https://github.com/dudung/butiran
    6f26540..5b442ce  main -> main
 ```
 
+
 ## view repository
 Visit https://github.com/dudung/butiran to view the changes on the repository.
 
 For example a point in the history is available on https://github.com/dudung/butiran/tree/bb6c96f85fd616849f56f615d180cd92a343d4ab.
+
+
+## other actions
++ Copy authors
+  - from notes: https://github.com/dudung/notes/tree/main/content/authors
+  - to butiran: https://github.com/dudung/butiran/tree/main/content/authors
++ Add `.gitignore`
+  ```txt
+  # Shortcuts
+  cmd.lnk
+  
+  # Folders
+  public
+  
+  # Hugo
+  .hugo_build.lock
+  ```
