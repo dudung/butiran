@@ -4,9 +4,9 @@ date = '2025-04-16T06:37:30+07:00'
 authors = ['viridi']
 draft = true
 type = 'notes'
-tags = []
-categories = []
-url = '44'
+tags = ['hugo', 'post-template']
+categories = ['butiran']
+url = '25d44'
 +++
 
 <!-- more -->
@@ -69,3 +69,8 @@ url = '44'
 ## notes
 + It reduces the steps in editing the post, which is known as note here.
 + Remaining steps are add folder info to url, change draft to false, and add tags and categories.
++ This note is built with a help, but with many corrections, from AI [^gpt-4o_2025].
+
+
+## refs
+[^gpt-4o_2025]: GPT-4o, "Change default post template", ChatGPT, 16 Apr 2025, url https://chatgpt.com/share/67fef18e-0364-800a-bc6a-06d9c3a66f4b [20250416].
