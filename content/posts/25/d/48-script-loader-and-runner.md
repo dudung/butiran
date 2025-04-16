@@ -2,7 +2,7 @@
 title = 'script loader and runner'
 date = '2025-04-16T16:26:38+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['hugo', 'shortcode', 'js']
 categories = ['butiran']

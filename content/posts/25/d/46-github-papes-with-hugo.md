@@ -2,7 +2,7 @@
 title = 'github papes with hugo'
 date = '2025-04-16T08:48:17+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['github-pages', 'hugo']
 categories = ['medium']
