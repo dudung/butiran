@@ -1,11 +1,11 @@
 +++
-title = 'check katex mermaid abc 3dmol scatter'
+title = 'check katex mermaid abc 3dmol scatter features'
 date = '2025-04-16T09:16:06+07:00'
 authors = ['viridi']
 draft = true
 math = true
 type = 'notes'
-tags = ['katex', 'mermaid']
+tags = ['katex', 'mermaid', '3dmoljs', 'abcjs', 'scatter']
 categories = ['butiran']
 url = '25d47'
 +++
