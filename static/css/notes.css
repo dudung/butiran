@@ -10,6 +10,8 @@
 }
 
 .note-content h2 {
+  border: 0px #4f81bd solid;
+  margin-bottom: -0.5em;
 }
 
 .info-after-title {

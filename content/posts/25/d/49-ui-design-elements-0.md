@@ -23,15 +23,15 @@ Form multiline input a textarea will be used, since it is a plain text format th
 {{< script/runner id="script-0" >}}
 const cnt = document.getElementById("script-0");
 with(cnt.style) {
-  width = "200px";
-  height = "300px";
+  width = "300px";
+  height = "200px";
   background = "#eee";
 }
 
 const div = document.createElement("div");
 with(div.style) {
   width = "150px";
-  height = "200px";
+  height = "150px";
   border = "1px #4f81bd solid";
 }
 cnt.appendChild(div);
@@ -45,3 +45,38 @@ with(txa.style) {
 }
 div.appendChild(txa);
 {{< /script/runner >}}
+
+Above result is obtained with following lines
+
+```js
+const cnt = document.getElementById("script-0");
+with(cnt.style) {
+  width = "300px";
+  height = "200px";
+  background = "#eee";
+}
+
+const div = document.createElement("div");
+with(div.style) {
+  width = "150px";
+  height = "150px";
+  border = "1px #4f81bd solid";
+}
+cnt.appendChild(div);
+
+const txa = document.createElement("textarea");
+with(txa.style) {
+  boxSizing = "border-box";
+  width = "100%";
+  height = "100%";
+  overflowY = "scroll";
+}
+div.appendChild(txa);
+```
+
+in the runner shortocde.
+
+
+## control button
+Buttons are use to trigger processes, e.g. load data, transform data, start and stop simulations, draw graphics.
+
