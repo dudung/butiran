@@ -6,7 +6,7 @@ draft = true
 type = 'notes'
 tags = ['hugo', 'shortcode', 'js']
 categories = ['butiran']
-url = '48'
+url = '25d48'
 +++
 
 <!-- more -->
@@ -104,3 +104,4 @@ Notice that the runner can access the `hello()` function, which is previously lo
 
 
 ## notes
++ In the future, development of JS code in a note will use these shortcodes.
