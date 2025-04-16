@@ -44,3 +44,10 @@
   word-wrap: break-word;
   overflow-x: scroll;
 }
+
+.mol-container {
+  margin: auto;
+  position: relative;
+  height: 300px;
+  width: 300px;
+}

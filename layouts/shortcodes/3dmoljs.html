@@ -11,7 +11,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
 
 <script>
-var text = {{ ( .Inner | chomp) }};
+var text = {{ ( .Inner | chomp ) }};
 var lines = text.split('\n');
 lines.shift();
 data = lines.join('\n');

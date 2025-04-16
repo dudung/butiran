@@ -89,3 +89,16 @@ H    3.7105   -0.3659    0.6426
 H   -0.2555   -3.5916   -0.7337
 {{< /3dmoljs >}}
 
+
+## notes
++ All are working but not really smooth.
++ For 3dmoljs there is warning as follow.
+
+```go
+[GroupMarkerNotSet(crbug.com/242999)!:
+A0A02C008C540000]Automatic fallback to 
+software WebGL has been deprecated. 
+Please use the --enable-unsafe-swiftshader 
+flag to opt in to lower security guarantees 
+for trusted content.
+```
