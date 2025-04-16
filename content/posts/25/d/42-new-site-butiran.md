@@ -1,7 +1,7 @@
 +++
 title = 'new site butiran'
 date = '2025-04-15T17:18:35+07:00'
-draft = true
+draft = false
 type = 'notes'
 authors = ['viridi', 'arimasen', 'renik', 'dasch']
 tags = ['notes']
