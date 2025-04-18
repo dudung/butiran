@@ -178,9 +178,11 @@ with the help of `ControlBox` class.
 ## notes
 + It is now 0631 and very tired. A sleep is required. Continue at about 0943, butReadll dizzy and exhausted. Pause at 1122. View again at 1636. Pause while preparing for iftar. Pause for isya at about 1903.
 + Some parts of `ControlBox` class are initially as advised by an AI assistant [^gpt-4o_2025], but then modified as needed.
++ Story version of this note is available on Medium [^viridi_2025c].
 
 
 ## refs
 [^gpt-4o_2025]: GPT-4o, "ControlBox Usage Tips", ChatGPT, 18 Apr 2025, url https://chatgpt.com/share/68023ecb-a200-800a-b245-ff5241474357 [20250418].
 [^viridi_2025a]: Sparisoma Viridi, "ui design elements 0", butiran 25d49, 16 Apr 2025, url https://dudung.github.io/butiran/25d49/ [20250418].
 [^viridi_2025b]: Sparisoma Viridi, "script loader and runner", butiran 25d48, 16 Apr 2025, url https://dudung.github.io/butiran/25d48/ [20250418].
+[^viridi_2025c]: Sparisoma Viridi, "Group buttons in a div", Medium 18 Apr 2025, url https://medium.com/p/0570fcef51cc [20250418].
