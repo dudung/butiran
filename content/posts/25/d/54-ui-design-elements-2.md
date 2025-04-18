@@ -12,7 +12,7 @@ url = '25d54'
 <!-- more -->
 
 ## aim
-+ To design input elements in the form of textarea(s) and label(s).
++ To design input elements in the form of a label and a textarea.
 
 
 ## intro
@@ -24,23 +24,55 @@ Current result is as follow.
 
 {{< script/runner id="script-1" >}}
 class InputBox {
-  constructor() {
-    this.width = "300px";
+  constructor(label) {
+    this.label = label;
+    this.width = "200px";
     this.height = "150px";
-    this.border = "1px #4f81bd solid";
+    this.border = "0px #4f81bd solid";
+    
     this.div = document.createElement("div");
     this.div.style.width = this.width;
     this.div.style.height = this.height;
     this.div.style.border = this.border;
-    //this.div.style.overflowY = "scroll";
     this.div.style.background = "#ddd";
     this.div.style.display = "flex";
     this.div.style.flexDirection = "column";
-    this.buttonIds = [];
+    
+    const lab = document.createElement("label");
+    lab.innerHTML = this.label;
+    lab.style.boxSizing = "border-box";
+    lab.style.width = "100%";
+    lab.style.paddingLeft = "0.5em";
+    lab.style.background = "#eee";
+    lab.style.borderLeft = "1px #888 solid";
+    lab.style.borderTop = "1px #888 solid";
+    lab.style.borderRight = "1px #888 solid";
+
+    const txa = document.createElement("textarea");
+    txa.style.overflowY = "scroll";
+    txa.style.boxSizing = "border-box";
+    txa.style.width = "100%";
+    txa.style.flex = "1";
+    txa.style.padding = "0.5em";
+    
+    this.div.append(lab);
+    this.div.append(txa);
   }
   
-  addInput() {
+  clearContent() {
+    const txa = this.div.getElementsByTagName("textarea");
+    txa[0].value = "";
   }
+  
+  addLine(line) {
+    const txa = this.div.getElementsByTagName("textarea");
+    if(txa[0].value == "") {
+      txa[0].value += line;
+    } else {
+      txa[0].value += "\n" + line;
+    }
+  }
+  
 }
 
 const cnt = document.getElementById("script-1");
@@ -48,9 +80,11 @@ cnt.style.width = "360px";
 cnt.style.height = "200px";
 cnt.style.background = "#eee";
 
-const ibx = new InputBox();
-ibx.addInput("Params");
-ibx.addInput("Config");
+const ibx = new InputBox("Params");
+ibx.addLine("NTYPE 2");
+ibx.addLine("NPART 100 100");
+ibx.addLine("IFORM rectangular");
+ibx.addLine("IDIST random");
 
 cnt.append(ibx.div);
 {{< /script/runner >}}
