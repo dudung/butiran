@@ -23,29 +23,43 @@ Previous note [^viridi_2025] will be used as start point of this note.
 This first experiment with the UI elements.
 
 {{< script/runner id="script-1" >}}
+class ControlBox {
+  constructor() {
+    this.width = "60px";
+    this.height = "150px";
+    this.div = document.createElement("div");
+    this.div.style.width = this.width;
+    this.div.style.height = this.height;
+    this.div.style.background = "#ddd";
+    this.div.style.display = "flex";
+    this.div.style.flexDirection = "column";
+    this.buttonIds = [];
+  }
+  
+  addButton(id) {
+    const btn = document.createElement("button");
+    btn.id = id;
+    btn.innerHTML = id;
+    btn.style.boxSizing = "border-box";
+    btn.style.width = "100%";
+    this.div.append(btn);
+    this.buttonIds.push(id);
+  }
+}
+
 const cnt = document.getElementById("script-1");
-with(cnt.style) {
-  width = "360px";
-  height = "200px";
-  background = "#eee";
-}
+cnt.style.width = "360px";
+cnt.style.height = "200px";
+cnt.style.background = "#eee";
 
-const div = document.createElement("div");
-with(div.style) {
-  width = "50px";
-  height = "150px";
-  border = "1px #4f81bd solid";
-}
-cnt.appendChild(div);
+const cbx = new ControlBox();
+cbx.addButton("Info");
+cbx.addButton("Load");
+cbx.addButton("Read");
+cbx.addButton("Start");
+cbx.addButton("Graph");
 
-const bt1 = document.createElement("button");
-with(bt1.style) {
-  boxSizing = "border-box";
-  width = "100%";
-  height = "20%"
-}
-bt1.innerHTML = "Info"
-div.appendChild(bt1);
+cnt.append(cbx.div);
 
 {{< /script/runner >}}
 
