@@ -59,6 +59,16 @@ class InputBox {
     this.div.append(txa);
   }
   
+  setWidth(width) {
+    this.width = width;
+    this.div.style.width = this.width;
+  }
+  
+  setHeight(height) {
+    this.height = height;
+    this.div.style.height = this.height;
+  }
+  
   clearContent() {
     const txa = this.div.getElementsByTagName("textarea");
     txa[0].value = "";
@@ -73,6 +83,12 @@ class InputBox {
     }
   }
   
+  getLines() {
+    const txa = this.div.getElementsByTagName("textarea");
+    const lines = txa[0].value.split('\n');
+    return lines
+  }
+  
 }
 
 const cnt = document.getElementById("script-1");
@@ -85,6 +101,8 @@ ibx.addLine("NTYPE 2");
 ibx.addLine("NPART 100 100");
 ibx.addLine("IFORM rectangular");
 ibx.addLine("IDIST random");
+
+console.log(ibx.getLines());
 
 cnt.append(ibx.div);
 {{< /script/runner >}}
