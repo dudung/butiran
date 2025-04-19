@@ -111,7 +111,7 @@ cnt.append(ibx.div);
 The `TextareaBox` class is as follow.
 
 ```js
-class InputBox {
+class TextareaBox {
   constructor(label) {
     this.label = label;
     this.width = "200px";
@@ -188,7 +188,7 @@ cnt.style.width = "360px";
 cnt.style.height = "200px";
 cnt.style.background = "#eee";
 
-const ibx = new InputBox("Params");
+const ibx = new TextareaBox("Params");
 ibx.addLine("NTYPE 2");
 ibx.addLine("NPART 100 100");
 ibx.addLine("IFORM rectangular");
