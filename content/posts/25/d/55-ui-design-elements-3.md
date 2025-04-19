@@ -19,5 +19,9 @@ url = '25d55'
 + It is another variant of previous UI element for output [^viridi_2025].
 
 
+## todo
++ Merge TextareaBox and CanvasBox (and also another box) to InputBox with tabs.
+
+
 ## refs
 [^viridi_2025]: Sparisoma Viridi, "ui design elements 2", butiran 25d54, 19 Apr 2025, url https://dudung.github.io/butiran/25d54/ [20250419].
