@@ -23,7 +23,7 @@ url = '25d54'
 Current result is as follow.
 
 {{< script/runner id="script-1" >}}
-class InputBox {
+class TextareaBox {
   constructor(label) {
     this.label = label;
     this.width = "200px";
@@ -95,7 +95,7 @@ cnt.style.width = "360px";
 cnt.style.height = "200px";
 cnt.style.background = "#eee";
 
-const ibx = new InputBox("Params");
+const ibx = new TextareaBox("Params");
 ibx.addLine("NTYPE 2");
 ibx.addLine("NPART 100 100");
 ibx.addLine("IFORM rectangular");
@@ -108,7 +108,7 @@ cnt.append(ibx.div);
 
 
 ## class
-The `InputBox` class is as follow.
+The `TextareaBox` class is as follow.
 
 ```js
 class InputBox {
@@ -207,7 +207,7 @@ This class has three UI elements, which are div as container, label as label of 
 
 
 ## todo
-+ Create OutputBox similar to this one for text but advance it with canvas for graphic. For now the svg will be not used.
++ Create TextareaBox similar to this one for text but advance it with canvas for graphic. For now the svg will be not used.
 
 
 ## refs
