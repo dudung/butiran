@@ -204,6 +204,7 @@ This class has three UI elements, which are div as container, label as label of 
 
 ## notes
 + Electricity is down and some websites are also down, including GitHub and Google (intermittens), but YouTube not. It is now 0939. It is the internat data. It works after buy a data package, but the Wi-Fi requires power, which is now onl 7%. Pause connection and only edit and save it locally.
++ Consider complete at 1633 after renaming InputBox to TextareaBox.
 
 
 ## todo
