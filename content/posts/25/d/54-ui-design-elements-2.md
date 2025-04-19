@@ -205,6 +205,7 @@ This class has three UI elements, which are div as container, label as label of 
 ## notes
 + Electricity is down and some websites are also down, including GitHub and Google (intermittens), but YouTube not. It is now 0939. It is the internat data. It works after buy a data package, but the Wi-Fi requires power, which is now onl 7%. Pause connection and only edit and save it locally.
 + Consider complete at 1633 after renaming InputBox to TextareaBox.
++ Story version of this note is available on Medium [^viridi_2025d].
 
 
 ## todo
@@ -215,3 +216,4 @@ This class has three UI elements, which are div as container, label as label of 
 [^viridi_2025a]: Sparisoma Viridi, "ui design elements 0", butiran 25d49, 16 Apr 2025, url https://dudung.github.io/butiran/25d49/ [20250419].
 [^viridi_2025b]: Sparisoma Viridi, "ui design elements 1", butiran 25d52, 18 Apr 2025, url https://dudung.github.io/butiran/25d52/ [20250419].
 [^viridi_2025c]: Sparisoma Viridi, "script loader and runner", butiran 25d48, 16 Apr 2025, url https://dudung.github.io/butiran/25d48/ [20250419].
+[^viridi_2025d]: Sparisoma Viridi, "Group label and textarea in a div", Medium, 19 Apr 2025, url https://medium.com/p/3d9e597429cf [20250419].
