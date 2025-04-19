@@ -13,6 +13,7 @@ url = '25d55'
 
 ## aim
 + To design input elements in the form of a label and a canvas.
++ To draw a circular particle or cirle.
 
 
 ## intro
@@ -23,6 +24,16 @@ url = '25d55'
 Current result is as follow.
 
 {{< script/runner id="script-1" >}}
+class Particle {
+  constructor(params) {
+    this.mass = params.mass;
+    this.diameter = params.diameter;
+    this.color = params.color;
+    this.x = params.x;
+    this.y = params.y;
+  }
+}
+
 class CanvasBox {
   constructor(label) {
     this.label = label;
@@ -73,15 +84,38 @@ class CanvasBox {
     this.initCanvas();
   }
   
+  setBackgroundColor(color) {
+    this.div.style.background =  color;
+  }
+  
   initCanvas() {
     const rect = this.canvas.getBoundingClientRect();
-    this.canvas.width = rect.width;
-    this.canvas.height = rect.height;
-    console.log(rect.width);
-    console.log(rect.height);
+    this.width = rect.width;
+    this.height = rect.height;
+    this.canvas.width = this.width;
+    this.canvas.height = this.height;
+    console.log(this.width, this.height);
+    return this.canvas;
   }
   
   clearCanvas() {
+    const ctx = this.canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.fillStyle = this.div.style.background;
+    ctx.rect(0, 0, this.width, this.height);
+    ctx.fill();
+  }
+  
+  drawParticle(p) {
+    if(p instanceof Particle) {
+      const ctx = this.canvas.getContext("2d");
+      ctx.beginPath();
+      ctx.fillStyle = p.color;
+      ctx.arc(p.x, p.y, 0.5 * p.diameter, 0, 2*Math.PI);
+      ctx.fill();
+    } else {
+      console.error("Cannot draw the given object!");
+    }
   }
 }
 
@@ -91,9 +125,140 @@ cnt.style.height = "200px";
 cnt.style.background = "#eee";
 
 const cbx = new CanvasBox("Particles");
-
 cnt.append(cbx.div);
+
+const c1 = new Particle({x: 10, y: 10, diameter: 10, color: "#f00"});
+const c2 = new Particle({x: 190, y: 115, diameter: 20, color: "#00f"});
+
+cbx.initCanvas();
+cbx.drawParticle(c1);
+cbx.drawParticle(c2);
 {{< /script/runner >}}
+
+
+## class
+There are two classes designed here. The first is `Particle` class.
+
+```js
+class Particle {
+  constructor(params) {
+    this.mass = params.mass;
+    this.diameter = params.diameter;
+    this.color = params.color;
+    this.x = params.x;
+    this.y = params.y;
+  }
+}
+```
+
+And the second is `TextareaBox` class.
+
+```js
+class CanvasBox {
+  constructor(label) {
+    this.label = label;
+    this.width = "200px";
+    this.height = "150px";
+    this.border = "0px #4f81bd solid";
+    
+    this.div = document.createElement("div");
+    this.div.style.width = this.width;
+    this.div.style.height = this.height;
+    this.div.style.border = this.border;
+    this.div.style.background = "#ddd";
+    this.div.style.display = "flex";
+    this.div.style.flexDirection = "column";
+    
+    const lab = document.createElement("label");
+    lab.innerHTML = this.label;
+    lab.style.boxSizing = "border-box";
+    lab.style.width = "100%";
+    lab.style.paddingLeft = "0.5em";
+    lab.style.background = "#eee";
+    lab.style.borderLeft = "1px #888 solid";
+    lab.style.borderTop = "1px #888 solid";
+    lab.style.borderRight = "1px #888 solid";
+
+    const can = document.createElement("canvas");
+    can.style.boxSizing = "border-box";
+    can.style.width = "100%";
+    can.style.height = "100%";
+    can.style.flex = "1";
+    can.style.display = "block";
+    can.style.border = "1px #888 solid";
+    this.canvas = can;
+        
+    this.div.append(lab);
+    this.div.append(can);
+  }
+  
+  setWidth(width) {
+    this.width = width;
+    this.div.style.width = this.width;
+    this.initCanvas();
+  }
+  
+  setHeight(height) {
+    this.height = height;
+    this.div.style.height = this.height;
+    this.initCanvas();
+  }
+  
+  setBackgroundColor(color) {
+    this.div.style.background =  color;
+  }
+  
+  initCanvas() {
+    const rect = this.canvas.getBoundingClientRect();
+    this.width = rect.width;
+    this.height = rect.height;
+    this.canvas.width = this.width;
+    this.canvas.height = this.height;
+    console.log(this.width, this.height);
+    return this.canvas;
+  }
+  
+  clearCanvas() {
+    const ctx = this.canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.fillStyle = this.div.style.background;
+    ctx.rect(0, 0, this.width, this.height);
+    ctx.fill();
+  }
+  
+  drawParticle(p) {
+    if(p instanceof Particle) {
+      const ctx = this.canvas.getContext("2d");
+      ctx.beginPath();
+      ctx.fillStyle = p.color;
+      ctx.arc(p.x, p.y, 0.5 * p.diameter, 0, 2*Math.PI);
+      ctx.fill();
+    } else {
+      console.error("Cannot draw the given object!");
+    }
+  }
+}
+```
+
+## usage
+An example how to use the classes is as follow.
+
+```js
+const cnt = document.getElementById("script-1");
+cnt.style.width = "360px";
+cnt.style.height = "200px";
+cnt.style.background = "#eee";
+
+const cbx = new CanvasBox("Particles");
+cnt.append(cbx.div);
+
+const c1 = new Particle({x: 10, y: 10, diameter: 10, color: "#f00"});
+const c2 = new Particle({x: 190, y: 115, diameter: 20, color: "#00f"});
+
+cbx.initCanvas();
+cbx.drawParticle(c1);
+cbx.drawParticle(c2);
+```
 
 
 ## notes
