@@ -108,6 +108,10 @@ cnt.append(ibx.div);
 {{< /script/runner >}}
 
 
+## notes
++ Electricity is down and some websites are also down, including GitHub and Google (intermittens), but YouTube not. It is now 0939.
+
+
 ## refs
 [^viridi_2025a]: Sparisoma Viridi, "ui design elements 0", butiran 25d49, 16 Apr 2025, url https://dudung.github.io/butiran/25d49/ [20250419].
 [^viridi_2025b]: Sparisoma Viridi, "ui design elements 1", butiran 25d52, 18 Apr 2025, url https://dudung.github.io/butiran/25d52/ [20250419].

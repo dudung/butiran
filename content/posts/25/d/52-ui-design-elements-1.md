@@ -36,6 +36,16 @@ class ControlBox {
     this.buttonIds = [];
   }
   
+  setWidth(width) {
+    this.width = width;
+    this.div.style.width = this.width;
+  }
+  
+  setHeight(height) {
+    this.height = height;
+    this.div.style.height = this.height;
+  }
+  
   addButton(id) {
     const btn = document.createElement("button");
     btn.id = id;
@@ -108,6 +118,16 @@ class ControlBox {
     this.div.style.display = "flex";
     this.div.style.flexDirection = "column";
     this.buttonIds = [];
+  }
+  
+  setWidth(width) {
+    this.width = width;
+    this.div.style.width = this.width;
+  }
+  
+  setHeight(height) {
+    this.height = height;
+    this.div.style.height = this.height;
   }
   
   addButton(id) {
