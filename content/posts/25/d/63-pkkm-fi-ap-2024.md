@@ -1,5 +1,5 @@
 +++
-title = 'pkkm fi-ap 2024'
+title = 'pkkm-fi-ap 2024'
 date = '2025-04-25T20:51:06+07:00'
 authors = ['viridi']
 draft = false
