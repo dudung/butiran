@@ -11,7 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
-+ `26-apr-2025` [`cbqtz`](https://osf.io/cbqtz) Abstract deadline extension.
++ `26-apr-2025` [`cbqtz`](https://osf.io/cbqtz) Abstract deadline extension, butiran note.
 + `21-apr-2025` [`xhm9k`](https://osf.io/xhm9k) Account creation for ips-unj 2025.
 + `27-mar-2025` [`ng24t`](https://osf.io/ng24t) Road to ips-unj 2025 wag.
 + `27-mar-2025` [`h7n4d`](https://osf.io/h7n4d) Set topic to abm for angle of repose.
