@@ -18,6 +18,10 @@ It is the third time for me visiting Semarang, where the first was in a alumni m
 So, I will document this one as a story on Medium [^viridi_2025], but I am not very sure what it is about. A title comes up after a discussion [^gpt-4o_2025].
 
 
+## update
+At about 0439 28-apr-2025, add some words and refs, also fix typos in the story.
+
+
 ## refs
 [^viridi_2025]: Sparisoma Viridi, "On the Road Again: Traveling from Bandung to Semarang with Cititrans", Medium, 27 Apr 2025, url https://medium.com/p/25510862d3ef [20250427].
 [^gpt-4o_2025]: GPT-4o, "Semarang Trip Story Ideas", ChatGPT, 27 Apr 2025, url https://chatgpt.com/share/680d793e-8d78-800a-8bc9-500a78249d51 [20250427].
