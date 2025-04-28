@@ -11,5 +11,5 @@ url = '25d71'
 
 <!-- more -->
 
-+ `29-apr-2025` []() Note on butiran.
-+ `28-apr-2025` []() Initial meetup.
++ `29-apr-2025` [`udxpe`](https://osf.io/udxpe) Note on butiran.
++ `28-apr-2025` [`afx6y`](https://osf.io/afx6y) Initial meetup.
