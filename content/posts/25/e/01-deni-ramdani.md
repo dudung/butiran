@@ -2,7 +2,7 @@
 title = 'deni ramdani'
 date = '2025-05-01T12:06:05+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['nanoparticle', 'scattering', 'ml', 'fmf', 'ai']
 categories = ['users']
