@@ -9,6 +9,11 @@ categories = ['llama']
 url = '25c56'
 +++
 
++ `01-may-2025` [`93j2n`](https://osf.io/93j2n) Archive of final files.
++ `30-may-2025` [`m6udf`](https://osf.io/m6udf) Inbound travel, medium story
++ `29-apr-2025` [`yh98s`](https://osf.io/yh98s) Field assessment day-2.
++ `28-apr-2025` [`bnxvc`](https://osf.io/bnxvc) Field assessment day-1.
++ `27-apr-2025` [`3c5px`](https://osf.io/3c5px) Res-g letter of permission
 + `26-apr-2025` [`etjvf`](https://osf.io/etjvf) Outbound trip reservation.
 + `25-apr-2025` [`qnbhj`](https://osf.io/qnbhj) Gopay status update.
 + `25-apr-2025` [`sx4cv`](https://osf.io/sx4cv) Hotel reservation.
