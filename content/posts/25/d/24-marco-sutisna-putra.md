@@ -18,3 +18,11 @@ url = '25d24'
 + `19-mar-2025` [`72rhc`](https://osf.io/72rhc) Sharing of proposal draft v1.
 + `20-feb-2025` [`5ch4m`](https://osf.io/5ch4m) GitHub repository creation.
 + `19-feb-2025` [`ngy4q`](https://osf.io/ngy4q) Initial supervision discussion.
+
+
+## notes
++ A GitHub repository is available for discussion through the issues [^sutisna_2025].
+
+
+## refs
+[^sutisna_2025]: Marco Sutisna Putra, "Bimbingan Tesis", GitHub, 19 Feb 2025, url https://github.com/MarcoSutisna/BimbinganTesis [20250501].
