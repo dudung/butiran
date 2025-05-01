@@ -9,7 +9,7 @@ categories = ['llama']
 url = '25c49'
 +++
 
-+ `02-may-2025` []() Permission to res-g.
++ `02-may-2025` [`92pwx`](https://osf.io/92pwx) Permission to res-g.
 + `01-apr-2025` [`4b6yj`](https://osf.io/4b6yj) Rundown info for al confirmed.
 + `25-apr-2025` [`eyu8h`](https://osf.io/eyu8h) Information for accomodation.
 + `22-apr-2025` [`c8wum`](https://osf.io/c8wum) Work distribution for al.
