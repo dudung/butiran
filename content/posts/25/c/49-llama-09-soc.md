@@ -13,6 +13,7 @@ url = '25c49'
 + `01-apr-2025` [`4b6yj`](https://osf.io/4b6yj) Rundown info for al confirmed.
 + `25-apr-2025` [`eyu8h`](https://osf.io/eyu8h) Information for accomodation.
 + `22-apr-2025` [`c8wum`](https://osf.io/c8wum) Work distribution for al.
++ `22-apr-2025` [`vqc52`](https://osf.io/vqc52) Letter of assgnment for al.
 + `15-apr-2025` [`85uge`](https://osf.io/85uge) Schedule discussion.
 + `14-apr-2025` [`xhpuk`](https://osf.io/xhpuk) Submission of ak-rev-2.
 + `10-apr-2025` [`9mw5y`](https://osf.io/9mw5y) Archive of revision images.
