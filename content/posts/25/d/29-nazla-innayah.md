@@ -23,4 +23,8 @@ url = '25d29'
 
 
 ## notes
-+ Due to disconnected communication a substitute is required, since the research must go on.
++ Due to disconnected communication a substitute is required, since the research must go on. Update is available [^viridi_2025].
+
+
+## refs
+[^viridi_2025]: Sparisoma Viridi, "deni ramdani", butiran, 1 May 2025, url https://dudung.github.io/butiran/25e01/ [20250501].
