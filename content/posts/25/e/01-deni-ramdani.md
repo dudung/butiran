@@ -11,4 +11,5 @@ url = '25e01'
 
 <!-- more -->
 
-+ `01-may-2025` []() Introductory information.
++ `01-may-2025` [`8p53y`](https://osf.io/8p53y) Initial online meeting.
++ `01-may-2025` [`uvfzj`](https://osf.io/uvfzj) Introductory information.
