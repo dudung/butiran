@@ -2,7 +2,7 @@
 title = 'ycmk bpk-penabur 2025'
 date = '2025-05-01T20:24:27+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['bpk-penabur', 'competition']
 categories = ['evaluator']
