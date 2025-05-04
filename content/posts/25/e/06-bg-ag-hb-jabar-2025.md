@@ -16,7 +16,7 @@ url = '25e06'
 
 
 ## notes
-+ It is just a brainstorming and can not be considered as pra-proposal [^gpt-4o_2025].
++ It is just a brainstorming and can not be considered as pre-proposal [^gpt-4o_2025].
 
 
 ## refs
