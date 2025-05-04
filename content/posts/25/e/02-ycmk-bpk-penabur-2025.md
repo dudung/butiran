@@ -11,6 +11,9 @@ url = '25e02'
 
 <!-- more -->
 
++ `03-may-2025` [`dz9eq`](https://osf.io/dz9eq) Competition day 2.
++ `02-may-2025` [`brqx6`](https://osf.io/brqx6) Competition day 1.
++ `01-may-2025` [`6et2q`](https://osf.io/6et2q) Some documents before event.
 + `01-may-2025` [`ar3m6`](https://osf.io/ar3m6) Agreement from the online meeting.
 + `30-apr-2025` [`jwng3`](https://osf.io/jwng3) Rechedule of the online discussion.
 + `25-apr-2025` [`ab4pk`](https://osf.io/ab4pk) Plan for faculty and patner discussion.
