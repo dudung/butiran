@@ -9,6 +9,8 @@ categories = ['llama']
 url = '25c49'
 +++
 
++ `04-may-2025` [`9r3en`](https://osf.io/9r3en) Hotel reservation.
++ `04-may-2025` [`asr84`](https://osf.io/asr84) Train reservation.
 + `02-may-2025` [`92pwx`](https://osf.io/92pwx) Permission from res-g-leader.
 + `01-apr-2025` [`4b6yj`](https://osf.io/4b6yj) Rundown info for al confirmed.
 + `25-apr-2025` [`eyu8h`](https://osf.io/eyu8h) Information for accomodation.
