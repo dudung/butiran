@@ -17,6 +17,19 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 06-may-2025
++ Raphaela Brandner, "Why mind mapping? 5 key benefits (+ templates)", MeisterTask, 15 Feb 2024, url https://www.meistertask.com/blog/why-mind-mapping [20250506].
++ Georgina Guthrie, "How to use mind maps: skills to boost your brainstorming", Nulab, 4 Jun 2021, url https://nulab.com/learn/strategy-and-planning/how-to-use-mind-maps-skills-to-boost-your-brainstorming/ [20250506].
++ Tim Fulford, "Basic Order Ideas (BOI) How to make them effective", Destech, 16 Feb 2009, url https://destech.wordpress.com/2009/02/16/basic-order-ideas-boi-how-to-make-them-effective/ [20250506].
++ Steph Jesper, "Mind mapping", University of York, 30 Apr 2025, url https://subjectguides.york.ac.uk/note-taking/mind-map [20250506].
++ Kat Boogaard, "What is a concept map? Here’s everything you need to know", Miro, 31 Oct 2019, url https://miro.com/blog/what-is-concept-map/ [20250506].
++ Avinash Priya, "Concept Map v/s Mind Map: What to Use for Your Project", Xmind, 4 Dec 2019, url https://xmind.app/blog/concept-map-vs-mind-map/ [20250506].
++ -, "What is a concept map? The Complete Guide", Mindomo, url https://www.mindomo.com/c/what-is-a-concept-map/ [20250506].
++ Anthony Bevacqua, Danlin Yu, Yaojun Zhang, "Coastal vulnerability: Evolving concepts in understanding vulnerable people and places", Environmental Science & Policy, vol 82, p 19-29, Apr 2018, url https://doi.org/10.1016/j.envsci.2018.01.006.
++ Tigist Fetene Adane, Maria Floriana Bianchi, Andreas Archenti, Mihai Nicolescu, "Application of system dynamics for analysis of performance of manufacturing systems", Journal of Manufacturing System, vol 53, p 212-233, Oct 2019, url https://doi.org/10.1016/j.jmsy.2019.10.004.
++ Ximei Liu, Ming Zeng, "Renewable energy investment risk evaluation model based on system dynamics", Renewable and Sustainable Energy Reviews, vol 73, p 782-788, Jun 2017, url https://doi.org/10.1016/j.rser.2017.02.019.
+
+
 ## 05-may-2025
 + -, "How to use AI for brainstorming", Lucidspark, 7 Apr 2025, url https://lucidspark.com/blog/ai-for-brainstorming [20250505].
 + Iliya Valchanov, "10 Best AI Tools For Brainstorming In 2025 [Reviewed]", Team-GPT, 7 Jan 2025, url https://team-gpt.com/blog/ai-tools-for-brainstorming/ [20250505].
