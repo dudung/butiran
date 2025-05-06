@@ -9,6 +9,9 @@ categories = ['users']
 url = '25d24'
 +++
 
++ `06-may-2025` [`293hv`](https://osf.io/293hv) Proposal seminar bsc-a 3rd floor r3.
++ `05-may-2025` [`v4ze8`](https://osf.io/v4ze8) Slide revision and correction list.
++ `02-may-2025` [`k6nw9`](https://osf.io/k6nw9) Seminar info from program person.
 + `30-apr-2025` [`ep3wf`](https://osf.io/ep3wf) Online progress meeting.
 + `29-apr-2025` [`mka6y`](https://osf.io/mka6y) Formal supervision, seminar permit.
 + `23-apr-2025` [`fcd54`](https://osf.io/fcd54) Plan for proposal seminar.
