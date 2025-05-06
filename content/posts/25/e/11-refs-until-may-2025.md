@@ -28,6 +28,11 @@ url = '25e11'
 + Anthony Bevacqua, Danlin Yu, Yaojun Zhang, "Coastal vulnerability: Evolving concepts in understanding vulnerable people and places", Environmental Science & Policy, vol 82, p 19-29, Apr 2018, url https://doi.org/10.1016/j.envsci.2018.01.006.
 + Tigist Fetene Adane, Maria Floriana Bianchi, Andreas Archenti, Mihai Nicolescu, "Application of system dynamics for analysis of performance of manufacturing systems", Journal of Manufacturing System, vol 53, p 212-233, Oct 2019, url https://doi.org/10.1016/j.jmsy.2019.10.004.
 + Ximei Liu, Ming Zeng, "Renewable energy investment risk evaluation model based on system dynamics", Renewable and Sustainable Energy Reviews, vol 73, p 782-788, Jun 2017, url https://doi.org/10.1016/j.rser.2017.02.019.
++ Th. J. Ferrari, "Elements of system-dynamics simulation", Wageningen Centre for Agricultural Publishing and Documentation, 1978, url https://edepot.wur.nl/369950 [20250506].
++ Jeffrey P. Walters, David W. Archer, Gretchen F. Sassenrath, John R. Hendrickson, Jon D. Hanson, John M. Halloran, Peter Vadas, Vladimir J. Alarcon, "Exploring agricultural production systems and their fundamental components with system dynamics modelling", Ecological Modelling, vol 333, p 51-65, Aug 2016, url https://doi.org/10.1016/j.ecolmodel.2016.04.015.
++ -, "Population Balance Modelling", CoMO Group, University of Cambridge, url https://como.ceb.cam.ac.uk/research/algorithms/pbm/ [20250506].
++ GPT-4o, "Population Dynamics Model", ChatGPT, 6 May 2025, url https://chatgpt.com/share/68195feb-b10c-800a-bf2c-0682accadc16 [20250506].
++ Joe Morrison, "Designing Effective Supervised Machine Learning Systems", Medium, 9 Dec 2019, url http://medium.com/p/91eb7b466129 [20250506].
 
 
 ## 05-may-2025
