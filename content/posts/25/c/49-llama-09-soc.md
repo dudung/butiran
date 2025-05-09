@@ -9,6 +9,10 @@ categories = ['llama']
 url = '25c49'
 +++
 
++ `10-may-2025` [`osfio`]() Inbound trip.
++ `09-may-2025` [`mvbyu`](https://osf.io/mvbyu) Visitation on 2nd day.
++ `08-may-2025` [`7m54d`](https://osf.io/7m54d) Visitation on 1st day.
++ `07-may-2025` [`95jw3`](https://osf.io/95jw3) Outbound trip.
 + `04-may-2025` [`9r3en`](https://osf.io/9r3en) Hotel reservation.
 + `04-may-2025` [`asr84`](https://osf.io/asr84) Train reservation.
 + `02-may-2025` [`92pwx`](https://osf.io/92pwx) Permission from res-g-leader.

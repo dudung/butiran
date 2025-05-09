@@ -11,6 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
++ `09-may-2025` [`hnas4`](https://osf.io/hnas4) Check the deadline, today is h-2.
 + `26-apr-2025` [`cbqtz`](https://osf.io/cbqtz) Abstract deadline extension, butiran note.
 + `21-apr-2025` [`xhm9k`](https://osf.io/xhm9k) Account creation for ips-unj 2025.
 + `27-mar-2025` [`ng24t`](https://osf.io/ng24t) Road to ips-unj 2025 wag.
