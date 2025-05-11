@@ -11,6 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
++ `11-may-2025` [`tca7z`](https://osf.io/tca7z) Abstract submission finalization.
 + `09-may-2025` [`hnas4`](https://osf.io/hnas4) Check the deadline, today is h-2.
 + `28-apr-2025` [`czqt6`](https://osf.io/czqt6) Experiment sop (putri draft).
 + `26-apr-2025` [`cbqtz`](https://osf.io/cbqtz) Abstract deadline extension, butiran note.
