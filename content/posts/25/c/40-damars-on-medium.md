@@ -9,7 +9,8 @@ categories = ['medium']
 url = '25c40'
 +++
 
-+ `12-apr-2025` [`gbq3d`](https://osf.io/gbq3d) Worshop on po-bkd in animal-sci, unja.
++ `11-may-2025` [`rb2c6`](https://osf.io/rb2c6) Short tutorial for medium.
++ `12-apr-2025` [`gbq3d`](https://osf.io/gbq3d) Workshop on po-bkd in animal-sci, unja.
 {{< details >}}
 + [`fcdb034dc6b3`](https://medium.com/p/fcdb034dc6b3) Persamaan Persepsi Beban Kerja Dosen, delivered by Prof. Dr. Trina Ekawati Tallei, hosted by Prof. Dr. Ir. Hj. Nurhayati, M.Sc. agr.
 {{< /details >}}
