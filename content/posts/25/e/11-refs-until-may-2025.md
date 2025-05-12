@@ -17,6 +17,13 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 12-may-2025
++ Rutger De Jong, Dennis Bus, "VOSviewer: putting research into context", Research Software Community Leiden, 9 Apr 2023, url https://researchsoftware.pubpub.org/pub/j3sr4bo9/release/2 [20250512].
++ Nees Jan van Eck, Ludo Waltman, "Software survey: VOSviewer, a computer program for bibliometric mapping", Scientometrics, vol 84, p 523-538, Aug 2010, url https://doi.org/10.1007/s11192-009-0146-3.
++ Umar Ali Bukar, Md Shohel Sayeed, Siti Fatimah Abdul Razak, Sumendra Yogarayan, Oluwatosin Ahmed Amodu, Raja Azlina Raja Mahmood, "A method for analyzing text using VOSviewer", MethodsX, vol 11, p 102339, Dec 2023, url https://doi.org/10.1016/j.mex.2023.102339.
++ Sandy DeGroote, "Subject and Course Guides: Bibliometric Analysis and Visualization: VOSViewer", University of Illinois at Chicago, 11 Apr 2024, url https://researchguides.uic.edu/bibliometrics/vosviewer [20250512].
+
+
 ## 06-may-2025
 + Raphaela Brandner, "Why mind mapping? 5 key benefits (+ templates)", MeisterTask, 15 Feb 2024, url https://www.meistertask.com/blog/why-mind-mapping [20250506].
 + Georgina Guthrie, "How to use mind maps: skills to boost your brainstorming", Nulab, 4 Jun 2021, url https://nulab.com/learn/strategy-and-planning/how-to-use-mind-maps-skills-to-boost-your-brainstorming/ [20250506].
