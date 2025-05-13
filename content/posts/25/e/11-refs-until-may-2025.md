@@ -17,9 +17,23 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 15-may-2025
++ Furkan Rabee, Zahir M. Hussain, "Oriented Crossover in Genetic Algorithms for Computer Networks Optimization", Information, vol 14, no 5, p 276, May 2023, url https://doi.org/10.3390/info14050276.
++ K.C. Avinash Khatri, Krishna Bikram Shah, J. Logeshwaran, Ashish Shrestha, "Genetic Algorithm Based Techno-Economic Optimization of an Isolated Hybrid Energy System", ICTACT Journal on Microelectronics, vol 8, no 4, p 1447-1450, Jan 2023, url https://doi.org/10.21917/ijme.2023.0249.
+
 ## 14-may-2025
 + Sparisoma Viridi, "Start to familiar with Publish or Perish and VOSviewer: A short online meeting on academic citations data collection and bibliometric visualization", damars-daad -- Medium, 14 May 2025, url https://medium.com/p/429e4707a375 [20250313].
 + Shoaib Khanmohammadi, Onder Kizilkan, Farayi Musharavati, "Multiobjective optimization of a geothermal power plant", in Thermodynamic Analysis and Optimization of Geothermal Power Plants, ch 17, p 279-291, 2021, url https://doi.org/10.1016/B978-0-12-821037-6.00011-1.
++ A. Slowik, H. Kwasnicka, "Evolutionary algorithms and their applications to engineering problems", Neural Computing & Applications, vol 32, p 12363–12379, Aug 2020, url https://doi.org/10.1007/s00521-020-04832-8.
++ Jason Brownlee, "How to Choose an Optimization Algorithm", Machine Learning Mastery, 12 Oct 2021, url https://machinelearningmastery.com/tour-of-optimization-algorithms/ [20250513].
++ Larry Hardesty, "Optimizing optimization algorithms", MIT News, 21 Jan 2015, url https://news.mit.edu/2015/optimizing-optimization-algorithms-0121 [20250513].
++ Roley, "Optimization Graph with Target Minimum", CleanPNG, url https://www.cleanpng.com/png-gradient-descent-artificial-neural-network-mathema-6746346/ [20250513].
++ Suyanto Suyanto, Alifya Aisyah Ariyanto, Alifya Fatimah Ariyanto, "", Applied Soft Computing, vol 114, p 108043, Jan 2022, url https://doi.org/10.1016/j.asoc.2021.108043.
++ Chun-Wei Tsai, Ming-Chao Chiang, "Conclusion and future research directions", in Handbook of Metaheuristic Algorithms, Ch 20, p 459-469, 2023, url https://doi.org/10.1016/B978-0-44-319108-4.00034-4.
++ GPT-4o, "Genetic Algorithm Grouping", ChatGPT, 13 May 2025, url https://chatgpt.com/share/68235526-ae58-800a-bd98-303eb8fbccf6 [20250513].
++ Kazyna Turdibayeva, "Process Optimization Explained - Methods, Benefits & Tools", ProcessMaker, 9 Jul 2024, url https://www.processmaker.com/blog/process-optimization-explained/ [20250513].
++ Vili Podgorelec, Janez Brest, Peter Kokol, "Power of heterogeneous computing as a vehicle for implementing E3 medical decision support systems", Studies in Health Technology and Informatics, vol 68, p 703-708, Feb 1999, url http://dx.doi.org/10.3233/978-1-60750-912-7-703.
++ Nipun Kumar Goel, "Genetic Algorithms: Based on the ideas of natural selection and genetics.", Medium, 31 May 2021, url http://medium.com/p/b0408006700f [20250513].
 
 
 ## 13-may-2025

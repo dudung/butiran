@@ -2,7 +2,7 @@
 title = 'courage to write'
 date = '2025-05-13T11:24:55+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['publicaton']
 categories = ['medium']
