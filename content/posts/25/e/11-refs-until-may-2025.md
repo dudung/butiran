@@ -18,7 +18,10 @@ url = '25e11'
 
 
 ## 13-may-2025
-+ ..
++ Talea Anderson, "LibGuides: Measuring Research Impact Using Web of Science, Altmetrics, and Other Sources: Publish or Perish Software", Washington State University, 7 Sep 2023, url https://libguides.libraries.wsu.edu/citationsearching/publish_perish [20250513].
++ Swati Mishra, "A free citation tool for academics", Softonic, 20 Feb 2025, url https://publish-or-perish.en.softonic.com/ [20250513].
++ David Adams, "Publish or Perish on Microsoft Windows", Harzingcom, 17 Dec 2024, url https://harzing.com/resources/publish-or-perish/windows [20250513].
++ Sparisoma Viridi, "Installing Publish or Perish on Windows 11 Home: A software program that retrieves and analyzes academic citations", Courage to Write -- Medium, 13 May 2025, url https://medium.com/p/1d4fedc1e026 [20250513].
 
 
 ## 12-may-2025

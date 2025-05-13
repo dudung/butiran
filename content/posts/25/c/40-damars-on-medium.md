@@ -9,6 +9,7 @@ categories = ['medium']
 url = '25c40'
 +++
 
++ `13-may-2025` [`n7c3j`](https://osf.io/n7c3j) Zoom on biblimetric and citation analysis.
 + `12-may-2025` [`cu2ta`](https://osf.io/cu2ta) Organization and medium publication.
 + `11-may-2025` [`rb2c6`](https://osf.io/rb2c6) Short tutorial info for medium.
 + `12-apr-2025` [`gbq3d`](https://osf.io/gbq3d) Workshop on po-bkd in animal-sci, unja.
