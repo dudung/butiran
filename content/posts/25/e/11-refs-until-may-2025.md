@@ -19,6 +19,7 @@ url = '25e11'
 
 ## 14-may-2025
 + Sparisoma Viridi, "Start to familiar with Publish or Perish and VOSviewer: A short online meeting on academic citations data collection and bibliometric visualization", damars-daad -- Medium, 14 May 2025, url https://medium.com/p/429e4707a375 [20250313].
++ Shoaib Khanmohammadi, Onder Kizilkan, Farayi Musharavati, "Multiobjective optimization of a geothermal power plant", in Thermodynamic Analysis and Optimization of Geothermal Power Plants, ch 17, p 279-291, 2021, url https://doi.org/10.1016/B978-0-12-821037-6.00011-1.
 
 
 ## 13-may-2025
