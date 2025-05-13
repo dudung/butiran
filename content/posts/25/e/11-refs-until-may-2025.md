@@ -20,6 +20,12 @@ url = '25e11'
 ## 15-may-2025
 + Furkan Rabee, Zahir M. Hussain, "Oriented Crossover in Genetic Algorithms for Computer Networks Optimization", Information, vol 14, no 5, p 276, May 2023, url https://doi.org/10.3390/info14050276.
 + K.C. Avinash Khatri, Krishna Bikram Shah, J. Logeshwaran, Ashish Shrestha, "Genetic Algorithm Based Techno-Economic Optimization of an Isolated Hybrid Energy System", ICTACT Journal on Microelectronics, vol 8, no 4, p 1447-1450, Jan 2023, url https://doi.org/10.21917/ijme.2023.0249.
++ Mohd Nadhir Ab Wahab, Amril Nazir, Ashraf Khalil, Wong Jun Ho, Muhammad Firdaus Akbar, Mohd Halim Mohd Noor, Ahmad Sufril Azlan Mohamed, "Improved genetic algorithm for mobile robot path planning in static environments", Expert Systems with Applications, vol 249, no C, p 123762, Sep 2024, url https://doi.org/10.1016/j.eswa.2024.123762.
++ Guangyou Zhou, Zhiwei Zhu, Sumei Luo, "Location optimization of electric vehicle charging stations: Based on cost model and genetic algorithm", Energy, vol 247, p 123437, May 2022, url https://doi.org/10.1016/j.energy.2022.123437.
++ Jalil Jabari Lotf, Mohammad Abdollahi Azgomi, Mohammad Reza Ebrahimi Dishabi, "An improved influence maximization method for social networks based on genetic algorithm", Physica A: Statistical Mechanics and its Applications, vol 586, p 126480, Jan 2022, url https://doi.org/10.1016/j.physa.2021.126480.
++ Miodrag Zivkovic, Venkatachalam K, Nebojsa Bacanin, Aleksandar Djordjevic, Milos Antonijevic, Ivana Strumberger, Tarik A. Rashid, "Miodrag Zivkovic, Venkatachalam K, Nebojsa Bacanin, Aleksandar Djordjevic, Milos Antonijevic, Ivana Strumberger & Tarik A. Rashid, "Hybrid Genetic Algorithm and Machine Learning Method for COVID-19 Cases Prediction", Proceedings of International Conference on Sustainable Expert Systems, in Shakya, S., Balas, V.E., Haoxiang, W., Baig, Z. (eds) Proceedings of International Conference on Sustainable Expert Systems, Lecture Notes in Networks and Systems, vol 176, Springer, Singapore, 2021, p 169-184, url https://doi.org/10.1007/978-981-33-4355-9_14.
++ Amberle McKee, "Genetic Algorithm: Complete Guide With Python Implementation", DataCamp, 29 Jul 2024, url https://www.datacamp.com/tutorial/genetic-algorithm-python [20250514].
+
 
 ## 14-may-2025
 + Sparisoma Viridi, "Start to familiar with Publish or Perish and VOSviewer: A short online meeting on academic citations data collection and bibliometric visualization", damars-daad -- Medium, 14 May 2025, url https://medium.com/p/429e4707a375 [20250313].
