@@ -17,11 +17,16 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 14-may-2025
++ Sparisoma Viridi, "Start to familiar with Publish or Perish and VOSviewer: A short online meeting on academic citations data collection and bibliometric visualization", damars-daad -- Medium, 14 May 2025, url https://medium.com/p/429e4707a375 [20250313].
+
+
 ## 13-may-2025
 + Talea Anderson, "LibGuides: Measuring Research Impact Using Web of Science, Altmetrics, and Other Sources: Publish or Perish Software", Washington State University, 7 Sep 2023, url https://libguides.libraries.wsu.edu/citationsearching/publish_perish [20250513].
 + Swati Mishra, "A free citation tool for academics", Softonic, 20 Feb 2025, url https://publish-or-perish.en.softonic.com/ [20250513].
 + David Adams, "Publish or Perish on Microsoft Windows", Harzingcom, 17 Dec 2024, url https://harzing.com/resources/publish-or-perish/windows [20250513].
 + Sparisoma Viridi, "Installing Publish or Perish on Windows 11 Home: A software program that retrieves and analyzes academic citations", Courage to Write -- Medium, 13 May 2025, url https://medium.com/p/1d4fedc1e026 [20250513].
++ GPT-4o, "Network Creation with PoP VOS", ChatGPT, 13 May 2025, url https://chatgpt.com/share/682316c6-6f94-800a-8e70-d535ccf968af [20250513].
 
 
 ## 12-may-2025
