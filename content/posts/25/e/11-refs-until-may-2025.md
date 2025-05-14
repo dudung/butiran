@@ -18,6 +18,15 @@ url = '25e11'
 
 
 ## 14-may-2025
++ Theo, "What is AnyDesk", TSplus, 26 Sep 2024, url https://tsplus.net/remote-support/blog/what-is-anydesk/ [20250514].
++ Maulia Inayah Ansar, "Apa itu Anydesk? Fitur, Cara Install, dan Kelebihannya", Digital Solusi Grup, 23 Aug 2024, url https://digitalsolusigrup.co.id/anydesk-adalah/ [20250514].
++ -, "Mengenal AnyDesk: Pengertian dan Keunggulannya", IDCloudHost, 2 Apr 2022, url https://idcloudhost.com/panduan/anydesk-adalah/ [20250514].
++ Mila Rosyida, "AnyDesk Adalah Aplikasi Remote Komputer Jarak Jauh", DomaiNesia, 26 Mar 2024, url https://www.domainesia.com/berita/anydesk-adalah/ [20250514].
++ GPT-4o, "AnyDesk Installation Options", ChatGPT, 14 May 2025, url https://chatgpt.com/share/682474f9-b818-800a-80b2-8c3cbbbe8c2d [20250514].
++ Lawrence Abrams, "AnyDesk says hackers breached its production servers, reset passwords", Bleeping Computer, 2 Feb 2024, url https://www.bleepingcomputer.com/news/security/anydesk-says-hackers-breached-its-production-servers-reset-passwords/ [20250514].
+
+
+## 14-may-2025
 + Furkan Rabee, Zahir M. Hussain, "Oriented Crossover in Genetic Algorithms for Computer Networks Optimization", Information, vol 14, no 5, p 276, May 2023, url https://doi.org/10.3390/info14050276.
 + K.C. Avinash Khatri, Krishna Bikram Shah, J. Logeshwaran, Ashish Shrestha, "Genetic Algorithm Based Techno-Economic Optimization of an Isolated Hybrid Energy System", ICTACT Journal on Microelectronics, vol 8, no 4, p 1447-1450, Jan 2023, url https://doi.org/10.21917/ijme.2023.0249.
 + Mohd Nadhir Ab Wahab, Amril Nazir, Ashraf Khalil, Wong Jun Ho, Muhammad Firdaus Akbar, Mohd Halim Mohd Noor, Ahmad Sufril Azlan Mohamed, "Improved genetic algorithm for mobile robot path planning in static environments", Expert Systems with Applications, vol 249, no C, p 123762, Sep 2024, url https://doi.org/10.1016/j.eswa.2024.123762.
