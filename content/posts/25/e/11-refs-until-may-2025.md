@@ -17,7 +17,7 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
-## 15-may-2025
+## 14-may-2025
 + Furkan Rabee, Zahir M. Hussain, "Oriented Crossover in Genetic Algorithms for Computer Networks Optimization", Information, vol 14, no 5, p 276, May 2023, url https://doi.org/10.3390/info14050276.
 + K.C. Avinash Khatri, Krishna Bikram Shah, J. Logeshwaran, Ashish Shrestha, "Genetic Algorithm Based Techno-Economic Optimization of an Isolated Hybrid Energy System", ICTACT Journal on Microelectronics, vol 8, no 4, p 1447-1450, Jan 2023, url https://doi.org/10.21917/ijme.2023.0249.
 + Mohd Nadhir Ab Wahab, Amril Nazir, Ashraf Khalil, Wong Jun Ho, Muhammad Firdaus Akbar, Mohd Halim Mohd Noor, Ahmad Sufril Azlan Mohamed, "Improved genetic algorithm for mobile robot path planning in static environments", Expert Systems with Applications, vol 249, no C, p 123762, Sep 2024, url https://doi.org/10.1016/j.eswa.2024.123762.
@@ -29,9 +29,11 @@ url = '25e11'
 + Adriyendi, Yeni Melia, "Optimization using Genetic Algorithm in Food Composition", International Journal of Computing and Digital Systems, vol 10, no 1, p 1020-1029, Oct 2021, url http://dx.doi.org/10.12785/ijcds/100191.
 + G. C. Onwubolu, M. Mutingi, "A genetic algorithm approach to cellular manufacturing systems", Computer & Industrial Engineering, vol 39, no 1-2, p 125-144, Feb 2001, url https://doi.org/10.1016/S0360-8352(00)00074-7.
 + L. Elliott, D. B. Ingham, A. G. Kyne, N. S. Mera, M. Pourkashanian, C. W. Wilson, "Genetic algorithms for optimisation of chemical kinetics reaction mechanisms", Progress in Energy and Combustion Science, vol 30, no 3, p 297-328, 2004, url https://doi.org/10.1016/j.pecs.2004.02.002.
++ -, "Genetic Algorithm in Machine Learning", Board Infinity, 16 Jul 2023, url https://www.boardinfinity.com/blog/genetic-algorithm-in-machine-learning/ [20250514].
++ -, "Genetic Algorithms", MLInsightsCentral, 18 Sep 2023, url https://mlinsightscentral.com/index.php/genetic-algorithms/ [20250514].
 
 
-## 14-may-2025
+## 13-may-2025
 + Sparisoma Viridi, "Start to familiar with Publish or Perish and VOSviewer: A short online meeting on academic citations data collection and bibliometric visualization", damars-daad -- Medium, 14 May 2025, url https://medium.com/p/429e4707a375 [20250313].
 + Shoaib Khanmohammadi, Onder Kizilkan, Farayi Musharavati, "Multiobjective optimization of a geothermal power plant", in Thermodynamic Analysis and Optimization of Geothermal Power Plants, ch 17, p 279-291, 2021, url https://doi.org/10.1016/B978-0-12-821037-6.00011-1.
 + A. Slowik, H. Kwasnicka, "Evolutionary algorithms and their applications to engineering problems", Neural Computing & Applications, vol 32, p 12363–12379, Aug 2020, url https://doi.org/10.1007/s00521-020-04832-8.
