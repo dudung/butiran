@@ -11,7 +11,7 @@ url = '25e01'
 
 <!-- more -->
 
-+ `14-may-2025` [`nkgr5`](https://osf.io/nkgr5) Previous info collection.
++ `14-may-2025` [`nkgr5`](https://osf.io/nkgr5) AnyDesk installation.
 + `01-may-2025` [`8p53y`](https://osf.io/8p53y) Initial online meeting.
 + `01-may-2025` [`uvfzj`](https://osf.io/uvfzj) Introductory information.
 
