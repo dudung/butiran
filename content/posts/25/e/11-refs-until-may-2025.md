@@ -25,6 +25,10 @@ url = '25e11'
 + Jalil Jabari Lotf, Mohammad Abdollahi Azgomi, Mohammad Reza Ebrahimi Dishabi, "An improved influence maximization method for social networks based on genetic algorithm", Physica A: Statistical Mechanics and its Applications, vol 586, p 126480, Jan 2022, url https://doi.org/10.1016/j.physa.2021.126480.
 + Miodrag Zivkovic, Venkatachalam K, Nebojsa Bacanin, Aleksandar Djordjevic, Milos Antonijevic, Ivana Strumberger, Tarik A. Rashid, "Miodrag Zivkovic, Venkatachalam K, Nebojsa Bacanin, Aleksandar Djordjevic, Milos Antonijevic, Ivana Strumberger & Tarik A. Rashid, "Hybrid Genetic Algorithm and Machine Learning Method for COVID-19 Cases Prediction", Proceedings of International Conference on Sustainable Expert Systems, in Shakya, S., Balas, V.E., Haoxiang, W., Baig, Z. (eds) Proceedings of International Conference on Sustainable Expert Systems, Lecture Notes in Networks and Systems, vol 176, Springer, Singapore, 2021, p 169-184, url https://doi.org/10.1007/978-981-33-4355-9_14.
 + Amberle McKee, "Genetic Algorithm: Complete Guide With Python Implementation", DataCamp, 29 Jul 2024, url https://www.datacamp.com/tutorial/genetic-algorithm-python [20250514].
++ Sayan Kumar Roy, Debashis De, "Genetic Algorithm based Internet of Precision Agricultural Things (IopaT) for Agriculture 4.0", Internet of Things, vol 18, p 100201, May 2022, url https://doi.org/10.1016/j.iot.2020.100201 [20250514].
++ Adriyendi, Yeni Melia, "Optimization using Genetic Algorithm in Food Composition", International Journal of Computing and Digital Systems, vol 10, no 1, p 1020-1029, Oct 2021, url http://dx.doi.org/10.12785/ijcds/100191.
++ G. C. Onwubolu, M. Mutingi, "A genetic algorithm approach to cellular manufacturing systems", Computer & Industrial Engineering, vol 39, no 1-2, p 125-144, Feb 2001, url https://doi.org/10.1016/S0360-8352(00)00074-7.
++ L. Elliott, D. B. Ingham, A. G. Kyne, N. S. Mera, M. Pourkashanian, C. W. Wilson, "Genetic algorithms for optimisation of chemical kinetics reaction mechanisms", Progress in Energy and Combustion Science, vol 30, no 3, p 297-328, 2004, url https://doi.org/10.1016/j.pecs.2004.02.002.
 
 
 ## 14-may-2025
