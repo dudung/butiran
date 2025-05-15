@@ -2,7 +2,7 @@
 title = 'aldiansyah anugrah ramadhan'
 date = '2025-05-15T09:43:23+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['sk','fi','au','ft']
 categories = ['users']
