@@ -2,6 +2,7 @@
 date = '2024-12-11T04:40:24+07:00'
 draft = false
 title = 'purqon ag res'
+type = 'notes'
 tags = ['res']
 authors = ['viridi']
 url = '24l06'

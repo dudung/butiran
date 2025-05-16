@@ -20,6 +20,7 @@ This note records copied notes from notes and whether they are already converted
 + 25a: 22, 25,
 + 25b: 11,
 + 25c: 12, 16, 26, 27, 40, 47, 48, 49, 56,
+  - (js for fun, columns) 22, 36, 39, 52,
 + 25d: 15, 24, 29, 30, 38
 
 
