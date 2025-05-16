@@ -1,0 +1,8 @@
+{{ $raw := .Get "raw" }}
+<div class="columns">
+{{ if eq $raw "yes" }}
+  {{ .Inner }}
+{{ else }}
+  {{ .Inner | markdownify }}
+{{ end }}
+</div>
