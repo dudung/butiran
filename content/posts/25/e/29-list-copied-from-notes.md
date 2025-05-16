@@ -15,6 +15,8 @@ This note records copied notes from notes and whether they are already converted
 
 
 ## converted to butiran
++ 24j: 33,
++ 24l: 02, 05, 06,
 + 25a: 22, 25,
 + 25b: 11,
 + 25c: 12, 16, 26, 27, 40, 47, 48, 49, 56,
