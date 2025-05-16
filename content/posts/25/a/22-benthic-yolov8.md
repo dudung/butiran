@@ -9,6 +9,8 @@ url = '25a22'
 +++
 <!--more-->
 
++ `16-may-2025` [`8h9yv`](https://osf.io/8h9yv) Thesis II supervision, manuscript.
++ `17-apr-2025` [`sd2c8`](https://osf.io/sd2c8) Thesis II supervision.
 + `13-jan-2025` [`rfc5n`](https://osf.io/rfc5n) Thesis I seminar.
 + `07-jan-2025` [`sk9db`](https://osf.io/sk9db) Preparation of thesis I seminar.
 + `29-nov-2024` [`hxdwq`](https://osf.io/hxdwq) Thesis proposal seminar.
