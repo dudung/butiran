@@ -36,3 +36,4 @@ This note records copied notes from notes and whether they are already converted
 + zenodo: all (slide style is missing).
 + Shortcodes to remove: img, url, lissajous, progresslist, rawhtml, tasklist, vspace, details, fsize, graphic, equation, canvas, center.
 + Equation work here e.g. $y = ax^2 + bx + c$, but not in some copied notes from [notes](https://dudung.github.io/notes).
+  - update (17/5): [25b37](/butiran/25b37) math support can be fixed by simply changing type to notes.
