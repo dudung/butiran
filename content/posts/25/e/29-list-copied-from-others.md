@@ -48,3 +48,8 @@ This note records copied notes from notes and whether they are already converted
 ## copied 18-may-2025 (not edited)
 + source: plain-text.
 + shortcodes to remove: svgpath, testcode, gene2grid.
+
+
+## copied 18-may-2025 (not edited)
++ course: bugx.
++ shortcode to remove: todo, citeas.
