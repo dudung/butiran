@@ -138,7 +138,7 @@ It is an advancement of previous customizations, e.g. [template customization 2]
 
 
     <script>
-    var r = {{/* ( .Inner | chomp) */}};
+    var r = "{{ ( .Inner | chomp) }}";
     var eol = getEOL(r);
     var blocks = getBlocks(r, eol);
     var params = getParams(blocks.shift());
