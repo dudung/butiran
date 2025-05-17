@@ -1,0 +1,63 @@
+<div id='{{ .Get "id" }}' style="padding: 4px;">
+</div>
+
+<script>
+let theme = localStorage.getItem('colorscheme');
+
+let div = document.getElementById('{{ .Get "id" }}');
+
+let lines = getLines('{{ .Get "id" }}');
+let d = lines.join(' ');
+
+const svgns = "http://www.w3.org/2000/svg";
+let svg = document.createElementNS(svgns, "svg");
+svg.setAttribute("width", '{{ .Get "width" }}');
+svg.setAttribute("height", '{{ .Get "height" }}');
+
+let border = '{{ .Get "border" }}';
+if(border.length == 0) border = "#888";
+svg.style.border = '0.1px solid ' + border;
+
+let path = document.createElementNS(svgns, "path");
+path.setAttribute("d", d);
+path.setAttribute("fill", "none");
+path.setAttribute("stroke-width", 2);
+//path.setAttribute("stroke", '{{ .Get "stroke" }}')
+if(theme == 'light') {
+  path.setAttribute("stroke", '#222');
+} else {
+  path.setAttribute("stroke", 'white');
+}
+
+
+svg.append(path);
+div.append(svg);
+
+
+function getLines(id) {
+  let pardiv = document.getElementById(id);
+  pardiv.style.display = '{{ .Get "display" }}';
+  
+  let inner = "{{ .Inner }}";
+  
+  // Windows
+  let eol = '\r\n';
+  if(inner.indexOf(eol) == -1) {
+    // Macintosh
+    eol = '\r';
+    if(inner.indexOf(eol) == -1) {
+      // Unix
+      eol = '\n';
+    }
+  }
+  
+  let lines = inner.split(eol);
+  
+  if(lines[0].length == 0) lines.shift();
+  let N = lines.length;
+  if(lines[N-1].length == 0) lines.pop();
+  
+  return lines;
+}
+</script>
+

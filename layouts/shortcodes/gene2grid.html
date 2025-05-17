@@ -1,0 +1,73 @@
+<div id='{{ .Get "id" }}' style="padding: 4px;">
+</div>
+
+<script>
+var ptColors = [
+  "#000",
+  "#fff",
+  "#44f",
+  "#4f4",
+  "#f88",
+  "#ff8",
+  "#777",
+];
+
+createGrid('{{ .Get "id" }}');
+
+function createGrid(id) {
+  let pardiv = document.getElementById(id);
+  pardiv.style.display = '{{ .Get "display" }}';
+  
+  let inner = "{{ .Inner }}";
+  
+  // Windows
+  let eol = '\r\n';
+  if(inner.indexOf(eol) == -1) {
+    // Macintosh
+    eol = '\r';
+    if(inner.indexOf(eol) == -1) {
+      // Unix
+      eol = '\n';
+    }
+  }
+  
+  let lines = inner.split(eol);
+  
+  if(lines[0].length == 0) lines.shift();
+  let N = lines.length;
+  if(lines[N-1].length == 0) lines.pop();
+  N = lines.length;
+  
+  let sz = '{{ .Get "size"}}';
+  let side = 8;
+  if(sz.length > 0) {
+    side = sz;
+  }
+  
+  for(let i = 0; i < N; i++) {
+    let cols = lines[i];
+    let M = cols.length;
+    
+    let rowdiv = document.createElement("div");
+    rowdiv.style.width = (M * side) + "px";
+    rowdiv.style.height = side + "px";
+    
+    for(let j = 0; j < M; j++) {
+      let coldiv = document.createElement("div");
+      coldiv.style.width = side + "px";
+      coldiv.style.height = side + "px";
+      coldiv.style.background = getColor(cols[j]);
+      coldiv.style.border = "0.2px solid #888";
+      coldiv.style.float = "left";
+      rowdiv.append(coldiv);
+    }
+    pardiv.append(rowdiv);
+  }
+}
+
+function getColor(gene) {
+  return ptColors[gene];
+}
+
+</script>
+
