@@ -241,9 +241,11 @@ cnt.appendChild(img);
 ## notes
 + This note is part of research project led by [Acep Purqon](/butiran/authors/purqon) [^viridi_2025].
 + Notes related to js are [25c22](/butiran/25c22), [25c36](/butiran/25c36), [25c39](/butiran/25c39), [25c52](/butiran/25c52).
++ Current interpolation [^gpt-4o_2025] can be advanced and further improved to give better insight.
++ It is necessary to dig deeper the topic [^kovats_2008].
 
 
 ## refs
+[^gpt-4o_2025]: GPT-4o, "Heatmap interpolation guide", butiran, 17 May 2025, url https://chatgpt.com/share/68280601-05b8-800a-9a92-1f563057b63f [20250517].
+[^kovats_2008]: R. Sari Kovats, Shakoor Hajat, "Heat stress and public health: a critical review", Annual Review of Public Health, vol 29, p 41-55, Apr 2008, url https://doi.org/10.1146/annurev.publhealth.29.020907.090843.
 [^viridi_2025]: Sparisoma Viridi, "purqon ag res", butiran, 11 Dec 2024, url https://dudung.github.io/butiran/24l06/ [20250517].
-
-

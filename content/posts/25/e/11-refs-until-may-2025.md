@@ -17,6 +17,10 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 17-may-2025
++ R. Sari Kovats, Shakoor Hajat, "Heat stress and public health: a critical review", Annual Review of Public Health, vol 29, p 41-55, Apr 2008, url https://doi.org/10.1146/annurev.publhealth.29.020907.090843.
+
+
 ## 14-may-2025
 + Theo, "What is AnyDesk", TSplus, 26 Sep 2024, url https://tsplus.net/remote-support/blog/what-is-anydesk/ [20250514].
 + Maulia Inayah Ansar, "Apa itu Anydesk? Fitur, Cara Install, dan Kelebihannya", Digital Solusi Grup, 23 Aug 2024, url https://digitalsolusigrup.co.id/anydesk-adalah/ [20250514].
