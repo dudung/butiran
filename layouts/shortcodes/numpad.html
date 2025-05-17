@@ -1,0 +1,8 @@
+{{ $js := resources.Get "js/numpad.js" }}
+{{ $file := $js | resources.Minify  }}
+{{ $url := $file.Permalink | relURL }}
+<script type="text/javascript" src="{{ $url }}"></script>
+<div id="numpad"></div>
+<script>
+numpad();
+</script>

@@ -1,0 +1,49 @@
+<select name="x" id="x"> 
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+<select name="op" id="op"> 
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<select name="y" id="y"> 
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+<button onclick="button_click();">=</button>
+<input
+  type="text"
+  name="z" id="z"
+  style="width: 60px; text-align: right;"
+  disabled
+/> 
+
+<script>
+function button_click() {
+  var x = document.getElementById("x");
+  var op = document.getElementById("op"); 
+  var y = document.getElementById("y");
+  var z = document.getElementById("z");
+  
+  var expr = x.value + op.value + y.value;
+  z.value = eval(expr);
+}
+</script>
