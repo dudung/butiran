@@ -2,7 +2,7 @@
 title = 'the 3rd kine eqns, p3'
 date = '2025-02-17T06:09:31+07:00'
 draft = false
-type = 'slides'
+type = 'notes'
 authors = ['viridi']
 tags = ['kinematics']
 math = true
