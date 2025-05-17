@@ -244,10 +244,12 @@ cnt.appendChild(img);
 + Current interpolation [^gpt-4o_2025] can be advanced and further improved to give better insight.
 + It is necessary to dig deeper the topic [^kovats_2008].
 + Read material about coginitive digital twin [^el-mokhtari_2022] and try to understand it for the sub working project.
++ There is also reading material that easier to read [^nahata_2025], hopefully.
 
 
 ## refs
 [^el-mokhtari_2022]: Karim El Mokhtari, Ivan Panushev, J. J. McArthur, "Development of a Cognitive Digital Twin for Building Management and Operations", Frontiers in Built Environment, vol 8, p 856873, 2022, url https://doi.org/10.3389/fbuil.2022.856873.
 [^gpt-4o_2025]: GPT-4o, "Heatmap interpolation guide", butiran, 17 May 2025, url https://chatgpt.com/share/68280601-05b8-800a-9a92-1f563057b63f [20250517].
 [^kovats_2008]: R. Sari Kovats, Shakoor Hajat, "Heat stress and public health: a critical review", Annual Review of Public Health, vol 29, p 41-55, Apr 2008, url https://doi.org/10.1146/annurev.publhealth.29.020907.090843.
+[^nahata_2025]: Anoushka Nahata, "Digital twins", College of Computing and Data Science, Nanyang Technological University, 2025, url https://dr.ntu.edu.sg/handle/10356/184582 [20250517].
 [^viridi_2025]: Sparisoma Viridi, "purqon ag res", butiran, 11 Dec 2024, url https://dudung.github.io/butiran/24l06/ [20250517].
