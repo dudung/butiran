@@ -30,6 +30,7 @@ This note records copied notes from notes and whether they are already converted
 
 
 ## copied 17-may-2025 (not edited).
++ source: notes.
 + 24: others than above,
 + 25: others than above,
 + osf/2025: all (slide style is missing).
@@ -40,5 +41,5 @@ This note records copied notes from notes and whether they are already converted
 
 
 ## copied 18-may-2025 (not edited)
-+ lecture-notes
++ source: lecture-notes
 + Shortodes code to remove: html, chart, arithm, numpad, button, toc, svg.
