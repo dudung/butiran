@@ -221,7 +221,9 @@ label.style.paddingLeft = "0.5em";
 label.style.fontWeight = "bold";
 
 const img = document.createElement("img");
-img.src = "https://github.com/user-attachments/assets/c3e285de-66d9-445a-bd51-ec84cfd935c2";
+//img.src = "https://github.com/user-attachments/assets/c3e285de-66d9-445a-bd51-ec84cfd935c2";
+img.width = "300";
+img.height = "410";
 img.style.width = "300px";
 img.style.height = "410px";
 img.style.border = "1px solid #888";
@@ -234,8 +236,10 @@ cnt.appendChild(leftDiv);
 cnt.appendChild(rightDiv);
   rightDiv.appendChild(can);
 cnt.appendChild(img);
-
 {{< /script/runner >}}
+
++ Image url https://github.com/user-attachments/assets/c3e285de-66d9-445a-bd51-ec84cfd935c2 [20250517].
++ Story url https://medium.com/p/b948e6cc4240 [20250517].
 
 
 ## notes
