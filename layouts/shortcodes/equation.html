@@ -1,0 +1,34 @@
+{{ $seed := "foo" }}
+{{ $id := .Get "id" }}
+{{ $left := .Get "left" | default "0px" }}
+{{ $top := .Get "top" | default "0px" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $borderwidth := .Get "borderwidth" | default "0px" }}
+{{ $fontsize := .Get "fontsize" | default "1em" }}
+{{ $angle := .Get "angle" | default "0" }}
+
+<style>
+.equation#{{- $id -}} {
+  left: {{ $left }} !important;
+  top: {{ $top }} !important;
+  width: {{ $width }} !important;
+  height: {{ $height }} !important;
+  border: {{ $borderwidth }} #4f81bd solid !important;
+  transform: rotate({{ $angle }}deg) !important;
+}
+
+.equation#{{- $id -}} {
+  .katex, .katex-display {
+    font-size: {{ $fontsize }} !important;
+  }
+
+  .katex .tag {
+    font-size: {{ $fontsize }} !important;
+  }
+}
+</style>
+
+<div class="equation" id="{{- $id -}}">
+{{ .Inner }}
+</div>

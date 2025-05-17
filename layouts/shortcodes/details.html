@@ -1,0 +1,37 @@
+{{ $summary := .Get "summary" | default "Details" }}
+{{ $markdown := .Get "markdown" | default "yes"}}
+<details>
+  <summary>{{ $summary }}</summary>
+  {{ if eq $markdown "yes" }}
+    <span>{{ .Inner | markdownify }}</span>
+  {{ else }}
+    <span>{{ .Inner }}</span>
+  {{ end }}
+</details>
+
+
+<style>
+details {
+  display: inline-block;
+  font-size: 80%;
+}
+
+summary {
+  list-style: none; /* Removes default triangle */
+  line-height: 0.5 !important;
+}
+
+summary::before {
+  content: "▶"; /* Custom character */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+details[open] summary::before {
+  content: "▼"; /* Change when expanded */
+}
+
+details span ul li {
+  line-height: 1.2 !important;
+}
+</style>

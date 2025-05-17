@@ -1,0 +1,133 @@
+{{ $id := .Get "id" }}
+{{ $left := .Get "left" }}
+{{ $top := .Get "top" }}
+{{ $width := .Get "width" | default "200px" }}
+{{ $height := .Get "height" | default "200px" }}
+
+{{ $css := resources.Get "css/lissajous.css" | resources.ExecuteAsTemplate "css/generated-lissajous.css" . | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<style>
+#{{- $id -}}.lissajous-container {
+  left: {{ $left }};
+  top: {{ $top }};
+}
+</style>
+
+<div class="lissajous-container" id="{{- $id -}}">
+
+<script>
+(function() {
+  const lines = "{{ .Inner }}".split("\r\n");
+  if(lines[0].length == 0) {
+    lines.shift();
+  }
+  if(lines[lines.length-1].length == 0) {
+    lines.pop();
+  }
+  
+  const XMIN = 0;
+  const XMAX = parseFloat({{ $width }});
+  const YMIN = parseFloat({{ $height }});
+  const YMAX = 0;
+  
+  let xmin, xmax, numx;
+  let ymin, ymax, numy;
+  let tbeg, tend, numt;
+  let Ax, Tx, px;
+  let Ay, Ty, py;
+  
+  [Ax, Tx, px] = getParams3(lines, "fx");
+  [Ay, Ty, py] = getParams3(lines, "fy");
+  [tbeg, tend, numt] = getParams3(lines, "tt");
+  [xmin, xmax, numx] = getParams3(lines, "xx");
+  [ymin, ymax, numy] = getParams3(lines, "yy");
+  
+  const dt = (tend - tbeg) / (numt - 1)
+  const t = [];
+  const x = [];
+  const y = [];
+  for(let i = 0; i < numt; i++) {
+    let it = tbeg + i * dt;
+	let fx = Ax * Math.sin(2 * Math.PI / Tx * it + px);
+	let fy = Ay * Math.sin(2 * Math.PI / Ty * it + py);
+	
+    t.push(it);
+    x.push(fx);
+    y.push(fy);
+  }
+  
+  const can = document.createElement("canvas");
+  can.width = parseInt({{- $width -}});
+  can.height = parseInt({{- $height -}});
+  can.style.width = "{{- $width -}}";
+  can.style.height = "{{- $height -}}";
+  can.style.background = "#fff";
+  
+  const ctx = can.getContext("2d");
+  
+  ctx.lineWidth = "0.2";
+  ctx.strokeStyle = "#000";
+  const dy = (ymax - ymin) / (numy - 1);
+  ctx.beginPath();
+  for(let i = 0; i < numy; i++) {
+    let y = ymin + i * dy;
+    let Y = transform(y, ymin, ymax, YMIN, YMAX);
+    ctx.moveTo(XMIN, Y);
+    ctx.lineTo(XMAX, Y);
+  }
+  ctx.stroke();
+
+  ctx.lineWidth = "0.2";
+  ctx.strokeStyle = "#000";
+  const dx = (xmax - xmin) / (numx - 1);
+  ctx.beginPath();
+  for(let i = 0; i < numx; i++) {
+    let x = xmin + i * dx;
+    let X = transform(x, xmin, xmax, XMIN, XMAX);
+    ctx.moveTo(X, YMIN);
+    ctx.lineTo(X, YMAX);
+  }
+  ctx.stroke();
+  
+  ctx.lineWidth = "1.5";
+  ctx.strokeStyle = "#f00";
+  ctx.beginPath();
+  for(let i = 0; i < numt; i++) {
+    let X = transform(x[i], xmin, xmax, XMIN, XMAX);
+    let Y = transform(y[i], ymin, ymax, YMIN, YMAX);
+    if(i == 0) {
+      ctx.moveTo(X, Y);
+    } else {
+      ctx.lineTo(X, Y);
+    }
+  }
+  ctx.stroke();
+  
+  const parent = document.getElementById("{{- $id -}}");
+  parent.appendChild(can);  
+  
+  function getParams3(list, key) {
+	for(let l of list) {
+	  if(l.indexOf(key) > -1) {
+		let cols = l.split(" ");
+		let v1 = parseFloat(cols[1]);
+		let v2 = parseFloat(cols[2]);
+		let v3 = parseFloat(cols[3]);
+		return [v1, v2, v3];
+	  }
+	}
+  }
+
+  function transform(t, tmin, tmax, TMIN, TMAX) {
+    let T = (t - tmin) / (tmax  - tmin);
+    T = T * (TMAX - TMIN) + TMIN;
+    return T;
+  }
+
+})();
+</script>
+
+</div>
+

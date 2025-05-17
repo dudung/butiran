@@ -1,0 +1,3 @@
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" | default "100%" }}
+<img src="{{- $src -}}" style="width: {{- $width -}}" />

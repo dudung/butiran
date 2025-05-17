@@ -1,0 +1,41 @@
+{{ $styles := resources.Get "css/tasklist.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+
+{{ $urls := slice }}
+{{ $updates := slice }}
+{{ $status := slice }}
+{{ $today := slice }}
+
+{{ range split (trim .Inner " \n\r\t") "\n" }}
+  {{ $parts := split . " | " }}
+  {{ $urls = $urls | append (index $parts 0) }}
+  {{ $updates = $updates | append (index $parts 1) }}
+  {{ $status = $status | append (index $parts 2) }}
+  {{ $today = $today | append (index $parts 3) }}
+{{ end }}
+
+<div class="task-list-container">
+  {{ range $i, $url := $urls }}
+    {{ $matchedPages := where site.RegularPages "Params.url" $url }}
+    {{ if gt (len $matchedPages) 0 }}
+      {{ $page := index $matchedPages 0 }}
+      <div class="task">
+        <div class="task-header">
+          <div class="task-url">{{ $page.Params.url }}</div>
+          <div class="task-date">{{ dateFormat "2-Jan-2006" $page.Params.date }}</div>
+        </div>
+        
+        <div class="task-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></div>
+        
+        <div class="task-footer">
+          <div class="task-updates">{{ strings.Repeat (int (index $updates $i)) "▮" }}</div>
+          <div class="task-status">{{ (index $status $i) }}</div>
+          {{ if (index $today $i) }}
+          <div class="task-today"></div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
