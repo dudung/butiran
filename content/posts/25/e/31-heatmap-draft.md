@@ -19,11 +19,12 @@ Following is a demo in draft stage.
 
 {{< script/runner id="cnt1" >}}
 class Sensor {
-  constructor(id, state, x, y) {
+  constructor(id, state, x, y, temp) {
     this.id = id;
     this.state = state;
     this.x = x;
     this.y = y;
+    this.temp = temp;
   
     this.element = document.createElement("label");
     this.element.style.display = "flex";
@@ -34,7 +35,7 @@ class Sensor {
     input.checked = state;
 
     const text = document.createElement("span");
-    text.innerHTML = "Sensor " + this.id.slice(-1);
+    text.innerHTML = "Sensor " + this.id.slice(-2);
 
     this.element.appendChild(input);
     this.element.appendChild(text);
@@ -62,44 +63,90 @@ function clear(canvas) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
-function draw(sensor, canvas, fill) {
+function draw(sensor, canvas, color) {
   const xmin = 0;
-  const xmax = 1;
+  const xmax = 40;
   const ymin = 0;
-  const ymax = 1;
+  const ymax = 40;
   
   const XMIN = 0;
   const XMAX = canvas.width;
-  const YMIN = canvas.height;
-  const YMAX = 0;
+  const YMAX = canvas.height;
+  const YMIN = 0;
   
   const X = transform(sensor.x, xmin, xmax, XMIN, XMAX);
   const Y = transform(sensor.y, ymin, ymax, YMIN, YMAX);
   
   const ctx = canvas.getContext("2d");
-  ctx.fillStyle = fill;
+  ctx.fillStyle = color;
   ctx.beginPath();
   ctx.arc(X, Y, 4, 0, 2*Math.PI);
   ctx.fill();
-  ctx.strokeStyle = "#f00";
+  ctx.strokeStyle = color;
   ctx.beginPath();
   ctx.arc(X, Y, 4, 0, 2*Math.PI);
   ctx.stroke();
+  ctx.font = "12px Arial";
+  ctx.fillText("" + sensor.temp, X + 10, Y + 4);
 }
 
 function toggleCheck(e) {
-  const id = e.target.id;
-  const el = document.getElementById(id);
-  if(el.checked) {
-    for(let s of sensors) {
-      if(s.id == el.id) {
-        draw(s, can, "#f00");
+  update();
+  
+  for(let s of sensors) {
+    const el = document.getElementById(s.id);
+    if(el.checked) {
+      draw(s, can, "#f00");
+    } else {
+      draw(s, can, "#fff");
+    }
+  }  
+}
+
+function update() {
+  const size = 40;
+  const cellSize = can.width / size;
+  
+  // Step 1: Sparse temperature data
+  const knownPoints = [];
+  let N = 0;
+  for(let s of sensors) {
+    const el = document.getElementById(s.id);
+    if(el.checked) {
+      knownPoints.push(
+        {
+          x: s.x,
+          y: s.y,
+          temp: s.temp,
+        }
+      )
+    N++;
+    }
+  }
+  
+  // Step 2: Fill full grid using nearest known point
+  function getNearestTemp(x, y) {
+    let nearest = knownPoints[0];
+    let minDist = Infinity;
+    for (const p of knownPoints) {
+      const dist = (x - p.x) ** 2 + (y - p.y) ** 2;
+      if (dist < minDist) {
+        minDist = dist;
+        nearest = p;
       }
     }
-  } else {
-    for(let s of sensors) {
-      if(s.id == el.id) {
-        draw(s, can, "#fff");
+    return nearest.temp;
+  }
+  
+  if(N > 0) {
+    // Step 3: Draw the heatmap
+    const ctx = can.getContext("2d");
+    for (let y = 0; y < size; y++) {
+      for (let x = 0; x < size; x++) {
+        const temp = getNearestTemp(x, y);
+        const color = `hsl(${(1 - temp / 50) * 240}, 100%, 50%)`; // 0–50°C   range → blue to red
+        ctx.fillStyle = color;
+        ctx.fillRect(x * cellSize, y * cellSize, cellSize, cellSize);
       }
     }
   }
@@ -110,7 +157,7 @@ const cnt = document.getElementById("cnt1");
 with(cnt.style) {
   border = "1px solid #888";
   width = "400px";
-  height = "300px";
+  height = "410px";
   display = "flex";
 }
 
@@ -132,17 +179,38 @@ can.height = "300";
 can.style.width = can.width + "px";
 can.style.height = can.height + "px";
 can.style.background = "white";
+can.style.marginTop = "2em";
+can.style.marginRight = "0.5em";
 
-const s0 = new Sensor("sensor0", false, 0.1, 0.1);
-s0.addEventListener("click", toggleCheck);
-const s1 = new Sensor("sensor1", false, 0.8, 0.2);
-s1.addEventListener("click", toggleCheck);
-const s2 = new Sensor("sensor2", false, 0.5, 0.7);
-s2.addEventListener("click", toggleCheck);
-const s3 = new Sensor("sensor3", false, 0.1, 0.9);
-s3.addEventListener("click", toggleCheck);
+const Ns = 16;
+const sx = [
+  05, 15, 25, 35,
+  05, 15, 25, 35,
+  05, 15, 25, 35,
+  05, 15, 25, 35,
+];
+const sy = [
+  05, 05, 05, 05,
+  15, 15, 15, 15,
+  25, 25, 25, 25,
+  35, 35, 35, 35,
+];
+const temp = [
+  10, 10, 10, 10,
+  20, 20, 20, 10,
+  30, 20, 10, 10,
+  40, 40, 30, 20,
+];
 
-const sensors = [s0, s1, s2, s3];
+const sensors = [];
+for(let i = 0; i < Ns; i++) {
+  ni = "" + i;
+  if(i < 10) ni = "0" + ni;
+  const s = new Sensor("sensor" + ni, false, sx[i], sy[i], temp[i]);
+  s.addEventListener("click", toggleCheck);
+  sensors.push(s);
+}
+
 for(let s of sensors) {
   draw(s, can, "#fff");
 }
@@ -152,13 +220,20 @@ label.innerHTML = "Temperature";
 label.style.paddingLeft = "0.5em";
 label.style.fontWeight = "bold";
 
+const img = document.createElement("img");
+img.src = "https://github.com/user-attachments/assets/c3e285de-66d9-445a-bd51-ec84cfd935c2";
+img.style.width = "300px";
+img.style.height = "410px";
+
 cnt.appendChild(leftDiv);
   leftDiv.append(label);
   for(let s of sensors) {
     s.appendTo(leftDiv);
   }
 cnt.appendChild(rightDiv);
-  rightDiv.appendChild(can)
+  rightDiv.appendChild(can);
+cnt.appendChild(img);
+
 {{< /script/runner >}}
 
 
