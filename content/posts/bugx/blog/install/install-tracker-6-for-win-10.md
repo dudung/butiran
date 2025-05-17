@@ -1,6 +1,6 @@
 ---
 title: "install tracker 6 for win 10"
-date: 2022-06-21T105:46:00+0700
+date: 2022-06-21T05:46:00+0700
 lastmod: 2022-06-21T07:16:00+0700
 author: viridi
 mathjax: false

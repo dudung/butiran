@@ -61,6 +61,7 @@ url: "000b"
 + `fin` [#finding](#finding)
 
 
+<!--
 {{< comment >}}
 + Sahin S, Sumnu S G (2006) "Thermal Properties of Foods", in Physical Properties of Foods, Springer, New York, ch 3
 + Optimasi Proses Produksi Konsentrat Protein Kacang Merah dan Kacang Hijau dengan Konsep Pengeringan Vakum dan Spray Drying.
@@ -82,8 +83,9 @@ url: "000b"
   - Air (A), protein (B) dan karbohidrat (C).
 + Dari persamaan-persamaan empirik yang diperoleh, bagaimana rentang batasannya?
 + BN:
-  - Production Process Optimation --> Drying Process Optimation.
+  - Production Process Optimation -> Drying Process Optimation.
   - Apa dasar VE dan batasannya, bagaimana dengan measurement.
 + MJ:
   - Format, bab 2 dan bab 3 hilang.
 {{< /comment >}}
+-->
