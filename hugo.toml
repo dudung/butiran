@@ -7,7 +7,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 enableEmoji = true
 
 [pagination]
-pagerSize = 40
+pagerSize = 25
 
 [taxonomies]
   author = "authors"
