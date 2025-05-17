@@ -1,0 +1,11 @@
+<!-- 
+	citeas 
+	a Hugo shortcode to put how-to-cite at the bottom of a post
+	Sparisoma Viridi
+	https://github.com/dudung
+	
+	20220321 It can only read one author, link to author nickname and page, border and background.
+-->
+<div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
+Cite as: <a href= "{{ .Page.Site.BaseURL }}author/{{ .Page.Params.author }}">{{ .Page.Params.author }}</a>, "{{ .Page.Params.title }}", {{ .Page.Site.Title }}, {{ .Page.Params.lastmod.Format "2 Jan 2006" }}, url <a href= "{{ .Page.Site.BaseURL }}{{ .Page.Params.url }}">{{ .Page.Site.BaseURL }}{{ .Page.Params.url }}</a> [{{ now.Format "20060102"}}].
+</div>
