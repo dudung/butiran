@@ -224,6 +224,7 @@ const img = document.createElement("img");
 img.src = "https://github.com/user-attachments/assets/c3e285de-66d9-445a-bd51-ec84cfd935c2";
 img.style.width = "300px";
 img.style.height = "410px";
+img.style.border = "1px solid #888";
 
 cnt.appendChild(leftDiv);
   leftDiv.append(label);
