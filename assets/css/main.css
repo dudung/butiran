@@ -57,6 +57,10 @@ nav > ul > li {
   line-height: 18.7px;
 }
 
+.homepage-post-date {
+  font-size: 95%;
+}
+
 .posts-box-container {
   text-align: left;
   line-height: 10px;

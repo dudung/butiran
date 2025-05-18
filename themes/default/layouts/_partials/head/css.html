@@ -1,6 +1,6 @@
 {{- with resources.Get "css/main.css" }}
   {{- if hugo.IsDevelopment }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    <link rel="stylesheet" href="{{ .RelPermalink }}?v={{ now.Unix }}">
   {{- else }}
     {{- with . | minify | fingerprint }}
       <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">

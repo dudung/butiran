@@ -30,7 +30,7 @@
       {{ range $paginator.Pages }}
       
         <div class="homepage-posts-box">
-          <code>
+          <code class="homepage-post-date">
             {{ dateFormat "02-Jan-2006" .Date }}
           </code><br>
           <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
