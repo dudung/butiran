@@ -30,39 +30,47 @@ This note records copied notes from notes and whether they are already converted
 
 
 ## notes
-+ copied 17-may-2025 (not edited)
-+ 24: others than above,
-+ 25: others than above,
-+ osf/2025: all (slide style is missing).
-+ zenodo: all (slide style is missing).
-+ shortcodes to remove: img, url, lissajous, progresslist, rawhtml, tasklist, vspace, details, fsize, graphic, equation, canvas, center.
-+ Equation work here e.g. $y = ax^2 + bx + c$, but not in some copied notes from [notes](https://dudung.github.io/notes).
-  - update (17/5): [25b37](/butiran/25b37) math support can be fixed by simply changing type to notes.
++ `17-may-2025`
+  + Copied (not edited)
+  + 24: others than above,
+  + 25: others than above,
+  + osf/2025: all (slide style is missing).
+  + zenodo: all (slide style is missing).
+  + Shortcodes to remove: img, url, lissajous, progresslist, rawhtml, tasklist, vspace, details, fsize, graphic, equation, canvas, center.
+  + Equation work here e.g. $y = ax^2 + bx + c$, but not in some copied notes from [notes](https://dudung.github.io/notes).
+    - update (17/5): [25b37](/butiran/25b37) math support can be fixed by simply changing type to notes.
 
 
 ## lecture-notes
-+ copied 18-may-2025 (not edited)
-+ shortodes code to remove: html, chart, arithm, numpad, button, toc, svg.
++ url https://github.com/dudung/lecture-notes
++ `18-may-2025`
+  - Copied 18-may-2025 (not edited)
+  - shortodes code to remove: html, chart, arithm, numpad, button, toc, svg.
 
 
 ## plaintext
-+ copied 18-may-2025 (not edited)
-+ shortcodes to remove: svgpath, testcode, gene2grid.
+url https://github.com/dudung/plaintext
++ `18-may-2025`
+  - Copied (not edited)
+  - shortcodes to remove: svgpath, testcode, gene2grid.
 
 
 ## bugx-hugo-src
-+ copied 18-may-2025 (not edited, but date format of some posts)
 + url https://github.com/dudung/bugx-hugo-src
-+ shortcode to remove: todo, citeas.
++ `18-may-2025`
+  - Copied (not edited, but date format of some posts)
+  - Shortcode to remove: todo, citeas.
 
 
 ## bugx-src
-+ `18-may-2025` copied (not edited, but date format of some posts).
 + url https://github.com/dudung/bugx-src
++ `18-may-2025`
+  - Copied (not edited, but date format of some posts).
 
 
 ## blank
 + url https://github.com/dudung/blank
 + `18-may-2025`
   - Copy 35 posts.
-  - Problems on shortcode: blank/3dmoljs (fixed), blank/datablock (fixed), blank/abcjs (fixed), blank/svgpath (fixed), blank/scatter (fixed),
+  - Problems on shortcode: blank/3dmoljs (fixed), blank/datablock (fixed), blank/abcjs (fixed), blank/svgpath (fixed), blank/scatter (fixed).
+  - Todo: url with 5 digit (currently not used).
