@@ -30,7 +30,7 @@ Create `chart.html` in `\layouts\shortcodes` with following content
 
 <script type="text/javascript">
     var ctx = document.getElementById('{{ $id }}').getContext('2d');
-    var options = {{ $r | safeJS }};
+    var options = "{{ $r | safeJS }}";
     new Chart(ctx, options);
 </script>
 ```
