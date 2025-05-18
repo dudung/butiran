@@ -3,6 +3,7 @@ date = '2024-12-10T21:21:25+07:00'
 draft = false
 title = 'munir ag res'
 math = false
+type = 'notes'
 tags = ['res']
 authors = ['viridi']
 url = '24l05'

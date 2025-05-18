@@ -12,6 +12,7 @@ url = '34'
 <!-- more -->
 
 + [`24j29`](/butiran/24j29) vs-ag
+  - `19-may-2025` Collect prev info.
 + [`24l02`](/butiran/24l02) md-ag
   - [`24j33`](/butiran/24j33) raman-halal
   - [`25a25`](/butiran/25a25) raman-custom
