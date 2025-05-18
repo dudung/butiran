@@ -68,9 +68,29 @@ url https://github.com/dudung/plaintext
   - Copied (not edited, but date format of some posts).
 
 
-## blank
+## ~blank~
 + url https://github.com/dudung/blank
 + `18-may-2025`
   - Copy 35 posts.
   - Problems on shortcode: blank/3dmoljs (fixed), blank/datablock (fixed), blank/abcjs (fixed), blank/svgpath (fixed), blank/scatter (fixed).
   - Todo: url with 5 digit (currently not used).
++ `18-may-2025`
+  - Delete 35 post since it is the same as nuo/18.
+
+
+## nou
++ url https://github.com/dudung/nou
++ `18-may-2025`
+  - Copy 251 files.
+  - Fix shortcode requirements: div.
+  - Fix posts the same as in blank.
+    + 18/curved-line-with-svg-path.md           (blank/svgpath)
+    + 18/scatter-plot-with-chart-js.md          (blank/scatter)
+    + 18/how-about-electronic-circuit.md        (blank/svgpath)
+    + 18/info-from-datablock.md                 (blank/datablock)
+    + 18/3dmol-js-support.md                    (blank/3dmolj)
+    + 18/abcjs-support.md                       (blank/abcjs)
+    + 19/some-features-on-hugo.md               (blank/scatter, blank/abcjs, blank/3dmoljs, blank/svgpath, blank/datablock)
+    + 20/have-no-idea.md                        (blank/scatter, blank/abcjs, blank/3dmoljs, blank/svgpath, blank/datablock)
+    + 20/fun-with-random-number-js-css-html.md  (js)
+    + 20/stress-strain-analysis-for-ml.md       (blank/scatter)

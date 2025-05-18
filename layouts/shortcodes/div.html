@@ -1,0 +1,4 @@
+{{- $style := default "" (.Get 0) | safeCSS -}}
+<div style="{{ $style }}">
+  {{- .Inner | safeHTML -}}
+</div>
