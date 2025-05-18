@@ -20,7 +20,7 @@ Make `datablock.html` in `layouts\shortcodes\blank` to get information of databl
 <div id="{{ $id }}"></div>
 
 <script>
-var r = {{ ( .Inner | chomp) }};
+var r = "{{ ( .Inner | chomp) }}";
 var lines = r.split('\n');
 lines.shift();
 lines = lines.join('\n');
