@@ -29,8 +29,8 @@ This note records copied notes from notes and whether they are already converted
 + 25d: 42-72 (from this point forward).
 
 
-## copied 17-may-2025 (not edited).
-+ source: notes.
+## notes
++ copied 17-may-2025 (not edited)
 + 24: others than above,
 + 25: others than above,
 + osf/2025: all (slide style is missing).
@@ -40,20 +40,29 @@ This note records copied notes from notes and whether they are already converted
   - update (17/5): [25b37](/butiran/25b37) math support can be fixed by simply changing type to notes.
 
 
-## copied 18-may-2025 (not edited)
-+ source: lecture-notes.
+## lecture-notes
++ copied 18-may-2025 (not edited)
 + shortodes code to remove: html, chart, arithm, numpad, button, toc, svg.
 
 
-## copied 18-may-2025 (not edited)
-+ source: plain-text.
+## plaintext
++ copied 18-may-2025 (not edited)
 + shortcodes to remove: svgpath, testcode, gene2grid.
 
 
-## copied 18-may-2025 (not edited)
-+ course: bugx.
+## bugx-hugo-src
++ copied 18-may-2025 (not edited, but date format of some posts)
++ url https://github.com/dudung/bugx-hugo-src
 + shortcode to remove: todo, citeas.
 
 
-## copied 18-may-2025 (not edited)
-+ course: bug.
+## bugx-src
++ `18-may-2025` copied (not edited, but date format of some posts).
++ url https://github.com/dudung/bugx-src
+
+
+## blank
++ url https://github.com/dudung/blank
++ `18-may-2025`
+  - Copy 35 posts.
+  - Problems on shortcode: blank/3dmoljs (fixed), blank/datablock (fixed), blank/abcjs (fixed), blank/svgpath (fixed), blank/scatter (fixed),
