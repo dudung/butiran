@@ -46,21 +46,21 @@
       <div class="pagination">
         <!-- "Previous" button -->
         {{ if $paginator.HasPrev }}
-          <a href="{{ $paginator.Prev.URL }}" class="prev">&lt;</a>
+          <a href="{{ $paginator.Prev.URL }}" class="prev">&nbsp;&lt;&nbsp;</a>
         {{ end }}
         
         <!-- Numeric pagination -->
         {{ range $paginator.Pagers }}
           {{ if eq . $paginator }}
-            <span class="current">{{ .PageNumber }}</span> <!-- Current page -->
+            <span class="current">{{ printf "%02d" .PageNumber }}</span> <!-- Current page -->
           {{ else }}
-            <a href="{{ .URL }}" class="page">{{ .PageNumber }}</a>
+            <a href="{{ .URL }}" class="page">{{ printf "%02d" .PageNumber }}</a>
           {{ end }}
         {{ end }}
              
         <!-- "Next" button -->
         {{ if $paginator.HasNext }}
-          <a href="{{ $paginator.Next.URL }}" class="next">&gt;</a>
+          <a href="{{ $paginator.Next.URL }}" class="next">&nbsp;&gt;&nbsp;</a>
         {{ end }}
       </div>
     </div>
