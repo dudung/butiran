@@ -26,7 +26,7 @@ In order to embed JS in Hugo posts, a shortcode named `js` is made with followin
 <script>
 js = document.getElementById("{{- $id -}}");
 var fn = "f_{{- $id -}}";
-window[fn] = function() { {{- .Inner | safeJS -}} }
+window[fn] = function() { "{{- .Inner | safeJS -}}" }
 window[fn]();
 </script>
 </div>
