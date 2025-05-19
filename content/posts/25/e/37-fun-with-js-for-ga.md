@@ -26,14 +26,14 @@ const div = createDiv(400, 400, "#888", "#fafafa");
 div.style.display = "flex";
 
 const inp = createTextarea();
-inp.style.flex = "3";
+inp.style.flex = "4";
 
 const btn = createButton(10, 30, "Run");
 btn.style.flex = "1";
 btn.disabled = true;
 
 const out = createTextarea();
-out.style.flex = "5";
+out.style.flex = "4";
 
 cnt.appendChild(div);
 div.appendChild(inp);
