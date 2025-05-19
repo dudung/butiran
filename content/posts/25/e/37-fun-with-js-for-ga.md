@@ -12,7 +12,7 @@ url = '25e37'
 <!-- more -->
 
 {{< script/loader >}}
-test.js
+test
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
