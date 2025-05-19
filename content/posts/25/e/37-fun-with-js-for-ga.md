@@ -43,7 +43,7 @@ div.appendChild(out);
 inp.addEventListener('scroll', () => syncScroll(inp, out));
 out.addEventListener('scroll', () => syncScroll(out, inp));
 
-const n = 200;
+const n = 400;
 const coords = getCoords();
 const chro = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const popu = createPopulation(chro, n);
