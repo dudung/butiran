@@ -12,9 +12,9 @@ url = '25e37'
 <!-- more -->
 
 {{< script/loader >}}
-test
+tests.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
-
+console.log(hello("World"));
 {{< /script/runner >}}
