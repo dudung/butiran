@@ -9,6 +9,7 @@ url = '25a22'
 +++
 <!--more-->
 
++ `19-may-2025` [`wjyzn`](https://osf.io/wjyzn) Plan change, accepted requirement.
 + `16-may-2025` [`8h9yv`](https://osf.io/8h9yv) Thesis II supervision, manuscript.
 + `17-apr-2025` [`sd2c8`](https://osf.io/sd2c8) Thesis II supervision.
 + `13-jan-2025` [`rfc5n`](https://osf.io/rfc5n) Thesis I seminar.

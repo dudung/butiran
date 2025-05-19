@@ -6,7 +6,7 @@ draft = false
 type = 'notes'
 tags = ['res']
 categories = []
-url = '34'
+url = '25e34'
 +++
 
 <!-- more -->
@@ -26,3 +26,4 @@ url = '34'
   - [`00000`](/butiran/00000) stirpat model
   - [`00000`](/butiran/00000) book 1
   - [`00000`](/butiran/00000) book 2
+  - [`25a22`](/butiran/25a22) benthic with yolov8

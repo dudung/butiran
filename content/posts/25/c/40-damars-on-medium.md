@@ -9,6 +9,8 @@ categories = ['medium']
 url = '25c40'
 +++
 
++ `16-may-2025` [`hmxb5`](https://osf.io/hmxb5) Knowledge exchange on ipb with daad.
++ `15-may-2025` [`tc8pq`](https://osf.io/tc8pq) Visit of daad to ipb university.
 + `13-may-2025` [`n7c3j`](https://osf.io/n7c3j) Zoom on biblimetric and citation analysis.
 + `12-may-2025` [`cu2ta`](https://osf.io/cu2ta) Organization and medium publication.
 + `11-may-2025` [`rb2c6`](https://osf.io/rb2c6) Short tutorial info for medium.
