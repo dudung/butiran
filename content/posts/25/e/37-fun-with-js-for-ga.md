@@ -12,9 +12,11 @@ url = '25e37'
 <!-- more -->
 
 {{< script/loader >}}
-tests.js
+25e37.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
-console.log(hello("World"));
+const cnt = document.getElementById("cnt1");
+const div = createDiv(100, 100, "#c00", "#fffafa");
+cnt.appendChild(div);
 {{< /script/runner >}}
