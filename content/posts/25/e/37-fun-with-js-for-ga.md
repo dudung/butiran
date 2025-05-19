@@ -30,6 +30,7 @@ inp.style.flex = "3";
 
 const btn = createButton(10, 30, "Run");
 btn.style.flex = "1";
+btn.disabled = true;
 
 const out = createTextarea();
 out.style.flex = "5";
@@ -39,10 +40,19 @@ div.appendChild(inp);
 div.appendChild(btn);
 div.appendChild(out);
 
+inp.addEventListener('scroll', () => syncScroll(inp, out));
+out.addEventListener('scroll', () => syncScroll(out, inp));
+
+const n = 200;
+const coords = getCoords();
 const chro = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-const popu = createPopulation(chro, 10);
-const pstr = joinNestedArrays(popu);
-addTextToTextarea(inp, pstr);
+const popu = createPopulation(chro, n);
+const pst1 = joinNestedArrays(popu);
+const pst2 = addLineNumberToArray(pst1);
+addTextToTextarea(inp, pst2);
+
+const dist = evaluatePopulation(popu, coords);
+addTextToTextarea2(out, pst1, dist);
 
 {{< /script/runner >}}
 

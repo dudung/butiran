@@ -14,6 +14,11 @@
  * - shuffle(arr)
  * - createPopulation(arr, n)
  * - joinNestedArrays(arr)
+ * - addLineNumberToArray(arr)
+ * - addLineNumberToArray(arr)
+ * - evaluate(chro, net)
+ * - addTextToTextarea2(el, lines1, lines2)
+ * - syncScroll(source, target)
  */
 
 
@@ -167,4 +172,139 @@ function joinNestedArrays(arr) {
     str.push(s);
   }
   return str;
+}
+
+
+/**
+ * Adds line numbers to each element of an array of strings.
+ *
+ * Each line number is zero-padded based on the number of elements to ensure consistent formatting.
+ *
+ * @param {string[]} arr - The array of strings to process.
+ * @returns {string[]} A new array where each string is prefixed with a zero-padded line number.
+ *
+ * @example
+ * addLineNumberToArray(["apple", "banana", "cherry"])
+ * // returns ["00 apple", "01 banana", "02 cherry"]
+ */
+function addLineNumberToArray(arr) {
+  if (!Array.isArray(arr)) {
+    throw new TypeError("Input must be an array.");
+  }
+  
+  const len = arr.length;
+  const digits = len > 0 ? Math.ceil(Math.log10(len)) : 1;
+  const result = [];
+  
+  for (const [i, val] of arr.entries()) {
+    const num = String(i).padStart(digits, '0');
+    result.push(`${num} ${val}`);
+  }
+  
+  return result;
+}
+
+
+/**
+ * Calculates the total Euclidean distance for a path through a series of points.
+ *
+ * @param {number[]} chro - An array of indices representing the order of points to visit.
+ *                          Each index refers to an entry in the `net` array.
+ * @param {{x: number, y: number}[]} net - An array of point objects, each with `x` and `y` coordinates.
+ *
+ * @returns {number} The total distance of the path defined by `chro`, summing straight-line distances between each consecutive pair of points.
+ *
+ * @example
+ * const net = [
+ *   {x: 0, y: 0},
+ *   {x: 3, y: 4},
+ *   {x: 6, y: 8}
+ * ];
+ * const chro = [0, 1, 2];
+ * const total = evaluate(chro, net); // Returns 10
+ */
+function evaluate(chro, net) {
+  let dist = 0;
+  for(let i = 0; i < chro.length-1; i++) {
+    let dx = net[chro[i+1]].x - net[chro[i]].x;
+    let dy = net[chro[i+1]].y - net[chro[i]].y;
+    let dr = Math.sqrt(dx**2 + dy**2);
+    dist += dr;
+  }
+  return dist;
+}
+
+
+/**
+ * Evaluates a population of chromosomes using a neural network
+ * and scales the result to a range between 0 and 100.
+ *
+ * This function first computes raw evaluation scores for each chromosome
+ * using the provided `evaluate` function and the neural network `net`.
+ * Then it scales those scores linearly to a range from 0 to 100.
+ * It also handles edge cases where all scores are the same.
+ *
+ * @param {Array<any>} popu - The population of chromosomes to evaluate.
+ * @param {Object} net - The neural network or evaluation model used in scoring.
+ * @returns {number[]} An array of scaled evaluation scores in the range [0, 100].
+ *
+ * @example
+ * const scores = evaluatePopulation(popu, net);
+ * // scores might be [0, 25, 75, 100] depending on evaluation
+ */
+function evaluatePopulation(popu, net) {
+  // Compute raw evaluation scores
+  const dist = popu.map(chro => evaluate(chro, net));
+  
+  // Find minimum and maximum scores
+  const dmin = Math.min(...dist);
+  const dmax = Math.max(...dist);
+  
+  // Scale each score to the 0-100 range
+  const dist2 = dist.map(d => {
+    if (dmax === dmin) return 50; // Avoid division by zero; return neutral value
+    
+    let scaled = 90 * (d - dmin) / (dmax - dmin);
+    scaled = Math.round(scaled); // Use rounding for balanced distribution
+    scaled = Math.max(10, Math.min(90, scaled)); // Clamp to [0, 100]
+
+    return scaled;
+  });
+  
+  return dist2;
+}
+
+
+/**
+ * Appends combined lines from two arrays to the given textarea element.
+ *
+ * @param {HTMLTextAreaElement} el - The textarea element to which text will be added.
+ * @param {string[]} lines1 - First array of strings (left side of each line).
+ * @param {string[]} lines2 - Second array of strings (right side of each line).
+ */
+function addTextToTextarea2(el, lines1, lines2) {
+  const n = lines1.length;
+  for(let i = 0; i < n; i++) {
+    el.value += lines1[i] + " " + lines2[i] + "\n";
+  }
+}
+
+
+/**
+ * Synchronizes the vertical scroll position of a target element
+ * to match that of a source element.
+ *
+ * @param {HTMLElement} source - The element whose scroll position is used as the reference.
+ * @param {HTMLElement} target - The element whose scroll position is updated to match the source.
+ *
+ * @example
+ * const textarea1 = document.getElementById('textarea1');
+ * const textarea2 = document.getElementById('textarea2');
+ * 
+ * textarea1.addEventListener('scroll', () => {
+ *   syncScroll(textarea1, textarea2);
+ * });
+ */
+function syncScroll(source, target) {
+  target.scrollTop = source.scrollTop;
 }
