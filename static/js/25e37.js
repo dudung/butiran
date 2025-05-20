@@ -285,7 +285,7 @@ function evaluatePopulation(popu, net) {
 function addTextToTextarea2(el, lines1, lines2) {
   const n = lines1.length;
   for(let i = 0; i < n; i++) {
-    el.value += lines1[i] + " " + lines2[i] + "\n";
+    el.value += "x" + lines1[i] + " " + lines2[i] + "\n";
   }
 }
 
