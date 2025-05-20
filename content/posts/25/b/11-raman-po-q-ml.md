@@ -9,6 +9,7 @@ url = '25b11'
 +++
 <!--more-->
 
++ `19-may-2025` [`c5fev`](https://osf.io/c5fev) Assignment letter from rector.
 + `16-may-2025` [`a5gth`](https://osf.io/a5gth) Techno-economy discussion, other oils.
 + `06-mar-2025` [`hsg9q`](https://osf.io/hsg9q) Plan for 2nd-year in raman@lfd.
 {{< details >}}
