@@ -2,13 +2,16 @@
 title = 'muhammad shaquille hisham'
 date = '2025-04-14T15:21:59+07:00'
 draft = false
-type = 'slides'
+type = 'notes'
 authors = ['viridi']
 tags = ['sv', 'id', 'brin-saw', 'dft', 'ml']
 categories = ['users']
 url = '25d39'
 +++
 
++ `20-may-2025` [`nz4q5`](https://osf.io/nz4q5) Progress from supervisor (id).
++ `16-may-2025` [`ce9mk`](https://osf.io/ce9mk) Abstract for ips-unj.
++ `15-apr-2025` [`6tv52`](https://osf.io/6tv52) Info about documents on overleaf.
 + `14-apr-2025` [`2zxa7`](https://osf.io/2zxa7) Offline discussion after a while.
 + `07-feb-2025` [`94cxm`](https://osf.io/94cxm) Study plan for 2024-2 approval.
 + `23-jan-2025` [`gey92`](https://osf.io/gey92) Proposal (previously ta-1) seminar.

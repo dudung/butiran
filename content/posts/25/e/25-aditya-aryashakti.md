@@ -11,6 +11,7 @@ url = '25e25'
 
 <!-- more -->
 
++ `20-may-2025` [`m6gyf`](https://osf.io/m6gyf) Presentation and draft thesis update.
 + `14-may-2025` [`shjuv`](https://osf.io/shjuv) Draft of bachelor thesis.
 + `21-jan-2025` [`cmx8f`](https://osf.io/cmx8f) Bachelor Proposal seminar.
 + `20-jan-2025` [`umka7`](https://osf.io/umka7) Proposal draft and slides.
