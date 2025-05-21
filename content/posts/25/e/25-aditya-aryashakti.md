@@ -11,6 +11,7 @@ url = '25e25'
 
 <!-- more -->
 
++ `21-may-2025` [`vwct4`](https://osf.io/vwct4) Bachelor final seminar, elec-inst lab.
 + `20-may-2025` [`m6gyf`](https://osf.io/m6gyf) Presentation and draft thesis update.
 + `14-may-2025` [`shjuv`](https://osf.io/shjuv) Draft of bachelor thesis.
 + `21-jan-2025` [`cmx8f`](https://osf.io/cmx8f) Bachelor Proposal seminar.
