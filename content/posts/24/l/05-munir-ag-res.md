@@ -12,6 +12,7 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
++ `21-may-2025` [`2ju4t`](https://osf.io/2ju4t) Creation of introduction v0.
 + `14-may-2025` [`emzxn`](https://osf.io/emzxn) Suggestion on a granular ref.
 + `09-may-2025` [`fya8r`](https://osf.io/fya8r) Info of next prof application.
 + `09-may-2025` [`kbmej`](https://osf.io/kbmej) Info electrospinning in uns.
