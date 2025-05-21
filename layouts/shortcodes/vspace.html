@@ -1,1 +1,5 @@
-<div style="height: {{ .Get 0 | default '1' }}em;"></div>
+{{ if not site.Params.disableShortcodes }}
+
+  <div style="height: {{ .Get 0 | default '1' }}em;"></div>
+
+{{ end }}

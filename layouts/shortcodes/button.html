@@ -1,1 +1,5 @@
-<button type="button">{{ index .Params 0 }}</button>
+{{ if not site.Params.disableShortcodes }}
+
+  <button type="button">{{ index .Params 0 }}</button>
+
+{{ end }}

@@ -1,11 +1,15 @@
-{{ $background := .Get "background" | default "#fff" }}
+{{ if not site.Params.disableShortcodes }}
 
-<style>
-.graphic-container {
-  background: {{ $background }};
-}
-</style>
+  {{ $background := .Get "background" | default "#fff" }}
 
-<div class="graphic-container">
-{{ .Inner }}
-</div>
+  <style>
+  .graphic-container {
+    background: {{ $background }};
+  }
+  </style>
+
+  <div class="graphic-container">
+  {{ .Inner }}
+  </div>
+
+{{ end }}

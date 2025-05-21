@@ -1,22 +1,26 @@
-{{ $urls := slice }}
-{{ $states := slice }}
+{{ if not site.Params.disableShortcodes }}
 
-{{ range split (trim .Inner " \n\r\t") "\n" }}
-  {{ $parts := split . " | " }}
-  {{ $urls = $urls | append (index $parts 0) }}
-  {{ $states = $states | append (index $parts 1) }}
-{{ end }}
+  {{ $urls := slice }}
+  {{ $states := slice }}
 
-<ul>
-  {{ range $i, $url := $urls }}
-    {{ $matchedPages := where site.RegularPages "Params.url" $url }}
-    {{ if gt (len $matchedPages) 0 }}
-      {{ $page := index $matchedPages 0 }}
-      <li>
-        <a href="{{ $page.RelPermalink }}"><code>{{ $page.Params.url }}</code></a>
-        <code>{{ index $states $i }}</code>
-        &nbsp;{{ $page.Title }}
-      </li>
-    {{ end }}
+  {{ range split (trim .Inner " \n\r\t") "\n" }}
+    {{ $parts := split . " | " }}
+    {{ $urls = $urls | append (index $parts 0) }}
+    {{ $states = $states | append (index $parts 1) }}
   {{ end }}
-</ul>
+
+  <ul>
+    {{ range $i, $url := $urls }}
+      {{ $matchedPages := where site.RegularPages "Params.url" $url }}
+      {{ if gt (len $matchedPages) 0 }}
+        {{ $page := index $matchedPages 0 }}
+        <li>
+          <a href="{{ $page.RelPermalink }}"><code>{{ $page.Params.url }}</code></a>
+          <code>{{ index $states $i }}</code>
+          &nbsp;{{ $page.Title }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+
+{{ end }}

@@ -1,3 +1,7 @@
-<div class='slide-ref'>
-{{ .Inner }}
-</div>
+{{ if not site.Params.disableShortcodes }}
+
+  <div class='slide-ref'>
+  {{ .Inner }}
+  </div>
+
+{{ end }}

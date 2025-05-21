@@ -1,3 +1,7 @@
-<figure>
-{{ .Inner | safeHTML }}
-</figure>
+{{ if not site.Params.disableShortcodes }}
+
+  <figure>
+  {{ .Inner | safeHTML }}
+  </figure>
+  
+{{ end }}

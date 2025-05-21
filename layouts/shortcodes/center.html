@@ -1,3 +1,7 @@
-<div class="center">
-{{ .Inner | markdownify }}
-</div>
+{{ if not site.Params.disableShortcodes }}
+
+  <div class="center">
+  {{ .Inner | markdownify }}
+  </div>
+
+{{ end }}

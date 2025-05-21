@@ -21,9 +21,12 @@ Content of matrix showing as colored grid on canvas.
 const cnt = document.getElementById("cnt1");
 
 let style = {
-  border: "1px blue solid",
-  background: "#fee",
+  border: "1px #faa solid",
+  background: "#fffafa",
+  width: "200px",
+  height: "100px",
 };
+
 const div = createElement("div", style);
 
 cnt.appendChild(div);

@@ -1,10 +1,14 @@
-{{- $seed := "foo" -}}
-{{- $id := delimit (shuffle (split (md5 $seed) "" )) "" -}}
-<div id="{{- $id -}}" style="overflow: hidden;">
-<script>
-js = document.getElementById("{{- $id -}}");
-fn = "f_{{- $id -}}";
-window[fn] = function() { {{- .Inner | safeJS -}} }
-window[fn]();
-</script>
-</div>
+{{ if not site.Params.disableShortcodes }}
+
+  {{- $seed := "foo" -}}
+  {{- $id := delimit (shuffle (split (md5 $seed) "" )) "" -}}
+  <div id="{{- $id -}}" style="overflow: hidden;">
+  <script>
+  js = document.getElementById("{{- $id -}}");
+  fn = "f_{{- $id -}}";
+  window[fn] = function() { {{- .Inner | safeJS -}} }
+  window[fn]();
+  </script>
+  </div>
+
+{{ end }}

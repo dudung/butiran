@@ -1,4 +1,8 @@
-{{- $style := default "" (.Get 0) | safeCSS -}}
-<div style="{{ $style }}">
-  {{- .Inner | safeHTML -}}
-</div>
+{{ if not site.Params.disableShortcodes }}
+
+  {{- $style := default "" (.Get 0) | safeCSS -}}
+  <div style="{{ $style }}">
+    {{- .Inner | safeHTML -}}
+  </div>
+
+{{ end }}

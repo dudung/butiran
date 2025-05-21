@@ -1,3 +1,7 @@
-<figure>
-{{ readFile (print "assets/" (index .Params 0)) | safeHTML }}
-</figure>
+{{ if not site.Params.disableShortcodes }}
+
+  <figure>
+  {{ readFile (print "assets/" (index .Params 0)) | safeHTML }}
+  </figure>
+  
+{{ end }}

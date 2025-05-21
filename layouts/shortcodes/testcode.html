@@ -1,8 +1,12 @@
-<div>
-{{ .Inner }}
-{{ .Site.BaseURL }}site.webmanifest
+{{ if not site.Params.disableShortcodes }}
 
-{{ $siman := print .Site.BaseURL "site.webmanifest" }}
-{{ $siman }}
+  <div>
+  {{ .Inner }}
+  {{ .Site.BaseURL }}site.webmanifest
 
-</div>
+  {{ $siman := print .Site.BaseURL "site.webmanifest" }}
+  {{ $siman }}
+
+  </div>
+
+{{ end }}

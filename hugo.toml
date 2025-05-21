@@ -19,3 +19,6 @@ pagerSize = 30
   weight = 0
   identifier = 'home'
   url = '/'
+
+[params]
+disableShortcodes = true

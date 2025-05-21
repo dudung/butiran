@@ -1,139 +1,143 @@
-{{ $seed := "foo" }}
-{{ $id := .Get "id" }}
-{{ $left := .Get "left" | default "0px" }}
-{{ $top := .Get "top" | default "0px" }}
-{{ $width := .Get "width" | default "300px" }}
-{{ $height := .Get "height" | default "200px"  }}
-{{ $borderwidth := .Get "borderwidth" | default "0px" }}
-{{ $fontsize := .Get "fontsize" | default "1em" }}
-{{ $angle := .Get "angle" | default "0" }}
+{{ if not site.Params.disableShortcodes }}
 
-<style>
-#{{- $id -}}.canvas-container {
-  left: {{ $left }};
-  top: {{ $top }};
-  width: {{ $width }};
-  height: {{ $height }};
-  border: {{ $borderwidth }} #4f81bd solid;
-}
-</style>
+  {{ $seed := "foo" }}
+  {{ $id := .Get "id" }}
+  {{ $left := .Get "left" | default "0px" }}
+  {{ $top := .Get "top" | default "0px" }}
+  {{ $width := .Get "width" | default "300px" }}
+  {{ $height := .Get "height" | default "200px"  }}
+  {{ $borderwidth := .Get "borderwidth" | default "0px" }}
+  {{ $fontsize := .Get "fontsize" | default "1em" }}
+  {{ $angle := .Get "angle" | default "0" }}
 
-<div class="canvas-container" id="{{- $id -}}">
-<script>
-const parent = document.getElementById("{{- $id -}}");
-
-const lines = "{{ .Inner }}".split("\r\n");
-if(lines[0].length == 0) {
-  lines.shift();
-}
-if(lines[lines.length-1].length == 0) {
-  lines.pop();
-}
-
-const tmin = params(lines, "tmin", "=");
-const tmax = params(lines, "tmax", "=");
-const nt = params(lines, "nt", "=");
-
-const xmin = params(lines, "xmin", "=");
-const xmax = params(lines, "xmax", "=");
-const nx = params(lines, "nx", "=");
-const XMIN = 0;
-const XMAX = parseFloat({{ $width }});
-
-const ymin = params(lines, "ymin", "=");
-const ymax = params(lines, "ymax", "=");
-const ny = params(lines, "ny", "=");
-const YMIN = parseFloat({{ $height }});
-const YMAX = 0;
-
-const fx = func(lines, "fx", "=");
-const fy = func(lines, "fy", "=");
-
-const dt = (tmax - tmin) / (nt - 1)
-const t = [];
-const x = [];
-const y = [];
-for(let i = 0; i < nt; i++) {
-  it = tmin + i * dt;
-  t.push(it);
-  x.push(fx(it));
-  y.push(fy(it));
-}
-
-const can = document.createElement("canvas");
-can.width = parseInt({{- $width -}});
-can.height = parseInt({{- $height -}});
-can.style.width = "{{- $width -}}";
-can.style.height = "{{- $height -}}";
-can.style.background = "#fff";
-
-const ctx = can.getContext("2d");
-
-ctx.lineWidth = "0.2";
-ctx.strokeStyle = "#000";
-const dy = (ymax - ymin) / (ny - 1);
-ctx.beginPath();
-for(let i = 0; i < ny; i++) {
-  let y = ymin + i * dy;
-  let Y = transform(y, ymin, ymax, YMIN, YMAX);
-  ctx.moveTo(XMIN, Y);
-  ctx.lineTo(XMAX, Y);
-}
-ctx.stroke();
-
-ctx.lineWidth = "0.2";
-ctx.strokeStyle = "#000";
-const dx = (xmax - xmin) / (nx - 1);
-ctx.beginPath();
-for(let i = 0; i < nx; i++) {
-  let x = xmin + i * dx;
-  let X = transform(x, xmin, xmax, XMIN, XMAX);
-  ctx.moveTo(X, YMIN);
-  ctx.lineTo(X, YMAX);
-}
-ctx.stroke();
-
-ctx.lineWidth = "1.5";
-ctx.strokeStyle = "#f00";
-ctx.beginPath();
-for(let i = 0; i < nt; i++) {
-  let X = transform(x[i], xmin, xmax, XMIN, XMAX);
-  let Y = transform(y[i], ymin, ymax, YMIN, YMAX);
-  if(i == 0) {
-    ctx.moveTo(X, Y);
-  } else {
-    ctx.lineTo(X, Y);
+  <style>
+  #{{- $id -}}.canvas-container {
+    left: {{ $left }};
+    top: {{ $top }};
+    width: {{ $width }};
+    height: {{ $height }};
+    border: {{ $borderwidth }} #4f81bd solid;
   }
-}
-ctx.stroke();
+  </style>
 
-parent.appendChild(can);
+  <div class="canvas-container" id="{{- $id -}}">
+  <script>
+  const parent = document.getElementById("{{- $id -}}");
 
-function transform(t, tmin, tmax, TMIN, TMAX) {
-  let T = (t - tmin) / (tmax  - tmin);
-  T = T * (TMAX - TMIN) + TMIN;
-  return T;
-}
+  const lines = "{{ .Inner }}".split("\r\n");
+  if(lines[0].length == 0) {
+    lines.shift();
+  }
+  if(lines[lines.length-1].length == 0) {
+    lines.pop();
+  }
 
-function params(list, name, delim) {
-  for(let l of list) {
-    if(l.indexOf(name) > -1) {
-      let val = parseFloat(l.split(delim)[1]);
-      return val;
+  const tmin = params(lines, "tmin", "=");
+  const tmax = params(lines, "tmax", "=");
+  const nt = params(lines, "nt", "=");
+
+  const xmin = params(lines, "xmin", "=");
+  const xmax = params(lines, "xmax", "=");
+  const nx = params(lines, "nx", "=");
+  const XMIN = 0;
+  const XMAX = parseFloat({{ $width }});
+
+  const ymin = params(lines, "ymin", "=");
+  const ymax = params(lines, "ymax", "=");
+  const ny = params(lines, "ny", "=");
+  const YMIN = parseFloat({{ $height }});
+  const YMAX = 0;
+
+  const fx = func(lines, "fx", "=");
+  const fy = func(lines, "fy", "=");
+
+  const dt = (tmax - tmin) / (nt - 1)
+  const t = [];
+  const x = [];
+  const y = [];
+  for(let i = 0; i < nt; i++) {
+    it = tmin + i * dt;
+    t.push(it);
+    x.push(fx(it));
+    y.push(fy(it));
+  }
+
+  const can = document.createElement("canvas");
+  can.width = parseInt({{- $width -}});
+  can.height = parseInt({{- $height -}});
+  can.style.width = "{{- $width -}}";
+  can.style.height = "{{- $height -}}";
+  can.style.background = "#fff";
+
+  const ctx = can.getContext("2d");
+
+  ctx.lineWidth = "0.2";
+  ctx.strokeStyle = "#000";
+  const dy = (ymax - ymin) / (ny - 1);
+  ctx.beginPath();
+  for(let i = 0; i < ny; i++) {
+    let y = ymin + i * dy;
+    let Y = transform(y, ymin, ymax, YMIN, YMAX);
+    ctx.moveTo(XMIN, Y);
+    ctx.lineTo(XMAX, Y);
+  }
+  ctx.stroke();
+
+  ctx.lineWidth = "0.2";
+  ctx.strokeStyle = "#000";
+  const dx = (xmax - xmin) / (nx - 1);
+  ctx.beginPath();
+  for(let i = 0; i < nx; i++) {
+    let x = xmin + i * dx;
+    let X = transform(x, xmin, xmax, XMIN, XMAX);
+    ctx.moveTo(X, YMIN);
+    ctx.lineTo(X, YMAX);
+  }
+  ctx.stroke();
+
+  ctx.lineWidth = "1.5";
+  ctx.strokeStyle = "#f00";
+  ctx.beginPath();
+  for(let i = 0; i < nt; i++) {
+    let X = transform(x[i], xmin, xmax, XMIN, XMAX);
+    let Y = transform(y[i], ymin, ymax, YMIN, YMAX);
+    if(i == 0) {
+      ctx.moveTo(X, Y);
+    } else {
+      ctx.lineTo(X, Y);
     }
   }
-}
+  ctx.stroke();
 
-function func(list, name, delim) {
-  for(let l of list) {
-    if(l.indexOf(name) > -1) {
-      let fs = l.split(delim)[1];
-      let val = new Function("t", "return " + eval(fs));
-      return val;
+  parent.appendChild(can);
+
+  function transform(t, tmin, tmax, TMIN, TMAX) {
+    let T = (t - tmin) / (tmax  - tmin);
+    T = T * (TMAX - TMIN) + TMIN;
+    return T;
+  }
+
+  function params(list, name, delim) {
+    for(let l of list) {
+      if(l.indexOf(name) > -1) {
+        let val = parseFloat(l.split(delim)[1]);
+        return val;
+      }
     }
   }
-}
 
-</script>
+  function func(list, name, delim) {
+    for(let l of list) {
+      if(l.indexOf(name) > -1) {
+        let fs = l.split(delim)[1];
+        let val = new Function("t", "return " + eval(fs));
+        return val;
+      }
+    }
+  }
 
-</div>
+  </script>
+
+  </div>
+
+{{ end }}
