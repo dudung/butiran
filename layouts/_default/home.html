@@ -19,13 +19,6 @@
     -->
     <div class="posts-box-container">
       {{ $filteredPages := .Site.RegularPages }}
-      {{ if in (slice "type" "title" "date") $key }}
-        {{ $filteredPages = where .Site.RegularPages $paramskey "in" (slice $value) }}
-      {{ else }}
-        {{ $filteredPages = where .Site.RegularPages (printf "Params.%s" $key) "intersect" (slice $value) }}
-      {{ end }}
-      
-      {{ $filteredPages := .Site.RegularPages }}
       {{ $paginator := .Paginate $filteredPages }}
       {{ range $paginator.Pages }}
       

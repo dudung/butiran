@@ -10,9 +10,9 @@ enableEmoji = true
 pagerSize = 30
 
 [taxonomies]
-  author = "authors"
-  tag = "tags"
-  category = "categories"
+#  author = "authors"
+#  tag = "tags"
+#  category = "categories"
 
 [[menu.main]]
   name = 'Home'
