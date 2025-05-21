@@ -91,7 +91,7 @@ This file is located in `/layouts/_default` from this butiran.
 
 Following lines are removed from `home.html`
 
-```html
+```go
       {{ $filteredPages := .Site.RegularPages }}
       {{ if in (slice "type" "title" "date") $key }}
         {{ $filteredPages = where .Site.RegularPages $paramskey "in" (slice $value) }}
@@ -100,10 +100,13 @@ Following lines are removed from `home.html`
       {{ end }}
 ```
 
+and will be kept here for furhter used.
+
 
 ## hugo.toml
 This file is located in `/` from butiran.
-```
+
+```toml
 baseURL = 'https://dudung.github.io/butiran'
 languageCode = 'en-us'
 title = 'butiran'
@@ -129,6 +132,18 @@ pagerSize = 30
 [params]
 disableShortcodes = true
 ```
+
+To enable individual shortcode, edit it and remove
+
+```go
+{{ if not site.Params.disableShortcodes }}
+
+  <!-- shortcode -->
+
+{{ end }}
+```
+
+the conditional block `{{ if .. }}` and `{{ end }}`.
 
 
 ## notes
