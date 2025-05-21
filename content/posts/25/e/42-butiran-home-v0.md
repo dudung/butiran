@@ -132,7 +132,8 @@ disableShortcodes = true
 
 
 ## notes
-+ Site build requires about 5541 ms.
-+ Change of a post now requires about 48 ms.
++ Site build requires about 5541 ms - 6088 ms.
++ Change of a post now requires about 41 - 48 ms.
 + There is not any taxonomies used.
 + All shortcodes are disabled but `mermaid`, `style`, `script/loader`, and `script/runner`.
++ The required time is still consistent for several attempts.
