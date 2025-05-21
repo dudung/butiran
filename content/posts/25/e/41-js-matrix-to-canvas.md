@@ -20,14 +20,32 @@ Content of matrix showing as colored grid on canvas.
 {{< script/runner id="cnt1" >}}
 const cnt = document.getElementById("cnt1");
 
-let style = {
-  border: "1px #faa solid",
-  background: "#fffafa",
-  width: "200px",
+const style2 = {
+  border: "0px #aaf solid",
+  background: "#fafaff",
+  width: "400px",
   height: "100px",
+  display: "flex",
 };
+const div = createElement("div", style2);
 
-const div = createElement("div", style);
+const style3 = {
+  overflowY: "scroll",
+  background: "#fee",
+  flex: "1",
+};
+const txa = createElement("textarea", style3);
+
+const style4 = {
+  flex: "1",
+  background: "#efe",
+  border: "1px #080 solid",
+};
+const can = createElement("canvas", style4);
 
 cnt.appendChild(div);
+div.append(txa);
+div.append(can);
 {{< /script/runner >}}
+
+Left area is for matrix content and right area is for its visualization representation.
