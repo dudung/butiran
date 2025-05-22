@@ -73,3 +73,26 @@ function addTextToTextarea(txa, str) {
     txa.value += "\n" + str;
   }
 }
+
+
+function detectDelimiterFromText(text) {
+  const delimiters = {
+    "\n": (text.match(/\n/g) || []).length,
+    " ": (text.match(/ /g) || []).length,
+    ",": (text.match(/,/g) || []).length,
+    ";": (text.match(/;/g) || []).length
+  };
+
+  // Find the delimiter with the highest count
+  const detected = Object.entries(delimiters).sort((a, b) => b[1] - a[1])[0];
+  
+  
+  const val = (detected[0] === "\n" ? "\\n" : `"${detected[0]}"`);
+  return val;
+  
+  if (detected[1] === 0) {
+    alert("No delimiter found.");
+  } else {
+    alert("Detected delimiter: " + (detected[0] === "\n" ? "\\n" : `"${detected[0]}"`));
+  }
+}
