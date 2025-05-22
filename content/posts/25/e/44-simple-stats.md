@@ -12,7 +12,7 @@ url = '25e44'
 <!-- more -->
 
 
-"This app accepts numbers separated by delimiters such as end-of-line (newline), space, commas, or semicolons.
+This app accepts numbers separated by delimiters such as end-of-line (newline), space, commas, or semicolons.
 
 {{< script/loader >}}
 25e44.js
