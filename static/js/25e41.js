@@ -146,57 +146,38 @@ function addTextToTextarea(txa, str) {
  * getColor - Returns a hexadecimal color code based on a numeric code between 10 and 99.
  *
  * Categories:
- *   1x — Wall (grayscale)
- *   2x — Vacuum & Gas (blue-gray tones)
- *   3x — Fluid (cyan to blue)
- *   4x — Solid (primary and distinct colors)
- *   5x — Charge (diverging: red to blue)
- *   6x — Source (warm gradient)
- *   7x — Sink (cool gradient)
- *   8x — Interface/Boundary (metallic & neutral)
- *   9x — Field (spectrum/rainbow)
+ *   1x — Wall (black to dark brown)
+ *   2x — Gas (white to light green)
+ *   3x — Fluid (light blue to light red)
+ *   4x — Solid (primary, distinct)
+ *   5x — Charge (diverging red-blue)
+ *   6x — Source (warm tones)
+ *   7x — Sink (cool tones)
+ *   8x — Interface (metallic and neutral)
+ *   9x — Field (rainbow spectrum)
  *
- * @param {number} num - A number between 10 and 99 representing category and type.
- * @returns {string} - A hexadecimal color code string.
+ * @param {number} num - Number from 10 to 99
+ * @returns {string} - Hexadecimal color code
  */
 function getColor(num) {
   const palette = {
-    1: [ // Wall (grayscale)
-      "#ffffff", "#eeeeee", "#dddddd", "#cccccc", "#bbbbbb",
-      "#aaaaaa", "#999999", "#888888", "#777777", "#666666"
+    1: [ // Wall: black to dark brown
+      "#000000", "#110c00", "#221800", "#332400", "#443000",
+      "#553c00", "#664800", "#775400", "#886000", "#884400",
     ],
-    2: [ // Vacuum & Gas (blue-gray)
-      "#001f3f", "#003366", "#004c8c", "#0066b2", "#3385cc",
-      "#66a3e0", "#99c2eb", "#cce0f5", "#e6f0fa", "#f2f8fd"
+    2: [ // Gas: white to light gray
+      "#ffffff", "#f8f8f8", "#f0f0f0", "#e8e8e8", "#e0e0e0",
+      "#d8d8d8", "#d0d0d0", "#c8c8c8", "#c0c0c0", "#b8b8b8",
     ],
-    3: [ // Fluid (cyan to blue)
-      "#e0f7fa", "#b2ebf2", "#80deea", "#4dd0e1", "#26c6da",
-      "#00bcd4", "#00acc1", "#0097a7", "#00838f", "#006064"
+    3: [ // Fluid: very light blue to lighter than deep blue
+      "#e3f2fd", "#d1e9fc", "#bfe0fb", "#add7f9", "#9bcef8",
+      "#89c5f6", "#77bcf5", "#65b3f3", "#53aaf2", "#419fe9",
     ],
-    4: [ // Solid (distinct colors)
-      "#1e88e5", "#00acc1", "#43a047", "#fdd835", "#d81b60",
-      "#e53935", "#8e24aa", "#6d4c41", "#fb8c00", "#5e35b1"
+    4: [ // Solid: distinct colors
+      "#005f60", "#2a9d8f", "#6a8532", "#e9c46a", "#f4a261",
+      "#e76f51",
+      "#6b1650", "#9c1057", "#e63946", "#ff99b6",
     ],
-    5: [ // Charge (red-blue diverging)
-      "#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#f7f7f7",
-      "#d1e5f0", "#92c5de", "#4393c3", "#2166ac", "#053061"
-    ],
-    6: [ // Source (warm gradient)
-      "#fff3e0", "#ffe0b2", "#ffcc80", "#ffb74d", "#ffa726",
-      "#ff9800", "#fb8c00", "#f57c00", "#ef6c00", "#e65100"
-    ],
-    7: [ // Sink (cool gradient)
-      "#e3f2fd", "#bbdefb", "#90caf9", "#64b5f6", "#42a5f5",
-      "#2196f3", "#1e88e5", "#1976d2", "#1565c0", "#0d47a1"
-    ],
-    8: [ // Interface/Boundary (metallic & neutral)
-      "#c0c0c0", "#a9a9a9", "#808080", "#696969", "#4d4d4d",
-      "#ffd700", "#daa520", "#b8860b", "#8b8000", "#6b8e23"
-    ],
-    9: [ // Field (rainbow/spectrum)
-      "#d73027", "#fc8d59", "#fee08b", "#d9ef8b", "#91cf60",
-      "#1a9850", "#66bd63", "#3288bd", "#5e4fa2", "#2c7bb6"
-    ]
   };
 
   const type = Math.floor(num / 10);
@@ -206,4 +187,31 @@ function getColor(num) {
     return palette[type][variant];
   }
   return "#fff"; // fallback
+}
+
+
+function drawMatrixOnCanvas(can, m, color) {
+  const rect = can.getBoundingClientRect();
+  const width = rect.width;
+  const height = rect.height;
+  
+  can.width = width;
+  can.height = height;
+  can.style.width = width + "px";
+  can.style.height = height + "px";
+  
+  const ctx = can.getContext("2d");
+  
+  const row = m.length;
+  const col = m[0].length;
+  
+  const lx = width / col;
+  const ly = height / row;
+  
+  for(let r = 0; r < row; r++) {
+    for(let c = 0; c < col; c++) {
+      ctx.fillStyle = color(m[r][c]);
+      ctx.fillRect(c * lx, r * ly, lx, ly);
+    }
+  }
 }
