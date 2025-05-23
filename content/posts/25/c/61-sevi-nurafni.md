@@ -9,9 +9,15 @@ categories = ['users']
 url = '25c61'
 +++
 
++ `23-may-2025` [`t7vr9`](https://osf.io/t7vr9) Offline meeting on website.
 + `10-apr-2025` [`hkxu3`](https://osf.io/hkxu3) Discussion about abm.
 + `25-mar-2025` [`grpw3`](https://osf.io/grpw3) Offline meetup 2025.
+
+
+<!--
+25-mar-2025
 {{< details >}}
 + ~1726 The OSF still can not be accessed~.
 + [`pvu96`](https://osf.io/pvu96) Example of Credly certificate Anys Mechanics.
 {{< /details >}}
+-->
