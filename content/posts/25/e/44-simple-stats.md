@@ -89,6 +89,7 @@ Left textarea are for input numbers and right textarea are for output statistics
 + Other delimiters than semicolon, such as end-of-line (newline), space, or comma, are not supported in current version.
 + The shortcode `{{</* fakebutton "Button" */>}}` is used to show {{< fakebutton "Button" >}} [^gpt-4o_2025c].
 + The `Math.sumPrecise()` static method has not been functioned in Chrome as this note is finalized [^mdn_web_docs_2025].
++ This note is also shared as a Medium story [^viridi_2025].
 
 
 ## refs
@@ -96,3 +97,4 @@ Left textarea are for input numbers and right textarea are for output statistics
 [^gpt-4o_2025b]: GPT-4o, "Descriptive Statistics Function", 23 May 2025, url https://chatgpt.com/share/68307fb0-758c-800a-936c-5e70254c1879 [20250523].
 [^gpt-4o_2025c]: GPT-40, "Hugo Fake Button Shortcode", ChatGPT, 24 May 2025, url https://chatgpt.com/share/6830dbc6-db30-800a-9431-05fde9b210b6 [20250524].
 [^mdn_web_docs_2025]: -, "Math.sumPrecise()", MDN Web Docs, 7 Mar 2025, url https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sumPrecise [20250524].
+[^viridi_2025]: Sparisoma Viridi, "simple stats: An VanillaJS app in a Hugo post", Medium, 24 May 2025, url https://medium.com/p/99f5bc04d2cf [20250524].
