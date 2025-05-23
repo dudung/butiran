@@ -139,6 +139,8 @@ function sumPrecise(numbers) {
  * - Sum (using Kahan summation for precision)
  * - Count of values (n)
  * - Average (mean)
+ * - Median (middle value)
+ * - Mode (most frequent value(s), or "none" if all values are unique)
  * - Variance
  * - Standard deviation
  * - Skewness (third standardized moment)
@@ -151,19 +153,21 @@ function sumPrecise(numbers) {
  * @returns {string[]} An array of strings summarizing the computed statistics.
  *
  * @example
- * // If the textarea contains "1;2;3;4;5"
+ * // If the textarea contains "1;2;2;3;4"
  * calcFromTextarea(textareaElement);
  * // returns: [
  * //   "min = 1",
- * //   "max = 5",
- * //   "range = 4",
- * //   "sum = 15",
+ * //   "max = 4",
+ * //   "range = 3",
+ * //   "sum = 12",
  * //   "n = 5",
- * //   "avg = 3",
- * //   "var = 2.000",
- * //   "std = 1.414",
- * //   "skew = 0.000",
- * //   "kurt = -1.300"
+ * //   "avg = 2.4",
+ * //   "median = 2",
+ * //   "mode = 2",
+ * //   "var = 1.040",
+ * //   "std = 1.020",
+ * //   "skew = 0.123",
+ * //   "kurt = -1.578"
  * // ]
  */
 function calcFromTextarea(txa) {
@@ -176,6 +180,30 @@ function calcFromTextarea(txa) {
   const n = nums.length;
   const avg = sum / n;
 
+  // Median calculation
+  const sorted = [...nums].sort((a, b) => a - b);
+  let median;
+  if (n % 2 === 0) {
+    median = (sorted[n / 2 - 1] + sorted[n / 2]) / 2;
+  } else {
+    median = sorted[Math.floor(n / 2)];
+  }
+
+  // Mode calculation
+  const freq = new Map();
+  for (let x of nums) {
+    freq.set(x, (freq.get(x) || 0) + 1);
+  }
+  const maxFreq = Math.max(...freq.values());
+  const modes = [...freq.entries()]
+    .filter(([_, count]) => count === maxFreq)
+    .map(([value]) => value);
+
+  const modeStr = modes.length === nums.length
+    ? "none"
+    : modes.join(", ");
+
+  // Moments calculation
   let m2 = 0, m3 = 0, m4 = 0;
   for (let x of nums) {
     const dev = x - avg;
@@ -192,7 +220,7 @@ function calcFromTextarea(txa) {
 
   const std = Math.sqrt(m2);
   const skew = m3 / (std ** 3);
-  const kurt = m4 / (std ** 4) - 3; // Excess kurtosis
+  const kurt = m4 / (std ** 4) - 3;
 
   const text = [];
   text.push("min = " + min);
@@ -200,7 +228,9 @@ function calcFromTextarea(txa) {
   text.push("range = " + range);
   text.push("sum = " + sum);
   text.push("n = " + n);
-  text.push("avg = " + avg);
+  text.push("avg = " + avg.toFixed(3));
+  text.push("median = " + median);
+  text.push("mode = " + modeStr);
   text.push("var = " + m2.toFixed(3));
   text.push("std = " + std.toFixed(3));
   text.push("skew = " + skew.toFixed(3));
