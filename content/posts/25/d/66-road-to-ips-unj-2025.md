@@ -11,6 +11,9 @@ url = '25d66'
 
 <!-- more -->
 
++ `24-may-2025` [`nexdf`](https://osf.io/nexdf) Possible first meeting of authors.
++ `24-may-2025` [`m9y3g`](https://osf.io/m9y3g) Invoice, payment, letters of something.
++ `21-may-2025` [`ae2y7`](https://osf.io/ae2y7) WAG creation.
 + `11-may-2025` [`tca7z`](https://osf.io/tca7z) Abstract submission finalization.
 + `09-may-2025` [`hnas4`](https://osf.io/hnas4) Check the deadline, today is h-2.
 + `28-apr-2025` [`czqt6`](https://osf.io/czqt6) Experiment sop (putri draft).
