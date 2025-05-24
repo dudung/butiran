@@ -27,7 +27,7 @@ url = '25b11'
 + 24-may-2025
   - Sucessfully upload to osf. &check;
   - Process further zscore_normalized_spectra of 3MCPD.rar, at least the visualization. &cross;
-+ 23-may-2025`
++ 23-may-2025
   - Reupload for 23-may-2025 and 24-apr-2025 due to unaccessible of osf. &cross;
   - Files are in amd ryzen 7.
 + 06-mar-2025
