@@ -17,6 +17,25 @@ url = '25e11'
 + Previous version was `Downloads/refs.md`, but it is now deleted and archived as this.
 
 
+## 24-may-2025
++ Riser Fahdiran, Haris Suhendar, "International Physics Seminar (IPS) 2025", Physics and Physics Educational Department, Faculty of Mathematics and Natural Sciences, Universitas Negeri Jakarta, Indonesia, url https://ips2025.snf-unj.ac.id/ [20250524].
++ Karola Dierichs, Achim Menges, "Designing architectural materials: from granular form to functional granular material", Bioinspiration & Biomimetics, vol 16, p 065010, url https://doi.org/10.1088/1748-3190/ac2987.
++ Wei Wang, Jiansheng Zhang, Shi Yang, Hai Zhang, Hairui Yang, Guangxi Yue, "Experimental study on the angle of repose of pulverized coal", Particuology, vol 8, no 5, p 482-485, Oct 2010, url https://doi.org/10.1016/j.partic.2010.07.008.
++ F. J. Muzzio, C. L. Goodridge, A. Alexander, P. Arratia, H. Yang, O. Sudah, G. Mergen, "Sampling and characterization of pharmaceutical powders and granular blends", International Journal of Pharmaceutics, vol 250, no 1, p 51-64, Jan 2003, url https://doi.org/10.1016/S0378-5173(02)00481-7.
++ Wikipedia contributors, "Granular material", Wikipedia, The Free Encyclopedia, 7 November 2024, 04:08 UTC, url https://en.wikipedia.org/w/index.php?oldid=1255886067 [20250524].
++ Eric Bonabeau, "Agent-based modeling: Methods and techniques for
+simulating human systems", PNAS, vol 99, suppl 3, p 7280-7287, May 2002, url http://doi.org/10.1073/pnas.082080899.
++ Andrew Crooks, A. J. Heppenstall, "Introduction to Agent-Based Modelling", in Agent-Based Models of Geographical Systems, Springer, Dordrecht, Oct 2011, p 85-105, url http://dx.doi.org/10.1007/978-90-481-8927-4_5.
++ Hyoung Seop Kim, Sun Ig Hong, Sun Jae Kim, "On the rule of mixtures for predicting the mechanical properties of composites with homogeneously distributed soft and hard particles", Journal of Materials Processing Technology, vol 112, no 1, p 109-113, May 2001, url https://doi.org/10.1016/S0924-0136(01)00565-9.
++ GPT-4o, "Spring Constant Rule of Mixtures", ChatGPT, 24 May 2025, url https://chatgpt.com/share/6831d5e9-a0b4-800a-a4b2-3a4734a8ebcc [20250524].
++ Hyoung Seop Kim, "On the rule of mixtures for the hardness of particle reinforced composites", Materials Science and Engineering: A, vol 289, no 1–2, p 30-33, Sep 2000, url https://doi.org/10.1016/S0921-5093(00)00909-6.
++ P. M. Widartiningsih, M. I. R. Putra, D. P. P. Aji, A. N. F. Rudiawan, S. Viridi, "Experimental investigation of pile characteristics of non-spherical particles mixtures: pile height and angle of repose", Journal of Physics: Conference Series, vol 2243, no 1, p 012079, 2022, url http://doi.org/10.1088/1742-6596/2243/1/012079.
++ S. Viridi, F. Haryanto, "Agent-based Model and its Potential in Simulating Some Physical Systems", IOP Conference Series: Materials Science and Engineering, vol 599, no 1, p 012008, url http://doi.org/10.1088/1757-899X/599/1/012008.
++ T. Suheri, S. Viridi, "Gravity-Driven Agent-Based Model for Simulation of Economic Growth a Point Along a Highway", IOP Conference Series: Materials Science and Engineering, vol 662, no 6, p 062015, url http://doi.org/10.1088/1757-899X/662/6/062015.
++ Alya Mutiara Firdausyi, Septian Ulan Dini, Sevi Nurafni and Sparisoma Viridi, "Pedestrian Evacuation Modeling Using Agent-Based Model and Social-Force Model", Journal of Physics: Conference Series, vol 2734, no 1, p 012032, 2024, url http://doi.org/10.1088/1742-6596/2734/1/012032.
++ Tatang Suheri, Sparisoma Viridi, "Constructing origin-destination matrix (ODM) using agent-based model (AMB) in multiple points commuting system", AIP Conference Proceedings, vol 2320, p 050033, 2021, url https://doi.org/10.1063/5.0038214.
++ Putri Mustika Widartiningsih, "Prosedur eksperimen pengukuran angle of repose pada butiran campuran", 28 Apr 2025.
+
 ## 17-may-2025
 + R. Sari Kovats, Shakoor Hajat, "Heat stress and public health: a critical review", Annual Review of Public Health, vol 29, p 41-55, Apr 2008, url https://doi.org/10.1146/annurev.publhealth.29.020907.090843.
 

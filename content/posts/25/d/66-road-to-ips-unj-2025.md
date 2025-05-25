@@ -11,7 +11,9 @@ url = '25d66'
 
 <!-- more -->
 
-+ `24-may-2025` [`nexdf`](https://osf.io/nexdf) Possible first meeting of authors.
++ `25-may-2025` [`ej68b`](https://osf.io/ej68b) Payment confirmation &check.
++ `25-may-2025` [`mwpse`](https://osf.io/mwpse) Bought materials delivered.
++ `24-may-2025` [`nexdf`](https://osf.io/nexdf) First meeting of authors (-1).
 + `24-may-2025` [`m9y3g`](https://osf.io/m9y3g) Invoice, payment, letters of something.
 + `21-may-2025` [`ae2y7`](https://osf.io/ae2y7) WAG creation.
 + `11-may-2025` [`tca7z`](https://osf.io/tca7z) Abstract submission finalization.
