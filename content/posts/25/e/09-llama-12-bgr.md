@@ -12,11 +12,13 @@ url = '25e09'
 <!-- more -->
 
 + `02-jun-2025` [`osfio`]() Offline meeting in the city via whoosh.
++ `26-may-2025` [`rdm3z`](https://osf.io/rdm3z) Interact with other visit fi-nuc.
 + `05-may-2025` [`txdsr`](https://osf.io/txdsr) Online coordination of guiding process.
 + `03-may-2025` [`wdyn8`](https://osf.io/wdyn8) A program advancement guidance info.
 
 
 ## notes
++ Not archived for 26-may-2025.
 + Some references are available online [^juniadi_2020], [^partiwi_2023], [^kusumawardani_2024a], [^kusumawardani_2024b], but it might not explicitly contain RPS format.
 
 
