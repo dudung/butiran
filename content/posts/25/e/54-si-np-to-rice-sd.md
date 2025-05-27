@@ -104,7 +104,7 @@ Possible missing or optional elements are [^gpt-4o_2025b]
 + And, of course, Si-NP has not yet been included in the system.
 + This note is part of other note [^viridi_2025].
 
-# refs
+## refs
 [^gpt-4o_2025a]: GPT-4o, "Nano-Silicon Modeling Approach", ChatGPT, 26 May 2025, url https://chatgpt.com/share/68350c68-b208-800a-8863-c6e6913c42f3 [20250527].
 [^gpt-4o_2025b]: GPT-4o, "Plant Growth Factors SD", ChatGPT, 27 May 2025, url https://chatgpt.com/share/68350e29-62a8-800a-b63a-eb427f425ffb [20250527].
 [^viridi_2025]: Sparisoma Viridi, "rki-2025", butiran, 6 Mar 2025, url https://dudung.github.io/butiran/25c16/ [20250527].
