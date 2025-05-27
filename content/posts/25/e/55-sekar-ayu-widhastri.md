@@ -12,4 +12,4 @@ url = '25e55'
 <!-- more -->
 
 + `28-may-2025` [`j2tg9`](https://osf.io/j2tg9) Career path discussion.
-+ '23-may-2025' [`qz42p`](https://osf.io/qz42p) First communication via teams.
++ `23-may-2025` [`qz42p`](https://osf.io/qz42p) First communication via teams.
