@@ -2,7 +2,7 @@
 title = 'llama 12-bgr'
 date = '2025-05-05T20:43:38+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['llama']
