@@ -12,3 +12,7 @@ url = '25e58'
 <!-- more -->
 
 + `28-may-25` []() Discussion with lunch, end of month.
+
+
+## notes
++ There is previous note [osfio](), as long as remember, but not sure.

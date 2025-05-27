@@ -29,3 +29,8 @@ url = '25e56'
 16. [`26v4e`](https://osf.io/26v4e) Activation function of type binary step can have values of 0 and 1.
 17. [`42tq9`](https://osf.io/42tq9) Feed-forward neural network, which is the simplest variant of neural networks is artificial neural network.
 18. [`42tq9`](https://osf.io/42tq9) Network that passes information in one direction, through various input nodes, until it makes it to the output node, is know as feed-forward neural network.
+
++ [`3ksmu`](https://osf.io/3ksmu)
++ [`pzqf9`](https://osf.io/pzqf9)
++ [`c87ka`](https://osf.io/c87ka)
++ [`hjdf9`](https://osf.io/hjdf9)
