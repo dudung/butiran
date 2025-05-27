@@ -1,5 +1,5 @@
 +++
-title = 'si-np to rice'
+title = 'si-np to rice sd'
 date = '2025-05-27T07:49:03+07:00'
 authors = ['viridi']
 draft = false
