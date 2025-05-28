@@ -10,3 +10,7 @@ url = '25c46'
 +++
 
 + `17-mar-2025` []() Postponed discussion.
+
+
+## notes
++ There is previous note with different name, which is more to the topic then the name, that has not been found and integrated with this, since new convention is implemented for users.
