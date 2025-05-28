@@ -8,6 +8,9 @@
  * Exported:
  * - createElement(tagName, arg2, arg3)
  * - addTextToTextarea(txa, str)
+ * - getNumbers(txa, delim)
+ * - sumPrecise(numbers)
+ * - calcFromTextarea(txa)
  */
 
 
