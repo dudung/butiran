@@ -46,7 +46,23 @@ url = '25e56'
 33. [`pzqf9`](https://osf.io/pzqf9) Kernel in SVM is for transforming the input data into a higher-dimensional space.
 34. [`pzqf9`](https://osf.io/pzqf9) Transformation into a higher-dimensional space is to find a hyperplane that can effectively separate classes that are not linearly separable in their original space.
 35. [`pzqf9`](https://osf.io/pzqf9) Some SVM kernels are polynomial, gaussian, sigmoid, linear spline, hyperbolic tangent.
+36. [`c87ka`](https://osf.io/c87ka) Five broad categories of machine learning algorithms are supervised learning, unsupervised learning, semi-supervised learning, self-supervised, –reinforcement learning.
+37. [`c87ka`](https://osf.io/c87ka) Type of machine learning where the model is trained on a labeled dataset is known as supervised learning.
+38. [`c87ka`](https://osf.io/c87ka) Type of machine learning that draws inferences from unlabeled datasets, facilitating exploratory data analysis and enabling pattern recognition and predictive modeling is known as unsupervised learning.
+39. [`c87ka`](https://osf.io/c87ka) Type of machine learning that enables models to train themselves on unlabeled data, instead of requiring massive annotated and/or labeled datasets is known as self-supervised learning.
+40. [`c87ka`](https://osf.io/c87ka) Type of machine learning that perform dynamic programming that trains algorithms using a system of reward and punishment is known as reinforcement learning.
+41. [`c87ka`](https://osf.io/c87ka) Decision Tree algorithm belongs to the family of machine learning, which is supervised learning.
+42. [`c87ka`](https://osf.io/c87ka) Decision Tree algorithm can be used for solving regression and classification problems.
+43. [`c87ka`](https://osf.io/c87ka) Algorithm that grows multiple decision trees which are merged together for a more accurate prediction is known as Random Forest.
+44. [`c87ka`](https://osf.io/c87ka) When using Random Forest for classification, each tree gives a classification or a “vote”, the the forest chooses the classification with the majority of the “votes”.
+45. [`c87ka`](https://osf.io/c87ka) When using Random Forest for regression, the forest picks the average of the outputs of all trees.
+46. [`hjdf9`](https://osf.io/hjdf9) Problem of finding a set of inputs to an objective function that results in a maximum or minimum function evaluation is known as optimization.
+47. [`hjdf9`](https://osf.io/hjdf9) Evolutionary computation (EC) algorithms covers The genetic algorithm (GA), Genetic programming (GP), Differential evolution (DE), The evolution strategy (ES), Evolutionary programming (EP).
+48. [`hjdf9`](https://osf.io/hjdf9) Basic terminology of Genetic Algorihtm covers population, chromosomes, gene, allele, selection, crossover, mutation, fitness function.
+49. [`hjdf9`](https://osf.io/hjdf9) Operators in GA are selection, crossover, mutation.
+50. [`hjdf9`](https://osf.io/hjdf9) General strategies for solving hard optimization problems, that is often inspired by natural or social systems, is known as metaheuristics.
 
-+ [`pzqf9`](https://osf.io/pzqf9)
-+ [`c87ka`](https://osf.io/c87ka)
-+ [`hjdf9`](https://osf.io/hjdf9)
+
+## notes
++ 1102 Finish.
++ Try to deploy to Edunex.
