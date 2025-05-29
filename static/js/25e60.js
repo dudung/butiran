@@ -12,6 +12,9 @@
  * - getLineFromTextarea(el, keyword)
  * - getValueAfterKeyword(key, str)
  * - addExampleToTextarea(el)
+ * - getBlockFromTextarea(el, keyword)
+ * - getValuesBetweenKeywords(k1, k2, block)
+ * - formatForTextarea(input)
  */
 
 
@@ -192,7 +195,8 @@ function getValueAfterKeyword(key, str) {
  * getBlockFromTextarea(el, "acceleration");
  * // returns:
  * // ["BLOCK acceleration", "1 2", "3 4", "END"]
- */function getBlockFromTextarea(el, keyword) {
+ */
+function getBlockFromTextarea(el, keyword) {
   const str = el.value;
   const lines = str.split("\n");
   const n = lines.length;
@@ -257,4 +261,49 @@ function getValuesBetweenKeywords(k1, k2, block) {
   }
   
   return vals;
+}
+
+
+/**
+ * Formats a variable into a multi-line string suitable for display in a <textarea>.
+ *
+ * Supported input types:
+ * - Primitive values (string, number, boolean): returned as-is (converted to string).
+ * - Arrays: each element appears on its own line.
+ * - 2D arrays (arrays of arrays): each sub-array appears on its own line with elements separated by tabs.
+ *
+ * Examples:
+ * formatForTextarea(42) ➝ "42"
+ * formatForTextarea(["apple", "banana", "cherry"]) ➝ "apple\tbanana\tcherry"
+ * formatForTextarea([[1, 2], [3, 4]]) ➝ "1\t2\n3\t4"
+ *
+ * @param {any} input - The input variable to format.
+ * @returns {string} A formatted, multi-line string representation.
+ */
+function formatForTextarea(input) {
+  if (input === null || input === undefined) {
+    return String(input);
+  }
+
+  // Handle 2D arrays
+  if (Array.isArray(input) && input.every(item => Array.isArray(item))) {
+    return input.map(row => row.map(String).join('\t')).join('\n');
+  }
+
+  // Handle 1D arrays
+  if (Array.isArray(input)) {
+    return input.map(String).join('\t');
+  }
+
+  // Primitive types
+  if (['string', 'number', 'boolean'].includes(typeof input)) {
+    return String(input);
+  }
+
+  // Fallback for unsupported types (e.g., objects, functions)
+  try {
+    return JSON.stringify(input, null, 2); // nicely formatted JSON
+  } catch (err) {
+    return String(input); // fallback to basic string conversion
+  }
 }
