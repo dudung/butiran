@@ -63,7 +63,7 @@ btn1.addEventListener("click", () => {
   if(keyword.length > 0) {
     const line = getLineFromTextarea(inp, keyword);
     if(line != undefined) {
-      val = getValueAfterKeyword(keyword, line);
+      const val = getValueAfterKeyword(keyword, line);
       addTextToTextarea(out, val);
     }
   }
@@ -75,13 +75,13 @@ btn2.addEventListener("click", () => {
   const keyword = getParamFromInput(key2);
   if(keyword.length > 0) {
     const block = getBlockFromTextarea(inp, keyword);
-    addTextToTextarea(out, block);
-    /*
-    if(block != undefined) {
-      vals = getValueBetweenKeywords(k1, k2, block);
+    if(block != undefined && block.length > 0) {
+      const k1 = "BLOCK " + keyword;
+      const k2 = "END";
+      const vals = getValuesBetweenKeywords(k1, k2, block);
       addTextToTextarea(out, vals);
+      console.log(vals);
     }
-    */
   }
 });
 

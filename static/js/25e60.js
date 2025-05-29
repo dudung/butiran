@@ -222,3 +222,39 @@ function getValueAfterKeyword(key, str) {
   
   return block;
 }
+
+
+/**
+ * Extracts values from lines in a block that are located between two keyword markers.
+ *
+ * This function iterates over each line in the given block (an array of strings), and collects the values (split by spaces) from lines that **do not** begin with either of the specified keywords. It assumes that lines starting with `k1` or `k2` are markers and should be excluded from the returned data.
+ *
+ * @param {string} k1 - The starting keyword to exclude lines that begin with it.
+ * @param {string} k2 - The ending keyword to exclude lines that begin with it.
+ * @param {string[]} block - An array of strings representing lines within a block.
+ * @returns {string[][]} An array of string arrays, where each inner array contains the space-separated values from valid lines.
+ *
+ * @example
+ * const block = [
+ *   "BLOCK data",
+ *   "1 2 3",
+ *   "4 5 6",
+ *   "END"
+ * ];
+ * getValueBetweenKeywords("BLOCK", "END", block);
+ * // returns: [["1", "2", "3"], ["4", "5", "6"]]
+ */
+function getValuesBetweenKeywords(k1, k2, block) {
+  const vals = [];
+  for(let b of block) {
+    const p1 = b.indexOf(k1);
+    const p2 = b.indexOf(k2);
+    
+    if(!(p1 == 0 || p2 == 0)) {
+      const c = b.split(" ");
+      vals.push(c);
+    }
+  }
+  
+  return vals;
+}
