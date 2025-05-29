@@ -25,28 +25,91 @@ const style2 = {
   border: "0px #aaf solid",
   background: "#fafaff",
   width: "600px",
-  height: "400px",
+  height: "320px",
 };
 const div = createElement("div", style2);
 
 const style3 = {
-  flex: "1",
+  flex: "2",
   overflowY: "scroll",
   background: "#efe",
 };
-const inp = createElement("textarea", style3);
+inp = createElement("textarea", style3);
 
 const style4 = {
-  flex: "1",
+  flex: "2",
   overflowY: "scroll",
   background: "#fee",
 };
 const out = createElement("textarea", style4);
 out.disabled = true;
 
+const style5 = {
+  flex: "1",
+  background: "#eef",
+  borderTop: "1px solid #bbb",
+  borderBottom: "1px solid #bbb",
+  padding: "2px",
+};
+const buttons = createElement("div", style5);
+
+const style6 = {
+  width: "100%",
+};
+const btn1 = createElement("button", style6);
+btn1.innerHTML = "Get Params";
+btn1.addEventListener("click", () => {
+  const keyword = getParamFromInput(key1);
+  if(keyword.length > 0) {
+    const data = getLineFromTextarea(inp, keyword + " ");
+    if(data != undefined) {
+      console.log(data);
+    }
+  }
+});
+const btn2 = createElement("button", style6);
+btn2.innerHTML = "Get Block";
+
+const style7 = {
+  display: "inline-block",
+  padding: "10px 4px 2px",
+  border: "0px solid black",
+  width: "100%",
+  textAlign: "center",
+};
+const lab1 = createElement("label", style7);
+lab1.innerHTML = "Param keyword";
+const lab2 = createElement("label", style7);
+lab2.innerHTML = "Block keyword";
+
+const key1 = createElement("input");
+const key2 = createElement("input");
+const br1 = createElement("hr");
+const br2 = createElement("hr");
+
 cnt.appendChild(div);
-div.append(inp);
-div.append(out);
+ div.appendChild(inp);
+ div.appendChild(buttons);
+   buttons.appendChild(lab1);
+   buttons.appendChild(key1);
+   buttons.appendChild(btn1);
+   buttons.appendChild(br1);
+   buttons.appendChild(lab2);
+   buttons.appendChild(key2);
+   buttons.appendChild(btn2);
+   buttons.appendChild(br2);
+ div.appendChild(out);
+
+function getLineFromTextarea(el, keyword) {
+  const str = el.value;
+  const lines = str.split("\n");
+  for(let l of lines) {
+    const i = l.indexOf(keyword);
+    if(i == 0) {
+      return(l);
+    }
+  }
+}
 
 addTextToTextarea(inp, "ID a0x_3^f-9z");
 addTextToTextarea(inp, "NAME \"Isaac Bayu\"");

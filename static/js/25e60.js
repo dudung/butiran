@@ -8,6 +8,7 @@
  * Exported:
  * - createElement(tagName, arg2, arg3)
  * - addTextToTextarea(txa, str)
+ * - getParamFromInput(el)
  */
 
 
@@ -72,4 +73,20 @@ function addTextToTextarea(txa, str) {
   } else {
     txa.value += "\n" + str;
   }
+}
+
+
+/**
+ * Retrieves the value from a given input element.
+ *
+ * This function accesses the `value` property of the specified
+ * HTML input element and returns it. It assumes that the
+ * element passed in is a valid input element.
+ *
+ * @param {HTMLInputElement} el - The input element from which to get the value.
+ * @returns {string} The current value of the input element.
+ */
+function getParamFromInput(el) {
+  const key = el.value;
+  return key;
 }
