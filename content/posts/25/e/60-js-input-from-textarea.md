@@ -61,14 +61,29 @@ btn1.innerHTML = "Get Params";
 btn1.addEventListener("click", () => {
   const keyword = getParamFromInput(key1);
   if(keyword.length > 0) {
-    const data = getLineFromTextarea(inp, keyword + " ");
-    if(data != undefined) {
-      console.log(data);
+    const line = getLineFromTextarea(inp, keyword);
+    if(line != undefined) {
+      val = getValueAfterKeyword(keyword, line);
+      addTextToTextarea(out, val);
     }
   }
 });
+
 const btn2 = createElement("button", style6);
 btn2.innerHTML = "Get Block";
+btn2.addEventListener("click", () => {
+  const keyword = getParamFromInput(key2);
+  if(keyword.length > 0) {
+    const block = getBlockFromTextarea(inp, keyword);
+    addTextToTextarea(out, block);
+    /*
+    if(block != undefined) {
+      vals = getValueBetweenKeywords(k1, k2, block);
+      addTextToTextarea(out, vals);
+    }
+    */
+  }
+});
 
 const style7 = {
   display: "inline-block",
@@ -100,38 +115,8 @@ cnt.appendChild(div);
    buttons.appendChild(br2);
  div.appendChild(out);
 
-function getLineFromTextarea(el, keyword) {
-  const str = el.value;
-  const lines = str.split("\n");
-  for(let l of lines) {
-    const i = l.indexOf(keyword);
-    if(i == 0) {
-      return(l);
-    }
-  }
-}
+addExampleToTextarea(inp);
 
-addTextToTextarea(inp, "ID a0x_3^f-9z");
-addTextToTextarea(inp, "NAME \"Isaac Bayu\"");
-addTextToTextarea(inp, "ANDROID True");
-addTextToTextarea(inp, "VERSION 2025v29.34.0.2e");
-addTextToTextarea(inp, "MASS 57.8");
-addTextToTextarea(inp, "COORD 20.8 -75.2");
-
-addTextToTextarea(inp, "\n\
-BLOCK_0_2_X_Y\n\
-1 2\n\
-3.5 -3\n\
--4 1.2E-5\
-");
-
-addTextToTextarea(inp, "\n\
-BLOCK_1_3_VX-VY-VZ\n\
-0.1 -3 -4.3\n\
-1.2 0.1 5.3\n\
--9.3 0.2 5.6\n\
-2.3 3.5 9.1\
-");
 {{< /script/runner >}}
 
 Left area is for inline values and block of values and right area is for the results.
