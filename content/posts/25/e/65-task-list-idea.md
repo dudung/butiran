@@ -17,7 +17,7 @@ url = '25e65'
 
 
 ## notes
-+ Manual task list would be better since it is simple and manageable, when the light manual update effort can be beared [^gpt-4o_2025].
++ Manual task list would be better since it is simple and manageable, when the light manual update effort can be beared [^gpt-4o_2025a].
 + Sample posts are as follow, 
 crs:
 [25d15](/butiran/25d15) fi3271,
@@ -60,7 +60,9 @@ oth:
 [25e63](/butiran/25e63) misc-cv,
 [25e11](/butiran/25e11) refs-may,
 [25e48](/butiran/25e48) exp-info, that might not all be used.
++ There are changes on post urls from this point forward, effectively for next month [^gpt-4o_2025b].
 
 
 ## refs
-[^gpt-4o_2025]: GPT-4o, "Manual Task List in Hugo Post", ChatGPT, 30 May 2025, url https://chatgpt.com/share/683968e4-6b2c-800a-b831-6c7d3faa4e09 [20250530].
+[^gpt-4o_2025a]: GPT-4o, "Manual Task List in Hugo Post", ChatGPT, 30 May 2025, url https://chatgpt.com/share/683968e4-6b2c-800a-b831-6c7d3faa4e09 [20250530].
+[^gpt-4o_2025b]: GPT-4o, "Chronological Post URL Scheme (2000–2099)", ChatGPT, 30 May 2025, url https://chatgpt.com/share/68398934-7154-800a-8615-8878d31be194 [20250530].
