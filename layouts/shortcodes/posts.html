@@ -1,0 +1,24 @@
+<script>
+function changeLink(str) {
+  const el = document.getElementById("link");
+  el.innerHTML = "<a href='/butiran/"
+    + str
+    + "' target='_blank'>"
+    + str
+    + "</a>";
+}
+</script>
+
+<select onchange="changeLink(this.value)">
+  <option selected disabled hidden>Select note</option>
+  {{ range split .Inner "\n" }}
+    {{- $line := trim . " \r" -}}
+    {{- if ne $line "" -}}
+      {{- $cols := split $line " | " -}}
+      {{ $url := index $cols 0 }}
+      {{ $title := index $cols 1 }}
+      <option value="{{ $url }}">{{ $title }}</option>
+    {{ end }}
+  {{ end }}
+</select>
+<span id="link"></span>
