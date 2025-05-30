@@ -16,6 +16,14 @@ url = '25e65'
 + It should be clear for authors but not too clear for readers in case it is for personal use but there must be partial information to share for some goals.
 
 
+{{< postlist >}}
+25d15 | fi3271
+25c12 | fi5282
+25e08 | sk5004
+25c32 | nt8098
+{{< /postlist >}}
+
+
 ## notes
 + Manual task list would be better since it is simple and manageable, when the light manual update effort can be beared [^gpt-4o_2025a].
 + Sample posts are as follow, 
