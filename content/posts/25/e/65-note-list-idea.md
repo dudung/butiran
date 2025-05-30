@@ -1,5 +1,5 @@
 +++
-title = 'task list idea'
+title = 'note list idea'
 date = '2025-05-30T15:16:40+07:00'
 authors = ['viridi']
 draft = false
