@@ -11,6 +11,8 @@ url = '25d66'
 
 <!-- more -->
 
++ `30-may-2025` [`7uwek`](https://osf.io/7uwek) Attendance confirmation.
++ `26-may-2025` [`37pna`](https://osf.io/37pna) Experiment sop v2.
 + `25-may-2025` [`ej68b`](https://osf.io/ej68b) Payment confirmation &check.
 + `25-may-2025` [`mwpse`](https://osf.io/mwpse) Bought materials delivered.
 + `24-may-2025` [`nexdf`](https://osf.io/nexdf) First meeting of authors (-1).

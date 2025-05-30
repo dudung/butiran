@@ -11,5 +11,6 @@ url = '25e64'
 
 <!-- more -->
 
++ `30-may-2025` [`wnqhs`](https://osf.io/wnqhs) Google drive folder and wag creation.
 + `30-may-2025` [`kwbts`](https://osf.io/kwbts) First online meeting for discussion.
 + `26-may-2025` [`74x8d`](https://osf.io/74x8d) Info of ds occupation map changes.
