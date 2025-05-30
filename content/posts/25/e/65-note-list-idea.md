@@ -14,7 +14,7 @@ url = '25e65'
 ## design
 + The purpose is have simple design but clear and helpful to indicate tasks to process.
 + It should be clear for authors but not too clear for readers in case it is for personal use but there must be partial information to share for some goals.
-+ Version 0 is {{< posts >}}
++ Version 0 is {{< notelist >}}
 25d15 | fi3271
 25c12 | fi5282
 25e08 | sk5004
@@ -50,7 +50,7 @@ url = '25e65'
 25e63 | misc-cv
 25e11 | refs-may
 25e48 | exp-info
-{{< /posts >}}.
+{{< /notelist >}}.
 
 
 ## notes
