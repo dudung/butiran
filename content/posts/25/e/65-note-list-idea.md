@@ -98,8 +98,53 @@ oth:
 [25e11](/butiran/25e11) refs-may,
 [25e48](/butiran/25e48) exp-info, that might not all be used.
 + There are changes on post urls from this point forward, effectively for next month [^gpt-4o_2025b].
++ Rename it from posts to notelist on 31-may-2025.
+
+
+## code
+Content of `notelist.html` in `/layouts/shortcodes` folder is as follow.
+
+```html
+<script>
+function changeLink(str) {
+  const el = document.getElementById("link");
+  el.innerHTML = "<a href='/butiran/"
+    + str
+    + "' target='_blank'>"
+    + str
+    + "</a>";
+}
+</script>
+
+<style>
+select:has(option:disabled:checked[hidden]) {
+  color: gray;
+}
+
+select option {
+  color: black;
+}
+</style>
+
+<select onchange="changeLink(this.value)">
+  <option class="placeholder" selected disabled hidden>Select note</option>
+  {{ range split .Inner "\n" }}
+    {{- $line := trim . " \r" -}}
+    {{- if ne $line "" -}}
+      {{- $cols := split $line " | " -}}
+      {{ $url := index $cols 0 }}
+      {{ $title := index $cols 1 }}
+      <option value="{{ $url }}">{{ $title }}</option>
+    {{ end }}
+  {{ end }}
+</select>
+<span id="link"></span>
+```
+
+Style and attributes for `select` and `option` elements are according to a discussion [^paul_2023].
 
 
 ## refs
 [^gpt-4o_2025a]: GPT-4o, "Manual Task List in Hugo Post", ChatGPT, 30 May 2025, url https://chatgpt.com/share/683968e4-6b2c-800a-b831-6c7d3faa4e09 [20250530].
 [^gpt-4o_2025b]: GPT-4o, "Chronological Post URL Scheme (2000–2099)", ChatGPT, 30 May 2025, url https://chatgpt.com/share/68398934-7154-800a-8615-8878d31be194 [20250530].
+[^paul_2023]: Paul K., "Answer to: How do I make a placeholder for a 'select' box?", Stack Overflow, 4 Jan 2023, url https://stackoverflow.com/a/75004489/9475509 [20250530]

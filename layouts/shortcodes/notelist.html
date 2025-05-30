@@ -9,8 +9,18 @@ function changeLink(str) {
 }
 </script>
 
+<style>
+select:has(option:disabled:checked[hidden]) {
+  color: gray;
+}
+
+select option {
+  color: black;
+}
+</style>
+
 <select onchange="changeLink(this.value)">
-  <option selected disabled hidden>Select note</option>
+  <option class="placeholder" selected disabled hidden>Select note</option>
   {{ range split .Inner "\n" }}
     {{- $line := trim . " \r" -}}
     {{- if ne $line "" -}}
@@ -20,5 +30,4 @@ function changeLink(str) {
       <option value="{{ $url }}">{{ $title }}</option>
     {{ end }}
   {{ end }}
-</select>
-<span id="link"></span>
+</select> {{ .Get 0 | default "" }} <span id="link"><a href="/butiran/">99z99</a></span>
