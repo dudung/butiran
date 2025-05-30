@@ -14,14 +14,43 @@ url = '25e65'
 ## design
 + The purpose is have simple design but clear and helpful to indicate tasks to process.
 + It should be clear for authors but not too clear for readers in case it is for personal use but there must be partial information to share for some goals.
-
-
-{{< postlist >}}
++ Version 0 is {{< posts >}}
 25d15 | fi3271
 25c12 | fi5282
 25e08 | sk5004
 25c32 | nt8098
-{{< /postlist >}}
+25e50 | s2-fi
+25e52 | s2-sk
+25d11 | bima-ai
+25d10 | bima-rh
+25d09 | bima-sh,
+25b11 | bpdpks-md
+25c16 | rki-sv
+25c27 | riim-di
+25c26 | riim-rk
+24l05 | solo-mm
+24j29 | solo-vs
+25c47 | 08-mlg
+25c49 | 09-soc
+25e09 | 12-bgr
+25e58 | 13-bdg
+25e25 | aditya aryashakti
+25d39 | muhammad shaquille hisham
+25e36 | luthfi naufal
+25a45 | kahfi rizky kosasih
+25d24 | marco sutisna putra
+25e55 | sekar ayu widashtri
+25c46 | asep bustanil aripin
+25e46 | anzet dianto pebriwan
+25e39 | hani tustanto
+25c61 | sevi nurafni
+25e01 | deni ramdani
+25c44 | azhari
+25e62 | stem-id
+25e63 | misc-cv
+25e11 | refs-may
+25e48 | exp-info
+{{< /posts >}}.
 
 
 ## notes
