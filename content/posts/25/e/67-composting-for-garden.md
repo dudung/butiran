@@ -2,7 +2,7 @@
 title = 'composting for garden'
 date = '2025-05-31T18:56:56+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['compost']
