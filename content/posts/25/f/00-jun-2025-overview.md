@@ -46,13 +46,19 @@ Example URL:
 + `/25la2/` → December 2025 overflow post.
 
 
+## table
++ Status: 0 (unprocessed), 1 (processed).
++ Symbols: p (planned), s (started), u (unfinished), e (ended), c (continued), x (uncertain) [^viridi_2025a].
+
+
 ## notes
 + Current url structure is limited to 2099 [^gpt-4o_2025c] and must be later considered to advance.
-+ Daily note will use `notelist` shortcode [^viridi_2025] and it should be the first note in a day, but it might be not today.
++ Daily note will use `notelist` shortcode [^viridi_2025b] and it should be the first note in a day, but it might be not today.
 
 
 ## refs
 [^gpt-4o_2025a]: GPT-4o, "Monthly Post Format Guidance", ChatGPT, 1 Jun 2025, url https://chatgpt.com/share/683b97dc-3dac-800a-84fd-c12cf89ae2b1 [20250601].
 [^gpt-4o_2025b]: GPT-4o, "Monthly Posts Overview", ChatGPT, 1 Jun 2025, url https://chatgpt.com/share/683b93ee-edc4-800a-9b45-c237a225bba4 [20250601].
-[^gpt-4o_2025c]: GPT-4o, "Chronological Post URL Scheme (2000–2099)", ChatGPT, 30 May 2025, url https://chatgpt.com/share/68398934-7154-800a-8615-8878d31be194  [20250531].
-[^viridi_2025]: Sparisoma Viridi, "note list idea", butiran, 30 May 2025, url [https://dudung.github.io/butiran/25e65/](/butiran/25e65/) [20250601].
+[^gpt-4o_2025c]: GPT-4o, "Chronological Post URL Scheme (2000–2099)", ChatGPT, 30 May 2025, url https://chatgpt.com/share/68398934-7154-800a-8615-8878d31be194  [20250601].
+[^viridi_2025a]: Sparisoma Viridi, "thu 01.05.25", butiran, 1 May 2025, url [https://dudung.github.io/butiran/25e00/](/butiran/25e00/) [20250601].
+[^viridi_2025b]: Sparisoma Viridi, "note list idea", butiran, 30 May 2025, url [https://dudung.github.io/butiran/25e65/](/butiran/25e65/) [20250601].

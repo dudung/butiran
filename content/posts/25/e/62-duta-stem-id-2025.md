@@ -11,6 +11,7 @@ url = '25e62'
 
 <!-- more -->
 
++ `31-may-2025` [`xasf7`](https://osf.io/xasf7) Letter of assignment as nat-adv-board member.
 + `30-may-2025` [`yx9ag`](https://osf.io/yx9ag) Second offer form filling and email to inform.
 + `17-may-2025` [`btrnc`](https://osf.io/btrnc) Another offer as board and professional.
 + `15-may-2025` [`da5rh`](https://osf.io/da5rh) Mismatch offer as a stem ambassador.

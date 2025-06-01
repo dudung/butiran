@@ -11,9 +11,10 @@ url = '25d66'
 
 <!-- more -->
 
++ `01-jun-2025` [`etxk9`](https://osf.io/etxk9) Payment receipt to ki-fm.
 + `30-may-2025` [`7uwek`](https://osf.io/7uwek) Attendance confirmation.
 + `26-may-2025` [`37pna`](https://osf.io/37pna) Experiment sop v2.
-+ `25-may-2025` [`ej68b`](https://osf.io/ej68b) Payment confirmation &check.
++ `25-may-2025` [`ej68b`](https://osf.io/ej68b) Payment confirmation request.
 + `25-may-2025` [`mwpse`](https://osf.io/mwpse) Bought materials delivered.
 + `24-may-2025` [`nexdf`](https://osf.io/nexdf) First meeting of authors (-1).
 + `24-may-2025` [`m9y3g`](https://osf.io/m9y3g) Invoice, payment, letters of something.
