@@ -11,6 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
++ `02-jun-2025` [`6nzys`](https://osf.io/6nzys) Plan to start experiment.
 + `01-jun-2025` [`etxk9`](https://osf.io/etxk9) Payment receipt to ki-fm.
 + `30-may-2025` [`7uwek`](https://osf.io/7uwek) Attendance confirmation.
 + `26-may-2025` [`37pna`](https://osf.io/37pna) Experiment sop v2.
