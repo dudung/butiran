@@ -9,6 +9,7 @@ categories = ['proposals']
 url = '25d12'
 +++
 
++ `28-may-2025` [`b5e86`](https://osf.io/b5e86) Dean decree for book from gs.
 + `04-apr-2025` [`uwf2n`](https://osf.io/uwf2n) Research repo renaming.
 + `26-mar-2025` [`9a8cy`](https://osf.io/9a8cy) Spending socialization.
 + `07-mar-2025` [`zemxc`](https://osf.io/zemxc) Budget plan submission.

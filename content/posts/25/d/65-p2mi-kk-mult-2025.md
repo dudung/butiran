@@ -11,4 +11,5 @@ url = '25d65'
 
 <!-- more -->
 
-`26-apr-2025` [`kxf4u`](https://osf.io/kxf4u) Budget plan rev-3 confirmation.
++ `28-may-2025` [`4gs29`](https://osf.io/4gs29) Dean decree for the res from gs.
++ `26-apr-2025` [`kxf4u`](https://osf.io/kxf4u) Budget plan rev-3 confirmation.

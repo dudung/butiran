@@ -8,7 +8,7 @@ categories = ['committee']
 url = '25c58'
 +++
 
-+ `02-jun-2025` [`g6w5f`](https://osf.io/g6w5f) New Deans inauguration.
++ `28-may-2025` [`g6w5f`](https://osf.io/g6w5f) Deans inauguration invitation
 + `06-may-2025` [`7ejgx`](https://osf.io/7ejgx) A senate meeting.
 + `11-apr-2025` [`zauxm`](https://osf.io/zauxm) Academic senate hearing.
 + `10-apr-2025` [`gjdfv`](https://osf.io/gjdfv) An online meeting.

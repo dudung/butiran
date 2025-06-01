@@ -9,6 +9,8 @@ categories = ['users']
 url = '25d38'
 +++
 
++ `01-jun-2025` [`nrgyz`](https://osf.io/nrgyz) Plan for continuing with doubt.
++ `15-may-2025` [`vkeu7`](https://osf.io/vkeu7) Some progress in may.
 + `30-apr-2025` [`yq9cw`](https://osf.io/yq9cw) Online meeting for progress report.
 + `29-apr-2025` [`6ueyq`](https://osf.io/6ueyq) Thesis permissin discussion.
 + `28-apr-2025` [`yaj9e`](https://osf.io/yaj9e) Information about chapter 1.

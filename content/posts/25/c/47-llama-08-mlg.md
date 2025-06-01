@@ -9,6 +9,12 @@ categories = ['llama']
 url = '25c47'
 +++
 
++ `01-jun-2025` [`wrxuv`](https://osf.io/wrxuv) Permission request from res-g.
++ `15-may-2025` [`8upbj`](https://osf.io/8upbj) Creation of wag for fi only.
++ `15-may-2025` [`m3jqc`](https://osf.io/m3jqc) Tasks distribution info.
++ `14-may-2025` [`7mxyz`](https://osf.io/7mxyz) Letter of assignment.
++ `08-may-2025` [`x8gt2`](https://osf.io/x8gt2) Creation of wag for fi-bi.
++ `18-apr-2025` [`yqem4`](https://osf.io/yqem4) Revised ak validated.
 + `13-apr-2025` [`6vufw`](https://osf.io/6vufw) Revision-1 of ak upload.
 + `28-mar-2025` [`5c489`](https://osf.io/5c489) Part 4 and submission.
 + `27-mar-2025` [`nwz3r`](https://osf.io/nwz3r) Part 3 of ak processing.
