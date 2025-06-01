@@ -48,8 +48,7 @@ Example URL:
 
 ## notes
 + Current url structure is limited to 2099 [^gpt-4o_2025c] and must be later considered to advance.
-+ Daily note will use `notelist` shortcode [^viridi_2025].
-
++ Daily note will use `notelist` shortcode [^viridi_2025] and it should be the first note in a day, but it might be not today.
 
 
 ## refs
