@@ -8,6 +8,8 @@ categories = ['committee']
 url = '25c58'
 +++
 
++ `02-jun-2025` [`g6w5f`](https://osf.io/g6w5f) New Deans inauguration.
++ `06-may-2025` [`7ejgx`](https://osf.io/7ejgx) A senate meeting.
 + `11-apr-2025` [`zauxm`](https://osf.io/zauxm) Academic senate hearing.
 + `10-apr-2025` [`gjdfv`](https://osf.io/gjdfv) An online meeting.
 + `26-mar-2025` [`fb6gv`](https://osf.io/fb6gv) Online socialization.
@@ -15,3 +17,8 @@ url = '25c58'
 + `24-mar-2025` [`x2zt3`](https://osf.io/x2zt3) Socialization preparation.
 + `22-mar-2025` [`fqncy`](https://osf.io/fqncy) Online kick-off meeting.
 + `19-mar-2025` [`evg7m`](https://osf.io/evg7m) Team and WAG forming.
+
+
+## notes
++ There is a lot of missing archives for this activity.
++ In cooling time between semester the collecting will be conducted.
