@@ -2,7 +2,7 @@
 title = 'meta packages'
 date = '2025-06-02T03:44:15+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['metaphysics']
