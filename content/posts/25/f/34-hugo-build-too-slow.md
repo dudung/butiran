@@ -2,7 +2,7 @@
 title = 'hugo build too slow'
 date = '2025-06-02T06:59:44+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['hugo']
 categories = ['butiran']
