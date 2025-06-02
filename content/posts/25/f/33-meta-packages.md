@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `03-jun-2025` Eine gesternabend-Mülleimer Made im Badezimmer. :bug:
++ `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer. :bug:
 + `02-jun-2025` Hausgecko und Erdwurm im Badezimmer. :worm:
 + `01-may-2025` Gewächshausspinne an der Haustür. :spider:
 + `31-may-2025` Art von Kakerlaken in Gartenerde. :cockroach:
