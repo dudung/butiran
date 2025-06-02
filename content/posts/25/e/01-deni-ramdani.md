@@ -24,7 +24,8 @@ url = '25e01'
 
 
 ## todo
-+ Installation of [AnyDesk for Windows](https://anydesk.com/en/downloads/windows) on Faraday.
++ Installation of [AnyDesk for Windows](https://anydesk.com/en/downloads/windows) on local computer on 15-may-2025. &check;
++ Installation of [Git](https://git-scm.com/downloads) on faraday on 01-jun-2025. &check; 
 + Installation of [Python packages](https://medium.com/p/fc02c9b273bb) on Faraday.
 
 
