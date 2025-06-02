@@ -11,7 +11,7 @@ url = '25e01'
 
 <!-- more -->
 
-+ `02-jun-2025` [`bk78w`](https://osf.io/bk78w) Restructure github repo on faraday.
++ `02-jun-2025` [`bk78w`](https://osf.io/bk78w) Restructure gh-repo, git installed on faraday.
 + `26-may-2025` [`jqmpn`](https://osf.io/jqmpn) Try to install python 3.12.10 on faraday.
 + `14-may-2025` [`nkgr5`](https://osf.io/nkgr5) AnyDesk installation.
 + `01-may-2025` [`8p53y`](https://osf.io/8p53y) Initial online meeting.
@@ -20,6 +20,7 @@ url = '25e01'
 
 ## notes
 + This is a continuation of ongoing research under a modified research team. Previous info is available [^viridi_2025].
++ Umbrella project of this note is [25d11](/butiran/25d11/).
 
 
 ## todo

@@ -24,6 +24,7 @@ url = '25d29'
 
 ## notes
 + Due to disconnected communication a substitute is required, since the research must go on. Update is available [^viridi_2025].
++ Umbrella project of this note is [25d11](/butiran/25d11/).
 
 
 ## refs
