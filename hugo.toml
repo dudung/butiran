@@ -9,6 +9,8 @@ enableEmoji = true
 [pagination]
 pagerSize = 30
 
+disableKinds = ["RSS", "sitemap", "robotsTXT"]
+
 [taxonomies]
 #  author = "authors"
 #  tag = "tags"
