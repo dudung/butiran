@@ -2,7 +2,7 @@
 title = 'muhammad naufal fadhillah'
 date = '2025-06-02T14:29:31+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['ai']
 categories = ['users']
