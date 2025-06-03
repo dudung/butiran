@@ -11,7 +11,7 @@ url = '25f36'
 
 <!-- more -->
 
-+ `03-jun-2025` []() Info of online meeting on nug data.
++ `03-jun-2025` [`suap6`](https://osf.io/suap6) Info of online meeting on nug data.
 
 
 ## notes
