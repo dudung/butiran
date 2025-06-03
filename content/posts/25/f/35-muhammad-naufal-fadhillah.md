@@ -11,7 +11,8 @@ url = '25f35'
 
 <!-- more -->
 
-+ `06-jun-2025` [`xqmaf`](https://osf.io/xqmaf) Unbusy time of faraday appointment.
++ `03-jun-2025` [`3yxa5`](https://osf.io/3yxa5) Faraday unoccupied from python.
++ `02-jun-2025` [`xqmaf`](https://osf.io/xqmaf) Unbusy time of faraday appointment.
 
 
 ## notes
