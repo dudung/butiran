@@ -11,8 +11,9 @@ url = '25f33'
 
 <!-- more -->
 
-+ `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer :bug:
-+ `02-jun-2025` Hausgecko und Erdwurm im Badezimmer, Splitt am Dach. :lizard: :worm: :rock:
++ `04-jun-2025` Unbekannter Wurm im Badezimmer. :worm:
++ `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. :bug: :telephone_receiver:
++ `02-jun-2025` Hausgecko und Erdwurm im Badezimmer, Maden in Mülleimer, Splitt am Dach. :lizard: :worm: :bug: :rock:
 + `01-may-2025` Gewächshausspinne an der Haustür. :spider:
 + `31-may-2025` Art von Kakerlaken in Gartenerde. :cockroach:
 + `29-may-2025` Seltsames Lied gesungen beim Nachbarn. :notes:
