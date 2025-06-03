@@ -2,7 +2,7 @@
 title = 'nug info'
 date = '2025-06-03T18:33:56+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['res']
