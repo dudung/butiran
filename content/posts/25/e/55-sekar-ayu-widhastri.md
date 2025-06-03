@@ -11,5 +11,6 @@ url = '25e55'
 
 <!-- more -->
 
++ `03-jun-2025` [`y65wg`](https://osf.io/y65wg) Project discussion, informal supervising.
 + `28-may-2025` [`j2tg9`](https://osf.io/j2tg9) Career path discussion.
 + `23-may-2025` [`qz42p`](https://osf.io/qz42p) First communication via teams.

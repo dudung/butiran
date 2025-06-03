@@ -11,6 +11,7 @@ url = '25e01'
 
 <!-- more -->
 
++ `03-jun-2025` [`td9qz`](https://osf.io/td9qz) Install python packages, try hello world. 
 + `02-jun-2025` [`bk78w`](https://osf.io/bk78w) Restructure gh-repo, git installed on faraday.
 + `26-may-2025` [`jqmpn`](https://osf.io/jqmpn) Try to install python 3.12.10 on faraday.
 + `14-may-2025` [`nkgr5`](https://osf.io/nkgr5) AnyDesk installation.
