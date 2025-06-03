@@ -22,7 +22,9 @@ url = '25e01'
 ## notes
 + This is a continuation of ongoing research under a modified research team. Previous info is available [^viridi_2025].
 + Umbrella project of this note is [25d11](/butiran/25d11/).
-+ Problem by PowerShell, but not by cmd when using AnyDesk on remote Windows computer. [^gpt-4o_2025]
++ Problem by PowerShell, but not by cmd when using AnyDesk on remote Windows computer [^gpt-4o_2025].
++ Test the virtual environment at home, make example from `naz` code, and
+will update the clone on Faraday with suggested steps [^gpt-4o_2025b].
 
 
 ## todo
@@ -37,3 +39,4 @@ url = '25e01'
 [^viridi_2024]: Sparisoma Viridi, "Clone Python virtual environment", Medium, 16 May 2024, url https://medium.com/p/fc02c9b273bb [20250603].
 [^gpt-4o_2025]: GPT-4o, "PowerShell Script Execution Fix", ChatGPT, 3 Jun 2025, url https://chatgpt.com/share/683e92af-c83c-800a-9340-584ea7f78de2 [20250603].
 [^viridi_2025b]: Sparisoma Viridi, "Install Python 3.12.10 on remote computer", Medium, draft url https://medium.com/p/dc66f07c424b [20250603].
+[^gpt-4o_2025b]: GPT-4o, "Update cloned repo locally", ChatGPT, 4 Jun 2025, url https://chatgpt.com/share/683f64a6-2384-800a-9b7b-a468a3e67016 [20250604].
