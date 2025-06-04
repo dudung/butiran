@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `04-jun-2025` Unbekannter Wurm im Badezimmer. :worm:
++ `05-jun-2025` Stimme der Mause am Dach. :rat:
++ `04-jun-2025` Unbekannter Wurm im Badezimmer, auch Kakerlake -- schimmender und klatterner. :worm: :cockroach:
 + `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. :bug: :telephone_receiver:
 + `02-jun-2025` Hausgecko und Erdwurm im Badezimmer, Maden in Mülleimer, Splitt am Dach. :lizard: :worm: :bug: :rock:
 + `01-may-2025` Gewächshausspinne an der Haustür. :spider:
