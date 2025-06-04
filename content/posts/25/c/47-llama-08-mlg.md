@@ -9,6 +9,7 @@ categories = ['llama']
 url = '25c47'
 +++
 
++ `04-jun-2025` [`g2cex`](https://osf.io/g2cex) Hotel booking finalization.
 + `02-jun-2025` [`tkz23`](https://osf.io/tkz23) Reservation of the flight.
 + `01-jun-2025` [`wrxuv`](https://osf.io/wrxuv) Permission request from res-g.
 + `15-may-2025` [`8upbj`](https://osf.io/8upbj) Creation of wag for fi only.
