@@ -25,7 +25,7 @@ url = '25e01'
 + Umbrella project of this note is [25d11](/butiran/25d11/).
 + Problem by PowerShell, but not by cmd when using AnyDesk on remote Windows computer [^gpt-4o_2025].
 + Test the virtual environment at home, make example from `naz` code with fix.
-+ (plan) Update the clone on Faraday with suggested steps [^gpt-4o_2025b].
++ (plan) Update the clone on Faraday with suggested steps [^gpt-4o_2025b]. Better is via fork, clone, commit + push, pull request by pic. It will be discussed on 04-jun-2025 at fmf.
 
 
 ## todo

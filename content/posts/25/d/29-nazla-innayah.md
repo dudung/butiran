@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d29'
 +++
 
++ `03-jun-2025` [`7n6bv`](https://osf.io/7n6bv) News after a while and current state. 
 + `01-may-2025` [`62kwf`](https://osf.io/62kwf) Online metup on substitute.
 + `11-apr-2025` [`ucdn2`](https://osf.io/ucdn2) Start finding info about chem-fi-fmt.
 + `04-apr-2025` [`ykjct`](https://osf.io/ykjct) In between information after a while.

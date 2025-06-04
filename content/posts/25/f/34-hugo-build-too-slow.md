@@ -15,6 +15,7 @@ This note lists steps take to have faster build of Hugo site.
 
 + `04-jun-2025` Change nothing, but with 1467 pages with `hugo server -D` command. Do not delete `public` folder.
   - Test at home: 5688 ms, 5682 ms, 5638 ms, 6007 ms.
+  - Test at the office: 21989 ms, 7864 ms, 10462 ms, 11555 ms.
 + `03-jun-2025` Change nothing, but with 1467 pages with `hugo server -D` command. Do not delete `public` folder.
   - Test at the office: 26936 ms, 10689 ms, 14335 ms, 9046 ms.
   - Test at home: 8228 ms, 5688 ms, 5856 ms, 5895 ms.
