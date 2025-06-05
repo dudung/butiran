@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `05-jun-2025` Stimme der Mäuse am Dach, Baby Hausgecko am flur, drei unbekante Anrufe. :rat: :lizard: :telephone_receiver:
++ `06-jun-2025` Ein getrockneter Wurm im Badezimmer. :worm:
++ `05-jun-2025` Stimme der Mäuse am Dach 1f+2f, Baby Hausgecko am flur, drei unbekante Anrufe, eine fallende Kakerlake. :rat: :lizard: :telephone_receiver: :cockroach:
 + `04-jun-2025` Unbekannter Wurm im Badezimmer, auch Kakerlake -- schimmender und klatterner. :worm: :cockroach:
 + `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. :bug: :telephone_receiver:
 + `02-jun-2025` Hausgecko und Erdwurm im Badezimmer, Maden in Mülleimer, Splitt am Dach. :lizard: :worm: :bug: :rock:
