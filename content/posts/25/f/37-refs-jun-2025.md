@@ -2,7 +2,7 @@
 title = 'refs jun-2025'
 date = '2025-06-05T04:31:31+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['refs']
