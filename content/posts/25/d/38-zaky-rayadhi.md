@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d38'
 +++
 
++ `05-jun-2025` [`dbz6t`](https://osf.io/dbz6t) Asked to head of department.
 + `01-jun-2025` [`nrgyz`](https://osf.io/nrgyz) Plan for continuing with doubt.
 + `15-may-2025` [`vkeu7`](https://osf.io/vkeu7) Some progress in may.
 + `30-apr-2025` [`yq9cw`](https://osf.io/yq9cw) Online meeting for progress report.

@@ -11,6 +11,8 @@ url = '25f36'
 
 <!-- more -->
 
++ `05-jun-2025` [`vzh5f`](https://osf.io/vzh5f) Zoom meeting with anpha.
++ `04-jun-2025` [`ds3wv`](https://osf.io/ds3wv) Link in text and rk-slides.
 + `03-jun-2025` [`suap6`](https://osf.io/suap6) Info of online meeting on nug data.
 
 
