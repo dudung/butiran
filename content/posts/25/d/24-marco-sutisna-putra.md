@@ -10,6 +10,7 @@ url = '25d24'
 +++
 
 + `17-jun-2025` [`osfio`]() Thesis i seminar, planned at 1300.
++ `06-jun-2025` [`8acyd`](https://osf.io/8acyd) Tesis 1 seminar approval.
 + `03-jun-2025` [`d5rn9`](https://osf.io/d5rn9) Further progress and plan change.
 + `28-may-2025` [`aqmsd`](https://osf.io/aqmsd) Progress and thesis i seminar date.
 + `21-may-2025` [`pw8g9`](https://osf.io/pw8g9) A supervion after proposal seminar.
