@@ -25,3 +25,4 @@ url = '25f42'
 ## notes
 + There are interactions before 03-apr-2025 but not well documented.
 + This note begins on 07-jun-2025, where some in between above items might be also missing.
++ Semester begins on 11-aug-2025 and leaving to there end of july.
