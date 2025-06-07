@@ -122,6 +122,7 @@ addExampleToTextarea(inp);
 
 Left area is for inline value(s) and block values and right area is for the results.
 
+
 ## usage
 + Type `VERSION` in Param keyword input field, then click {{< fakebutton "Get Param" >}} to get the value(s).
 + Type `velocity` in Block keyword input field, then click {{< fakebutton "Get Block" >}} to get the values. 
