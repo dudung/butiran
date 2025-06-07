@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `06-jun-2025` Ein getrockneter Wurm im Badezimmer. :worm:
++ `07-jun-2025` Stimme der Mäuse am Dach 2f, eine umgedrehte Kakerlake am Flur. :rat: :cockroach:
++ `06-jun-2025` Ein getrockneter Wurm im Badezimmer, Katzenkampf im Garten. :worm: :cat:
 + `05-jun-2025` Stimme der Mäuse am Dach 1f+2f, Baby Hausgecko am flur, drei unbekante Anrufe, eine fallende Kakerlake. :rat: :lizard: :telephone_receiver: :cockroach:
 + `04-jun-2025` Unbekannter Wurm im Badezimmer, auch Kakerlake -- schimmender und klatterner. :worm: :cockroach:
 + `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. :bug: :telephone_receiver:

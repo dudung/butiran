@@ -9,6 +9,7 @@ categories = ['llama']
 url = '25c47'
 +++
 
++ `07-jun-2025` [`jh4ux`](https://osf.io/jh4ux) Permit from f/s request.
 + `05-jun-2025` [`wrxuv`](https://osf.io/wrxuv) Permission res-g granted.
 + `04-jun-2025` [`g2cex`](https://osf.io/g2cex) Hotel booking finalization.
 + `02-jun-2025` [`tkz23`](https://osf.io/tkz23) Reservation of the flight.
@@ -23,3 +24,7 @@ url = '25c47'
 + `24-mar-2025` [`srbcn`](https://osf.io/srbcn) Part 2 of ak processing.
 + `23-mar-2025` [`db7nt`](https://osf.io/db7nt) Part 1 of ak processing.
 + `18-mar-2025` [`gt2en`](https://osf.io/gt2en) Info and offer accepted.
+
+
+## notes
++ Upload on 07-jun-2025 facing internet connection problem for permission_form_p3.pdf, permission_form_p4_survei.pdf, README.md, and the assigment letter.
