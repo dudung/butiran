@@ -11,6 +11,8 @@ url = '25d66'
 
 <!-- more -->
 
++ `07-jun-2025` [`qv6bu`](https://osf.io/qv6bu) Individual abs page, 148 [^shadiq_2025] & 201 [^kusuma_2025].
++ `03-jun-2025` [`q3ygx`](https://osf.io/q3ygx) Initial experiment discussion.
 + `02-jun-2025` [`6nzys`](https://osf.io/6nzys) Plan to start experiment.
 + `01-jun-2025` [`etxk9`](https://osf.io/etxk9) Payment receipt to ki-fm.
 + `30-may-2025` [`7uwek`](https://osf.io/7uwek) Attendance confirmation.
@@ -44,3 +46,5 @@ url = '25d66'
 [^viridi_2019]: S. Viridi, F. Haryanto, "Agent-based Model and its Potential in Simulating Some Physical Systems", 
 IOP Conference Series: Materials Science and Engineering, vol 599, no 1, p 012008, 2019, ur http://doi.org/10.1088/1757-899X/599/1/012008. 
 [^widartiningish_2022]: P. M. Widartiningsih, M. I. R. Putra, D. P. P. Aji, A. N. F. Rudiawan, S. Viridi, "Experimental investigation of pile characteristics of non-spherical particles mixtures: pile height and angle of repose", Journal of Physics: Conference Series, vol 2243, no 1, p 01279, 2022, url http://doi.org/10.1088/1742-6596/2243/1/012079.
+[^shadiq_2025]: Muhammad Farhan Shadiq, Aurellyallodia Faiza Kusuma, Fifi Fitriyah Masduki, Sevi Nurafni, Putri Mustika Widartiningsih, Sparisoma Viridi, "Modeling Granular Mixtures with Simple Rules: A Student Project in Agent-Based Simulation", International Physics Seminar (IPS) 2025, 21 Jun 2025, Jakarta, Indonesia, url https://interconf.org/2025/ips/kfz/abstract/Ge7LCuvk3 [20250607].
+[^kusuma_2025]: Aurellyallodia Faiza Kusuma, Muhammad Farhan Shadiq, Rizarullah, Reza Aditama, Sparisoma Viridi, Trina Tallei, Fifi Fitriyah Masduki, "Computational Biophysics of Drug-Target Interactions: In Silico Investigation of 2-Anilino-4-Amino Quinazoline Derivatives as Potential Inhibitors of Plasmodium falciparum Dihydroorotate Dehydrogenase", International Physics Seminar (IPS) 2025, 21 Jun 2025, Jakarta, Indonesia, url https://interconf.org/2025/ips/kfz/abstract/3fNktYEH7 [20250607].
