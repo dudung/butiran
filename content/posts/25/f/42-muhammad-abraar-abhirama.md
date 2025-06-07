@@ -2,7 +2,7 @@
 title = 'muhammad abraar abhirama'
 date = '2025-06-06T17:11:30+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['sk', 'ap', 'ntu']
 categories = ['users']

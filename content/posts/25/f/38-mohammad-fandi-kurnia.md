@@ -4,7 +4,7 @@ date = '2025-06-05T14:59:51+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
-tags = []
+tags = ['sv']
 categories = ['users']
 url = '25f38'
 +++
