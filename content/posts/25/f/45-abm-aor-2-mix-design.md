@@ -26,7 +26,7 @@ const style2 = {
   display: "flex",
   border: "0px #aaf solid",
   background: "#fafaff",
-  width: "600px",
+  width: "700px",
   height: "400px",
 };
 const div = createElement("div", style2);
@@ -54,17 +54,30 @@ cnt.appendChild(div);
   div.append(can);
 
 function addWorldAndWalls(el) {
-  addTextToTextarea(el, "WORLD 10 10");
-  addTextToTextarea(el, "WALL 1 1 1 8 10");
-  addTextToTextarea(el, "WALL 1 8 8 8 10");
-  addTextToTextarea(el, "WALL 8 8 1 1 10");
+  addTextToTextarea(el, "# ABM-AOR Simulation Input");
+  addTextToTextarea(el, "# Format Version: 1.0");
+  addTextToTextarea(el, "# Author: [Your Name]");
+  addTextToTextarea(el, "# Date: 2025-06-08");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# World dimensions");
+  addTextToTextarea(el, "WORLD 40 40");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# Enclosed boundary");
+  addTextToTextarea(el, "WALL 0 0 0 39 10");
+  addTextToTextarea(el, "WALL 0 39 39 39 10");
+  addTextToTextarea(el, "WALL 39 39 39 0 10");
+  addTextToTextarea(el, "WALL 39 0 0 0 10");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# Grains container");
+  addTextToTextarea(el, "WALL 15 19 15 38 16");
+  addTextToTextarea(el, "WALL 24 19 24 38 16");
 }
 addWorldAndWalls(txa);
 
 let line = getLineFromTextarea(txa, "WORLD");
 console.log(line);
 let dim = getValueAfterKeyword("WORLD", line).map(Number);
-const m = createZeroMatrix(dim[0], dim[1]);
+let m = createZeroMatrix(dim[0], dim[1]);
 
 let lines = getLinesFromTextarea(txa, "WALL");
 for(l of lines) {
@@ -72,7 +85,6 @@ for(l of lines) {
   drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
 }
 
-console.log(m);
 drawMatrixOnCanvas(can, m, getColor)
 
 {{< /script/runner >}}
@@ -92,16 +104,22 @@ drawMatrixOnCanvas(can, m, getColor)
 Above input specification and design is result of a discussion that refines initial idea [^gpt-4o_2025b].
 
 
+## todo
++ Add Read button to read data and draw the result on canvas.
+
+
 ## notes
 + Purpose of this note to design input elements and format for abm simulation of binary mixture in observing angle or repose (aor) as previously observed [^widartiningsih_2022].
 + In order to assure that a JS file is loaded a script marker is added as suggested in a discussion [^gpt-4o_2025a], which is the first time to know about IIFE (Immediately Invoked Function Expression) [^shrivastava_2024].
 + This script marker is also implemented to previous JS [^viridi_2025a], since it is used here, and also other JS [^viridi_2025b].
 + This note is part of two other notes, which are [25d66](/butiran/25d66/) and [25f43](/butiran/25f43/).
++ Add input title, format version, author, and date as suggested [^gpt-4o_2025c].
 
 
 ## refs
 [^gpt-4o_2025a]: GPT-4o, "A Tiny Console Trick to Track JS Files in Hugo", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844c09a-0490-800a-a2f8-5256c6133c76 [20250608].
 [^gpt-4o_2025b]: GPT-4o, "Granular Material Simulation (ABM) for AOR: Input Specification & Design", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844d2ee-7178-800a-a16b-6b22f36c368f [20250608].
+[^gpt-4o_2025c]: GPT-4o, "ABM Input Format Feedback", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/68456675-ea10-800a-9c5a-7a22fb445fdb [20250608].
 [^shrivastava_2024]: Gaurav Shrivastava, "IIFE (Immediately Invoked Function Expression)", Medium, 20 Sep 2025, url https://medium.com/p/584fef2673b9 [20250608].
 [^viridi_2025a]: Sparisoma Viridi, "js input from textarea", butiran, 29 May 2025, url [https://dudung.github.io/butiran/25e60/](/butiran/25e60/).
 [^viridi_2025b]: Sparisoma Viridi, "js matrix to canvas", butiran, 21 May 2025, url [https://dudung.github.io/butiran/25e41/](/butiran/25e41/).
