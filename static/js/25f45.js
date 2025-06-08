@@ -8,6 +8,7 @@
  * Exported:
  * - drawWall(m, p1, p2, w)
  * - getLinesFromTextarea(el, keyword)
+ * - addWorldAndWalls(el)
  */
 
 
@@ -76,6 +77,52 @@ function getLinesFromTextarea(el, keyword) {
   const lines = str.split("\n");
   return lines.filter(l => l.indexOf(keyword + " ") === 0);
 }
+
+
+/**
+ * Adds predefined world and wall configuration text to a given textarea element.
+ *
+ * This function appends structured simulation input for an Agent-Based Model (ABM)
+ * of granular material behavior to a given textarea element. The input follows a
+ * simple line-based format that includes:
+ *   - Simulation metadata
+ *   - World dimensions
+ *   - Enclosed boundary walls to keep grains within the simulation area
+ *   - Internal vertical walls forming a container (e.g., cylindrical boundaries)
+ *
+ * The structure is intended to be parsed by an ABM simulator observing the
+ * angle of repose (AOR) in a 2D granular system.
+ *
+ * @param {HTMLTextAreaElement} el - The textarea DOM element to which the configuration
+ *                                   text will be appended.
+ *
+ * Dependencies:
+ *   - Requires `addTextToTextarea(el, text)` to be defined elsewhere in the codebase.
+ *
+ * Example usage:
+ *   const textarea = document.getElementById('inputField');
+ *   addWorldAndWalls(textarea);
+ */
+function addWorldAndWalls(el) {
+  addTextToTextarea(el, "# ABM-AOR Simulation Input");
+  addTextToTextarea(el, "# Format Version: 1.0");
+  addTextToTextarea(el, "# Author: [Your Name]");
+  addTextToTextarea(el, "# Date: 2025-06-08");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# World dimensions");
+  addTextToTextarea(el, "WORLD 40 40");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# Enclosed boundary");
+  addTextToTextarea(el, "WALL 0 0 0 39 10");
+  addTextToTextarea(el, "WALL 0 39 39 39 10");
+  addTextToTextarea(el, "WALL 39 39 39 0 10");
+  addTextToTextarea(el, "WALL 39 0 0 0 10");
+  addTextToTextarea(el, "");
+  addTextToTextarea(el, "# Grains container");
+  addTextToTextarea(el, "WALL 15 19 15 38 16");
+  addTextToTextarea(el, "WALL 24 19 24 38 16");
+}
+
 
 
 // marker: 25f45.js

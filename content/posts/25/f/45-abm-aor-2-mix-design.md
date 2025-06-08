@@ -26,7 +26,7 @@ const style2 = {
   display: "flex",
   border: "0px #aaf solid",
   background: "#fafaff",
-  width: "700px",
+  width: "800px",
   height: "400px",
 };
 const div = createElement("div", style2);
@@ -38,55 +38,52 @@ const style3 = {
 const txa = createElement("textarea", style3);
 
 const style4 = {
-  width: "400px",
   borderTop: "1px #888 solid",
-  borderRight: "1px #888 solid",
   borderBottom: "1px #888 solid",
+  background: "#fafafa",
+  width: "80px",
+};
+const subdiv = createElement("div", style4);
+
+const style5 = {
+  width: "400px",
+  border: "1px #888 solid",
   flexShrink: "0",
   boxSizing: "border-box",
+  background: "#fff",
 };
-const can = createElement("canvas", style4);
+const can = createElement("canvas", style5);
 can.width = "300";
 can.height = "300";
 
+const style6 = {
+  width: "100%",
+  display: "block",
+};
+const btn = createElement("button", style6);
+btn.innerHTML = "Read";
+
 cnt.appendChild(div);
   div.append(txa);
+  div.append(subdiv);
+    subdiv.append(btn);
   div.append(can);
 
-function addWorldAndWalls(el) {
-  addTextToTextarea(el, "# ABM-AOR Simulation Input");
-  addTextToTextarea(el, "# Format Version: 1.0");
-  addTextToTextarea(el, "# Author: [Your Name]");
-  addTextToTextarea(el, "# Date: 2025-06-08");
-  addTextToTextarea(el, "");
-  addTextToTextarea(el, "# World dimensions");
-  addTextToTextarea(el, "WORLD 40 40");
-  addTextToTextarea(el, "");
-  addTextToTextarea(el, "# Enclosed boundary");
-  addTextToTextarea(el, "WALL 0 0 0 39 10");
-  addTextToTextarea(el, "WALL 0 39 39 39 10");
-  addTextToTextarea(el, "WALL 39 39 39 0 10");
-  addTextToTextarea(el, "WALL 39 0 0 0 10");
-  addTextToTextarea(el, "");
-  addTextToTextarea(el, "# Grains container");
-  addTextToTextarea(el, "WALL 15 19 15 38 16");
-  addTextToTextarea(el, "WALL 24 19 24 38 16");
-}
 addWorldAndWalls(txa);
 
-let line = getLineFromTextarea(txa, "WORLD");
-console.log(line);
-let dim = getValueAfterKeyword("WORLD", line).map(Number);
-let m = createZeroMatrix(dim[0], dim[1]);
+btn.addEventListener("click", () => {
+  let line = getLineFromTextarea(txa, "WORLD");
+  let dim = getValueAfterKeyword("WORLD", line).map(Number);
+  let m = createZeroMatrix(dim[0], dim[1]);
 
-let lines = getLinesFromTextarea(txa, "WALL");
-for(l of lines) {
-  const w = getValueAfterKeyword("WALL", l).map(Number);
-  drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
-}
+  let lines = getLinesFromTextarea(txa, "WALL");
+  for(l of lines) {
+    const w = getValueAfterKeyword("WALL", l).map(Number);
+    drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
+  }
 
-drawMatrixOnCanvas(can, m, getColor)
-
+  drawMatrixOnCanvas(can, m, getColor)
+});
 {{< /script/runner >}}
 
 
@@ -105,7 +102,7 @@ Above input specification and design is result of a discussion that refines init
 
 
 ## todo
-+ Add Read button to read data and draw the result on canvas.
++ Add Read button to read data and draw the result on canvas. 1854 &check;
 
 
 ## notes
