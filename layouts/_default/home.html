@@ -14,11 +14,26 @@
     {{ $value := "talks" }}
     {{ $paramskey := (printf "Params.%s" $key) }}
     
+    {{ $filteredPages := .Site.RegularPages }}
+    
+    {{ $allowedURLs := slice
+      "25f45"
+      "25e60" "25e44" "25e41" "25e37"
+      "25c70" 
+    }}
+    {{ $filteredPages := slice }}
+
+    {{ range .Site.RegularPages }}
+      {{ $pageURL := .Params.url }}
+      {{ if in $allowedURLs $pageURL }}
+        {{ $filteredPages = $filteredPages | append . }}
+      {{ end }}
+    {{ end }}
+    
     <!--
     url https://chatgpt.com/share/676fcffa-931c-800a-8ae9-3363762a8316 [20241228].
     -->
     <div class="posts-box-container">
-      {{ $filteredPages := .Site.RegularPages }}
       {{ $paginator := .Paginate $filteredPages }}
       {{ range $paginator.Pages }}
       
