@@ -54,6 +54,14 @@ cnt.appendChild(div);
   div.append(can);
 
 addWorldAndWalls(txa);
+
+let m = createZeroMatrix(10, 10);
+console.log(m);
+
+drawWall(m, [1, 1], [8, 1], 1);
+drawWall(m, [8, 1], [8, 7], 1);
+drawWall(m, [8, 7], [1, 1], 1);
+
 {{< /script/runner >}}
 
 
