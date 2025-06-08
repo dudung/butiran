@@ -27,7 +27,7 @@ const style2 = {
   border: "0px #aaf solid",
   background: "#fafaff",
   width: "600px",
-  height: "300px",
+  height: "400px",
 };
 const div = createElement("div", style2);
 
@@ -53,14 +53,27 @@ cnt.appendChild(div);
   div.append(txa);
   div.append(can);
 
+function addWorldAndWalls(el) {
+  addTextToTextarea(el, "WORLD 10 10");
+  addTextToTextarea(el, "WALL 1 1 1 8 10");
+  addTextToTextarea(el, "WALL 1 8 8 8 10");
+  addTextToTextarea(el, "WALL 8 8 1 1 10");
+}
 addWorldAndWalls(txa);
 
-let m = createZeroMatrix(10, 10);
-console.log(m);
+let line = getLineFromTextarea(txa, "WORLD");
+console.log(line);
+let dim = getValueAfterKeyword("WORLD", line).map(Number);
+const m = createZeroMatrix(dim[0], dim[1]);
 
-drawWall(m, [1, 1], [8, 1], 1);
-drawWall(m, [8, 1], [8, 7], 1);
-drawWall(m, [8, 7], [1, 1], 1);
+let lines = getLinesFromTextarea(txa, "WALL");
+for(l of lines) {
+  const w = getValueAfterKeyword("WALL", l).map(Number);
+  drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
+}
+
+console.log(m);
+drawMatrixOnCanvas(can, m, getColor)
 
 {{< /script/runner >}}
 

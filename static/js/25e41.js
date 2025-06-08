@@ -4,12 +4,14 @@
  *
  * Author: Sparisoma Viridi (https://github.com/dudung)
  * Created: 2025-05-21 -- 22
+ * Modified: 2025-06-08 (doc for last function)
  *
  * Exported:
  * - createElement(tagName, arg2, arg3)
  * - createZeroMatrix(row, col)
  * - addTextToTextarea(txa, str)
  * - getColor(num)
+ * - drawMatrixOnCanvas(can, m, color)
  */
 
 
@@ -190,6 +192,23 @@ function getColor(num) {
 }
 
 
+/**
+ * Draws a 2D matrix onto a HTML canvas element, coloring each cell based on a provided color-mapping function.
+ *
+ * This function scales the canvas to match its on-screen dimensions and fills each cell in the matrix with a color determined by the `color` callback. The matrix is assumed to be a 2D array where each element corresponds to a rectangular region on the canvas.
+ *
+ * @param {HTMLCanvasElement} can - The canvas element on which the matrix should be drawn.
+ * @param {Array<Array<any>>} m - A 2D array (matrix) representing the data to be visualized. Each element is passed to the `color` function.
+ * @param {function(any): string} color - A function that takes a matrix element and returns a color string (e.g., "#FF0000" or "rgba(0,0,0,0.5)").
+ *
+ * @example
+ * const matrix = [
+ *   [0, 1],
+ *   [1, 0]
+ * ];
+ * const colorFn = val => val === 1 ? "#000000" : "#FFFFFF";
+ * drawMatrixOnCanvas(document.getElementById("myCanvas"), matrix, colorFn);
+ */
 function drawMatrixOnCanvas(can, m, color) {
   const rect = can.getBoundingClientRect();
   const width = rect.width;

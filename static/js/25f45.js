@@ -7,6 +7,7 @@
  *
  * Exported:
  * - drawWall(m, p1, p2, w)
+ * - getLinesFromTextarea(el, keyword)
  */
 
 
@@ -62,12 +63,18 @@ function drawWall(m, p1, p2, w) {
 
 
 /**
- */ 
-function addWorldAndWalls(el) {
-  addTextToTextarea(el, "WORLD 10 10");
-  addTextToTextarea(el, "WALL 2 2 2 8 10");
-  addTextToTextarea(el, "WALL 2 8 5 8 10");
-  addTextToTextarea(el, "WALL 5 8 2 2 10");
+ * Finds and returns all lines from a textarea that begin with the specified keyword followed by a space.
+ *
+ * This function splits the content of the given textarea element into lines, then collects all lines that start with the provided keyword followed by a space.
+ *
+ * @param {HTMLTextAreaElement} el - The textarea element containing multiline text.
+ * @param {string} keyword - The keyword to search for at the beginning of lines.
+ * @returns {string[]} An array of matched lines starting with the keyword and a space.
+ */
+function getLinesFromTextarea(el, keyword) {
+  const str = el.value;
+  const lines = str.split("\n");
+  return lines.filter(l => l.indexOf(keyword + " ") === 0);
 }
 
 
