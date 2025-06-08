@@ -11,6 +11,13 @@ url = '25f37'
 
 <!-- more -->
 
+## 08-jun-2025
++ GPT-4o, "A Tiny Console Trick to Track JS Files in Hugo", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844c09a-0490-800a-a2f8-5256c6133c76 [20250608].
++ Gaurav Shrivastava, "IIFE (Immediately Invoked Function Expression)", Medium, 20 Sep 2025, url https://medium.com/p/584fef2673b9 [20250608].
++ P. M. Widartiningsih, M. I. R. Putra, D. P. P. Aji, A. N. F. Rudiawan, S. Viridi, "Experimental investigation of pile characteristics of non-spherical particles mixtures: pile height and angle of repose", Journal of Physics: Conference Series, vol 2243, no 1, p 01279, 2022, url http://doi.org/10.1088/1742-6596/2243/1/012079.
++ GPT-4o, "Granular Material Simulation (ABM) for AOR: Input Specification & Design", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844d2ee-7178-800a-a16b-6b22f36c368f [20250608].
+
+
 ## 05-jun-2025
 + GPT-4o, "Techno-Economic Analysis Overview", ChatGPT, 5 Jun 2025, url https://chatgpt.com/share/6840bb6d-6850-800a-834a-80a442e3c2b4 [20250605].
 + Max Werny, "A guide to techno-economic analysis for early-stage founders", 1 Jul 2024, url https://www.zerocarbon.vc/post/a-guide-to-techno-economic-analysis-for-early-stage-founders [20250605].

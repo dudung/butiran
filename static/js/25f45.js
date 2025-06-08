@@ -8,7 +8,9 @@
  * Exported:
  * - 
  */
+ 
 
-function butiran() {
-  console.log("butiran 25f45");
-}
+// marker: 25f45.js
+(() => {
+  console.log("[marker] 25f45.js loaded");
+})();

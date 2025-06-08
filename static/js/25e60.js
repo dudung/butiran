@@ -307,3 +307,9 @@ function formatForTextarea(input) {
     return String(input); // fallback to basic string conversion
   }
 }
+
+
+// marker: 25e60.js
+(() => {
+  console.log("[marker] 25e60.js loaded");
+})();

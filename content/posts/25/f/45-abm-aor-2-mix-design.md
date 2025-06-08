@@ -29,6 +29,33 @@ const style2 = {
 const div = createElement("div", style2);
 
 cnt.appendChild(div);
-
-butiran();
 {{< /script/runner >}}
+
+
+## inputs
+1. A wall that encircles the world, along with its size and resolution: the total size of the 2D grid and the cell granularity, defined in terms of the number of cells.
+2. A bottomless cylindrical container for the mixture, simplified as two parallel walls separated by a specified width (in number of cells), which can move upward at a defined lifting speed.
+3. Agents representing two or three components of the granular mixture.
+4. A movement probability matrix for each agent, consisting of 9 directional probabilities: up, down, left, right, the four diagonals, and staying in place.
+5. Component concentrations in the mixture, with a corresponding encoding scheme for each component.
+6. The initial packing structure of agents inside the container: random fill, lattice arrangement, or layered distribution by component.
+7. The simulation stop condition, such as when the container is fully lifted and all agents become stable.
+8. Visualization parameters, including color mapping for each component, output resolution, and the rendering frame interval.
+9. A random seed for reproducibility (optional, but useful for consistent experimental results and debugging).
+
+Above input specification and design is result from a discussion [^gpt-4o_2025b].
+
+
+## notes
++ Purpose of this note to design input elements and format for abm simulation of binary mixture in observing angle or repose (aor) as previously observed [^widartiningsih_2022].
++ In order to assure that a JS file is loaded a script marker is added as suggested in a discussion [^gpt-4o_2025a], which is the first time to know about IIFE (Immediately Invoked Function Expression) [^shrivastava_2024].
++ This script marker is also implemented to previous JS [^viridi_2025a], since it is used here.
++ This note is part of two other notes, which are [25d66](/butiran/25d66/) and [25f43](/butiran/25f43/).
+
+
+## refs
+[^gpt-4o_2025a]: GPT-4o, "A Tiny Console Trick to Track JS Files in Hugo", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844c09a-0490-800a-a2f8-5256c6133c76 [20250608].
+[^gpt-4o_2025b]: GPT-4o, "Granular Material Simulation (ABM) for AOR: Input Specification & Design", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844d2ee-7178-800a-a16b-6b22f36c368f [20250608].
+[^shrivastava_2024]: Gaurav Shrivastava, "IIFE (Immediately Invoked Function Expression)", Medium, 20 Sep 2025, url https://medium.com/p/584fef2673b9 [20250608].
+[^viridi_2025a]: Sparisoma Viridi, "js input from textarea", butiran, 29 May 2025, url [https://dudung.github.io/butiran/25e60/](/butiran/25e60/).
+[^widartiningsih_2022]: P. M. Widartiningsih, M. I. R. Putra, D. P. P. Aji, A. N. F. Rudiawan, S. Viridi, "Experimental investigation of pile characteristics of non-spherical particles mixtures: pile height and angle of repose", Journal of Physics: Conference Series, vol 2243, no 1, p 01279, 2022, url http://doi.org/10.1088/1742-6596/2243/1/012079
