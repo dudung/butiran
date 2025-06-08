@@ -12,7 +12,7 @@
 
 /**
  */ 
-function addSomeLinesToTextarea(el) {
+function addWorldAndWalls(el) {
   addTextToTextarea(el, "WORLD 100 100");
   addTextToTextarea(el, "HWALL 10 10 90");
   addTextToTextarea(el, "HWALL 90 10 90");

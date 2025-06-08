@@ -53,7 +53,7 @@ cnt.appendChild(div);
   div.append(txa);
   div.append(can);
 
-addSomeLinesToTextarea(txa);
+addWorldAndWalls(txa);
 {{< /script/runner >}}
 
 
