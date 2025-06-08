@@ -11,7 +11,10 @@ url = '25f45'
 
 <!-- more -->
 
+Input and ouput design for investigating aor is as follow.
+
 {{< script/loader >}}
+25e41.js
 25e60.js
 25f45.js
 {{< /script/loader >}}
@@ -24,11 +27,33 @@ const style2 = {
   border: "0px #aaf solid",
   background: "#fafaff",
   width: "600px",
-  height: "320px",
+  height: "300px",
 };
 const div = createElement("div", style2);
 
+const style3 = {
+  flex: "1",
+  overflowY: "scroll",
+};
+const txa = createElement("textarea", style3);
+
+const style4 = {
+  width: "400px",
+  borderTop: "1px #888 solid",
+  borderRight: "1px #888 solid",
+  borderBottom: "1px #888 solid",
+  flexShrink: "0",
+  boxSizing: "border-box",
+};
+const can = createElement("canvas", style4);
+can.width = "300";
+can.height = "300";
+
 cnt.appendChild(div);
+  div.append(txa);
+  div.append(can);
+
+addSomeLinesToTextarea(txa);
 {{< /script/runner >}}
 
 
@@ -43,13 +68,13 @@ cnt.appendChild(div);
 8. Visualization parameters, including color mapping for each component, output resolution, and the rendering frame interval.
 9. A random seed for reproducibility (optional, but useful for consistent experimental results and debugging).
 
-Above input specification and design is result from a discussion [^gpt-4o_2025b].
+Above input specification and design is result of a discussion that refines initial idea [^gpt-4o_2025b].
 
 
 ## notes
 + Purpose of this note to design input elements and format for abm simulation of binary mixture in observing angle or repose (aor) as previously observed [^widartiningsih_2022].
 + In order to assure that a JS file is loaded a script marker is added as suggested in a discussion [^gpt-4o_2025a], which is the first time to know about IIFE (Immediately Invoked Function Expression) [^shrivastava_2024].
-+ This script marker is also implemented to previous JS [^viridi_2025a], since it is used here.
++ This script marker is also implemented to previous JS [^viridi_2025a], since it is used here, and also other JS [^viridi_2025b].
 + This note is part of two other notes, which are [25d66](/butiran/25d66/) and [25f43](/butiran/25f43/).
 
 
@@ -58,4 +83,5 @@ Above input specification and design is result from a discussion [^gpt-4o_2025b]
 [^gpt-4o_2025b]: GPT-4o, "Granular Material Simulation (ABM) for AOR: Input Specification & Design", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844d2ee-7178-800a-a16b-6b22f36c368f [20250608].
 [^shrivastava_2024]: Gaurav Shrivastava, "IIFE (Immediately Invoked Function Expression)", Medium, 20 Sep 2025, url https://medium.com/p/584fef2673b9 [20250608].
 [^viridi_2025a]: Sparisoma Viridi, "js input from textarea", butiran, 29 May 2025, url [https://dudung.github.io/butiran/25e60/](/butiran/25e60/).
+[^viridi_2025b]: Sparisoma Viridi, "js matrix to canvas", butiran, 21 May 2025, url [https://dudung.github.io/butiran/25e41/](/butiran/25e41/).
 [^widartiningsih_2022]: P. M. Widartiningsih, M. I. R. Putra, D. P. P. Aji, A. N. F. Rudiawan, S. Viridi, "Experimental investigation of pile characteristics of non-spherical particles mixtures: pile height and angle of repose", Journal of Physics: Conference Series, vol 2243, no 1, p 01279, 2022, url http://doi.org/10.1088/1742-6596/2243/1/012079

@@ -8,7 +8,18 @@
  * Exported:
  * - 
  */
- 
+
+
+/**
+ */ 
+function addSomeLinesToTextarea(el) {
+  addTextToTextarea(el, "WORLD 100 100");
+  addTextToTextarea(el, "HWALL 10 10 90");
+  addTextToTextarea(el, "HWALL 90 10 90");
+  addTextToTextarea(el, "VWALL 40 20 80");
+  addTextToTextarea(el, "VWALL 70 20 80");
+}
+
 
 // marker: 25f45.js
 (() => {
