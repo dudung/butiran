@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `08-jun-2025` Doppelfüßer An der Wand 2f, Stimme der Mäuse am Dach auch 2f. :rat: :bug:
++ `09-jun-2025` Spinne im Badezimer, schlecter Furz. :spider: :cloud:
++ `08-jun-2025` Doppelfüßer An der Wand 2f, Stimme der Mäuse am Dach auch 2f, zu viel Essen. :rat: :bug:
 + `07-jun-2025` Stimme der Mäuse am Dach 2f, eine umgedrehte Kakerlake am Flur, drei unbekante Anrufe. :rat: :cockroach: :telephone_receiver:
 + `06-jun-2025` Ein getrockneter Wurm im Badezimmer, Katzenkampf im Garten. :worm: :cat:
 + `05-jun-2025` Stimme der Mäuse am Dach 1f+2f, Baby Hausgecko am flur, drei unbekante Anrufe, eine fallende Kakerlake. :rat: :lizard: :telephone_receiver: :cockroach:
