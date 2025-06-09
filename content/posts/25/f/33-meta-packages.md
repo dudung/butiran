@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `09-jun-2025` Spinne im Badezimer, schlecter Furz. :spider: :cloud:
++ `10-jun-2025` .
++ `09-jun-2025` Spinne im Badezimer, schlecter Furz, Schlussel am Motorrad, schlestes Pinkeln.  :spider: :cloud: :key: :motor_scooter:
 + `08-jun-2025` Doppelfüßer An der Wand 2f, Stimme der Mäuse am Dach auch 2f, zu viel Essen. :rat: :bug:
 + `07-jun-2025` Stimme der Mäuse am Dach 2f, eine umgedrehte Kakerlake am Flur, drei unbekante Anrufe. :rat: :cockroach: :telephone_receiver:
 + `06-jun-2025` Ein getrockneter Wurm im Badezimmer, Katzenkampf im Garten. :worm: :cat:
