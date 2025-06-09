@@ -9,6 +9,8 @@ categories = ['llama']
 url = '25c47'
 +++
 
++ `10-jun-2025` []() Day-1 of the visit.
++ `09-jun-2025` [`8bd72`](https://osf.io/8bd72) Day-0 and days before it.
 + `08-jun-2025` [`dfkna`](https://osf.io/dfkna) Intercity travel reservation.
 + `07-jun-2025` [`jh4ux`](https://osf.io/jh4ux) Permit from f/s request.
 + `05-jun-2025` [`wrxuv`](https://osf.io/wrxuv) Permission res-g granted.
