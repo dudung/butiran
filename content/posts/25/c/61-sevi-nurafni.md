@@ -9,6 +9,9 @@ categories = ['users']
 url = '25c61'
 +++
 
++ `09-jun-2025` [`jtu3b`](https://osf.io/jtu3b) Orientation completed and stoppu.
++ `04-jun-2025` [`zqvwy`](https://osf.io/zqvwy) Forgotten first day greeting.
++ `26-may-2025` [`p3atf`](https://osf.io/p3atf) Resignment info.
 + `23-may-2025` [`akqw3`](https://osf.io/akqw3) Offline meeting on website.
 + `21-may-2025` [`pkzj5`](https://osf.io/pkzj5) Government employee info. 
 + `10-apr-2025` [`hkxu3`](https://osf.io/hkxu3) Discussion about abm.
