@@ -11,7 +11,7 @@ url = '25f32'
 
 <!-- more -->
 
-+ `12-jun-2025` [`osfio`]() Pretest of an online training.
++ `12-jun-2025` [`c5stj`](https://osf.io/c5stj) Pretest of an online training.
 + `01-jun-2025` [`dxnwv`](https://osf.io/dxnwv) List of training participants and invitation.
 
 
