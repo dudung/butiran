@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `13-jun-2025` Noch Durchfall aber Hunger haben.
 + `12-jun-2025` Noch Durchfall und ein Ruq3, nach Hause, Maus gefangen. :rat:
 + `11-jun-2025` Durchfall und sich erbrechen, schlecter Furz.
 + `10-jun-2025` Schwarzes Singen zuhause, voller Magen und Durchfall.
