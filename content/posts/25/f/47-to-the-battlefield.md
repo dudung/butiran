@@ -11,7 +11,7 @@ url = '25f47'
 
 <!-- more -->
 
-+ `14-jun-2025` [`bd6cp`](https://osf.io/bd6cp) Online meeting on grant or center.
++ `14-jun-2025` [`bd6cp`](https://osf.io/bd6cp) Online meeting on grant and center.
 + `13-jun-2025` [`68jrc`](https://osf.io/68jrc) Initialization of an osf.
 + `13-jun-2025` [`dshfw`](https://osf.io/dshfw) Info of int-res grant.
 + `11-jun-2025` [`skqar`](https://osf.io/skqar) Discussion about new pui-pt.
