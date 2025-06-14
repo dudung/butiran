@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `14-jun-2025` Stimme der Mäuse am Dach 1f, Maus-Fußabdruck auf Küchentisch. :rat: :footprints:
++ `14-jun-2025` Stimme der Mäuse am Dach 1f, Maus-Fußabdruck auf Küchentisch, Wurm im Badezimmer, Schwarzes Singen. :rat: :footprints: :worm: :notes:
 + `13-jun-2025` Noch Durchfall aber Hunger haben, Kakerlake in Badezimmer. :cockroach:
 + `12-jun-2025` Noch Durchfall und ein Ruq3, nach Hause, Maus gefangen. :rat:
 + `11-jun-2025` Durchfall und sich erbrechen, schlecter Furz.
