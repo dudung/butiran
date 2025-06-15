@@ -11,6 +11,7 @@ url = '25f32'
 
 <!-- more -->
 
++ `15-jun-2025` [`30e41`](https://github.com/dudung/llama-14-onl/blob/main/05_materials_for_post_test/README.md) Presentation files as post-test materials.
 + `14-jun-2025` [`f41ee`](https://github.com/dudung/llama-14-onl/blob/main/04_day_3/README.md) Online training day-3 (c, d, e, salam, etika).
 + `13-jun-2025` [`yvbd9`](https://osf.io/yvbd9) Online training day-2.
 + `12-jun-2025` [`c5stj`](https://osf.io/c5stj) Pretest of an online training.
