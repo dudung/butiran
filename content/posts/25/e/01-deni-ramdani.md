@@ -11,6 +11,7 @@ url = '25e01'
 
 <!-- more -->
 
++ `15-jun-2025` [`76f83`](https://github.com/dudung/20222011/blob/main/07_osf_to_github/README.md) To github from osf migration.
 + `04-jun-2025` [`tz9f2`](https://osf.io/tz9f2) Working naz ipynb without-4-ball.
 + `03-jun-2025` [`td9qz`](https://osf.io/td9qz) Install python packages, try hello world. 
 + `02-jun-2025` [`bk78w`](https://osf.io/bk78w) Restructure gh-repo, git installed on faraday.
