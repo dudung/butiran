@@ -104,7 +104,7 @@ function getLinesFromTextarea(el, keyword) {
  *   addWorldAndWalls(textarea);
  */
 function addWorldAndWalls(el) {
-  addTextToTextarea(el, "# ABM-AOR Simulation Input");
+  addTextToTextarea(el, "# ABM Boundary Condition Input"); /* 20250615 */
   addTextToTextarea(el, "# Format Version: 1.0");
   addTextToTextarea(el, "# Author: [Your Name]");
   addTextToTextarea(el, "# Date: 2025-06-08");

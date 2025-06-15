@@ -1,5 +1,5 @@
 +++
-title = 'abm-aor 2-mix design'
+title = 'abm bc input'
 date = '2025-06-08T04:14:00+07:00'
 authors = ['viridi']
 draft = false
@@ -11,12 +11,12 @@ url = '25f45'
 
 <!-- more -->
 
-Input and ouput design for investigating aor is as follow.
+Input and ouput design for abm is as follow.
 
 {{< script/loader >}}
-25e41.js
-25e60.js
-25f45.js
+src/25e41.js
+src/25e60.js
+src/25f45.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
@@ -111,6 +111,7 @@ Above input specification and design is result of a discussion that refines init
 + This script marker is also implemented to previous JS [^viridi_2025a], since it is used here, and also other JS [^viridi_2025b].
 + This note is part of two other notes, which are [25d66](/butiran/25d66/) and [25f43](/butiran/25f43/).
 + Add input title, format version, author, and date as suggested [^gpt-4o_2025c].
++ Rename it from "abm-aor 2-mix design" to "abm bc input" on 15-jun-2025.
 
 
 ## refs
