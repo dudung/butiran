@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `16-jun-2025` Zwei geklebte Mäuse unter Küchenregal. :rat: :x:
 + `15-jun-2025` Unklarer Maus-Fußabdruck (Drachenfrucht) auf Küchentisch. :footprints: :rat:
 + `14-jun-2025` Stimme der Mäuse am Dach 1f, Maus-Fußabdruck auf Küchentisch, Wurm im Badezimmer, Schwarzes Singen. :footprints: :rat: :worm: :notes:
 + `13-jun-2025` Noch Durchfall aber Hunger haben, Kakerlake in Badezimmer. :cockroach:
@@ -29,7 +30,7 @@ url = '25f33'
 + `31-may-2025` Art von Kakerlaken in Gartenerde. :cockroach:
 + `29-may-2025` Seltsames Lied gesungen beim Nachbarn. :notes:
 + `28-may-2025` Fledermaus morgens herumfliegen. :bat:
-+ `27-may-2025` Mäuse in der Küche geklebt. :rat:
++ `27-may-2025` Mäuse in der Küche geklebt. :rat: :x:
 + `26-may-2025` Ärger in der Luft von Nacht an. :angry:
 
 
