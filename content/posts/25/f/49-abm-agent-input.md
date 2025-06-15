@@ -98,8 +98,10 @@ btn.addEventListener("click", () => {
     for(let b of blocks) {
       const t = getValueAfterKeyword("MPMAT", b[0]);
       const m = getMatrixAfterKeyWord("MPMAT " + t, b, [3, 3]);
-      console.log(m);
+      mats[t] = m;
     }
+    
+    console.log(mats);
   }
 });
 {{< /script/runner >}}

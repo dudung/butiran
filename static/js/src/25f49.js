@@ -8,7 +8,8 @@
  * Exported:
  * - addAgents(el)
  * - drawAgent(m, p, w)
- * - getBlocksFromTextarea(el, key, row)
+ * - getBlocksFromTextarea(el, key, rows)
+ * - getMatrixAfterKeyWord(key, block, dims)
  */
 
 
@@ -117,7 +118,7 @@
  *
  * @param {HTMLTextAreaElement} el - The textarea element containing multi-line text input.
  * @param {string} key - The keyword that identifies the beginning of each block (must be followed by a space).
- * @param {number} row - The number of lines to include after the key line (inclusive of the key line).
+ * @param {number} rows - The number of lines to include after the key line (inclusive of the key line).
  *
  * @returns {Array<Array<string>>} An array of blocks, where each block is an array of strings
  *                                 representing consecutive lines (key line + `row` lines after it).
@@ -138,14 +139,14 @@
  *       ["MPMAT 48", "0.0 0.0 0.0", "0.0 0.0 0.0", "0.0 1.0 0.0"]
  *     ]
  */
-function getBlocksFromTextarea(el, key, row) {
+function getBlocksFromTextarea(el, key, rows) {
   const lines = el.value.split("\n");
   const blocks = [];
   let j = 0;
   for(l of lines) {
     if (l.indexOf(key + " ") === 0) {
       const b = [];
-      for(let k = 0; k <= row; k++) {
+      for(let k = 0; k <= rows; k++) {
         b.push(lines[j + k]);
       }
       blocks.push(b);
@@ -156,12 +157,51 @@ function getBlocksFromTextarea(el, key, row) {
 }
 
 
-/*
+/**
+ * Extracts a numeric matrix from a text block that follows a specific keyword.
  *
+ * @param {string} key - The keyword that marks the beginning of a matrix block.
+ * @param {Array<string>} block - An array of strings (e.g., lines from a file or textarea), 
+ *                                where each string is a line of text.
+ * @param {[number, number]} dims - An array specifying the matrix dimensions as [ROWS, COLS].
+ *
+ * @returns {Array<Array<number>>} A 2D array (matrix) of numbers extracted from lines after the keyword.
+ *
+ * The function searches the `block` for a line that starts with the given `key`. When found, it reads the next `ROWS` lines, parses them as space-separated numbers, and extracts only the first `COLS` values from each row to construct the matrix.
+ *
+ * Example usage:
+ *   block = [
+ *     "MPMAT 48",
+ *     "0.0 0.0 0.0",
+ *     "0.0 0.0 0.0",
+ *     "0.0 1.0 0.0"
+ *   ];
+ *   getMatrixAfterKeyWord("MPMAT", block, [3, 3]) will return:
+ *     [
+ *       [0.0, 0.0, 0.0],
+ *       [0.0, 0.0, 0.0],
+ *       [0.0, 1.0, 0.0]
+ *     ]
+ *
+ * Notes:
+ * - The function assumes that the number of lines after the keyword is sufficient.
  */
-function getMatrixAfterKeyWord(key, block, dims) {
-  console.log(block);
-  return [];
+ function getMatrixAfterKeyWord(key, block, dims) {
+  const ROWS = dims[0];
+  const COLS = dims[1];
+  const m = [];
+  let i = 0;
+  for(let b of block) {
+    if(b.indexOf(key) === 0) {
+      for(let j = 1; j <= ROWS; j++) {
+        let l = block[i + j];
+        let c = l.split(" ").map(Number);
+        m.push(c.slice(0, COLS));
+      }
+    }
+    i++;
+  }
+  return m;
 }
 
 
