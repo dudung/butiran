@@ -80,18 +80,26 @@ btn.addEventListener("click", () => {
     let m = createZeroMatrix(dim[0], dim[1]);
 
     let lines1 = getLinesFromTextarea(txa, "WALL");
-    for(l of lines1) {
+    for(let l of lines1) {
       const w = getValueAfterKeyword("WALL", l).map(Number);
       drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
     }
 
     let lines2 = getLinesFromTextarea(txa, "AGENT");
-    for(l of lines2) {
+    for(let l of lines2) {
       const a = getValueAfterKeyword("AGENT", l).map(Number);
       drawAgent(m, [a[0], a[1]], a[2]);
     }
     
     drawMatrixOnCanvas(can, m, getColor)
+    
+    let blocks = getBlocksFromTextarea(txa, "MPMAT", 3);
+    let mats = {};
+    for(let b of blocks) {
+      const t = getValueAfterKeyword("MPMAT", b[0]);
+      const m = getMatrixAfterKeyWord("MPMAT " + t, b, [3, 3]);
+      console.log(m);
+    }
   }
 });
 {{< /script/runner >}}

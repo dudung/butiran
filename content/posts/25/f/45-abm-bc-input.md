@@ -77,7 +77,7 @@ btn.addEventListener("click", () => {
   let m = createZeroMatrix(dim[0], dim[1]);
 
   let lines = getLinesFromTextarea(txa, "WALL");
-  for(l of lines) {
+  for(let l of lines) {
     const w = getValueAfterKeyword("WALL", l).map(Number);
     drawWall(m, [w[0], w[1]], [w[2], w[3]], w[4]);
   }
