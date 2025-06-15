@@ -241,3 +241,8 @@ function calcFromTextarea(txa) {
 
   return text;
 }
+
+// marker: 25e44.js
+(() => {
+  console.log("[marker] 25e44.js loaded");
+})();

@@ -308,3 +308,8 @@ function addTextToTextarea2(el, lines1, lines2) {
 function syncScroll(source, target) {
   target.scrollTop = source.scrollTop;
 }
+
+// marker: 25e37.js
+(() => {
+  console.log("[marker] 25e37.js loaded");
+})();
