@@ -88,15 +88,16 @@ btn.addEventListener("click", () => {
 
 
 ## inputs
-1. A wall that encircles the world, along with its size and resolution: the total size of the 2D grid and the cell granularity, defined in terms of the number of cells.
-2. A bottomless cylindrical container for the mixture, simplified as two parallel walls separated by a specified width (in number of cells), which can move upward at a defined lifting speed.
-3. Agents representing two or three components of the granular mixture.
-4. A movement probability matrix for each agent, consisting of 9 directional probabilities: up, down, left, right, the four diagonals, and staying in place.
-5. Component concentrations in the mixture, with a corresponding encoding scheme for each component.
-6. The initial packing structure of agents inside the container: random fill, lattice arrangement, or layered distribution by component.
-7. The simulation stop condition, such as when the container is fully lifted and all agents become stable.
-8. Visualization parameters, including color mapping for each component, output resolution, and the rendering frame interval.
-9. A random seed for reproducibility (optional, but useful for consistent experimental results and debugging).
+1. A wall that encircles the world, along with its size and resolution: the total size of the 2D grid and the cell granularity, defined in terms of the number of cells. &check;
+2. A bottomless cylindrical container for the mixture, simplified as two parallel walls separated by a specified width (in number of cells). &check;
+3. The cylinder should be able to move upward at a defined lifting speed. &cross;
+4. Agents representing two or three components of the granular mixture. &cross;
+5. A movement probability matrix for each agent, consisting of 9 directional probabilities: up, down, left, right, the four diagonals, and staying in place. &cross;
+6. Component concentrations in the mixture, with a corresponding encoding scheme for each component. &cross;
+7. The initial packing structure of agents inside the container: random fill, lattice arrangement, or layered distribution by component. &cross;
+8. The simulation stop condition, such as when the container is fully lifted and all agents become stable. &cross;
+9. Visualization parameters, including color mapping for each component, output resolution, and the rendering frame interval. &cross;
+10. A random seed for reproducibility (optional, but useful for consistent experimental results and debugging). &cross;
 
 Above input specification and design is result of a discussion that refines initial idea [^gpt-4o_2025b].
 
