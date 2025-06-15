@@ -9,6 +9,9 @@ categories = ['users']
 url = '25d38'
 +++
 
++ `15-jun-2025` [`cd83f`](https://github.com/dudung/28721001/blob/main/16_to_github/README.md) Migration of files to github.
++ `13-jun-2025` [`q58vg`](https://osf.io/q58vg) Seminar permission signing.
++ `10-jun-2025` [`bav68`](https://osf.io/bav68) Progress on chapter 3.
 + `05-jun-2025` [`dbz6t`](https://osf.io/dbz6t) Asked to head of department.
 + `01-jun-2025` [`nrgyz`](https://osf.io/nrgyz) Plan for continuing with doubt.
 + `15-may-2025` [`vkeu7`](https://osf.io/vkeu7) Some progress in may.

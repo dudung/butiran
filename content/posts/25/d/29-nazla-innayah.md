@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d29'
 +++
 
++ `15-jun-2025` [`14669`](https://github.com/dudung/20222010/blob/main/13_to_github/README.md) Files migration from osf to github.
 + `03-jun-2025` [`7n6bv`](https://osf.io/7n6bv) News after a while and current state. 
 + `01-may-2025` [`62kwf`](https://osf.io/62kwf) Online metup on substitute.
 + `11-apr-2025` [`ucdn2`](https://osf.io/ucdn2) Start finding info about chem-fi-fmt.
