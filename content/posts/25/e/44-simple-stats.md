@@ -11,11 +11,10 @@ url = '25e44'
 
 <!-- more -->
 
-
 This app accepts numbers only separated by delimiters semicolon or \";\", e.g. **`1;2;2;3;3;3;4;4;4;4;5;5`** that you can copy and paste to the left textarea below.
 
 {{< script/loader >}}
-25e44.js
+src/25e44.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt0" >}}
