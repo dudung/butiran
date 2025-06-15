@@ -11,7 +11,7 @@ url = '25f45'
 
 <!-- more -->
 
-Input and ouput design for abm is as follow.
+Input and ouput design for abm bc is as follow.
 
 {{< script/loader >}}
 src/25e41.js
