@@ -14,7 +14,7 @@ url = '25e60'
 Input from textarea using keyword form inline value(s) or block values.
 
 {{< script/loader >}}
-25e60.js
+src/25e60.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}

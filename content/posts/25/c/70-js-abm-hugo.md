@@ -34,8 +34,8 @@ A discussion [^masduki_2025], trigger the implementation of developed method [^v
 Following is the simulation UI.
 
 {{< script/loader >}}
-butiran.min.js
-abmphasemat.js
+libs/butiran.js/butiran.min.js
+libs/butiran.js/abmphasemat.js
 {{< /script/loader >}}
 
 

@@ -2,6 +2,8 @@
 	abmphasemat.js
 	Simulate phase change of materials using ABM
 	
+  https://github.com/dudung/butiran.js/tree/master/app/abmphasemat
+  
 	Sparisoma Viridi | dudung@gmail.com
 	
 	20181116

@@ -7,7 +7,7 @@ math = true
 type = 'notes'
 tags = ['ga']
 categories = []
-url = '25e37'
+url = '25e41'
 +++
 
 <!-- more -->
@@ -16,7 +16,7 @@ url = '25e37'
 Example of chromosome evaluation is as follow.
 
 {{< script/loader >}}
-25e37.js
+src/25e37.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}

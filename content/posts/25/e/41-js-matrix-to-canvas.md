@@ -14,7 +14,7 @@ url = '25e41'
 Content of matrix showing as colored grid on canvas.
 
 {{< script/loader >}}
-25e41.js
+src/25e41.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
