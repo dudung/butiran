@@ -1,5 +1,5 @@
 +++
-title = 'abm bc input'
+title = 'abm bc-input'
 date = '2025-06-08T04:14:00+07:00'
 authors = ['viridi']
 draft = false

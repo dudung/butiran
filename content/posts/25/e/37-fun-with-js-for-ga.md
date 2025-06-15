@@ -7,7 +7,7 @@ math = true
 type = 'notes'
 tags = ['ga']
 categories = []
-url = '25e41'
+url = '25e37'
 +++
 
 <!-- more -->
