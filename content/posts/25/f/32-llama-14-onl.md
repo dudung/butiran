@@ -11,6 +11,7 @@ url = '25f32'
 
 <!-- more -->
 
++ `16-jun-2025` [`25af4`](https://github.com/dudung/llama-14-onl/blob/main/06_info_and_post_test/README.md) Info and post-test for v3.0 of iaps.
 + `15-jun-2025` [`30e41`](https://github.com/dudung/llama-14-onl/blob/main/05_materials_for_post_test/README.md) Presentation files as post-test materials.
 + `14-jun-2025` [`f41ee`](https://github.com/dudung/llama-14-onl/blob/main/04_day_3/README.md) Online training day-3 (c, d, e, salam, etika).
 + `13-jun-2025` [`yvbd9`](https://osf.io/yvbd9) Online training day-2.
@@ -21,5 +22,6 @@ url = '25f32'
 
 ## notes
 + It is a continuation of [25e12](/butiran/25e12).
-+ Online training is from 12 to 16 June 2025. [&mp;](https://us06web.zoom.us/j/88961608167?pwd=AnhMF9R09pGlIOX4Rze3rKEqTU4KcX.10)9.
++ Online training is from 12 to 14 June 2025. [&mp;](https://us06web.zoom.us/j/88961608167?pwd=AnhMF9R09pGlIOX4Rze3rKEqTU4KcX.10)9.
 + On 12-jun-2025 it begins at 1900+07.
++ Post-test on 16-jun-2025 0700-0740 on a moodle.
