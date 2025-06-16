@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `16-jun-2025` Zwei geklebte Mäuse unter Küchenregal. :rat: :x:
++ `17-jun-2025` Essen Rest rundherum (Waschbecken - Kühlschrank), schlecter Furz. :rat: :cloud:
++ `16-jun-2025` Zwei geklebte Mäuse unter Küchenregal, abend weggelaufener Hausgecko. :rat: :x: :lizard:
 + `15-jun-2025` Unklarer Maus-Fußabdruck (Drachenfrucht) auf Küchentisch. :footprints: :rat:
 + `14-jun-2025` Stimme der Mäuse am Dach 1f, Maus-Fußabdruck auf Küchentisch, Wurm im Badezimmer, Schwarzes Singen. :footprints: :rat: :worm: :notes:
 + `13-jun-2025` Noch Durchfall aber Hunger haben, Kakerlake in Badezimmer. :cockroach:
