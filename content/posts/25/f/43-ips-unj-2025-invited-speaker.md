@@ -11,6 +11,7 @@ url = '25f43'
 
 <!-- more -->
 
++ `17-jun-2025` [`612f5`](https://github.com/dudung/ips-unj-2025-sv/blob/main/04_committe_info/README.md) Unknown info from committee.
 + `16-jun-2025` [`3907a`](https://github.com/dudung/ips-unj-2025-sv/blob/main/03_extended_abstract/README.md) Invited speaker abstract for ips-unj.
 + `16-jun-2025` [`adc49`](https://github.com/dudung/ips-unj-2025-sv/blob/main/02_to_github/README.md) Move files to github from osf.
 + `07-jun-2025` [`74jaf`](https://osf.io/74jaf) Einladung der Chef nach Diskussion and bgr-bdg travel info.
