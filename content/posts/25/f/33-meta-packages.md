@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `18-jun-2025` Nicht gefangene Maus, chaotische Küchenreste. :rat: :angry:
 + `17-jun-2025` Essen Rest rundherum (Waschbecken - Kühlschrank), schlecter Furz. :rat: :cloud:
 + `16-jun-2025` Zwei geklebte Mäuse unter Küchenregal, abend weggelaufener Hausgecko. :rat: :x: :lizard:
 + `15-jun-2025` Unklarer Maus-Fußabdruck (Drachenfrucht) auf Küchentisch. :footprints: :rat:
