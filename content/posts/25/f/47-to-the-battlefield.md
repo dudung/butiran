@@ -11,6 +11,7 @@ url = '25f47'
 
 <!-- more -->
 
++ `18-jun-2025` [`6851e`](https://github.com/dudung/to-the-battlefield/blob/main/08_to_github/README.md) Migration of files to github from osf.
 + `17-jun-2025` [`dxktp`](https://osf.io/dxktp) Info of ma-ik current research.
 + `16-jun-2025` [`zqkan`](https://osf.io/zqkan) To gb encouragement and kk info. 
 + `14-jun-2025` [`bd6cp`](https://osf.io/bd6cp) Online meeting on grant and center.
