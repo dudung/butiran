@@ -11,4 +11,4 @@ url = '25f52'
 
 <!-- more -->
 
-+ `17-jun-2025` [`xxxxx`](https://github.com/dudung/30224003/blob/main/01_qualification_exam/README.md) Qualification examination.
++ `17-jun-2025` [`3bba7`](https://github.com/dudung/30224003/blob/main/01_qualification_exam/README.md) Qualification examination.

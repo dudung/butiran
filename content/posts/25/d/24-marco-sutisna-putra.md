@@ -9,7 +9,7 @@ categories = ['users']
 url = '25d24'
 +++
 
-+ `17-jun-2025` [`xxxxx`]() Thesis i seminar, planned at 1300.
++ `17-jun-2025` [`c9d60`](https://github.com/dudung/20924001/blob/main/18_thesis_1_seminar/README.md) Thesis i seminar, at 1300 in 3F on R3.
 + `17-jun-2025` [`e3d9f`](https://github.com/dudung/20924001/blob/main/17_to_github/README.md) Migration of files to github from osf.
 + `06-jun-2025` [`8acyd`](https://osf.io/8acyd) Tesis 1 seminar approval.
 + `03-jun-2025` [`d5rn9`](https://osf.io/d5rn9) Further progress and plan change.

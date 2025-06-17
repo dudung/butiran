@@ -9,7 +9,7 @@ categories = ['users']
 url = '25c44'
 +++
 
-+ `17-jun-2025` [`xxxxx`](https://github.com/dudung/30224307/tree/main/10_qualification_exam) Qualification exam as co :smile:.
++ `17-jun-2025` [`4ae3a`](https://github.com/dudung/30224307/tree/main/10_qualification_exam) Qualification exam as co :smile:.
 + `17-jun-2025` [`76a9a`](https://github.com/dudung/30224307/blob/main/09_to_github/README.md) Migration to github from osf.
 + `04-jun-2025` [`r34zt`](https://osf.io/r34zt) Info as examiner before co.
 + `28-apr-2025` [`6w2mu`](https://osf.io/6w2mu) Missed meeting.
