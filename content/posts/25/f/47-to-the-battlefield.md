@@ -11,6 +11,8 @@ url = '25f47'
 
 <!-- more -->
 
++ `17-jun-2025` [`dxktp`](https://osf.io/dxktp) Info of ma-ik current research.
++ `16-jun-2025` [`zqkan`](https://osf.io/zqkan) To gb encouragement and kk info. 
 + `14-jun-2025` [`bd6cp`](https://osf.io/bd6cp) Online meeting on grant and center.
 + `13-jun-2025` [`68jrc`](https://osf.io/68jrc) Initialization of an osf.
 + `13-jun-2025` [`dshfw`](https://osf.io/dshfw) Info of int-res grant.
