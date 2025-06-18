@@ -11,6 +11,11 @@ url = '25d66'
 
 <!-- more -->
 
++ `18-jun-2025` [`65948`](https://github.com/dudung/ips-unj-2025-fm/blob/main/26_to_github/README.md) Migration of files to github from osf.
++ `17-jun-2025` [`r2gyh`](https://osf.io/r2gyh) Zoom plan for presentation preparation on 18. 
++ `16-jun-2025` [`2ncw3`](https://osf.io/2ncw3) Complete UI design without simulation.
++ `16-jun-2025` [`nsqym`](https://osf.io/nsqym) Experimental data on google drive.
++ `08-jun-2025` [`raqbu`](https://osf.io/raqbu) UI design for walls input.
 + `07-jun-2025` [`qv6bu`](https://osf.io/qv6bu) Individual abs page, 148 [^shadiq_2025] & 201 [^kusuma_2025].
 + `03-jun-2025` [`q3ygx`](https://osf.io/q3ygx) Initial experiment discussion.
 + `02-jun-2025` [`6nzys`](https://osf.io/6nzys) Plan to start experiment.
