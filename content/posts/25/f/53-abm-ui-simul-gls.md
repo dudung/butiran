@@ -83,7 +83,7 @@ btnRead.disabled = true;
 btnRun.disabled = true;
 
 const style7 = {
-  border: "1px solid #faa",
+  border: "1px solid #888",
   height: "100px",
   paddingLeft: "0.5em",
 };
