@@ -1,5 +1,5 @@
 +++
-title = 'abm ui simul'
+title = 'abm ui simul gas, liquid, solid'
 date = '2025-06-18T18:20:43+07:00'
 authors = ['viridi']
 draft = false
@@ -11,7 +11,7 @@ url = '25f53'
 
 <!-- more -->
 
-Simulation for studying aor using abm.
+Simulation for showing motion of gas (red), fluid (green) and solid (dark yellow) particle under influence of gravitation using abm.
 
 {{< script/loader >}}
 src/25e41.js
