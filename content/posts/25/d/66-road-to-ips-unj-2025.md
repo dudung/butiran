@@ -11,6 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
++ `18-jun-2025` [`8f1ab`](https://github.com/dudung/ips-unj-2025-fm/blob/main/27_zoom_analysis_1_simul_1/README.md) Zoom slides, quant-analys v1, simul-abm-aor v1. 
 + `18-jun-2025` [`65948`](https://github.com/dudung/ips-unj-2025-fm/blob/main/26_to_github/README.md) Migration of files to github from osf.
 + `17-jun-2025` [`r2gyh`](https://osf.io/r2gyh) Zoom plan for presentation preparation on 18. 
 + `16-jun-2025` [`2ncw3`](https://osf.io/2ncw3) Complete UI design without simulation.
