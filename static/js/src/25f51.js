@@ -144,21 +144,21 @@ function addContainerWall(el) {
 function addMovementProbabilityMatrix(el) {
   addTextToTextarea(el, "# Movement probability matrix");
   addTextToTextarea(el, "MPMAT 48");
-  addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.50 0.50 0.00");
+  addTextToTextarea(el, "0.12 0.12 0.12");
+  addTextToTextarea(el, "0.12 0.04 0.12");
+  addTextToTextarea(el, "0.12 0.12 0.12");
   addTextToTextarea(el, "");
 
   addTextToTextarea(el, "MPMAT 41");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.10 0.80 0.10");
+  addTextToTextarea(el, "0.16 0.17 0.16");
+  addTextToTextarea(el, "0.17 0.17 0.17");
   addTextToTextarea(el, "");
 
   addTextToTextarea(el, "MPMAT 43");
   addTextToTextarea(el, "0.00 0.00 0.00");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.00 0.50 0.50");
+  addTextToTextarea(el, "0.00 1.00 0.00");
 }
 
 
