@@ -204,4 +204,4 @@ btnRun.addEventListener("click", () => {
 + This is a part of [25d66](/butiran/25d66/) project in investigating aor using abm approach.
 + Note [25f45](/butiran/25f45/), [25f49](/butiran/25f49/), and [25f51](/butiran/25f51/) are another input of this project, which is preceeded this.
 + Agent types are available on [25e41](/butiran/25e41/) in range of 40-49.
-+ It shows the interaction between buttons and textarea and button, but not yet the simulation.
++ Number of particles for all types are kept low only to show that the simulation is working.
