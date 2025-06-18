@@ -8,7 +8,9 @@
  * Exported:
  * - addContainerWall2(el)
  * - addMovementProbabilityMatrix2(el)
- * -  addAgents2(el)
+ * - addAgents2(el)
+ * - addWorld2(el)
+ * - addEnclosedWall2(el)
  */
 
 
@@ -31,8 +33,8 @@
  */
 function addContainerWall2(el) {
   addTextToTextarea(el, "# Grains container");
-  addTextToTextarea(el, "WALL 15 11 15 29 16");
-  addTextToTextarea(el, "WALL 24 11 24 29 16");
+  addTextToTextarea(el, "WALL 30 10 30 50 16");
+  addTextToTextarea(el, "WALL 48 10 48 50 16");
 }
 
 
@@ -56,21 +58,21 @@ function addContainerWall2(el) {
 function addMovementProbabilityMatrix2(el) {
   addTextToTextarea(el, "# Movement probability matrix");
   addTextToTextarea(el, "MPMAT 48");
-  addTextToTextarea(el, "0.12 0.12 0.12");
-  addTextToTextarea(el, "0.12 0.04 0.12");
-  addTextToTextarea(el, "0.12 0.12 0.12");
+  addTextToTextarea(el, "0.00 0.00 0.00");
+  addTextToTextarea(el, "0.00 0.10 0.00");
+  addTextToTextarea(el, "0.30 0.30 0.30");
   addTextToTextarea(el, "");
 
   addTextToTextarea(el, "MPMAT 41");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.16 0.17 0.16");
-  addTextToTextarea(el, "0.17 0.17 0.17");
+  addTextToTextarea(el, "0.05 0.10 0.05");
+  addTextToTextarea(el, "0.25 0.30 0.25");
   addTextToTextarea(el, "");
 
   addTextToTextarea(el, "MPMAT 43");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.00 1.00 0.00");
+  addTextToTextarea(el, "0.10 0.10 0.10");
+  addTextToTextarea(el, "0.20 0.30 0.20");
 }
 
 
@@ -86,35 +88,79 @@ function addMovementProbabilityMatrix2(el) {
  * @param {HTMLElement} el - The textarea DOM element to which the agent lines are appended.
  */
 function addAgents2(el) {
+  const tA = 48;
+  const tB = 43;
+  const tC = 41
+  const tZ = [tA, tB, tC];
+  
+  const x1 = 31;
+  const y1 = 10;
+  const x2 = 47;
+  const y2 = 50;
+  
   addTextToTextarea(el, "# Agents");
-  addTextToTextarea(el, "AGENT 10 10 48");
-  addTextToTextarea(el, "AGENT 11 11 48");
-  addTextToTextarea(el, "AGENT 12 10 48");
-  addTextToTextarea(el, "AGENT 13 11 48");
-  addTextToTextarea(el, "AGENT 10 12 48");
-  addTextToTextarea(el, "AGENT 11 13 48");
-  addTextToTextarea(el, "AGENT 12 12 48");
-  addTextToTextarea(el, "AGENT 13 13 48");
-  addTextToTextarea(el, "");
+  for(y = y1; y <= y2; y++) {
+    for(x = x1; x <= x2; x++) {
+      
+      z = Math.floor(Math.random() * 3);
+      
+      addTextToTextarea(el,
+        "AGENT"
+        + " " + x
+        + " " + y
+        + " " + tZ[z]
+      );
+    }
+  }
+  
+}
 
-  addTextToTextarea(el, "AGENT 18 15 41");
-  addTextToTextarea(el, "AGENT 19 16 41");
-  addTextToTextarea(el, "AGENT 20 15 41");
-  addTextToTextarea(el, "AGENT 21 16 41");
-  addTextToTextarea(el, "AGENT 18 17 41");
-  addTextToTextarea(el, "AGENT 19 18 41");
-  addTextToTextarea(el, "AGENT 20 17 41");
-  addTextToTextarea(el, "AGENT 21 18 41");
-  addTextToTextarea(el, "");
 
-  addTextToTextarea(el, "AGENT 27 13 43");
-  addTextToTextarea(el, "AGENT 28 14 43");
-  addTextToTextarea(el, "AGENT 29 13 43");
-  addTextToTextarea(el, "AGENT 30 14 43");
-  addTextToTextarea(el, "AGENT 27 15 43");
-  addTextToTextarea(el, "AGENT 28 16 43");
-  addTextToTextarea(el, "AGENT 29 15 43");
-  addTextToTextarea(el, "AGENT 30 16 43");
+/**
+ * Sets the dimensions of the simulation world and appends the definition to a textarea element.
+ *
+ * This function writes a `WORLD` declaration into the given textarea-like element using `addTextToTextarea`. The format specifies the size of the simulation grid or environment.
+ *
+ * Format:
+ *   - "WORLD width height"
+ *     - `width`: Number of columns (horizontal size),
+ *     - `height`: Number of rows (vertical size).
+ *
+ * In this case, the world is defined as a 40×40 grid.
+ * A comment line is also added for clarity.
+ *
+ * @param {HTMLElement} el - The textarea DOM element to which the world dimensions are appended.
+ */
+function addWorld2(el) {
+  addTextToTextarea(el, "# World dimensions");
+  addTextToTextarea(el, "WORLD 80 80");
+}
+
+
+/**
+ * Inserts predefined wall definitions to form a closed rectangular boundary.
+ *
+ * This function appends four wall segments to the provided textarea-like element using `addTextToTextarea`. The walls form a fully enclosed rectangular boundary (a box) around a 40×40 grid area, assuming zero-based coordinates. This may serve as the outer limit for simulations (e.g., particles, agents, fluids).
+ *
+ * Each wall is defined by:
+ *   - A "WALL" keyword,
+ *   - Start and end coordinates (x1, y1) to (x2, y2),
+ *   - A thickness or wall type value (here, 10).
+ *
+ * Wall layout:
+ *   - Left wall: from top-left to bottom-left
+ *   - Bottom wall: from bottom-left to bottom-right
+ *   - Right wall: from bottom-right to top-right
+ *   - Top wall: from top-right to top-left
+ *
+ * @param {HTMLElement} el - The textarea DOM element to which the wall definitions are appended.
+ */
+function addEnclosedWall2(el) {
+  addTextToTextarea(el, "# Enclosed wall");
+  addTextToTextarea(el, "WALL 0 0 0 79 10");
+  addTextToTextarea(el, "WALL 0 79 79 79 10");
+  addTextToTextarea(el, "WALL 79 79 79 0 10");
+  addTextToTextarea(el, "WALL 79 0 0 0 10");
 }
 
 

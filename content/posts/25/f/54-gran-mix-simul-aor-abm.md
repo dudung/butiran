@@ -122,9 +122,9 @@ btnSample.addEventListener("click", () => {
   clearInput(txa);
   addHeader(txa);
   addBlankLine(txa);
-  addWorld(txa);
+  addWorld2(txa);                     /* v2 */
   addBlankLine(txa);
-  addEnclosedWall(txa);
+  addEnclosedWall2(txa);              /* v2 */
   addBlankLine(txa);
   addContainerWall2(txa);             /* v2 */
   addBlankLine(txa);
