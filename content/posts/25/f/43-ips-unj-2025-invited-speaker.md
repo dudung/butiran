@@ -11,7 +11,9 @@ url = '25f43'
 
 <!-- more -->
 
-+ `18-jun-2025` [`e0e90`](https://github.com/dudung/ips-unj-2025-sv/blob/main/05_ag_permission/README.md) Request of permit for leaving from ag.
++ `19-jun-2025` [`bd85e`](https://github.com/dudung/ips-unj-2025-sv/blob/main/07_cv_ips_unj/README.md) Curriculum vitae to committee rf.
++ `19-jun-2025` [`a2aae`](https://github.com/dudung/ips-unj-2025-sv/blob/main/06_whoosh_reservation/README.md) Whoosh reservation and info to committee rf.
++ `18-jun-2025` [`e0e90`](https://github.com/dudung/ips-unj-2025-sv/blob/main/05_ag_permission/README.md) Request of permit for leaving from ag, response on 19-jun.
 + `17-jun-2025` [`0849f`](https://github.com/dudung/ips-unj-2025-sv/blob/main/04_committe_info_inv/README.md) Info from committee, invited speaker offer, accepted.
 + `16-jun-2025` [`3907a`](https://github.com/dudung/ips-unj-2025-sv/blob/main/03_extended_abstract/README.md) Invited speaker abstract for ips-unj.
 + `16-jun-2025` [`adc49`](https://github.com/dudung/ips-unj-2025-sv/blob/main/02_to_github/README.md) Move files to github from osf.
