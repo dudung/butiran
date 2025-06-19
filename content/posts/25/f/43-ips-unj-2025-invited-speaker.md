@@ -11,6 +11,8 @@ url = '25f43'
 
 <!-- more -->
 
++ `20-jun-2025` [`e0f83`](https://github.com/dudung/ips-unj-2025-sv/blob/main/09_fs_permit_submission/README.md) Leaving permit from f/s submission.
++ `19-jun-2025` [`59e88`](https://github.com/dudung/ips-unj-2025-sv/blob/main/08_rki_letter/README.md) Invitation for rki discussion.
 + `19-jun-2025` [`bd85e`](https://github.com/dudung/ips-unj-2025-sv/blob/main/07_cv_ips_unj/README.md) Curriculum vitae to committee rf.
 + `19-jun-2025` [`a2aae`](https://github.com/dudung/ips-unj-2025-sv/blob/main/06_whoosh_reservation/README.md) Whoosh reservation and info to committee rf.
 + `18-jun-2025` [`e0e90`](https://github.com/dudung/ips-unj-2025-sv/blob/main/05_ag_permission/README.md) Request of permit for leaving from ag, response on 19-jun.
