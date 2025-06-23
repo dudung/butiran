@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `22-jun-2025` Das Pinkel.
++ `23-jun-2025` Schlecter Furz, fließendes Wasser aus dem Wasserhahn, geklebter Hausgecko, fallende zerbrochene Schüssel.
++ `22-jun-2025` Das Pinkel am morgen.
 + `21-jun-2025` Zahnreparatur nach Schlägerkollision.
 + `20-jun-2025` Keines bis 0338.
 + `19-jun-2025` Panik bei der Wahl eines Massagetherapeuten, Schwarzes Singen, drei unbekante Anfure.
