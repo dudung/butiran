@@ -11,7 +11,8 @@ url = '0wp00'
 
 <!-- more -->
 
-{{< origin >}}
+{{< repost >}}
 https://viridi.wordpress.com/2007/12/27/hello-world/
 Hello world!
-{{< /origin >}}
+{{< /repost >}}
+

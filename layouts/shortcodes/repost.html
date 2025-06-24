@@ -1,0 +1,24 @@
+<div class="origin-box" style="border-left: 4px solid #4f81bd; padding: 1em; margin: 1em 0; background: #f9f9f9;">
+
+  {{- $rawLines := split .Inner "\n" -}}
+  {{- $lines := slice -}}
+  {{- range $rawLines }}
+    {{- $line := trim . " \t\r\n" -}}
+    {{- if ne $line "" }}
+      {{- $lines = $lines | append $line -}}
+    {{- end }}
+  {{- end }}
+  
+  {{- $url := trim (index $lines 0) " \t\n\r" -}}
+  {{- $title := trim (index $lines 1) " \t\n\r" -}}
+
+  <p style="margin: 0; font-size: 0.9em;">
+    Original post
+  </p>
+  <p style="margin: 0;">
+    <strong>{{ $title }}</strong>
+  </p>
+  <p style="margin: 0; font-size: 0.9em;">
+    <a href="{{ $url }}" target="_blank" rel="noopener"><code>{{ $url }}</code></a>
+  </p>
+</div>
