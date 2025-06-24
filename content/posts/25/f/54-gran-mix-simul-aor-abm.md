@@ -11,7 +11,7 @@ url = '25f54'
 
 <!-- more -->
 
-Simulation for showing motion of gas (red), fluid (green) and solid (dark yellow) particle under influence of gravitation using abm.
+Simulation for angle of repose of granular materials mixture using abm.
 
 {{< script/loader >}}
 src/25e41.js

@@ -20,6 +20,7 @@ src/25f45.js
 src/25f49.js
 src/25f51.js
 src/25f53.js
+src/25f54.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
@@ -121,15 +122,15 @@ btnSample.addEventListener("click", () => {
   clearInput(txa);
   addHeader(txa);
   addBlankLine(txa);
-  addWorld(txa);
+  addWorld2(txa);                     /* v2 */
   addBlankLine(txa);
-  addEnclosedWall(txa);
+  addEnclosedWall2(txa);              /* v2 */
   addBlankLine(txa);
-  addContainerWall(txa);
+  addContainerWall2(txa);             /* v2 */
   addBlankLine(txa);
-  addMovementProbabilityMatrix(txa);
+  addMovementProbabilityMatrix2(txa); /* v2 */
   addBlankLine(txa);
-  addAgents(txa);
+  addAgents2(txa);                    /* v2 */
 
   btnRead.disabled = false;
 });
