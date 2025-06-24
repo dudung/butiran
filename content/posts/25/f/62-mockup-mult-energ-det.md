@@ -11,7 +11,7 @@ url = '25f62'
 
 <!-- more -->
 
-Simulation for showing motion of gas (red), fluid (green) and solid (dark yellow) particle under influence of gravitation using abm.
+A mockup for multi-energy particles detector mechanism.
 
 {{< script/loader >}}
 src/25e41.js
@@ -20,6 +20,7 @@ src/25f45.js
 src/25f49.js
 src/25f51.js
 src/25f53.js
+src/25f62.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
