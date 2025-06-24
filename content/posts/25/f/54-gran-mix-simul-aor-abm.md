@@ -140,7 +140,7 @@ btnRead.addEventListener("click", () => {
   
   if(line != undefined) {
     let dim = getValueAfterKeyword("WORLD", line).map(Number);
-    world = createZeroMatrix(dim[0], dim[1]);
+    world = createZeroMatrix(dim[1], dim[0]);
 
     let lines1 = getLinesFromTextarea(txa, "WALL");
     for(let l of lines1) {
