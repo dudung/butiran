@@ -187,14 +187,13 @@ btnRun.addEventListener("click", () => {
     btnRead.disabled = true;
     btnRun.innerHTML = "Stop";
     
-    timer = setInterval(simulate, interval);
+    timer = setInterval(simulate2, interval);
   } else {
     btnAbout.disabled = false;
     btnSample.disabled = false;
     btnClear.disabled = false;
     btnRead.disabled = false;
     btnRun.innerHTML = "Start";
-    
     clearInterval(timer);
   }
 });

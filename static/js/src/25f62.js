@@ -8,6 +8,9 @@
  * Exported:
  * - addWorld3(el)
  * - addEnclosedWall3(el)
+ * - addContainerWall3(el)
+ * - addMovementProbabilityMatrix3(el)
+ * - addAgents3
  */
 
 
@@ -78,8 +81,8 @@ function addEnclosedWall3(el) {
  */
 function addContainerWall3(el) {
   addTextToTextarea(el, "# Particles container");
-  //addTextToTextarea(el, "WALL 30 10 30 50 16");
-  //addTextToTextarea(el, "WALL 48 10 48 50 16");
+  addTextToTextarea(el, "WALL 1 18 79 18 16");
+  addTextToTextarea(el, "WALL 1 32 79 32 16");
 }
 
 
@@ -139,9 +142,9 @@ function addAgents3(el) {
   const tZ = [tA, tB, tC];
   
   const x1 = 1;
-  const y1 = 10;
+  const y1 = 20;
   const x2 = 20;
-  const y2 = 20;
+  const y2 = 30;
   
   addTextToTextarea(el, "# Agents");
   for(y = y1; y <= y2; y++) {
@@ -160,6 +163,50 @@ function addAgents3(el) {
   
 }
 
+
+/**
+ * Runs one time step of the simulation and updates agent positions.
+ *
+ * This function processes all agents in the simulation by computing their movement directions based on their type's movement probability matrix (`mpm`). Agents attempt to move to adjacent cells if unoccupied. The world grid and agent list are updated, and the new state is drawn on a canvas. The simulation time `t` is also incremented.
+ *
+ * This function also updates the time display and canvas rendering in the DOM.
+ *
+ * @returns {void}
+ */
+function simulate2() {
+  const divTime = document.getElementById("div-time");
+  divTime.innerHTML = "t = " + t;
+  
+  const b = [];
+  let dx;
+  let dy;
+  for(a of agents) {
+    const x = a[0];
+    const y = a[1];
+    const t = a[2];
+    const m = mpm[t];
+    
+    [dx, dy] = generateDirection(m);
+    
+    const x2 = x + dx;
+    const y2 = y + dy
+    
+    // Add additional boundary for filters
+    
+    if(world[y2][x2] == 0) {
+      [world[y2][x2], world[y][x]] = [world[y][x], world[y2][x2]];
+      b.push([x2, y2, t]);
+    } else {
+      b.push([x, y, t]);
+    }
+  }
+  agents = b;
+  
+  const can = document.getElementById("can-out");
+  drawMatrixOnCanvas(can, world, getColor)
+
+  t += 1;
+}
 
 
 // marker: 25f62.js
