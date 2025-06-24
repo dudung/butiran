@@ -15,20 +15,29 @@
 
 
 let filters = {};
+let counts = {};
 
 
 /**
  */
 function addFilters(el) {
   addTextToTextarea(el, "# Filters");
-  addTextToTextarea(el, "WALL 25 19 25 31 33");
-  addTextToTextarea(el, "WALL 45 19 45 31 33");
-  addTextToTextarea(el, "WALL 65 19 65 31 33");
+  addTextToTextarea(el, "WALL 30 17 30 10 90");
+  addTextToTextarea(el, "WALL 30 34 30 40 90");
+
+  addTextToTextarea(el, "WALL 50 17 50 10 91");
+  addTextToTextarea(el, "WALL 50 34 50 40 90");
+
+  addTextToTextarea(el, "WALL 70 17 70 10 92");
+  addTextToTextarea(el, "WALL 70 34 70 40 90");
   
+  filters["L"] = [30, 41];
+  filters["M"] = [50, 43];
+  filters["R"] = [70, 48];
   
-  filters["A"] = [33, 48];
-  filters["B"] = [33, 41];
-  filters["C"] = [33, 43];
+  counts["L"] = 0;
+  counts["M"] = 0;
+  counts["R"] = 0;
 }
 
 
@@ -99,7 +108,7 @@ function addEnclosedWall3(el) {
  */
 function addContainerWall3(el) {
   addTextToTextarea(el, "# Particles container");
-  addTextToTextarea(el, "WALL 1 18 79 18 16");
+  addTextToTextarea(el, "WALL 1 19 79 19 16");
   addTextToTextarea(el, "WALL 1 32 79 32 16");
 }
 
@@ -160,9 +169,9 @@ function addAgents3(el) {
   const tZ = [tA, tB, tC];
   
   const x1 = 1;
-  const y1 = 20;
-  const x2 = 20;
-  const y2 = 30;
+  const y1 = 21;
+  const x2 = 24; // 29
+  const y2 = 30; // 30
   
   addTextToTextarea(el, "# Agents");
   for(y = y1; y <= y2; y++) {
@@ -192,8 +201,13 @@ function addAgents3(el) {
  * @returns {void}
  */
 function simulate2() {
+  let info = "t = " + t + "<br>";
+  for(let c in counts) {
+    info += c + " = " + counts[c] + "<br>";
+  }
+  
   const divTime = document.getElementById("div-time");
-  divTime.innerHTML = "t = " + t;
+  divTime.innerHTML = info;
   
   const b = [];
   let dx;
@@ -209,11 +223,34 @@ function simulate2() {
     const x2 = x + dx;
     const y2 = y + dy
     
-    // Add additional boundary for filters
-    
     if(world[y2][x2] == 0) {
       [world[y2][x2], world[y][x]] = [world[y][x], world[y2][x2]];
       b.push([x2, y2, t]);
+      
+      if(x2 == filters["L"][0]) {
+        counts["L"]++;
+        if(t == filters["L"][1]) {
+          b.pop();
+          world[y2][x2] = 0;
+        }
+      }
+      
+      if(x2 == filters["M"][0]) {
+        counts["M"]++;
+        if(t == filters["M"][1]) {
+          b.pop();
+          world[y2][x2] = 0;
+        }
+      }
+
+      if(x2 == filters["R"][0]) {
+        counts["R"]++;
+        if(t == filters["R"][1]) {
+          b.pop();
+          world[y2][x2] = 0;
+        }
+      }
+        
     } else {
       b.push([x, y, t]);
     }

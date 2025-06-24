@@ -11,7 +11,7 @@ url = '25f62'
 
 <!-- more -->
 
-A mockup for multi-energy particles detector mechanism.
+A mockup for multi-energy particles detector mechanism (green: low energy, dark yellow: middle energy, red: high energy);
 
 {{< script/loader >}}
 src/25e41.js
@@ -89,6 +89,9 @@ const style7 = {
   border: "1px solid #888",
   height: "100px",
   paddingLeft: "0.5em",
+  lineHeight: "1.2em",
+  fontFamily: "Consolas",
+  fontSize: "14px",
 };
 const divTime = createElement("div", style7);
 divTime.id = "div-time";
@@ -191,7 +194,6 @@ btnRun.addEventListener("click", () => {
     btnClear.disabled = true;
     btnRead.disabled = true;
     btnRun.innerHTML = "Stop";
-    
     timer = setInterval(simulate2, interval);
   } else {
     btnAbout.disabled = false;
