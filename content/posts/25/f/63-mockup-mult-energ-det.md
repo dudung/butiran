@@ -2,7 +2,7 @@
 title = 'mockup mult-energ-det'
 date = '2025-06-24T07:33:47+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['mockup', 'abm']
 categories = ['js']
