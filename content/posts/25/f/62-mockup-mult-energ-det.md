@@ -20,6 +20,7 @@ src/25f45.js
 src/25f49.js
 src/25f51.js
 src/25f53.js
+src/25f54.js
 src/25f62.js
 {{< /script/loader >}}
 
@@ -31,7 +32,7 @@ const style2 = {
   border: "0px #aaf solid",
   background: "#fafaff",
   width: "800px",
-  height: "400px",
+  height: "250px",
 };
 const div = createElement("div", style2);
 
@@ -51,14 +52,15 @@ const subdiv = createElement("div", style4);
 
 const style5 = {
   width: "400px",
+  height: "250px",
   border: "1px #888 solid",
   flexShrink: "0",
   boxSizing: "border-box",
   background: "#fff",
 };
 const can = createElement("canvas", style5);
-can.width = "300";
-can.height = "300";
+can.width = "400";
+can.height = "250";
 can.id = "can-out";
 
 const style6 = {
@@ -104,10 +106,10 @@ cnt.appendChild(div);
 
 btnAbout.addEventListener("click", () => {
   let text = "";
-  text += "\nProject: abm-aor";
+  text += "\nProject: mepd";
   text += "\nAuthor: Sparisoma Viridi";
   text += "\nVersion: 0.1 (2025)";
-  text += "\nDescription: Simulation of granular material angle of repose in 2d using an agent-based model.";
+  text += "\nDescription: Mockup for multi-energy particle detection mechanism.";
   text += "\nGitHub: https://github.com/dudung";
   alert(text);
 });
@@ -122,15 +124,15 @@ btnSample.addEventListener("click", () => {
   clearInput(txa);
   addHeader(txa);
   addBlankLine(txa);
-  addWorld(txa);
+  addWorld3(txa);                     /* v3 */
   addBlankLine(txa);
-  addEnclosedWall(txa);
+  addEnclosedWall3(txa);              /* v3 */
   addBlankLine(txa);
-  addContainerWall(txa);
+  addContainerWall3(txa);             /* v3 */
   addBlankLine(txa);
-  addMovementProbabilityMatrix(txa);
+  addMovementProbabilityMatrix3(txa); /* v3 */
   addBlankLine(txa);
-  addAgents(txa);
+  addAgents3(txa);                    /* v3 */
 
   btnRead.disabled = false;
 });
