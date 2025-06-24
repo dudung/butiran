@@ -21,7 +21,7 @@ src/25f49.js
 src/25f51.js
 src/25f53.js
 src/25f54.js
-src/25f62.js
+src/25f63.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
@@ -87,7 +87,7 @@ btnRun.disabled = true;
 
 const style7 = {
   border: "1px solid #888",
-  height: "100px",
+  height: "20px",
   paddingLeft: "0.5em",
   lineHeight: "1.2em",
   fontFamily: "Consolas",
@@ -95,6 +95,16 @@ const style7 = {
 };
 const divTime = createElement("div", style7);
 divTime.id = "div-time";
+
+const style8 = {
+  height: "116px",
+  display: "flex",
+  alignItems: "flex-end",
+  padding: "2px",
+};
+const divBar = createElement("div", style8);
+divBar.id = "div-bar";
+
 
 cnt.appendChild(div);
   div.append(txa);
@@ -105,6 +115,7 @@ cnt.appendChild(div);
     subdiv.append(btnRead);
     subdiv.append(btnRun);
     subdiv.append(divTime);
+    subdiv.append(divBar);
   div.append(can);
 
 btnAbout.addEventListener("click", () => {
