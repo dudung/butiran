@@ -5,7 +5,7 @@ authors = ['viridi']
 draft = false
 type = 'notes'
 tags = []
-categories = []
+categories = ['wp']
 url = '0wp00'
 +++
 
