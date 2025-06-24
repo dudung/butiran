@@ -12,9 +12,9 @@ pagerSize = 30
 disableKinds = ["RSS", "sitemap", "robotsTXT"]
 
 [taxonomies]
-#  author = "authors"
-#  tag = "tags"
-#  category = "categories"
+  author = "authors"
+  tag = "tags"
+  category = "categories"
 
 [[menu.main]]
   name = 'Home'

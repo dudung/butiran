@@ -211,3 +211,5 @@ btnRun.addEventListener("click", () => {
 
 ## notes
 + This is a part of [25c26](/butiran/25c26/) project in investigating particles energy.
++ Next plan is to obtain comments and suggestions in the next meeting for improvement.
++ Visulaization might be required to display the result (L, M, R values) graphically.
