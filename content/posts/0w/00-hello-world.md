@@ -15,4 +15,3 @@ url = '0wp00'
 https://viridi.wordpress.com/2007/12/27/hello-world/
 Hello world!
 {{< /repost >}}
-
