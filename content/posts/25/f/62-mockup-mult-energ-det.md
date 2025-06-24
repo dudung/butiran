@@ -130,8 +130,13 @@ btnSample.addEventListener("click", () => {
   addBlankLine(txa);
   addContainerWall3(txa);             /* v3 */
   addBlankLine(txa);
+
+  addFilters(txa);
+  addBlankLine(txa);
+
   addMovementProbabilityMatrix3(txa); /* v3 */
   addBlankLine(txa);
+
   addAgents3(txa);                    /* v3 */
 
   btnRead.disabled = false;

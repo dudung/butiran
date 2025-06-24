@@ -226,7 +226,6 @@ function drawMatrixOnCanvas(can, m, color) {
   
   const lx = width / col;
   const ly = height / row;
-  console.log(lx, ly);
   
   for(let r = 0; r < row; r++) {
     for(let c = 0; c < col; c++) {

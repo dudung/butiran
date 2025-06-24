@@ -14,6 +14,24 @@
  */
 
 
+let filters = {};
+
+
+/**
+ */
+function addFilters(el) {
+  addTextToTextarea(el, "# Filters");
+  addTextToTextarea(el, "WALL 25 19 25 31 33");
+  addTextToTextarea(el, "WALL 45 19 45 31 33");
+  addTextToTextarea(el, "WALL 65 19 65 31 33");
+  
+  
+  filters["A"] = [33, 48];
+  filters["B"] = [33, 41];
+  filters["C"] = [33, 43];
+}
+
+
 /**
  * Sets the dimensions of the simulation world and appends the definition to a textarea element.
  *
