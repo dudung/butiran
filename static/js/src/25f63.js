@@ -10,7 +10,9 @@
  * - addEnclosedWall3(el)
  * - addContainerWall3(el)
  * - addMovementProbabilityMatrix3(el)
- * - addAgents3
+ * - addAgents3(el)
+ * - addFilters(el)
+ * - simulate2()
  */
 
 
@@ -20,6 +22,13 @@ let filterCount = [];
 
 
 /**
+ * Appends predefined filter wall configurations to a textarea element.
+ *
+ * This function writes a fixed set of filter wall entries to the given textarea-like element using `addTextToTextarea`. It generates wall commands at specific positions and with specified types, possibly for use in a simulation or configuration script.
+ *
+ * Global variables `filterPost`, `filterType`, and `filterCount` are initialized for later use or tracking.
+ *
+ * @param {HTMLElement} el - The textarea DOM element where the filter data is appended.
  */
 function addFilters(el) {
   
