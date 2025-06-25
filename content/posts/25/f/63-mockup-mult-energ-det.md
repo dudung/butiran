@@ -219,4 +219,5 @@ btnRun.addEventListener("click", () => {
 ## notes
 + This is a part of [25c26](/butiran/25c26/) project in investigating particles energy.
 + Next plan is to obtain comments and suggestions in the next meeting for improvement.
-+ Visulaization might be required to display the result (L, M, R values) graphically.
++ Visualization might be required to display the result (L, M, R values) graphically. &check;
++ Visual illutsration of real system is [fx1_lrg.jpg](https://www.cell.com/cms/10.1016/j.matt.2024.05.029/asset/e0a5bf58-f300-4be3-bca6-2f015c212e0e/main.assets/fx1_lrg.jpg) from [an artikel](https://doi.org/10.1016/j.matt.2024.05.029). 
