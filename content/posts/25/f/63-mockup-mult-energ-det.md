@@ -11,7 +11,7 @@ url = '25f63'
 
 <!-- more -->
 
-A mockup for multi-energy particles detector mechanism (green: low energy, dark yellow: middle energy, red: high energy);
+A mockup for multi-energy particles detector mechanism (dark red: lowest energy, dark green: highest energy);
 
 {{< script/loader >}}
 src/25e41.js
