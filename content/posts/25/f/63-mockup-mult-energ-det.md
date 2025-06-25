@@ -149,8 +149,6 @@ btnSample.addEventListener("click", () => {
   addBlankLine(txa);
 
   addMovementProbabilityMatrix3(txa); /* v3 */
-  addBlankLine(txa);
-
   addAgents3(txa);                    /* v3 */
 
   btnRead.disabled = false;
@@ -215,8 +213,6 @@ btnRun.addEventListener("click", () => {
     clearInterval(timer);
   }
 });
-
-
 {{< /script/runner >}}
 
 
