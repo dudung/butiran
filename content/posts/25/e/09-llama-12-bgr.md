@@ -11,7 +11,11 @@ url = '25e09'
 
 <!-- more -->
 
-+ `02-jun-2025` [`osfio`]() Offline meeting in the city via whoosh.
++ `24-jun-2025` [`r2ytn`](https://osf.io/r2ytn) Invitation for rtd for obe.
++ `24-jun-2025` [`qac9g`](https://osf.io/qac9g) Info for 09-jun-2025 and reschedule.
++ `20-jun-2025` [`z6k38`](https://osf.io/z6k38) File of tor for the rtd.
++ `16-jun-2025` [`h2wp8`](https://osf.io/h2wp8) Plan for obe discussion in a rtd.
++ `28-may-2025` [`8nyvq`](https://osf.io/8nyvq) Cancellation info for planned visit on 02-Jun-2025.
 + `26-may-2025` [`rdm3z`](https://osf.io/rdm3z) Interact with other visit fi-nuc.
 + `05-may-2025` [`txdsr`](https://osf.io/txdsr) Online coordination of guiding process.
 + `03-may-2025` [`wdyn8`](https://osf.io/wdyn8) A program advancement guidance info.
