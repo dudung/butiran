@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `26-jun-2025` Das Pinkel am morgen.
++ `26-jun-2025` Das Pinkel am morgen, Erfrischungsgetränk, warm im Inneren.
 + `25-jun-2025` Laute Ratten im Dach, auch Hausgecko.
 + `24-jun-2025` Bokken töten die Hausgeckos heute und vorherigen Tagen (Selbstmord).
 + `23-jun-2025` Schlecter Furz, fließendes Wasser aus dem Wasserhahn, geklebter Hausgecko, fallende zerbrochene Schüssel.

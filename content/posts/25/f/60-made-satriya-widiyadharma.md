@@ -11,6 +11,8 @@ url = '25f60'
 
 <!-- more -->
 
++ `25-jun-2025` [`a6f17`](https://github.com/dudung/10221031/blob/main/09_seminar_ta2/README.md) Seminar of ta-2 and discussion.
++ `24-jun-2025` [`9cbc4`](https://github.com/dudung/10221031/blob/main/08_presentation_file/README.md) Presentasion slide for seminar.
 + `23-jun-2025` [`3cc81`](https://github.com/dudung/10221031/blob/main/07_to_github/README.md) Migration to github from osf.
 + `23-jun-2025` [`wsh27`](https://osf.io/wsh27) Reminder and presetation print offer.
 + `18-jun-2025` [`f2r47`](https://osf.io/f2r47) Draft of bachelor thesis or ta2.
