@@ -12,7 +12,7 @@ url = '25e09'
 <!-- more -->
 
 + `26-jun-2025` [`f8cab`](https://github.com/dudung/llama-12-bgr/blob/main/09_to_github/README.md) Migration to github from osf.
-+ `26-jun-2025` [`7vfb6`](https://osf.io/7vfb6) Leaving permit from rg request.
++ `26-jun-2025` [`7vfb6`](https://osf.io/7vfb6) Leaving permit from rg request, replied ok.
 + `24-jun-2025` [`r2ytn`](https://osf.io/r2ytn) Invitation for rtd for obe.
 + `24-jun-2025` [`qac9g`](https://osf.io/qac9g) Info for 09-jun-2025 and reschedule.
 + `20-jun-2025` [`z6k38`](https://osf.io/z6k38) File of tor for the rtd.
