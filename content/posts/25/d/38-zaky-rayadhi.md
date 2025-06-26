@@ -9,6 +9,10 @@ categories = ['users']
 url = '25d38'
 +++
 
++ `26-jun-2025` [`432ec`](https://github.com/dudung/28721001/blob/main/20_seminar_info/README.md) Info of thesis-i seminar on 01-jul-2025 at 0900.
++ `23-jun-2025` [`43b5c`](https://github.com/dudung/28721001/blob/main/19_seminar_date_det/README.md) Seminar date determination.
++ `19-jun-2025` [`5a03d`](https://github.com/dudung/28721001/blob/main/18_meeting_19jun/README.md) Meeting on biomedics res-group.
++ `17-jun-2025` [`2409f`](https://github.com/dudung/28721001/blob/main/17_wag_of_3/README.md) Creation temp wag of three.
 + `15-jun-2025` [`cd83f`](https://github.com/dudung/28721001/blob/main/16_to_github/README.md) Migration of files to github.
 + `13-jun-2025` [`q58vg`](https://osf.io/q58vg) Seminar permission signing.
 + `10-jun-2025` [`bav68`](https://osf.io/bav68) Progress on chapter 3.
