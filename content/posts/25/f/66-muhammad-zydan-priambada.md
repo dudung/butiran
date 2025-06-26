@@ -2,7 +2,7 @@
 title = 'muhammad zydan priambada'
 date = '2025-06-26T20:20:08+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['rq']
 categories = ['users']
