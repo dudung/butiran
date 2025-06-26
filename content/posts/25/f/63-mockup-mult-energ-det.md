@@ -220,4 +220,6 @@ btnRun.addEventListener("click", () => {
 + This is a part of [25c26](/butiran/25c26/) project in investigating particles energy.
 + Next plan is to obtain comments and suggestions in the next meeting for improvement.
 + Visualization might be required to display the result (L, M, R values) graphically. &check;
-+ Visual illutsration of real system is [fx1_lrg.jpg](https://www.cell.com/cms/10.1016/j.matt.2024.05.029/asset/e0a5bf58-f300-4be3-bca6-2f015c212e0e/main.assets/fx1_lrg.jpg) from [an artikel](https://doi.org/10.1016/j.matt.2024.05.029). 
++ Visual illutsration of real system is [fx1_lrg.jpg](https://www.cell.com/cms/10.1016/j.matt.2024.05.029/asset/e0a5bf58-f300-4be3-bca6-2f015c212e0e/main.assets/fx1_lrg.jpg) from [an artikel](https://doi.org/10.1016/j.matt.2024.05.029).
++ :construction: Next stage is to simulate single granular particle with particular energy (in term of velocity) hitting barrier consists of array of fixed granular particles with certain crystal configuration in order to observe the energy loss during traveling in the barrier material as discussed with rk on 26-jun-2025.
+  - After this try to oscillated the barrier to get the resonance effect.

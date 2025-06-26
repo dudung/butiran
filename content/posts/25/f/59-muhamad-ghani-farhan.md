@@ -11,6 +11,7 @@ url = '25f59'
 
 <!-- more -->
 
++ `24-jun-2025` [`61178`](https://github.com/dudung/10221018/blob/main/09_seminar_ta2/README.md) Seminar of ta2 in electronics lab.
 + `23-jun-2025` [`1aa98`](https://github.com/dudung/10221018/blob/main/08_to_github/README.md) Migration to github from osf.
 + `23-jun-2025` [`4qmf5`](https://osf.io/4qmf5) Reminder and presentation file.
 + `17-jun-2025` [`epys3`](https://osf.io/epys3) Draft of bachelor thesis ta2.
