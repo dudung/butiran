@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `28-jun-2025` Schlecter Furz, noch unklarer Maus-Fußabdruck auf Küchentisch ganz links.
 + `27-jun-2025` Noch unklarer Maus-Fußabdruck auf Küchentisch.
 + `26-jun-2025` Das Pinkel am morgen, Erfrischungsgetränk, warm im Inneren, Gecko von Boken getroffen im Schlafzimmer.
 + `25-jun-2025` Laute Ratten im Dach, auch Hausgecko.
