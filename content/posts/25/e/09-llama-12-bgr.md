@@ -11,6 +11,7 @@ url = '25e09'
 
 <!-- more -->
 
++ `27-jun-2025` [`56a0e`](https://github.com/dudung/llama-12-bgr/blob/main/10_faculty_permit_req/README.md) From s/f leaving permit request.
 + `26-jun-2025` [`f8cab`](https://github.com/dudung/llama-12-bgr/blob/main/09_to_github/README.md) Migration to github from osf.
 + `26-jun-2025` [`7vfb6`](https://osf.io/7vfb6) Leaving permit from rg request, replied ok.
 + `24-jun-2025` [`r2ytn`](https://osf.io/r2ytn) Invitation for rtd for obe.
