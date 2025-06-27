@@ -23,21 +23,21 @@ url = '25f68'
 
 
 {{< style class="table-0" >}}
-Code | SID | Name
-:-   | :-  | :-
-`SV1` | 28721001 | Zaky Rayadhi
-`SH1` | 20913017 | Donny Zaviar Rizky
-`SH2` | 20923015 | Hafizh Saftian
-`TD1` | 20922318 | Inas Suha Lailah Qodriyah
-`RS1` | 20923016 | Juzd Thoha Chairul Anam
-`RS2` | 20923019 | Gatot Mochamad Muchtar
-`FO1` | 20923011 | Rafi Prayoga Dhenanta
-`RQ1` | 10221057 | Muhammad Zydan Priambada
-`NH1` | 20224023 | Gita Amelia Marianto Limbong.
-`NH2` | 20223010 | Nipta Dwi Setyo Risky
-`NH3` | 10221072 | Achmad Aulia Fikri
-`NH4` | 10221001 | Marshanda Adisti Rahmadini
-`NH5` | 10221016 | Auza Naufal Abraar
-`NH6` | 10221005 | Hamzah Firoos Fauzi
-`NH7` | 20223002 | Andika Pratama
+Code | SID | Name | Note
+:-   | :-  | :-   | :-
+`SV1` | 28721001 | Zaky Rayadhi                 | 25d38
+`SH1` | 20913017 | Donny Zaviar Rizky           |
+`SH2` | 20923015 | Hafizh Saftian               |
+`TD1` | 20922318 | Inas Suha Lailah Qodriyah    | 25f67
+`RS1` | 20923016 | Juzd Thoha Chairul Anam      |
+`RS2` | 20923019 | Gatot Mochamad Muchtar       |
+`FO1` | 20923011 | Rafi Prayoga Dhenanta        |
+`RQ1` | 10221057 | Muhammad Zydan Priambada     | 25f66
+`NH1` | 20224023 | Gita Amelia Marianto Limbong |
+`NH2` | 20223010 | Nipta Dwi Setyo Risky        |
+`NH3` | 10221072 | Achmad Aulia Fikri           |
+`NH4` | 10221001 | Marshanda Adisti Rahmadini   |
+`NH5` | 10221016 | Auza Naufal Abraar           |
+`NH6` | 10221005 | Hamzah Firoos Fauzi          |
+`NH7` | 20223002 | Andika Pratama               |
 {{< /style >}}
