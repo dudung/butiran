@@ -14,6 +14,8 @@ url = '25f37'
 ## 29-jun-2025
 + S. Viridi, "learning obe-ga-clo", butiran, 29 Jun 2025, url [https://dudung.github.io//butiran/25f70/](/butiran/25f70/) [20250629].
   - Some refs are listed in [25f70](/butiran/25f70/), an inconsistency.
++ Andrew, "What Is a Round Table Meeting? [And How to Make The Most of It]", Geekbot, 18 Mar 2024, url https://geekbot.com/blog/what-is-a-round-table-meeting/ [20250629].
++ GPT-4o, "Round Table Formats Comparison", ChatGPT, 29 Jun 2025, url https://chatgpt.com/share/68611d18-8f58-800a-9dc8-1b5565df6c47 [20250629].
 
 
 ## 08-jun-2025
