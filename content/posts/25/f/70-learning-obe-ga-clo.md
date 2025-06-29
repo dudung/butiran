@@ -57,6 +57,11 @@ Beberapa penjelasan mengenai profil lulusan adalah [^kusumawardani_2025]:
 - Profil lulusan yang ditetapkan dalam menyusun kurikulum menjadi arah dalam perumusan CPL (Capaian Pembelajaran Lulusan).
 
 
+## notes
++ It is about 1731 in the same day and this note will be terminated in butiran.
++ Due to mix-language id and en, the note will be transformed directly to id on OSF.
+
+
 ## refs
 [^barrie_2004]: Simon C. Barrie, "A research-based approach to generic
 graduate attributes policy", Higher Education Research & Development, vol 23 no 3, p 261-275, Aug 2004, https://doi.org/10.1080/0729436042000235391.
