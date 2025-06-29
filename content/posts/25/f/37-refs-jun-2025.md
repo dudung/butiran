@@ -19,6 +19,11 @@ graduate attributes policy", Higher Education Research & Development, vol 23 no 
 + S. Viridi, "learning obe-ga-clo", butiran, 29 Jun 2025, url [https://dudung.github.io//butiran/25f70/](/butiran/25f70/) [20250629].
 + Andrew, "What Is a Round Table Meeting? [And How to Make The Most of It]", Geekbot, 18 Mar 2024, url https://geekbot.com/blog/what-is-a-round-table-meeting/ [20250629].
 + GPT-4o, "Round Table Formats Comparison", ChatGPT, 29 Jun 2025, url https://chatgpt.com/share/68611d18-8f58-800a-9dc8-1b5565df6c47 [20250629].
++ GPT-4o, "Round Table Discussion Approach", ChatGPT, 29 Jun 2025, url https://chatgpt.com/share/68614aa9-0cc4-800a-9d3e-9fcf4a862726 [20250629].
++ William G. Spady, "Outcome-Based Education: Critical Issues and
+Answers", American Association of School Administrators, Arlington, VA, 1994, url https://eric.ed.gov/?id=ED380910, https://isbnsearch.org/isbn/0876521839 [20250629].
++ Afzal Badshah, "Outcome-Based Education (OBE): A Framework for Quality Education", Medium, 6 Dec 2024, url http://medium.com/p/479aecdcc5ea [20250629].
++ -, "Program Learning Outcomes", Department of Physics, Mellon College of Science, Carnegie Mellon University, 2025, url https://www.cmu.edu/physics/undergrad-program/learning-outcomes.html [20250629].
 
 
 ## 08-jun-2025
