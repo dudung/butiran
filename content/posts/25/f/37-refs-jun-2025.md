@@ -12,8 +12,11 @@ url = '25f37'
 <!-- more -->
 
 ## 29-jun-2025
++ Simon C. Barrie, "A research-based approach to generic
+graduate attributes policy", Higher Education Research & Development, vol 23 no 3, p 261-275, Aug 2004, https://doi.org/10.1080/0729436042000235391.
++ Sri Suning Kusumawardani, Dewi Wulandari, Syamsul Arifin, Edy Cahyono, Sri Peni Wastutiningsih, Gatot F. Hertono, Alim Setiawan Slamet, Widya Wasityastuti, Bagus Jati Santoso, Ating Yuniarti, Aris Junaidi, Hendrawan Soetanto, I Made Supartha Utama, Nur Masyitah Syam, Pradipta Hendrawan Putra, Anisa Rahmawati, Fadhilatul Fajri, Dian Anggraini, Ahmad Zuliansyah, Yosep Yulianto, Briant Sudwi Julyan, "Panduan Penyusunan Kurikulum Pendidikan Tinggi Mendukung Merdeka Belajar - Kampus Merdeka Menuju Indonesia Emas", Direktorat Pembelajaran dan Kemahasiswaan, Direktorat Jenderal Pendidikan, Tinggi, Riset, dan Teknologi, Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi, edisi 5, Jul 2024, url https://lldikti3.kemdikbud.go.id/wp-content/uploads/2024/07/Buku-Panduan-KPT-2024-Direktorat-Pembelajaran-dan-Kemahasiswaan.pdf [20250629].
+[^siddiqui_2023]: Aamir Siddiqui, "Know about Outcome-Based Education (OBE)", LinkedIn, 15 Nov 2023, url https://www.linkedin.com/pulse/know-outcome-based-education-obe-aamir-siddiqui-ryjwf/ [20250629].
 + S. Viridi, "learning obe-ga-clo", butiran, 29 Jun 2025, url [https://dudung.github.io//butiran/25f70/](/butiran/25f70/) [20250629].
-  - Some refs are listed in [25f70](/butiran/25f70/), an inconsistency.
 + Andrew, "What Is a Round Table Meeting? [And How to Make The Most of It]", Geekbot, 18 Mar 2024, url https://geekbot.com/blog/what-is-a-round-table-meeting/ [20250629].
 + GPT-4o, "Round Table Formats Comparison", ChatGPT, 29 Jun 2025, url https://chatgpt.com/share/68611d18-8f58-800a-9dc8-1b5565df6c47 [20250629].
 

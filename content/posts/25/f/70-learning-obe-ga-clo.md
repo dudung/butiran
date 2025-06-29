@@ -60,7 +60,7 @@ Beberapa penjelasan mengenai profil lulusan adalah [^kusumawardani_2025]:
 ## notes
 + It is about 1731 in the same day and this note will be terminated in butiran.
 + Due to mix-language id and en, the note will be transformed directly to id on OSF.
-+ The references will be listed in and not in [25f37](/butiran/25f37/), but note will be added there.
++ The references will be listed here and also in [25f37](/butiran/25f37/).
 
 
 ## refs
