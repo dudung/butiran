@@ -11,6 +11,11 @@ url = '25f37'
 
 <!-- more -->
 
+## 29-jun-2025
++ S. Viridi, "learning obe-ga-clo", butiran, 29 Jun 2025, url [https://dudung.github.io//butiran/25f70/](/butiran/25f70/) [20250629].
+  - Some refs are listed in [25f70](/butiran/25f70/), an inconsistency.
+
+
 ## 08-jun-2025
 + GPT-4o, "A Tiny Console Trick to Track JS Files in Hugo", ChatGPT, 8 Jun 2025, url https://chatgpt.com/share/6844c09a-0490-800a-a2f8-5256c6133c76 [20250608].
 + Gaurav Shrivastava, "IIFE (Immediately Invoked Function Expression)", Medium, 20 Sep 2025, url https://medium.com/p/584fef2673b9 [20250608].
