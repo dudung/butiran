@@ -1,5 +1,5 @@
 +++
-title = 'jul 2025 overview'
+title = 'jul-2025 overview'
 date = '2025-07-01T03:49:09+07:00'
 authors = ['viridi']
 draft = false
