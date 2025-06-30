@@ -11,6 +11,13 @@ url = '25f37'
 
 <!-- more -->
 
+
+## 30-jun-2025
++ Abdul Malik Made, Nizwardi Jalinus, Waskito, "Siklus Pengembangan Kurikulum Pendidikan Tinggi", Research in Technical and Vocational Education and Training, vol 1, no 2, p 18, https://doi.org/10.55585/rintvet.v1i2.18.
++ -, "New Degree Program Proposals", California Polytechnic State University, 2025, url https://academicprograms.calpoly.edu/content/academicpolicies/new-degrees [20250630].
++ Andrea Cambridge-Gonzales, "Curriculum Development Process", Pinterest, 24 Apr 2013, url https://pin.it/T3Xn8VKxs [20250630].
+
+
 ## 29-jun-2025
 + Simon C. Barrie, "A research-based approach to generic
 graduate attributes policy", Higher Education Research & Development, vol 23 no 3, p 261-275, Aug 2004, https://doi.org/10.1080/0729436042000235391.
