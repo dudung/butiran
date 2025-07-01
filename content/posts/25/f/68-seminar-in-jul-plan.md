@@ -23,8 +23,8 @@ url = '25f68'
 
 
 {{< style class="table-0" >}}
-Code | SID | Name | Note
-:-   | :-  | :-   | :-
+Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
+:-:  | :-: | :-   | :-:   | :-:
 `SV1` | 28721001 | Zaky Rayadhi                 | 25d38
 `SH1` | 20913017 | Donny Zaviar Rizky           |
 `SH2` | 20923015 | Hafizh Saftian               |
