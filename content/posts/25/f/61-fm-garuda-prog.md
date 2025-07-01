@@ -11,7 +11,8 @@ url = '25f61'
 
 <!-- more -->
 
-+ `23-jun-2025` [`ca2ff`](https://github.com/dudung/fm-garuda-prog/blob/main/03_discussion_in_radar_lab/README.md) Discussion for todai loa and informed about keio [^gptp-4o_2025].
++ `01-jul-2025` [`363ee`](https://github.com/dudung/fm-garuda-prog/blob/main/04_radar_lab_and_project/README.md) Meeting in radar lab and offered project on q-comm.
++ `23-jun-2025` [`36f79`](https://github.com/dudung/fm-garuda-prog/blob/main/03_discussion_in_radar_lab/README.md) Discussion for todai loa and informed about keio [^gptp-4o_2025].
 + `22-jun-2025` [`591b0`](https://github.com/dudung/fm-garuda-prog/blob/main/02_intro/README.md) Short story for introduction from dr fm.
 + `21-jun-2025` [`7e159`](https://github.com/dudung/fm-garuda-prog/blob/main/01_appointment/README.md) Appointment for discussion with prof abs.
 + `26-feb-2025` [`xb93h`](https://osf.io/xb93h) First meetup at etitu, which is the main branch of this note [^viridi_2025].
