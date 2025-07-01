@@ -29,8 +29,8 @@ Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 `SH1` | 20923017 | Donny Zaviar Rizky           | 25g07
 `SH2` | 20923015 | Hafizh Saftian               | 25g07
 `TD1` | 20922318 | Inas Suha Lailah Qodriyah    | 25f67
-`RS1` | 20923016 | Juzd Thoha Chairul Anam      |
-`RS2` | 20923019 | Gatot Mochamad Muchtar       |
+`RS1` | 20923016 | Juzd Thoha Chairul Anam      | 25g09
+`RS2` | 20923019 | Gatot Mochamad Muchtar       | 25g10
 `FO1` | 20923011 | Rafi Prayoga Dhenanta        |
 `RQ1` | 10221057 | Muhammad Zydan Priambada     | 25f66
 `NH1` | 20224023 | Gita Amelia Marianto Limbong |
