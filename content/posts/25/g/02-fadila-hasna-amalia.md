@@ -13,3 +13,7 @@ url = '25g02'
 
 + `01-jul-2025` [`va84e`](https://osf.io/va84e) Updated info from supervisor be.
 + `30-jun-2025` [`9uxg6`](https://osf.io/9uxg6) Self-intro and unmatched seminar time.
+
+
+## notes
++ There is other note [25g03](/butiran/25g03/) related to this.
