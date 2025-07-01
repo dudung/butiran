@@ -11,5 +11,6 @@ url = '25f67'
 
 <!-- more -->
 
++ `02-jul-2025` [`db6a3`](https://github.com/dudung/20922318/blob/main/03_presentation_file/README.md) Undelivered presentation file.
 + `26-jun-2025` [`39d82`](https://github.com/dudung/20922318/blob/main/02_seminar_info/README.md) Seminar official info from sk-tiktik.
 + `25-jun-2025` [`f1800`](https://github.com/dudung/20922318/blob/main/01_intro_info/README.md) Fixing schedule at 1100 on 01-jul-2025.
