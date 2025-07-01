@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `01-jul-2025` Vergessene verpackte Maus, leichte Rückseite bestoßen, Geräusche eines Hausgeckos. (:skull_and_crossbones::rat:) (:motor_scooter::collision::oncoming_automobile:) :lizard:
 + `30-jun-2025` Schwarzes Singen am Mittag, Teilnehmen der Maus an geklebten Hausgecko und Kakerlake teil am späten Nachmittag. :notes: :rat:
 + `28-jun-2025` Schlecter Furz, noch unklarer Maus-Fußabdruck auf Küchentisch ganz links.
 + `27-jun-2025` Noch unklarer Maus-Fußabdruck auf Küchentisch.
