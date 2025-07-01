@@ -26,7 +26,7 @@ url = '25f68'
 Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 :-:  | :-: | :-   | :-:   | :-:
 `SV1` | 28721001 | Zaky Rayadhi                 | 25d38
-`SH1` | 20913017 | Donny Zaviar Rizky           |
+`SH1` | 20923017 | Donny Zaviar Rizky           | 25g07
 `SH2` | 20923015 | Hafizh Saftian               |
 `TD1` | 20922318 | Inas Suha Lailah Qodriyah    | 25f67
 `RS1` | 20923016 | Juzd Thoha Chairul Anam      |
