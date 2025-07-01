@@ -16,3 +16,7 @@ url = '25g07'
 + `17-jan-2025` [`bfxw2`](https://osf.io/bfxw2) Proposal seminar and comments.
 + `15-jan-2025` [`vgw9n`](https://osf.io/vgw9n) Invitation, proposal, presentation files.
 + `13-dec-2024` [`u627f`](https://osf.io/u627f) Info and schedule for proposal seminar.
+
+
+## notes
++ There is cross information with [25g08](/butiran/25g08/).
