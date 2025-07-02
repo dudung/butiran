@@ -31,7 +31,7 @@ Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 `TD1` | 20922318 | Inas Suha Lailah Qodriyah    | 25f67
 `RS1` | 20923016 | Juzd Thoha Chairul Anam      | 25g09
 `RS2` | 20923019 | Gatot Mochamad Muchtar       | 25g10
-`FO1` | 20923011 | Rafi Prayoga Dhenanta        |
+`FO1` | 20923011 | Rafi Prayoga Dhenanta        | 25f39
 `RQ1` | 10221057 | Muhammad Zydan Priambada     | 25f66
 `NH1` | 20224023 | Gita Amelia Marianto Limbong |
 `NH2` | 20223010 | Nipta Dwi Setyo Risky        |
