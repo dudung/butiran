@@ -33,7 +33,7 @@ Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 `RS2` | 20923019 | Gatot Mochamad Muchtar       | 25g10
 `FO1` | 20923011 | Rafi Prayoga Dhenanta        | 25f39
 `RQ1` | 10221057 | Muhammad Zydan Priambada     | 25f66
-`NH1` | 20224023 | Gita Amelia Marianto Limbong |
+`NH1` | 20224023 | Gita Amelia Marianto Limbong | 25g14
 `NH2` | 20223010 | Nipta Dwi Setyo Risky        |
 `NH3` | 10221072 | Achmad Aulia Fikri           |
 `NH4` | 10221001 | Marshanda Adisti Rahmadini   |
