@@ -11,7 +11,12 @@ url = '25g14'
 
 <!-- more -->
 
-+ `26-jun-2025` [`6tcda`](https://osf.io/6tcda) Seminar info and schedule of students.
++ `04-jul-2025` [`dkbgw`](https://osf.io/dkbgw) Contact info of a todai alumni.
++ `04-jul-2025` [`8qhzt`](https://osf.io/8qhzt) Thesis-2 seminar in 1205 room.
++ `03-jul-2025` [`vy8hb`](https://osf.io/vy8hb) Thesis draft and presentation files.
++ `02-jul-2025` [`qzt56`](https://osf.io/qzt56) Student thesis draft file.
++ `30-jun-2025` [`xc65k`](https://osf.io/xc65k) Confirmed schedule from the student.
++ `26-jun-2025` [`6tcda`](https://osf.io/6tcda) Supervisor info of seminar and schedule.
 
 
 ## notes
