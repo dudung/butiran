@@ -2,7 +2,7 @@
 title = 'anzet dianto pebriwan'
 date = '2025-05-23T10:17:44+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['sv', 'mm']
 categories = ['users']
