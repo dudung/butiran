@@ -11,6 +11,10 @@ url = '25f32'
 
 <!-- more -->
 
++ `06-jul-2025` [`apsfw`](https://osf.io/apsfw) Files and folders back migration from github to osf.
++ `05-jul-2025` [`d4921`](https://github.com/dudung/llama-14-onl/blob/main/13_zoom_05jul/README.md) Zoom on technical procedure for al and ak training with new system.
++ `04-jul-2025` [`5b587`](https://github.com/dudung/llama-14-onl/blob/main/12_mockup_results/README.md) Grading result of mockup.
++ `01-jul-2025` [`73bfc`](https://github.com/dudung/llama-14-onl/blob/main/11_launching_iaps_3_0/README.md) Launching of iaps 3.0 and a socialization.
 + `01-jul-2025` [`6961e`](https://github.com/dudung/llama-14-onl/blob/main/10_rev_announcement_date/README.md) Revision of announcement date for the result.
 + `21-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/09_day_2/README.md) Processing aka day-2.
 + `20-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/08_day_1/README.md) Processing ak day-1.
@@ -29,3 +33,4 @@ url = '25f32'
 + Online training is from 12 to 14 June 2025. [&mp;](https://us06web.zoom.us/j/88961608167?pwd=AnhMF9R09pGlIOX4Rze3rKEqTU4KcX.10)9.
 + On 12-jun-2025 it begins at 1900+07.
 + Post-test on 16-jun-2025 0700-0740 on a moodle.
++ Due to cluttered folders on GitHub all files and folder are copied back to OSF on 06-jul-2025. Link in the above items are unchanged for historical footprints only.
