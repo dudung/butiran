@@ -11,7 +11,10 @@ url = '25f32'
 
 <!-- more -->
 
-+ `20-jun-2025` []() Day-1 of ak process.
++ `01-jul-2025` [`6961e`](https://github.com/dudung/llama-14-onl/blob/main/10_rev_announcement_date/README.md) Revision of announcement date for the result.
++ `21-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/09_day_2/README.md) Processing aka day-2.
++ `20-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/08_day_1/README.md) Processing ak day-1.
++ `17-jun-2025` [`76897`](https://github.com/dudung/llama-14-onl/blob/main/07_zoom_mock_up/README.md) Zoom for mockup intro.
 + `16-jun-2025` [`25af4`](https://github.com/dudung/llama-14-onl/blob/main/06_info_and_post_test/README.md) Info and post-test for v3.0 of iaps.
 + `15-jun-2025` [`30e41`](https://github.com/dudung/llama-14-onl/blob/main/05_materials_for_post_test/README.md) Presentation files as post-test materials.
 + `14-jun-2025` [`f41ee`](https://github.com/dudung/llama-14-onl/blob/main/04_day_3/README.md) Online training day-3 (c, d, e, salam, etika).
