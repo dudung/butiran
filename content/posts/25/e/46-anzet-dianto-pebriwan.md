@@ -11,6 +11,10 @@ url = '25e46'
 
 <!-- more -->
 
++ `04-jul-2025` [`p5yn3`](https://osf.io/p5yn3) Short semester miscellaneous.
++ `03-jul-2025` [`8xuw9`](https://osf.io/8xuw9) Start of official supervision.
++ `03-jul-2025` [`kwb78`](https://osf.io/kwb78) Discussion after a while.
++ `05-jul-2025` [`e2hrz`](https://osf.io/e2hrz) Missing folders notice.
 + `23-may-2025` [`vhp72`](https://osf.io/vhp72) Progress discussion and other info, finz.
 + `14-mar-2025` [`yvgb8`](https://osf.io/yvgb8) Semester credit limit, cause unclear.
 + `08-mar-2025` [`qz237`](https://osf.io/qz237) Suggestion, ansys install & trial.
@@ -20,3 +24,7 @@ url = '25e46'
 + `26-feb-2025` [`9m2b6`](https://osf.io/9m2b6) Github repo for final project. 
 + `20-feb-2025` [`hske4`](https://osf.io/hske4) Topics and some references.
 + `14-feb-2025` [`f9c3y`](https://osf.io/f9c3y) Intro and first contact.
+
+
+## notes
++ Items numbering start from `00`.
