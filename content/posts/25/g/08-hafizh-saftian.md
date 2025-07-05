@@ -11,6 +11,7 @@ url = '25g08'
 
 <!-- more -->
 
++ `02-jul-2025` [`qfg8w`](https://osf.io/qfg8w) Master thesis seminar.
 + `01-jul-2025` [`xp3wd`](https://osf.io/xp3wd) Thesis draft, presentation, invitation files.
 + `17-jan-2025` [`apfnb`](https://osf.io/apfnb) Proposal seminar and some comments.
 + `14-jan-2025` [`5dk2c`](https://osf.io/5dk2c) Info of seminar room and time, slide update.
