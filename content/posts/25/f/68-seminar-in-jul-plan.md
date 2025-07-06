@@ -25,15 +25,15 @@ url = '25f68'
 {{< style class="table-0" >}}
 Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 :-:  | :-: | :-   | :-:   | :-:
-`SV1` | 28721001 | Zaky Rayadhi                 | 25d38
-`SH1` | 20923017 | Donny Zaviar Rizky           | 25g07
-`SH2` | 20923015 | Hafizh Saftian               | 25g07
-`TD1` | 20922318 | Inas Suha Lailah Qodriyah    | 25f67
-`RS1` | 20923016 | Juzd Thoha Chairul Anam      | 25g09
-`RS2` | 20923019 | Gatot Mochamad Muchtar       | 25g10
-`FO1` | 20923011 | Rafi Prayoga Dhenanta        | 25f39
-`RQ1` | 10221057 | Muhammad Zydan Priambada     | 25f66
-`NH1` | 20224023 | Gita Amelia Marianto Limbong | 25g14
+`SV1` | 28721001 | Zaky Rayadhi                 | [25d38](/butiran/25d38/)
+`SH1` | 20923017 | Donny Zaviar Rizky           | [25g07](/butiran/25g07/) | ✓
+`SH2` | 20923015 | Hafizh Saftian               | [25g08](/butiran/25g08/) | ✓
+`TD1` | 20922318 | Inas Suha Lailah Qodriyah    | [25f67](/butiran/25f67/) | ✓
+`RS1` | 20923016 | Juzd Thoha Chairul Anam      | [25g09](/butiran/25g09/) | ✓
+`RS2` | 20923019 | Gatot Mochamad Muchtar       | [25g10](/butiran/25g10/) | ✓
+`FO1` | 20923011 | Rafi Prayoga Dhenanta        | [25f39](/butiran/25f39/) | ✓
+`RQ1` | 10221057 | Muhammad Zydan Priambada     | [25g19](/butiran/25g19/) | ✓
+`NH1` | 20224023 | Gita Amelia Marianto Limbong | [25g14](/butiran/25g14/) | ✓
 `NH2` | 20223010 | Nipta Dwi Setyo Risky        |
 `NH3` | 10221072 | Achmad Aulia Fikri           |
 `NH4` | 10221001 | Marshanda Adisti Rahmadini   |

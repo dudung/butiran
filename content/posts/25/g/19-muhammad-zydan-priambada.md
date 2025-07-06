@@ -20,3 +20,4 @@ url = '25g19'
 
 ## notes
 + Coupling of lattice boltzmann method and dicrete element method for fluid-solid interaction numerical study.
++ There is double note [25f66](/butiran/25f66/), while still on GitHub.
