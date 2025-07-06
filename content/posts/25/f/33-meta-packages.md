@@ -11,6 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
++ `07-jul-2025` Wurm im Untergeschoss Badezimmer.
++ `06-jul-2025` Wurm im Obergeschoss Badezimmer, geklebte Kakerlake in der Kueche, Katzenkotze auf Motorrad.
 + `05-jun-2025` Schlecter Furz, Haus Eidechse im Obergeschoss Badezimmer.
 + `04-jun-2025` Schatten einer sich bewegenden Maus, beim Küchenputzen selbst aufgeklebt.
 + `03-jul-2025` Eine tote Kakerlake im Badezimmer.
