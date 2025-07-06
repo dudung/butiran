@@ -18,7 +18,7 @@ url = '25f68'
 `Wed 02-jul` |     |`SH1`|`SH2`|`TD1`|     |     |`RS1`|`RS2`
 `Thu 03-jul` |     |     |     |`FO1`|     |`RQ1`|     |
 `Fri 04-jul` |`███`|`NH1`|`███`|`███`|`███`|`███`|`███`|`███`
-`Mon 07-jul` |`NH2`|`NH3`|`NH4`|     |     |`NH5`|`NH6`|`NH7`
+`Mon 07-jul` |`NH2`|`NH3`|`NH4`|     |     |`NH5`|     |`NH6`
 {{< /style >}}
 
 
@@ -38,6 +38,5 @@ Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 `NH3` | 10221072 | Achmad Aulia Fikri           |
 `NH4` | 10221001 | Marshanda Adisti Rahmadini   |
 `NH5` | 10221016 | Auza Naufal Abraar           |
-`NH6` | 10221005 | Hamzah Firoos Fauzi          |
-`NH7` | 20223002 | Andika Pratama               |
+`NH6` | 20223002 | Andika Pratama               |
 {{< /style >}}
