@@ -11,6 +11,7 @@ url = '25g23'
 
 <!-- more -->
 
++ `07-jul-2025` [`ubp7v`](https://osf.io/ubp7v) Final seminar and comments (undoc).
 + `06-jul-2025` [`fmx6z`](https://osf.io/fmx6z) Rev 1 of ta 2 and presentation.
 + `30-jun-2025` [`h2txk`](https://osf.io/h2txk) Draft of ta 2.
 + `26-jun-2025` [`fmx6z`](https://osf.io/fmx6z) Supervisor info for ta 2.
@@ -18,3 +19,4 @@ url = '25g23'
 
 ## notes
 + It is on [fsg45](https://osf.io/fsg45/).
++ Comparative Analysis of 1 Dimensional Magnetoteluric Inversion on Synthetic Data and Aceh Field Data Using Occam and Simulated Annealing Methods for Modeling Subsurface Resistivity, supervised by Dr. Nurhasan.

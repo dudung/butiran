@@ -11,6 +11,7 @@ url = '25g24'
 
 <!-- more -->
 
++ `07-jul-2025` [`aytsg`](https://osf.io/aytsg) Final seminar and comments (undocu).
 + `06-jul-2025` [`a9q85`](https://osf.io/a9q85) Presentation and ta 2 final version.
 + `04-jul-2025` [`b87c2`](https://osf.io/b87c2) Presentation file.
 + `30-jun-2025` [`72vm8`](https://osf.io/72vm8) Draft of ta 2.
@@ -19,3 +20,4 @@ url = '25g24'
 
 ## notes
 + It is on [8p7wy](https://osf.io/8p7wy/).
++ Processing for the Time-series Magnetotelluric Method Data in  Cugenang Area, Cianjur, West Java, supervised by Dr. Nurhasan.
