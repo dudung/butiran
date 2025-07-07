@@ -34,8 +34,8 @@ Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 `FO1` | 20923011 | Rafi Prayoga Dhenanta        | [25f39](/butiran/25f39/) | ✓
 `RQ1` | 10221057 | Muhammad Zydan Priambada     | [25g19](/butiran/25g19/) | ✓
 `NH1` | 20224023 | Gita Amelia Marianto Limbong | [25g14](/butiran/25g14/) | ✓
-`NH2` | 20223010 | Nipta Dwi Setyo Risky        | [25g21](/butiran/25g21/)
-`NH3` | 10221072 | Achmad Aulia Fikri           | [25g22](/butiran/25g22/)
+`NH2` | 20223010 | Nipta Dwi Setyo Risky        | [25g21](/butiran/25g21/) | ✓
+`NH3` | 10221072 | Achmad Aulia Fikri           | [25g22](/butiran/25g22/) | ✓
 `NH4` | 10221001 | Marshanda Adisti Rahmadini   | [25g23](/butiran/25g23/)
 `NH5` | 10221016 | Auza Naufal Abraar           | [25g24](/butiran/25g24/)
 `NH6` | 20223002 | Andika Pratama               | [25g25](/butiran/25g25/)
