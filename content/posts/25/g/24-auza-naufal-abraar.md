@@ -11,7 +11,7 @@ url = '25g24'
 
 <!-- more -->
 
-+ `07-jul-2025` [`aytsg`](https://osf.io/aytsg) Final seminar and comments (undocu).
++ `07-jul-2025` [`aytsg`](https://osf.io/aytsg) Final seminar and comments.
 + `06-jul-2025` [`a9q85`](https://osf.io/a9q85) Presentation and ta 2 final version.
 + `04-jul-2025` [`b87c2`](https://osf.io/b87c2) Presentation file.
 + `30-jun-2025` [`72vm8`](https://osf.io/72vm8) Draft of ta 2.
