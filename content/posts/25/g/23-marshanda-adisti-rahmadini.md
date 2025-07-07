@@ -11,6 +11,8 @@ url = '25g23'
 
 <!-- more -->
 
++ `26-jun-2025` [`b6e54`](https://osf.io/b6e54) Supervisor info for ta 2.
+
 
 ## notes
 + It is on [fsg45](https://osf.io/fsg45/).
