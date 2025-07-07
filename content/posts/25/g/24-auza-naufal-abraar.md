@@ -20,4 +20,4 @@ url = '25g24'
 
 ## notes
 + It is on [8p7wy](https://osf.io/8p7wy/).
-+ Processing for the Time-series Magnetotelluric Method Data in  Cugenang Area, Cianjur, West Java, supervised by Dr. Nurhasan.
++ Processing for the Time-series Magnetotelluric Method Data in  Cugenang Area, Cianjur, West Java, under supervision of Dr. Nurhasan.

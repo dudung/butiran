@@ -19,4 +19,4 @@ url = '25g23'
 
 ## notes
 + It is on [fsg45](https://osf.io/fsg45/).
-+ Comparative Analysis of 1 Dimensional Magnetoteluric Inversion on Synthetic Data and Aceh Field Data Using Occam and Simulated Annealing Methods for Modeling Subsurface Resistivity, supervised by Dr. Nurhasan.
++ Comparative Analysis of 1 Dimensional Magnetoteluric Inversion on Synthetic Data and Aceh Field Data Using Occam and Simulated Annealing Methods for Modeling Subsurface Resistivity, under supervision of Dr. Nurhasan.

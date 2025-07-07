@@ -11,6 +11,7 @@ url = '25g25'
 
 <!-- more -->
 
++ `07-jul-2025` [`a2rg7`](https://osf.io/a2rg7) Final seminar and comments (undocu).
 + `06-jul-2025` [`xkvqs`](https://osf.io/xkvqs) Presentation file.
 + `04-jul-2025` [`a9d3u`](https://osf.io/a9d3u) Draft of thesis 2.
 + `02-jul-2025` [`ahspg`](https://osf.io/ahspg) Confirmation from student.
@@ -19,3 +20,4 @@ url = '25g25'
 
 ## notes
 + It is on [89fza](https://osf.io/89fza/).
++ Dimensionality Analysis of Magnetotelluric Data on Carbon Capture and Storage (CCS) Reservoir Model Using Three-dimensional Modeling, under supervision of Dr. Nurhasan.
