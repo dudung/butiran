@@ -11,7 +11,8 @@ url = '25g18'
 
 <!-- more -->
 
-+ `xx-jul-2025` [`tg6q9`](https://osf.io/tg6q9) Signing of student course plan.
++ `07-jul-2025` [`4kwjy`](https://osf.io/4kwjy) Sahur and iftar for senin fasting.
++ `07-jul-2025` [`tg6q9`](https://osf.io/tg6q9) Signing of student course plan.
 + `06-jul-2025` [`eg6sc`](https://osf.io/eg6sc) Files and folder migration gh2osf.
 + `05-jul-2025` [`gxr5d`](https://osf.io/gxr5d) Weekend with some books and ramen.
 + `02-jul-2025` [`nzpej`](https://osf.io/nzpej) A la padre menu for lunch + dinner.

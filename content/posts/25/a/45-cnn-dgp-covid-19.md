@@ -2,13 +2,20 @@
 title = 'cnn-dgp x-ray covid-19'
 date = '2025-01-16T15:05:23+07:00'
 draft = false
-type = 'slides'
+type = 'notes'
 authors = ['viridi']
 tags = ['users']
 url = '25a45'
 +++
+
 <!--more-->
 
++ `29-jun-2025` [`3m4cp`](https://osf.io/3m4cp) Status with editor for jcmds.
++ `07-jul-2025` [`zc674`](https://osf.io/zc674) Contribution verification and registration to jcmds.
++ `07-jul-2025` [`kxh9f`](https://osf.io/kxh9f) Registration to health analytics.
++ `07-jul-2025` [`7bfst`](https://osf.io/7bfst) Thesis II report and presentation.
++ `03-jul-2025` [`8qf25`](https://osf.io/8qf25) Schedule for thesis II seminar.
++ `17-jun-2025` [`whdua`](https://osf.io/whdua) Submission to healthcare analytics.
 + `29-may-2025` [`tue6z`](https://osf.io/tue6z) Online progress report.
 + `27-may-2025` [`63ymx`](https://osf.io/63ymx) Thesis II progress, ch 3-4.
 + `16-jan-2025` [`tvs9g`](https://osf.io/tvs9g) Thesis I seminar.
