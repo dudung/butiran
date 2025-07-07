@@ -21,4 +21,4 @@ url = '25g21'
 ## notes
 + It is on [da54g](https://osf.io/da54g/).
 + It is also on [DLyaWTLz-_x](https://www.instagram.com/p/DLyaWTLz-_x/) for 07-jul-2025.
-+ Analysis of Subsurface Resistivity Structure In Cianjur Region Related to Damage Levels Caused by the 2022 Earthquake Using Magnetotelluric Method, under supervision of Dr. Nurhasan.
++ Analysis of Subsurface Resistivity Structure In Cianjur Region Related to Damage Levels Caused by the 2022 Earthquake Using Magnetotelluric Method, under the supervision of Dr. Nurhasan.

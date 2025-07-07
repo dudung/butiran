@@ -20,4 +20,4 @@ url = '25g25'
 
 ## notes
 + It is on [89fza](https://osf.io/89fza/).
-+ Dimensionality Analysis of Magnetotelluric Data on Carbon Capture and Storage (CCS) Reservoir Model Using Three-dimensional Modeling, under supervision of Dr. Nurhasan.
++ Dimensionality Analysis of Magnetotelluric Data on Carbon Capture and Storage (CCS) Reservoir Model Using Three-dimensional Modeling, under the supervision of Dr. Nurhasan.

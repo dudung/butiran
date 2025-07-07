@@ -21,4 +21,4 @@ url = '25g22'
 ## notes
 + It is on [5k34t](https://osf.io/5k34t/).
 + It is also availabe on [DLygSP7zVNT](https://www.instagram.com/p/DLygSP7zVNT/) for 07-jul-2025.
-+ One Dimensional Modelling of Magnetotelluric Data using Convolutional Neural Network-Gated Recurrent Unit (CNN-GRU) Based Inversion, under supervision of Dr. Nurhasan.
++ One Dimensional Modelling of Magnetotelluric Data using Convolutional Neural Network-Gated Recurrent Unit (CNN-GRU) Based Inversion, under the supervision of Dr. Nurhasan.
