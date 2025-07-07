@@ -10,10 +10,12 @@ url = '25a45'
 
 <!--more-->
 
++ `08-jul-2025` [`5eqrv`](https://osf.io/5eqrv) Final seminar and comments (undocu).
 + `29-jun-2025` [`3m4cp`](https://osf.io/3m4cp) Status with editor for jcmds.
 + `07-jul-2025` [`zc674`](https://osf.io/zc674) Contribution verification and registration to jcmds.
 + `07-jul-2025` [`kxh9f`](https://osf.io/kxh9f) Registration to health analytics.
 + `07-jul-2025` [`7bfst`](https://osf.io/7bfst) Thesis II report and presentation.
++ `04-jul-2025` [`5mgb6`](https://osf.io/5mgb6) Forgotten invitation.
 + `03-jul-2025` [`8qf25`](https://osf.io/8qf25) Schedule for thesis II seminar.
 + `17-jun-2025` [`whdua`](https://osf.io/whdua) Submission to healthcare analytics.
 + `29-may-2025` [`tue6z`](https://osf.io/tue6z) Online progress report.
@@ -27,6 +29,7 @@ url = '25a45'
 
 
 ## notes
++ It is on [sn83g](https://osf.io/sn83g/).
 + Confusion matrix for x-ray medical image in 27-may-2025 report.
   ```
        | 0 | 341 |   0 |   1
