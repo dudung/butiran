@@ -11,7 +11,7 @@ url = '25e36'
 
 <!-- more -->
 
-+ `08-jul2025` [`njrmc`](https://osf.io/njrmc) Final seminar and comments (undocu).
++ `08-jul2025` [`njrmc`](https://osf.io/njrmc) Final seminar and comments.
 + `08-jul-2025` [`v497m`](https://osf.io/v497m) Seminar slide.
 + `04-jul-2025` [`grn8u`](https://osf.io/grn8u) Seminar invitation.
 + `05-jun-2025` [`64uw8`](https://osf.io/64uw8) Proposal seminar.
