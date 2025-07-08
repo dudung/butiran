@@ -10,7 +10,7 @@ url = '25a45'
 
 <!--more-->
 
-+ `08-jul-2025` [`5eqrv`](https://osf.io/5eqrv) Final seminar and comments (undocu).
++ `08-jul-2025` [`5eqrv`](https://osf.io/5eqrv) Final seminar and comments.
 + `29-jun-2025` [`3m4cp`](https://osf.io/3m4cp) Status with editor for jcmds.
 + `07-jul-2025` [`zc674`](https://osf.io/zc674) Contribution verification and registration to jcmds.
 + `07-jul-2025` [`kxh9f`](https://osf.io/kxh9f) Registration to health analytics.
