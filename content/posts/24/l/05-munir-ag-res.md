@@ -12,6 +12,8 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
++ `08-jul-2025` [`zxv9y`](https://osf.io/zxv9y) Reminder and manusript v25a.
++ `30-jun-2025` [`7aqzw`](https://osf.io/7aqzw) Limitation to termination of prisma.
 + `21-may-2025` [`2ju4t`](https://osf.io/2ju4t) Creation of introduction v0.
 + `14-may-2025` [`emzxn`](https://osf.io/emzxn) Suggestion on a granular ref.
 + `09-may-2025` [`fya8r`](https://osf.io/fya8r) Info of next prof application.
@@ -28,8 +30,8 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 + `20-dec-2024` [`ks58t`](https://osf.io/ks58t) Direction, submitted paper + cover letter examples.
 + `10-dec-2024` [`fcbhj`](https://osf.io/fcbhj) New apparatus and refs.
 + `11-apr-2023` [`qjrne`](https://osf.io/qjrne) A model review.
++ `12-apr-2023` [`axk6g`](https://osf.io/axk6g) Failure try to study
 + `01-apr-2023` [`4em32`](https://osf.io/4em32) Data and refs.
-
 
 
 <!--
