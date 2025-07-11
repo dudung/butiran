@@ -9,6 +9,9 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `21-jun-2025` []() Seminar day, session info, documentation.
++ `17-jun-2025` [`rqvmk`](https://osf.io/rqvmk) Presentation info in ips-unj.
++ `17-jun-2025` [`wufvy`](https://osf.io/wufvy) Supervisor team addition.
 + `20-may-2025` [`nz4q5`](https://osf.io/nz4q5) Progress from supervisor (id).
 + `16-may-2025` [`ce9mk`](https://osf.io/ce9mk) Abstract for ips-unj.
 + `15-apr-2025` [`6tv52`](https://osf.io/6tv52) Info about documents on overleaf.
@@ -19,3 +22,7 @@ url = '25d39'
 + `24-oct-2024` [`gs4tj`](https://osf.io/gs4tj) Progress report via zoom with brin.
 + `06-sep-2024` [`ah3z5`](https://osf.io/ah3z5) Discussion about topics with brin.
 + `25-jun-2024` [`rq8y6`](https://osf.io/rq8y6) Official supervision process with id.
+
+
+## notes
++ It is on [`mc9gj`](https://osf.io/mc9gj/).
