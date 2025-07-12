@@ -130,7 +130,7 @@ function getValueAfterKeyword(key, str) {
   const vals = str.split(" ");
   let val;
   if (vals.length == 2) {
-    val = [vals[1]];
+    val = vals[1];
   } else {
     val = vals.slice(1);
   }

@@ -153,6 +153,7 @@ btnRead.addEventListener("click", () => {
     
     let lines0b = getLinesFromTextarea(txa, "TEND");
     let tend = getValueAfterKeyword("TEND", lines0b[0]).map(Number);
+    console.log(tend);
     
     let lines1 = getLinesFromTextarea(txa, "WALL");
     for(let l of lines1) {
