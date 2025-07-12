@@ -14,7 +14,7 @@
 let world = [];
 let agents = [];
 let mpm = {};
-let interval = 200;
+let interval = 100;
 let timer;
 let t;
 

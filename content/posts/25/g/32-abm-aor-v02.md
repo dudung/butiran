@@ -22,7 +22,7 @@ src/25f45.js
 src/25f49.js
 src/25f51.js
 src/25f53.js
-src/25f54.js
+src/25g32.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
@@ -122,17 +122,19 @@ btnClear.addEventListener("click", () => {
 
 btnSample.addEventListener("click", () => {
   clearInput(txa);
-  addHeader(txa);
+  addHeader_v0_2(txa);
   addBlankLine(txa);
-  addWorld2(txa);                     /* v2 */
+  addEndTime_v0_2(txa);                   /* v0.2 */
   addBlankLine(txa);
-  addEnclosedWall2(txa);              /* v2 */
+  addMovementProbabilityMatrix_v0_2(txa); /* v0.2 */
   addBlankLine(txa);
-  addContainerWall2(txa);             /* v2 */
+  addWorld_v0_2(txa);                     /* v0.2 */
   addBlankLine(txa);
-  addMovementProbabilityMatrix2(txa); /* v2 */
+  addEnclosedWall_v0_2(txa);              /* v0.2 */
   addBlankLine(txa);
-  addAgents2(txa);                    /* v2 */
+  addContainerWall_v0_2(txa);             /* v0.2 */
+  addBlankLine(txa);
+  addAgents_v0_2(txa);                    /* v0.2 */
 
   btnRead.disabled = false;
 });
@@ -207,3 +209,6 @@ btnRun.addEventListener("click", () => {
 + This is a part of [25d66](/butiran/25d66/) project in investigating aor using abm approach.
 + Note [25f45](/butiran/25f45/), [25f49](/butiran/25f49/), [25f51](/butiran/25f51/), and [25f53](/butiran/25f53/) are another input of this project, which is preceeded this.
 + Agent types are available on [25e41](/butiran/25e41/) in range of 40-49.
++ Previous version (0.1 - 2025) is on [25f54](/butiran/25f54/).
++ Some information are on [25g31](/butiran/25g31/).
++ Update feature is termination time `TEND` as parameters.
