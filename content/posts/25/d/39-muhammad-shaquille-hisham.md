@@ -9,7 +9,10 @@ categories = ['users']
 url = '25d39'
 +++
 
-+ `21-jun-2025` []() Seminar day, session info, documentation.
++ `11-jul-2025` [`dt98y`](https://osf.io/dt98y) A supervision before seminar.
++ `08-jul-2025` [`hwav8`](https://osf.io/hwav8) Seminar date and ta-draft.
++ `01-jul-2025` [`8hdja`](https://osf.io/8hdja) Manuscript draft for ips-unj.
++ `21-jun-2025` [`b6tm5`](https://osf.io/b6tm5) Seminar day, session info, documentation.
 + `17-jun-2025` [`rqvmk`](https://osf.io/rqvmk) Presentation info in ips-unj.
 + `17-jun-2025` [`wufvy`](https://osf.io/wufvy) Supervisor team addition.
 + `20-may-2025` [`nz4q5`](https://osf.io/nz4q5) Progress from supervisor (id).
@@ -26,3 +29,10 @@ url = '25d39'
 
 ## notes
 + It is on [`mc9gj`](https://osf.io/mc9gj/).
++ There are dicussion with AI assistance about MLIP (Machine Learning Interatomic Potential) [^gpt-4o_2025a] and related to it [^gpt-4o_2025b], [^gpt-4o_2025c].
+
+
+## refs
+[^gpt-4o_2025a]: GPT-4o, "ML Potentials in Simulations", ChatGTP, 11 Jul 2025, url https://chatgpt.com/share/6870e821-36d4-800a-b572-9256cd54f009 [20250712].
+[^gpt-4o_2025b]: GPT-4o, "FLARE Phono3py LAMMPS QE Roles", ChatGPT, 11 Jul 2025, url https://chatgpt.com/share/6871af32-7508-800a-a275-7cfc6593c6fc [20250712].
+[^gpt-4o_2025c]: GPT-4o, "DFT ML MD Comparison", 11 Jul 2025, url https://chatgpt.com/share/6870e1d4-4214-800a-b4fb-87aca637635a [20250712].
