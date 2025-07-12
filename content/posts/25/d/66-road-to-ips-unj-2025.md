@@ -11,6 +11,11 @@ url = '25d66'
 
 <!-- more -->
 
++ `12-jul-2025` [`szw4n`](https://osf.io/szw4n) Copy files and folders back to osf.
++ `24-jun-2025` [`09a8d`](https://github.com/dudung/ips-unj-2025-fm/blob/main/31_manus_init_draft/README.md) Manuscript intial draft.
++ `23-jun-2025` [`35936`](https://github.com/dudung/ips-unj-2025-fm/tree/main/30_manus_template_dates) Manuscript template and submission dates.
++ `21-jun-2025` [`9c89a`](https://github.com/dudung/ips-unj-2025-fm/blob/main/29_seminar_day/README.md) Seminar day of ips-unj-2025.
++ `19-jun-2025` [`d4f74`](https://github.com/dudung/ips-unj-2025-fm/blob/main/28_input_code_one_comp/README.md) Code on onecompiler for generating input abm-aor.
 + `18-jun-2025` [`8f1ab`](https://github.com/dudung/ips-unj-2025-fm/blob/main/27_zoom_analysis_1_simul_1/README.md) Zoom slides, quant-analys v1, simul-abm-aor v1. 
 + `18-jun-2025` [`65948`](https://github.com/dudung/ips-unj-2025-fm/blob/main/26_to_github/README.md) Migration of files to github from osf.
 + `17-jun-2025` [`r2gyh`](https://osf.io/r2gyh) Zoom plan for presentation preparation on 18. 
