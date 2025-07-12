@@ -126,6 +126,8 @@ btnSample.addEventListener("click", () => {
   addBlankLine(txa);
   addEndTime_v0_2(txa);                   /* v0.2 */
   addBlankLine(txa);
+  addConcentration_v0_2(txa);             /* v0.2 */
+  addBlankLine(txa);
   addMovementProbabilityMatrix_v0_2(txa); /* v0.2 */
   addBlankLine(txa);
   addWorld_v0_2(txa);                     /* v0.2 */
@@ -145,7 +147,13 @@ btnRead.addEventListener("click", () => {
   if(line != undefined) {
     let dim = getValueAfterKeyword("WORLD", line).map(Number);
     world = createZeroMatrix(dim[1], dim[0]);
-
+    
+    let lines0a = getLinesFromTextarea(txa, "FRACTION");
+    let fraction = getValueAfterKeyword("FRACTION", lines0a[0]).map(Number);
+    
+    let lines0b = getLinesFromTextarea(txa, "TEND");
+    let tend = getValueAfterKeyword("TEND", lines0b[0]).map(Number);
+    
     let lines1 = getLinesFromTextarea(txa, "WALL");
     for(let l of lines1) {
       const w = getValueAfterKeyword("WALL", l).map(Number);

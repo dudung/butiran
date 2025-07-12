@@ -39,6 +39,7 @@ function simulate() {
     const x = a[0];
     const y = a[1];
     const t = a[2];
+    console.log(t);
     const m = mpm[t];
     
     [dx, dy] = generateDirection(m);

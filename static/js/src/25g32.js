@@ -8,6 +8,7 @@
  * Exported:
  * - addHeader_v0_2(el)
  * - addEndTime_v0_2(el)
+ * - addConcentration_v0_2(el)
  * - addContainerWall_v0_2(el)
  * - addMovementProbabilityMatrix_v0_2(el)
  * - addAgents_v0_2(el)
@@ -36,10 +37,23 @@ function addHeader_v0_2(el) {
 }
 
 
+/*
+ *
+ */
 function addEndTime_v0_2(el) {
   addTextToTextarea(el, "# Simulation time");
-  addTextToTextarea(el, "TEND 150");
+  addTextToTextarea(el, "TEND 200");
 }
+
+
+/*
+ *
+ */
+function addConcentration_v0_2(el) {
+  addTextToTextarea(el, "# Granular mixture");
+  addTextToTextarea(el, "FRACTION 0.5 0.5");
+}
+
 
 
 /**
@@ -61,8 +75,8 @@ function addEndTime_v0_2(el) {
  */
 function addContainerWall_v0_2(el) {
   addTextToTextarea(el, "# Grains container");
-  addTextToTextarea(el, "WALL 30 10 30 50 16");
-  addTextToTextarea(el, "WALL 48 10 48 50 16");
+  addTextToTextarea(el, "WALL 30 10 30 40 16");
+  addTextToTextarea(el, "WALL 48 10 48 40 16");
 }
 
 
@@ -90,7 +104,7 @@ function addMovementProbabilityMatrix_v0_2(el) {
   addTextToTextarea(el, "0.00 0.10 0.00");
   addTextToTextarea(el, "0.30 0.30 0.30");
   addTextToTextarea(el, "");
-  addTextToTextarea(el, "MPMAT 43");
+  addTextToTextarea(el, "MPMAT 41");
   addTextToTextarea(el, "0.00 0.00 0.00");
   addTextToTextarea(el, "0.00 0.10 0.00");
   addTextToTextarea(el, "0.30 0.30 0.30");
@@ -116,7 +130,7 @@ function addAgents_v0_2(el) {
   const x1 = 31;
   const y1 = 10;
   const x2 = 47;
-  const y2 = 50;
+  const y2 = 40;
   
   addTextToTextarea(el, "# Agents");
   for(y = y1; y <= y2; y++) {
