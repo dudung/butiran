@@ -169,6 +169,9 @@ btnRead.addEventListener("click", () => {
       agents.push(a);
     }
     
+    // Change agent types according to fraction
+    
+    
     drawMatrixOnCanvas(can, world, getColor)
     
     let blocks = getBlocksFromTextarea(txa, "MPMAT", 3);
