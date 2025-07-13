@@ -190,7 +190,6 @@ function addAgents_v0_2(el) {
   const x2 = 50;
   const y2 = 40;
   
-  let iii = 0;
   addTextToTextarea(el, "# Agents");
   for(y = y1; y <= y2; y++) {
     for(x = x1; x <= x2; x++) {
@@ -203,12 +202,8 @@ function addAgents_v0_2(el) {
         + " " + y
         + " " + tZ[z]
       );
-      iii++;
     }
   }
-  
-  console.log(iii);
-  
 }
 
 
