@@ -110,7 +110,7 @@ btnAbout.addEventListener("click", () => {
   text += "\nAuthor: Sparisoma Viridi";
   text += "\nVersion: 0.2 (2025)";
   text += "\nDescription: Simulation of granular material angle of repose in 2d using an agent-based model.";
-  text += "\nGitHub: https://github.com/dudung";
+  text += "\nGitHub: https://github.com/dudung/butiran";
   alert(text);
 });
 
@@ -230,3 +230,8 @@ btnRun.addEventListener("click", () => {
 + Previous version (0.1 - 2025) is on [25f54](/butiran/25f54/).
 + Some information are on [25g31](/butiran/25g31/).
 + Update features are termination time `TEND` and granular mixture `FRACTION` as parameters.
++ Result examples are available [^viridi_2025a].
+
+
+## refs
+[^viridi_2025a]: Sparisoma Viridi, "25g32", butiran issues, url https://github.com/dudung/butiran/issues/3 [20250713].
