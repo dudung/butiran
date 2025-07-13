@@ -67,19 +67,19 @@ const style6 = {
   width: "100%",
   display: "block",
 };
-const btnSample = createElement("button", style6);
+btnSample = createElement("button", style6);
 btnSample.innerHTML = "Sample";
 
-const btnRead = createElement("button", style6);
+btnRead = createElement("button", style6);
 btnRead.innerHTML = "Read";
 
-const btnAbout = createElement("button", style6);
+btnAbout = createElement("button", style6);
 btnAbout.innerHTML = "About";
 
-const btnRun = createElement("button", style6);
+btnRun = createElement("button", style6);
 btnRun.innerHTML = "Start";
 
-const btnClear = createElement("button", style6);
+btnClear = createElement("button", style6);
 btnClear.innerHTML = "Clear";
 
 btnRead.disabled = true;
@@ -152,8 +152,7 @@ btnRead.addEventListener("click", () => {
     let fraction = getValueAfterKeyword("FRACTION", lines0a[0]).map(Number);
     
     let lines0b = getLinesFromTextarea(txa, "TEND");
-    let tend = getValueAfterKeyword("TEND", lines0b[0]).map(Number);
-    console.log(tend);
+    tend = parseInt(getValueAfterKeyword("TEND", lines0b[0]));
     
     let lines1 = getLinesFromTextarea(txa, "WALL");
     for(let l of lines1) {
@@ -181,6 +180,7 @@ btnRead.addEventListener("click", () => {
     }
     
     t = 0;
+    divTime.innerHTML = "t = " + t;
   }
   
   btnRun.disabled = false;
@@ -191,14 +191,14 @@ txa.addEventListener("input", () => {
 });
 
 btnRun.addEventListener("click", () => {
-  if(btnRun.innerHTML == "Start") {
+  if(btnRun.innerHTML == "Start" && t < tend) {
     btnAbout.disabled = true;
     btnSample.disabled = true;
     btnClear.disabled = true;
     btnRead.disabled = true;
     btnRun.innerHTML = "Stop";
     
-    timer = setInterval(simulate, interval);
+    timer = setInterval(simulate_v0_2, interval);
   } else {
     btnAbout.disabled = false;
     btnSample.disabled = false;
@@ -209,7 +209,6 @@ btnRun.addEventListener("click", () => {
     clearInterval(timer);
   }
 });
-
 
 {{< /script/runner >}}
 

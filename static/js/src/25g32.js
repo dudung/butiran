@@ -9,12 +9,18 @@
  * - addHeader_v0_2(el)
  * - addEndTime_v0_2(el)
  * - addConcentration_v0_2(el)
+ * - simulate_v0_2()
  * - addContainerWall_v0_2(el)
  * - addMovementProbabilityMatrix_v0_2(el)
  * - addAgents_v0_2(el)
  * - addWorld_v_02(el)
  * - addEnclosedWall_v0_2(el)
  */
+
+
+let tend;
+let btnAbout, btnSample, btnClear, btnRead, btnRun;
+
 
 /**
  * Inserts a standard header block into a textarea element for documentation purposes.
@@ -54,6 +60,58 @@ function addConcentration_v0_2(el) {
   addTextToTextarea(el, "FRACTION 0.5 0.5");
 }
 
+
+/**
+ * Runs one time step of the simulation and updates agent positions.
+ *
+ * This function processes all agents in the simulation by computing their movement directions based on their type's movement probability matrix (`mpm`). Agents attempt to move to adjacent cells if unoccupied. The world grid and agent list are updated, and the new state is drawn on a canvas. The simulation time `t` is also incremented.
+ *
+ * This function also updates the time display and canvas rendering in the DOM.
+ *
+ * @returns {void}
+ */
+function simulate_v0_2() {
+  const divTime = document.getElementById("div-time");
+  divTime.innerHTML = "t = " + t;
+  
+  const b = [];
+  let dx;
+  let dy;
+  for(a of agents) {
+    const x = a[0];
+    const y = a[1];
+    const t = a[2];
+    const m = mpm[t];
+    
+    [dx, dy] = generateDirection(m);
+    
+    const x2 = x + dx;
+    const y2 = y + dy
+    
+    if(world[y2][x2] == 0) {
+      [world[y2][x2], world[y][x]] = [world[y][x], world[y2][x2]];
+      b.push([x2, y2, t]);
+    } else {
+      b.push([x, y, t]);
+    }
+  }
+  agents = b;
+  
+  const can = document.getElementById("can-out");
+  drawMatrixOnCanvas(can, world, getColor)
+
+  if(t >= tend) {
+    btnAbout.disabled = false;
+    btnSample.disabled = false;
+    btnClear.disabled = false;
+    btnRead.disabled = false;
+    btnRun.innerHTML = "Start";
+    
+    clearInterval(timer);
+  }
+  
+  t += 1;
+}
 
 
 /**
