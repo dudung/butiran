@@ -164,23 +164,30 @@ btnRead.addEventListener("click", () => {
     let lines2 = getLinesFromTextarea(txa, "AGENT");
     for(let l of lines2) {
       const a = getValueAfterKeyword("AGENT", l).map(Number);
-      drawAgent(world, [a[0], a[1]], a[2]);
-      
       agents.push(a);
     }
     
-    // Change agent types according to fraction
-    
-    
-    drawMatrixOnCanvas(can, world, getColor)
-    
     let blocks = getBlocksFromTextarea(txa, "MPMAT", 3);
     mpm = {};
+    keys = [];
     for(let b of blocks) {
       const t = getValueAfterKeyword("MPMAT", b[0]);
       const m = getMatrixAfterKeyWord("MPMAT " + t, b, [3, 3]);
       mpm[t] = m;
+      keys.push(parseInt(t));
     }
+    
+    // Change agent types according to fraction
+    for(a of agents) {
+        const x = Math.random();
+        let cumul = 0;
+        const cumulSum = fraction.map(val => cumul += val);
+        let idx = cumulSum.findIndex(cumVal => x < cumVal);
+        a[2] = keys[idx];
+        drawAgent(world, [a[0], a[1]], a[2]);
+    }
+    
+    drawMatrixOnCanvas(can, world, getColor)
     
     t = 0;
     divTime.innerHTML = "t = " + t;
@@ -222,4 +229,4 @@ btnRun.addEventListener("click", () => {
 + Agent types are available on [25e41](/butiran/25e41/) in range of 40-49.
 + Previous version (0.1 - 2025) is on [25f54](/butiran/25f54/).
 + Some information are on [25g31](/butiran/25g31/).
-+ Update feature is termination time `TEND` as parameters.
++ Update features are termination time `TEND` and granular mixture `FRACTION` as parameters.

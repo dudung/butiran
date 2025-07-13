@@ -48,7 +48,7 @@ function addHeader_v0_2(el) {
  */
 function addEndTime_v0_2(el) {
   addTextToTextarea(el, "# Simulation time");
-  addTextToTextarea(el, "TEND 200");
+  addTextToTextarea(el, "TEND 250");
 }
 
 
@@ -159,13 +159,13 @@ function addMovementProbabilityMatrix_v0_2(el) {
   addTextToTextarea(el, "# Movement probability matrix");
   addTextToTextarea(el, "MPMAT 48");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.01 0.00 0.01");
-  addTextToTextarea(el, "0.45 0.08 0.45");
+  addTextToTextarea(el, "0.05 0.00 0.05");
+  addTextToTextarea(el, "0.40 0.10 0.40");
   addTextToTextarea(el, "");
   addTextToTextarea(el, "MPMAT 41");
   addTextToTextarea(el, "0.00 0.00 0.00");
-  addTextToTextarea(el, "0.01 0.00 0.01");
-  addTextToTextarea(el, "0.05 0.88 0.05");
+  addTextToTextarea(el, "0.05 0.00 0.05");
+  addTextToTextarea(el, "0.05 0.80 0.05");
 }
 
 
