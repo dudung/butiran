@@ -133,8 +133,8 @@ function simulate_v0_2() {
  */
 function addContainerWall_v0_2(el) {
   addTextToTextarea(el, "# Grains container");
-  addTextToTextarea(el, "WALL 30 10 30 40 16");
-  addTextToTextarea(el, "WALL 48 10 48 40 16");
+  addTextToTextarea(el, "WALL 30 11 30 40 16");
+  addTextToTextarea(el, "WALL 51 11 51 40 16");
 }
 
 
@@ -186,10 +186,11 @@ function addAgents_v0_2(el) {
   const tZ = [tA, tB];
   
   const x1 = 31;
-  const y1 = 10;
-  const x2 = 47;
+  const y1 = 11;
+  const x2 = 50;
   const y2 = 40;
   
+  let iii = 0;
   addTextToTextarea(el, "# Agents");
   for(y = y1; y <= y2; y++) {
     for(x = x1; x <= x2; x++) {
@@ -202,8 +203,11 @@ function addAgents_v0_2(el) {
         + " " + y
         + " " + tZ[z]
       );
+      iii++;
     }
   }
+  
+  console.log(iii);
   
 }
 
