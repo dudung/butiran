@@ -11,6 +11,9 @@ url = '25d66'
 
 <!-- more -->
 
++ `dd-mmm-yyyy` [`xxxxx`]() Submission last communications.
++ `14-jul-2025` [`2khgc`](https://osf.io/2khgc) Copy raw data form google drive to osf.
++ `13-jul-2024` [`8c2hg`](https://osf.io/8c2hg) Final manuscript upload but in pdf.
 + `12-jul-2025` [`szw4n`](https://osf.io/szw4n) Copy files and folders back to osf.
 + `24-jun-2025` [`09a8d`](https://github.com/dudung/ips-unj-2025-fm/blob/main/31_manus_init_draft/README.md) Manuscript intial draft.
 + `23-jun-2025` [`35936`](https://github.com/dudung/ips-unj-2025-fm/tree/main/30_manus_template_dates) Manuscript template and submission dates.
