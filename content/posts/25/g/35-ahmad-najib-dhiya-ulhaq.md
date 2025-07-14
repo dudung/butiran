@@ -17,5 +17,5 @@ url = '25g35'
 
 
 ## notes
-+ It is on [`7wskx`](https://osf.io/7wskx/).
++ It is on [`DMEpN6ETrDe`](https://www.instagram.com/p/DMEpN6ETrDe/) and [`7wskx`](https://osf.io/7wskx/).
 + Development of a Real-time Surface Defect Detection System for Cold-rolled Steel Strips Using Deep Learning, under the supervision Dr. Maman Budiman.
