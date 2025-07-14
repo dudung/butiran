@@ -23,3 +23,7 @@ url = '25a22'
 + `11-oct-2024` [`47xa6`](https://osf.io/47xa6) Progress report week 3.
 + `04-oct-2024` [`n8mgy`](https://osf.io/n8mgy) Progress report week 2.
 + `27-sep-2024` [`qhskx`](https://osf.io/qhskx) Progress report week 1.
+
+
+## notes
++ It is on [ryfqa](https://osf.io/ryfqa/).

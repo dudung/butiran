@@ -9,6 +9,8 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `14-jul-2025` [`dfh65`](https://osf.io/dfh65) Presentation file for final seminar.
++ `13-jul-2025` [`md9qe`](https://osf.io/md9qe) Submitted paper for ips-unj-2025.
 + `11-jul-2025` [`dt98y`](https://osf.io/dt98y) A supervision before seminar.
 + `08-jul-2025` [`hwav8`](https://osf.io/hwav8) Seminar date and ta-draft.
 + `01-jul-2025` [`8hdja`](https://osf.io/8hdja) Manuscript draft for ips-unj.

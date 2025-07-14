@@ -21,12 +21,17 @@ url = '25f68'
 `Mon 07-jul` |`NH2`|`NH3`|     |     |`NH4`|`NH5`|     |`NH6`
 `Mon 14-jul` |     |     |`MB1`|     |     |     |     |
 `Tue 15-jul` |     |`RK1`|     |     |`RQ2`|     |`SV2`|
+`Wed 16-jul` |`UR1`|     |`FZ1`|     |     |     |     |
+`Thu 17-jul` |     |     |`SV3`|     |     |     |     |
 {{< /style >}}
 
 
 {{< style class="table-0" >}}
 Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 :-:  | :-: | :-   | :-:   | :-:
+`SV3` | 20923009 | Raden Sutiadi                  | [25a22](/butiran/25a22/)
+`FZ1` | 20223008 | Fingken Stevanus Sagai ✗       | 
+`UR1` | 20823009 | Asrul Irfanullah               | [25g38](/butiran/25g38/)
 `SV2` | 10221055 | Muhammad Shaquille Hisham      | [25d39](/butiran/25d39/)
 `RQ2` | 10221041 | Mush'ab Hamaasatu Aflah        | [25g36](/butiran/25g36/)
 `RK1` | 10219097 | Muhammad Farrel Fasya Alfarizi | [25g37](/butiran/25g37/)
