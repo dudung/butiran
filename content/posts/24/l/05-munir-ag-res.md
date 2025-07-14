@@ -12,7 +12,8 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
-+ `08-jul-2025` [`zxv9y`](https://osf.io/zxv9y) Reminder and manusript v25a.
++ `15-jul-2025` [`rhx2b`](https://osf.io/rhx2b) Discussion on manuscript v5_20250715.
++ `08-jul-2025` [`zxv9y`](https://osf.io/zxv9y) Reminder and manusript v4rev_mm25a.
 + `30-jun-2025` [`7aqzw`](https://osf.io/7aqzw) Limitation to termination of prisma.
 + `21-may-2025` [`2ju4t`](https://osf.io/2ju4t) Creation of introduction v0.
 + `14-may-2025` [`emzxn`](https://osf.io/emzxn) Suggestion on a granular ref.
