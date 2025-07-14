@@ -7,7 +7,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 enableEmoji = true
 
 [pagination]
-pagerSize = 30
+pagerSize = 35
 
 disableKinds = ["RSS", "sitemap", "robotsTXT"]
 
