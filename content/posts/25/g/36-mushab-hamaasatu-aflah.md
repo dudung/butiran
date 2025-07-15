@@ -11,7 +11,7 @@ url = '25g36'
 
 <!-- more -->
 
-+ `15-jul-2025` [`2uft5`](https://osf.io/2uft5) Final bachelor seminar (undocu).
++ `15-jul-2025` [`2uft5`](https://osf.io/2uft5) Final bachelor seminar.
 + `14-jul-2025` [`4hb9q`](https://osf.io/4hb9q) Info about presentation file.
 + `08-jul-2025` [`vkwjd`](https://osf.io/vkwjd) Draft of ta2.
 + `07-jul-2025` [`5w64j`](https://osf.io/5w64j) Self introductiona and purpose.
