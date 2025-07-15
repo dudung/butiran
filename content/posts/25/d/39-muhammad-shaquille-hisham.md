@@ -9,7 +9,7 @@ categories = ['users']
 url = '25d39'
 +++
 
-+ `15-jul-2025` [`qswbu`](https://osf.io/qswbu) Final bachelor seminar (undocu).
++ `15-jul-2025` [`qswbu`](https://osf.io/qswbu) Final bachelor seminar.
 + `14-jul-2025` [`dfh65`](https://osf.io/dfh65) Presentation file for final seminar.
 + `13-jul-2025` [`md9qe`](https://osf.io/md9qe) Submitted paper for ips-unj-2025.
 + `11-jul-2025` [`dt98y`](https://osf.io/dt98y) A supervision before seminar.
@@ -33,6 +33,7 @@ url = '25d39'
 ## notes
 + It is on [`mc9gj`](https://osf.io/mc9gj/).
 + There are dicussion with AI assistance about MLIP (Machine Learning Interatomic Potential) [^gpt-4o_2025a] and related to it [^gpt-4o_2025b], [^gpt-4o_2025c].
++ Uni not updated on 15-jul-2025 at 2033.
 
 
 ## refs

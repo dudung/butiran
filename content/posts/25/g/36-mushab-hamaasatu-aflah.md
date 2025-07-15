@@ -20,3 +20,4 @@ url = '25g36'
 ## notes
 + It is on [`q8652`](https://osf.io/q8652/).
 + Developing Instrument for Liquid-liquid Solid System Contact Angle Measurement In Specific Salinity, under the supervision of Dr. Muhammad Rizqie Arbie.
++ Uni not updated on 15-jul-2025 at 2025.

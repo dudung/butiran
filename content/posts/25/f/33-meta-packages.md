@@ -10,7 +10,7 @@ url = '25f33'
 +++
 
 <!-- more -->
-+ `15-jul-2025` Das Pinkel am morgen, Wut in der Luft.
++ `15-jul-2025` Das Pinkel am morgen, Wut in der Luft, schwarzes Lied.
 + `11-jul-2025` Festgeklebte Maus an der Ecke in der Küchenecke.
 + `10-jul-2025` Schwarzes Singen.
 + `09-jul-2025` Austretendes LPG-Gas nach Whoosh.
