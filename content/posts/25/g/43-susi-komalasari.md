@@ -11,12 +11,12 @@ url = '25g43'
 
 <!-- more -->
 
-+ `` []()
-+ `` []()
-+ `` []()
-+ `` []()
-+ `` []()
-+ `` []()
++ `16-jul-2025` [`23u65`](https://osf.io/23u65) Problem of recommendation submission.
++ `14-jul-2025` [`fsq9r`](https://osf.io/fsq9r) Data for recommendation.
++ `11-jul-2025` [`x5y4r`](https://osf.io/x5y4r) Submission info and plan.
++ `23-jun-2025` [`cqtn8`](https://osf.io/cqtn8) Scholarship of lpdp.
++ `19-feb-2025` [`pg8h2`](https://osf.io/pg8h2) Supervisor advice for the program.
++ `06-feb-2025` [`a92rj`](https://osf.io/a92rj) Discussion graduate program.
 + `04-feb-2025` [`v3pg8`](https://osf.io/v3pg8) Plan for graduate study.
 
 
