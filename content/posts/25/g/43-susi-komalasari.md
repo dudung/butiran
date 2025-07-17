@@ -11,6 +11,7 @@ url = '25g43'
 
 <!-- more -->
 
++ `18-jul-2025` [`bhd8p`](https://osf.io/bhd8p) Recommendation submission complete.
 + `16-jul-2025` [`23u65`](https://osf.io/23u65) Problem of recommendation submission.
 + `14-jul-2025` [`fsq9r`](https://osf.io/fsq9r) Data for recommendation.
 + `11-jul-2025` [`x5y4r`](https://osf.io/x5y4r) Submission info and plan.
@@ -21,4 +22,5 @@ url = '25g43'
 
 
 ## notes
++ It is on [`fb43z`](https://osf.io/fb43z/).
 + Karakterisasi Dan Simulasi Fenomena Gelombang Plasmon Permukaan Pada Struktur Periodik Satu Dimensi Berupa Grating Dielektrik-logam Sub-mikron, under the supervision of Dr. Rachmat Hidayat. [r311p2](https://digilib.itb.ac.id/gdl/view_data/karakterisasi-dan-simulasi-fenomena-gelombang-plasmon-permukaan-pada-struktur-periodik-satu-dimensi-berupa-grating-dielektrik-logam-sub-mikron/susi-komalasari?rows=311&per_page=2)
