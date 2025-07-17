@@ -11,7 +11,7 @@ url = '25g16'
 
 <!-- more -->
 
-+ `16-jul-2025` [`xxxx`]() Meeting on moving frame of reference.
++ `16-jul-2025` [`a8wxs`](https://osf.io/a8wxs) Meeting on moving frame of reference.
 + `07-jul-2025` [`6dak2`](https://osf.io/6dak2) Info of whoosh for 16-jul-2025. 
 + `05-jul-2025` [`jz8ug`](https://osf.io/jz8ug) Uncertain future and whoosh meeting.
 + `25-may-2025` [`2ey85`](https://osf.io/2ey85) Letter of assigment for board of expert.
