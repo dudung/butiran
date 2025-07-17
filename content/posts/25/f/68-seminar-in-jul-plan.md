@@ -21,8 +21,10 @@ url = '25f68'
 `Mon 07-jul` |`NH2`|`NH3`|     |     |`NH4`|`NH5`|     |`NH6`
 `Mon 14-jul` |     |     |`MB1`|     |     |     |     |
 `Tue 15-jul` |     |`RK1`|     |     |`RQ2`|     |`SV2`|
-`Wed 16-jul` |`UR1`|     |`FZ1`|     |     |     |     |
+`Wed 16-jul` |     |     |`FZ1`|     |     |     |     |
 `Thu 17-jul` |     |     |`SV3`|     |     |     |     |
+`Mon 21-jul` |     |     |`UR1`|     |     |     |     |
+`Tue 22-jul` |     |`RK1`|     |     |     |     |     |
 {{< /style >}}
 
 
