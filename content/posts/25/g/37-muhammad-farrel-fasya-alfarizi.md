@@ -11,6 +11,7 @@ url = '25g37'
 
 <!-- more -->
 
++ `17-jul-2025` [`h8qz7`](https://osf.io/h8qz7) Final seminar date and ta-2 draft.
 + `15-jul-2025` [`3hrxk`](https://osf.io/3hrxk) Proposal seminar and comments.
 + `14-jul-2025` [`ry63b`](https://osf.io/ry63b) Presentation slide.
 + `08-jul-2025` [`uerns`](https://osf.io/uerns) Proposal of bachelor thesis.
