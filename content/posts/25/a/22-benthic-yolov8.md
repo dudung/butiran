@@ -9,6 +9,10 @@ url = '25a22'
 +++
 <!--more-->
 
++ `17-jul-2025` [`nq24f`](https://osf.io/nq24f) Final master seminar and thesis 2.
++ `16-jul-2025` [`juxaq`](https://osf.io/juxaq) Invitation, thesis draft, presentation.
++ `15-jul-2025` [`x6u2b`](https://osf.io/x6u2b) Permission for final seminar.
++ `03-jul-2025` [`rn3st`](https://osf.io/rn3st) Author bibliography request.
 + `19-may-2025` [`wjyzn`](https://osf.io/wjyzn) Plan change, accepted requirement.
 + `16-may-2025` [`8h9yv`](https://osf.io/8h9yv) Thesis II supervision, manuscript.
 + `17-apr-2025` [`sd2c8`](https://osf.io/sd2c8) Thesis II supervision.
@@ -27,3 +31,4 @@ url = '25a22'
 
 ## notes
 + It is on [ryfqa](https://osf.io/ryfqa/).
++ Revision of thesis 2 and publication are in the next stage on 17-jul-2025.
