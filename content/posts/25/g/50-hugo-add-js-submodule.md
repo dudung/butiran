@@ -1,5 +1,5 @@
 +++
-title = 'hugo js submodule'
+title = 'hugo add js submodule'
 date = '2025-07-18T19:06:03+07:00'
 authors = ['viridi']
 draft = false
