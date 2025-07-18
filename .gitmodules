@@ -1,3 +1,6 @@
 [submodule "static/js"]
 	path = static/js
 	url = https://github.com/dudung/butiran-frontend.git
+[submodule "static/py"]
+	path = static/py
+	url = https://github.com/dudung/butiran-backend
