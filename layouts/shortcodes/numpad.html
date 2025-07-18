@@ -1,5 +1,9 @@
 {{ if not site.Params.disableShortcodes }}
 
+  <!--
+  20250719 Move from assets/js to static/js/src
+  ur https://chatgpt.com/share/687ad644-5614-800a-9d2a-23305c0111c4
+  
   {{ $js := resources.Get "js/numpad.js" }}
   {{ $file := $js | resources.Minify  }}
   {{ $url := $file.Permalink | relURL }}
@@ -7,6 +11,13 @@
   <div id="numpad"></div>
   <script>
   numpad();
+  </script>
+  -->
+
+  <script src="/js/src/numpad.js"></script>
+  <div id="numpad"></div>
+  <script>
+    numpad();
   </script>
 
 {{ end }}
