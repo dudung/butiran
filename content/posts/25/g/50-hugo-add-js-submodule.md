@@ -52,8 +52,10 @@ To https://github.com/dudung/butiran
 
 
 ## notes
-+ Steps are according to a discussion for existing repository on GitHub [^gpt_4o_2025].
++ Steps are according to a discussion for existing repository on GitHub [^gpt_4o_2025a].
++ When changed, main repo should update the submodule [^gpt_4o_2025b].
 
 
 ## refs
-[^gpt_4o_2025]: GPT-4o, "Move JS to Submodule", ChatGPT, 18 Jul 2025, url https://chatgpt.com/share/687a3a59-53e4-800a-ad77-65336a6a2551 [20250718].
+[^gpt_4o_2025a]: GPT-4o, "Move JS to Submodule", ChatGPT, 18 Jul 2025, url https://chatgpt.com/share/687a3a59-53e4-800a-ad77-65336a6a2551 [20250718].
+[^gpt_4o_2025b]: GPT-4o, "Update Git Submodules", ChatGPT, 19 Jul 2025, url  https://chatgpt.com/share/687ad9f7-7c58-800a-860a-df4833820281 [20250719].

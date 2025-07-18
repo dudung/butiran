@@ -55,7 +55,11 @@ To https://github.com/dudung/butiran
 
 ## notes
 + There is a discussion about it [^gpt-4o_2025a].
++ The first and simplest code is on [^viridi_2025a].
++ For butiran it is a second submodule proceeding the first one [^viridi_2025b].
 
 
 ## refs
 [^gpt-4o_2025a]: GPT-4o, "Submodule for Backend Integration", ChatGPT, 19 Jul 2025, url https://chatgpt.com/share/687ad4b5-1ad0-800a-abf9-c995609b4066 [20250719].
+[^viridi_2025a]: Sparisoma Viridi, "butiran pythonanywhere", butiran, 18 Jul 2025, url [https://dudung.github.io/butiran/25g51/](/butiran/25g51/) [20250719].
+[^viridi_2025b]: Sparisoma Viridi, "hugo add js submodule", butiran, 18 Jul 2025, url [https://dudung.github.io/butiran/25g50/](/butiran/25g50/) [20250719].
