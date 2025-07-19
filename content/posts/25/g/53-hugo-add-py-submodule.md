@@ -52,6 +52,54 @@ To https://github.com/dudung/butiran
    37b9ad2..7a3986c  main -> main
 ```
 
+## submodule
+```bash
+$ git submodule update --remote
+Submodule path 'static/js': checked out '65b01d43c5442a6575cf69fac320221bf7eb3a59'
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 13 (delta 8), reused 9 (delta 4), pack-reused 0 (from 0)
+Unpacking objects: 100% (13/13), 1.29 KiB | 29.00 KiB/s, done.
+From https://github.com/dudung/butiran-backend
+   05b9363..7bdd4b7  main       -> origin/main
+Submodule path 'static/py': checked out '7bdd4b780733ee0fdc0fbaec4d8142fc99791a75'
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   static/js (new commits)
+        modified:   static/py (new commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git commit -a -m "update submodule"
+[main d986d7d] update submodule
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 1.19 KiB | 1.19 MiB/s, done.
+Total 11 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 7 local objects.
+To https://github.com/dudung/butiran
+   893313e..d986d7d  main -> main
+```
 
 ## notes
 + There is a discussion about it [^gpt-4o_2025a].
