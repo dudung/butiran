@@ -40,8 +40,11 @@ cnt.appendChild(btn);
 btn.addEventListener("click", () => {
   console.log("click");
 
-  /* fetch("http://localhost:5500/") */
-  fetch("https://butiran.pythonanywhere.com/")
+  const baseURL = location.hostname.includes("localhost")
+    ? "http://localhost:5500/"
+    : "https://butiran.pythonanywhere.com/";
+  
+  fetch(baseURL)
     .then(response => response.text())
     .then(data => {
       txa.value = data;
@@ -49,3 +52,64 @@ btn.addEventListener("click", () => {
     .catch(error => txa.value += "Error fetching data:" + error);
 })
 {{< /script/runner >}}
+
+
+## app.py
+```py
+# flask --app app run --debug --port=5500
+
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
+app = Flask(__name__)
+
+CORS(app, resources={r"/*": {"origins": [
+    "http://localhost:1313",
+    "https://dudung.github.io",
+    "https://dudung.github.io/butiran"
+]}})
+
+@app.route("/")
+def home():
+    print("Request from Origin:", request.headers.get("Origin"))
+    return "a response from butiran-backend on pythonanywhere"
+```
+
+## in post
+```js
+const cnt = document.getElementById("cnt1");
+cnt.style.display = "flex";
+
+const style2 = {
+  width: "300px",
+  height: "200px",
+  overflowY: "scroll",
+};
+const txa = createElement("textarea", style2);
+txa.id = "txa1";
+
+const style3 = {
+  height: "25px",
+  width: "60px",
+};
+const btn = createElement("button", style3);
+btn.innerHTML = "Fetch";
+
+cnt.appendChild(txa);
+cnt.appendChild(btn);
+
+btn.addEventListener("click", () => {
+  console.log("click");
+  
+  const baseURL = location.hostname.includes("localhost")
+    ? "http://localhost:5500/"
+    : "https://butiran.pythonanywhere.com/";
+  
+  fetch(baseURL)
+    .then(response => response.text())
+    .then(data => {
+      txa.value = data;
+    })
+    .catch(error => txa.value += "Error fetching data:" + error);
+})
+```
