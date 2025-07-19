@@ -15,6 +15,7 @@ url = '25g57'
 + The term is chosen grain configuration instead of particle configuration, since it gives more nuance in the domain of granular physics [^gpt-4o_2025a].
 + As initial format several properties are considered, which are particle ID and types, x, y, z positions, fill and stroke colors [^gpt-4o_2025b].
 + The grain configuration viewer will be designed in a Hugo post using a shortcode with inline JS, but later will be ported to external JS for the simulation [^gpt-4o_2025c].
++ Progress of this note is tracked daily in [25g56](/butiran/25g56/) note.
 
 
 ## refs
