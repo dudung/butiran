@@ -13,44 +13,11 @@ url = '25g54'
 
 {{< script/loader >}}
 src/25e41.js
+src/25g54.js
 {{< /script/loader >}}
 
 {{< script/runner id="cnt1" >}}
-const cnt = document.getElementById("cnt1");
-cnt.style.display = "flex";
-
-const style2 = {
-  width: "300px",
-  height: "200px",
-  overflowY: "scroll",
-};
-const txa = createElement("textarea", style2);
-txa.id = "txa1";
-
-const style3 = {
-  height: "25px",
-  width: "60px",
-};
-const btn = createElement("button", style3);
-btn.innerHTML = "Fetch";
-
-cnt.appendChild(txa);
-cnt.appendChild(btn);
-
-btn.addEventListener("click", () => {
-  console.log("click");
-
-  const baseURL = location.hostname.includes("localhost")
-    ? "http://localhost:5500/"
-    : "https://butiran.pythonanywhere.com/";
-  
-  fetch(baseURL)
-    .then(response => response.text())
-    .then(data => {
-      txa.value = data;
-    })
-    .catch(error => txa.value += "Error fetching data:" + error);
-})
+main_25g54();
 {{< /script/runner >}}
 
 
@@ -77,39 +44,43 @@ def home():
 
 ## in post
 ```js
-const cnt = document.getElementById("cnt1");
-cnt.style.display = "flex";
+main_25g54();
 
-const style2 = {
-  width: "300px",
-  height: "200px",
-  overflowY: "scroll",
-};
-const txa = createElement("textarea", style2);
-txa.id = "txa1";
+function main_25g54() {
+  const cnt = document.getElementById("cnt1");
+  cnt.style.display = "flex";
 
-const style3 = {
-  height: "25px",
-  width: "60px",
-};
-const btn = createElement("button", style3);
-btn.innerHTML = "Fetch";
+  const style2 = {
+    width: "300px",
+    height: "200px",
+    overflowY: "scroll",
+  };
+  const txa = createElement("textarea", style2);
+  txa.id = "txa1";
 
-cnt.appendChild(txa);
-cnt.appendChild(btn);
+  const style3 = {
+    height: "25px",
+    width: "60px",
+  };
+  const btn = createElement("button", style3);
+  btn.innerHTML = "Fetch";
 
-btn.addEventListener("click", () => {
-  console.log("click");
-  
-  const baseURL = location.hostname.includes("localhost")
-    ? "http://localhost:5500/"
-    : "https://butiran.pythonanywhere.com/";
-  
-  fetch(baseURL)
-    .then(response => response.text())
-    .then(data => {
-      txa.value = data;
-    })
-    .catch(error => txa.value += "Error fetching data:" + error);
-})
+  cnt.appendChild(txa);
+  cnt.appendChild(btn);
+
+  btn.addEventListener("click", () => {
+    console.log("click");
+    
+    const baseURL = location.hostname.includes("localhost")
+      ? "http://localhost:5500/"
+      : "https://butiran.pythonanywhere.com/";
+    
+    fetch(baseURL)
+      .then(response => response.text())
+      .then(data => {
+        txa.value = data;
+      })
+      .catch(error => txa.value += "Error fetching data:" + error);
+  })
+}
 ```
