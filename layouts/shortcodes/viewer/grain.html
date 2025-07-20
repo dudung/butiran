@@ -44,15 +44,17 @@ function getGrains(lines, header) {
 </script>
 
 <script>
+const div = document.getElementById("view-container");
+with(div.style) {
+  width = "400px";
+  height = "300px";
+  display = "block";
+  border = "1px solid #ccc";
+  background = "#fafafa";
+  marginTop = "0.25em";
+}
+
 const lines = getLines("{{- .Inner -}}");
 const header = getHeader(lines);
 const grains = getGrains(lines, header);
-const div = document.getElementById("view-container");
-with(div.style) {
-  border = "1px solid #aaa";
-  width = "400px";
-  height = "300px";
-  display = "flex";
-}
 </script>
-

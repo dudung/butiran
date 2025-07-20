@@ -41,22 +41,23 @@ url = '25g57'
   ```
 
 ## results
-{{< viewer/grain >}}
----
-version: 0.1
-description: Simple grain configuration
-columns: id type x y z d fill stroke
-units: - - mm mm mm mm - -
----
-000 A 1.00 1.00 0.00 0.1 #fee #a00
-001 B 2.00 1.00 0.00 0.2 #efe #0a0
-002 C 3.00 1.00 0.00 0.3 #eef #00a
-003 D 3.00 2.00 0.00 0.4 #ffe #aa0
-004 E 1.00 2.00 0.00 0.5 #eff #0aa
-005 F 1.00 3.00 0.00 0.6 #fef #a0a
-006 G 2.00 3.00 0.00 0.7 #fff #aaa
-007 H 3.00 3.00 0.00 0.8 #888 #000
-{{< /viewer/grain >}}
++ Result of version 0.1 is as follow.
+  {{< viewer/grain >}}
+  ---
+  version: 0.1
+  description: Simple grain configuration
+  columns: id type x y z d fill stroke
+  units: - - mm mm mm mm - -
+  ---
+  000 A 1.00 1.00 0.00 0.1 #fee #a00
+  001 B 2.00 1.00 0.00 0.2 #efe #0a0
+  002 C 3.00 1.00 0.00 0.3 #eef #00a
+  003 D 3.00 2.00 0.00 0.4 #ffe #aa0
+  004 E 1.00 2.00 0.00 0.5 #eff #0aa
+  005 F 1.00 3.00 0.00 0.6 #fef #a0a
+  006 G 2.00 3.00 0.00 0.7 #fff #aaa
+  007 H 3.00 3.00 0.00 0.8 #888 #000
+  {{< /viewer/grain >}}
 
 
 ## refs
