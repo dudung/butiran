@@ -53,6 +53,17 @@ with(div.style) {
   background = "#fafafa";
   marginTop = "0.25em";
 }
+const can = document.createElement("canvas");
+with(can) {
+  width = "300";
+  height = "200";
+  with(style) {
+    width = "300px";
+    height = "200px";
+    background = "#fee";
+  }
+}
+div.appendChild(can);
 
 const lines = getLines("{{- .Inner -}}");
 const header = getHeader(lines);
