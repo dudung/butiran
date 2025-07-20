@@ -1,3 +1,6 @@
+<div class="viewer-grain" id="view-container">
+</div>
+
 <script>
 function getLines(text) {
   const lines = text.split("\n");
@@ -40,13 +43,16 @@ function getGrains(lines, header) {
 
 </script>
 
-<div class="viewer-grain">
-  <script>
-  const lines = getLines("{{- .Inner -}}");
-  const header = getHeader(lines);
-  const grains = getGrains(lines, header);
-  console.log(grains[7]);
-  </script>
-</div>
-
+<script>
+const lines = getLines("{{- .Inner -}}");
+const header = getHeader(lines);
+const grains = getGrains(lines, header);
+const div = document.getElementById("view-container");
+with(div.style) {
+  border = "1px solid #aaa";
+  width = "400px";
+  height = "300px";
+  display = "flex";
+}
+</script>
 
