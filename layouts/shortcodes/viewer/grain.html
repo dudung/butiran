@@ -34,20 +34,68 @@ function getGrains(lines, header) {
       }
       grains.push(grain);
     }
-    if(lines[i] == "---" && i > 0) {
+    if(lines[i].indexOf("---") > -1 && i > 0) {
       isData = true;
     }    
   }
   return grains;
 }
 
+function transform(x, src, dest) {
+  const xmin = src[0];
+  const xmax = src[1];
+  const XMIN = dest[0];
+  const XMAX = dest[1];
+  
+  let X = (x - xmin) / (xmax - xmin);
+  X *= (XMAX - XMIN);
+  X += XMIN;
+  return X;
+}
+
+function drawGrainsOnCanvas(grains, can) {
+  const XMIN = 0;
+  const XMAX = parseInt(can.width);
+  const YMIN = parseInt(can.height);
+  const YMAX = 0;
+  
+  const xmin = 0;
+  const xmax = 4;
+  const ymin = 0;
+  const ymax = 4;
+  
+  const ctx = can.getContext("2d");
+  for(let g of grains) {
+    const x = parseFloat(g["x"]);
+    const y = parseFloat(g["y"]);
+    const d = parseFloat(g["d"]);
+    const fillColor = g["fill"];
+    const strokeColor = g["stroke"];
+    
+    const X = transform(x, [xmin, xmax], [XMIN, XMAX]);
+    const Y = transform(y, [ymin, ymax], [YMIN, YMAX]);
+    const X2 = transform(x + 0.5*d, [xmin, xmax], [XMIN, XMAX]);
+    const R = X2 - X;
+    
+    ctx.fillStyle = fillColor;
+    ctx.beginPath()
+    ctx.arc(X, Y, R, 0, 2*Math.PI);
+    ctx.fill();
+    
+    ctx.lineWidth = "1";
+    ctx.strokeStyle = strokeColor;
+    ctx.beginPath()
+    ctx.arc(X, Y, R, 0, 2*Math.PI);
+    ctx.stroke();
+  }
+}
 </script>
 
 <script>
 const div = document.getElementById("view-container");
 with(div.style) {
-  width = "400px";
-  height = "300px";
+  width = "200px";
+  height = "200px";
   display = "block";
   border = "1px solid #ccc";
   background = "#fafafa";
@@ -55,17 +103,17 @@ with(div.style) {
 }
 const can = document.createElement("canvas");
 with(can) {
-  width = "300";
+  width = "200";
   height = "200";
   with(style) {
-    width = "300px";
+    width = "200px";
     height = "200px";
-    background = "#fee";
-  }
+ }
 }
 div.appendChild(can);
 
 const lines = getLines("{{- .Inner -}}");
 const header = getHeader(lines);
 const grains = getGrains(lines, header);
+drawGrainsOnCanvas(grains, can);
 </script>
