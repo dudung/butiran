@@ -1,0 +1,52 @@
+<script>
+function getLines(text) {
+  const lines = text.split("\n");
+  if(lines[0].length == 0) lines.shift();
+  if(lines[lines.length-1].length == 0) lines.pop();
+  return lines;
+}
+
+function getHeader(lines) {
+  for(let l of lines) {
+    if(l.indexOf("columns:") > -1) {
+      let cols = l.split(":")[1].split(" ");
+      if(cols[0].length == 0) cols.shift();
+      if(cols[cols.length-1].length == 0) cols.pop();
+      return cols;
+    }
+  }
+}
+
+function getGrains(lines, header) {
+  const grains = [];
+  let isData = false;
+  const N = lines.length;
+  for(let i = 0; i < N; i++) {
+    if(isData) {
+      const cols = lines[i].split(" ");
+      grain = {};
+      const N2 = header.length;
+      for(let j = 0; j < N2; j++) {
+        grain[header[j]] = cols[j]
+      }
+      grains.push(grain);
+    }
+    if(lines[i] == "---" && i > 0) {
+      isData = true;
+    }    
+  }
+  return grains;
+}
+
+</script>
+
+<div class="viewer-grain">
+  <script>
+  const lines = getLines("{{- .Inner -}}");
+  const header = getHeader(lines);
+  const grains = getGrains(lines, header);
+  console.log(grains[7]);
+  </script>
+</div>
+
+
