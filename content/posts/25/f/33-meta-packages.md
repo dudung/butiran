@@ -10,6 +10,8 @@ url = '25f33'
 +++
 
 <!-- more -->
++ `20-jul-2025` Schatten einer sich bewegenden Maus.
++ `19-jul-2025` Gecko und Hausgecko-Geräusch mehrmal.
 + `17-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur, und am Abend.
 + `16-jul-2025` Sehr schläfrig mittag, auch die junge.
 + `15-jul-2025` Das Pinkel am morgen, Wut in der Luft, schwarzes Lied.

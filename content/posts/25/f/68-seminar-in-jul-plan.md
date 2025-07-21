@@ -24,13 +24,16 @@ url = '25f68'
 `Wed 16-jul` |     |     |`FZ1`|     |     |     |     |
 `Thu 17-jul` |     |     |`SV3`|     |     |     |     |
 `Mon 21-jul` |     |     |`UR1`|     |     |     |     |
-`Tue 22-jul` |     |`RK1`|     |     |     |     |     |
+`Tue 22-jul` |     |`RK1`|`SV4`|     |     |     |     |
+`Wed 23-jul` |     |`FH1`|`IA1`|     |     |     |     |
 {{< /style >}}
-
 
 {{< style class="table-0" >}}
 Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 :-:  | :-: | :-   | :-:   | :-:
+`IA1` | 30219301 | Fauzia Puspa Lestari           | 
+`FH1` | 10220020 | Yunus Hartanto ✗               | [25g46](/butiran/25g46/)
+`SV4` | 20216315 | Putri Mustika Widartiningsih   | [25g48](/butiran/25g48/)
 `SV3` | 20923009 | Raden Sutiadi                  | [25a22](/butiran/25a22/)
 `FZ1` | 20223008 | Fingken Stevanus Sagai ✗       | 
 `UR1` | 20823009 | Asrul Irfanullah               | [25g38](/butiran/25g38/)
