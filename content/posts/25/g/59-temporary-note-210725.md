@@ -29,7 +29,8 @@ url = '25g59'
 + `1310` Back to FI-F10.
 + `1423` Upload asrul seminar.
 + `1441` Finish archiving asrul data on [25g38](/butiran/25g38/).
-
++ `1445` Collect info relate to [25f69](/butiran/25f69/).
+  - `1525` Finish archive of 25f69.
 
 ## refs
 [^gpt-4o_2025]: GPT-4o, "Update Git submodules", ChatGPT, 21 Jul 2025, url https://chatgpt.com/share/687da9f4-86fc-800a-9038-20fbebfd3f68 [20250721].
