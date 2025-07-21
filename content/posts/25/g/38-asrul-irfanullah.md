@@ -11,6 +11,8 @@ url = '25g38'
 
 <!-- more -->
 
++ `21-jul-2025` [`gpfjw`](https://osf.io/gpfjw) Final seminar for master of actuarial science.
++ `20-jul-2025` [`yjd5m`](https://osf.io/yjd5m) Draft of master thesis and presentation files.
 + `17-jul-2025` [`yr2cv`](https://osf.io/yr2cv) Invitation for Mon 21-jul 1030 cas lt-5.
 + `15-jul-2025` [`hj78k`](https://osf.io/hj78k) Change of seminar date.
 + `14-jul-2025` [`kpj3f`](https://osf.io/kpj3f) Seminar date determination.
