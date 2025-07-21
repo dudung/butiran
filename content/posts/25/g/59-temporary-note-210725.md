@@ -27,6 +27,7 @@ url = '25g59'
 + `0956` Remind Revan after visit and plan for KAIST (wrong person, correct it).
 + `1001` Send messages to Reza for KAIST plan.
 + `1310` Back to FI-F10.
++ `1412` Reply to 62 822-1493-3419 Elisabeth.
 + `1423` Upload asrul seminar.
 + `1441` Finish archiving asrul data on [25g38](/butiran/25g38/).
 + `1445` Collect info relate to [25f69](/butiran/25f69/).
