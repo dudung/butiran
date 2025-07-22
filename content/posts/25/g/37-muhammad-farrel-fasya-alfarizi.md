@@ -11,7 +11,7 @@ url = '25g37'
 
 <!-- more -->
 
-+ `22-jul-2025` [`uh2vb`](https://osf.io/uh2vb) Final seminar and comments (undocu).
++ `22-jul-2025` [`uh2vb`](https://osf.io/uh2vb) Final seminar and comments.
 + `21-jul-2025` [`rph5k`](https://osf.io/rph5k) Presentation file.
 + `17-jul-2025` [`h8qz7`](https://osf.io/h8qz7) Final seminar date and ta-2 draft.
 + `15-jul-2025` [`3hrxk`](https://osf.io/3hrxk) Proposal seminar and comments.
