@@ -11,6 +11,7 @@ url = '25f69'
 
 <!-- more -->
 
++ `29-jul-2025` []() Thesis 1 seminar (undocu).
 + `21-jul-2025` [`gkb6j`](https://osf.io/gkb6j) Determination of thesis-1 seminar date.
 + `16-jul-2025` [`ujbhd`](https://osf.io/ujbhd) Update of presentation and thesis-1 files.
 + `21-jul-2025` [`sdypb`](https://osf.io/sdypb) Copy files and folder to osf from github.
@@ -20,4 +21,5 @@ url = '25f69'
 
 
 ## notes
++ It is on [wh7rs](https://osf.io/wh7rs/).
 + It is part of [25d10](/butiran/25d10/).
