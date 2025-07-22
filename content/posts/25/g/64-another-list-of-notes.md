@@ -1,35 +1,23 @@
 +++
-title = 'wed 23.07.25'
-date = '2025-07-23T03:29:18+07:00'
+title = 'another list of notes'
+date = '2025-07-23T03:56:59+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
-tags = ['daily-notes']
-categories = ['to-do']
-url = '25g63'
+tags = []
+categories = ['notes']
+url = '25g64'
 +++
 
 <!-- more -->
-
-## today
-{{< style class="table-0" >}}
-id | activity | status | link | info | doc
-:-: | :- | :-: | :-: | :-: | :-:
-00 | Daily note init              | 1 | [25g63](/butiran/25g63/) | s0330 | ✓
-01 | Another list of notes        | 1 | [25g64](/butiran/25g64/) | u0432 |
-{{< /style>}}
-
-
-## notes
-+ Note {{< notelist "is on" >}}
-25f00 | overview
++ {{< notelist "is on" "courses" >}}
 25d15 | fi3271
 25c12 | fi5282
 25e08 | sk5004
 25c32 | nt8098
-25g11 | renstra f/s
-25e50 | s2-fi
-25e52 | s2-sk
+25g49 | grading 2024-2
+{{< /notelist >}}
++ Note for {{< notelist "is on" "research" >}}
 25d11 | bima-ai
 25d10 | bima-rh
 25d09 | bima-sh
@@ -43,15 +31,18 @@ id | activity | status | link | info | doc
 24l05 | solo-mm
 24j29 | solo-vs
 25f47 | battlefield
-25c48 | llama 07-kpg
-25c47 | llama 08-mlg
-25c56 | llama 10-smg
-25e12 | llama 11-onl
-25c49 | llama 09-soc
-25e09 | llama 12-bgr
-25e58 | llama 13-bdg
-25f32 | llama 14-onl
-25d28 | aas wasri hasanah
+{{< /notelist >}}
++ Note for {{< notelist "is on" "llama" >}}
+25f32 | 14-onl
+25e58 | 13-bdg
+25e09 | 12-bgr
+25e12 | 11-onl
+25c56 | 10-smg
+25c49 | 09-soc
+25c47 | 08-mlg
+25c48 | 07-kpg
+{{< /notelist >}}
++ Note for {{< notelist "is on" "users" >}}
 25e25 | aditya aryashakti
 25e27 | aldiansyah anugrah ramadhan
 25c46 | asep bustanil aripin
@@ -59,7 +50,6 @@ id | activity | status | link | info | doc
 25e46 | anzet dianto pebriwan
 25g24 | auza naufal abraar
 25c44 | azhari
-25d30 | bram yohanes setiadi
 25e13 | daryl putra
 25e01 | deni ramdani
 25d27 | erkata yandri
@@ -87,8 +77,19 @@ id | activity | status | link | info | doc
 25f69 | reksa akbar kinasih gusti
 25f52 | retno dewi purnawati
 25e55 | sekar ayu widashtri
-25c61 | sevi nurafni
 25d38 | zaky rayadhi
+{{< /notelist >}}
++ Note for {{< notelist "is on" "alumni" >}}
+25d28 | aas wasri hasanah
+25d30 | bram yohanes setiadi
+25g48 | putri mustika widartiningsih
+25c61 | sevi nurafni
+{{< /notelist >}}
++ Note {{< notelist "is on" "others" >}}
+25f00 | overview
+25g11 | renstra f/s
+25e50 | s2-fi
+25e52 | s2-sk
 25d71 | book-seaweed
 25c58 | dean-ec
 25e48 | exp-info
@@ -107,7 +108,4 @@ id | activity | status | link | info | doc
 25f64 | notes rearrangement
 25g18 | juengere
 25g16 | prisma
-25g48 | putri mustika widartiningsih
-{{< /notelist >}} available to process.
-+ Many notes are missed fo further processing and evolution of butiran is one way to solve such problems.
-
+{{< /notelist >}}
