@@ -1,13 +1,15 @@
 +++
-title = 'another list of notes'
+title = 'stages in jul 2025'
 date = '2025-07-23T03:56:59+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
 tags = []
-categories = ['notes']
+categories = ['list']
 url = '25g64'
 +++
+
+No
 
 <!-- more -->
 + {{< notelist "is on" "courses" >}}
