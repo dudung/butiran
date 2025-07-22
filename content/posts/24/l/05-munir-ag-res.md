@@ -12,6 +12,8 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
++ `22-jul-2025` [`yc5xg`](https://osf.io/yc5xg) Update info on bkd and jakad-dos.
++ `20-jul-2025` [`y4vrt`](https://osf.io/y4vrt) Distraction and support, candidation as pack leader.
 + `15-jul-2025` [`rhx2b`](https://osf.io/rhx2b) Discussion on manuscript v5_20250715 and refs.
 + `08-jul-2025` [`zxv9y`](https://osf.io/zxv9y) Reminder and manusript v4rev_mm25a.
 + `30-jun-2025` [`7aqzw`](https://osf.io/7aqzw) Limitation to termination of prisma.
