@@ -9,31 +9,31 @@ categories = ['list']
 url = '25g64'
 +++
 
-No
+{{< style class="table-0" >}}
+id | &nbsp;&nbsp;&nbsp;activity    | notes  | stages | last | docu | status
+:-:| :-             | :-:    | :-: | :-:  | :-:  | :-:
+00 | fi3271         | [25d15](/butiran/25d15/) | 09 | `28-may` | 09 | 0
+01 | fi5282         | [25c12](/butiran/25c12/) | 13 | `03-jun` | 13 | 0
+02 | sk5004         | [25e08](/butiran/25e08/) | 09 | `05-jun` | 09 | 0
+03 | nt8098         | [25c32](/butiran/25c32/) | 09 | `16-apr` | 09 | 0
+04 | grading 2024-2 | [25g49](/butiran/25g49/) | 04 | `22-jul` | 04 | 1
+05 | bima-ai        | 25d11
+06 | bima-rh        | 25d10
+07 | bima-sh        | 25d09
+08 | bpdpks-md      | 25b11
+09 | inspirasi-ap   | 24l06
+10 | p2mi-kk-sv     | 25d12
+11 | p2mi-fs-sv     | 25d65
+12 | rki-sv         | 25c16
+13 | riim-di        | 25c27
+14 | riim-rk        | 25c26
+15 | solo-mm        | 24l05
+16 | solo-vs        | 24j29
+17 | battlefield    | 25f47
+{{< /style >}}
+
 
 <!-- more -->
-+ {{< notelist "is on" "courses" >}}
-25d15 | fi3271
-25c12 | fi5282
-25e08 | sk5004
-25c32 | nt8098
-25g49 | grading 2024-2
-{{< /notelist >}}
-+ Note for {{< notelist "is on" "research" >}}
-25d11 | bima-ai
-25d10 | bima-rh
-25d09 | bima-sh
-25b11 | bpdpks-md
-24l06 | inspirasi-ap
-25d12 | p2mi-kk-sv
-25d65 | p2mi-fs-sv
-25c16 | rki-sv
-25c27 | riim-di
-25c26 | riim-rk
-24l05 | solo-mm
-24j29 | solo-vs
-25f47 | battlefield
-{{< /notelist >}}
 + Note for {{< notelist "is on" "llama" >}}
 25f32 | 14-onl
 25e58 | 13-bdg
