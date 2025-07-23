@@ -9,6 +9,8 @@ categories = ['list']
 url = '25g64'
 +++
 
++ It is cancelled at 0844 as the office due to time limitation.
+
 {{< style class="table-0" >}}
 id | &nbsp;&nbsp;&nbsp;activity    | notes  | stages | last | docu | status
 :-:| :-             | :-:    | :-: | :-:  | :-:  | :-:
