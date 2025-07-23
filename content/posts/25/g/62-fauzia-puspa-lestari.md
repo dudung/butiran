@@ -11,7 +11,7 @@ url = '25g62'
 
 <!-- more -->
 
-+ `23-jul-2025` [`g6z2n`](https://osf.io/g6z2n) Progress 4 seminar (undoku).
++ `23-jul-2025` [`g6z2n`](https://osf.io/g6z2n) Progress 4 seminar.
 + `22-jul-2025` [`28tc4`](https://osf.io/28tc4) Before progress 4 seminar, no report nor slide.
 + `09-jan-2025` [`6enb3`](https://osf.io/6enb3) Progress 3 seminar.
 + `28-aug-2024` [`u8a9g`](https://osf.io/u8a9g) Proceedings on aip 2024.
