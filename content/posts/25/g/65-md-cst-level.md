@@ -1,0 +1,26 @@
++++
+title = 'md cst level'
+date = '2025-07-23T22:07:10+07:00'
+authors = ['viridi']
+draft = false
+type = 'notes'
+tags = ['md']
+categories = ['res']
+url = '25g65'
++++
+
+<!-- more -->
+
++ `23-jul-2025` [`tqvnc`](https://osf.io/tqvnc) Intial zoom meeting after tpomi-2025.
+
+
+## notes
++ It is on [v8nfs](https://osf.io/v8nfs/).
++ It is triggered by an activity in [25b11](/butiran/25b11/).
++ There are discussion about fluid layers in tank [^gpt-4o_2025a] and simulation of the cpo separation process [^gpt-4o_2025b].
+
+
+## refs
+[^gpt-4o_2025a]: GPT-4o, "CPO Tank Layering", ChatGPT, 23 Jul 2025, url https://chatgpt.com/share/6880fd4d-aa30-800a-ab9b-0818070ab727 [20250723].
+[^gpt-4o_2025b]: GPT-4o, "CPO Separation Simulation Methods", ChatGPT, 23 Jul 2025, url https://chatgpt.com/share/6880fd72-4804-800a-bc7e-f0a8e0b7e480 [20250723].
+

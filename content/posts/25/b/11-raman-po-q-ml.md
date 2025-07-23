@@ -9,18 +9,19 @@ url = '25b11'
 +++
 <!--more-->
 
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `` []() .
-+ `05-jun-2025` [`t29xp`](https://osf.io/t29xp) Meeting raman lab lfd 2nd floor.
++ `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
++ `23-jul-2025` [`zrtkb`](https://osf.io/zrtkb) Presentation file finalization.
++ `21-jul-2025` [`6xdsb`](https://osf.io/6xdsb) Raman worshop, an intermezzo.
++ `20-jul-2025` [`9ugtd`](https://osf.io/9ugtd) Invitation info for monev in ui.
++ `18-jul-2025` [`sa7b6`](https://osf.io/sa7b6) Another meeting in lfd.
++ `10-jul-2025` [`wqex7`](https://osf.io/wqex7) Event tpomi-2025 day-2.
++ `09-jul-2025` [`d4xb3`](https://osf.io/d4xb3) Event tpomi-2025 day-1.
++ `08-jul-2025` [`zkqa7`](https://osf.io/zkqa7) Assignment letter fo tpomi-2025.
++ `08-jul-2025` [`hygnv`](https://osf.io/hygnv) Registration for 3rd tpomi 2025.
++ `03-jul-2025` [`uta45`](https://osf.io/uta45) Info of tpomi 2025 exibition.
++ `24-jun-2025` [`psuh8`](https://osf.io/psuh8) Manual of the portable raman.
++ `18-jun-2025` [`9hrwx`](https://osf.io/9hrwx) Info on portable raman arrival.
++ `05-jun-2025` [``t29xp`](https://osf.io/t29xp) Meeting raman lab lfd 2nd floor.
 + `02-jun-2025` [`8sdvx`](https://osf.io/8sdvx) Very good news about the liquid.
 + `31-may-2025` [`xqcuk`](https://osf.io/xqcuk) Mockup of ui discussion wag.
 + `23-may-2025` [`g2nv3`](https://osf.io/g2nv3) No weekend meeting, nor next week.
@@ -38,6 +39,10 @@ url = '25b11'
   
   
 ## notes
++ It is on [s9d2c](https://osf.io/s9d2c/).
++ It triggers [25g65](/butiran/25g65/).
++ 24-jun-2025
+  - url https://youtu.be/aM70a76iB3E
 + 24-may-2025
   - Sucessfully upload to osf. &check;
   - Process further zscore_normalized_spectra of 3MCPD.rar, at least the visualization. &cross;
