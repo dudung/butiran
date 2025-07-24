@@ -9,6 +9,7 @@ url = '25b11'
 +++
 <!--more-->
 
++ `24-jul-2025` []() Report and monev in gk-ft-ui.
 + `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
 + `23-jul-2025` [`zrtkb`](https://osf.io/zrtkb) Presentation file finalization.
 + `21-jul-2025` [`6xdsb`](https://osf.io/6xdsb) Raman worshop, an intermezzo.
@@ -41,6 +42,9 @@ url = '25b11'
 ## notes
 + It is on [s9d2c](https://osf.io/s9d2c/).
 + It triggers [25g65](/butiran/25g65/).
++ 24-jul-2025`
+  - Depart at about 0606 for parking area.
+  - Arrive at about 0909 in waiting room for this note.
 + 24-jun-2025
   - url https://youtu.be/aM70a76iB3E
 + 24-may-2025
