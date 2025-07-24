@@ -7,9 +7,10 @@ authors = ['viridi']
 tags = ['daily-notes']
 url = '25b11'
 +++
+
 <!--more-->
 
-+ `24-jul-2025` []() Report and monev in gk-ft-ui.
++ `24-jul-2025` [`7xbjr`](https://osf.io/7xbjr) Report and monev in gk-ft-ui.
 + `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
 + `23-jul-2025` [`zrtkb`](https://osf.io/zrtkb) Presentation file finalization.
 + `21-jul-2025` [`6xdsb`](https://osf.io/6xdsb) Raman worshop, an intermezzo.
@@ -22,7 +23,7 @@ url = '25b11'
 + `03-jul-2025` [`uta45`](https://osf.io/uta45) Info of tpomi 2025 exibition.
 + `24-jun-2025` [`psuh8`](https://osf.io/psuh8) Manual of the portable raman.
 + `18-jun-2025` [`9hrwx`](https://osf.io/9hrwx) Info on portable raman arrival.
-+ `05-jun-2025` [``t29xp`](https://osf.io/t29xp) Meeting raman lab lfd 2nd floor.
++ `05-jun-2025` [`t29xp`](https://osf.io/t29xp) Meeting raman lab lfd 2nd floor.
 + `02-jun-2025` [`8sdvx`](https://osf.io/8sdvx) Very good news about the liquid.
 + `31-may-2025` [`xqcuk`](https://osf.io/xqcuk) Mockup of ui discussion wag.
 + `23-may-2025` [`g2nv3`](https://osf.io/g2nv3) No weekend meeting, nor next week.
@@ -45,6 +46,7 @@ url = '25b11'
 + 24-jul-2025`
   - Depart at about 0606 for parking area.
   - Arrive at about 0909 in waiting room for this note.
+  - Missing monev in Bandung as informed
 + 24-jun-2025
   - url https://youtu.be/aM70a76iB3E
 + 24-may-2025
