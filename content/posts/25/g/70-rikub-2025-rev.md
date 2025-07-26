@@ -11,7 +11,10 @@ url = '25g70'
 
 <!-- more -->
 
-+ `25-jul-2025` [`25g70.04`](https://github.com/dudung/25g70/blob/main/04/README.md) Online meeting 1.
-+ `24-jul-2025` [`25g70.03`](https://github.com/dudung/25g70/blob/main/03/README.md) Zoom information.
-+ `08-jul-2025` [`25g70.02`](https://github.com/dudung/25g70/blob/main/02/README.md) Form submission.
-+ `08-jul-2025` [`25g70.01`](https://github.com/dudung/25g70/blob/main/01/README.md) Call for reviewers.
++ `26-jul-2025` {{< link/gh 25g70.07 >}} Tools for reviewing.
++ `26-jul-2025` {{< link/gh 25g70.06 >}} Archive of wag comms.
++ `25-jul-2025` {{< link/gh 25g70.05 >}} Assignment and wag. 
++ `25-jul-2025` {{< link/gh 25g70.04 >}} Online meeting 1.
++ `24-jul-2025` {{< link/gh 25g70.03 >}} Zoom information.
++ `08-jul-2025` {{< link/gh 25g70.02 >}} Form submission.
++ `08-jul-2025` {{< link/gh 25g70.01 >}} Call for reviewers.
