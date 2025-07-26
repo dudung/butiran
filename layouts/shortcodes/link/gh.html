@@ -1,0 +1,8 @@
+{{ $parts := split (index .Params 0) "." }}
+{{ $repo := index $parts 0 }}
+{{ $folder := index $parts 1 }}
+<a href="https://github.com/dudung/
+{{ $repo }}/blob/main/{{ $folder }}/
+README.md" target="_blank" rel="noopener">
+  <code>{{ $repo }}.{{ $folder }}</code>
+</a>
