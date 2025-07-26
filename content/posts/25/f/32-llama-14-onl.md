@@ -11,24 +11,26 @@ url = '25f32'
 
 <!-- more -->
 
-+ `06-jul-2025` [`apsfw`](https://osf.io/apsfw) Files and folders back migration from github to osf.
-+ `05-jul-2025` [`d4921`](https://github.com/dudung/llama-14-onl/blob/main/13_zoom_05jul/README.md) Zoom on technical procedure for al and ak training with new system.
-+ `04-jul-2025` [`5b587`](https://github.com/dudung/llama-14-onl/blob/main/12_mockup_results/README.md) Grading result of mockup.
-+ `01-jul-2025` [`73bfc`](https://github.com/dudung/llama-14-onl/blob/main/11_launching_iaps_3_0/README.md) Launching of iaps 3.0 and a socialization.
-+ `01-jul-2025` [`6961e`](https://github.com/dudung/llama-14-onl/blob/main/10_rev_announcement_date/README.md) Revision of announcement date for the result.
-+ `21-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/09_day_2/README.md) Processing aka day-2.
-+ `20-jun-2025` [`116d3`](https://github.com/dudung/llama-14-onl/blob/main/08_day_1/README.md) Processing ak day-1.
-+ `17-jun-2025` [`76897`](https://github.com/dudung/llama-14-onl/blob/main/07_zoom_mock_up/README.md) Zoom for mockup intro.
-+ `16-jun-2025` [`25af4`](https://github.com/dudung/llama-14-onl/blob/main/06_info_and_post_test/README.md) Info and post-test for v3.0 of iaps.
-+ `15-jun-2025` [`30e41`](https://github.com/dudung/llama-14-onl/blob/main/05_materials_for_post_test/README.md) Presentation files as post-test materials.
-+ `14-jun-2025` [`f41ee`](https://github.com/dudung/llama-14-onl/blob/main/04_day_3/README.md) Online training day-3 (c, d, e, salam, etika).
-+ `13-jun-2025` [`yvbd9`](https://osf.io/yvbd9) Online training day-2.
-+ `12-jun-2025` [`c5stj`](https://osf.io/c5stj) Pretest of an online training.
-+ `01-jun-2025` [`dxnwv`](https://osf.io/dxnwv) List of training participants and invitation.
-+ `14-jun-2025` [`8a7bf`](https://github.com/dudung/llama-14-onl/blob/main/00_from_osf_to_github/README.md) From osf to github migration.
++ `27-jul-2025` {{< link/gh 25f32.15 >}} To current standar of data on github.
++ `06-jul-2025` {{< link/gh 25f32.14 >}} Files and folders back migration from github to osf.
++ `05-jul-2025` {{< link/gh 25f32.13 >}} Zoom on technical procedure for al and ak training with new system.
++ `04-jul-2025` {{< link/gh 25f32.12 >}} Grading result of mockup.
++ `01-jul-2025` {{< link/gh 25f32.11 >}} Launching of iaps 3.0 and a socialization.
++ `01-jul-2025` {{< link/gh 25f32.10 >}} Revision of announcement date for the result.
++ `21-jun-2025` {{< link/gh 25f32.09 >}} Processing aka day-2.
++ `20-jun-2025` {{< link/gh 25f32.08 >}} Processing ak day-1.
++ `17-jun-2025` {{< link/gh 25f32.07 >}} Zoom for mockup intro.
++ `16-jun-2025` {{< link/gh 25f32.06 >}} Info and post-test for v3.0 of iaps.
++ `15-jun-2025` {{< link/gh 25f32.05 >}} Presentation files as post-test materials.
++ `14-jun-2025` {{< link/gh 25f32.04 >}} Online training day-3 (c, d, e, salam, etika).
++ `13-jun-2025` {{< link/gh 25f32.03 >}} Online training day-2.
++ `12-jun-2025` {{< link/gh 25f32.02 >}} Pretest of an online training.
++ `01-jun-2025` {{< link/gh 25f32.01 >}} List of training participants and invitation.
++ `14-jun-2025` {{< link/gh 25f32.00 >}} From osf to github migration.
 
 
 ## notes
++ There ia old archive until 14 on [ujtwz](https://osf.io/ujtwz/).
 + It is a continuation of [25e12](/butiran/25e12).
 + Online training is from 12 to 14 June 2025. [&mp;](https://us06web.zoom.us/j/88961608167?pwd=AnhMF9R09pGlIOX4Rze3rKEqTU4KcX.10)9.
 + On 12-jun-2025 it begins at 1900+07.
