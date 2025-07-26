@@ -28,11 +28,13 @@ url = '25f68'
 `Wed 23-jul` |     |`FH1`|`IA1`|     |     |     |     |
 `Tue 29-jul` |     |     |`RH1`|     |     |     |     |
 `Wed 30-jul` |     |     |`FZ1`|     |     |     |     |
+`Thu 31-jul` |     |     |     |     |     |`RH2`|     |`IPB`
 {{< /style >}}
 
 {{< style class="table-0" >}}
 Code | SID | &nbsp;&nbsp;&nbsp;&nbsp;Name | Note | Doc
 :-:  | :-: | :-   | :-:   | :-:
+`RH2` | 30222001 | Yuan Alfinsyah Sihombing(??) ✗ | -             
 `FZ1` | 20223008 | Fingken Stevanus Sagai         | [25g61](/butiran/25g61/)
 `RH1` | 20223315 | Reksa Akbar Kinasih Gusti      | [25f69](/butiran/25f69/)
 `IA1` | 30219301 | Fauzia Puspa Lestari           | [25g62](/butiran/25g62/)

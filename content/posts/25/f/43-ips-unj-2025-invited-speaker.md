@@ -4,8 +4,8 @@ date = '2025-06-07T12:17:11+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
-tags = []
-categories = ['route']
+tags = ['inv', 'unj']
+categories = ['conf']
 url = '25f43'
 +++
 
