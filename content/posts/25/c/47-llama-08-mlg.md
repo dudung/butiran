@@ -9,6 +9,7 @@ categories = ['llama']
 url = '25c47'
 +++
 
++ `27-jul-2025` {{< link/gh 25c47.22 >}} Reimbursement of the visit. 
 + `27-jul-2025` {{< link/gh 25c47.21 >}} Copy to gh for small files.
 + `12-jun-2025` {{< link/gh 25c47.20 >}} Day-3 or after the visit.
 + `11-jun-2025` {{< link/gh 25c47.19 >}} Day-2 of the visit.
