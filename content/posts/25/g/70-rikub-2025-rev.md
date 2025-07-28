@@ -11,6 +11,8 @@ url = '25g70'
 
 <!-- more -->
 
++ `28-jul-2025` {{< link/gh 25g70.09 >}} Reviewing completion.
++ `27-jul-2025` {{< link/gh 25g70.08 >}} Proposal access problem.
 + `26-jul-2025` {{< link/gh 25g70.07 >}} Tools for reviewing.
 + `26-jul-2025` {{< link/gh 25g70.06 >}} Archive of wag comms.
 + `25-jul-2025` {{< link/gh 25g70.05 >}} Assignment and wag. 
