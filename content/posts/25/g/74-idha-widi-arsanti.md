@@ -11,6 +11,8 @@ url = '25g74'
 
 <!-- more -->
 
++ `28-jul-2025` {{< link/gh 25g74.05 >}} List of current and related research.
++ `27-jul-2025` {{< link/gh 25g74.04 >}} Invitation letter, permit, and plan.
 + `26-jul-2025` {{< link/gh 25g74.03 >}} Invitation letter request for permit.
 + `26-jul-2025` {{< link/gh 25g74.02 >}} Appointment place, date, and time.
 + `25-jul-2025` {{< link/gh 25g74.01 >}} Future collaboration meeting offer.
