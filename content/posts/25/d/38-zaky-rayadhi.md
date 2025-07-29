@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d38'
 +++
 
++ `29-jul-2025` {{< link/gh 25d38.25 >}} Discussion and misunderstanding clarity.
 + `29-jul-2025` {{< link/gh 25d38.25 >}} Rename folder and rearrangement.
 + `28-jul-2025` {{< link/gh 25d38.24 >}} Appointment reschedule.
 + `11-jul-2025` {{< link/gh 25d38.23 >}} Manus-1d not igsc
