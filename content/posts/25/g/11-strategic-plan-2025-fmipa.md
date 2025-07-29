@@ -11,8 +11,16 @@ url = '25g11'
 
 <!-- more -->
 
-+ `23-jul-2025` [`khpmv`](https://osf.io/khpmv) Afternoon meeting and tasks distribution.
-+ `23-jul-2025` [`d564a`](https://osf.io/d564a) Missing archive, too late to record.
-+ `02-jul-2025` [`ey7v9`](https://osf.io/ey7v9) First coordination meeting.
-+ `01-jul-2025` [`p38aj`](https://osf.io/p38aj) Meeting invitation for coordination.
-+ `30-jun-2025` [`u2dyr`](https://osf.io/u2dyr) Introduction and request to join the team.
++ `29-jul-2025` {{< link/gh 25g11.09 >}} A meeting before finalization days.
++ `28-jul-2025` {{< link/gh 25g11.08 >}} Progress presentation central comm.
++ `25-jul-2025` {{< link/gh 25g11.07 >}} No meeting and individual progressing.
++ `24-jul-2025` {{< link/gh 25g11.06 >}} Link to documents in cloud.
++ `23-jul-2025` {{< link/gh 25g11.05 >}} Afternoon meeting and tasks distribution.
++ `23-jul-2025` {{< link/gh 25g11.04 >}} Missing archive, too late to record.
++ `02-jul-2025` {{< link/gh 25g11.03 >}} First coordination meeting.
++ `01-jul-2025` {{< link/gh 25g11.02 >}} Meeting invitation for coordination.
++ `30-jun-2025` {{< link/gh 25g11.01 >}} Introduction and request to join the team.
+
+
+## notes
++ It was on [7kh3w](https://osf.io/7kh3w/).
