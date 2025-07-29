@@ -11,5 +11,6 @@ url = '25g82'
 
 <!-- more -->
 
-+ `24-jul-2025` {{< link/gh 25g82.01 >}} Info about dedicated liaison officer.
++ `29-jul-2025` {{< link/gh 25g82.02 >}} Requested info about cv and abs.
++ `24-jul-2025` {{< link/gh 25g82.02 >}} Info about dedicated liaison officer.
 + `23-jul-2025` {{< link/gh 25g82.01 >}} Offer as invited speaker acceptance.
