@@ -1,0 +1,18 @@
++++
+title = 'sub-data'
+date = '2025-07-29T05:11:38+07:00'
+authors = ['viridi']
+draft = false
+type = 'notes'
+tags = []
+categories = ['data']
+url = '25g78'
++++
+
+<!-- more -->
+
+```
+20250729 15
+20250728 14
+20250727 14
+```
