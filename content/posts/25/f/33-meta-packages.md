@@ -10,7 +10,7 @@ url = '25f33'
 +++
 
 <!-- more -->
-+ `29-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur.
++ `29-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur, mehrmal an der Uni, mehmal am Abend.
 + `28-jul-2025` Schwarzes Singen aber zweimal.
 + `27-jul-2025` Delivery cost for cod.
 + `26-jul-2025` Swaches Gecko-Geräusch am frühen Morgen nach Tahajjud.
