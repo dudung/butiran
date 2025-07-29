@@ -11,7 +11,7 @@ url = '25f69'
 
 <!-- more -->
 
-+ `29-jul-2025` {{< link/gh 25f69.09 >}} Thesis 1 seminar (undocu).
++ `29-jul-2025` {{< link/gh 25f69.09 >}} Thesis 1 seminar and comments.
 + `29-jul-2025` {{< link/gh 25f69.08 >}} Back to github and rearrangement.
 + `24-jul-2025` {{< link/gh 25f69.07 >}} Postpone of seminar to afternoon.
 + `21-jul-2025` {{< link/gh 25f69.06 >}} Determination of thesis-1 seminar date.
@@ -23,5 +23,5 @@ url = '25f69'
 
 
 ## notes
-+ It is on [wh7rs](https://osf.io/wh7rs/).
++ It was on [wh7rs](https://osf.io/wh7rs/).
 + It is part of [25d10](/butiran/25d10/).
