@@ -11,11 +11,13 @@ url = '25g61'
 
 <!-- more -->
 
-+ `30-jul-2025` [`54xv3`](https://osf.io/54xv3) Final seminar at 1000 and comments (undocu).
-+ `22-jul-2025` [`37my4`](https://osf.io/37my4) Thesis draft and presentation files.
-+ `21-jul-2025` [`pd7sj`](https://osf.io/pd7sj) Final seminar date determination.
-+ `14-jul-2025` [`f967t1`](https://osf.io/f967t) Cancellation as examiner.
-+ `20-jun-2025` [`pckny`](https://osf.io/pckny) Self introduction and purpuose.
++ `30-jul-2025` {{< link/gh 25g61.07 >}} Final seminar at 1100 and comments (undocu).
++ `29-jul-2025` {{< link/gh 25g61.06 >}} Copy files from osf to github.
++ `28-jul-2025` {{< link/gh 25g61.05 >}} Schedule delay to 1100 for tomorrow.
++ `22-jul-2025` {{< link/gh 25g61.04 >}} Thesis draft and presentation files.
++ `21-jul-2025` {{< link/gh 25g61.03 >}} Final seminar date determination.
++ `14-jul-2025` {{< link/gh 25g61.02 >}} Cancellation as examiner.
++ `20-jun-2025` {{< link/gh 25g61.01 >}} Self introduction and purpuose.
 
 
 ## notes

@@ -26,8 +26,8 @@ url = '25f68'
 `Mon 21-jul` |     |     |`UR1`|     |     |     |     |
 `Tue 22-jul` |     |`RK1`|`SV4`|     |     |     |     |
 `Wed 23-jul` |     |`FH1`|`IA1`|     |     |     |     |
-`Tue 29-jul` |     |     |`RH1`|     |     |     |     |
-`Wed 30-jul` |     |     |`FZ1`|     |     |     |     |
+`Tue 29-jul` |     |     |     |     |     |     |     |`RH1`
+`Wed 30-jul` |     |     |     |`FZ1`|     |     |     |
 `Thu 31-jul` |     |     |     |     |     |`RH2`|     |`IPB`
 {{< /style >}}
 
