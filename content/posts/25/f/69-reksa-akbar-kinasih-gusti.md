@@ -11,6 +11,7 @@ url = '25f69'
 
 <!-- more -->
 
++ `31-jul-2025` {{< link/gh 25f69.10 >}} Grade of thesis 1.
 + `29-jul-2025` {{< link/gh 25f69.09 >}} Thesis 1 seminar and comments.
 + `29-jul-2025` {{< link/gh 25f69.08 >}} Back to github and rearrangement.
 + `24-jul-2025` {{< link/gh 25f69.07 >}} Postpone of seminar to afternoon.
