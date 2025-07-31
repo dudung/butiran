@@ -11,6 +11,8 @@ url = '25g70'
 
 <!-- more -->
 
++ `31-jul-2025` {{< link/gh 25g70.11 >}} Zoom-2 and wag-2.
++ `30-jul-2025` {{< link/gh 25g70.10 >}} Invitation for zoom-2.
 + `28-jul-2025` {{< link/gh 25g70.09 >}} Reviewing completion.
 + `27-jul-2025` {{< link/gh 25g70.08 >}} Proposal access problem.
 + `26-jul-2025` {{< link/gh 25g70.07 >}} Tools for reviewing.
@@ -20,3 +22,7 @@ url = '25g70'
 + `24-jul-2025` {{< link/gh 25g70.03 >}} Zoom information.
 + `08-jul-2025` {{< link/gh 25g70.02 >}} Form submission.
 + `08-jul-2025` {{< link/gh 25g70.01 >}} Call for reviewers.
+
+
+## notes
++ Some screenshots on 31-jul-2025 are still in the office computer.
