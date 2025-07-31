@@ -11,11 +11,11 @@ url = '25f33'
 
 <!-- more -->
 
-+ `01-aug-2025` Gecko-Geräusch am frühen Morgen vor Tajajjud.
++ `01-aug-2025` Gecko-Geräusch am frühen Morgen vor Tahajjud.
 
 
 ## 25-07
-+ `31-jul-2025` Ein geklebter Hausgecko
++ `31-jul-2025` Ein geklebter Hausgecko, Raupe auf Motorrad-Rückspiegel.
 + `30-jul-2025` Zwei Kakerlaken geklebt.
 + `29-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur, mehrmal an der Uni, mehmal am Abend.
 + `28-jul-2025` Schwarzes Singen aber zweimal.
