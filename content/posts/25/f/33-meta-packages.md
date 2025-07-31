@@ -10,6 +10,11 @@ url = '25f33'
 +++
 
 <!-- more -->
+
++ `01-aug-2025` Gecko-Geräusch am frühen Morgen vor Tajajjud.
+
+
+## 25-07
 + `31-jul-2025` Ein geklebter Hausgecko
 + `30-jul-2025` Zwei Kakerlaken geklebt.
 + `29-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur, mehrmal an der Uni, mehmal am Abend.
@@ -27,10 +32,13 @@ url = '25f33'
 + `09-jul-2025` Austretendes LPG-Gas nach Whoosh.
 + `07-jul-2025` Wurm im Untergeschoss Badezimmer.
 + `06-jul-2025` Wurm im Obergeschoss Badezimmer, geklebte Kakerlake in der Kueche, Katzenkotze auf Motorrad.
-+ `05-jun-2025` Schlecter Furz, Haus Eidechse im Obergeschoss Badezimmer.
-+ `04-jun-2025` Schatten einer sich bewegenden Maus, beim Küchenputzen selbst aufgeklebt.
++ `05-jul-2025` Schlecter Furz, Haus Eidechse im Obergeschoss Badezimmer.
++ `04-jul-2025` Schatten einer sich bewegenden Maus, beim Küchenputzen selbst aufgeklebt.
 + `03-jul-2025` Eine tote Kakerlake im Badezimmer.
 + `01-jul-2025` Vergessene verpackte Maus, leichte Rückseite bestoßen, Geräusche eines Hausgeckos. (:skull_and_crossbones::rat:) (:motor_scooter::collision::oncoming_automobile:) :lizard:
+
+
+## 25-06
 + `30-jun-2025` Schwarzes Singen am Mittag, Teilnehmen der Maus an geklebten Hausgecko und Kakerlake teil am späten Nachmittag. :notes: :rat:
 + `28-jun-2025` Schlecter Furz, noch unklarer Maus-Fußabdruck auf Küchentisch ganz links.
 + `27-jun-2025` Noch unklarer Maus-Fußabdruck auf Küchentisch.
@@ -60,6 +68,9 @@ url = '25f33'
 + `03-jun-2025` Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. :bug: :telephone_receiver:
 + `02-jun-2025` Hausgecko und Erdwurm im Badezimmer, Maden in Mülleimer, Splitt am Dach. :lizard: :worm: :bug: :rock:
 + `01-may-2025` Gewächshausspinne an der Haustür. :spider:
+
+
+## 25-04
 + `31-may-2025` Art von Kakerlaken in Gartenerde. :cockroach:
 + `29-may-2025` Seltsames Lied gesungen beim Nachbarn. :notes:
 + `28-may-2025` Fledermaus morgens herumfliegen. :bat:
