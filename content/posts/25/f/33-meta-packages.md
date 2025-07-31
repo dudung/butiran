@@ -10,6 +10,8 @@ url = '25f33'
 +++
 
 <!-- more -->
++ `31-jul-2025` Ein geklebter Hausgecko
++ `30-jul-2025` Zwei Kakerlaken geklebt.
 + `29-jul-2025` Gecko-Geräusch am frühen Morgen vor Sahur, mehrmal an der Uni, mehmal am Abend.
 + `28-jul-2025` Schwarzes Singen aber zweimal.
 + `27-jul-2025` Delivery cost for cod.
