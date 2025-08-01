@@ -11,7 +11,10 @@ url = '25g65'
 
 <!-- more -->
 
-+ `23-jul-2025` [`tqvnc`](https://osf.io/tqvnc) Intial zoom meeting after tpomi-2025.
++ `01-aug-2025` {{< link/gh 25g65.04 >}} Link to data on certain cloud system.
++ `25-jul-2025` {{< link/gh 25g65.03 >}} Initial data in videos and image.
++ `01-aug-2025` {{< link/gh 25g65.02 >}} Files and folders copying to github.
++ `23-jul-2025` {{< link/gh 25g65.01 >}} Intial zoom meeting after tpomi-2025.
 
 
 ## notes
