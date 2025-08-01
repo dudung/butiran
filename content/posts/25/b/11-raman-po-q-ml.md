@@ -10,6 +10,10 @@ url = '25b11'
 
 <!--more-->
 
+- `01-aug-2025` {{< link/gh 25b11.32 >}} Meeting in lfd, also about cst-level.
+- `31-aug-2025` {{< link/gh 25b11.31 >}} Letter for visit and next meeting info.
+- `01-aug-2025` {{< link/gh 25b11.30 >}} Files and folders copying  to github.
+
 + `24-jul-2025` [`7xbjr`](https://osf.io/7xbjr) Report and monev in gk-ft-ui.
 + `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
 + `23-jul-2025` [`zrtkb`](https://osf.io/zrtkb) Presentation file finalization.
@@ -38,10 +42,10 @@ url = '25b11'
 + `08-nov-2024` [`chu2v`](https://osf.io/chu2v) Drives data info.
 + `07-oct-2024` [`v9bc6`](https://osf.io/v9bc6) Toll tapcash topup.
 + `04-oct-2024` [`24j00`](https://dudung.github.io/rusn/24j00/) Bali sawit meeting.
-  
-  
+ 
+
 ## notes
-+ It is on [s9d2c](https://osf.io/s9d2c/).
++ It is on [s9d2c](https://osf.io/s9d2c/). On 01-aug-2025 rename it from (md-palm-oil-raman) to (raman po-q with ml).
 + It triggers [25g65](/butiran/25g65/).
 + 24-jul-2025`
   - Depart at about 0606 for parking area.

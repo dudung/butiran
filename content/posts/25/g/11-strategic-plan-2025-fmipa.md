@@ -11,6 +11,10 @@ url = '25g11'
 
 <!-- more -->
 
++ `01-aug-2025` {{< link/gh 25g11.13 >}} First day of fgd on trans.
++ `31-jul-2025` {{< link/gh 25g11.12 >}} Update of files and report.
++ `30-jul-2025` {{< link/gh 25g11.11 >}} Invitation for fgd on friday.
++ `29-jul-2025` {{< link/gh 25g11.10 >}} Files and folder copy to github.
 + `29-jul-2025` {{< link/gh 25g11.09 >}} A meeting before finalization days.
 + `28-jul-2025` {{< link/gh 25g11.08 >}} Progress presentation central comm.
 + `25-jul-2025` {{< link/gh 25g11.07 >}} No meeting and individual progressing.
