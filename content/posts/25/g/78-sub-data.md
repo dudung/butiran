@@ -12,6 +12,7 @@ url = '25g78'
 <!-- more -->
 
 ```
+20250802 - (The Trans Mosque, Tel-U Tito, ~2.5 shaf).
 20250801 17
 ```
 
