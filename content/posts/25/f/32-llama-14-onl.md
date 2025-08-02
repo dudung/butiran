@@ -11,6 +11,8 @@ url = '25f32'
 
 <!-- more -->
 
++ `02-aug-2025` {{< link/gh 25f32.19 >}} Revision of ak and questions-requests.
++ `31-jul-2025` {{< link/gh 25f32.18 >}} Notifications of rejection.
 + `31-jul-2025` {{< link/gh 25f32.17 >}} Finalization of ak d-2 and d-3.
 + `27-jul-2025` {{< link/gh 25f32.16 >}} Progress of ak in d-1.
 + `27-jul-2025` {{< link/gh 25f32.15 >}} To current standar of data on github.
