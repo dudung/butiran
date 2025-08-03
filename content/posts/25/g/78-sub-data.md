@@ -12,9 +12,12 @@ url = '25g78'
 <!-- more -->
 
 ```
-20250802 - (The Trans Mosque, Tel-U Tito, ~2.5 shaf).
+20250803 -
+20250802 *
 20250801 17
 ```
+
+\* The Trans Mosque, Tel-U Tito, &approx; &ge; 2.5 shaf.
 
 
 ```
