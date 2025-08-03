@@ -20,3 +20,5 @@ url = '25h04'
 ## notes
 + -, "Tentang Pustaka Data", Pustaka Data, Universitas Gadjah Mada, 2025, url https://pustakadata.id/index.php/tentang/ [20250803].
 + Widyawan, "Pengajuan Akses ke xPlore", Pustaka Data, Universitas Gajah Mada, 2025, url http://ugm.id/39F [20250803].
++ There is other data resources as [25h06](/butiran/25h06/).
+
