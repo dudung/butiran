@@ -11,5 +11,6 @@ url = '25h04'
 
 <!-- more -->
 
-+ `02-aug-2025` {{< link/gh 25h04.02 >}}Info about xplore at pustaka.
++ `03-aug-2025` {{< link/gh 25h04.03 >}} Info on database and data crawler.
++ `02-aug-2025` {{< link/gh 25h04.02 >}} Access offer to xplore at pustaka.
 + `26-apr-2025` {{< link/gh 25h04.01 >}} Lakehouse for ilum at ugm cloud.
