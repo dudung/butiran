@@ -11,7 +11,7 @@ url = '25h05'
 
 <!-- more -->
 
-+ `08-jul-2025` {{< link/gh 25h05.00 >}} Final project topics to other dept.
++ `08-jul-2025` {{< link/gh 25h05.00 >}} Final project topics to other dept (cyber).
 
 
 ## notes
