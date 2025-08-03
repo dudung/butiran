@@ -11,6 +11,8 @@ url = '25g82'
 
 <!-- more -->
 
++ `04-aug-2025` {{< link/gh 25g82.08 >}} Shuttle info and schedule change.
++ `04-aug-2025` {{< link/gh 25g82.07 >}} Presentation file to dedicated lo.
 + `03-aug-2025` {{< link/gh 25g82.06 >}} Conference program schedule email.
 + `31-aug-2025` {{< link/gh 25g82.05 >}} Info about presentation template. 
 + `30-jul-2025` {{< link/gh 25g82.04 >}} Delivery of requested abs and cv.
