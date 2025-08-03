@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `03-aug-2025` Kurzatmigkeit am frühen Morgen.
++ `03-aug-2025` Kurzatmigkeit am frühen Morgen wegen der gestrigen Fitness.
 + `02-aug-2025` Zwei unbekannte Pakete, über den Zaun geworfen.
 + `01-aug-2025` Gecko-Geräusch am frühen Morgen vor Tahajjud, der geklebte Hausgecko
 vom Maus gefressen.
