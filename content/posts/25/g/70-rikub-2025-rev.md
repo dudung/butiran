@@ -11,6 +11,8 @@ url = '25g70'
 
 <!-- more -->
 
++ `04-aug-2025` {{< link/gh 25g70.14 >}} Downloaded proposal to process.
++ `04-aug-2025` {{< link/gh 25g70.13 >}} Undocumentend chats via wag.
 + `01-aug-2025` {{< link/gh 25g70.12 >}} Other's assigned proposals access problem, comms.
 + `31-jul-2025` {{< link/gh 25g70.11 >}} Zoom-2 and wag-2.
 + `30-jul-2025` {{< link/gh 25g70.10 >}} Invitation for zoom-2.
