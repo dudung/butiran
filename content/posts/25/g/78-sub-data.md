@@ -12,13 +12,15 @@ url = '25g78'
 <!-- more -->
 
 ```
-20250804 9
+20250805 15
+20250804 9 (*2)
 20250803 -
-20250802 *
+20250802 (*1)
 20250801 17
 ```
 
-\* The Trans Mosque, Tel-U Tito, &approx; &ge; 2.5 shaf.
+\*2 Golf Mosque Jatinangor = 4.
+\*1 The Trans Mosque, Tel-U Tito, &approx; &ge; 2.5 shaf.
 
 
 ```
