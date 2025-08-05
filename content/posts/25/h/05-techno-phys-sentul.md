@@ -11,6 +11,7 @@ url = '25h05'
 
 <!-- more -->
 
++ `05-aug-2025` {{< link/gh 25h05.09 >}} Draft of teaching scenarion for week-02.
 + `03-aug-2025` {{< link/gh 25h05.08 >}} Discussion of weekly teaching plan (draft).
 + `03-aug-2025` {{< link/gh 25h05.07 >}} Teaching patner introduction and comms.
 + `02-aug-2025` {{< link/gh 25h05.06 >}} Course session schedule week-01.
