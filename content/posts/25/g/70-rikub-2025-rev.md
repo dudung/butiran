@@ -11,6 +11,7 @@ url = '25g70'
 
 <!-- more -->
 
++ `05-aug-2025` {{< link/gh 25g70.15 >}} Review process without budget analysis.
 + `04-aug-2025` {{< link/gh 25g70.14 >}} Downloaded proposal to process.
 + `04-aug-2025` {{< link/gh 25g70.13 >}} Undocumentend chats via wag.
 + `01-aug-2025` {{< link/gh 25g70.12 >}} Other's assigned proposals access problem, comms.

@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `04-aug-2025` Gecko-Geräusch in Moschee am Golf-JTN, Brille im Urin.
++ `05-aug-2025` Gecko-Geräusch in Moschee am Golf-JTN, Brille im Urin, Schwarzes Singen mit Discussion.
 + `04-aug-2025` Gecko-Geräusch in Moschee.
 + `03-aug-2025` Kurzatmigkeit am frühen Morgen wegen der gestrigen Fitness.
 + `02-aug-2025` Zwei unbekannte Pakete, über den Zaun geworfen.
