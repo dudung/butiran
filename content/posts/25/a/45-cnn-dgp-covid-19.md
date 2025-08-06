@@ -10,26 +10,27 @@ url = '25a45'
 
 <!--more-->
 
-+ `08-jul-2025` [`5eqrv`](https://osf.io/5eqrv) Final seminar and comments.
-+ `29-jun-2025` [`3m4cp`](https://osf.io/3m4cp) Status with editor for jcmds.
-+ `07-jul-2025` [`zc674`](https://osf.io/zc674) Contribution verification and registration to jcmds.
-+ `07-jul-2025` [`kxh9f`](https://osf.io/kxh9f) Registration to health analytics.
-+ `07-jul-2025` [`7bfst`](https://osf.io/7bfst) Thesis II report and presentation.
-+ `04-jul-2025` [`5mgb6`](https://osf.io/5mgb6) Forgotten invitation.
-+ `03-jul-2025` [`8qf25`](https://osf.io/8qf25) Schedule for thesis II seminar.
-+ `17-jun-2025` [`whdua`](https://osf.io/whdua) Submission to healthcare analytics.
-+ `29-may-2025` [`tue6z`](https://osf.io/tue6z) Online progress report.
-+ `27-may-2025` [`63ymx`](https://osf.io/63ymx) Thesis II progress, ch 3-4.
-+ `16-jan-2025` [`tvs9g`](https://osf.io/tvs9g) Thesis I seminar.
-+ `13-jan-2025` [`xk7g2`](https://osf.io/xk7g2) Thesis I report. 
-+ `13-dec-2024` [`ybq3h`](https://osf.io/ybq3h) Proposal seminar.
-+ `11-dec-2024` [`aks3f`](https://osf.io/aks3f) Proposal reprot
-+ `09-dec-2024` [`c54sx`](https://osf.io/c54sx) Chapters 1 and 2 draft.
-+ `25-nov-2024` [`5q2wh`](https://osf.io/5q2wh) Supervision form. 
++ `07-aug-2025` {{< link/gh 25a45.17 >}} Files and folder copying to gh.
++ `04-jul-2025` {{< link/gh 25a45.16 >}} Forgotten invitation.
++ `08-jul-2025` {{< link/gh 25a45.15 >}} Final seminar and comments.
++ `29-jun-2025` {{< link/gh 25a45.14 >}} Status with editor for jcmds.
++ `07-jul-2025` {{< link/gh 25a45.13 >}} Contribution verification and registration to jcmds.
++ `07-jul-2025` {{< link/gh 25a45.12 >}} Registration to health analytics.
++ `07-jul-2025` {{< link/gh 25a45.11 >}} Thesis II report and presentation.
++ `03-jul-2025` {{< link/gh 25a45.10 >}} Schedule for thesis II seminar.
++ `17-jun-2025` {{< link/gh 25a45.09 >}} Submission to healthcare analytics.
++ `29-may-2025` {{< link/gh 25a45.08 >}} Online progress report.
++ `27-may-2025` {{< link/gh 25a45.07 >}} Thesis II progress, ch 3-4.
++ `16-jan-2025` {{< link/gh 25a45.06 >}} Thesis I seminar.
++ `13-jan-2025` {{< link/gh 25a45.05 >}} Thesis I report. 
++ `13-dec-2024` {{< link/gh 25a45.04 >}} Proposal seminar.
++ `11-dec-2024` {{< link/gh 25a45.03 >}} Proposal reprot
++ `09-dec-2024` {{< link/gh 25a45.02 >}} Chapters 1 and 2 draft.
++ `25-nov-2024` {{< link/gh 25a45.01 >}} Supervision form. 
 
 
 ## notes
-+ It is on [sn83g](https://osf.io/sn83g/).
++ It was on [sn83g](https://osf.io/sn83g/).
 + Confusion matrix for x-ray medical image in 27-may-2025 report.
   ```
        | 0 | 341 |   0 |   1
