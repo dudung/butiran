@@ -24,6 +24,7 @@ url = '25g74'
 
 
 ## notes
++ This note is derivation of [25d65](/butiran/25d65/).
 + The place is BPPSDMP [^google_maps_2025a].
 
 

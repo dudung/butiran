@@ -10,10 +10,10 @@ url = '25b11'
 
 <!--more-->
 
-- `01-aug-2025` {{< link/gh 25b11.32 >}} Meeting in lfd, also about cst-level.
-- `31-aug-2025` {{< link/gh 25b11.31 >}} Letter for visit and next meeting info.
-- `01-aug-2025` {{< link/gh 25b11.30 >}} Several files and folders copying to gh.
-
++ `07-aug-2025` {{< link/gh 25b11.33 >}} Info from na about ig of tpomi-2025.
++ `01-aug-2025` {{< link/gh 25b11.32 >}} Meeting in lfd, also about cst-level.
++ `31-aug-2025` {{< link/gh 25b11.31 >}} Letter for visit and next meeting info.
++ `01-aug-2025` {{< link/gh 25b11.30 >}} Several files and folders copying to gh.
 + `24-jul-2025` [`7xbjr`](https://osf.io/7xbjr) Report and monev in gk-ft-ui.
 + `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
 + `23-jul-2025` [`zrtkb`](https://osf.io/zrtkb) Presentation file finalization.
@@ -45,6 +45,7 @@ url = '25b11'
  
 
 ## notes
++ There is a interview on [DMznREPtWNs](https://www.instagram.com/reel/DMznREPtWNs/). `33`
 + It is on [s9d2c](https://osf.io/s9d2c/). On 01-aug-2025 rename it from (md-palm-oil-raman) to (raman po-q with ml).
 + It triggers [25g65](/butiran/25g65/).
 + 24-jul-2025`
