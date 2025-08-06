@@ -11,7 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
-+ `06-aug-2025` Juckreiz an den Füßen seit gestern, Gecko-Geräusch in Moschee
++ `06-aug-2025` Juckreiz an den Füßen seit gestern, Gecko-Geräusch in Moschee, rotes linkes Auge der Frau.
 + `05-aug-2025` Gecko-Geräusch in Moschee am Golf-JTN, Brille im Urin, Schwarzes Singen mit Discussion.
 + `04-aug-2025` Gecko-Geräusch in Moschee.
 + `03-aug-2025` Kurzatmigkeit am frühen Morgen wegen der gestrigen Fitness.
