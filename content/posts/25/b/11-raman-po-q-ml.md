@@ -12,7 +12,7 @@ url = '25b11'
 
 - `01-aug-2025` {{< link/gh 25b11.32 >}} Meeting in lfd, also about cst-level.
 - `31-aug-2025` {{< link/gh 25b11.31 >}} Letter for visit and next meeting info.
-- `01-aug-2025` {{< link/gh 25b11.30 >}} Files and folders copying  to github.
+- `01-aug-2025` {{< link/gh 25b11.30 >}} Several files and folders copying to gh.
 
 + `24-jul-2025` [`7xbjr`](https://osf.io/7xbjr) Report and monev in gk-ft-ui.
 + `23-jul-2025` [`hvxgw`](https://osf.io/hvxgw) Info of venue change for tomorrow.
