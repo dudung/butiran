@@ -11,6 +11,7 @@ url = '25h16'
 
 <!-- more -->
 
++ `08-aug-2025` {{< link/gh 25h16.07 >}} Visit to techno-sci-cent gdbg microscopy (undocu)
 + `07-aug-2025` {{< link/gh 25h16.06 >}} An uncertain time for the meetup (undocu).
 + `06-aug-2025` {{< link/gh 25h16.05 >}} Info of a microscopy physicist visit.
 
