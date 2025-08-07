@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `07-aug-2025` Eine geklebte Maus in der Küche.
++ `08-aug-2025` Kellerspinne im unteren Badezimmer.
++ `07-aug-2025` Bananenspinne auf dem Vorhang vor dem Fenster, eine geklebte Maus in der Küche, vibrierende Glasfenster am Abend.
 + `06-aug-2025` Juckreiz an den Füßen seit gestern, Gecko-Geräusch in Moschee, rotes linkes Auge der Frau, Hausgecko in Bibliothek.
 + `05-aug-2025` Gecko-Geräusch in Moschee am Golf-JTN, Brille im Urin, Schwarzes Singen mit Discussion.
 + `04-aug-2025` Gecko-Geräusch in Moschee.

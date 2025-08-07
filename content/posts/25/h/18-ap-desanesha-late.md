@@ -14,3 +14,7 @@ url = '25h18'
 + `07-aug-2025` {{< link/gh 25h18.03 >}} Proposal completion and submission.
 + `07-aug-2025` {{< link/gh 25h18.02 >}} Late response to the system deadline.
 + `04-aug-2025` {{< link/gh 25h18.01 >}} Unofficial offer while in pips-2025.
+
+
+## notes
++ Related note is [25g82](/butiran/25g82/).
