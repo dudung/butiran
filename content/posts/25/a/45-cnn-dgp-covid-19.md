@@ -10,6 +10,7 @@ url = '25a45'
 
 <!--more-->
 
++ `08-aug-2025` {{< link/gh 25a45.18 >}} Thesis signing at tecno-sci-cent gdbg (undocu).
 + `07-aug-2025` {{< link/gh 25a45.17 >}} Files and folder copying to gh.
 + `04-jul-2025` {{< link/gh 25a45.16 >}} Forgotten invitation.
 + `08-jul-2025` {{< link/gh 25a45.15 >}} Final seminar and comments.
