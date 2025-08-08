@@ -11,7 +11,7 @@ url = '25h18'
 
 <!-- more -->
 
-+ `08-aug-2025` {{< link/gh 25h18.06 >}} Proposal resubmission with missing wa and wrong lingkar.
++ `08-aug-2025` {{< link/gh 25h18.06 >}} Proposal resubmission, missing wa, wrong lingkar.
 + `08-aug-2025` {{< link/gh 25h18.05 >}} Access to desanesha application.
 + `07-aug-2025` {{< link/gh 25h18.04 >}} Submission cancellation request.
 + `07-aug-2025` {{< link/gh 25h18.03 >}} Proposal completion and submission.
