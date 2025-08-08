@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `09-aug-2025` Zu müde und schläfrig.
 + `08-aug-2025` Kellerspinne im unteren Badezimmer.
 + `07-aug-2025` Bananenspinne auf dem Vorhang vor dem Fenster, eine geklebte Maus in der Küche, vibrierende Glasfenster am Abend.
 + `06-aug-2025` Juckreiz an den Füßen seit gestern, Gecko-Geräusch in Moschee, rotes linkes Auge der Frau, Hausgecko in Bibliothek.
