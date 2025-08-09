@@ -11,42 +11,47 @@ url = '25d66'
 
 <!-- more -->
 
-+ `dd-mmm-yyyy` [`xxxxx`]() Submission last communications.
-+ `14-jul-2025` [`2khgc`](https://osf.io/2khgc) Copy raw data form google drive to osf.
-+ `13-jul-2024` [`8c2hg`](https://osf.io/8c2hg) Final manuscript upload but in pdf.
-+ `12-jul-2025` [`szw4n`](https://osf.io/szw4n) Copy files and folders back to osf.
-+ `24-jun-2025` [`09a8d`](https://github.com/dudung/ips-unj-2025-fm/blob/main/31_manus_init_draft/README.md) Manuscript intial draft.
-+ `23-jun-2025` [`35936`](https://github.com/dudung/ips-unj-2025-fm/tree/main/30_manus_template_dates) Manuscript template and submission dates.
-+ `21-jun-2025` [`9c89a`](https://github.com/dudung/ips-unj-2025-fm/blob/main/29_seminar_day/README.md) Seminar day of ips-unj-2025.
-+ `19-jun-2025` [`d4f74`](https://github.com/dudung/ips-unj-2025-fm/blob/main/28_input_code_one_comp/README.md) Code on onecompiler for generating input abm-aor.
-+ `18-jun-2025` [`8f1ab`](https://github.com/dudung/ips-unj-2025-fm/blob/main/27_zoom_analysis_1_simul_1/README.md) Zoom slides, quant-analys v1, simul-abm-aor v1. 
-+ `18-jun-2025` [`65948`](https://github.com/dudung/ips-unj-2025-fm/blob/main/26_to_github/README.md) Migration of files to github from osf.
-+ `17-jun-2025` [`r2gyh`](https://osf.io/r2gyh) Zoom plan for presentation preparation on 18. 
-+ `16-jun-2025` [`2ncw3`](https://osf.io/2ncw3) Complete UI design without simulation.
-+ `16-jun-2025` [`nsqym`](https://osf.io/nsqym) Experimental data on google drive.
-+ `08-jun-2025` [`raqbu`](https://osf.io/raqbu) UI design for walls input.
-+ `07-jun-2025` [`qv6bu`](https://osf.io/qv6bu) Individual abs page, 148 [^shadiq_2025] & 201 [^kusuma_2025].
-+ `03-jun-2025` [`q3ygx`](https://osf.io/q3ygx) Initial experiment discussion.
-+ `02-jun-2025` [`6nzys`](https://osf.io/6nzys) Plan to start experiment.
-+ `01-jun-2025` [`etxk9`](https://osf.io/etxk9) Payment receipt to ki-fm.
-+ `30-may-2025` [`7uwek`](https://osf.io/7uwek) Attendance confirmation.
-+ `26-may-2025` [`37pna`](https://osf.io/37pna) Experiment sop v2.
-+ `25-may-2025` [`ej68b`](https://osf.io/ej68b) Payment confirmation request.
-+ `25-may-2025` [`mwpse`](https://osf.io/mwpse) Bought materials delivered.
-+ `24-may-2025` [`nexdf`](https://osf.io/nexdf) First meeting of authors (-1).
-+ `24-may-2025` [`m9y3g`](https://osf.io/m9y3g) Invoice, payment, letters of something.
-+ `21-may-2025` [`ae2y7`](https://osf.io/ae2y7) WAG creation.
-+ `11-may-2025` [`tca7z`](https://osf.io/tca7z) Abstract submission finalization.
-+ `09-may-2025` [`hnas4`](https://osf.io/hnas4) Check the deadline, today is h-2.
-+ `28-apr-2025` [`czqt6`](https://osf.io/czqt6) Experiment sop (putri draft).
-+ `26-apr-2025` [`cbqtz`](https://osf.io/cbqtz) Abstract deadline extension, butiran note.
-+ `21-apr-2025` [`xhm9k`](https://osf.io/xhm9k) Account creation for ips-unj 2025.
-+ `27-mar-2025` [`ng24t`](https://osf.io/ng24t) Road to ips-unj 2025 wag.
-+ `27-mar-2025` [`h7n4d`](https://osf.io/h7n4d) Set topic to abm for angle of repose.
-+ `02-mar-2025` [`69t4f`](https://osf.io/69t4f) Info about ips-unj-2025.
-+ `01-mar-2025` [`je5hq`](https://osf.io/je5hq) A previous work in physics.
-+ `26-feb-2025` [`xb93h`](https://osf.io/xb93h) First meetup at etitu.
-+ `10-feb-2025` [`v9jp4`](https://osf.io/v9jp4) Initial discussion.
++ `09-aug-2025` {{< link/gh 25d66.40 >}} Files-folder copying and renaming, back2gh.
++ `01-aug-2025` {{< link/gh 25d66.39 >}} Revised manuscript v9.
++ `01-aug-2025` {{< link/gh 25d66.38 >}} Deadline extension to 10-aug-2025.
++ `29-jul-2025` {{< link/gh 25d66.37 >}} Deadline extension to 02-aug-2025.
++ `28-jul-2025` {{< link/gh 25d66.36 >}} Committee review result.
++ `22-jul-2025` {{< link/gh 25d66.35 >}} Committee wag information.
++ `14-jul-2025` {{< link/gh 25d66.34 >}} Copy raw data form google drive to osf.
++ `13-jul-2024` {{< link/gh 25d66.33 >}} Final manuscript upload but in pdf.
++ `12-jul-2025` {{< link/gh 25d66.32 >}} Copy files and folders back to osf.
++ `24-jun-2025` {{< link/gh 25d66.31 >}} Manuscript intial draft.
++ `23-jun-2025` {{< link/gh 25d66.30 >}} Manuscript template and submission dates.
++ `21-jun-2025` {{< link/gh 25d66.29 >}} Seminar day of ips-unj-2025.
++ `19-jun-2025` {{< link/gh 25d66.28 >}} Code on onecompiler for generating input abm-aor.
++ `18-jun-2025` {{< link/gh 25d66.27 >}} Zoom slides, quant-analys v1, simul-abm-aor v1. 
++ `18-jun-2025` {{< link/gh 25d66.26 >}} Migration of files to github from osf.
++ `17-jun-2025` {{< link/gh 25d66.25 >}} Zoom plan for presentation preparation on 18. 
++ `16-jun-2025` {{< link/gh 25d66.24 >}} Complete UI design without simulation.
++ `16-jun-2025` {{< link/gh 25d66.23 >}} Experimental data on google drive.
++ `08-jun-2025` {{< link/gh 25d66.22 >}} UI design for walls input.
++ `07-jun-2025` {{< link/gh 25d66.21 >}} Individual abs page, 148 [^shadiq_2025] & 201 [^kusuma_2025].
++ `03-jun-2025` {{< link/gh 25d66.20 >}} Initial experiment discussion.
++ `02-jun-2025` {{< link/gh 25d66.19 >}} Plan to start experiment.
++ `01-jun-2025` {{< link/gh 25d66.18 >}} Payment receipt to ki-fm.
++ `30-may-2025` {{< link/gh 25d66.17 >}} Attendance confirmation.
++ `26-may-2025` {{< link/gh 25d66.16 >}} Experiment sop v2.
++ `25-may-2025` {{< link/gh 25d66.15 >}} Payment confirmation request.
++ `25-may-2025` {{< link/gh 25d66.14 >}} Bought materials delivered.
++ `24-may-2025` {{< link/gh 25d66.13 >}} First meeting of authors (-1).
++ `24-may-2025` {{< link/gh 25d66.12 >}} Invoice, payment, letters of something.
++ `21-may-2025` {{< link/gh 25d66.11 >}} WAG creation.
++ `11-may-2025` {{< link/gh 25d66.10 >}} Abstract submission finalization.
++ `09-may-2025` {{< link/gh 25d66.09 >}} Check the deadline, today is h-2.
++ `28-apr-2025` {{< link/gh 25d66.08 >}} Experiment sop (putri draft).
++ `26-apr-2025` {{< link/gh 25d66.07 >}} Abstract deadline extension, butiran note.
++ `21-apr-2025` {{< link/gh 25d66.06 >}} Account creation for ips-unj 2025.
++ `27-mar-2025` {{< link/gh 25d66.05 >}} Road to ips-unj 2025 wag.
++ `27-mar-2025` {{< link/gh 25d66.04 >}} Set topic to abm for angle of repose.
++ `02-mar-2025` {{< link/gh 25d66.03 >}} Info about ips-unj-2025.
++ `01-mar-2025` {{< link/gh 25d66.02 >}} A previous work in physics.
++ `26-feb-2025` {{< link/gh 25d66.01 >}} First meetup at etitu.
++ `10-feb-2025` {{< link/gh 25d66.00 >}} Initial discussion.
 
 
 ## aims
@@ -54,6 +59,11 @@ url = '25d66'
 2. To repeat prevuous experimental work [^widartiningish_2022] for other granular materials.
 3. To map the relation between simulation and experiment through motion probability matrix.
 4. To determine whether rule of mixture that holds for experiment also holds for the simulation. 
+
+
+## notes
+- It was on [bje7r](https://osf.io/bje7r/).
+- It was rename from `ips-unj-2025-fm` to `25d66` on osf.
 
 
 ## refs
