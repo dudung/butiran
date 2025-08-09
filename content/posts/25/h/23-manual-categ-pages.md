@@ -24,4 +24,4 @@ url = '25h23'
 [^gpt-5_2025a]: GPT-5, "Model version clarification", ChatGPT, 9 Aug 2025, url https://chatgpt.com/share/6897449f-179c-800a-a36d-374c43d5737c [20250809].
 [^gpt-5_2025b]: GPT-5, "Blog setup suggestions", ChatGPT, 9 Aug 2025, url https://chatgpt.com/share/6897453f-73ac-800a-98b6-d4b3e2cf344b [20250809].
 [^gpt-5_2025c]: GPT-5, "Hugo home page redirect", ChatGPT, 9 Aug 2025, url https://chatgpt.com/share/689747df-6968-800a-8088-f1f6764cb6df [20250809].
-[^gpt-5_2025d]: GPT-5, "Shortcodes in _index.md", ChatGPT, 9 Aug 2025, url [20250809].
+[^gpt-5_2025d]: GPT-5, "Shortcodes in _index.md", ChatGPT, 9 Aug 2025, url https://chatgpt.com/share/68974e7c-43c8-800a-aa26-1bd6762a9122 [20250809].
