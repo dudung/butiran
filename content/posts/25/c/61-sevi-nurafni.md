@@ -9,35 +9,19 @@ categories = ['users']
 url = '25c61'
 +++
 
-+ `09-jun-2025` [`jtu3b`](https://osf.io/jtu3b) Orientation completed and stoppu.
-+ `04-jun-2025` [`zqvwy`](https://osf.io/zqvwy) Forgotten first day greeting.
-+ `26-may-2025` [`p3atf`](https://osf.io/p3atf) Resignment info.
-+ `23-may-2025` [`akqw3`](https://osf.io/akqw3) Offline meeting on website.
-+ `21-may-2025` [`pkzj5`](https://osf.io/pkzj5) Government employee info. 
-+ `10-apr-2025` [`hkxu3`](https://osf.io/hkxu3) Discussion about abm.
-+ `25-mar-2025` [`grpw3`](https://osf.io/grpw3) Offline meetup 2025.
-+ `08-nov-2022` [`s92cf`](https://osf.io/s92cf) Events in 2021-2022.
-+ `22-aug-2022` [`8eqwt`](https://osf.io/8eqwt) Online thesis seminar.
++ `09-aug-2025` {{< link/gh 25c61.16 >}} Obituary as-hlm-wife info as asked.
++ `10-jul-2025` {{< link/gh 25c61.15 >}} Archive of chat from 10-jun to 26-jul.
++ `09-aug-2025` {{< link/gh 25c61.14 >}} Copy files and folders from osf to github.
++ `09-jun-2025` {{< link/gh 25c61.13 >}} Orientation completed and stoppu.
++ `04-jun-2025` {{< link/gh 25c61.12 >}} Forgotten first day greeting.
++ `26-may-2025` {{< link/gh 25c61.11 >}} Resignment info.
++ `23-may-2025` {{< link/gh 25c61.10 >}} Offline meeting on website.
++ `21-may-2025` {{< link/gh 25c61.09 >}} Government employee info. 
++ `10-apr-2025` {{< link/gh 25c61.08 >}} Discussion about abm.
++ `25-mar-2025` {{< link/gh 25c61.07 >}} Offline meetup 2025.
++ `08-nov-2022` {{< link/gh 25c61.05 >}} Events in 2021-2022.
++ `22-aug-2022` {{< link/gh 25c61.04 >}} Online thesis seminar.
 
 
-<!--
-25-mar-2025
-{{< details >}}
-+ ~1726 The OSF still can not be accessed~.
-+ [`pvu96`](https://osf.io/pvu96) Example of Credly certificate Anys Mechanics.
-{{< /details >}}
--->
-
-## folders
-+ 10_website_discussion_rev &check;
-+ 09_gov_employee_info &check;
-+ 08_abm_discussion &check;
-+ 07_offline_meetup &check;
-+ 06_wa_comms &cross;
-+ 05_files_nov2022  &check;
-+ 04_20220822_sidang_thesis  &check;
-+ 03_pubs &cross;
-+ 02_temp &cross;
-+ 01_info &cross;
-
-Symbols: &check; available, &cross; to be furhter collected.
+## notes
++ It was on [https://osf.io/8ngfc/](8ngfc).

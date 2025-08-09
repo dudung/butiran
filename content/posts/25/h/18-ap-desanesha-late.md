@@ -11,6 +11,7 @@ url = '25h18'
 
 <!-- more -->
 
++ `09-aug-2025` {{< link/gh 25h18.07 >}} In waiting list of dean approval, system info.
 + `08-aug-2025` {{< link/gh 25h18.06 >}} Proposal resubmission, missing wa, wrong lingkar.
 + `08-aug-2025` {{< link/gh 25h18.05 >}} Access to desanesha application.
 + `07-aug-2025` {{< link/gh 25h18.04 >}} Submission cancellation request.
