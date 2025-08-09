@@ -12,9 +12,12 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
++ `09-aug-2025` {{< link/gh 24l05.27 >}} Other work submission as overtake and reminder.
++ `30-jul-2025` {{< link/gh 24l05.26 >}} Distraction as cs-head candidation.
++ `02-aug-2025` {{< link/gh 24l05.25 >}} Reminders on 25-jul and 02-aug.
 + `09-aug-2025` {{< link/gh 24l05.24 >}} Copy folders and file to github.
 + `22-jul-2025` {{< link/gh 24l05.23 >}} Update info on bkd and jakad-dos.
-+ `20-jul-2025` {{< link/gh 24l05.22 >}} Distraction and support, candidation as pack leader.
++ `20-jul-2025` {{< link/gh 24l05.22 >}} Distraction and support, candidation as fi-pack leader.
 + `15-jul-2025` {{< link/gh 24l05.21 >}} Discussion on manuscript v5_20250715 and refs.
 + `08-jul-2025` {{< link/gh 24l05.20 >}} Reminder and manusript v4rev_mm25a.
 + `30-jun-2025` {{< link/gh 24l05.19 >}} Limitation to termination of prisma.
