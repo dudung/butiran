@@ -1,7 +1,8 @@
 <div class="platform-card" style="
   display: inline-block;
   vertical-align: top;
-  width: 200px;
+  width: 150px;
+  height: 160px; /* fixed card height */
   margin: 0.5em;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -10,13 +11,24 @@
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
 ">
   {{ if .Get "logo" }}
-    <img src="{{ .Get "logo" | relURL }}" alt="{{ .Get "name" }} logo"
-         style="max-width: 100px; height: auto; display: block; margin: 0 auto;">
+    <div style="
+      height: 50px; /* fixed logo area height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.5em;
+    ">
+      <img 
+        src="{{ .Get "logo" }}" 
+        alt="{{ .Get "name" }} logo" 
+        style="max-height: {{ with .Get "logo-height" }}{{ . }}{{ else }}100%{{ end }}; max-width: 100%;">
+    </div>
   {{ end }}
-  <h3 style="margin:0.2em 0;">{{ .Get "name" }}</h3>
-  <p style="margin:0.2em 0 0; color:#555;">
+  <h3 style="margin:0.2em 0; font-size: 1.1em;">{{ .Get "name" }}</h3>
+  <p style="margin:0.2em 0 0; color:#555; font-size: 0.9em;">
     {{ .Get "count" }} works
     &nbsp;|&nbsp;
     <a href="{{ .Get "link" }}">View all</a>
