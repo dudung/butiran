@@ -63,7 +63,7 @@ url = '25d66'
 
 ## notes
 - It was on [bje7r](https://osf.io/bje7r/).
-- It was rename from `ips-unj-2025-fm` to `25d66` on osf.
+- It was renamed from `ips-unj-2025-fm` to `25d66` on osf.
 
 
 ## refs
