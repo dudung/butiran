@@ -2,6 +2,8 @@
 draft = false
 +++
 
+&nbsp; Numbers are updated manually on 10-aug-2025.
+
 {{< card/platform
   name="arXiv"
   logo="images/logos/arxiv.svg"
@@ -28,6 +30,15 @@ draft = false
   label="pens"
   since="2023"
   link="https://codepen.io/6unpnp/pens/public"
+>}}
+
+{{< card/platform
+  name="Flickr"
+  logo="images/logos/flickr.svg"
+  count="56"
+  label="photos"
+  since="2022"
+  link="https://www.flickr.com/people/195637519@N06/"
 >}}
 
 {{< card/platform
@@ -208,4 +219,14 @@ draft = false
   count="77"
   since="2018"
   link="https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Viridi%22&l=list&p=8&s=10&sort=bestmatch"
+>}}
+
+{{< card/platform
+  name="X"
+  logo="images/logos/x.svg"
+  logo-height="80%"
+  count="256"
+  label="posts"
+  since="2021"
+  link="https://x.com/6unpnp"
 >}}
