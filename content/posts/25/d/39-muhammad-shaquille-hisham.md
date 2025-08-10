@@ -9,6 +9,10 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `10-aug-2205` {{< link/gh 25d39.23 >}} Copy folders and file to gh from osf.
++ `04-aug-2025` [`qe3hm`](https://osf.io/qe3hm) Email from morressier system.
++ `31-jul-2025` [`2xfpr`](https://osf.io/2xfpr) To morressier submit permission.
++ `17-jul-2025` [`xzjf8`](https://osf.io/xzjf8) Book of ta-2 signing.
 + `15-jul-2025` [`qswbu`](https://osf.io/qswbu) Final bachelor seminar.
 + `14-jul-2025` [`dfh65`](https://osf.io/dfh65) Presentation file for final seminar.
 + `13-jul-2025` [`md9qe`](https://osf.io/md9qe) Submitted paper for ips-unj-2025.
@@ -33,7 +37,7 @@ url = '25d39'
 ## notes
 + It is on [`mc9gj`](https://osf.io/mc9gj/).
 + There are dicussion with AI assistance about MLIP (Machine Learning Interatomic Potential) [^gpt-4o_2025a] and related to it [^gpt-4o_2025b], [^gpt-4o_2025c].
-+ Uni not updated on 15-jul-2025 at 2033.
++ Uni ~not~ updated on 15-jul-2025 ~at 2033~.
 
 
 ## refs
