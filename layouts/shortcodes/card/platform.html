@@ -1,8 +1,9 @@
-<div class="platform-card" style="
+<style>
+.platform-card {
   display: inline-block;
   vertical-align: top;
-  width: 150px;
-  height: 160px; /* fixed card height */
+  width: 160px;
+  height: 180px; /* slightly taller to fit 'since' */
   margin: 0.5em;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -12,25 +13,46 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
-">
+}
+
+.platform-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.platform-card .logo-container {
+  height: 50px; /* fixed logo area height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.platform-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+</style>
+
+<div class="platform-card">
   {{ if .Get "logo" }}
-    <div style="
-      height: 50px; /* fixed logo area height */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 0.5em;
-    ">
+    <div class="logo-container">
       <img 
         src="{{ .Get "logo" }}" 
         alt="{{ .Get "name" }} logo" 
-        style="max-height: {{ with .Get "logo-height" }}{{ . }}{{ else }}100%{{ end }}; max-width: 100%;">
+        style="{{ with .Get "logo-height" }}height: {{ . }};{{ end }}">
     </div>
   {{ end }}
   <h3 style="margin:0.2em 0; font-size: 1.1em;">{{ .Get "name" }}</h3>
   <p style="margin:0.2em 0 0; color:#555; font-size: 0.9em;">
-    {{ .Get "count" }} works
-    &nbsp;|&nbsp;
-    <a href="{{ .Get "link" }}">View all</a>
+    {{ .Get "count" }} {{ with .Get "label" }}{{ . }}{{ else }}works{{ end }}
   </p>
+  <p style="margin:0.2em 0 0; color:#888; font-size: 0.8em;">
+    <a href="{{ .Get "link" }}" target="_blank">View all</a>
+  </p>
+  {{ with .Get "since" }}
+    <p style="margin:0.2em 0 0; color:#888; font-size: 0.8em;">
+      Since {{ . }}
+    </p>
+  {{ end }}
 </div>
