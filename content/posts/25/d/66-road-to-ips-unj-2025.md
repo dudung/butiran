@@ -11,6 +11,8 @@ url = '25d66'
 
 <!-- more -->
 
++ `10-aug-2025` {{< link/gh 25d66.42 >}} Revised paper to morressier submission. 
++ `10-aug-2025` {{< link/gh 25d66.41 >}} Revised paper to interconf submission.
 + `09-aug-2025` {{< link/gh 25d66.40 >}} Files-folder copying and renaming, back2gh.
 + `01-aug-2025` {{< link/gh 25d66.39 >}} Revised manuscript v9.
 + `01-aug-2025` {{< link/gh 25d66.38 >}} Deadline extension to 10-aug-2025.
