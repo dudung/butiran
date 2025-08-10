@@ -141,10 +141,10 @@ draft = false
 {{< card/platform
   name="Stack Overflow"
   logo="images/logos/stack_overflow.svg"
-  count="779"
-  label="reputations"
+  count="40"
+  label="posts"
   since="2014"
-  link="https://www.slideshare.net/sparisoma"
+  link="https://stackoverflow.com/users/9475509"
 >}}
 
 {{< card/platform
