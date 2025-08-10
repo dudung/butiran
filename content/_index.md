@@ -67,6 +67,15 @@ draft = false
 >}}
 
 {{< card/platform
+  name="llama"
+  logo="images/logos/llama.svg"
+  count="14"
+  label="assignments"
+  since="2024"
+  link="/butiran/25h26/"
+>}}
+
+{{< card/platform
   name="Medium"
   logo="images/logos/medium.svg"
   count="215"
@@ -145,6 +154,15 @@ draft = false
   label="posts"
   since="2014"
   link="https://stackoverflow.com/users/9475509"
+>}}
+
+{{< card/platform
+  name="users"
+  logo="images/logos/users.svg"
+  count="0"
+  label="users"
+  since="2000"
+  link="/butiran/"
 >}}
 
 {{< card/platform
