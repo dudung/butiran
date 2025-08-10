@@ -3,10 +3,10 @@
   display: inline-block;
   vertical-align: top;
   width: 160px;
-  height: 180px; /* slightly taller to fit 'since' */
-  margin: 0.5em;
+  height: 190px;
+  margin: 0.3em 0.2em;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 1em;
   text-align: center;
   background-color: #fff;
@@ -47,12 +47,12 @@
   <p style="margin:0.2em 0 0; color:#555; font-size: 0.9em;">
     {{ .Get "count" }} {{ with .Get "label" }}{{ . }}{{ else }}works{{ end }}
   </p>
-  <p style="margin:0.2em 0 0; color:#888; font-size: 0.8em;">
-    <a href="{{ .Get "link" }}" target="_blank">View all</a>
-  </p>
   {{ with .Get "since" }}
     <p style="margin:0.2em 0 0; color:#888; font-size: 0.8em;">
       Since {{ . }}
     </p>
   {{ end }}
+  <p style="margin:0.2em 0 0; color:#555; font-size: 0.9em;">
+    <a href="{{ .Get "link" }}" target="_blank">View all</a>
+  </p>
 </div>

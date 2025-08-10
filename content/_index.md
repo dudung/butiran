@@ -5,6 +5,7 @@ draft = false
 {{< card/platform
   name="arXiv"
   logo="images/logos/arxiv.svg"
+  logo-height="80%"
   count="41"
   label="articles"
   since="2011"
@@ -39,12 +40,12 @@ draft = false
 >}}
 
 {{< card/platform
-  name="Instagram"
-  logo="images/logos/instagram.svg"
-  count="576"
-  label="posts"
-  since="2022"
-  link="https://www.instagram.com/6unpnp/"
+  name="Google Scholar"
+  logo="images/logos/google_scholar.svg"
+  count="362"
+  label="articles"
+  since="1998"
+  link="https://scholar.google.com/citations?user=_HjSaE0AAAAJ&hl=en"
 >}}
 
 {{< card/platform
@@ -54,6 +55,15 @@ draft = false
   label="drawings"
   since="2022"
   link="https://inkscape.org/~dudung/resources/"
+>}}
+
+{{< card/platform
+  name="Instagram"
+  logo="images/logos/instagram.svg"
+  count="576"
+  label="posts"
+  since="2022"
+  link="https://www.instagram.com/6unpnp/"
 >}}
 
 {{< card/platform
@@ -74,7 +84,13 @@ draft = false
   link="https://onecompiler.com/users/3xmpf3wcs"
 >}}
 
-{{< card/platform name="ORCID" count="0" link="" logo="images/logos/orcid.svg" >}}
+{{< card/platform
+  name="ORCID"
+  logo="images/logos/orcid.svg"
+  count="56"
+  since="2014"
+  link="https://orcid.org/0000-0002-7588-4539"
+>}}
 
 {{< card/platform
   name="OSF"
@@ -88,10 +104,29 @@ draft = false
 {{< card/platform
   name="ResearchGate"
   logo="images/logos/researchgate.svg"
-  count="0"
-  since=""
-  link=""
+  count="314"
+  label="research"
+  since="2011"
+  link="https://www.researchgate.net/profile/Sparisoma-Viridi"
   logo-height="120%"
+>}}
+
+{{< card/platform
+  name="Scopus"
+  logo="images/logos/scopus.svg"
+  count="163"
+  label="documents"
+  since="2006"
+  link="https://www.scopus.com/authid/detail.uri?authorId=14829794900"
+>}}
+
+{{< card/platform
+  name="Sinta"
+  logo="images/logos/sinta.svg"
+  count="0"
+  label="outputs"
+  since="2006"
+  link="https://sinta.kemdikbud.go.id/authors/profile/6032157"
 >}}
 
 {{< card/platform
@@ -100,6 +135,15 @@ draft = false
   count="105"
   label="presentations"
   since="2011"
+  link="https://www.slideshare.net/sparisoma"
+>}}
+
+{{< card/platform
+  name="Stack Overflow"
+  logo="images/logos/stack_overflow.svg"
+  count="779"
+  label="reputations"
+  since="2014"
   link="https://www.slideshare.net/sparisoma"
 >}}
 
@@ -133,11 +177,11 @@ draft = false
 {{< card/platform
   name="YouTube"
   logo="images/logos/youtube.svg"
+  logo-height="80%"
   count="121"
   label="videos"
   since="2014"
   link="https://www.youtube.com/@6unpnp/"
-  logo-height="80%"
 >}}
 
 {{< card/platform
