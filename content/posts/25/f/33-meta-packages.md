@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `10-aug-2025` Eine Spitzmaus Maus in der Küche, schwarzes Singen am Nachmittag.
++ `11-aug-2025` Eine Kakerlake geklebt in der Küche, ein kleiner Tausendfüßler in Badezimmer.
++ `10-aug-2025` Eine Spitzmaus Maus in der Küche, schwarzes Singen am Nachmittag, eine Kakerlake im Badezimmer, auch ein kleiner Tausendfüßler.
 + `09-aug-2025` Zu müde und schläfrig.
 + `08-aug-2025` Kellerspinne im unteren Badezimmer.
 + `07-aug-2025` Bananenspinne auf dem Vorhang vor dem Fenster, eine geklebte Maus in der Küche, vibrierende Glasfenster am Abend, rotes linkes Auge noch.

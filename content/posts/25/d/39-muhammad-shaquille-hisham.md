@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `11-aug-2025` {{< link/gh 25d39.24 >}} Final draft download from morressier.
 + `10-aug-2205` {{< link/gh 25d39.23 >}} Copy folders and file to gh from osf.
 + `04-aug-2025` [`qe3hm`](https://osf.io/qe3hm) Email from morressier system.
 + `31-jul-2025` [`2xfpr`](https://osf.io/2xfpr) To morressier submit permission.
