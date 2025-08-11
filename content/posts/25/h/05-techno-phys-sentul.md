@@ -11,9 +11,6 @@ url = '25h05'
 
 <!-- more -->
 
-+ `05-aug-2025` {{< link/gh 25h05.09 >}} Draft of teaching scenarion for week-02.
-+ `03-aug-2025` {{< link/gh 25h05.08 >}} Discussion of weekly teaching plan (draft).
-+ `03-aug-2025` {{< link/gh 25h05.07 >}} Teaching patner introduction and comms.
 + `02-aug-2025` {{< link/gh 25h05.06 >}} Course session schedule week-01.
 + `01-aug-2025` {{< link/gh 25h05.05 >}} Coordination meeting for new semester.
 + `31-jul-2025` {{< link/gh 25h05.04 >}} Format for rps and cv, new format cv request. 
@@ -24,4 +21,5 @@ url = '25h05'
 
 
 ## notes
++ On `11-aug-2025` items 07-09 in previous numbering are moved to [25h30](/butiran/25h30/) for more focused.
 + Previous contribution was with cyber, and currect proposed one is with techno.
