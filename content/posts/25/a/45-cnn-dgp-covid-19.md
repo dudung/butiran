@@ -10,6 +10,8 @@ url = '25a45'
 
 <!--more-->
 
++ `16-jul-2025` {{< link/gh 25a45.21 >}} Missing co-authorship confirmation.
++ `11-aug-2025` {{< link/gh 25a45.20 >}} Co-authorship confirmation.
 + `08-aug-2025` {{< link/gh 25a45.19 >}} Final revision, digital version.
 + `08-aug-2025` {{< link/gh 25a45.18 >}} Thesis signing at tecno-sci-cent gdbg.
 + `07-aug-2025` {{< link/gh 25a45.17 >}} Files and folder copying to gh.
@@ -32,6 +34,7 @@ url = '25a45'
 
 
 ## notes
++ On 11-aug-2025 registration to a system is on [25h29](/butiran/25h29/).
 + It was on [sn83g](https://osf.io/sn83g/).
 + Confusion matrix for x-ray medical image in 27-may-2025 report.
   ```
