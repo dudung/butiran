@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `12-aug-2025` Plastikdeckel abfällen, Seifenbehälter sich verschieben.
 + `11-aug-2025` Eine Kakerlake geklebt in der Küche, ein kleiner Tausendfüßler in Badezimmer.
 + `10-aug-2025` Eine Spitzmaus Maus in der Küche, schwarzes Singen am Nachmittag, eine Kakerlake im Badezimmer, auch ein kleiner Tausendfüßler.
 + `09-aug-2025` Zu müde und schläfrig.
