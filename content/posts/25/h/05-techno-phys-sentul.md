@@ -11,6 +11,7 @@ url = '25h05'
 
 <!-- more -->
 
++ `11-aug-2025` {{< link/gh 25h05.07 >}} Request of administrative requirements.
 + `02-aug-2025` {{< link/gh 25h05.06 >}} Course session schedule week-01.
 + `01-aug-2025` {{< link/gh 25h05.05 >}} Coordination meeting for new semester.
 + `31-jul-2025` {{< link/gh 25h05.04 >}} Format for rps and cv, new format cv request. 
