@@ -18,4 +18,4 @@ url = '25h20'
 
 
 ## notes
-+ Online meeting-1 will be on Tue, 19-aug-2025, 10.30 GMT+07.
++ Online meeting-1 will be on Tue, 19-aug-2025, 10:00-10:30 GMT+07.
