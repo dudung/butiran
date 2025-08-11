@@ -11,6 +11,8 @@ url = '25d65'
 
 <!-- more -->
 
++ `11-aug-2025` {{< link/gh 25d65.35 >}} Members data request for patent proposal.
++ `08-aug-2025` {{< link/gh 25d65.34 >}} Notulen for tu-6 from ma-ss.
 + `07-aug-2025` {{< link/gh 25d65.33 >}} Discussion in tu-6 about 1230.
 + `06-aug-2025` {{< link/gh 25d65.32 >}} Invitation for discussion in tu-7.
 + `30-jul-2025` {{< link/gh 25d65.31 >}} The fgd-1 on gas emission research.
