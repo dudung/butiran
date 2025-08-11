@@ -11,7 +11,7 @@ url = '25d65'
 
 <!-- more -->
 
-+ `07-aug-2025` {{< link/gh 25d65.33 >}} Discussion in tu-7 about 1230 (undocu).
++ `07-aug-2025` {{< link/gh 25d65.33 >}} Discussion in tu-6 about 1230.
 + `06-aug-2025` {{< link/gh 25d65.32 >}} Invitation for discussion in tu-7.
 + `30-jul-2025` {{< link/gh 25d65.31 >}} The fgd-1 on gas emission research.
 + `29-jul-2025` {{< link/gh 25d65.30 >}} Preparation fo invitation to fgd-1.
