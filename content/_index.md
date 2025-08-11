@@ -62,7 +62,7 @@ draft = false
 {{< card/platform
   name="Inkscape"
   logo="images/logos/inkscape.svg"
-  count="216"
+  count="16"
   label="drawings"
   since="2022"
   link="https://inkscape.org/~dudung/resources/"
