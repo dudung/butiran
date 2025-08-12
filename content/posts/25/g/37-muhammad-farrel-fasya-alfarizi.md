@@ -11,14 +11,16 @@ url = '25g37'
 
 <!-- more -->
 
-+ `22-jul-2025` [`uh2vb`](https://osf.io/uh2vb) Final seminar and comments.
-+ `21-jul-2025` [`rph5k`](https://osf.io/rph5k) Presentation file.
-+ `17-jul-2025` [`h8qz7`](https://osf.io/h8qz7) Final seminar date and ta-2 draft.
-+ `15-jul-2025` [`3hrxk`](https://osf.io/3hrxk) Proposal seminar and comments.
-+ `14-jul-2025` [`ry63b`](https://osf.io/ry63b) Presentation slide.
-+ `08-jul-2025` [`uerns`](https://osf.io/uerns) Proposal of bachelor thesis.
-+ `08-jul-2025` [`e4n6y`](https://osf.io/e4n6y) Seminar date confirmation.
-+ `01-jul-2025` [`j3n7r`](https://osf.io/j3n7r) Self introduction and purpose.
++ `12-aug-2025` {{< link/gh 25g37.10 >}} Revision of ta-2 via wa comm.
++ `12-aug-2025` {{< link/gh 25g37.09 >}} Copy folders and file from osf to gh.
++ `22-jul-2025` {{< link/gh 25g37.08 >}} Final seminar and comments.
++ `21-jul-2025` {{< link/gh 25g37.07 >}} Presentation file.
++ `17-jul-2025` {{< link/gh 25g37.06 >}} Final seminar date and ta-2 draft.
++ `15-jul-2025` {{< link/gh 25g37.05 >}} Proposal seminar and comments.
++ `14-jul-2025` {{< link/gh 25g37.04 >}} Presentation slide.
++ `08-jul-2025` {{< link/gh 25g37.03 >}} Proposal of bachelor thesis.
++ `08-jul-2025` {{< link/gh 25g37.02 >}} Seminar date confirmation.
++ `01-jul-2025` {{< link/gh 25g37.01 >}} Self introduction and purpose.
 
 
 ## notes
