@@ -11,6 +11,8 @@ url = '25g70'
 
 <!-- more -->
 
++ `13-aug-2025` {{< link/gh 25g70.17 >}} Invitation and permission request.
++ `12-aug-2025` {{< link/gh 25g70.16 >}} Online meeting info for interview.
 + `05-aug-2025` {{< link/gh 25g70.15 >}} Review process without budget analysis.
 + `04-aug-2025` {{< link/gh 25g70.14 >}} Downloaded proposal to process.
 + `04-aug-2025` {{< link/gh 25g70.13 >}} Undocumentend chats via wag.
