@@ -11,6 +11,8 @@ url = '25h17'
 
 <!-- more -->
 
++ `13-aug-2025` {{< link/gh 25h17.12 >}} Visit to stia lan for init collab.
++ `13-aug-2025` {{< link/gh 25h17.11 >}} Visit mwa to f/s for aspiration.
 + `07-aug-2025` {{< link/gh 25h17.10 >}} Cerem-10y ppnn pau-8f sat-9 1000.
 + `06-aug-2025` {{< link/gh 25h17.09 >}} Nobel talk in 1201 at sat-9 0800.
 + `06-aug-2025` {{< link/gh 25h17.08 >}} Format ceremony of labek-xv.
