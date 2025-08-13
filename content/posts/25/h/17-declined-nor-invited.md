@@ -26,6 +26,7 @@ url = '25h17'
 
 
 ## notes
++ Item 12 triggers [25h38](/butiran/25h38/).
 + Rename folders to sort by date on 13-aug-2025.
 + This note acts as entrance gate for unplanned meeting, which may trigger the creation of other note(s), but not always. Some might just end here.
 + BPMI Setpres, "Presiden Prabowo Tegaskan KSTI 2025 Harus Bebas dari Politisasi: Fokus pada Ilmu, Sains, dan Teknologi", Presiden Republik Indonesia, 7 Aug 2025, url https://www.presidenri.go.id/siaran-pers/presiden-prabowo-tegaskan-ksti-2025-harus-bebas-dari-politisasi-fokus-pada-ilmu-sains-dan-teknologi/ [20250807].

@@ -11,4 +11,5 @@ url = '25h35'
 
 <!-- more -->
 
++ `14-aug-2025` Hero &lt; Subuh &gt; Bumil, Hero.
 + `13-aug-2025` Hero &lt; Subuh &gt; Bumil, Hero &rightarrow; Pororo-Sokkaki &cross;.

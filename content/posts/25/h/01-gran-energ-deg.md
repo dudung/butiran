@@ -11,5 +11,6 @@ url = '25h01'
 
 <!-- more -->
 
++ `14-aug-2025` {{< link/gh 25h01.02 >}} Postponed offline meeting on progress (undocu).
 + `31-jul-2025` {{< link/gh 25h01.01 >}} Initial sketch of grain energy deg.
 
