@@ -4,8 +4,8 @@ date = '2025-06-02T03:44:15+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
-tags = []
-categories = ['metaphysics']
+tags = ['metaphysics']
+categories = ['data']
 url = '25f33'
 +++
 
