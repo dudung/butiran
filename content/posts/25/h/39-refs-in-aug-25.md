@@ -10,3 +10,5 @@ url = '25h39'
 +++
 
 <!-- more -->
+
++ `01-aug-2025` {{< link/gh 25h39.01 >}} Unofficial english version of mein kampf.
