@@ -1,5 +1,5 @@
 +++
-title = 'info of univ-uuk'
+title = 'info of univ-uuk & dpi'
 date = '2025-08-15T17:16:22+07:00'
 authors = ['viridi']
 draft = false
