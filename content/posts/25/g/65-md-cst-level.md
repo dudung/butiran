@@ -20,7 +20,8 @@ url = '25g65'
 
 
 ## notes
-+ It is on [v8nfs](https://osf.io/v8nfs/).
++ It requires univ-uuk for legality as informed [25h42](/butiran/25h42/).
++ It was on [v8nfs](https://osf.io/v8nfs/).
 + It is triggered by an activity in [25b11](/butiran/25b11/).
 + There are discussion about fluid layers in tank [^gpt-4o_2025a] and simulation of the cpo separation process [^gpt-4o_2025b].
 
