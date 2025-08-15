@@ -11,6 +11,7 @@ url = '25h42'
 
 <!-- more -->
 
++ `16-aug-2025` {{< link/gh 25h42.02 >}} Info about dpi from wh and search results.
 + `15-aug-2025` {{< link/gh 25h42.01 >}} Initial info about uuk via ja-halid.
 
 
