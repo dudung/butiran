@@ -11,6 +11,8 @@ url = '25g65'
 
 <!-- more -->
 
++ `15-aug-2025` {{< link/gh 25g65.06 >}} Sample arrival and request (-2).
++ `12-aug-2025` {{< link/gh 25g65.05 >}} Initial presentation slide for bga.
 + `01-aug-2025` {{< link/gh 25g65.04 >}} Link to data on certain cloud system.
 + `25-jul-2025` {{< link/gh 25g65.03 >}} Initial data in videos and image.
 + `01-aug-2025` {{< link/gh 25g65.02 >}} Files and folders copying to github.
