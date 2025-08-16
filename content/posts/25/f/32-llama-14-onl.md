@@ -11,7 +11,9 @@ url = '25f32'
 
 <!-- more -->
 
-+ `03-aug-2025` {{< link/gh 25f32.20 >}} Submission ofl al to the system.
++ `17-aug-2025` {{< link/gh 25f32.23 >}} Unofficial short note about the indicators.
++ `16-aug-2025` {{< link/gh 25f32.22 >}} Info not-selected in iaps-3.0 standard.
++ `03-aug-2025` {{< link/gh 25f32.21 >}} Submission ofl al to the system.
 + `02-aug-2025` {{< link/gh 25f32.20 >}} Download tpal and lha for visit simulation.
 + `02-aug-2025` {{< link/gh 25f32.19 >}} Revision of ak and questions-requests.
 + `31-jul-2025` {{< link/gh 25f32.18 >}} Notifications of rejection.
