@@ -38,7 +38,7 @@
   {{ if .Get "logo" }}
     <div class="logo-container">
       <img 
-        src="{{ .Get "logo" }}" 
+        src="/butiran/{{ .Get "logo" }}" 
         alt="{{ .Get "name" }} logo" 
         style="{{ with .Get "logo-height" }}height: {{ . }};{{ end }}">
     </div>

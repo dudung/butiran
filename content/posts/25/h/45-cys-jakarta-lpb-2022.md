@@ -11,4 +11,5 @@ url = '25h45'
 
 <!-- more -->
 
-+ `17-aug-2025` {{< link/gh 25h45.01 >}} jury f/s-uni lpb-2022.
++ `17-aug-2025` {{< link/gh 25h45.02 >}} Closing of the wag.
++ `12-dec-2022` {{< link/gh 25h45.01 >}} Cert-no 3355/CYS/12/S/2022.
