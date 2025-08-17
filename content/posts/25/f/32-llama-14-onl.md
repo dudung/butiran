@@ -11,7 +11,7 @@ url = '25f32'
 
 <!-- more -->
 
-+ `17-aug-2025` {{< link/gh 25f32.23 >}} Unofficial short note about the ones.
++ `17-aug-2025` {{< link/gh 25f32.23 >}} Unofficial unformated note about the ones.
 + `16-aug-2025` {{< link/gh 25f32.22 >}} Info not-selected in iaps-3.0 standard.
 + `03-aug-2025` {{< link/gh 25f32.21 >}} Submission ofl al to the system.
 + `02-aug-2025` {{< link/gh 25f32.20 >}} Download tpal and lha for visit simulation.
