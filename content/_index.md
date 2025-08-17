@@ -3,8 +3,15 @@ draft = false
 +++
 
 {{< card/category
-  name="users"
-  logo="images/logos/users.svg"
-  count="41"
-  link="https://arxiv.org/a/viridi_s_1.html"
+  name="research"
+  logo="images/logos/experiment.svg"
+  count="0"
+  link=""
+>}}
+
+{{< card/category
+  name="courses"
+  logo="images/logos/blackboard.svg"
+  count="0"
+  link=""
 >}}

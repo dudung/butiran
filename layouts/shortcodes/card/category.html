@@ -1,0 +1,76 @@
+<style>
+.category-card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between; /* space between top row and bottom */
+  width: 80px;
+  height: 80px;
+  margin: 0.3em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+.category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.category-card .logo-container {
+  width: 20px;
+  height: 20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.category-card img, .category-card svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+.category-card .count {
+  font-size: 0.75em;
+  color:#888;
+}
+.category-card .title-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;      /* vertically center if short */
+  justify-content: center;
+  text-align: center;
+  padding: 0 6px;
+}
+.category-card .title {
+  font-weight: 600;
+  font-size: 0.85em;
+  line-height: 1.1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;    /* up to 3 lines */
+  overflow: hidden;
+  word-break: break-word;
+}
+</style>
+
+<a class="category-card" href="{{ .Get "link" }}">
+  <div class="top-row">
+    {{ with .Get "logo" }}
+    <div class="logo-container">
+      <img src="{{ . }}" alt="{{ $.Get "name" }} logo" loading="lazy">
+    </div>
+    {{ end }}
+    <div class="count">{{ .Get "count" }}</div>
+  </div>
+  <div class="title-wrapper">
+    <div class="title">{{ .Get "name" }}</div>
+  </div>
+</a>
