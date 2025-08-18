@@ -13,6 +13,7 @@ url = '25f33'
 
 + `18-aug-2025` Ein kleiner Tausendfüßler vor unteres Badezimmer, noch ein bisschen Fieber.
 + `17-aug-2025` Nicht zu Sub, das Pinkel am morgen, ein bisschen Fieber, fließende Nase.
++ `16-aug-2025` Sehr kalte Luft, Hausgecko vor der Wand der Bibliothek draußen.
 + `13-aug-2025` Tote Kakerlaken vor Badezimmer und Glasstür, eine andere Kakerlake geklebt, Auto-Frontlicht vergessen einzuschalten.
 + `12-aug-2025` Plastikdeckel abfällen, Seifenbehälter sich verschieben.
 + `11-aug-2025` Eine Kakerlake geklebt in der Küche, ein kleiner Tausendfüßler in Badezimmer.
