@@ -41,7 +41,7 @@ draft = false
   name="proposals"
   logo="images/symbols/upload.svg"
   count="3"
-  link="/butiran/25h52/"
+  link="/butiran/25h53/"
 >}}
 
 {{< card/category
