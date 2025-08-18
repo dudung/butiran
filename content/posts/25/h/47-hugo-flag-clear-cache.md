@@ -16,6 +16,10 @@ Some notes while running hugo for butiran.
 
 ## notes
 + To run hugo sever for draft posts with a completely fresh build [^gpt-5_2025a].
+  ```cmd
+  hugo -D --ignoreCache --cleanDestinationDir
+  ```
+  The short flag `-D` has a long form `--buildDrafts`.
 
 
 ## refs
