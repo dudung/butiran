@@ -41,14 +41,14 @@ draft = false
   name="proposals"
   logo="images/symbols/upload.svg"
   count="3"
-  link="/butiran/25h53/"
+  link="/butiran/25h52/"
 >}}
 
 {{< card/category
   name="research"
   logo="images/symbols/experiment.svg"
   count="1"
-  link="/butiran/25h52/"
+  link="/butiran/25h53/"
 >}}
 
 {{< card/category
