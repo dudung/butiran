@@ -54,8 +54,8 @@ draft = false
 {{< card/category
   name="reviews"
   logo="images/symbols/todo.svg"
-  count="0"
-  link=""
+  count="1"
+  link="/butiran/25h56/"
 >}}
 
 {{< card/category
@@ -63,4 +63,11 @@ draft = false
   logo="images/symbols/writing.svg"
   count="2"
   link="/butiran/25h54/"
+>}}
+
+{{< card/category
+  name="trainings"
+  logo="images/symbols/calibration.svg"
+  count="0"
+  link="/butiran/"
 >}}
