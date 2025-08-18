@@ -26,7 +26,7 @@ draft = false
 {{< card/category
   name="meetups"
   logo="images/symbols/teamwork.svg"
-  count="0"
+  count="1"
   link="/butiran/25h55/"
 >}}
 
@@ -47,7 +47,7 @@ draft = false
 {{< card/category
   name="research"
   logo="images/symbols/experiment.svg"
-  count="1"
+  count="2"
   link="/butiran/25h53/"
 >}}
 
@@ -61,6 +61,6 @@ draft = false
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="1"
+  count="2"
   link="/butiran/25h54/"
 >}}

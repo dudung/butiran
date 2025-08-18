@@ -11,7 +11,7 @@ url = '25h55'
 
 <!-- more -->
 
-+ `dd-mmm-yyy` [`nnnnn`](/butiran/) Information about a meetup.
++ `26-apr-2025` [`25d66`](/butiran/25d66/) Angle of repose with abm, exp, vrh analysis. &check; &rightarrow;
 
 
 ## notes
