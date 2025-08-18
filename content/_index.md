@@ -40,15 +40,15 @@ draft = false
 {{< card/category
   name="proposals"
   logo="images/symbols/upload.svg"
-  count="0"
-  link=""
+  count="3"
+  link="/butiran/25h52/"
 >}}
 
 {{< card/category
   name="research"
   logo="images/symbols/experiment.svg"
-  count="0"
-  link=""
+  count="1"
+  link="/butiran/25h52/"
 >}}
 
 {{< card/category
