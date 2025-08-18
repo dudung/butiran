@@ -17,6 +17,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="data"
+  logo="images/symbols/data.svg"
+  count="3"
+  link="/butiran/25h49/"
+>}}
+
+{{< card/category
   name="meetups"
   logo="images/symbols/teamwork.svg"
   count="0"
