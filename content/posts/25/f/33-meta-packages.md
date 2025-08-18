@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `19-aug-2025` Essen Rest rundherum wegen Maus (wegen Asin?).
 + `18-aug-2025` Ein kleiner Tausendfüßler vor unteres Badezimmer, noch ein bisschen Fieber, eine Maus vor der Glastür am Abend.
 + `17-aug-2025` Nicht zu Sub, das Pinkel am morgen, ein bisschen Fieber, fließende Nase.
 + `16-aug-2025` Sehr kalte Luft, Hausgecko vor der Wand der Bibliothek draußen.
