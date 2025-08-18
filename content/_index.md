@@ -54,14 +54,14 @@ draft = false
 {{< card/category
   name="reviews"
   logo="images/symbols/todo.svg"
-  count="1"
+  count="2"
   link="/butiran/25h56/"
 >}}
 
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="2"
+  count="3"
   link="/butiran/25h54/"
 >}}
 

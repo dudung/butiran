@@ -10,6 +10,10 @@ url = '25a45'
 
 <!--more-->
 
++ `18-aug-2025` {{< link/gh 25a45.25 >}} Review results and informing author-1.
++ `11-aug-2025` {{< link/gh 25a45.24 >}} Info about under peer-review stage. 
++ `11-aug-2025` {{< link/gh 25a45.23 >}} Registration to mdpi journal system.
++ `04-aug-2025` {{< link/gh 25a45.22 >}} Missing info resubmission to ai journal.
 + `16-jul-2025` {{< link/gh 25a45.21 >}} Missing co-authorship confirmation.
 + `11-aug-2025` {{< link/gh 25a45.20 >}} Co-authorship confirmation.
 + `08-aug-2025` {{< link/gh 25a45.19 >}} Final revision, digital version.
