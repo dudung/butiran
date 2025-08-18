@@ -3,43 +3,57 @@ draft = false
 +++
 
 {{< card/category
+  name="butiran"
+  logo="images/symbols/script.svg"
+  count="0"
+  link=""
+>}}
+
+{{< card/category
   name="courses"
-  logo="images/logos/blackboard.svg"
+  logo="images/symbols/blackboard.svg"
   count="0"
   link=""
 >}}
 
 {{< card/category
   name="meetups"
-  logo="images/logos/teamwork.svg"
+  logo="images/symbols/teamwork.svg"
   count="0"
   link=""
 >}}
 
 {{< card/category
   name="notes"
-  logo="images/logos/calendar.svg"
+  logo="images/symbols/calendar.svg"
   count="0"
   link=""
 >}}
 
 {{< card/category
   name="proposals"
-  logo="images/logos/upload.svg"
+  logo="images/symbols/upload.svg"
   count="0"
   link=""
 >}}
 
 {{< card/category
   name="research"
-  logo="images/logos/experiment.svg"
+  logo="images/symbols/experiment.svg"
+  count="0"
+  link=""
+>}}
+
+{{< card/category
+  name="reviews"
+  logo="images/symbols/todo.svg"
   count="0"
   link=""
 >}}
 
 {{< card/category
   name="scripta"
-  logo="images/logos/writing.svg"
+  logo="images/symbols/writing.svg"
   count="0"
   link=""
 >}}
