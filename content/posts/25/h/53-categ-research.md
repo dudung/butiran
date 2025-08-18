@@ -15,5 +15,5 @@ url = '25h53'
 
 
 ## notes
-+ Previous note is [25h52](/butiran/25h52/).
 + Next note is [25h54](/butiran/25h54/).
++ Previous note is [25h52](/butiran/25h52/).
