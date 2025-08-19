@@ -11,7 +11,12 @@ url = '25g70'
 
 <!-- more -->
 
-+ `15-aug-2205` {{< link/gh 25g70.20 >}} Interview-1 on friday (undocu).
++ `19-aug-2205` {{< link/gh 25g70.25 >}} Online presentation and review d-3 (undocu).
++ `19-aug-2205` {{< link/gh 25g70.24 >}} Online presentation and review d-2 (undocu).
++ `19-aug-2205` {{< link/gh 25g70.23 >}} Online presentation and review d-1.
++ `19-aug-2205` {{< link/gh 25g70.22 >}} Permission request for online review.
++ `xx-aug-2025` {{< link/gh 25g70.21 >}} Missing and undocumented info.
++ `15-aug-2205` {{< link/gh 25g70.20 >}} Interview-1 on friday (cancelled).
 + `14-aug-2525` {{< link/gh 25g70.19 >}} Permission for friday interview.
 + `14-aug-2025` {{< link/gh 25g70.18 >}} Pre-interview zoom.
 + `13-aug-2025` {{< link/gh 25g70.17 >}} Invitation and permission request, granted (+1).
