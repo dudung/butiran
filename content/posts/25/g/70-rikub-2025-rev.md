@@ -11,8 +11,8 @@ url = '25g70'
 
 <!-- more -->
 
-+ `19-aug-2205` {{< link/gh 25g70.25 >}} Online presentation and review d-3 (undocu).
-+ `19-aug-2205` {{< link/gh 25g70.24 >}} Online presentation and review d-2 (undocu).
++ `21-aug-2205` {{< link/gh 25g70.25 >}} Online presentation and review d-3 (undocu).
++ `20-aug-2205` {{< link/gh 25g70.24 >}} Online presentation and review d-2 (undocu).
 + `19-aug-2205` {{< link/gh 25g70.23 >}} Online presentation and review d-1.
 + `19-aug-2205` {{< link/gh 25g70.22 >}} Permission request for online review.
 + `xx-aug-2025` {{< link/gh 25g70.21 >}} Missing and undocumented info.
