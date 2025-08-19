@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
++ `19-aug-2025` &lt; subuh &gt; Bumil, Hero, Yellow (in the far).
 + `18-aug-2025` &lt; subuh &gt; Hero, Bumil (ins Hause wegen Hero).
 + `16-aug-2025` Bumil &lt; subuh &gt;
 + `14-aug-2025` Hero &lt; subuh &gt; Bumil, Hero; &lt; maghrib &gt; Hero.
