@@ -13,6 +13,7 @@ url = '25h53'
 
 + `04-apr-2025` [`25d11`](/butiran/25d11/) Spectral identification of np aggregates with ml. &check; &rightarrow;
 + `26-apr-2025` [`25d66`](/butiran/25d66/) Angle of repose with abm, exp, vrh analysis. &check; &rightarrow;
++ `06-mar-2025` [`25c16`](/butiran/25c16/) Investigation effect of si-np on rice plant.
 
 
 ## notes

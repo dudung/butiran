@@ -14,6 +14,7 @@ url = '25h52'
 + `18-aug-2025` [`25h51`](/butiran/25h51/) Industry invitation for product downstreaming.
 + `07-aug-2025` [`25h18`](/butiran/25h18/) Community service of village stem development.
 + `04-apr-2025` [`25d11`](/butiran/25d11/) Spectral identification of np aggregates with ml. &cross; &rightarrow;
++ `06-mar-2025` [`25c16`](/butiran/25c16/) Investigation effect of si-np on rice plant. &check; &rightarrow;
 
 
 ## notes
