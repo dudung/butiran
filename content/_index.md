@@ -71,3 +71,10 @@ draft = false
   count="2"
   link="/butiran/25h57/"
 >}}
+
+{{< card/category
+  name="users"
+  logo="images/symbols/users.svg"
+  count="2"
+  link="/butiran/25h64/"
+>}}
