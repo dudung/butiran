@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `20-aug-2025` Stimme eines Hausgeckos w&auml;hrend Subuh.
++ `21-aug-2025` Stimme eines Hausgeckos w&auml;hrend Subuh.
++ `20-aug-2025` Stimme eines Hausgeckos w&auml;hrend Subuh, Hausgeckos an der Vorwand des Hauptschlafzimmers.
 + `19-aug-2025` Essen Rest rundherum wegen Maus (wegen Asin?), am Abend drei Housgecko vor der Wand der Bibliothek draußen.
 + `18-aug-2025` Ein kleiner Tausendfüßler vor unteres Badezimmer, noch ein bisschen Fieber, eine Maus vor der Glastür am Abend.
 + `17-aug-2025` Nicht zu Sub, das Pinkel am morgen, ein bisschen Fieber, fließende Nase.
