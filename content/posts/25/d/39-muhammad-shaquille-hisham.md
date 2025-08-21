@@ -9,6 +9,7 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `21-aug-2025` {{< link/gh 25d39.26 >}} Offer of graduate in materials informatics.
 + `20-aug-2025` {{< link/gh 25d39.25 >}} Info about ips manuscript in morressier system.
 + `11-aug-2025` {{< link/gh 25d39.24 >}} Final draft download from morressier.
 + `10-aug-2205` {{< link/gh 25d39.23 >}} Copy folders and file to gh from osf.
