@@ -11,7 +11,7 @@ url = '25h67'
 
 <!-- more -->
 
-+ '19-aug-2025' {{< link/gh 25h67.01 >}} Initial offline discussion.
++ `19-aug-2025` {{< link/gh 25h67.01 >}} Initial offline discussion.
 
 
 ## notes
