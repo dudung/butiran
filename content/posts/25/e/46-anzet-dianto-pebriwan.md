@@ -11,6 +11,9 @@ url = '25e46'
 
 <!-- more -->
 
++ `21-aug-2025` {{< link/gh 25e46.15 >}} Study plan for 2025-1 approval.
++ `19-jul-2025` {{< link/gh 25e46.14 >}} Offline supervision and discussion.
++ `21-aug-2025` {{< link/gh 25e46.13 >}} Create github repo but not copy from osf.
 + `04-jul-2025` [`p5yn3`](https://osf.io/p5yn3) Short semester miscellaneous.
 + `03-jul-2025` [`8xuw9`](https://osf.io/8xuw9) Start of official supervision.
 + `03-jul-2025` [`kwb78`](https://osf.io/kwb78) Discussion after a while.
