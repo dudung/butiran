@@ -11,4 +11,5 @@ url = '25h48'
 
 <!-- more -->
 
++ `23-aug-2025` [`25h71`](/butiran/25h71/) Pasir node initialization.
 + `18-aug-2025` [`25h47`](/butiran/25h47/) Fresh build of a hugo server.
