@@ -33,7 +33,7 @@ draft = false
 {{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
-  count="6"
+  count="7"
   link="/butiran/25h62/"
 >}}
 
