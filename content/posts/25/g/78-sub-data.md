@@ -12,6 +12,8 @@ url = '25g78'
 <!-- more -->
 
 ```
+20250825 12
+20250824 11
 20250823 19
 20250822 17
 20250821 17
@@ -51,4 +53,5 @@ url = '25g78'
 
 
 ## notes
++ Man with stick on aug 23-25.
 + Some data might be not accurate.

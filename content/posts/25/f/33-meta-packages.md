@@ -11,6 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
++ `25-aug-2025` Nichts am Morgen.
++ `24-aug-2025` Ein großer Hausgecko hinter dem Vorhang des Schlafzimmers, getöteter kleiner Hausgecko im Hauptschlafzimmer, schlestes Pinkeln.
 + `23-aug-2025` Am Morgen Zwei Housgecko vor der Wand der Bibliothek draußen, Wurm in unterem Badezimmer.
 + `22-aug-2025` Am Morgen noch nichts.
 + `21-aug-2025` Stimme eines Hausgeckos w&auml;hrend Subuh, stimme eines Gecko am Abend, ein Hausgecko in Hauptschlafzimmer getotet, am Abend drei Housgecko vor der Wand der Bibliothek draußen.

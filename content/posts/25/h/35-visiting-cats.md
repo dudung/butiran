@@ -11,6 +11,8 @@ url = '25h35'
 
 <!-- more -->
 
++ `25-aug-2025` - (but 3-4 in agus-terrace).
++ `24-aug-2025` (?) &lt; subuh &gt; - &lt; ashar &gt; Bumil.
 + `23-aug-2025` Bumil (draussen) &lt; subuh &gt; &lt; duha &gt; Hero.
 + `22-aug-2025` Hero &lt; subuh &gt; Bumi, Hero.
 + `21-aug-2025` Bumil &lt; subuh &gt;.
@@ -20,3 +22,7 @@ url = '25h35'
 + `16-aug-2025` Bumil &lt; subuh &gt;
 + `14-aug-2025` Hero &lt; subuh &gt; Bumil, Hero; &lt; maghrib &gt; Hero.
 + `13-aug-2025` Hero &lt; subuh &gt; Bumil, Hero &rightarrow; Pororo-Sokkaki &cross;.
+
+
+## notes
++ The most accurate data in a day is arround subuh time.
