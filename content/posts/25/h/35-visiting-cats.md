@@ -11,7 +11,8 @@ url = '25h35'
 
 <!-- more -->
 
-+ `25-aug-2025` - (but 3-4 in agus-terrace).
++ `26-aug-2025` Bumil &lt; subuh &gt;.
++ `25-aug-2025` - (but 3-4 in agus-terrace) &lt; ashar &gt; Sokkaki.
 + `24-aug-2025` (?) &lt; subuh &gt; - &lt; ashar &gt; Bumil.
 + `23-aug-2025` Bumil (draussen) &lt; subuh &gt; &lt; duha &gt; Hero.
 + `22-aug-2025` Hero &lt; subuh &gt; Bumi, Hero.
