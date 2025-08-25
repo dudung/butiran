@@ -11,8 +11,14 @@ url = '25h74'
 
 <!-- more -->
 
-+ `25-aug-2025` {{< link/gh 2574.04 >}} Info about final seminar.
++ `25-aug-2025` {{< link/gh 2574.06 >}} Info about final seminar.
++ `23-jan-2025` {{< link/gh 2574.05 >}} Proposal seminar and comments.
++ `22-jan-2025` {{< link/gh 2574.04 >}} Presentation for proposal seminar.
++ `17-jan-2025` {{< link/gh 2574.03 >}} Signed of proposal and supervision meeting.
++ `16-jan-2025` {{< link/gh 2574.02 >}} Signed of proposal and supervision meeting.
++ `15-jan-2025` {{< link/gh 2574.01 >}} Self intro and proposal seminar info.
 
 
 ## notes
 + It can be found in osf or gh about this user. It might be at home notebook.
++ It is nowhere and not understandable on 25-aug-2025.
