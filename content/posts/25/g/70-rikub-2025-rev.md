@@ -11,6 +11,7 @@ url = '25g70'
 
 <!-- more -->
 
++ `26-aug-2025` {{< link/gh 25g70.27 >}} Process of konsinyering with ki-ir.
 + `25-aug-2025` {{< link/gh 25g70.26 >}} Invitation online konsinyering, permit request.
 + `21-aug-2205` {{< link/gh 25g70.25 >}} Online presentation and review d-3.
 + `20-aug-2205` {{< link/gh 25g70.24 >}} Online presentation and review d-2.
