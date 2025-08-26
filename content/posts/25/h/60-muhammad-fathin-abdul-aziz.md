@@ -11,6 +11,8 @@ url = '25h60'
 
 <!-- more -->
 
++ `26-aug-2025` {{< link/gh 25h60.05 >}} Approval for frs and ppsm fi-sk.
++ `22-aug-2025` {{< link/gh 25h60.04 >}} Info about pism and ddpu-sk itb-ku.
 + `19-aug-2025` {{< link/gh 25h60.03 >}} Supervising initiation and video refs.
 + `20-feb-2025` {{< link/gh 25h60.02 >}} Link of granules-containing cylinder.
 + `15-jan-2025` {{< link/gh 25h60.01 >}} Joining wag of granular and fluid lab.
