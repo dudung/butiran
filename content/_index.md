@@ -13,7 +13,7 @@ draft = false
   name="courses"
   logo="images/symbols/blackboard.svg"
   count="1"
-  link=""
+  link="25h82"
 >}}
 
 {{< card/category
