@@ -12,7 +12,7 @@ draft = false
 {{< card/category
   name="courses"
   logo="images/symbols/blackboard.svg"
-  count="0"
+  count="1"
   link=""
 >}}
 
@@ -75,6 +75,6 @@ draft = false
 {{< card/category
   name="users"
   logo="images/symbols/users.svg"
-  count="10"
+  count="11"
   link="/butiran/25h64/"
 >}}
