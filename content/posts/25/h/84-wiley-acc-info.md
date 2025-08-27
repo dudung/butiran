@@ -12,4 +12,3 @@ url = '25h84'
 <!-- more -->
 
 + `27-aug-2025` {{< link/gh 25h84.01 >}} Platform registration with google.
-
