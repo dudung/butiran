@@ -11,6 +11,7 @@ url = '25h49'
 
 <!-- more -->
 
++ `27-aug-2025` [`25h80`](/butiran/25h80/) Rice plant growth data.
 + `18-aug-2025` [`25h50`](/butiran/25h50/) Chili peppers harvest.
 + `13-aug-2025` [`25h35`](/butiran/25h35/) Visiting cats.
 + `29-jul-2025` [`25g78`](/butiran/25g78/) Sub-data.
