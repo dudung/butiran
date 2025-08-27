@@ -11,4 +11,4 @@ url = '25h84'
 
 <!-- more -->
 
-+ `27-aug-2025` {{< 25h84.01 >}} Platform registration with.
++ `27-aug-2025` {{< 25h84.01 >}} Platform registration with google.
