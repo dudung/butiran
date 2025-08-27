@@ -11,6 +11,7 @@ url = '25h81'
 
 <!-- more -->
 
++ `27-aug-2025` {{< link/gh 25h81.04 >}} Study installement request submission.
 + `26-aug-2025` {{< link/gh 25h81.03 >}} Demin pool net pit info request.
 + `22-aug-2025` {{< link/gh 25h81.02 >}} Presentation and evaluation result.
 + `18-aug-2025` {{< link/gh 25h81.01 >}} Online discussion before presentation.
