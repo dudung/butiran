@@ -11,4 +11,4 @@ url = '25h83'
 
 <!-- more -->
 
-+ `27-aug-2025` {{< link/gh 25h83.02 }} Notebook info and selection.
++ `27-aug-2025` {{< link/gh 25h83.02 >}} Notebook info and selection.
