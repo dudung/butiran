@@ -11,6 +11,7 @@ url = '25h68'
 
 <!-- more -->
 
++ `27-aug-2025` {{< link/gh 25h68.02 >}} Certainty for supervision.
 + `19-aug-2025` {{< link/gh 25h68.01 >}} Initial offline discussion.
 
 
