@@ -11,6 +11,8 @@ url = '25h81'
 
 <!-- more -->
 
++ `29-aug-2025` {{< link/gh 25h81.07 >}} Study installment 1/3 transfer (undocu).
++ `28-aug-2025` {{< link/gh 25h81.06 >}} Internship presentation v.3.1 file (undocu).
 + `27-aug-2025` {{< link/gh 25h81.05 >}} Info pism-ftsl unvailable head if-tl, pism-fmipa.
 + `27-aug-2025` {{< link/gh 25h81.04 >}} Study installement request submission.
 + `26-aug-2025` {{< link/gh 25h81.03 >}} Demin pool net pit info request.
