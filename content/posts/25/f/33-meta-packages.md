@@ -11,6 +11,9 @@ url = '25f33'
 
 <!-- more -->
 
++ `28-aug-2025` Eine geklebte Spitzmaus in der Küche frühmorgen.
++ `27-aug-2025` Verdächtiger Lieferant am Tag, Stimme eines Hausgeckos am Abend.
++ `26-aug-2025` Stimme eines Hausgeckos am Abend.
 + `25-aug-2025` Nichts am Morgen.
 + `24-aug-2025` Ein großer Hausgecko hinter dem Vorhang des Schlafzimmers, getöteter kleiner Hausgecko im Hauptschlafzimmer, schlestes Pinkeln.
 + `23-aug-2025` Am Morgen Zwei Housgecko vor der Wand der Bibliothek draußen, Wurm in unterem Badezimmer.
