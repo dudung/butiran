@@ -33,21 +33,21 @@ draft = false
 {{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
-  count="13"
+  count="14"
   link="/butiran/25h62/"
 >}}
 
 {{< card/category
   name="proposals"
   logo="images/symbols/upload.svg"
-  count="4"
+  count="5"
   link="/butiran/25h52/"
 >}}
 
 {{< card/category
   name="research"
   logo="images/symbols/experiment.svg"
-  count="3"
+  count="4"
   link="/butiran/25h53/"
 >}}
 
@@ -61,7 +61,7 @@ draft = false
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="4"
+  count="5"
   link="/butiran/25h54/"
 >}}
 
