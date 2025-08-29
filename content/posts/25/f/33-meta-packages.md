@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `29-aug-2025` Schlechtes Pinkel frühmorgen.
++ `30-aug-2025` Durcfall Am Frühmorgen zweimal.
++ `29-aug-2025` Schlechtes Pinkel frühmorgen, Unfall am Morgen.
 + `28-aug-2025` Eine geklebte Spitzmaus in der Küche frühmorgen, schlechtes Pinkeln zwei.
 + `27-aug-2025` Verdächtiger Lieferant am Tag, Stimme eines Hausgeckos am Abend.
 + `26-aug-2025` Stimme eines Hausgeckos am Abend.
