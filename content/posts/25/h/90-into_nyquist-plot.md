@@ -7,6 +7,7 @@ type = 'notes'
 tags = []
 categories = []
 url = '25h90'
+math = true
 +++
 
 <!-- more -->
@@ -19,6 +20,52 @@ It is the first time I read about Nyquist plot and then discuss with GPT-5. Prev
 + The Nyquist plot, which displays the imaginary versus real components of impedance, is commonly used in EIS to reveal characteristic patterns that aid in interpreting electrochemical processes [^peroff_2024].
 + As an example, in a study EIS Nyquist analysis was used, where the high-frequency region revealed the charge transfer resistance while the low-frequency region reflected the capacitive response of the system [^bundaleska_2018].
 + A tutorial illustrating Nyquist and Bode plots for electrical circuits containing single passive elements (R, C, or L) and their series or parallel combinations is available [^lazanas_2023].
+
+
+## complex number
+A complex number $\bar{Z}$ can be written in the form of
+
+$$\tag{1}
+\bar{Z} = Z\' + j Z\'\',
+$$
+
+where $Z\'$ is real part and $Z\'\'$ is imaginary part with
+
+$$\tag{2}
+j = \sqrt{-1}
+$$
+
+is the imaginary unit.
+
+
+## r element
+For only $R$ then
+
+$$\tag{3}
+\bar{Z} = R.
+$$
+
+or $Z\' = R$ and $-Z\'\' = 0$. The curve is a dot at coordinate $(R, 0)$.
+
+
+## c element
+For only $C$ then
+
+$$\tag{4}
+\bar{Z} = -j \frac{1}{\omega C}.
+$$
+
+or $Z\' = 0$ and $-Z\'\' = 1 / \omega C$. The curve is a vertical line at positive $-Z\'\'$ axis.
+
+
+## l element
+For only $L$ then
+
+$$\tag{4}
+\bar{Z} = j \omega L.
+$$
+
+or $Z\' = 0$ and $-Z\'\' = - \omega L$. The curve is a vertical line at negative $-Z\'\'$ axis.
 
 
 ## refs
