@@ -38,6 +38,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="overload"
+  logo="images/symbols/hourglass.svg"
+  count="2"
+  link="/butiran/25i03/"
+>}}
+
+{{< card/category
   name="proposals"
   logo="images/symbols/upload.svg"
   count="5"
