@@ -11,6 +11,8 @@ url = '25i05'
 
 <!-- more -->
 
+
++ `02-sep-2025` [sk5010-01 issue 2](https://github.com/dudung/25i05/issues/2).
 + `01-sep-2025` [sk5010-01 issue 1](https://github.com/dudung/25i05/issues/1).
 
 
