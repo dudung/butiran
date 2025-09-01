@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
+- `02-sep-2025` - Bumil &lt; subuh &gt; -.
 - `01-sep-2025` - &lt; subuh &gt; -.
 
 + `27-aug-2025` - &lt; subuh &gt; Bumil.
