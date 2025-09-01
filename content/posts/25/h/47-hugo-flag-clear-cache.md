@@ -20,6 +20,14 @@ Some notes while running hugo for butiran.
   hugo -D --ignoreCache --cleanDestinationDir
   ```
   The short flag `-D` has a long form `--buildDrafts`.
++ Start to document clean from 02-sep-2025 due to noticable slowness.
+{{< style class="table-0" >}}
+Date | Site | Clean (ms) | Build (ms)
+:-: | :-: | :-: | :-:
+02-sep-2025 | home | 9649 | 7419
+02-sep-2025 | home | -    | 7112
+{{< /style >}}
+
 
 
 ## refs
