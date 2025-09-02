@@ -24,8 +24,10 @@ Some notes while running hugo for butiran.
 {{< style class="table-0" >}}
 Date | Site | Clean (ms) | Build (ms)
 :-: | :-: | :-: | :-:
-02-sep-2025 | home | 9649 | 7419
-02-sep-2025 | home | -    | 7112
+02-sep-2025 | home |  9649 |  7419
+02-sep-2025 | home | -     |  7112
+02-sep-2025 | work | 11723 | 27720
+02-sep-2025 | work | -     | 10658
 {{< /style >}}
 
 
