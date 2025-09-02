@@ -11,6 +11,7 @@ url = '25i08'
 
 <!-- more -->
 
++ `02-sep-2025` {{< link/gh 25i08.18 >}} Delivery of unsw recommendation via email.
 + `02-sep-2025` {{< link/gh 25i08.17 >}} Info and reminder for unsw recommendation.
 + `28-jul-2025` {{< link/gh 25i08.16 >}} Recommendation for lpdp support.
 + `03-aug-2025` {{< link/gh 25i08.15 >}} Info apc-jer usd-1100 not supported.
