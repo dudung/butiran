@@ -5,7 +5,7 @@ draft = false
 {{< card/category
   name="books"
   logo="images/symbols/books.svg"
-  count="2"
+  count="3"
   link="/butiran/25i11/"
 >}}
 

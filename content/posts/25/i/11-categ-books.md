@@ -13,4 +13,4 @@ url = '25i11'
 
 + `28-apr-2025` [`25d71`](/butiran/25d71/) Seaweed popularization with blog.
 + `06-feb-2025` [`25d12`](/butiran/25d12/) A python in-house toolbox.
-+ Python in brief.
++ `dd-mmm-2023` [`25i12`](/butiran/25i12/) Python in brief (galley).
