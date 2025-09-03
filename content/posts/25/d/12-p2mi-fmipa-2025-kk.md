@@ -9,6 +9,8 @@ categories = ['proposals']
 url = '25d12'
 +++
 
++ `03-sep-2025` {{< link/gh 25d12.11 >}} Submission of book progress report.
++ `03-sep-2025` {{< link/gh 25d12.10 >}} Copy to gh but keep 01-09 on osf.
 + `28-may-2025` [`b5e86`](https://osf.io/b5e86) Dean decree for book from gs.
 + `04-apr-2025` [`uwf2n`](https://osf.io/uwf2n) Research repo renaming.
 + `26-mar-2025` [`9a8cy`](https://osf.io/9a8cy) Spending socialization.
@@ -18,3 +20,7 @@ url = '25d12'
 + `13-feb-2025` [`5y6f8`](https://osf.io/5y6f8) Proposal submission.
 + `13-feb-2025` [`tjkvn`](https://osf.io/tjkvn) Proposal list update.
 + `06-feb-2025` [`27n9r`](https://osf.io/27n9r) Template fill and info.
+
+
+## notes
++ It was on [dbn93](https://osf.io/dbn93/) for 00-09.
