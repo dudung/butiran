@@ -80,6 +80,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="talks"
+  logo="images/symbols/speaker.svg"
+  count="4"
+  link="/butiran/25i13/"
+>}}
+
+{{< card/category
   name="trainings"
   logo="images/symbols/calibration.svg"
   count="2"
