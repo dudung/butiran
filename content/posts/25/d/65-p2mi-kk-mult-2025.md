@@ -11,6 +11,14 @@ url = '25d65'
 
 <!-- more -->
 
++ `03-sep-2025` {{< link/gh 25d65.43 >}} Progress report preparation and submission.
++ `24-aug-2025` {{< link/gh 25d65.42 >}} Food brigade org with rector.
++ `24-aug-2025` {{< link/gh 25d65.41 >}} Request of progress report-25, result-24.
++ `20-aug-2025` {{< link/gh 25d65.40 >}} Support offer for ds in if by ak+sk.
++ `15-aug-2025` {{< link/gh 25d65.39 >}} Info data industry bps-brin.
++ `13-aug-2025` {{< link/gh 25d65.38 >}} Online meeting prep workshop data-spatial.
++ `12-aug-2025` {{< link/gh 25d65.37 >}} Discussion fi-92 diks-apspig, salman+datuk.
++ `12-aug-2025` {{< link/gh 25d65.36 >}} Meeting on bps to correct something.
 + `11-aug-2025` {{< link/gh 25d65.35 >}} Members data request for patent proposal.
 + `08-aug-2025` {{< link/gh 25d65.34 >}} Notulen for tu-6 from ma-ss.
 + `07-aug-2025` {{< link/gh 25d65.33 >}} Discussion in tu-6 about 1230.

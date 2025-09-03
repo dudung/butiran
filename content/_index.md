@@ -26,7 +26,7 @@ draft = false
 {{< card/category
   name="meetups"
   logo="images/symbols/teamwork.svg"
-  count="1"
+  count="2"
   link="/butiran/25h55/"
 >}}
 
