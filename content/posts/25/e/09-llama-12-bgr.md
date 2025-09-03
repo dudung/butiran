@@ -11,8 +11,14 @@ url = '25e09'
 
 <!-- more -->
 
-+ `27-jun-2025` [`56a0e`](https://github.com/dudung/llama-12-bgr/blob/main/10_faculty_permit_req/README.md) From s/f leaving permit request.
-+ `26-jun-2025` [`f8cab`](https://github.com/dudung/llama-12-bgr/blob/main/09_to_github/README.md) Migration to github from osf.
++ `03-sep-2025` {{< link/gh 25e09.16 >}} Folder renaming.
++ `26-aug-2025` {{< link/gh 25e09.15 >}} Mentoring request for 09-sep-2025.
++ `04-jul-2025` {{< link/gh 25e09.14 >}} Account info request. 
++ `30-jun-2025` {{< link/gh 25e09.13 >}} The online round table discussion.
++ `29-jun-2025` {{< link/gh 25e09.12 >}} Curriculum vitae request.
++ `28-jun-2025` {{< link/gh 25e09.11 >}} Rundown of round table discussion.
++ `27-jun-2025` {{< link/gh 25e09.10 >}} From s/f leaving permit request.
++ `26-jun-2025` {{< link/gh 25e09.09 >}} Migration to github from osf.
 + `26-jun-2025` [`7vfb6`](https://osf.io/7vfb6) Leaving permit from rg request, replied ok.
 + `24-jun-2025` [`r2ytn`](https://osf.io/r2ytn) Invitation for rtd for obe.
 + `24-jun-2025` [`qac9g`](https://osf.io/qac9g) Info for 09-jun-2025 and reschedule.
@@ -27,6 +33,8 @@ url = '25e09'
 ## notes
 + Not archived for 26-may-2025.
 + Some references are available online [^juniadi_2020], [^partiwi_2023], [^kusumawardani_2024a], [^kusumawardani_2024b], but it might not explicitly contain RPS format.
++ It was on [rcb89](https://osf.io/rcb89/).
++ Rename llama-12-bg to 25e09 on 03-sep-2025, where both are already on github.
 
 
 ## refs
