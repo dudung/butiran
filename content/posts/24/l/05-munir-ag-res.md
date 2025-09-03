@@ -12,6 +12,7 @@ Note on research projects in MM-AG related to nano-fiber, I-V meter, and instrum
 
 <!--more-->
 
++ `03-sep-2025` {{< link/gh 24l05.29 >}} Info about an overtake rejection.
 + `26-aug-2025` {{< link/gh 24l05.28 >}} Another work submission as overtake and reminder.
 + `09-aug-2025` {{< link/gh 24l05.27 >}} Other work submission as overtake and reminder.
 + `30-jul-2025` {{< link/gh 24l05.26 >}} Distraction as cs-head candidation.
