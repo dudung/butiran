@@ -11,7 +11,9 @@ url = '25d65'
 
 <!-- more -->
 
-+ `03-sep-2025` {{< link/gh 25d65.43 >}} Progress report preparation and submission.
++ `03-sep-2025` {{< link/gh 25d65.45 >}} Progress report submission to myppm
++ `03-sep-2025` {{< link/gh 25d65.44 >}} Unconfirmed paper id after payment.
++ `03-sep-2025` {{< link/gh 25d65.43 >}} Materials for progress report.
 + `24-aug-2025` {{< link/gh 25d65.42 >}} Food brigade org with rector.
 + `24-aug-2025` {{< link/gh 25d65.41 >}} Request of progress report-25, result-24.
 + `20-aug-2025` {{< link/gh 25d65.40 >}} Support offer for ds in if by ak+sk.
