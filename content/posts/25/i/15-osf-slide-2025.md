@@ -11,8 +11,9 @@ url = '25i15'
 
 <!-- more -->
 
-`04-sep-2025` {{< link/gh 25i15.26 >}} 
-
++ `04-sep-2025` {{< link/gh 25i15.27 >}} modeling, data generator, analysis:  intro, platforms, motivation-expectation.
++ `04-sep-2025` {{< link/gh 25i15.26 >}} scientific-popular writing pipelines: exploration intro and platforms.
++ `` 
 
 ## notes
 + It is host on [cgf5x](https://osf.io/cgf5x/).
