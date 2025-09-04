@@ -11,6 +11,7 @@ url = '25h62'
 
 <!-- more -->
 
+- `05-sep-2025` [`25i19`](/butiran/25i19/) Activities on fri.
 - `04-sep-2025` [`25i14`](/butiran/25i14/) Activities on thu.
 - `03-sep-2025` [`25i09`](/butiran/25i09/) Activities on wed.
 - `02-sep-2025` [`25i06`](/butiran/25i06/) Activities on tue.
