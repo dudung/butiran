@@ -82,7 +82,7 @@ $$
 
 ## egns-d
 + Number of particles is $n$.
-+ Index of partile is from 1 to $n$.
++ Index of particle is from 1 to $n$.
 + Base or particle with index 0 is not considered as particle.
 + Net external force on particle $i$ is
 $$\tag{10}
