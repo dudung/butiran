@@ -14,7 +14,7 @@ url = '25i21'
 ## info
 + title Install (again) Inkscape on Windows 11
 + subtitle After can not aligned grouped objects inside Word
-+ url [11-f84c4693fb1c](https://medium.com/p/11-f84c4693fb1c)
++ url [f84c4693fb1c](https://medium.com/p/f84c4693fb1c)
 + date 05-sep-2025
 
 

@@ -11,6 +11,7 @@ url = '25h54'
 
 <!-- more -->
 
++ `05-sep-2025` [`25i20`](/butiran/25i20/) Vibration of 1-d granular system.
 + `26-apr-2025` [`25d66`](/butiran/25d66/) Angle of repose with abm, exp, vrh analysis.
 + `04-apr-2025` [`25d11`](/butiran/25d11/) Spectral identification of np aggregates with ml.
 + `16-jan-2025` [`25a45`](/butiran/25a45/) Prediction covid-19 x-ray image cnn-gdp.

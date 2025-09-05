@@ -33,7 +33,7 @@ draft = false
 {{< card/category
   name="medium"
   logo="images/symbols/medium.svg"
-  count="1"
+  count="2"
   link="/butiran/25i22/"
 >}}
 
@@ -82,7 +82,7 @@ draft = false
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="5"
+  count="6"
   link="/butiran/25h54/"
 >}}
 
