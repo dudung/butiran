@@ -19,6 +19,7 @@ math = true
 + Source of the disturbance is a vibrator, which make the grains oscillating [^gppt-5_2025a].
 + Problem when aligning grouped objects in Word and solution with Inkscape [^gppt-5_2025b].
 + Inkscape installation for creating the figures [^viridi_2025a].
++ Sections eqns-a -- eqns-e on 05-sep-2025.
 
 
 ## eqns-a
@@ -113,6 +114,28 @@ $$\tag{14}
 \vec{r}_i \equiv \vec{r}_i(t),
 $$
 will update Eqns (4)-(10). 
+
+
+## flowchart
+A proposed simulation pipeline is as follow.
+
+{{< mermaid >}}
+flowchart LR;
+%% -
+B --> I1 --> I2;
+I2 --> P1 --> P2 --> P3 --> O1;
+O1 --> O2 --> E;
+%% def
+B(["Begin"]);
+I1[/"n, [m, r]"/];
+I2[/"kN, &gamma;N, g"/];
+P1["N, W, F"];
+P2["a, v, r"];
+P3["Process"];
+O1[/"n, [m, r]"/];
+O2[/"E, T, f"/];
+E(["End"]);
+{{< /mermaid >}}
 
 
 ## refs
