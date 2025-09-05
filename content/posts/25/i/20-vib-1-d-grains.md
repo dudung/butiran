@@ -21,7 +21,7 @@ math = true
 + Inkscape installation for creating the figures [^viridi_2025a].
 
 
-## eqns-0
+## eqns-a
 + max function
 $$\tag{1}
 \max(a, b) = \left\\{
@@ -43,7 +43,7 @@ $$\tag{2}
 $$
 
 
-## egns-1
+## egns-b
 + Weight of particle $i$ is [^gpt-5_2025c]
 $$\tag{3}
 \vec{W}_{i} = m_i \vec{g},
@@ -51,7 +51,7 @@ $$
 with $g$ is gravitational acceleration.
 
 
-## egns-2
+## egns-c
 + Base particle has mass $m_0$, radius $R_0$, vertical position $z_0$.
 + Relative position of particle $i$ from particle $j$ is
 $$\tag{4}
@@ -79,7 +79,7 @@ $$\tag{9}
 $$
 
 
-## egns-3
+## egns-d
 + Number of particles is $n$.
 + Index of partile is from 1 to $n$.
 + Base or particle with index 0 is not considered as particle.
@@ -94,16 +94,25 @@ $$\tag{10}
 $$
 
 
-## eqns-4
+## eqns-e
 + Newton's second law is [^openstax_2019]
 $$\tag{11}
 \vec{a}_i = \frac{\vec{F}_i}{m_i}
 $$
-for partile $i$.
+for partile $i$ at time $t$.
 + Euler integration for calculating velocity from acceleration [^moussa_2023] gives
 $$\tag{12}
-x
+\vec{v}_i(t + \Delta t) = \vec{v}_i(t) + \vec{a}_i \Delta t.
 $$
++ With similar way, position is obtained from velocity using
+$$\tag{13}
+\vec{r}_i(t + \Delta t) = \vec{r}_i(t) + \vec{v}_i(t) \Delta t.
+$$
++ New position, which is
+$$\tag{14}
+\vec{r}_i \equiv \vec{r}_i(t),
+$$
+will update Eqns (4)-(10). 
 
 
 ## refs

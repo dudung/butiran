@@ -9,6 +9,9 @@ categories = ['users']
 url = '25d39'
 +++
 
++ `05-sep-2025` {{< link/gh 25d39.29 >}} No further correction and appreciation.
++ `04-sep-2025` {{< link/gh 25d39.28 >}} Revision and reply for reviewer comments.
++ `01-sep-2025` {{< link/gh 25d39.27 >}} Comments from reviewer in morressier.
 + `21-aug-2025` {{< link/gh 25d39.26 >}} Offer of graduate in materials informatics.
 + `20-aug-2025` {{< link/gh 25d39.25 >}} Info about ips manuscript in morressier system.
 + `11-aug-2025` {{< link/gh 25d39.24 >}} Final draft download from morressier.
