@@ -1,4 +1,17 @@
+<!--
 <pre class="mermaid">
   {{- .Inner | safeHTML }}
 </pre>
 {{ .Page.Store.Set "hasMermaid" true }}
+-->
+
+{{- if eq .Type "mermaid" -}}
+  <pre class="mermaid">
+    {{- .Inner | safeHTML -}}
+  </pre>
+  {{ .Page.Store.Set "hasMermaid" true }}
+{{- else -}}
+  <pre><code class="language-{{ .Type | default "plaintext" }}">
+    {{- .Inner | htmlEscape | safeHTML -}}
+  </code></pre>
+{{- end -}}
