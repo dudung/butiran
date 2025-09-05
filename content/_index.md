@@ -31,6 +31,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="medium"
+  logo="images/symbols/medium.svg"
+  count="1"
+  link="/butiran/25i22/"
+>}}
+
+{{< card/category
   name="meetups"
   logo="images/symbols/teamwork.svg"
   count="2"
