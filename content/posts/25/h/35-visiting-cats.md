@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
+- `06-sep-2025` - (s) -.
 - `05-sep-2025` - (s) -.
 - `04-sep-2025` - &lt; ashar &gt; Bigboss.
 - `03-sep-2025` - Bumil &lt; subuh &gt; - &lt; isya &gt; Bumil.
