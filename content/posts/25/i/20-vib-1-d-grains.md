@@ -16,7 +16,7 @@ url = '25i20'
 
 ## notes
 + Source of the disturbance is a vibrator, which make the grains oscillating [^gppt-5_2025a].
-+ Problem when aligning grouped objects in Word and solution with Inscape [^gppt-5_2025b].
++ Problem when aligning grouped objects in Word and solution with Inkscape [^gppt-5_2025b].
 
 
 ## refs
