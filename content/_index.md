@@ -82,7 +82,7 @@ draft = false
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="6"
+  count="7"
   link="/butiran/25h54/"
 >}}
 
