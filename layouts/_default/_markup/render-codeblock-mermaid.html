@@ -1,17 +1,29 @@
-<!--
-<pre class="mermaid">
-  {{- .Inner | safeHTML }}
-</pre>
-{{ .Page.Store.Set "hasMermaid" true }}
--->
+{{- $hl := highlight .Inner "js" "" -}}
+{{- $hl = $hl | replaceRE "language-mermaid" "language-mermaid-code" -}}
+{{- $hl = $hl | replaceRE "class=\"chroma\"" "class=\"chroma mermaid-code\"" -}}
+{{- $hl = $hl | replaceRE `\b(flowchart|subgraph|end|direction|classDef)\b` `<span class="mermaid-keyword">$1</span>` -}}
+{{- $hl = $hl | replaceRE `\b(TB|TD|BT|LR|RL)\b` `<span class="mermaid-value">$1</span>` -}}
 
-{{- if eq .Type "mermaid" -}}
-  <pre class="mermaid">
-    {{- .Inner | safeHTML -}}
-  </pre>
-  {{ .Page.Store.Set "hasMermaid" true }}
-{{- else -}}
-  <pre><code class="language-{{ .Type | default "plaintext" }}">
-    {{- .Inner | htmlEscape | safeHTML -}}
-  </code></pre>
-{{- end -}}
+{{- $hl | safeHTML -}}
+
+<style>
+.chroma.mermaid-code {
+  background: #1e1e2f;
+  color: #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: "Fira Code", monospace;
+  line-height: 1.45;
+}
+
+/* normal Chroma token colours */
+.chroma.mermaid-code .s { color: #a5d6ff; } /* strings */
+.chroma.mermaid-code .m { color: #ffa657; } /* numbers */
+.chroma.mermaid-code .n { color: #8ae9c1; } /* identifiers */
+.chroma.mermaid-code .c { color: #7f7f7f; font-style: italic; } /* comments */
+
+/* custom mermaid words */
+.mermaid-keyword { color: #79c6ff; font-weight: bold; }
+.mermaid-value   { color: #fa7bfa; font-weight: bold; }
+</style>

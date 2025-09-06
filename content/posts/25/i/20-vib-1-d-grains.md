@@ -20,6 +20,7 @@ math = true
 + Problem when aligning grouped objects in Word and solution with Inkscape [^gppt-5_2025b].
 + Inkscape installation for creating the figures [^viridi_2025a].
 + Sections eqns-a -- eqns-e on 05-sep-2025.
++ There is a color scheme for showing Mermaid code on [25i25](/butiran/25i25/).
 
 
 ## eqns-a

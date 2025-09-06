@@ -14,18 +14,10 @@ url = '25i25'
 ## result
 {{< mermaid >}}
 flowchart
-  %% sg4
+  %% sg1
   subgraph " "
     direction TB
-    o3b --> O1 --> O2 --> E
-  end
-  
-  %% sg4
-  subgraph " "
-    direction TB
-    o2b --> C1
-    C1 --"Y"--> P3 --> o4a
-    C1 --"N"---> o3a
+    B --> I1 --> I2 --> o1a
   end
 
   %% sg2
@@ -35,10 +27,18 @@ flowchart
     o4b ---> P2
   end
   
-  %% sg1
+  %% sg3
   subgraph " "
     direction TB
-    B --> I1 --> I2 --> o1a
+    o2b --> C1
+    C1 --"Y"--> P3 --> o4a
+    C1 --"N"---> o3a
+  end
+  
+  %% sg4
+  subgraph " "
+    direction TB
+    o3b --> O1 --> O2 --> E
   end
   
   %% elements
@@ -69,20 +69,12 @@ flowchart
 
 
 ## code
-{{< highlight mermaid >}}
+```
 flowchart
-  %% sg4
+  %% sg1
   subgraph " "
     direction TB
-    o3b --> O1 --> O2 --> E
-  end
-  
-  %% sg4
-  subgraph " "
-    direction TB
-    o2b --> C1
-    C1 --"Y"--> P3 --> o4a
-    C1 --"N"---> o3a
+    B --> I1 --> I2 --> o1a
   end
 
   %% sg2
@@ -92,10 +84,18 @@ flowchart
     o4b ---> P2
   end
   
-  %% sg1
+  %% sg3
   subgraph " "
     direction TB
-    B --> I1 --> I2 --> o1a
+    o2b --> C1
+    C1 --"Y"--> P3 --> o4a
+    C1 --"N"---> o3a
+  end
+  
+  %% sg4
+  subgraph " "
+    direction TB
+    o3b --> O1 --> O2 --> E
   end
   
   %% elements
@@ -122,14 +122,17 @@ flowchart
   
   %% classes
   classDef conn fill:#484, stroke:#040, color:#fff
-{{< /highlight >}}
+```
 
 
 ## notes
 + There are still not any workarounds for styling a subgraph using classDef [^gpt-5_2025a].
 + Until now there is no available Mermaid colour scheme baked into Hugo/Chroma the way there are for mainstream languages [^gpt-5_2025b].
++ Some Mermaid keywords and values can be colored differently in `render-codeblock-mermaid.html` [^gpt-5_2025c].
++ This will used in other notes, e.g. [25i20](/butiran/25i20/).
 
 
 ## refs
 [^gpt-5_2025a]: GPT-5, "Mermaid subgraph customization", ChatGPT, 6 Sep 2025, url https://chatgpt.com/share/68bb6665-cf38-800a-97b2-3c373cd586cc [20250906].
 [^gpt-5_2025b]: GPT-5, "Show Mermaid code Hugo and no default color palette", ChatGPT, 6 Sep 2025, url https://chatgpt.com/share/68bb7531-df58-800a-8d82-aee7a4f58038 [20250906].
+[^gpt-5_2025c]: GPT-5, "Mermaid code colour scheme in Hugo with render-codeblock", ChatGPT, 6 Sep 2025, url https://chatgpt.com/share/68bb8400-4fd4-800a-82ce-c50e15bee0b0 [20250906].
