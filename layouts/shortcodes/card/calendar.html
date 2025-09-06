@@ -1,0 +1,95 @@
+{{/* 
+Usage:
+{{< card/calendar "sun-07.09.25" "/my-post/" >}}
+*/}}
+
+{{ $input := .Get 0 }}
+{{ $link := .Get 1 }}
+{{ $bgcolor := .Get 2 | default "#ffffff" }}
+
+{{/* split dayname and date part */}}
+{{ $parts := split $input "-" }}
+{{ $dayname := upper (index $parts 0) }}
+{{ $datepart := index $parts 1 }}
+
+{{/* split dd.mm.yy */}}
+{{ $dparts := split $datepart "." }}
+{{ $day := index $dparts 0 }}
+
+{{/* month string, strip leading zeros safely */}}
+{{ $monthNumStr := index $dparts 1 }}
+
+
+{{/* strip all leading zeros safely */}}
+{{ $monthNumClean := replaceRE "^0+" "" $monthNumStr }}
+{{ if eq $monthNumClean "" }}
+  {{ $monthNumClean = "0" }}
+{{ end }}
+{{ $monthNum := int $monthNumClean }}
+
+
+{{ $yearShort := index $dparts 2 }}
+{{ $year := printf "20%s" $yearShort }}
+
+{{/* month abbreviation (index is zero-based, monthNum is 1-based) */}}
+{{ $months := slice "Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec" }}
+{{ $monthName := "" }}
+{{ if and (ge $monthNum 1) (le $monthNum 12) }}
+  {{ $monthName = index $months (sub $monthNum 1) }}
+{{ end }}
+
+<div class="calendar-card">
+<a href="/butiran/{{- $link -}}/">
+  <div class="calendar-card-content" style="background: {{- $bgcolor -}};">
+    <div class="calendar-day">{{ $dayname }}</div>
+    <div class="calendar-date">{{ $day }}</div>
+    <div class="calendar-monthyear">{{ $monthName }} {{ $year }}</div>
+  </div>
+</a>
+</div>
+
+<style>
+.calendar-card, a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 2px;
+}
+
+.calendar-card-content {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.calendar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.calendar-day {
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.calendar-date {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.calendar-monthyear {
+  font-size: 0.6rem;
+  color: #777;
+}
+</style>
