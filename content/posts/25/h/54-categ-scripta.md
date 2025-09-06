@@ -30,7 +30,7 @@ Note  | Date        | Status      | Info
 :-:   | :-:         | :-:         | :-:
 25d39 | 06-sep-2025 | in review   | Morressier
 25d66 | 06-sep-2025 | in review   | Morressier
-25a45 | 05-sep-2025 | revision submitted |
+25a45 | 05-sep-2025 | revision submitted | MPDI
 25i20 | 05-sep-2025 | sketch      | 
 25h87 | 02-sep-2025 | draft-v4    |
 25d11 | 10-aug-2025 | draft-v1    |

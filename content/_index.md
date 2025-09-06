@@ -45,6 +45,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="mermaid"
+  logo="images/symbols/teamwork.svg"
+  count="1"
+  link="/butiran/25i26/"
+>}}
+
+{{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
   count="21"

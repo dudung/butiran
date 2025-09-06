@@ -10,6 +10,9 @@ url = '25a45'
 
 <!--more-->
 
++ `05-aug-2025` {{< link/gh 25a45.28 >}} Submission of revised manuscript.
++ `28-aug-2025` {{< link/gh 25a45.27 >}} Info about granted extension date.
++ `19-aug-2025` {{< link/gh 25a45.26 >}} Discussion with first author.
 + `18-aug-2025` {{< link/gh 25a45.25 >}} Review results and informing author-1.
 + `11-aug-2025` {{< link/gh 25a45.24 >}} Info about under peer-review stage. 
 + `11-aug-2025` {{< link/gh 25a45.23 >}} Registration to mdpi journal system.
