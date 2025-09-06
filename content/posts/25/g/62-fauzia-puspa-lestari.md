@@ -11,6 +11,10 @@ url = '25g62'
 
 <!-- more -->
 
++ `03-sep-2025` {{< link/gh 25g62.11 >}} Acceptance information.
++ `15-aug-2025` {{< link/gh 25g62.10 >}} Reviewers comments from mjfas-4521.
++ `23-may-2025` {{< link/gh 25g62.09 >}} Declined simultaneous submissions info.
++ `06-sep-2025` {{< link/gh 25g62.08 >}} Moving to gh, but not yet copying.
 + `23-jul-2025` [`g6z2n`](https://osf.io/g6z2n) Progress 4 seminar.
 + `22-jul-2025` [`28tc4`](https://osf.io/28tc4) Before progress 4 seminar, no report nor slide.
 + `09-jan-2025` [`6enb3`](https://osf.io/6enb3) Progress 3 seminar.
@@ -21,5 +25,5 @@ url = '25g62'
 
 
 ## notes
-+ It is on [xwsvk](https://osf.io/xwsvk/).
++ It was on [xwsvk](https://osf.io/xwsvk/).
 + Fauzia P. Lestari, Freddy Haryanto, Sparisoma Viridi, Idam Arif, "Improvement on classification of lung cancer based on X-ray images by transfer deep Boltzmann machine with small scale dataset", AIP Conference Proceedings, vol 3210, no 1, p 030022, Aug 2024, url https://doi.org/10.1063/5.0232276.
