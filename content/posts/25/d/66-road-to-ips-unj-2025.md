@@ -11,6 +11,7 @@ url = '25d66'
 
 <!-- more -->
 
++ `06-sep-2025` {{< link/gh 25d66.47 >}} Manus revision and resp2comment submission.
 + `05-sep-2025` {{< link/gh 25d66.46 >}} Response to reviewer discussion.
 + `29-aug-2025` {{< link/gh 25d66.45 >}} Review results as informed by ki-fm.
 + `22-aug-2025` {{< link/gh 25d66.44 >}} Revision data extension to 07-sep-2025.
