@@ -46,7 +46,7 @@ draft = false
 
 {{< card/category
   name="mermaid"
-  logo="images/symbols/teamwork.svg"
+  logo="images/symbols/mermaid.svg"
   count="1"
   link="/butiran/25i26/"
 >}}
