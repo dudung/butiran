@@ -25,5 +25,6 @@ url = '25g62'
 
 
 ## notes
++ Late but there is relatio with [25i27](/butiran/25i27/).
 + It was on [xwsvk](https://osf.io/xwsvk/).
 + Fauzia P. Lestari, Freddy Haryanto, Sparisoma Viridi, Idam Arif, "Improvement on classification of lung cancer based on X-ray images by transfer deep Boltzmann machine with small scale dataset", AIP Conference Proceedings, vol 3210, no 1, p 030022, Aug 2024, url https://doi.org/10.1063/5.0232276.

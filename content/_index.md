@@ -59,6 +59,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="outlets"
+  logo="images/symbols/scopus.svg"
+  count="1"
+  link="/butiran/25i28/"
+>}}
+
+{{< card/category
   name="overload"
   logo="images/symbols/hourglass.svg"
   count="2"
@@ -89,7 +96,7 @@ draft = false
 {{< card/category
   name="scripta"
   logo="images/symbols/writing.svg"
-  count="7"
+  count="8"
   link="/butiran/25h54/"
 >}}
 
