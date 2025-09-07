@@ -11,11 +11,13 @@ url = '25i28'
 
 <!-- more -->
 
-+ `05-sep-2025` [`25i27`](/butiran/25i27/) Malaysian Journal of Fundamental and Applied Sciences.
++ `07-sep-2025` [`25i28`](/butiran/25i28/) Indonesian Journal of Physics. ×
++ `05-sep-2025` [`25i27`](/butiran/25i27/) Malaysian Journal of Fundamental and Applied Sciences. 
 
 
 ## notes
 + The name is from a discussion [^gpt-5_2025a].
++ The sign &times; means not yet listed in [Scopus](https://www.scopus.com/sources), then its not yet available on [SJR](https://www.scimagojr.com/).
 
 
 ## refs

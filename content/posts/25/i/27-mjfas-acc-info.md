@@ -2,7 +2,7 @@
 title = 'mjfas acc-info'
 date = '2025-09-06T22:06:20+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = []
 categories = ['acc']

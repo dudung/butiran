@@ -34,3 +34,7 @@ url = '25h62'
 {{< card/calendar "tue-19.08.25" "25h59" >}}
 {{< card/calendar "sun-18.08.25" "25h46" >}}
 {{< card/calendar "mon-17.08.25" "25h44" >}}
+
+
+## notes
++ Calendar card appearance in smartphone should be fixed as observed on 07-sep-2025. The shortcode is `card/calendar`. It might be due to difference between Asus Vivobook and vivo Y28 screen resolutions, which are 2880×1800 pixels vs 720×1612 pixels.

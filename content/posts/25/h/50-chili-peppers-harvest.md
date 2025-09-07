@@ -15,6 +15,7 @@ math = true
 {{< style class="table-0" >}}
 date | 🎽 $\newline$ gb | 🧱 $\newline$ fp | 🪜 $\newline$ rp | 🥛 $\newline$ pc 
 :-: | :-: | :-: | :-: | :-:
+`07-sep-2025` |  - | - | 6 | -
 `03-sep-2025` |  - | - | 2 | -
 `02-sep-2025` |  - | 1 | 5 | -
 `17-aug-2025` |  - | - | 2 | -

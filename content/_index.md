@@ -61,7 +61,7 @@ draft = false
 {{< card/category
   name="outlets"
   logo="images/symbols/scopus.svg"
-  count="1"
+  count="2"
   link="/butiran/25i28/"
 >}}
 
