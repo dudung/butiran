@@ -11,5 +11,6 @@ url = '25i22'
 
 <!-- more -->
 
++ `07-sep-2205` [25i31](/butiran/25i31/) CSS responsiveness issues.
 + `05-sep-2025` [25i21](/butiran/25i21/) Install (again) Inkscape on Windows 11.
 + `01-sep-2025` [25i23](/butiran/25i23/) Pepper plant in plastic cup.
