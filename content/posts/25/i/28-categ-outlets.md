@@ -12,7 +12,11 @@ url = '25i28'
 <!-- more -->
 
 + `07-sep-2025` [`25i28`](/butiran/25i28/) Indonesian Journal of Physics. ×
-+ `05-sep-2025` [`25i27`](/butiran/25i27/) Malaysian Journal of Fundamental and Applied Sciences. 
++ `05-sep-2025` [`25i27`](/butiran/25i27/) Malaysian Journal of Fundamental and Applied Sciences.
++ `27-aug-2025` [`25h84`](/butiran/25h84/) Wiley.
++ `11-aug-2025` [`25h29`](/butiran/25h29/) Multidisciplinary Digital Publishing Institute.
++ `10-aug-2025` [`25h27`](/butiran/25h27/) Morressier.
+
 
 
 ## notes

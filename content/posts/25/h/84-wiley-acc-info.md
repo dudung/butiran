@@ -1,5 +1,5 @@
 +++
-title = 'wiley acc info'
+title = 'wiley acc-info'
 date = '2025-08-27T16:35:42+07:00'
 authors = ['viridi']
 draft = true

@@ -1,5 +1,5 @@
 +++
-title = 'morressier acc info'
+title = 'morressier acc-info'
 date = '2025-08-10T17:43:59+07:00'
 authors = ['viridi']
 draft = false
