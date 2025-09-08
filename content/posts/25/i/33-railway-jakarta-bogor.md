@@ -11,14 +11,17 @@ url = '25i33'
 
 <!-- more -->
 
+
+
+
 ## data
 {{< style class="table-0" >}}
-Code | Station | Position (km) | Elevation (m) | Coordinate
-:- | :- | :- | :- | :-
-JAKK | Jakarta Kota          |  0+000 |   +4 |
-JAY  | Jayakarta             |  1+400 |  +13 |
-MGB  | Mangga Besar          |  2+480 |  +14 |
-SW   | Sawah Besar           |  3+386 |  +15 |
+Code | Station | Position (km) | Elevation (m) | Lat | Long
+:- | :- | :- | :- | :- | :-
+JAKK | Jakarta Kota          |  0+000 |   +4 | -6.137579 | 106.814634
+JAY  | Jayakarta             |  1+400 |  +13 | -6.144167 | 106.825833
+MGB  | Mangga Besar          |  2+480 |  +14 | -6.153056 | 106.825833
+SW   | Sawah Besar           |  3+386 |  +15 | -6.162222 | 106.825833
 JW   | Juanda                |  4+535 |  +15 |
 GMR  | Gambir                |  5+540 |  +16 |
 GDD  | Gondangdia            |  6+550 |  +17 |
@@ -39,7 +42,7 @@ DP   | Depok                 | 32+684 |  +93 |
 CTA  | Citayam               | 37+768 | +120 |
 BJD  | Bojonggede            | 42+965 | +140 |
 CLT  | Cilebut               | 47+296 | +171 |
-BOO  | Bogor                 | 54+810 | +246 |
+BOO  | Bogor                 | 54+810 | +246 | -6.594078 | 106.790822
 {{< /style >}}
  
 
