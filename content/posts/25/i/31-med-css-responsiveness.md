@@ -5,7 +5,7 @@ authors = ['viridi']
 draft = true
 type = 'notes'
 tags = []
-categories = []
+categories = ['medium']
 url = '25i31'
 +++
 

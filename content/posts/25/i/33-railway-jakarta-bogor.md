@@ -2,7 +2,7 @@
 title = 'railway jakarta-bogor'
 date = '2025-09-08T11:48:23+07:00'
 authors = ['viridi']
-draft = true
+draft = false
 type = 'notes'
 tags = ['railway']
 categories = ['data']
