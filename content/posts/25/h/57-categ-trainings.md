@@ -11,6 +11,7 @@ url = '25h57'
 
 <!-- more -->
 
++ `06-aug-2025` [`25h14`](/butiran/25h14/) Nat-lect-cert. &check; &rightarrow;
 + `25-jul-2025` [`25g70`](/butiran/25g70/) Rikub 2025. &check; &rightarrow;
 + `01-jun-2025` [`25f32`](/butiran/25f32/) Llama iaps-3.0. &cross;
 
