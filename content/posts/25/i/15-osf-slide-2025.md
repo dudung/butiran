@@ -11,6 +11,7 @@ url = '25i15'
 
 <!-- more -->
 
++ `08-sep-2025` {{< link/gh 25i15.28 >}} enhanced 2-d scatter plots.
 + `04-sep-2025` {{< link/gh 25i15.27 >}} modeling, data generator, analysis:  intro, platforms, motivation-expectation.
 + `04-sep-2025` {{< link/gh 25i15.26 >}} scientific-popular writing pipelines: exploration intro and platforms.
 + `02-sep-2025` {{< link/gh 25i15.25 >}} computation, simulation, visualization, animation: comparison and stages.
