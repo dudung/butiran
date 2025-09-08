@@ -26,7 +26,7 @@ draft = false
 {{< card/category
   name="data"
   logo="images/symbols/data.svg"
-  count="5"
+  count="6"
   link="/butiran/25h49/"
 >}}
 
@@ -54,7 +54,7 @@ draft = false
 {{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
-  count="23"
+  count="24"
   link="/butiran/25h62/"
 >}}
 

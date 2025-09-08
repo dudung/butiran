@@ -11,7 +11,8 @@ url = '25h62'
 
 <!-- more -->
 
-{{< card/calendar "sun-08.09.25" "25i32"  "#fafd79" >}}
+{{< card/calendar "tue-08.09.25" "25i35" "#fafd79" >}}
+{{< card/calendar "mon-08.09.25" "25i32" >}}
 {{< card/calendar "sun-07.09.25" "25i29" >}}
 {{< card/calendar "sat-06.09.25" "25i24" >}}
 {{< card/calendar "fri-05.09.25" "25i19" >}}
