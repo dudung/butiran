@@ -17,6 +17,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="cancels"
+  logo="images/symbols/cancel.svg"
+  count="1"
+  link="/butiran/25i37/"
+>}}
+
+{{< card/category
   name="courses"
   logo="images/symbols/blackboard.svg"
   count="4"
@@ -89,7 +96,7 @@ draft = false
 {{< card/category
   name="reviews"
   logo="images/symbols/todo.svg"
-  count="2"
+  count="3"
   link="/butiran/25h56/"
 >}}
 

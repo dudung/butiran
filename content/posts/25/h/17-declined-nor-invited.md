@@ -11,6 +11,7 @@ url = '25h17'
 
 <!-- more -->
 
++ `09-sep-2025` {{< link/gh 25h17.13 >}} Conf n/a for aidi-aken-ispe 11-sep-2025.
 + `03-sep-2025` {{< link/gh 25h17.13 >}} Confirmation for nextweek fmipa-kopsor.
 + `13-aug-2025` {{< link/gh 25h17.12 >}} Sudden offer to visit stia-lan.
 + `13-aug-2025` {{< link/gh 25h17.11 >}} Visit mwa to f/s for aspiration.
