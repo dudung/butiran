@@ -11,8 +11,10 @@ url = '25i36'
 
 <!-- more -->
 
++ `09-sep-2025` {{< link/gh 25i36.21 >}} Recommendation filling, submission.
 + `09-sep-2025` {{< link/gh 25i36.20 >}} Note about to gh from osf.
 + `01-sep-2025` {{< link/gh 25i36.19 >}} Data on cv, transcript, thesis.
++ `30-aug-2025` {{< link/gh 25i36.18 >}} Recomm request kaist-grad-adms.
 
 
 ## notes
