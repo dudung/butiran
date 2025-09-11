@@ -26,7 +26,7 @@ draft = false
 {{< card/category
   name="courses"
   logo="images/symbols/blackboard.svg"
-  count="5"
+  count="6"
   link="25h82"
 >}}
 
@@ -61,7 +61,7 @@ draft = false
 {{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
-  count="25"
+  count="26"
   link="/butiran/25h62/"
 >}}
 
