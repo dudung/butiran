@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
+- `12-sep-2025` Bumil (s) -.
 - `10-sep-2025` Bumil (s) Bigboss.
 - `09-sep-2025` Bumil (s) Bumi, Bigboss.
 - `08-sep-2025` Bumil (s) -.
