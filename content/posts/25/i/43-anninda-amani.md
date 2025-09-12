@@ -11,6 +11,6 @@ url = '25i43'
 
 <!-- more -->
 
-+ `12-sep-2025` {{< link/gh 25i43.03 >}} Offline discussion.
-+ `02-sep-2025` {{< link/gh 25i43.02 >}}
-+ `01-sep-2025` {{< link/gh 25i43.01 >}}
++ `12-sep-2025` {{< link/gh 25i43.03 >}} Offline discussion and new hyperspace idea.
++ `02-sep-2025` {{< link/gh 25i43.02 >}} Comments and request for modification.
++ `01-sep-2025` {{< link/gh 25i43.01 >}} Data from pkh and intial analysis.
