@@ -11,7 +11,7 @@ url = '25i15'
 
 <!-- more -->
 
-+ `13-sep-2025` {{< link/gh 25i15.29 >}} Course intro, platforms prep, python install.
++ `13-sep-2025` {{< link/gh 25i15.29 >}} Algorithm and programming in sci: course intro, platforms prep, python installation.
 + `08-sep-2025` {{< link/gh 25i15.28 >}} enhanced 2-d scatter plots: encoding more dimensions with python matplotlib.
 + `04-sep-2025` {{< link/gh 25i15.27 >}} modeling, data generator, analysis:  intro, platforms, motivation-expectation.
 + `04-sep-2025` {{< link/gh 25i15.26 >}} scientific-popular writing pipelines: exploration intro and platforms.
