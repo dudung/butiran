@@ -11,6 +11,7 @@ url = '25g65'
 
 <!-- more -->
 
++ `12-sep-2025` {{< link/gh 25g65.07 >}} Unattended lab meeting.
 + `15-aug-2025` {{< link/gh 25g65.06 >}} Sample arrival and request (-2).
 + `12-aug-2025` {{< link/gh 25g65.05 >}} Initial presentation slide for bga.
 + `01-aug-2025` {{< link/gh 25g65.04 >}} Link to data on certain cloud system.
