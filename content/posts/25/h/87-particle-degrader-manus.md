@@ -11,7 +11,8 @@ url = '25h87'
 
 <!-- more -->
 
-+ `02-sep-2025` {{< link/gh 25h87.04 >}} Draft v4 from pic-rk.
++ `12-sep-2025` {{< link/gh 25h87.05 >}} Delivery of v6 to pic-rk.
++ `02-sep-2025` {{< link/gh 25h87.04 >}} Draft v5 from pic-rk.
 + `29-aug-2025` {{< link/gh 25h87.03 >}} Info from rasito about decy-13.
 + `29-aug-2025` {{< link/gh 25h87.02 >}} Initial manuscript using abm, v3.
 + `14-aug-2025` {{< link/gh 25h87.01 >}} Archive of previous communications. \
