@@ -11,6 +11,7 @@ url = '25i01'
 
 <!-- more -->
 
++ `15-sep-2025` {{< link/gh 25i01.23 >}} Correction period info, not for all.
 + `01-sep-2025` {{< link/gh 25i01.22 >}} Initialization of bkd-2024-2, finalization.
 + `31-aug-2025` {{< link/gh 25i01.21 >}} Reminder for bkd-2024-2 filling.
 
