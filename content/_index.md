@@ -47,7 +47,7 @@ draft = false
 {{< card/category
   name="meetups"
   logo="images/symbols/teamwork.svg"
-  count="4"
+  count="5"
   link="/butiran/25h55/"
 >}}
 
@@ -61,7 +61,7 @@ draft = false
 {{< card/category
   name="notes"
   logo="images/symbols/calendar.svg"
-  count="30"
+  count="31"
   link="/butiran/25h62/"
 >}}
 
