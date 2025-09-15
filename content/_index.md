@@ -124,6 +124,6 @@ draft = false
 {{< card/category
   name="users"
   logo="images/symbols/users.svg"
-  count="16"
+  count="17"
   link="/butiran/25h64/"
 >}}
