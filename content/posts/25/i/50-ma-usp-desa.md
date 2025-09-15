@@ -11,5 +11,5 @@ url = '25i50'
 
 <!-- more -->
 
-+ `15-sep-2025` {{< link/gh 25i50.02 >}} Plan for online meetup with patner (undocu).
-+ `16-sep-2025` {{< link/gh 25i50.01 >}} Call for proposal info, meeting record (undocu). 
++ `15-sep-2025` {{< link/gh 25i50.02 >}} Plan for online meetup with patner.
++ `16-sep-2025` {{< link/gh 25i50.01 >}} Call for proposal info, meeting record. 
