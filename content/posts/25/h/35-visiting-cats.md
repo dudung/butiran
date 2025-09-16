@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
+- `17-sep-2025` - (s) -.
 - `16-sep-2025` - (s) -.
 - `12-sep-2025` Bumil (s) -.
 - `10-sep-2025` Bumil (s) Bigboss.
