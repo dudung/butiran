@@ -12,6 +12,7 @@ url = '25i15'
 <!-- more -->
 
 + `20-sep-2025` {{< link/gh 25i15.30 >}} math & physics problems with py:  examples of common exercises (unfin).
++ `17-sep-2025` {{< link/gh 25i15.33 >}} image datasets in physics: exploring available resources (unfin).
 + `16-sep-2025` {{< link/gh 25i15.32 >}} parametric equations & their plots: multi-panel plotting with matplotlib subplots.
 + `13-sep-2025` {{< link/gh 25i15.29 >}} algorithm and programming in sci: course intro, platforms prep, python installation.
 + `11-sep-2025` {{< link/gh 25i15.31 >}} review on newton’s laws of motion: normal force, r and v calculation from a.
