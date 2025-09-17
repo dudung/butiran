@@ -24,6 +24,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="clogs"
+  logo="images/symbols/infinite.svg"
+  count="1"
+  link="/butiran/25i53/"
+>}}
+
+{{< card/category
   name="courses"
   logo="images/symbols/blackboard.svg"
   count="6"
@@ -40,7 +47,7 @@ draft = false
 {{< card/category
   name="medium"
   logo="images/symbols/medium.svg"
-  count="3"
+  count="4"
   link="/butiran/25i22/"
 >}}
 

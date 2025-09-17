@@ -11,6 +11,8 @@ url = '25h32'
 
 <!-- more -->
 
++ `17-sep-2025` {{< link/gh 25h32.07 >}} Photo of receipts with smartphone.
++ `12-aug-2025` {{< link/gh 25h32.06 >}} Delivery test and succesfull.
 + `12-aug-2025` {{< link/gh 25h32.05 >}} Finalization of distribution issue.
 + `04-aug-2025` {{< link/gh 25h32.04 >}} A postponement due to agri-minist visit.
 + `01-aug-2025` {{< link/gh 25h32.03 >}} Initial distribution for the issue.
