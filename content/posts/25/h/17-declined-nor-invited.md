@@ -12,7 +12,7 @@ url = '25h17'
 <!-- more -->
 
 + `12-sep-2025` {{< link/gh 25h17.16 >}} Info about german day next tuesday.
-+ `12-sep-2025` {{< link/gh 25h17.15 >}} Misreading of sabu visit colloquium 
++ `12-sep-2025` {{< link/gh 25h17.15 >}} Misreading of sabu visit colloquium.
 + `09-sep-2025` {{< link/gh 25h17.14 >}} Conf n/a for aidi-aken-ispe 11-sep-2025. ✗
 + `03-sep-2025` {{< link/gh 25h17.13 >}} Confirmation for nextweek fmipa-kopsor. ✗
 + `13-aug-2025` {{< link/gh 25h17.12 >}} Sudden offer to visit stia-lan.
