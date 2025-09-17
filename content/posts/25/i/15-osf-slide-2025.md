@@ -24,3 +24,4 @@ url = '25i15'
 
 ## notes
 + It is host on [cgf5x](https://osf.io/cgf5x/).
++ Slide in previous year is on [25i59](/butiran/25i59/).
