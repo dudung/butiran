@@ -11,6 +11,11 @@ url = '25c46'
 
 <!-- more -->
 
++ `17-sep-2025` {{< link/gh 25c46.21 >}} Discussion about dissertaion scope.
++ `28-aug-2025` {{< link/gh 25c46.20 >}} Talk from waseda about ml molecular-sim.
++ `22-jul-2025` {{< link/gh 25c46.19 >}} Missing 1201 talk about dem. 
++ `19-jul-2025` {{< link/gh 25c46.18 >}} Weekend Hands-on about dem by putri. 
++ `17-sep-2025` {{< link/gh 25c46.17 >}} Moving to gh from osf, &le; 16 still on osf.
 + `03-jul-2025` [`bu7my`](https://osf.io/bu7my) Another question, whose answer might be modeling.
 + `03-jul-2025` [`ug38x`](https://osf.io/ug38x) Presentation of pdsk-3.
 + `01-jul-2025` [`27ds8`](https://osf.io/27ds8) Draft report for pdsk-3.
