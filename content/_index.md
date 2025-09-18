@@ -124,7 +124,7 @@ draft = false
 {{< card/category
   name="trainings"
   logo="images/symbols/calibration.svg"
-  count="3"
+  count="4"
   link="/butiran/25h57/"
 >}}
 
