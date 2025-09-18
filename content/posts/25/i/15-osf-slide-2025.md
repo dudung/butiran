@@ -12,6 +12,7 @@ url = '25i15'
 <!-- more -->
 
 + `20-sep-2025` {{< link/gh 25i15.30 >}} math & physics problems with py:  examples of common exercises (unfin).
++ `18-sep-2025` {{< link/gh 25i15.34 >}} one-dimensional collision: comparing soft-sphere and hard-sphere schemes (unfin).
 + `17-sep-2025` {{< link/gh 25i15.33 >}} image datasets in physics: exploring available resources (unfin).
 + `16-sep-2025` {{< link/gh 25i15.32 >}} parametric equations & their plots: multi-panel plotting with matplotlib subplots.
 + `13-sep-2025` {{< link/gh 25i15.29 >}} algorithm and programming in sci: course intro, platforms prep, python installation.
@@ -23,5 +24,5 @@ url = '25i15'
 
 
 ## notes
-+ It is host on [cgf5x](https://osf.io/cgf5x/).
++ It is hosted on [cgf5x](https://osf.io/cgf5x/) and src is on [9gd4x](https://osf.io/9gd4x/).
 + Slide in previous year is on [25i59](/butiran/25i59/).

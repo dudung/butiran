@@ -11,13 +11,15 @@ url = '25f33'
 
 <!-- more -->
 
++ `19-sep-2025` Winzige Wut, fast zu spät Shubuh, Tausendfüßler am Obergeschoss.
++ `18-sep-2025` Schwache Geckostimme während Shubuh.
 + `17-sep-2025` Fruemorgen klatterende Ameisen nach unten am Fuss.
 + `16-sep-2025` Leise stimme eines Hausgeckos im Fern während in Moschee.
 + `15-sep-2025` Schlechtes natürliches Pinkeln frühmorgen während Traum, Unsubuh.
 + `14-sep-2025` Ein lautes schwarzes Singen am Tag.
 + `12-sep-2025` Der geklebte Gecko ist alle von Maus gegessen.
 + `10-sep-2025` Ein geklebter Gecko neben Kühlschrank.
-+ `08-sep-2025` Stimme eines Geckos und eines Hausgeckos während Subuh, ein lautes schwarzes Singen am Tag.
++ `08-sep-2025` Stimme eines Geckos und eines Hausgeckos während Shubuh, ein lautes schwarzes Singen am Tag.
 + `07-sep-2025` Ein Hausgecko an der Decke vor Bibliothek.
 + `06-sep-2025` Zweimal stimme eines Geckos während Subuh.
 + `05-sep-2025` N/A (vergessen zu dokumentieren).

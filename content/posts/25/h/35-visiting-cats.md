@@ -11,7 +11,8 @@ url = '25h35'
 
 <!-- more -->
 
-- `18-sep-2025` - (s) -.
+- `19-sep-2025` - (s) Frighten queen.
+- `18-sep-2025` - (s) Frighet kitten.
 - `17-sep-2025` - (s) -.
 - `16-sep-2025` - (s) -.
 - `12-sep-2025` Bumil (s) -.
