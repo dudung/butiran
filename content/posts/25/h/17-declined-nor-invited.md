@@ -11,6 +11,9 @@ url = '25h17'
 
 <!-- more -->
 
++ `19-sep-2025` {{< link/gh 25h17.19 >}} Strategy writing in top tier journals by md.
++ `19-sep-2025` {{< link/gh 25h17.18 >}} Sabu expedition colloquium in as.
++ `16-sep-2025` {{< link/gh 25h17.17 >}} Archive of german day (emtpy, undocu).
 + `12-sep-2025` {{< link/gh 25h17.16 >}} Info about german day next tuesday.
 + `12-sep-2025` {{< link/gh 25h17.15 >}} Misreading of sabu visit colloquium.
 + `09-sep-2025` {{< link/gh 25h17.14 >}} Conf n/a for aidi-aken-ispe 11-sep-2025. ✗
