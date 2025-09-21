@@ -11,6 +11,8 @@ url = '25i60'
 
 <!-- more -->
 
++ `21-sep-2025` {{< link/gh 25i60.10 >}} Password reset and info submission.
++ `19-sep-2025` {{< link/gh 25i60.09 >}} Unsolved wrong password problem.
 + `18-sep-2025` {{< link/gh 25i60.08 >}} Exam form filling for cloud archictecting.
 + `dd-mmm-yyyy` `0000.00` Last chances for exam info (undocu).
 + `dd-mmm-yyyy` `0000.00` Postponed exam info archive (undocu).
