@@ -120,12 +120,13 @@ Following are steps to enable `npprel://` url protocol in a HTML page generated 
 7. Open the generated HTML page from the post.  
 8. Click the `npprel://` link to launch your handler script.  
 
-Original version and full explanation of the steps is available [].
+Original version and full explanation of the steps is available [^gpt-5_2025b].
 
 
 ## to-do
 + Perform a pull request in another machine to test whether it also works.
 + Add note to previous note about `npp://` protocol that will be kept only for historical purpose.
++ Create a Medium story about this note.
 
 
 ## refs
