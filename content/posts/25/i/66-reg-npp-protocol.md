@@ -92,7 +92,7 @@ Above steps have been polished by GPT-5 [^gpt-5_2025d].
 ## to-do
 + Currently, the npp:// protocol requires an absolute path to a file, which is inconvenient when Hugo posts are saved in different folders on different computers. Support for relative paths is needed.
 + An Edit link in a Hugo post could be useful if it retrieves information from the front matter, enabling editing directly while navigating the site on the local server. This feature currently exists only when the HTML pages are served locally.
-+ Create a Medium story about this note.
++ Create a Medium story about this note. Done on [25i68](/butiran/25i68/).
 
 To-do items are also polished by GPT-5 [^gpt-5_2025e], but not the last one.
 

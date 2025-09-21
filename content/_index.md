@@ -47,7 +47,7 @@ draft = false
 {{< card/category
   name="medium"
   logo="images/symbols/medium.svg"
-  count="4"
+  count="5"
   link="/butiran/25i22/"
 >}}
 

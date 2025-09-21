@@ -11,6 +11,7 @@ url = '25i22'
 
 <!-- more -->
 
++ `21-sep-2025` [`25i68`](/butiran/25i68/) Create url protocol npp:// in Windows.
 + `08-sep-2025` [`25i34`](/butiran/25i34/) Enhanced 2-d scatter plots.
 + `07-sep-2205` [`25i31`](/butiran/25i31/) CSS responsiveness issues.
 + `05-sep-2025` [`25i21`](/butiran/25i21/) Install (again) Inkscape on Windows 11.
