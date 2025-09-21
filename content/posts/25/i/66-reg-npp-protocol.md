@@ -1,10 +1,10 @@
 +++
-title = 'reg npp protocol'
+title = 'reg npp-protocol'
 date = '2025-09-21T05:14:34+07:00'
 authors = ['viridi']
 draft = false
 type = 'notes'
-tags = ['categ']
+tags = []
 categories = ['butiran']
 url = '25i66'
 +++
