@@ -12,7 +12,7 @@ draft = false
 {{< card/category
   name="butiran"
   logo="images/symbols/script.svg"
-  count="3"
+  count="4"
   link="/butiran/25h48/"
 >}}
 

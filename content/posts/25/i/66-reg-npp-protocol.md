@@ -86,6 +86,7 @@ Above steps have been polished by GPT-5 [^gpt-5_2025d].
 + unfortunatelly, GPT-5 does not give direct useable code.
 + Reporting error messages to it triggers GPT-5 to give solution the problem.
 + Debugging skill and prior knowledge are still required to take advantage of GPT-5 answers.
++ A better approach is proposed in newer note [^viridi_2025a].
 
 
 ## to-do
@@ -100,3 +101,4 @@ To-do items are also polished by GPT-5 [^gpt-5_2025e].
 [^gpt-5_2025c]: GPT-5, "Create Hugo shortcode", ChatGPT, 21 Sep 2025, url https://chatgpt.com/share/68cf73aa-23d8-800a-92cd-35dee4457627 [20250921].
 [^gpt-5_2025d]: GPT-5, "Correct instruction formatting", ChatGPT, 21 Sep 2025, url https://chatgpt.com/share/68cf7b6d-9bc4-800a-b96d-2a814aef7ed5 [20250921].
 [^gpt-5_2025e]: GPT-5, "Correct sentence structure", ChatGPT, 21 Sep 2025, url https://chatgpt.com/share/68cf81dd-70c0-800a-a578-0eacbb70a84c [20250921].
+[^viridi_2025a]: Sparisoma Viridi, "reg npprel-protocol", butiran, 21 Sep 2025, url [https://dudung.github.io/butiran/25i67/](/butiran/25i67/) [20250921].
