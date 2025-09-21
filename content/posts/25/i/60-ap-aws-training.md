@@ -11,6 +11,7 @@ url = '25i60'
 
 <!-- more -->
 
++ `21-sep-2025` {{< link/gh 25i60.11 >}} Cititrans one-way du-scbd for exam.
 + `21-sep-2025` {{< link/gh 25i60.10 >}} Password reset and info submission.
 + `19-sep-2025` {{< link/gh 25i60.09 >}} Unsolved wrong password problem.
 + `18-sep-2025` {{< link/gh 25i60.08 >}} Exam form filling for cloud archictecting.
