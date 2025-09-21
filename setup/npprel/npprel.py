@@ -15,7 +15,10 @@ if len(sys.argv) < 2:
 url = sys.argv[1]  # e.g. npprel://content/post/my-post.md
 parsed = urllib.parse.urlparse(url)
 rel_path = urllib.parse.unquote(parsed.path).lstrip("/")
-full_path = os.path.normpath(os.path.join(repo_root, rel_path))
+folder_path = "content/posts/"
+full_path = os.path.normpath(os.path.join(repo_root, folder_path, rel_path))
+
+print(full_path)
 
 if not os.path.exists(full_path):
     subprocess.run([NOTEPADPP])  # just open N++ if missing

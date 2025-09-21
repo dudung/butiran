@@ -86,7 +86,7 @@ Above steps have been polished by GPT-5 [^gpt-5_2025d].
 + unfortunatelly, GPT-5 does not give direct useable code.
 + Reporting error messages to it triggers GPT-5 to give solution the problem.
 + Debugging skill and prior knowledge are still required to take advantage of GPT-5 answers.
-+ A better approach is proposed in newer note [^viridi_2025a].
++ A better approach is proposed in newer note [^viridi_2025a] and this approach will not be installed in other machine than nb-amd-ryzen-7.
 
 
 ## to-do
