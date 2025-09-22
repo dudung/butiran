@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
+- `22-sep-2025` Sokkai (s) -.
 - `22-sep-2025` - (s) Bumil (fish bone, trash can inside) (a) Sokkaki.
 - `21-sep-2025` - (s) -.
 - `20-sep-2025` - (s) Bigboss.
