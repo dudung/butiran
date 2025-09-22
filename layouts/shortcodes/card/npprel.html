@@ -1,0 +1,95 @@
+{{/* 
+   Split "27/a/90-post-title" into parts: [27 a 90-post-title]
+*/}}
+{{ $parts := split (.Get 0) "/" }}
+{{ $first := index $parts 0 }}        {{/* "27" */}}
+{{ $second := index $parts 1 }}       {{/* "a" */}}
+{{ $third := index $parts 2 }}        {{/* "90-post-title" */}}
+
+{{/* take the first part of $third before "-" */}}
+{{ $thirdnum := index (split $third "-") 0 }}   {{/* "90" */}}
+
+{{/* now build your new URL */}}
+{{ $newURL := printf "butiran/%s%s%s/" $first $second $thirdnum }}
+
+{{/* cleaned title */}}
+{{ $splitThird := split $third "-" }}
+{{ $titleParts := after 1 $splitThird }}
+{{ $cleanTitle := delimit $titleParts " " }}
+
+<style>
+.npprel-card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between; /* space between top row and bottom */
+  vertical-align: top;
+  width: 80px;
+  height: 80px;
+  margin: 0.3em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+.npprel-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.npprel-link {
+  color: inherit;
+}
+.npprel-link:hover {
+  color: blue;
+}
+.npprel-card .text-wrapper {
+  flex-direction: column;
+  text-align: center;
+  padding: 4px 4px;
+}
+.npprel-card .title {
+  font-weight: 600;
+  font-size: 0.85em;
+  line-height: 1.1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;    /* up to 2 lines */
+  overflow: hidden;
+  word-break: break-word;
+  height: 3.6em;
+}
+.npprel-card .link-container {
+  display: flex;
+}
+.npprel-card .link {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 1.1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;    /* up to 2 lines */
+  overflow: hidden;
+  word-break: break-word;
+  height: 1.1em;
+  color: #aaa;
+}
+
+.link:hover {
+  color: blue;
+}
+</style>
+
+<div class="npprel-card">
+  <div class="text-wrapper">
+    <div class="title">{{ $cleanTitle }}</div>
+    <div class="link-container">
+      <a class="link" href="../../{{ $newURL }}">view</a>
+      <a class="link" href="npprel:///{{ .Get 0 }}.md">edit</a>   
+    </div>
+  </div>
+</div>
