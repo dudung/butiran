@@ -45,6 +45,13 @@ draft = false
 >}}
 
 {{< card/category
+  name="fenotes"
+  logo="images/symbols/alarm-clock.svg"
+  count="6"
+  link="/butiran/25i70/"
+>}}
+
+{{< card/category
   name="medium"
   logo="images/symbols/medium.svg"
   count="5"

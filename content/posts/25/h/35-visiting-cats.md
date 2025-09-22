@@ -11,7 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
-- `22-sep-2025` - (s) Bumil (fish bone, trash can inside).
+- `22-sep-2025` - (s) Bumil (fish bone, trash can inside) (a) Sokkaki.
 - `21-sep-2025` - (s) -.
 - `20-sep-2025` - (s) Bigboss.
 - `19-sep-2025` - (s) Frighten queen + 3 kittens.
