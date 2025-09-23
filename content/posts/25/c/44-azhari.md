@@ -9,8 +9,8 @@ categories = ['users']
 url = '25c44'
 +++
 
-
-+ `09-aug-2025` {{< link/gh 25c44.12 >}}
++ `23-sep-2025` {{< link/gh 25c44.13 >}} Rector decree doctoral supervision.
++ `09-aug-2025` {{< link/gh 25c44.12 >}} Folder renaming.
 + `30-jul-2025` {{< link/gh 25c44.11 >}} Co-supervising request form.
 + `17-jun-2025` {{< link/gh 25c44.10 >}} Qualification exam as co :smile:.
 + `17-jun-2025` {{< link/gh 25c44.09 >}} Migration to github from osf.
