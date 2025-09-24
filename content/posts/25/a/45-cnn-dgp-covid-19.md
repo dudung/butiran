@@ -10,7 +10,11 @@ url = '25a45'
 
 <!--more-->
 
-+ `05-aug-2025` {{< link/gh 25a45.28 >}} Submission of revised manuscript.
++ `24-sep-2025` {{< link/gh 25a45.32 >}} Rejection due to extensive revision.
++ `22-sep-2025` {{< link/gh 25a45.31 >}} Assitant registration form signing.
++ `21-sep-2025` {{< link/gh 25a45.30 >}} Reminder and revision submission.
++ `08-sep-2025` {{< link/gh 25a45.29 >}} Question about assistance opportunity.
++ `06-sep-2025` {{< link/gh 25a45.28 >}} Submission of revised manuscript.
 + `28-aug-2025` {{< link/gh 25a45.27 >}} Info about granted extension date.
 + `19-aug-2025` {{< link/gh 25a45.26 >}} Discussion with first author.
 + `18-aug-2025` {{< link/gh 25a45.25 >}} Review results and informing author-1.
