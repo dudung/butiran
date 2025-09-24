@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `24-sep-2025` Frühmorgen frühes Wasserlassen, ein bisshen.
++ `25-sep-2025` Schlafstörungen durch starken Husten.
++ `24-sep-2025` Frühmorgen frühes Wasserlassen, ein bisshen, kleiner Hausgecko im Badezimmer unten.
 + `23-sep-2025` Vielmal zur Toilette, noch Halsschmerzen haben, geschlageter junger Gecko.
 + `22-sep-2025` Sehr schläfrig, ohne Data von Shubuh, viele Hausgecko-Geräusche in der Ferne. 
 + `21-sep-2025` Reislöffelbehälter auf dem Boden wegen X, ein kleiner Hausgecko im unteren Badezimmer am Abend.
