@@ -11,7 +11,8 @@ url = '25i43'
 
 <!-- more -->
 
-+ `24-sep-2025` {{< link/gh 25i43.04 >}} Furhter discussion on centroids and spreads. 
++ `25-sep-2025` {{< link/gh 25i43.05 >}} Diff-45k-500 centroid and spreads PC3 vs PC1.
++ `24-sep-2025` {{< link/gh 25i43.04 >}} Further discussion on centroids and spreads. 
 + `12-sep-2025` {{< link/gh 25i43.03 >}} Offline discussion and new hyperspace idea.
 + `02-sep-2025` {{< link/gh 25i43.02 >}} Comments and request for modification.
 + `01-sep-2025` {{< link/gh 25i43.01 >}} Data from pkh and intial analysis.
