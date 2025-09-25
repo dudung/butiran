@@ -11,6 +11,8 @@ url = '25i60'
 
 <!-- more -->
 
++ `26-sep-2025` {{< link/gh 25i60.14 >}} Try to get old ebook.
++ `26-sep-2025` {{< link/gh 25i60.13 >}} System check according to email (failed).
 + `22-sep-2025` {{< link/gh 25i60.12 >}} Verification code via email, slow resp.
 + `21-sep-2025` {{< link/gh 25i60.11 >}} Cititrans one-way du-scbd for exam.
 + `21-sep-2025` {{< link/gh 25i60.10 >}} Password reset and info submission.
