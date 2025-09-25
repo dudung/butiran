@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `25-sep-2025` Schlafstörungen durch starken Husten.
++ `26-sep-2025` Bessere Schlafstörungen aber noch Husten, mit bloßer Hand getöteter kleiner Hausgecko.
++ `25-sep-2025` Schlafstörungen durch starken Husten, Husten während Workshop, zu viel Essen.
 + `24-sep-2025` Frühmorgen frühes Wasserlassen, ein bisshen, kleiner Hausgecko im Badezimmer unten.
 + `23-sep-2025` Vielmal zur Toilette, noch Halsschmerzen haben, geschlageter junger Gecko.
 + `22-sep-2025` Sehr schläfrig, ohne Data von Shubuh, viele Hausgecko-Geräusche in der Ferne. 
