@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `27-sep-2025` Bessere Schlafstörungen aber noch Husten, serh müde, zu viele y-fernsehen.
 + `26-sep-2025` Bessere Schlafstörungen aber noch Husten, mit bloßer Hand getöteter kleiner Hausgecko.
 + `25-sep-2025` Schlafstörungen durch starken Husten, Husten während Workshop, zu viel Essen.
 + `24-sep-2025` Frühmorgen frühes Wasserlassen, ein bisshen, kleiner Hausgecko im Badezimmer unten.
