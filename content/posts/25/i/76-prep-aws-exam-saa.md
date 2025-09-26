@@ -11,6 +11,7 @@ url = '25i76'
 
 <!-- more -->
 
+## sample-1
 From a sample question for SAA-C03 [^aws_2022].
 
 + `01` Private subnet requires to download patches from internet.
@@ -51,5 +52,17 @@ instances, private subnet: EC2 instance for the database). Both are in a single 
   - Application is required to be configured.
 
 
+## sample-2
+From ExamTopics [^examptopics_2024]:
++ `01` Daily data 500 GB as average volume, high-speed internet connection sites, minimal operational complexity, aggregate data from all these global sites as quickly as possible in a single Amazon S3 bucket.
+  - Turn on S3 Transfer Acceleration on the destination S3 bucket.
+  - Use multipart uploads to directly upload site data to the destination S3 bucket.
++ `02` Proprietary application log in JSON format in an Amazon S3 bucket, simple queries run on-demand, analysis with minimal changes to the existing architecture.
+  - Use Amazon Athena directly with Amazon S3 to run the queries as needed.
++ `03` Multiple AWS accounts for different departments, management account has an Amazon S3 bucket that contains project reports, access limitation to this S3 bucket to only users of accounts within the organization.
+  - Add the aws PrincipalOrgID global condition key with a reference to the organization ID to the S3 bucket policy.
+
+
 ## refs
 [^aws_2022]: Nadine McBride, "AWS Certified Solutions Architect - Associate (SAA-C03) Sample Exam Questions", AWS Training and Certification, 17 Feb 2022, url https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions_C03.pdf [20250926].
+[^examptopics_2024]: url https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/ [2024].
