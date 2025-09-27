@@ -11,6 +11,8 @@ url = '25i15'
 
 <!-- more -->
 
++ `27-sep-2025` {{< link/gh 25i15.36 >}} py data types, operators, variables: another intro and working / not working examples.
++ `23-sep-2025` {{< link/gh 25i15.35 >}} visual intro to machine learning: an intro with less text.
 + `20-sep-2025` {{< link/gh 25i15.30 >}} math & physics problems with py:  examples of common exercises (unfin).
 + `18-sep-2025` {{< link/gh 25i15.34 >}} one-dimensional collision: comparing soft-sphere and hard-sphere schemes (unfin).
 + `17-sep-2025` {{< link/gh 25i15.33 >}} image datasets in physics: exploring available resources (unfin).
