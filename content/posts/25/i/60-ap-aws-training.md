@@ -11,7 +11,8 @@ url = '25i60'
 
 <!-- more -->
 
-+ `27-sep-2025` {{< link/gh 25i60.16 >}} Currently not yet test result in system.
++ `27-sep-2025` {{< link/gh 25i60.17 >}} Currently not yet test result in system.
++ `26-sep-2025` {{< link/gh 25i60.16 >}} Food receipts (undocu).
 + `26-sep-2025` {{< link/gh 25i60.15 >}} The test day.
 + `26-sep-2025` {{< link/gh 25i60.14 >}} Try to get old ebook (failed).
 + `26-sep-2025` {{< link/gh 25i60.13 >}} System check according to email (failed).
