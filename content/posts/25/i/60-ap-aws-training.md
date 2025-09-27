@@ -11,10 +11,12 @@ url = '25i60'
 
 <!-- more -->
 
-+ `26-sep-2025` {{< link/gh 25i60.14 >}} Try to get old ebook.
++ `27-sep-2025` {{< link/gh 25i60.16 >}} Currently not yet test result in system.
++ `26-sep-2025` {{< link/gh 25i60.15 >}} The test day.
++ `26-sep-2025` {{< link/gh 25i60.14 >}} Try to get old ebook (failed).
 + `26-sep-2025` {{< link/gh 25i60.13 >}} System check according to email (failed).
 + `22-sep-2025` {{< link/gh 25i60.12 >}} Verification code via email, slow resp.
-+ `21-sep-2025` {{< link/gh 25i60.11 >}} Cititrans one-way du-scbd for exam.
++ `21-sep-2025` {{< link/gh 25i60.11 >}} Cititrans one-way du-scbd for exam, sms-ss.
 + `21-sep-2025` {{< link/gh 25i60.10 >}} Password reset and info submission.
 + `19-sep-2025` {{< link/gh 25i60.09 >}} Unsolved wrong password problem.
 + `18-sep-2025` {{< link/gh 25i60.08 >}} Exam form filling for cloud archictecting.
