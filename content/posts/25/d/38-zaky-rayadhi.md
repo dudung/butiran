@@ -9,7 +9,20 @@ categories = ['users']
 url = '25d38'
 +++
 
-+ `29-jul-2025` {{< link/gh 25d38.25 >}} Discussion and misunderstanding clarity.
++ `28-sep-2025` {{< link/gh 25d38.39 >}} Discussing valuable learning case.
++ `27-sep-2025` {{< link/gh 25d38.38 >}} Info about resigning due to time.
++ `25-sep-2025` {{< link/gh 25d38.37 >}} Paper submission to my-jt-se.
++ `24-sep-2025` {{< link/gh 25d38.36 >}} Paper preparation for my-jt-se.
++ `25-sep-2025` {{< link/gh 25d38.35 >}} Thesis book signing.
++ `24-sep-2025` {{< link/gh 25d38.34 >}} Finalization of thesis book.
++ `22-sep-2025` {{< link/gh 25d38.33 >}} Info for target journal.
++ `12-sep-2025` {{< link/gh 25d38.32 >}} Very late presentation file.
++ `10-sep-2025` {{< link/gh 25d38.31 >}} Presentation of final seminar.
++ `03-sep-2025` {{< link/gh 25d38.30 >}} Final seminar date determination.
++ `27-aug-2025` {{< link/gh 25d38.29 >}} Miscommunication and misinformation.
++ `25-aug-2025` {{< link/gh 25d38.28 >}} Approval for final seminar.
++ `21-aug-2025` {{< link/gh 25d38.27 >}} Data for density variation.
++ `29-jul-2025` {{< link/gh 25d38.26 >}} Discussion and misunderstanding clarity.
 + `29-jul-2025` {{< link/gh 25d38.25 >}} Rename folder and rearrangement.
 + `28-jul-2025` {{< link/gh 25d38.24 >}} Appointment reschedule.
 + `11-jul-2025` {{< link/gh 25d38.23 >}} Manus-1d not igsc
