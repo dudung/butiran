@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `28-sep-2025` Bessere Schlafstörungen aber noch wenig Husten, zu viel Essen, morgiger schlecter Furz.
 + `27-sep-2025` Bessere Schlafstörungen aber noch Husten, serh müde, zu viele y-fernsehen.
 + `26-sep-2025` Bessere Schlafstörungen aber noch Husten, mit bloßer Hand getöteter kleiner Hausgecko.
 + `25-sep-2025` Schlafstörungen durch starken Husten, Husten während Workshop, zu viel Essen.
@@ -34,6 +35,9 @@ url = '25f33'
 + `03-sep-2025` Mehrmal (4?) stimme eines Geckos während der Maghrib-Zeit.
 + `02-sep-2025` Ein dunkler Traum der J-sama, tote Kakerlaken (zwei geklebt, eins rückengeklagt).
 + `01-sep-2025` Ärger in der Luft wegen vermutender lauten Stimme.
+
+
+## 25-08
 + `31-aug-2025` Sehr laut schwarzes Singen am Vorabend, stimme eines Hausgeckos und eines Geckos.
 + `30-aug-2025` Durcfall Am Frühmorgen zweimal.
 + `29-aug-2025` Schlechtes Pinkel frühmorgen, Unfall am Morgen.
