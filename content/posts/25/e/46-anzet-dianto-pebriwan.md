@@ -11,6 +11,7 @@ url = '25e46'
 
 <!-- more -->
 
++ `25-sep-2025` {{< link/gh 25e46.21 >}} Study plan change approval.
 + `09-sep-2025` {{< link/gh 25e46.20 >}} Recomm delivery.
 + `08-sep-2025` {{< link/gh 25e46.19 >}} Reminder for recomm.
 + `04-sep-2025` {{< link/gh 25e46.18 >}} Essay and goal.
