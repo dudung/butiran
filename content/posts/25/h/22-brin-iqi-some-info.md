@@ -11,7 +11,8 @@ url = '25h22'
 
 <!-- more -->
 
-+ `09-aug-2025` {{< link/gh 25h22.04 >}} Karnataka, a quantum city in india.
++ `28-sep-2025` {{< link/gh 25h22.06 >}} Andriyan scientific report series.
++ `09-aug-2025` {{< link/gh 25h22.05 >}} Karnataka, a quantum city in india.
 + `10-jan-2025` {{< link/gh 25h22.04 >}} Group invitation acceptance.
 + `08-dec-2024` {{< link/gh 25h22.03 >}} Creation of a wag in brin.
 + `08-oct-2024` {{< link/gh 25h22.02 >}} A group invitation at google.
