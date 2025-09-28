@@ -24,7 +24,7 @@ url = '25i70'
 {{< card/npprel "25/h/62-categ-notes" >}}
 {{< card/npprel "25/i/28-categ-outlets" >}}
 {{< card/npprel "25/i/03-categ-overloads" >}}
-{{< card/npprel "25/h/52-categ-proposals.md" >}}
+{{< card/npprel "25/h/52-categ-proposals" >}}
 {{< card/npprel "25/h/53-categ-research" >}}
 {{< card/npprel "25/h/56-categ-reviews" >}}
 {{< card/npprel "25/h/54-categ-scripta" >}}
