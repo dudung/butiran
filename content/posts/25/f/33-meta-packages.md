@@ -11,6 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
++ `30-sep-2025` Mehrmal zur Toilette.
++ `29-sep-2025` Zu viel Essen ganztag.
 + `28-sep-2025` Bessere Schlafstörungen aber noch wenig Husten, zu viel Essen, morgiger schlecter Furz.
 + `27-sep-2025` Bessere Schlafstörungen aber noch Husten, serh müde, zu viele y-fernsehen.
 + `26-sep-2025` Bessere Schlafstörungen aber noch Husten, mit bloßer Hand getöteter kleiner Hausgecko.
