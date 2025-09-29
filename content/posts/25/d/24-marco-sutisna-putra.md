@@ -9,6 +9,9 @@ categories = ['users']
 url = '25d24'
 +++
 
++ `22-sep-2025` {{< link/gh 25d24.22 >}} Postponed offline supervison.
++ `11-sep-2025` {{< link/gh 25d24.21 >}} A session for thesis supervising.
++ `28-aug-2025` {{< link/gh 25d24.20 >}} A product for comparison.
 + `29-sep-2025` {{< link/gh 25d24.19 >}} Folders renaming.
 + `17-jun-2025` {{< link/gh 25d24.18 >}} Thesis i seminar, at 1300 in 3F on R3.
 + `17-jun-2025` {{< link/gh 25d24.17 >}} Migration of files to github from osf.
