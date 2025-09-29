@@ -12,6 +12,7 @@ url = '25i81'
 <!-- more -->
 
 + `29-sep-2025` {{< link/gh 25i81.03 >}} Confirmation from fi-92-s about the news.
++ `23-sep-2025` {{< link/gh 25i81.02 >}} Late info about the death, buried next day.
 
 
 ## notes

@@ -9,8 +9,9 @@ categories = ['users']
 url = '25d24'
 +++
 
-+ `17-jun-2025` [`c9d60`](https://github.com/dudung/20924001/blob/main/18_thesis_1_seminar/README.md) Thesis i seminar, at 1300 in 3F on R3.
-+ `17-jun-2025` [`e3d9f`](https://github.com/dudung/20924001/blob/main/17_to_github/README.md) Migration of files to github from osf.
++ `29-sep-2025` {{< link/gh 25d24.19 >}} Folders renaming.
++ `17-jun-2025` {{< link/gh 25d24.18 >}} Thesis i seminar, at 1300 in 3F on R3.
++ `17-jun-2025` {{< link/gh 25d24.17 >}} Migration of files to github from osf.
 + `06-jun-2025` [`8acyd`](https://osf.io/8acyd) Tesis 1 seminar approval.
 + `03-jun-2025` [`d5rn9`](https://osf.io/d5rn9) Further progress and plan change.
 + `28-may-2025` [`aqmsd`](https://osf.io/aqmsd) Progress and thesis i seminar date.
