@@ -9,7 +9,7 @@ categories = ['users']
 url = '25d38'
 +++
 
-+ `29-sep-2025` {{< link/gh 25d38.40 >}} Info due to forgotten semester payment.
++ `29-sep-2025` {{< link/gh 25d38.40 >}} Info for semester payment settlement.
 + `28-sep-2025` {{< link/gh 25d38.39 >}} Discussing valuable learning case.
 + `27-sep-2025` {{< link/gh 25d38.38 >}} Info about resigning due to time.
 + `25-sep-2025` {{< link/gh 25d38.37 >}} Paper submission to my-jt-se.

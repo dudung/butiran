@@ -11,6 +11,7 @@ url = '25i15'
 
 <!-- more -->
 
++ `30-sep-2025` {{< link/gh 25i15.38 >}} synthetic simulation video dataset: simple physics-based animation video in python
 + `28-sep-2025` {{< link/gh 25i15.37 >}} [`a73nq`](https://osf.io/a73nq) py (not) bool if for sequence: some examples.
 + `27-sep-2025` {{< link/gh 25i15.36 >}} py data types, operators, variables: another intro and working / not working examples.
 + `23-sep-2025` {{< link/gh 25i15.35 >}} visual intro to machine learning: an intro with less text.

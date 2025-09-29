@@ -11,6 +11,7 @@ url = '25h17'
 
 <!-- more -->
 
++ `29-sep-2025` {{< link/gh 25h17.20 >}} National roadmap of Artificial intelligence.
 + `19-sep-2025` {{< link/gh 25h17.19 >}} Strategy writing in top tier journals by md.
 + `19-sep-2025` {{< link/gh 25h17.18 >}} Sabu expedition colloquium in as.
 + `16-sep-2025` {{< link/gh 25h17.17 >}} Archive of german day (emtpy, undocu).
