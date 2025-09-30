@@ -11,7 +11,11 @@ url = '25f33'
 
 <!-- more -->
 
-+ `30-sep-2025` Mehrmal zur Toilette.
++ `30-sep-2025` Zu müde zu einstehen aber Tahajud and Subuh schaffen.
+
+
+## 25-09
++ `30-sep-2025` Mehrmal zur Toilette, zu viel Abendessen.
 + `29-sep-2025` Zu viel Essen ganztag.
 + `28-sep-2025` Bessere Schlafstörungen aber noch wenig Husten, zu viel Essen, morgiger schlecter Furz.
 + `27-sep-2025` Bessere Schlafstörungen aber noch Husten, serh müde, zu viele y-fernsehen.

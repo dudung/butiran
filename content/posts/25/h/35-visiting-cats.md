@@ -11,7 +11,9 @@ url = '25h35'
 
 <!-- more -->
 
-- `30-sep-2025` - (s).
++ `01-oct-2025` Bumil (s) Bumil.
+
+- `30-sep-2025` - (s) - (d) - (s) - (m) - (i) Bumil.
 - `29-sep-2025` - (s) - (d) King (a) Sokkaki, Bumil (i) Bumil.
 - `28-sep-2025` - (s) - (d) King (a) - (i) Sokkaki, Bumil.
 - `24-sep-2025` Bumil (s) Bumil, Sokkaki.
