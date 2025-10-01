@@ -96,7 +96,7 @@ draft = false
 {{< card/category
   name="proposals"
   logo="images/symbols/upload.svg"
-  count="5"
+  count="6"
   link="/butiran/25h52/"
 >}}
 
