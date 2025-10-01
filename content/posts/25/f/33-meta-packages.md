@@ -11,7 +11,8 @@ url = '25f33'
 
 <!-- more -->
 
-+ `30-sep-2025` Zu müde zu einstehen aber Tahajud and Subuh schaffen.
++ `02-oct-2025` Einmal Geckostimme in Straße vor Subuh, Mausestimme hinter Küchentür.
++ `01-oct-2025` Zu müde zu einstehen aber Tahajud and Subuh schaffen.
 
 
 ## 25-09

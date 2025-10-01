@@ -11,6 +11,7 @@ url = '25h35'
 
 <!-- more -->
 
++ `02-oct-2025` - (s) (King in street).
 + `01-oct-2025` Bumil (s) Bumil.
 
 - `30-sep-2025` - (s) - (d) - (s) - (m) - (i) Bumil.
