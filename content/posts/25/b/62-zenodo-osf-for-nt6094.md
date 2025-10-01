@@ -11,7 +11,7 @@ url = '25b62'
 
 + Layanan akses publikasi, jenis publikasi, syarat kelulusan, \
   url https://zenodo.org/records/7058928.
-+ Indeks jurnal, jurnal pemangsa,akses terbuka, sitasi, kuartil \
++ Indeks jurnal, jurnal pemangsa, akses terbuka, sitasi, kuartil \
   url https://zenodo.org/records/7082129.
 + Journal: Pendahuluan \
   url https://zenodo.org/records/7103265.
