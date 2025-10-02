@@ -11,6 +11,8 @@ url = '25j01'
 
 <!-- more -->
 
++ `02-oct-2025` {{< link/gh 25j01.14 >}} Patnership statement (2 ptnbh).
++ `01-oct-2025` {{< link/gh 25j01.13 >}} Collect info about equity and rki-a.
 + `01-oct-2025` {{< link/gh 25j01.12 >}} Internal discussion and members cv.
 + `30-sep-2025` {{< link/gh 25j01.11 >}} Research patner offer and proposal.
 + `30-sep-2025` {{< link/gh 25j01.10 >}} Submission day and extension.
