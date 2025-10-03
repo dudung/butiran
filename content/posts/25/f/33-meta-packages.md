@@ -11,6 +11,7 @@ url = '25f33'
 
 <!-- more -->
 
++ `04-oct-2025` Etwas zu einstehen, geklebte große Maus in der Küche, Kakerlake im Badezimmer unten.
 + `03-oct-2025` Zu müde zu einstehen aber Tahajud and Subuh schaffen.
 + `02-oct-2025` Einmal Geckostimme in Straße vor Subuh, Mausestimme hinter Küchentür, kleiner Ärger Muttert-Tochter, getoteter Hausgecko im Hauptschlafzimmer, Tausendfüßler unten.
 + `01-oct-2025` Zu müde zu einstehen aber Tahajud and Subuh schaffen.
