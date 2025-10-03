@@ -11,6 +11,8 @@ url = '25h35'
 
 <!-- more -->
 
++ `04-oct-2025  - (s).
++ `03-oct-2025` - (s) - (l) - (a) - (m) - (i) Sokkaki.
 + `02-oct-2025` - (s) (King in street).
 + `01-oct-2025` Bumil (s) Bumil.
 
