@@ -11,6 +11,7 @@ url = '25i58'
 
 <!-- more -->
 
++ `04-oct-2025` {{< link/gh 25i58.07 >}} Breakfast on the way and lunch in Cirebon.
 + `29-sep-2025` {{< link/gh 25i58.06 >}} Instant noodle, enoki mushroom, boiled egg.
 + `19-sep-2025` {{< link/gh 25i58.05 >}} Pecel lele + pinepale with himalayan salt.
 + `19-sep-2025` {{< link/gh 25i58.04 >}} Rice porridge mang boim + cakalang noodle remains.
