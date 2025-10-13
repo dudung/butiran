@@ -18,15 +18,17 @@
   display: flex;
 }
 
-.date-reading-time {
-  flex: 2;
+.date-reading-time-edit {
+  flex: 2.5;
   text-align: right;
+  border: 0px solid blue;
 }
 
 .authors-container {
   flex: 5;
   padding-left: 0;
   margin: 0;
+  border: 0px solid blue;
 }
 
 .author {
