@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Template on butiran</title><link>http://localhost:1313/butiran/tags/template/</link><description>Recent content in Template on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 08 Mar 2025 03:49:17 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/template/index.xml" rel="self" type="application/rss+xml"/><item><title>integ slide-article</title><link>http://localhost:1313/butiran/25c19/</link><pubDate>Sat, 08 Mar 2025 03:49:17 +0700</pubDate><guid>http://localhost:1313/butiran/25c19/</guid><description>&lt;ul&gt;
-&lt;li&gt;It integrates a slide and an article in a Hugo post.&lt;/li&gt;
-&lt;li&gt;The slide can be considered as summary of the article.&lt;/li&gt;
-&lt;li&gt;To view the slide, display a post in a browser full screen mode.&lt;/li&gt;
-&lt;li&gt;Displayed vertical scroll bar showing that there is other part below the slide, which is the article.&lt;/li&gt;
-&lt;li&gt;Current limitation: One article can only has one slide.&lt;/li&gt;
-&lt;li&gt;Usage workflow might be necessary to prepare in order to inform how this approach can hande a task more efficient.&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
