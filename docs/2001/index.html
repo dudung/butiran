@@ -1,5 +1,4 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>have no idea | butiran</title>
-<link rel=stylesheet href=/butiran/css/main.min.5d949e138e137f26bbbc6fbe151c3e39ca49a674bd5c6f0f3a9ff79176ee1043.css integrity="sha256-XZSeE44Tfya7vG++FRw+OcpJpnS9XG8POp/3kXbuEEM=" crossorigin=anonymous><script src=/butiran/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1766207886'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>have no idea</h1><time datetime=2024-04-05T20:32:00+07:00>April 5, 2024</time><p>A short story without any purposes</p><p>The same problem comes again and I follow the desire to make a new static site using
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>have no idea | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1764542482"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1764542482'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>have no idea</h1><time datetime=2024-04-05T20:32:00+07:00>April 5, 2024</time><p>A short story without any purposes</p><p>The same problem comes again and I follow the desire to make a new static site using
 <a href=https://pages.github.com/ target=_blank rel="nofollow noopener noreferrer"><span>GitHub Pages <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>. The last site is
 <a href=https://dudung.github.io/o/ target=_blank rel="nofollow noopener noreferrer"><span>o <i class="fa fa-external-link" style=font-size:14px></i>
@@ -42,161 +41,166 @@ E(["End"])</div><p>The flowchart is created using
 </span></span><span style=display:flex><span>  <span style=color:#a6e22e>P</span>[<span style=color:#e6db74>&#34;x&lt;sub&gt;1&lt;/sub&gt; = -b + (b&lt;sup&gt;2&lt;/sup&gt; - 4ac)&lt;sup&gt;&amp;half;&lt;/sup&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>  x&lt;sub&gt;2&lt;/sub&gt; = -b - (b&lt;sup&gt;2&lt;/sup&gt; - 4ac)&lt;sup&gt;&amp;half;&lt;/sup&gt;&#34;</span>]
 </span></span><span style=display:flex><span>  <span style=color:#a6e22e>O</span>[<span style=color:#e6db74>/&#34;x1, x2&#34;/</span>]
-</span></span><span style=display:flex><span>  <span style=color:#a6e22e>E</span>([<span style=color:#e6db74>&#34;End&#34;</span>])</span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>is the code.</p><h2 id=chart-music-molecules>chart, music, molecules</h2><p>Well, it is unusual to correlate chart, music, and molecules, right? But there are only feature that can be supported using this Hugo-based static site.</p><p>Let us show the chart, e.g. xy scatter? Well, it can be fascillitated using Chart.js and Hugo shortcode as follow.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#a6e22e>blank</span><span style=color:#f92672>/</span><span style=color:#a6e22e>scatter</span> <span style=color:#ae81ff>80</span> <span style=color:#ae81ff>320</span> <span style=color:#f92672>&gt;</span>}}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_XLABEL</span> <span style=color:#a6e22e>x</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_YLABEL</span> <span style=color:#a6e22e>y</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_SLABEL</span> <span style=color:#a6e22e>Data</span><span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>,<span style=color:#a6e22e>Data</span><span style=color:#f92672>-</span><span style=color:#ae81ff>2</span>,<span style=color:#a6e22e>Data</span><span style=color:#f92672>-</span><span style=color:#ae81ff>3</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_PCOLOR</span> <span style=color:#960050;background-color:#1e0010>#</span><span style=color:#a6e22e>f88</span>,<span style=color:#960050;background-color:#1e0010>#</span><span style=color:#ae81ff>88</span><span style=color:#a6e22e>f</span>,<span style=color:#960050;background-color:#1e0010>#</span><span style=color:#ae81ff>8</span><span style=color:#a6e22e>f8</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_PRADII</span> <span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_LVISIB</span> <span style=color:#66d9ef>false</span>,<span style=color:#66d9ef>true</span>,<span style=color:#66d9ef>true</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_LCOLOR</span> <span style=color:#960050;background-color:#1e0010>#</span><span style=color:#a6e22e>f88</span>,<span style=color:#960050;background-color:#1e0010>#</span><span style=color:#ae81ff>88</span><span style=color:#a6e22e>f</span>,<span style=color:#960050;background-color:#1e0010>#</span><span style=color:#ae81ff>8</span><span style=color:#a6e22e>f8</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.000</span>,<span style=color:#ae81ff>3.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.902</span>,<span style=color:#ae81ff>3.618</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.618</span>,<span style=color:#ae81ff>4.176</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.176</span>,<span style=color:#ae81ff>4.618</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3.618</span>,<span style=color:#ae81ff>4.902</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3.000</span>,<span style=color:#ae81ff>5.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2.382</span>,<span style=color:#ae81ff>4.902</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.824</span>,<span style=color:#ae81ff>4.618</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.382</span>,<span style=color:#ae81ff>4.176</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.098</span>,<span style=color:#ae81ff>3.618</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.000</span>,<span style=color:#ae81ff>3.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.098</span>,<span style=color:#ae81ff>2.382</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.382</span>,<span style=color:#ae81ff>1.824</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.824</span>,<span style=color:#ae81ff>1.382</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2.382</span>,<span style=color:#ae81ff>1.098</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3.000</span>,<span style=color:#ae81ff>1.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3.618</span>,<span style=color:#ae81ff>1.098</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.176</span>,<span style=color:#ae81ff>1.382</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.618</span>,<span style=color:#ae81ff>1.824</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.902</span>,<span style=color:#ae81ff>2.382</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>12.000</span>,<span style=color:#ae81ff>3.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.934</span>,<span style=color:#ae81ff>3.624</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.741</span>,<span style=color:#ae81ff>4.220</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.427</span>,<span style=color:#ae81ff>4.763</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.007</span>,<span style=color:#ae81ff>5.229</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10.500</span>,<span style=color:#ae81ff>5.598</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9.927</span>,<span style=color:#ae81ff>5.853</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9.314</span>,<span style=color:#ae81ff>5.984</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.686</span>,<span style=color:#ae81ff>5.984</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.073</span>,<span style=color:#ae81ff>5.853</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.500</span>,<span style=color:#ae81ff>5.598</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.993</span>,<span style=color:#ae81ff>5.229</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.573</span>,<span style=color:#ae81ff>4.763</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.259</span>,<span style=color:#ae81ff>4.220</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.066</span>,<span style=color:#ae81ff>3.624</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.000</span>,<span style=color:#ae81ff>3.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.066</span>,<span style=color:#ae81ff>2.376</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.259</span>,<span style=color:#ae81ff>1.780</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.573</span>,<span style=color:#ae81ff>1.237</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6.993</span>,<span style=color:#ae81ff>0.771</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.500</span>,<span style=color:#ae81ff>0.402</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.073</span>,<span style=color:#ae81ff>0.147</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.686</span>,<span style=color:#ae81ff>0.016</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9.314</span>,<span style=color:#ae81ff>0.016</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9.927</span>,<span style=color:#ae81ff>0.147</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10.500</span>,<span style=color:#ae81ff>0.402</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.007</span>,<span style=color:#ae81ff>0.771</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.427</span>,<span style=color:#ae81ff>1.237</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.741</span>,<span style=color:#ae81ff>1.780</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11.934</span>,<span style=color:#ae81ff>2.376</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9.000</span>,<span style=color:#ae81ff>2.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.809</span>,<span style=color:#ae81ff>2.588</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.309</span>,<span style=color:#ae81ff>2.951</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.691</span>,<span style=color:#ae81ff>2.951</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.191</span>,<span style=color:#ae81ff>2.588</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.000</span>,<span style=color:#ae81ff>2.000</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.191</span>,<span style=color:#ae81ff>1.412</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7.691</span>,<span style=color:#ae81ff>1.049</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.309</span>,<span style=color:#ae81ff>1.049</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8.809</span>,<span style=color:#ae81ff>1.412</span>
-</span></span><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#960050;background-color:#1e0010>/blank/scatter &gt;}}</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>which produces</p><p>as the result. With this feature you can have a chart and also the data at the same time. Availability access to the data for the chart can be considered as advantage or disadvantage. That depends on what we considere.</p><p>Now, it is time for musical notes.</p><p>The notes can be displayed using
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>E</span>([<span style=color:#e6db74>&#34;End&#34;</span>])</span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>is the code.</p><h2 id=chart-music-molecules>chart, music, molecules</h2><p>Well, it is unusual to correlate chart, music, and molecules, right? But there are only feature that can be supported using this Hugo-based static site.</p><p>Let us show the chart, e.g. xy scatter? Well, it can be fascillitated using Chart.js and Hugo shortcode as follow.</p><pre tabindex=0><code>{{&lt; blank/scatter 80 320 &gt;}}
+B_XLABEL x
+B_YLABEL y
+B_SLABEL Data-1,Data-2,Data-3
+B_PCOLOR #f88,#88f,#8f8
+B_PRADII 4,6,0
+B_LVISIB false,true,true
+B_LCOLOR #f88,#88f,#8f8
+
+5.000,3.000
+4.902,3.618
+4.618,4.176
+4.176,4.618
+3.618,4.902
+3.000,5.000
+2.382,4.902
+1.824,4.618
+1.382,4.176
+1.098,3.618
+1.000,3.000
+1.098,2.382
+1.382,1.824
+1.824,1.382
+2.382,1.098
+3.000,1.000
+3.618,1.098
+4.176,1.382
+4.618,1.824
+4.902,2.382
+
+12.000,3.000
+11.934,3.624
+11.741,4.220
+11.427,4.763
+11.007,5.229
+10.500,5.598
+9.927,5.853
+9.314,5.984
+8.686,5.984
+8.073,5.853
+7.500,5.598
+6.993,5.229
+6.573,4.763
+6.259,4.220
+6.066,3.624
+6.000,3.000
+6.066,2.376
+6.259,1.780
+6.573,1.237
+6.993,0.771
+7.500,0.402
+8.073,0.147
+8.686,0.016
+9.314,0.016
+9.927,0.147
+10.500,0.402
+11.007,0.771
+11.427,1.237
+11.741,1.780
+11.934,2.376
+
+9.000,2.000
+8.809,2.588
+8.309,2.951
+7.691,2.951
+7.191,2.588
+7.000,2.000
+7.191,1.412
+7.691,1.049
+8.309,1.049
+8.809,1.412
+{{&lt; /blank/scatter &gt;}}
+</code></pre><p>which produces</p><p>as the result. With this feature you can have a chart and also the data at the same time. Availability access to the data for the chart can be considered as advantage or disadvantage. That depends on what we considere.</p><p>Now, it is time for musical notes.</p><p>The notes can be displayed using
 <a href=https://www.abcjs.net/ target=_blank rel="nofollow noopener noreferrer"><span>abcjs <i class="fa fa-external-link" style=font-size:14px></i>
-</span></a>, a JS library, combined with Hugo shortcode.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#a6e22e>blank</span><span style=color:#f92672>/</span><span style=color:#a6e22e>abcjs</span> <span style=color:#f92672>&gt;</span>}}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>X</span><span style=color:#f92672>:</span><span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>T</span><span style=color:#f92672>:</span><span style=color:#a6e22e>Twinkle</span> <span style=color:#a6e22e>Twinkle</span> <span style=color:#a6e22e>Little</span> <span style=color:#a6e22e>Star</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>K</span><span style=color:#f92672>:</span><span style=color:#a6e22e>C</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>L</span><span style=color:#f92672>:</span><span style=color:#ae81ff>1</span><span style=color:#f92672>/</span><span style=color:#ae81ff>4</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>CC</span> <span style=color:#a6e22e>GG</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>AA</span> <span style=color:#a6e22e>G2</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>CC</span> <span style=color:#a6e22e>GG</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>AA</span> <span style=color:#a6e22e>G2</span> <span style=color:#f92672>|</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>w</span><span style=color:#f92672>:</span><span style=color:#a6e22e>Twin</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>kle</span>, <span style=color:#a6e22e>twin</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>kle</span>, <span style=color:#a6e22e>lit</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>tle</span> <span style=color:#a6e22e>star</span> <span style=color:#a6e22e>how</span> <span style=color:#a6e22e>I</span> <span style=color:#a6e22e>won</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>der</span> <span style=color:#a6e22e>what</span> <span style=color:#a6e22e>you</span> <span style=color:#a6e22e>are</span><span style=color:#f92672>!</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>GG</span> <span style=color:#a6e22e>FF</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>EE</span> <span style=color:#a6e22e>D2</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>GG</span> <span style=color:#a6e22e>FF</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>EE</span> <span style=color:#a6e22e>D2</span> <span style=color:#f92672>|</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>w</span><span style=color:#f92672>:</span><span style=color:#a6e22e>Up</span> <span style=color:#a6e22e>a</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>bove</span> <span style=color:#a6e22e>the</span> <span style=color:#a6e22e>world</span> <span style=color:#a6e22e>so</span> <span style=color:#a6e22e>high</span>, <span style=color:#a6e22e>like</span> <span style=color:#a6e22e>a</span> <span style=color:#a6e22e>dia</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>mond</span> <span style=color:#66d9ef>in</span> <span style=color:#a6e22e>the</span> <span style=color:#a6e22e>sky</span>.
-</span></span><span style=display:flex><span><span style=color:#a6e22e>CC</span> <span style=color:#a6e22e>GG</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>AA</span> <span style=color:#a6e22e>G2</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>FF</span> <span style=color:#a6e22e>EE</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>DD</span> <span style=color:#a6e22e>C2</span> <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>w</span><span style=color:#f92672>:</span><span style=color:#a6e22e>Twin</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>kle</span>, <span style=color:#a6e22e>twin</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>kle</span>, <span style=color:#a6e22e>lit</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>tle</span> <span style=color:#a6e22e>star</span>, <span style=color:#a6e22e>how</span> <span style=color:#a6e22e>I</span> <span style=color:#a6e22e>won</span><span style=color:#f92672>-</span> <span style=color:#a6e22e>der</span> <span style=color:#a6e22e>what</span> <span style=color:#a6e22e>you</span> <span style=color:#a6e22e>are</span><span style=color:#f92672>!</span>
-</span></span><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#960050;background-color:#1e0010>/blank/abcjs &gt;}}</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>I choose the song because it is simple and the only song that I remember the notes. Well, I am not good in musics, but I like to play it. But, of course, just for my self, since it will, Unfortunately, noise to the others ☹️.</p><p>Well, last but not the least is the molecules. We can display molecules in a post as follow.</p><p>using following code</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#a6e22e>blank</span><span style=color:#f92672>/</span><span style=color:#ae81ff>3</span><span style=color:#a6e22e>dmoljs</span> <span style=color:#f92672>&gt;</span>}}
-</span></span><span style=display:flex><span><span style=color:#ae81ff>21</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Aspirin</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>O</span>    <span style=color:#ae81ff>1.2333</span>    <span style=color:#ae81ff>0.5540</span>    <span style=color:#ae81ff>0.7792</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>O</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.6952</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.7148</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.7502</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>O</span>    <span style=color:#ae81ff>0.7958</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.1843</span>    <span style=color:#ae81ff>0.8685</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>O</span>    <span style=color:#ae81ff>1.7813</span>    <span style=color:#ae81ff>0.8105</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>1.4821</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.0857</span>    <span style=color:#ae81ff>0.6088</span>    <span style=color:#ae81ff>0.4403</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.7927</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.5515</span>    <span style=color:#ae81ff>0.1244</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.7288</span>    <span style=color:#ae81ff>1.8464</span>    <span style=color:#ae81ff>0.4133</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.1426</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.4741</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.2184</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.0787</span>    <span style=color:#ae81ff>1.9238</span>    <span style=color:#ae81ff>0.0706</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.7855</span>    <span style=color:#ae81ff>0.7636</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.2453</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.1409</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>1.8536</span>    <span style=color:#ae81ff>0.1477</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>    <span style=color:#ae81ff>2.1094</span>    <span style=color:#ae81ff>0.6715</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.3113</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>C</span>    <span style=color:#ae81ff>3.5305</span>    <span style=color:#ae81ff>0.5996</span>    <span style=color:#ae81ff>0.1635</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.1851</span>    <span style=color:#ae81ff>2.7545</span>    <span style=color:#ae81ff>0.6593</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.7247</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>1.3605</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.4564</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>2.5797</span>    <span style=color:#ae81ff>2.8872</span>    <span style=color:#ae81ff>0.0506</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>3.8374</span>    <span style=color:#ae81ff>0.8238</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.5090</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>    <span style=color:#ae81ff>3.7290</span>    <span style=color:#ae81ff>1.4184</span>    <span style=color:#ae81ff>0.8593</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>    <span style=color:#ae81ff>4.2045</span>    <span style=color:#ae81ff>0.6969</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.6924</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>    <span style=color:#ae81ff>3.7105</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.3659</span>    <span style=color:#ae81ff>0.6426</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>H</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.2555</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>3.5916</span>   <span style=color:#f92672>-</span><span style=color:#ae81ff>0.7337</span>
-</span></span><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#960050;background-color:#1e0010>/blank/3dmoljs &gt;}}</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>with the help of JS library known as
+</span></a>, a JS library, combined with Hugo shortcode.</p><pre tabindex=0><code>{{&lt; blank/abcjs &gt;}}
+X:1
+T:Twinkle Twinkle Little Star
+K:C
+L:1/4
+CC GG | AA G2 | CC GG | AA G2 |
+w:Twin- kle, twin- kle, lit- tle star how I won- der what you are!
+GG FF | EE D2 | GG FF | EE D2 |
+w:Up a- bove the world so high, like a dia- mond in the sky.
+CC GG | AA G2 | FF EE | DD C2 ||
+w:Twin- kle, twin- kle, lit- tle star, how I won- der what you are!
+{{&lt; /blank/abcjs &gt;}}
+</code></pre><p>I choose the song because it is simple and the only song that I remember the notes. Well, I am not good in musics, but I like to play it. But, of course, just for my self, since it will, Unfortunately, noise to the others ☹️.</p><p>Well, last but not the least is the molecules. We can display molecules in a post as follow.</p><p>using following code</p><pre tabindex=0><code>{{&lt; blank/3dmoljs &gt;}}
+21
+Aspirin
+O    1.2333    0.5540    0.7792
+O   -0.6952   -2.7148   -0.7502
+O    0.7958   -2.1843    0.8685
+O    1.7813    0.8105   -1.4821
+C   -0.0857    0.6088    0.4403
+C   -0.7927   -0.5515    0.1244
+C   -0.7288    1.8464    0.4133
+C   -2.1426   -0.4741   -0.2184
+C   -2.0787    1.9238    0.0706
+C   -2.7855    0.7636   -0.2453
+C   -0.1409   -1.8536    0.1477
+C    2.1094    0.6715   -0.3113
+C    3.5305    0.5996    0.1635
+H   -0.1851    2.7545    0.6593
+H   -2.7247   -1.3605   -0.4564
+H   -2.5797    2.8872    0.0506
+H   -3.8374    0.8238   -0.5090
+H    3.7290    1.4184    0.8593
+H    4.2045    0.6969   -0.6924
+H    3.7105   -0.3659    0.6426
+H   -0.2555   -3.5916   -0.7337
+{{&lt; /blank/3dmoljs &gt;}}
+</code></pre><p>with the help of JS library known as
 <a href=https://3dmol.csb.pitt.edu/ target=_blank rel="nofollow noopener noreferrer"><span>3Dmol.js <i class="fa fa-external-link" style=font-size:14px></i>
-</span></a>from University of Pittsburgh. By the way, it is a aspirin molecule <sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>.</p><h2 id=others>others</h2><p>Following are other features without clear explanation.</p><h3 id=path>path</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#a6e22e>blank</span><span style=color:#f92672>/</span><span style=color:#a6e22e>svgpath</span> <span style=color:#a6e22e>width</span><span style=color:#f92672>=</span><span style=color:#ae81ff>200</span> <span style=color:#a6e22e>height</span><span style=color:#f92672>=</span><span style=color:#ae81ff>200</span> <span style=color:#a6e22e>border</span><span style=color:#f92672>=</span><span style=color:#ae81ff>0</span> <span style=color:#f92672>&gt;</span>}}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_STYLE</span> <span style=color:#a6e22e>red</span>,<span style=color:#ae81ff>3</span>,<span style=color:#a6e22e>none</span> <span style=color:#960050;background-color:#1e0010>#</span> <span style=color:#a6e22e>resistor</span> <span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>M</span> <span style=color:#ae81ff>40</span> <span style=color:#ae81ff>30</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>40</span> <span style=color:#ae81ff>0</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>10</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>40</span> <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_STYLE</span> <span style=color:#a6e22e>green</span>,<span style=color:#ae81ff>3</span>,<span style=color:#a6e22e>none</span> <span style=color:#960050;background-color:#1e0010>#</span> <span style=color:#a6e22e>resistor</span> <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>M</span> <span style=color:#ae81ff>160</span> <span style=color:#ae81ff>30</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>40</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>10</span> <span style=color:#ae81ff>2.5</span> 
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span>  <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>5</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>10</span> <span style=color:#ae81ff>2.5</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>40</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_STYLE</span> <span style=color:#a6e22e>blue</span>,<span style=color:#ae81ff>3</span>,<span style=color:#a6e22e>none</span> <span style=color:#960050;background-color:#1e0010>#</span> <span style=color:#a6e22e>resistor</span> <span style=color:#ae81ff>3</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>M</span> <span style=color:#ae81ff>160</span> <span style=color:#ae81ff>150</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>40</span> <span style=color:#ae81ff>0</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#ae81ff>20</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>10</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>40</span> <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>B_STYLE</span> <span style=color:#a6e22e>cyan</span>,<span style=color:#ae81ff>3</span>,<span style=color:#a6e22e>none</span> <span style=color:#960050;background-color:#1e0010>#</span> <span style=color:#a6e22e>battery</span> <span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>M</span> <span style=color:#ae81ff>40</span> <span style=color:#ae81ff>150</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>l</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>50</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>m</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>8</span> <span style=color:#ae81ff>0</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>m</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>8</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>10</span> <span style=color:#a6e22e>l</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>0</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>40</span> <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>m</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>10</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>10</span> <span style=color:#a6e22e>m</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>5</span> <span style=color:#ae81ff>5</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>10</span> <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>m</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>25</span> <span style=color:#ae81ff>15</span> <span style=color:#a6e22e>l</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>60</span> 
-</span></span><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#960050;background-color:#1e0010>/blank/svgpath &gt;}}</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><h3 id=data-block>data block</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#a6e22e>blank</span><span style=color:#f92672>/</span><span style=color:#a6e22e>datablock</span> <span style=color:#f92672>&gt;</span>}}
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>32</span>,<span style=color:#ae81ff>64</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>100</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>20</span>,<span style=color:#ae81ff>200</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>30</span>,<span style=color:#ae81ff>300</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>40</span>,<span style=color:#ae81ff>400</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>6</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>8</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span>{{<span style=color:#f92672>&lt;</span> <span style=color:#960050;background-color:#1e0010>/blank/datablock &gt;}}</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>Most of above codes are published previously in a post on o<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup>, where
+</span></a>from University of Pittsburgh. By the way, it is a aspirin molecule <sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>.</p><h2 id=others>others</h2><p>Following are other features without clear explanation.</p><h3 id=path>path</h3><pre tabindex=0><code>{{&lt; blank/svgpath width=200 height=200 border=0 &gt;}}
+B_STYLE red,3,none # resistor 1
+M 40 30
+l 40 0 l 2.5 10
+l 5 -20 l 5 20 l 5 -20 l 5 20 l 5 -20 l 5 20 l 5 -20
+l 2.5 10 l 40 0
+
+B_STYLE green,3,none # resistor 2
+M 160 30
+l 0 40 l 10 2.5 
+l -20 5  l 20 5 l -20 5 l 20 5 l -20 5 l 20 5 l -20 5
+l 10 2.5 l 0 40
+
+B_STYLE blue,3,none # resistor 3
+M 160 150
+l -40 0 l -2.5 10
+l -5 -20 l -5 20 l -5 -20 l -5 20 l -5 -20 l -5 20 l -5 -20
+l -2.5 10 l -40 0
+
+B_STYLE cyan,3,none # battery 1
+M 40 150
+l 0 -50
+m -8 0 l 16 0
+m -8 -10 l -20 0 l 40 0
+m 0 -10 l 0 -10 m -5 5 l 10 0
+m -25 15 l 0 -60 
+{{&lt; /blank/svgpath &gt;}}
+</code></pre><h3 id=data-block>data block</h3><pre tabindex=0><code>{{&lt; blank/datablock &gt;}}
+1
+2
+3
+
+1,4,16
+2,32,64
+
+10,100
+20,200
+30,300
+40,400
+
+1,2,3,4,5,6
+7,8,9,0,9,8
+7,6,5,4,3,2
+1,0,1,2,3,4
+5,6,7,8,9,0
+{{&lt; /blank/datablock &gt;}}
+</code></pre><p>Most of above codes are published previously in a post on o<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup>, where
 <a href=https://dudung.github.io/blank/ target=_blank rel="nofollow noopener noreferrer"><span>blank <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>is another project before
 <a href=https://dudung.github.io/o/ target=_blank rel="nofollow noopener noreferrer"><span>o <i class="fa fa-external-link" style=font-size:14px></i>
@@ -267,6 +271,6 @@ one which has opened for us</p></blockquote></figure><figure><blockquote><p>(Ale
 <a href=https://pubchem.ncbi.nlm.nih.gov/compound/Aspirin target=_blank rel="nofollow noopener noreferrer"><span>https://pubchem.ncbi.nlm.nih.gov/compound/Aspirin <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>[20240405].&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:3><p>Viridi S (2024) &ldquo;some features on hugo&rdquo;, GitHub, 1 Mar 2024, url
 <a href=https://dudung.github.io/o/posts/if3110/some-features-on-hugo/ target=_blank rel="nofollow noopener noreferrer"><span>https://dudung.github.io/o/posts/if3110/some-features-on-hugo/ <i class="fa fa-external-link" style=font-size:14px></i>
-</span></a>[20240405].&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1766207886'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+</span></a>[20240405].&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1764542482'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
 All rights reserved.
 Unless stated otherwise in a note.</p></footer><script src=https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin=anonymous></script><script>mermaid.initialize({startOnLoad:!0,theme:"neutral",themeVariables:{fontSize:"20px",nodeFontSize:"18px",labelFontSize:"14px"}})</script></body></html>

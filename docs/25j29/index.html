@@ -1,0 +1,49 @@
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>modif default.md | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1766152165"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1766152165'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><head><link rel=stylesheet href='/butiran/css/notes.css?v=1766152165'></head><div class=note-container><h1 class=note-title>modif default.md</h1><div class=info-after-title><ul class=authors-container><li class=author><a href=http://localhost:1313/butiran/authors/viridi/>Sparisoma Viridi</a></li></ul><div class=date-reading-time-edit><time datetime="2025-10-13T10:01:19 07:00">13 Oct 2025</time>
+&#183;
+2 mins read
+&#183;
+<a class=link href=npprel:///25/j/29-modif-default-md.md>edit</a></div></div><div class=note-content><h2 id=info>info</h2><ul><li>Date<ul><li>Created 16-apr-2025</li><li>Edited 14-oct-2025</li></ul></li><li>Location<ul><li>Folder <code>archetypes</code></li><li>File <code>default.md</code></li></ul></li><li>Usage<pre tabindex=0><code>$ hugo new content/posts/25/j/29-modif-default-md.md
+</code></pre></li><li>Result<pre tabindex=0><code>+++
+title = &#39;modif default.md&#39;
+date = &#39;2025-10-13T10:01:19+07:00&#39;
+authors = [&#39;viridi&#39;]
+draft = true
+type = &#39;notes&#39;
+tags = []
+categories = []
+pathtofile = &#39;25/j/29-modif-default-md.md&#39;
+url = &#39;25j29&#39;
++++
+
+&lt;!-- more --&gt;
+</code></pre></li></ul><h2 id=notes>notes</h2><ul><li><code>14-oct-2025</code> Rename <code>filetopath</code> to <code>pathtofile</code>.</li><li><code>13-oct-2025</code> Update of front matter parameters:<ul><li><code>url</code> is now automatic,</li><li><code>filetotpath</code> is added as new parameter for npprel protocol.</li></ul></li></ul><h2 id=template>template</h2><pre tabindex=0><code>{{- $words := split .Name &#34;-&#34; -}}
+{{- $title := delimit (after 1 $words) &#34; &#34; -}}
+
+{{- $filepath := path.Clean .File.Path -}}
+{{- $parts := split $filepath &#34;/&#34; -}}
+{{- $file := index (last 1 $parts) 0 -}}
+{{- $parts1 := first 2 (after 1 $parts) -}}
+{{- $parts2 := first 1 (split $file &#34;-&#34;) -}}
+{{- $surl := $parts1 | append $parts2 -}}
+{{- $url := delimit $surl &#34;&#34; -}}
+
+{{- $pathtofile := delimit ($parts1 | append $file) &#34;/&#34; -}}
+
++++
+title = &#39;{{ $title }}&#39;
+date = &#39;{{ .Date }}&#39;
+authors = [&#39;viridi&#39;]
+draft = true
+type = &#39;notes&#39;
+tags = []
+categories = []
+pathtofile = &#39;{{ $pathtofile }}&#39;
+url = &#39;{{ $url }}&#39;
++++
+
+&lt;!-- more --&gt;
+</code></pre><h2 id=notes-1>notes</h2><ul><li><code>13-oct-2025</code> Add to front matter folder + filename for npprel.<ul><li>There is not-so-fit but stil-helpful discussion <sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>.</li></ul></li></ul><h2 id=refs>refs</h2><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>GPT-5, &ldquo;Include filename in frontmatter&rdquo;, ChatGPT, 13 Oct 2025, url
+<a href=https://chatgpt.com/share/68ec7557-a800-800a-a983-64ec57acf05f target=_blank rel="nofollow noopener noreferrer"><span>https://chatgpt.com/share/68ec7557-a800-800a-a983-64ec57acf05f <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>[20251013].&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div></div></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1766152165'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+All rights reserved.
+Unless stated otherwise in a note.</p></footer></body></html>

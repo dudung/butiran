@@ -1,0 +1,128 @@
+/* main.css */
+
+html {
+  scrollbar-color: #4f81bd #f1f1f1;
+}
+
+body {
+  margin: 2em;
+  color: #222;
+  padding: 0;
+  font-family: Calibri;
+  max-width: 768px;
+  line-height: 1.5;
+}
+
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > ul > li {
+  display: inline;
+  padding-left: 0.5em;
+}
+
+
+.homepage-posts-box {
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 8px;
+  text-align: left;
+  word-break: break-all;
+  margin: 2px 0px;
+  font-size: 80%;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  height: 50px;
+  width: 70px;
+  scrollbar-color: #4f81bd #f1f1f1;
+  scrollbar-width: thin;
+  overflow: auto;
+  line-height: 18.7px;
+}
+
+.homepage-post-date {
+  font-size: 95%;
+}
+
+.posts-box-container {
+  text-align: left;
+  line-height: 10px;
+}
+
+.pagination-container {
+}
+
+.pagination {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .current {
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  /*background-color: #333;*/
+  background-color: #4f81bd;
+  color: #fff;
+  /*font-weight: bold;*/
+}
+
+.pagination .prev,
+.pagination .current,
+.pagination .page,
+.pagination .next {
+  font-size: 0.8rem; /* Smaller font size */
+  /* color: #888; */ /* Subtle color */
+  padding: 0 5px; /* Optional padding */
+}
+
+
+.footnotes {
+  border-top: 0px solid #222;
+  > hr {
+     display: none;
+   }
+  > ol > li:not(:first-child):not(:last-child) {
+    margin: -1em 0;
+  }
+}
+
+a[href^="#fn:"],
+a[href^="#fnref:"] {
+  font-family: monospace;
+}
+a[href^="#fn:"]:before{ content: '[' }
+a[href^="#fn:"]:after{ content: ']' }

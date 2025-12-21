@@ -1,5 +1,4 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>bisection method | butiran</title>
-<link rel=stylesheet href=/butiran/css/main.min.5d949e138e137f26bbbc6fbe151c3e39ca49a674bd5c6f0f3a9ff79176ee1043.css integrity="sha256-XZSeE44Tfya7vG++FRw+OcpJpnS9XG8POp/3kXbuEEM=" crossorigin=anonymous><script src=/butiran/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1766207885'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>bisection method</h1><p>Metode bisection dalam bidang matematika merupakan suatu metode pencarian akar yang berlaku untuk sembarang fungsi kontinu dengan ketentuan diperlukan dua nilai fungsi yang berbeda tanda [
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>bisection method | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1764542482"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1764542482'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>bisection method</h1><time datetime=2022-01-26T18:42:00+07:00>January 26, 2022</time><p>Metode bisection dalam bidang matematika merupakan suatu metode pencarian akar yang berlaku untuk sembarang fungsi kontinu dengan ketentuan diperlukan dua nilai fungsi yang berbeda tanda [
 <a href=#r01><span>1 <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>]. Kelebihan metode ini adalah adanya jaminan konvergensi, akan tetapi belum dapat mendeteksi bila terdapat banyak akar [
 <a href=#r02><span>2 <i class="fa fa-external-link" style=font-size:14px></i>
@@ -51,28 +50,29 @@
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;eps = &#34;</span>, eps, sep<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;&#39;</span>)
 </span></span></code></pre></div><p>yang dapat dicoba di OneCompiler
 <a href=https://onecompiler.com/python/3xrg22cjd target=_blank rel="nofollow noopener noreferrer"><span>3xrg22cjd <i class="fa fa-external-link" style=font-size:14px></i>
-</span></a>. Hasil program di atas adalah</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#f92672>=========</span> <span style=color:#a6e22e>RESTART</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0402</span><span style=color:#f92672>-</span><span style=color:#a6e22e>bisection</span><span style=color:#f92672>-</span><span style=color:#66d9ef>with</span><span style=color:#f92672>-</span><span style=color:#a6e22e>list</span>.<span style=color:#a6e22e>py</span> <span style=color:#f92672>=========</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>x</span> <span style=color:#f92672>=</span> 
-</span></span><span style=display:flex><span><span style=color:#ae81ff>15.0</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>0.0</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3.75</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.6875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.15625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.921875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.0390625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.98046875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.009765625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.9951171875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.00244140625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.998779296875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.0006103515625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.99969482421875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.000152587890625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4.9999237060546875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5.000038146972656</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>err</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.006866460898891091</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>eps</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.01</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>yang merupakan salah satu akar dari persamaan kuadrat $f(x) = x^2 - 100x + 475$.</p><h2 id=formulation>formulation</h2><p>Pada program sebelumnya telah diberikan bagaimana contoh implementasi metode bisection. Biasanya, agar lebih terstruktur, disampaikan dahulu perumusannya yang kemudian diikuti oleh implementasinya. Di sini ditunjukkan lebih dahulu contoh implementasinya agar dapat menjadi semangat, terutama untuk pembaca yang lebih menyukai praktek ketimbang teori.</p><p>Metode bisection memerlukan dua syarat awal, misalnya $x_1$ dan $x_2$, yang telah diasumsikan bahwa</p><p>\begin{equation}\label{eqn:bisection-initial-condition}
+</span></a>. Hasil program di atas adalah</p><pre tabindex=0><code>========= RESTART: 0402-bisection-with-list.py =========
+x = 
+15.0
+0.0
+3.75
+5.625
+4.6875
+5.15625
+4.921875
+5.0390625
+4.98046875
+5.009765625
+4.9951171875
+5.00244140625
+4.998779296875
+5.0006103515625
+4.99969482421875
+5.000152587890625
+4.9999237060546875
+5.000038146972656
+err = 0.006866460898891091
+eps = 0.01
+</code></pre><p>yang merupakan salah satu akar dari persamaan kuadrat $f(x) = x^2 - 100x + 475$.</p><h2 id=formulation>formulation</h2><p>Pada program sebelumnya telah diberikan bagaimana contoh implementasi metode bisection. Biasanya, agar lebih terstruktur, disampaikan dahulu perumusannya yang kemudian diikuti oleh implementasinya. Di sini ditunjukkan lebih dahulu contoh implementasinya agar dapat menjadi semangat, terutama untuk pembaca yang lebih menyukai praktek ketimbang teori.</p><p>Metode bisection memerlukan dua syarat awal, misalnya $x_1$ dan $x_2$, yang telah diasumsikan bahwa</p><p>\begin{equation}\label{eqn:bisection-initial-condition}
 f(x_1) f(x_2) &lt; 0,
 \end{equation}</p><p>yang menandakan bahwa terdapat jumlah ganjil akar, setidaknya satu, di antara kedua tebakan awal $x_1$ dan $x_2$. Nama bisection diperoleh dari langkah</p><p>\begin{equation}\label{eqn:bisection-new-x}
 x_3 = \tfrac12 (x_1 + x_2).
@@ -130,59 +130,60 @@ x_{n+3} = \left\{
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;step = &#34;</span>, n, sep<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;&#39;</span>)
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;err = &#34;</span>, err, sep<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;&#39;</span>)
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;root = &#34;</span>, x4, sep<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;&#39;</span>)
-</span></span></code></pre></div><p>dengan</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>n</span> <span style=color:#a6e22e>x</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span> <span style=color:#ae81ff>9.25</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span> <span style=color:#ae81ff>8.875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span> <span style=color:#ae81ff>9.0625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span> <span style=color:#ae81ff>8.96875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5</span> <span style=color:#ae81ff>9.015625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6</span> <span style=color:#ae81ff>8.9921875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span> <span style=color:#ae81ff>9.00390625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8</span> <span style=color:#ae81ff>8.998046875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9</span> <span style=color:#ae81ff>9.0009765625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10</span> <span style=color:#ae81ff>8.99951171875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11</span> <span style=color:#ae81ff>9.000244140625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>12</span> <span style=color:#ae81ff>8.9998779296875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>13</span> <span style=color:#ae81ff>9.00006103515625</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>14</span> <span style=color:#ae81ff>8.999969482421875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>15</span> <span style=color:#ae81ff>9.000015258789062</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>16</span> <span style=color:#ae81ff>8.999992370605469</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>17</span> <span style=color:#ae81ff>9.000003814697266</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>18</span> <span style=color:#ae81ff>8.999998092651367</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>19</span> <span style=color:#ae81ff>9.000000953674316</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>20</span> <span style=color:#ae81ff>8.999999523162842</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>21</span> <span style=color:#ae81ff>9.000000238418579</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>22</span> <span style=color:#ae81ff>8.99999988079071</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>23</span> <span style=color:#ae81ff>9.000000059604645</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>24</span> <span style=color:#ae81ff>8.999999970197678</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>25</span> <span style=color:#ae81ff>9.000000014901161</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>26</span> <span style=color:#ae81ff>8.99999999254942</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>27</span> <span style=color:#ae81ff>9.00000000372529</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>28</span> <span style=color:#ae81ff>8.999999998137355</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>29</span> <span style=color:#ae81ff>9.000000000931323</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>30</span> <span style=color:#ae81ff>8.999999999534339</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>31</span> <span style=color:#ae81ff>9.00000000023283</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>32</span> <span style=color:#ae81ff>8.999999999883585</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>33</span> <span style=color:#ae81ff>9.000000000058208</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>34</span> <span style=color:#ae81ff>8.999999999970896</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>35</span> <span style=color:#ae81ff>9.000000000014552</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>36</span> <span style=color:#ae81ff>8.999999999992724</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>37</span> <span style=color:#ae81ff>9.000000000003638</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>38</span> <span style=color:#ae81ff>8.999999999998181</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>39</span> <span style=color:#ae81ff>9.00000000000091</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>40</span> <span style=color:#ae81ff>8.999999999999545</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>41</span> <span style=color:#ae81ff>9.000000000000227</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>42</span> <span style=color:#ae81ff>8.999999999999886</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>43</span> <span style=color:#ae81ff>9.000000000000057</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>44</span> <span style=color:#ae81ff>8.999999999999972</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>45</span> <span style=color:#ae81ff>9.000000000000014</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>46</span> <span style=color:#ae81ff>8.999999999999993</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>47</span> <span style=color:#ae81ff>9.000000000000004</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>48</span> <span style=color:#ae81ff>8.999999999999998</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>49</span> <span style=color:#ae81ff>9.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>step</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>49</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>err</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>root</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>9.0</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>adalah hasilnya. Program di atas dapat dicoba di OneCompiler
+</span></span></code></pre></div><p>dengan</p><pre tabindex=0><code>n x
+1 9.25
+2 8.875
+3 9.0625
+4 8.96875
+5 9.015625
+6 8.9921875
+7 9.00390625
+8 8.998046875
+9 9.0009765625
+10 8.99951171875
+11 9.000244140625
+12 8.9998779296875
+13 9.00006103515625
+14 8.999969482421875
+15 9.000015258789062
+16 8.999992370605469
+17 9.000003814697266
+18 8.999998092651367
+19 9.000000953674316
+20 8.999999523162842
+21 9.000000238418579
+22 8.99999988079071
+23 9.000000059604645
+24 8.999999970197678
+25 9.000000014901161
+26 8.99999999254942
+27 9.00000000372529
+28 8.999999998137355
+29 9.000000000931323
+30 8.999999999534339
+31 9.00000000023283
+32 8.999999999883585
+33 9.000000000058208
+34 8.999999999970896
+35 9.000000000014552
+36 8.999999999992724
+37 9.000000000003638
+38 8.999999999998181
+39 9.00000000000091
+40 8.999999999999545
+41 9.000000000000227
+42 8.999999999999886
+43 9.000000000000057
+44 8.999999999999972
+45 9.000000000000014
+46 8.999999999999993
+47 9.000000000000004
+48 8.999999999999998
+49 9.0
+step = 49
+err = 0.0
+root = 9.0
+</code></pre><p>adalah hasilnya. Program di atas dapat dicoba di OneCompiler
 <a href=https://onecompiler.com/python/3xrgr8bej target=_blank rel="nofollow noopener noreferrer"><span>3xrgr8bej <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>,</p><h2 id=exer>exer</h2><ol><li>Gunakan kode pertama yang diberikan dan gantilah tebakan awalnya menjadi <code>[70.0, 100.0]</code>. Berapa nilai akar yang ditemukan? Kesalahannya?</li><li>Pada contoh program kedua apakah dapat digunakan untuk persamaan kuadrat? Bagaimana caranya?</li></ol><h2 id=note>note</h2><ol><li>Wikipedia contributors, &ldquo;Bisection method&rdquo;, Wikipedia, The Free Encyclopedia, 11 January 2022, 12:47 UTC, url
 <a href="https://en.wikipedia.org/w/index.php?oldid=1065030259" target=_blank rel="nofollow noopener noreferrer"><span>https://en.wikipedia.org/w/index.php?oldid=1065030259 <i class="fa fa-external-link" style=font-size:14px></i>
@@ -197,6 +198,6 @@ x_{n+3} = \left\{
 </span></a>•
 <a><span><i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>{% endcomment %}</p><p>{% comment %}
-{% endcomment %}</p></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1766207885'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+{% endcomment %}</p></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1764542482'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
 All rights reserved.
 Unless stated otherwise in a note.</p></footer></body></html>

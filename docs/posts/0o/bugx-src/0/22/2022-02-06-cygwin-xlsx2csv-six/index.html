@@ -1,5 +1,4 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>cygwin xlsx2csv six | butiran</title>
-<link rel=stylesheet href=/butiran/css/main.min.5d949e138e137f26bbbc6fbe151c3e39ca49a674bd5c6f0f3a9ff79176ee1043.css integrity="sha256-XZSeE44Tfya7vG++FRw+OcpJpnS9XG8POp/3kXbuEEM=" crossorigin=anonymous><script src=/butiran/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1766207885'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>cygwin xlsx2csv six</h1><time datetime=2022-02-06T18:18:00+07:00>February 6, 2022</time><p>Berkas XLSX yang diperoleh dari SIX [
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>cygwin xlsx2csv six | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1764542482"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1764542482'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>cygwin xlsx2csv six</h1><time datetime=2022-02-06T18:18:00+07:00>February 6, 2022</time><p>Berkas XLSX yang diperoleh dari SIX [
 <a href=#r01><span>1 <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>] tidak dapat langsung dikonversi melalui command line menggunakan xlsx2csv [
 <a href=#r02><span>2 <i class="fa fa-external-link" style=font-size:14px></i>
@@ -73,28 +72,29 @@
 </span></span><span style=display:flex><span>  File <span style=color:#e6db74>&#34;./xlsx2csv.py&#34;</span>, line 109, in xlsx2csv
 </span></span><span style=display:flex><span>    raise Exception<span style=color:#f92672>(</span><span style=color:#e6db74>&#34;Sheet %i Not Found&#34;</span> %sheetid<span style=color:#f92672>)</span>
 </span></span><span style=display:flex><span>Exception: Sheet <span style=color:#ae81ff>1</span> Not Found
-</span></span></code></pre></div><p>dan tetap diperoleh pesan kesalahan yang belum dapat diperoleh.</p><h2 id=save-the-xlsx-file>save the xlsx file</h2><p>Saat berkas XLSX dibuka terlihat bahwa nama sheet bukan lagi Sheet1 akan tetapi telah menjadi kode matakuliah dan kelasnya. Saat direname kembali ke Sheet1, disimpan dan keluar. Berkas XLSX dapat terbaca</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>$</span> .<span style=color:#f92672>/</span><span style=color:#a6e22e>xlsx2csv</span>.<span style=color:#a6e22e>py</span> <span style=color:#a6e22e>nt60940120211</span>.<span style=color:#a6e22e>xlsx</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>INSTITUT</span> <span style=color:#a6e22e>TEKNOLOGI</span> <span style=color:#a6e22e>BANDUNG</span>,,,
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Daftar</span> <span style=color:#a6e22e>Nilai</span> <span style=color:#a6e22e>Akhir</span>,,,
-</span></span><span style=display:flex><span> ,,,
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Mata</span> <span style=color:#a6e22e>Kuliah</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>NT6094</span> <span style=color:#a6e22e>Teknik</span> <span style=color:#a6e22e>Penulisan</span> <span style=color:#a6e22e>Jurnal</span> <span style=color:#a6e22e>Ilmiah</span>,,,
-</span></span><span style=display:flex><span><span style=color:#a6e22e>No</span> <span style=color:#a6e22e>Kelas</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>01</span>,,,
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Semester</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>2021</span><span style=color:#f92672>/</span><span style=color:#ae81ff>2022</span>,,,
-</span></span><span style=display:flex><span><span style=color:#e6db74>&#34;Dosen: Dr. rer. nat. Sparisoma Viridi, S.Si., Dr.Eng. Muhammad Haris Mahyuddin, S.T., M.Eng.&#34;</span>,,,
-</span></span><span style=display:flex><span> ,,,
-</span></span><span style=display:flex><span><span style=color:#a6e22e>NO</span>,<span style=color:#a6e22e>NIM</span>,<span style=color:#a6e22e>NAMA</span>,<span style=color:#a6e22e>NILAI</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>23620033</span>,<span style=color:#a6e22e>Dhimaz</span> <span style=color:#a6e22e>Galang</span> <span style=color:#a6e22e>Hastungkorojati</span>,<span style=color:#a6e22e>A</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>28720001</span>,<span style=color:#a6e22e>Helmi</span> <span style=color:#a6e22e>Majid</span> <span style=color:#a6e22e>Ar</span> <span style=color:#a6e22e>Rasyid</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>28720002</span>,<span style=color:#a6e22e>Lavita</span> <span style=color:#a6e22e>Nur</span><span style=color:#960050;background-color:#1e0010>&#39;</span><span style=color:#a6e22e>aviana</span> <span style=color:#a6e22e>Rizalputri</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>28720003</span>,<span style=color:#a6e22e>Husni</span> <span style=color:#a6e22e>Ihsudha</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>28720005</span>,<span style=color:#a6e22e>Achmad</span> <span style=color:#a6e22e>Zacky</span> <span style=color:#a6e22e>Fairuza</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>28720006</span>,<span style=color:#a6e22e>Nurul</span> <span style=color:#a6e22e>Hanifah</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>28720007</span>,<span style=color:#a6e22e>Akhmad</span> <span style=color:#a6e22e>Zein</span> <span style=color:#a6e22e>Eko</span> <span style=color:#a6e22e>Mustofa</span>,<span style=color:#a6e22e>A</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>28720008</span>,<span style=color:#a6e22e>Raih</span> <span style=color:#a6e22e>Rona</span> <span style=color:#a6e22e>Althof</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>28720009</span>,<span style=color:#a6e22e>Satria</span> <span style=color:#a6e22e>Hidayat</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>28721002</span>,<span style=color:#a6e22e>Diaz</span> <span style=color:#a6e22e>Ayu</span> <span style=color:#a6e22e>Widyasari</span>,<span style=color:#a6e22e>AB</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11</span>,<span style=color:#ae81ff>28721004</span>,<span style=color:#a6e22e>Asnan</span> <span style=color:#a6e22e>Rinovian</span>,<span style=color:#a6e22e>A</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>12</span>,<span style=color:#ae81ff>28721005</span>,<span style=color:#a6e22e>Nining</span> <span style=color:#a6e22e>Oktafina</span> <span style=color:#a6e22e>Sifana</span>,<span style=color:#a6e22e>AB</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><p>Kemudian dilakukan upaya minimal dengan tanpa mengubah nama sheet akan tetapi langsung menekan tombol Save dengan tetikus dan keluar dari aplikasi Microsoft Excel, ternyata berkas dapat dibaca oleh <code>xlsx2csv</code>.</p><p>![]({{ site.baseurl }}/assets/img/0/22/0224-b.png)<br>Gambar 2. Tombol Save pada Microsoft Excel.</p><p>Tombol Save adalah icon berbentuk disket seperti diberikan pada Gambar
+</span></span></code></pre></div><p>dan tetap diperoleh pesan kesalahan yang belum dapat diperoleh.</p><h2 id=save-the-xlsx-file>save the xlsx file</h2><p>Saat berkas XLSX dibuka terlihat bahwa nama sheet bukan lagi Sheet1 akan tetapi telah menjadi kode matakuliah dan kelasnya. Saat direname kembali ke Sheet1, disimpan dan keluar. Berkas XLSX dapat terbaca</p><pre tabindex=0><code>$ ./xlsx2csv.py nt60940120211.xlsx
+INSTITUT TEKNOLOGI BANDUNG,,,
+Daftar Nilai Akhir,,,
+ ,,,
+Mata Kuliah: NT6094 Teknik Penulisan Jurnal Ilmiah,,,
+No Kelas: 01,,,
+Semester: 1 - 2021/2022,,,
+&#34;Dosen: Dr. rer. nat. Sparisoma Viridi, S.Si., Dr.Eng. Muhammad Haris Mahyuddin, S.T., M.Eng.&#34;,,,
+ ,,,
+NO,NIM,NAMA,NILAI
+1,23620033,Dhimaz Galang Hastungkorojati,A
+2,28720001,Helmi Majid Ar Rasyid,AB
+3,28720002,Lavita Nur&#39;aviana Rizalputri,AB
+4,28720003,Husni Ihsudha,AB
+5,28720005,Achmad Zacky Fairuza,AB
+6,28720006,Nurul Hanifah,AB
+7,28720007,Akhmad Zein Eko Mustofa,A
+8,28720008,Raih Rona Althof,AB
+9,28720009,Satria Hidayat,AB
+10,28721002,Diaz Ayu Widyasari,AB
+11,28721004,Asnan Rinovian,A
+12,28721005,Nining Oktafina Sifana,AB
+</code></pre><p>Kemudian dilakukan upaya minimal dengan tanpa mengubah nama sheet akan tetapi langsung menekan tombol Save dengan tetikus dan keluar dari aplikasi Microsoft Excel, ternyata berkas dapat dibaca oleh <code>xlsx2csv</code>.</p><p>![]({{ site.baseurl }}/assets/img/0/22/0224-b.png)<br>Gambar 2. Tombol Save pada Microsoft Excel.</p><p>Tombol Save adalah icon berbentuk disket seperti diberikan pada Gambar
 <a href=#fig2><span>2 <i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>.</p><p><code>06-feb-2022</code> Sampai saat ini belum diperoleh penjelasan mengapa berkas XLSX yang terunduh perlu dibuka dengan Microsoft Excel, disimpan, lalu ditutup kembali sehingga baru dapat dibaca oleh program Python <code>xlsx2csv</code> karya Dilshod Temirkhodjaev [
 <a href=#r05><span>5 <i class="fa fa-external-link" style=font-size:14px></i>
@@ -119,6 +119,6 @@
 <a><span><i class="fa fa-external-link" style=font-size:14px></i>
 </span></a>•
 <a><span><i class="fa fa-external-link" style=font-size:14px></i>
-</span></a>{% endcomment %}</p></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1766207885'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+</span></a>{% endcomment %}</p></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1764542482'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
 All rights reserved.
 Unless stated otherwise in a note.</p></footer></body></html>

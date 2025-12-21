@@ -1,21 +1,21 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>m iqair bisection regula falsi | butiran</title>
-<link rel=stylesheet href=/butiran/css/main.min.5d949e138e137f26bbbc6fbe151c3e39ca49a674bd5c6f0f3a9ff79176ee1043.css integrity="sha256-XZSeE44Tfya7vG++FRw+OcpJpnS9XG8POp/3kXbuEEM=" crossorigin=anonymous><script src=/butiran/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1766207886'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>m iqair bisection regula falsi</h1><time datetime=2023-10-03T03:42:00+07:00>October 3, 2023</time><h2 id=direction>direction</h2><ul><li>IQAir wants to estimate of the amount of air pollutants resulting from the combustion reaction at a coal-based PLTU around Jakarta which is one of the causes of air quality in Jakarta getting worse.</li><li>If the combustion reaction equation is known to be nonlinear with the function is
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>m iqair bisection regula falsi | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1764542482"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1764542482'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>m iqair bisection regula falsi</h1><time datetime=2023-10-03T03:42:00+07:00>October 3, 2023</time><h2 id=direction>direction</h2><ul><li>IQAir wants to estimate of the amount of air pollutants resulting from the combustion reaction at a coal-based PLTU around Jakarta which is one of the causes of air quality in Jakarta getting worse.</li><li>If the combustion reaction equation is known to be nonlinear with the function is
 $$\tag{1}
 f(x) = x^3 - 3x - 7,
 $$
-help find the approximate value of the pollutant $(x)$ from the equation using the regula falsi OR bisection method as well as the desired number of iterations and pollutant limit values $[a,b]$.</li><li><strong>Note</strong>: There is mission information, e.g.<ul><li>What is the meaning of combustion reaction equation, when $f(x) = 0$?</li><li>Why if $f(x) = 0$, the solution $x$ is the approximate value of the pollutant?</li></ul></li><li>Output</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.</span> <span style=color:#a6e22e>Bisection</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2.</span> <span style=color:#a6e22e>Regula</span> <span style=color:#a6e22e>Falsi</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Select</span> <span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>lower</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>upper</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>8</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>the</span> <span style=color:#a6e22e>number</span> <span style=color:#66d9ef>of</span> <span style=color:#a6e22e>interations</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>3</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#a6e22e>Iteration</span> <span style=color:#a6e22e>no</span>    <span style=color:#a6e22e>Estimation</span> <span style=color:#a6e22e>Value</span> <span style=color:#66d9ef>of</span> <span style=color:#a6e22e>Pollutan</span> <span style=color:#a6e22e>Concentration</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)    Error
-</span></span><span style=display:flex><span>  <span style=color:#f92672>------------</span>    <span style=color:#f92672>-------------------------------------------------</span>    <span style=color:#f92672>-----</span>
-</span></span><span style=display:flex><span>       <span style=color:#ae81ff>1</span>                             <span style=color:#ae81ff>4.5</span>                                <span style=color:#ae81ff>3.5</span>
-</span></span><span style=display:flex><span>       <span style=color:#ae81ff>2</span>                             <span style=color:#ae81ff>2.75</span>                               <span style=color:#ae81ff>1.75</span>
-</span></span><span style=display:flex><span>       <span style=color:#ae81ff>3</span>                             <span style=color:#ae81ff>1.875</span>                              <span style=color:#ae81ff>0.875</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style><h2 id=code>code</h2><ul><li>Code<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>combustion</span>(x):
+help find the approximate value of the pollutant $(x)$ from the equation using the regula falsi OR bisection method as well as the desired number of iterations and pollutant limit values $[a,b]$.</li><li><strong>Note</strong>: There is mission information, e.g.<ul><li>What is the meaning of combustion reaction equation, when $f(x) = 0$?</li><li>Why if $f(x) = 0$, the solution $x$ is the approximate value of the pollutant?</li></ul></li><li>Output</li></ul><pre tabindex=0><code>Method:
+1. Bisection
+2. Regula Falsi
+Select Method: 1
+Input pollutan lower limit value (mg/L): 1
+Input pollutan upper limit value (mg/L): 8
+Input the number of interations: 3
+
+  Iteration no    Estimation Value of Pollutan Concentration (mg/L)    Error
+  ------------    -------------------------------------------------    -----
+       1                             4.5                                3.5
+       2                             2.75                               1.75
+       3                             1.875                              0.875
+</code></pre><h2 id=code>code</h2><ul><li>Code<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>combustion</span>(x):
 </span></span><span style=display:flex><span>  y <span style=color:#f92672>=</span> x<span style=color:#f92672>**</span><span style=color:#ae81ff>3</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>3</span><span style=color:#f92672>*</span>x <span style=color:#f92672>-</span> <span style=color:#ae81ff>7</span>
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> y
 </span></span><span style=display:flex><span>
@@ -87,147 +87,149 @@ help find the approximate value of the pollutant $(x)$ from the equation using t
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;x =&#34;</span>, cs)
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;error =&#34;</span>, err)
 </span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;interation =&#34;</span>, i)
-</span></span></code></pre></div></li><li>Method 1 (Bisection)<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.</span> <span style=color:#a6e22e>Bisection</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2.</span> <span style=color:#a6e22e>Regula</span> <span style=color:#a6e22e>Falsi</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Select</span> <span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>lower</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>1.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>upper</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>8.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>number</span> <span style=color:#66d9ef>of</span> <span style=color:#a6e22e>iteration</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>i</span>	<span style=color:#a6e22e>x</span>	<span style=color:#a6e22e>err</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>	<span style=color:#ae81ff>4.5</span>	<span style=color:#ae81ff>3.5</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span>	<span style=color:#ae81ff>2.75</span>	<span style=color:#ae81ff>1.75</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span>	<span style=color:#ae81ff>1.875</span>	<span style=color:#ae81ff>0.875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span>	<span style=color:#ae81ff>2.3125</span>	<span style=color:#ae81ff>0.4375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5</span>	<span style=color:#ae81ff>2.53125</span>	<span style=color:#ae81ff>0.21875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6</span>	<span style=color:#ae81ff>2.421875</span>	<span style=color:#ae81ff>0.109375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span>	<span style=color:#ae81ff>2.4765625</span>	<span style=color:#ae81ff>0.0546875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8</span>	<span style=color:#ae81ff>2.44921875</span>	<span style=color:#ae81ff>0.02734375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9</span>	<span style=color:#ae81ff>2.435546875</span>	<span style=color:#ae81ff>0.013671875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10</span>	<span style=color:#ae81ff>2.4287109375</span>	<span style=color:#ae81ff>0.0068359375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11</span>	<span style=color:#ae81ff>2.42529296875</span>	<span style=color:#ae81ff>0.00341796875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>12</span>	<span style=color:#ae81ff>2.427001953125</span>	<span style=color:#ae81ff>0.001708984375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>13</span>	<span style=color:#ae81ff>2.4261474609375</span>	<span style=color:#ae81ff>0.0008544921875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>14</span>	<span style=color:#ae81ff>2.42572021484375</span>	<span style=color:#ae81ff>0.00042724609375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>15</span>	<span style=color:#ae81ff>2.425933837890625</span>	<span style=color:#ae81ff>0.000213623046875</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>16</span>	<span style=color:#ae81ff>2.4260406494140625</span>	<span style=color:#ae81ff>0.0001068115234375</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>17</span>	<span style=color:#ae81ff>2.4259872436523438</span>	<span style=color:#ae81ff>5.340576171875</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>05</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>18</span>	<span style=color:#ae81ff>2.426013946533203</span>	<span style=color:#ae81ff>2.6702880859375</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>05</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>19</span>	<span style=color:#ae81ff>2.4260005950927734</span>	<span style=color:#ae81ff>1.33514404296875</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>05</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>20</span>	<span style=color:#ae81ff>2.4259939193725586</span>	<span style=color:#ae81ff>6.67572021484375</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>06</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>21</span>	<span style=color:#ae81ff>2.425990581512451</span>	<span style=color:#ae81ff>3.337860107421875</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>06</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>22</span>	<span style=color:#ae81ff>2.4259889125823975</span>	<span style=color:#ae81ff>1.6689300537109375</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>06</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>23</span>	<span style=color:#ae81ff>2.4259880781173706</span>	<span style=color:#ae81ff>8.344650268554688</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>07</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>24</span>	<span style=color:#ae81ff>2.425988495349884</span>	<span style=color:#ae81ff>4.172325134277344</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>07</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>25</span>	<span style=color:#ae81ff>2.4259887039661407</span>	<span style=color:#ae81ff>2.086162567138672</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>07</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>26</span>	<span style=color:#ae81ff>2.425988808274269</span>	<span style=color:#ae81ff>1.043081283569336</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>07</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>27</span>	<span style=color:#ae81ff>2.425988756120205</span>	<span style=color:#ae81ff>5.21540641784668</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>08</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>28</span>	<span style=color:#ae81ff>2.425988782197237</span>	<span style=color:#ae81ff>2.60770320892334</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>08</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>29</span>	<span style=color:#ae81ff>2.425988769158721</span>	<span style=color:#ae81ff>1.30385160446167</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>08</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>30</span>	<span style=color:#ae81ff>2.425988762639463</span>	<span style=color:#ae81ff>6.51925802230835</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>09</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>31</span>	<span style=color:#ae81ff>2.425988759379834</span>	<span style=color:#ae81ff>3.259629011154175</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>09</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>32</span>	<span style=color:#ae81ff>2.4259887577500194</span>	<span style=color:#ae81ff>1.6298145055770874</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>09</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>33</span>	<span style=color:#ae81ff>2.425988756935112</span>	<span style=color:#ae81ff>8.149072527885437</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>34</span>	<span style=color:#ae81ff>2.425988757342566</span>	<span style=color:#ae81ff>4.0745362639427185</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>35</span>	<span style=color:#ae81ff>2.4259887575462926</span>	<span style=color:#ae81ff>2.0372681319713593</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>36</span>	<span style=color:#ae81ff>2.425988757444429</span>	<span style=color:#ae81ff>1.0186340659856796</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>10</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>37</span>	<span style=color:#ae81ff>2.4259887573934975</span>	<span style=color:#ae81ff>5.093170329928398</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>11</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>38</span>	<span style=color:#ae81ff>2.4259887573680317</span>	<span style=color:#ae81ff>2.546585164964199</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>11</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>39</span>	<span style=color:#ae81ff>2.4259887573552987</span>	<span style=color:#ae81ff>1.2732925824820995</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>11</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>40</span>	<span style=color:#ae81ff>2.425988757361665</span>	<span style=color:#ae81ff>6.366462912410498</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>12</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>41</span>	<span style=color:#ae81ff>2.425988757358482</span>	<span style=color:#ae81ff>3.183231456205249</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>12</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>42</span>	<span style=color:#ae81ff>2.4259887573600736</span>	<span style=color:#ae81ff>1.5916157281026244</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>12</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>43</span>	<span style=color:#ae81ff>2.4259887573608694</span>	<span style=color:#ae81ff>7.958078640513122</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>13</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>44</span>	<span style=color:#ae81ff>2.4259887573612673</span>	<span style=color:#ae81ff>3.979039320256561</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>13</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>45</span>	<span style=color:#ae81ff>2.4259887573614662</span>	<span style=color:#ae81ff>1.9895196601282805</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>13</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>46</span>	<span style=color:#ae81ff>2.4259887573615657</span>	<span style=color:#ae81ff>9.947598300641403</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>14</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>47</span>	<span style=color:#ae81ff>2.4259887573616155</span>	<span style=color:#ae81ff>4.973799150320701</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>14</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>48</span>	<span style=color:#ae81ff>2.4259887573616403</span>	<span style=color:#ae81ff>2.4868995751603507</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>14</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>49</span>	<span style=color:#ae81ff>2.425988757361628</span>	<span style=color:#ae81ff>1.2434497875801753</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>14</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>50</span>	<span style=color:#ae81ff>2.4259887573616217</span>	<span style=color:#ae81ff>6.217248937900877</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>15</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>51</span>	<span style=color:#ae81ff>2.425988757361625</span>	<span style=color:#ae81ff>3.1086244689504383</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>15</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>52</span>	<span style=color:#ae81ff>2.4259887573616234</span>	<span style=color:#ae81ff>1.7763568394002505</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>15</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>53</span>	<span style=color:#ae81ff>2.4259887573616226</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>54</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>55</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>56</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>57</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>58</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>59</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>60</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>61</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>62</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>63</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>64</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>65</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>66</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>67</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>68</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>69</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>70</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>71</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>72</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>73</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>74</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>75</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>76</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>77</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>78</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>79</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>80</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>81</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>82</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>83</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>84</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>85</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>86</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>87</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>88</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>89</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>90</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>91</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>92</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>93</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>94</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>95</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>96</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>97</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>98</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>99</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>100</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>x</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>2.42598875736162211680380096368025988340377807617187500</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>error</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>8.881784197001252</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>interation</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>100</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style>Note: It has not yet stopped in 100 iterations since there is always new <code>c</code> from previous <code>a</code> and <code>b</code>.</li><li>Method 2 (Regula Falsi)<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1.</span> <span style=color:#a6e22e>Bisection</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2.</span> <span style=color:#a6e22e>Regula</span> <span style=color:#a6e22e>Falsi</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Select</span> <span style=color:#a6e22e>Method</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>lower</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>1.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>pollutan</span> <span style=color:#a6e22e>upper</span> <span style=color:#a6e22e>limit</span> <span style=color:#a6e22e>value</span> (<span style=color:#a6e22e>mg</span><span style=color:#f92672>/</span><span style=color:#a6e22e>L</span>)<span style=color:#f92672>:</span> <span style=color:#ae81ff>8.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>Input</span> <span style=color:#a6e22e>number</span> <span style=color:#66d9ef>of</span> <span style=color:#a6e22e>iteration</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>i</span>	<span style=color:#a6e22e>x</span>	<span style=color:#a6e22e>err</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>	<span style=color:#ae81ff>1.1285714285714286</span>	<span style=color:#ae81ff>6.871428571428572</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span>	<span style=color:#ae81ff>1.2540693397752025</span>	<span style=color:#ae81ff>0.12549791120377396</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span>	<span style=color:#ae81ff>8.22098176347065</span>	<span style=color:#ae81ff>6.966912423695447</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span>	<span style=color:#ae81ff>1.3690203109391845</span>	<span style=color:#ae81ff>6.851961452531466</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>5</span>	<span style=color:#ae81ff>1.4789269031521688</span>	<span style=color:#ae81ff>0.10990659221298427</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>6</span>	<span style=color:#ae81ff>4.136642366324688</span>	<span style=color:#ae81ff>2.6577154631725195</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>7</span>	<span style=color:#ae81ff>1.844814336803726</span>	<span style=color:#ae81ff>2.2918280295209623</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>8</span>	<span style=color:#ae81ff>2.093593129020052</span>	<span style=color:#ae81ff>0.24877879221632582</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>9</span>	<span style=color:#ae81ff>2.5681447002446642</span>	<span style=color:#ae81ff>0.47455157122461245</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>10</span>	<span style=color:#ae81ff>2.4009115872524283</span>	<span style=color:#ae81ff>0.16723311299223598</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>11</span>	<span style=color:#ae81ff>2.4242907675446332</span>	<span style=color:#ae81ff>0.023379180292204982</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>12</span>	<span style=color:#ae81ff>2.4260101070971984</span>	<span style=color:#ae81ff>0.0017193395525652022</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>13</span>	<span style=color:#ae81ff>2.4259887393490422</span>	<span style=color:#ae81ff>2.136774815619802</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>05</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>14</span>	<span style=color:#ae81ff>2.4259887573614316</span>	<span style=color:#ae81ff>1.8012389357835445</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>08</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>15</span>	<span style=color:#ae81ff>2.4259887573616217</span>	<span style=color:#ae81ff>1.900701818158268</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>13</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>16</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>4.440892098500626</span><span style=color:#a6e22e>e</span><span style=color:#f92672>-</span><span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>17</span>	<span style=color:#ae81ff>2.425988757361622</span>	<span style=color:#ae81ff>0.0</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>x</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>2.42598875736162211680380096368025988340377807617187500</span>  
-</span></span><span style=display:flex><span><span style=color:#a6e22e>error</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.0</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>interation</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>18</span></span></span></code></pre></div><style>.chroma.mermaid-code{background:#1e1e2f;color:#ddd;padding:1rem;border-radius:6px;overflow-x:auto;font-family:fira code,monospace;line-height:1.45}.chroma.mermaid-code .s{color:#a5d6ff}.chroma.mermaid-code .m{color:#ffa657}.chroma.mermaid-code .n{color:#8ae9c1}.chroma.mermaid-code .c{color:#7f7f7f;font-style:italic}.mermaid-keyword{color:#79c6ff;font-weight:700}.mermaid-value{color:#fa7bfa;font-weight:700}</style>Note: It stops in 18 iterations after <code>fa == fb</code>.</li></ul></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1766207886'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+</span></span></code></pre></div></li><li>Method 1 (Bisection)<pre tabindex=0><code>Method:
+1. Bisection
+2. Regula Falsi
+Select Method: 1
+Input pollutan lower limit value (mg/L): 1.0
+Input pollutan upper limit value (mg/L): 8.0
+Input number of iteration: 100
+
+i	x	err
+1	4.5	3.5
+2	2.75	1.75
+3	1.875	0.875
+4	2.3125	0.4375
+5	2.53125	0.21875
+6	2.421875	0.109375
+7	2.4765625	0.0546875
+8	2.44921875	0.02734375
+9	2.435546875	0.013671875
+10	2.4287109375	0.0068359375
+11	2.42529296875	0.00341796875
+12	2.427001953125	0.001708984375
+13	2.4261474609375	0.0008544921875
+14	2.42572021484375	0.00042724609375
+15	2.425933837890625	0.000213623046875
+16	2.4260406494140625	0.0001068115234375
+17	2.4259872436523438	5.340576171875e-05
+18	2.426013946533203	2.6702880859375e-05
+19	2.4260005950927734	1.33514404296875e-05
+20	2.4259939193725586	6.67572021484375e-06
+21	2.425990581512451	3.337860107421875e-06
+22	2.4259889125823975	1.6689300537109375e-06
+23	2.4259880781173706	8.344650268554688e-07
+24	2.425988495349884	4.172325134277344e-07
+25	2.4259887039661407	2.086162567138672e-07
+26	2.425988808274269	1.043081283569336e-07
+27	2.425988756120205	5.21540641784668e-08
+28	2.425988782197237	2.60770320892334e-08
+29	2.425988769158721	1.30385160446167e-08
+30	2.425988762639463	6.51925802230835e-09
+31	2.425988759379834	3.259629011154175e-09
+32	2.4259887577500194	1.6298145055770874e-09
+33	2.425988756935112	8.149072527885437e-10
+34	2.425988757342566	4.0745362639427185e-10
+35	2.4259887575462926	2.0372681319713593e-10
+36	2.425988757444429	1.0186340659856796e-10
+37	2.4259887573934975	5.093170329928398e-11
+38	2.4259887573680317	2.546585164964199e-11
+39	2.4259887573552987	1.2732925824820995e-11
+40	2.425988757361665	6.366462912410498e-12
+41	2.425988757358482	3.183231456205249e-12
+42	2.4259887573600736	1.5916157281026244e-12
+43	2.4259887573608694	7.958078640513122e-13
+44	2.4259887573612673	3.979039320256561e-13
+45	2.4259887573614662	1.9895196601282805e-13
+46	2.4259887573615657	9.947598300641403e-14
+47	2.4259887573616155	4.973799150320701e-14
+48	2.4259887573616403	2.4868995751603507e-14
+49	2.425988757361628	1.2434497875801753e-14
+50	2.4259887573616217	6.217248937900877e-15
+51	2.425988757361625	3.1086244689504383e-15
+52	2.4259887573616234	1.7763568394002505e-15
+53	2.4259887573616226	8.881784197001252e-16
+54	2.425988757361622	8.881784197001252e-16
+55	2.425988757361622	8.881784197001252e-16
+56	2.425988757361622	8.881784197001252e-16
+57	2.425988757361622	8.881784197001252e-16
+58	2.425988757361622	8.881784197001252e-16
+59	2.425988757361622	8.881784197001252e-16
+60	2.425988757361622	8.881784197001252e-16
+61	2.425988757361622	8.881784197001252e-16
+62	2.425988757361622	8.881784197001252e-16
+63	2.425988757361622	8.881784197001252e-16
+64	2.425988757361622	8.881784197001252e-16
+65	2.425988757361622	8.881784197001252e-16
+66	2.425988757361622	8.881784197001252e-16
+67	2.425988757361622	8.881784197001252e-16
+68	2.425988757361622	8.881784197001252e-16
+69	2.425988757361622	8.881784197001252e-16
+70	2.425988757361622	8.881784197001252e-16
+71	2.425988757361622	8.881784197001252e-16
+72	2.425988757361622	8.881784197001252e-16
+73	2.425988757361622	8.881784197001252e-16
+74	2.425988757361622	8.881784197001252e-16
+75	2.425988757361622	8.881784197001252e-16
+76	2.425988757361622	8.881784197001252e-16
+77	2.425988757361622	8.881784197001252e-16
+78	2.425988757361622	8.881784197001252e-16
+79	2.425988757361622	8.881784197001252e-16
+80	2.425988757361622	8.881784197001252e-16
+81	2.425988757361622	8.881784197001252e-16
+82	2.425988757361622	8.881784197001252e-16
+83	2.425988757361622	8.881784197001252e-16
+84	2.425988757361622	8.881784197001252e-16
+85	2.425988757361622	8.881784197001252e-16
+86	2.425988757361622	8.881784197001252e-16
+87	2.425988757361622	8.881784197001252e-16
+88	2.425988757361622	8.881784197001252e-16
+89	2.425988757361622	8.881784197001252e-16
+90	2.425988757361622	8.881784197001252e-16
+91	2.425988757361622	8.881784197001252e-16
+92	2.425988757361622	8.881784197001252e-16
+93	2.425988757361622	8.881784197001252e-16
+94	2.425988757361622	8.881784197001252e-16
+95	2.425988757361622	8.881784197001252e-16
+96	2.425988757361622	8.881784197001252e-16
+97	2.425988757361622	8.881784197001252e-16
+98	2.425988757361622	8.881784197001252e-16
+99	2.425988757361622	8.881784197001252e-16
+100	2.425988757361622	8.881784197001252e-16
+
+x = 2.42598875736162211680380096368025988340377807617187500
+error = 8.881784197001252e-16
+interation = 100
+</code></pre>Note: It has not yet stopped in 100 iterations since there is always new <code>c</code> from previous <code>a</code> and <code>b</code>.</li><li>Method 2 (Regula Falsi)<pre tabindex=0><code>Method:
+1. Bisection
+2. Regula Falsi
+Select Method: 2
+Input pollutan lower limit value (mg/L): 1.0
+Input pollutan upper limit value (mg/L): 8.0
+Input number of iteration: 100
+
+i	x	err
+1	1.1285714285714286	6.871428571428572
+2	1.2540693397752025	0.12549791120377396
+3	8.22098176347065	6.966912423695447
+4	1.3690203109391845	6.851961452531466
+5	1.4789269031521688	0.10990659221298427
+6	4.136642366324688	2.6577154631725195
+7	1.844814336803726	2.2918280295209623
+8	2.093593129020052	0.24877879221632582
+9	2.5681447002446642	0.47455157122461245
+10	2.4009115872524283	0.16723311299223598
+11	2.4242907675446332	0.023379180292204982
+12	2.4260101070971984	0.0017193395525652022
+13	2.4259887393490422	2.136774815619802e-05
+14	2.4259887573614316	1.8012389357835445e-08
+15	2.4259887573616217	1.900701818158268e-13
+16	2.425988757361622	4.440892098500626e-16
+17	2.425988757361622	0.0
+
+x = 2.42598875736162211680380096368025988340377807617187500  
+error = 0.0
+interation = 18
+</code></pre>Note: It stops in 18 iterations after <code>fa == fb</code>.</li></ul></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1764542482'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
 All rights reserved.
 Unless stated otherwise in a note.</p></footer></body></html>

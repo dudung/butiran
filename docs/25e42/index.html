@@ -1,0 +1,109 @@
+<!doctype html><html lang=en-us dir=ltr><head><script src="/butiran/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=butiran/livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width"><title>butiran home-v0 | butiran</title><link rel=stylesheet href="/butiran/css/main.css?v=1764542482"><script src=/butiran/js/main.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1764542482'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><head><link rel=stylesheet href='/butiran/css/notes.css?v=1764542482'></head><div class=note-container><h1 class=note-title>butiran home-v0</h1><div class=info-after-title><ul class=authors-container><li class=author><a href=http://localhost:1313/butiran/authors/viridi/>Sparisoma Viridi</a></li></ul><div class=date-reading-time-edit><time datetime="2025-05-21T18:41:13 07:00">21 May 2025</time>
+&#183;
+3 mins read</div></div><div class=note-content><p>It is archive for <code>home.html</code> and <code>hugo.toml</code>.</p><h2 id=homehtml>home.html</h2><p>This file is located in <code>/layouts/_default</code> from this butiran.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>{{ define &#34;main&#34; }}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>main</span> <span style=color:#a6e22e>aria-role</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;main&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>header</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;homepage-header&#34;</span>&gt;
+</span></span><span style=display:flex><span>      {{ with .Params.subtitle }}
+</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;subtitle&#34;</span>&gt;{{ . }}&lt;/<span style=color:#f92672>span</span>&gt;
+</span></span><span style=display:flex><span>      {{ end }}
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>header</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;homepage-content&#34;</span>&gt;
+</span></span><span style=display:flex><span>      {{ .Content }}
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    {{ $key := &#34;type&#34; }}
+</span></span><span style=display:flex><span>    {{ $value := &#34;talks&#34; }}
+</span></span><span style=display:flex><span>    {{ $paramskey := (printf &#34;Params.%s&#34; $key) }}
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#75715e>&lt;!--
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    url https://chatgpt.com/share/676fcffa-931c-800a-8ae9-3363762a8316 [20241228].
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    --&gt;</span>
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;posts-box-container&#34;</span>&gt;
+</span></span><span style=display:flex><span>      {{ $filteredPages := .Site.RegularPages }}
+</span></span><span style=display:flex><span>      {{ if in (slice &#34;type&#34; &#34;title&#34; &#34;date&#34;) $key }}
+</span></span><span style=display:flex><span>        {{ $filteredPages = where .Site.RegularPages $paramskey &#34;in&#34; (slice $value) }}
+</span></span><span style=display:flex><span>      {{ else }}
+</span></span><span style=display:flex><span>        {{ $filteredPages = where .Site.RegularPages (printf &#34;Params.%s&#34; $key) &#34;intersect&#34; (slice $value) }}
+</span></span><span style=display:flex><span>      {{ end }}
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>      {{ $filteredPages := .Site.RegularPages }}
+</span></span><span style=display:flex><span>      {{ $paginator := .Paginate $filteredPages }}
+</span></span><span style=display:flex><span>      {{ range $paginator.Pages }}
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;homepage-posts-box&#34;</span>&gt;
+</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>code</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;homepage-post-date&#34;</span>&gt;
+</span></span><span style=display:flex><span>            {{ dateFormat &#34;02-Jan-2006&#34; .Date }}
+</span></span><span style=display:flex><span>          &lt;/<span style=color:#f92672>code</span>&gt;&lt;<span style=color:#f92672>br</span>&gt;
+</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ .RelPermalink }}&#34;</span>&gt;{{ .LinkTitle }}&lt;/<span style=color:#f92672>a</span>&gt;
+</span></span><span style=display:flex><span>        &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>      {{ end }}
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>&lt;!--
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    url https://chatgpt.com/share/674c42d8-7298-800a-9d2f-57af4c77c925 [20241201]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    --&gt;</span>
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pagination-container&#34;</span>&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pagination&#34;</span>&gt;
+</span></span><span style=display:flex><span>        <span style=color:#75715e>&lt;!-- &#34;Previous&#34; button --&gt;</span>
+</span></span><span style=display:flex><span>        {{ if $paginator.HasPrev }}
+</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ $paginator.Prev.URL }}&#34;</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;prev&#34;</span>&gt;&amp;nbsp;&amp;lt;&amp;nbsp;&lt;/<span style=color:#f92672>a</span>&gt;
+</span></span><span style=display:flex><span>        {{ end }}
+</span></span><span style=display:flex><span>        
+</span></span><span style=display:flex><span>        <span style=color:#75715e>&lt;!-- Numeric pagination --&gt;</span>
+</span></span><span style=display:flex><span>        {{ range $paginator.Pagers }}
+</span></span><span style=display:flex><span>          {{ if eq . $paginator }}
+</span></span><span style=display:flex><span>            &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;current&#34;</span>&gt;{{ printf &#34;%02d&#34; .PageNumber }}&lt;/<span style=color:#f92672>span</span>&gt; <span style=color:#75715e>&lt;!-- Current page --&gt;</span>
+</span></span><span style=display:flex><span>          {{ else }}
+</span></span><span style=display:flex><span>            &lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ .URL }}&#34;</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;page&#34;</span>&gt;{{ printf &#34;%02d&#34; .PageNumber }}&lt;/<span style=color:#f92672>a</span>&gt;
+</span></span><span style=display:flex><span>          {{ end }}
+</span></span><span style=display:flex><span>        {{ end }}
+</span></span><span style=display:flex><span>             
+</span></span><span style=display:flex><span>        <span style=color:#75715e>&lt;!-- &#34;Next&#34; button --&gt;</span>
+</span></span><span style=display:flex><span>        {{ if $paginator.HasNext }}
+</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ $paginator.Next.URL }}&#34;</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;next&#34;</span>&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;/<span style=color:#f92672>a</span>&gt;
+</span></span><span style=display:flex><span>        {{ end }}
+</span></span><span style=display:flex><span>      &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>main</span>&gt;
+</span></span><span style=display:flex><span>{{ end }}
+</span></span></code></pre></div><p>Following lines are removed from <code>home.html</code></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span>      {{ <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>filteredPages</span> <span style=color:#f92672>:=</span> .<span style=color:#a6e22e>Site</span>.<span style=color:#a6e22e>RegularPages</span> }}
+</span></span><span style=display:flex><span>      {{ <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>in</span> (<span style=color:#a6e22e>slice</span> <span style=color:#e6db74>&#34;type&#34;</span> <span style=color:#e6db74>&#34;title&#34;</span> <span style=color:#e6db74>&#34;date&#34;</span>) <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>key</span> }}
+</span></span><span style=display:flex><span>        {{ <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>filteredPages</span> = <span style=color:#a6e22e>where</span> .<span style=color:#a6e22e>Site</span>.<span style=color:#a6e22e>RegularPages</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>paramskey</span> <span style=color:#e6db74>&#34;in&#34;</span> (<span style=color:#a6e22e>slice</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>value</span>) }}
+</span></span><span style=display:flex><span>      {{ <span style=color:#66d9ef>else</span> }}
+</span></span><span style=display:flex><span>        {{ <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>filteredPages</span> = <span style=color:#a6e22e>where</span> .<span style=color:#a6e22e>Site</span>.<span style=color:#a6e22e>RegularPages</span> (<span style=color:#a6e22e>printf</span> <span style=color:#e6db74>&#34;Params.%s&#34;</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>key</span>) <span style=color:#e6db74>&#34;intersect&#34;</span> (<span style=color:#a6e22e>slice</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>value</span>) }}
+</span></span><span style=display:flex><span>      {{ <span style=color:#a6e22e>end</span> }}
+</span></span></code></pre></div><p>and will be kept here for furhter used.</p><h2 id=hugotoml>hugo.toml</h2><p>This file is located in <code>/</code> from butiran.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=display:flex><span><span style=color:#a6e22e>baseURL</span> = <span style=color:#e6db74>&#39;https://dudung.github.io/butiran&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>languageCode</span> = <span style=color:#e6db74>&#39;en-us&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>title</span> = <span style=color:#e6db74>&#39;butiran&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>theme</span> = <span style=color:#e6db74>&#39;default&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>ignoreLogs</span> = [<span style=color:#e6db74>&#39;warning-goldmark-raw-html&#39;</span>]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>enableEmoji</span> = <span style=color:#66d9ef>true</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[<span style=color:#a6e22e>pagination</span>]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>pagerSize</span> = <span style=color:#ae81ff>30</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[<span style=color:#a6e22e>taxonomies</span>]
+</span></span><span style=display:flex><span><span style=color:#75715e>#  author = &#34;authors&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#  tag = &#34;tags&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#  category = &#34;categories&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>menu</span>.<span style=color:#a6e22e>main</span>]]
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#39;Home&#39;</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>weight</span> = <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>identifier</span> = <span style=color:#e6db74>&#39;home&#39;</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>url</span> = <span style=color:#e6db74>&#39;/&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[<span style=color:#a6e22e>params</span>]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>disableShortcodes</span> = <span style=color:#66d9ef>true</span>
+</span></span></code></pre></div><p>To enable individual shortcode, edit it and remove</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span>{{ <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>not</span> <span style=color:#a6e22e>site</span>.<span style=color:#a6e22e>Params</span>.<span style=color:#a6e22e>disableShortcodes</span> }}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  &lt;!<span style=color:#f92672>--</span> <span style=color:#a6e22e>shortcode</span> <span style=color:#f92672>--</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>{{ <span style=color:#a6e22e>end</span> }}
+</span></span></code></pre></div><p>the conditional block <code>{{ if .. }}</code> and <code>{{ end }}</code>.</p><h2 id=notes>notes</h2><ul><li>Site build requires about 5541 ms - 6088 ms.</li><li>Change of a post now requires about 41 - 48 ms.</li><li>There is not any taxonomies used.</li><li>All shortcodes are disabled but <code>mermaid</code>, <code>style</code>, <code>script/loader</code>, and <code>script/runner</code>.</li><li>The required time is still consistent for several attempts.</li></ul></div></div></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1764542482'><p>Copyright Sparisoma Viridi 2025<a href=/butiran/h2/ style=cursor:text>.</a>
+All rights reserved.
+Unless stated otherwise in a note.</p></footer></body></html>
