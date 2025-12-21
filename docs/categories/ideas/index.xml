@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ideas on butiran</title><link>http://localhost:1313/butiran/categories/ideas/</link><description>Recent content in Ideas on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 Aug 2025 07:58:01 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/ideas/index.xml" rel="self" type="application/rss+xml"/><item><title>decisiophysics idea</title><link>http://localhost:1313/butiran/25h41/</link><pubDate>Fri, 15 Aug 2025 07:58:01 +0700</pubDate><guid>http://localhost:1313/butiran/25h41/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;15-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h41/blob/main/02/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h41.02&lt;/code&gt;
+&lt;/a&gt;
+ Offline discussion in f10 with id.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h41/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h41.01&lt;/code&gt;
+&lt;/a&gt;
+ Initial idea about decisiophysics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The unusual name is inspired from econophysics, sociophysics, and urban physics &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;, where policy can be simulated quantitatively using at least two approaches, e.g. ABM &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; and SD &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;. In the last approach the implementation might not be reflected in the diagram &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-5, &amp;ldquo;Policy physics names&amp;rdquo;, ChatGPT, 15 Jan 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/689e8383-6bc0-800a-9394-0e2f2446e13f"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/689e8383-6bc0-800a-9394-0e2f2446e13f &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250815].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

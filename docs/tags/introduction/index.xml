@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on butiran</title><link>http://localhost:1313/butiran/tags/introduction/</link><description>Recent content in Introduction on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Jan 2022 14:21:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>very short intro to github</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/39/2022-01-19-very-short-intro-to-github/</link><pubDate>Thu, 20 Jan 2022 14:21:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/39/2022-01-19-very-short-intro-to-github/</guid><description>&lt;p&gt;GitGub menyatakan bahwa dirinya merupakan tempat di mana para pengembang seluruh dunia membangun piranti lunak bersama-sama, yang saat ini melibatkan 73+ juta pengembang, 4+ juta organisasi, 84% perusahan dalam daftar Fortune 100 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terkait dengan belajar programing, terdapat pendapat bahwa GitHub bukan tempat para pemula untuk mulai memrogram dikarenakan pemula seharusnya tidak dikuatirkan dulu dengan sintaks dan perintah yang kompleks, tapi lebih mencoba mengerti bagaimana membuat kode, logika dalam menghadapi problem membuat kode, atau mengerti kode orang lain [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Walaupun demikian ada yang mengibaratkan bahwa bila GitHub merupakan tempat yang baik untuk belajar membuat kode, maka medan perang merupakan tempat yang baik untuk belajar menggunakan senjata api [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu miskonsepsi utama tentang GitHub adalah anggapan bahwa itu adalah suatu alat pengembang, sebagai bagian dari koding seperti bahasa pemrograman dan compiler, sementara yang lebih tepat bahwa GitHub adalah suatu jejaring sosial di mana penggunanya menyimpan program dan kode proyek, dan membagikannya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Git sendiri adalah piranti lunak pengendali versi yang bersifat bebas dan sumber terbuka, dibuat oleh Linus Torvalds pada tahun 2005, yang semula dikembangkan untuk bekerja pada kernel Linux dengan beberapa pengembang [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Github merupakan platform hosting pertama untuk Git yang diluncurkan tahun 2008, kemudian diikuti dengan Gitlab yang merupakan platform hosting repositori berbasis git yang dilucurkan tahun 2011, dan terdapat pula BitBucket sebagai layanan hosting kode sumber daring lainnya yang diluncurkan pada tahun 2008 dan mulai menggunakan git sejak Oktober 2011 [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>polar coordinates intro</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-10-31-polar-coordinates-intro/</link><pubDate>Sun, 31 Oct 2021 20:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-10-31-polar-coordinates-intro/</guid><description>&lt;p&gt;Koordinat polar dapat diperkenalkan dengan contoh pada kehidupan sehari-hari, di mana suatu tempat biasanya dirujuk dari posisi kita dan ke arah mana, misalnya $100 \ \rm km$ ke arah timur laut dari sini, dengan ini selain pemaknaan $r$ dan $\theta$ kerumitan lainnya belum perlu disampaikan [
+&lt;a
+
+	
+	
+		href = "#ref1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau langsung dengan perumusannya akan tetapi masih menyembunyikan dimensi ketiganya, yang muncul saat perlu mendefinisikan perkalian silang dua buah vektor [
+&lt;a
+
+	
+	
+		href = "#ref2"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mengaitkannya langsung dengan koordinat silinder merupakan alternatif lain, di mana simbol yang digunakan telah $\phi$ alih-alih $\theta$ [
+&lt;a
+
+	
+	
+		href = "#ref3"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga akan memudahkan transisi dari sistem koordinat 2d ke 3d. Dalam sistem koordinat polar ini fungsi untuk menggambarkan kurva-kurva akan memiliki bentuk berbeda dengan dalam sistem koordinat Kartesius [
+&lt;a
+
+	
+	
+		href = "#ref4"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>introduction</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-09-29-introduction/</link><pubDate>Wed, 29 Sep 2021 09:57:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-09-29-introduction/</guid><description>&lt;p&gt;Some but no complete notes about bug.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;24 Feb 2022&lt;/code&gt; Another milestone with 178 posts, all files counted. &lt;br&gt;
+![]({{ site.baseurl }}/assets/img/0/00/0000-e-178-posts.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10 Jan 2022&lt;/code&gt; Rename and move post related to line charge and surface charge. Not yet come to equilibrium convention for the folders. It only uses numbers and each folder is limited to ten post files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28 Dec 2021&lt;/code&gt; Fortunately my 
+&lt;a
+
+	
+	
+		href = "https://de.slideshare.net/sparisoma"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		SlideShare &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ works again through Facebook. It is now 105 Präsentationen there after about 11 months vacant. Know it while finishing 
+&lt;a
+
+	
+	
+		href = "http://localhost:4000/pages/0171"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0171 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. ![]({{ site.baseurl }}/assets/img/0/00/0000-d-slideshare-dec2021.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14 Dec 2021&lt;/code&gt; Make 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/bug"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bug &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ private, and use 
+&lt;a
+
+	
+	
+		href = "https://vercel.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Vercel &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ to host the &lt;code&gt;_site&lt;/code&gt;, which is now 
+&lt;a
+
+	
+	
+		href = "https://bugx.vercel.app/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bugx &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ as it was renamed into.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12 Dec 2021&lt;/code&gt; Cancel the use of 
+&lt;a
+
+	
+	
+		href = "https://github.com/NiklasEi/jekyll_custom_permalink"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Jekyll custom permalink &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ by Niklas Eicker, since it works locally but not supported on Github. Yesterday was only for knowing it :-(.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06 Dec 2021&lt;/code&gt; Put sound on a post using 
+&lt;a
+
+	
+	
+		href = "https://www.youtube.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		YouTube &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ video by hiding the picture and only showing the control buttons. Appearance in mobile device is still different. Fist try is still in 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		0222 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04 Dec 2021&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://twitter.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Twitter &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ is used as comment box replacing the previous above link. Author should post initial tweet first, then embed it to a bug post. It begins with 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		0200 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19 Nov 2021&lt;/code&gt; Found one possibility of bug acronym as bridging the understanding gap, which is title of the work of David Gelperin available in 
+&lt;a
+
+	
+	
+		href = "https://www.researchgate.net/publication/311966110"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		RG 311966110 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17 Nov 2021&lt;/code&gt; Struggle to find info about 
+&lt;a
+
+	
+	
+		href = "https://en.wikipedia.org/wiki/Samsung_Galaxy_A12"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		A12 screen size &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (720 × 1600), which is different than shown by 
+&lt;a
+
+	
+	
+		href = "https://www.mydevice.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		mydevice.io &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ 384px, (385 × 854), (375 × 800), 1.875. Try 
+&lt;a
+
+	
+	
+		href = "https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk/related"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Mobile simulator &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, a Chrome extension, but it does not show the same thing as browser emulator as guided by 
+&lt;a
+
+	
+	
+		href = "https://www.digitalcitizen.life/emulate-mobile-device-desktop-browser/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Rusen &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. Try 
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		using media queries &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ that &lt;code&gt;max-width&lt;/code&gt; is different than &lt;code&gt;max-device-width&lt;/code&gt;, but responsive design does not work. Find solution with &lt;code&gt;meta&lt;/code&gt; as in 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/a/24911272"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		so-24911272 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. Try to allow zoom in remove &lt;code&gt;user-scalable=0&lt;/code&gt; dan set &lt;code&gt;maximum-scale=5&lt;/code&gt;. It works. Finalize margins, which take to much spaces.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14 Nov 2021&lt;/code&gt; A milestone with 60 posts, but not all concepts, dev files counted. &lt;br&gt;
+![]({{ site.baseurl }}/assets/img/0/00/0000-c-60-posts.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25 oct 2021&lt;/code&gt; Move search to 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		progress &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ and modify 
+&lt;a
+
+	
+	
+		href = "/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		home
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+. And find 🐞 in HTML symbol. Keep using • symbol, since can not find any better one. It is microbe 🦠, but a cool symbol.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;code&gt;20 Oct 2021&lt;/code&gt; Someone Geburtstag x0C and inspires new style of the symbol for frame of reference. It is more modern compared to the old fashion way. But it support only the type of $\bigodot$ since it is difficult for the $\bigotimes$ type.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;code&gt;02 Oct 2021&lt;/code&gt; Try to create the first animated bug with 
+&lt;a
+
+	
+	
+		href = "https://flipaclip.us/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		FlipaClip &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ and edit it online using 
+&lt;a
+
+	
+	
+		href = "https://ezgif.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Ezgif &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. It is 150 px × 54 px with 8 bit depth and 41.4 KB in size. By the way, the 
+&lt;a
+
+	
+	
+		href = "https://ezgif.com/maker"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		GIF Maker &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ is interesting to try.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29 Sep 2021&lt;/code&gt; After 12 days in repairing store (following a week without and a week with antibiotics) and MDs can not find the bug in me, go home, then I think it would be nice if I create this 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/bug"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bug(6) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ as reminder of our limitation as human. All previous posts are reset and some will be transferred after selection and proper modification.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16 Jun 2021&lt;/code&gt; Try to relate this with 
+&lt;a
+
+	
+	
+		href = "https://knowledge.itb.ac.id/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		KMS ITB &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (Knowledge Management System ITB). Lost some chronologies $\large\color{#c00}\times$. At campus 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/butir/blob/main/log/2021-06-16.txt"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		update gems &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23 Apr 2021&lt;/code&gt; Change layout catatan (now refs) $\Leftrightarrow$ butir (now  ), refs $\Rightarrow$ notes. Copy two items from butiran 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir/0013"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0013 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (with reduction) and 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir/0014"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0014 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (with minimal modification).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22 Apr 2021&lt;/code&gt; Rename it to 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		butir(5) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from previous name on eleven days before today and hope it will remain stable &amp;#x1f603;. Todo: fix history link for the first three posts $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01 Sya 1442&lt;/code&gt; Modify 
+&lt;a
+
+	
+	
+		href = "https://twitter.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Twitter &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ link $\color{#0c0}\checkmark$, for all authors $\large\color{#c00}\times$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12 Apr 2021&lt;/code&gt; Create this first post, use 
+&lt;a
+
+	
+	
+		href = "https://shopify.github.io/liquid/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Liquid &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2×2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10 Apr 2021&lt;/code&gt; Create 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/item"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		item(4) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/code-failed"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		code(3) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/soal"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		soal(2) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://butiran.github.io"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		butiran(1) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{% comment %}
+#:~:text=
+{% endcomment %}&lt;/p&gt;</description></item><item><title>coord sys 3d proj 2d intro</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-23-coord-sys-3d-proj-2d-intro/</link><pubDate>Sun, 23 May 2021 05:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-23-coord-sys-3d-proj-2d-intro/</guid><description>&lt;p&gt;Proyeksi ortografik sistem koordinat 3-d ke sistem koordinat 2-d pada sistem koordinat kartesian akan diilustrasikan secara ringkas di sini [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dengan dua istilah penerapannya terdapat pada denah (plan) dan tampak (elevation) [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada sistem koordinat kartesian 3-d terdapat tiga variabel koordinat, yaitu $x$, $y$, dan $z$ [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang hubungan arah antar ketiganya diberikan oleh aturan tangan kanan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Beberapa proyeksi ortografik 3-d ke 2-d adalah sebagai berikut ini,&lt;/p&gt;</description></item><item><title>dot cross direction</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-22-dot-cross-direction/</link><pubDate>Sun, 23 May 2021 00:59:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-22-dot-cross-direction/</guid><description>&lt;p&gt;Sebuah vektor, yang diilustrasikan dengan anak panah &lt;!-- raw HTML omitted --&gt;➳&lt;!-- raw HTML omitted --&gt;, digambarkan dengan dot $\bigodot$ saat keluar dari suatu bidang 2-d dan cross $\bigotimes$ saat masuk ke bidang tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bidang 2-d yang dimaksud dapat berupa bidang layar atau bidang gambar atau bidang kertas.&lt;/p&gt;
+&lt;p&gt;Kedua simbol $\bigodot$ dan $\bigotimes$ umum digunakan pada sumbu koordinat, arus listrik, medan listrik, dan medan magnetik.&lt;/p&gt;</description></item><item><title>coord sys 2d intro</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-13-coord-sys-2d-intro/</link><pubDate>Sat, 22 May 2021 22:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2021-05-13-coord-sys-2d-intro/</guid><description>&lt;p&gt;Sistem koordinat kartesian 2-d, dengan $x$ dan $y$ merupakan variabel koordinat [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dapat digambarkan sebagai berikut ini.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;ID&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;0&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;1&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;![]({{ site.baseurl }}/assets/img/0/01/0010-a.png)&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;![]({{ site.baseurl }}/assets/img/0/01/0010-b.png)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;![]({{ site.baseurl }}/assets/img/0/01/0010-c.png)&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;![]({{ site.baseurl }}/assets/img/0/01/0010-d.png)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Umumnya $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (ke atas atau ke bawah). Baris pertama pada gambar di atas meiliki ID 00 dan 01, sedangkan baris keduanya 10 dan 11.&lt;/p&gt;</description></item><item><title>vector 2d add</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-09-21-vector-2d-add/</link><pubDate>Mon, 21 Sep 2020 11:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-09-21-vector-2d-add/</guid><description>&lt;p&gt;Addition of 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		vectors &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ can be peformed graphically [
+&lt;a
+
+	
+	
+		href = "#ref1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] or by adding the corresponding components [
+&lt;a
+
+	
+	
+		href = "#ref2"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. We can also use trigonometry through law of sines and cosines.&lt;/p&gt;
+&lt;h2 id="components-addition"&gt;components addition&lt;/h2&gt;
+&lt;p&gt;Adding corresponding components in performing vector addition is simpler and does not require any drawing but only formula. Suppose that there is first vector&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eqn:vadd-r1}
+\vec{r}_1 = x_1 \ \hat{x} + y_1 \ \hat{y}
+\end{equation}&lt;/p&gt;</description></item><item><title>vector 2d intro</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-09-01-vector-2d-intro/</link><pubDate>Mon, 21 Sep 2020 08:25:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-09-01-vector-2d-intro/</guid><description>&lt;p&gt;A physics quantity of type vector must be specified with a magnitude and a direction [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], or vector is simply a quantity that has both magnitude and direction [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], where the magnitude is sometimes also referred to as size or length [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Further reading will explain vector as element of vector space [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Here we will require only the simple definition of a vector. Vector can be drawn using a directed line segment [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Two examples about vector, which differs it from scalar, are displacement compared to distance and velocity compared to speed [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

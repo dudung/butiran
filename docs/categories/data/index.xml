@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on butiran</title><link>http://localhost:1313/butiran/categories/data/</link><description>Recent content in Data on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 19 Dec 2025 21:19:41 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/data/index.xml" rel="self" type="application/rss+xml"/><item><title>parabolic motion sim data</title><link>http://localhost:1313/butiran/25l42/</link><pubDate>Fri, 19 Dec 2025 21:19:41 +0700</pubDate><guid>http://localhost:1313/butiran/25l42/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+function createDataDiv(data, label) {
+ let div = document.createElement("div");
+ div.innerHTML = label + " = " + data.join(", ");
+ div.style.margin = "1em";
+ div.style.padding = "0.5em 1em";
+ div.style.fontFamily = "Courier New";
+ div.style.fontSize = "0.8em";
+ div.style.background = "#eee";
+ div.style.overflowWrap = "break-word";
+ div.style.borderRadius = "6px";
+ return div;
+}
+
+function createUserDiv(id) {
+ let div = document.createElement("div");
+ div.id = id;
+ div.style.border = "1px solid #ccc";
+ div.style.borderRadius = "10px";
+ div.style.margin = "1em";
+ div.style.padding = "0em 1em 1em 1em";
+ let h2 = document.createElement("h2");
+ h2.innerHTML = id;
+ h2.style.marginBottom = "-0.2em";
+ div.append(h2);
+ return div;
+}
+
+let cnt = document.getElementById("cnt");
+const ids = ["24625004", "24625006", "24725002", "24725003", "24725004"];
+const x0 = [10, 40, 30, 20, 50];
+const y0 = [20, 50, 10, 40, 30];
+const vx0 = [1, 4, 3, 2, 5];
+const vy0 = [2, 5, 1, 4, 3];
+let i = 0;
+for(id of ids) {
+ let div = createUserDiv(id);
+ cnt.append(div);
+ 
+ const tinfo = [0, 20, 0.5];
+ let tdata = [];
+ let xdata = [];
+ let ydata = [];
+ for(let it = tinfo[0]; it &lt;= tinfo[1]; it++) {
+ 	let t = it * tinfo[2];
+ 	tdata.push(t);
+ 	let x = x0[i] + vx0[i] * t;
+ 	xdata.push(x);
+ 	let y = y0[i] + vy0[i] * t - 0.5 * 10 * t**2;
+ 	ydata.push(y);
+ }
+ 
+ let divt = createDataDiv(tdata, "t");
+ div.append(divt);
+ let divx = createDataDiv(xdata, "x");
+ div.append(divx);
+ let divy = createDataDiv(ydata, "y");
+ div.append(divy);
+ 
+ i += 1;
+}
+
+ });
+&lt;/script&gt;</description></item><item><title>composting data</title><link>http://localhost:1313/butiran/25l30/</link><pubDate>Sun, 14 Dec 2025 17:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/25l30/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;14-dec-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25l30/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25l30.01&lt;/code&gt;
+&lt;/a&gt;
+ Note initialization and a batch.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>data commute</title><link>http://localhost:1313/butiran/25l06/</link><pubDate>Tue, 02 Dec 2025 06:31:02 +0700</pubDate><guid>http://localhost:1313/butiran/25l06/</guid><description>&lt;h2 id="dec-25"&gt;dec-25&lt;/h2&gt;
+
+
+
+&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;day&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;odep&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;otra&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;oarv&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;idep&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;itra&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;iarv&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0647&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0659&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0703&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1728&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1753&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0726&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0740&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0817&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0839&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0805&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0817&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0611&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0630&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0845&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0913&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0847&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0903&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;09&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0549&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0612&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0628&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;08&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1110&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1130&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1140&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;03&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0541&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0558&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0615&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0542&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0601&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0612&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;01&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;</description></item><item><title>data cv</title><link>http://localhost:1313/butiran/25l02/</link><pubDate>Mon, 01 Dec 2025 17:36:44 +0700</pubDate><guid>http://localhost:1313/butiran/25l02/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;10-dec-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25l02/blob/main/42/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25l02.42&lt;/code&gt;
+&lt;/a&gt;
+ Offer from upd-imj for rikub-2025.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-dec-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25l02/blob/main/41/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25l02.41&lt;/code&gt;
+&lt;/a&gt;
+ Offer from ma-um for iaa-grant due to today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous and not completely documented entries are available on 
+&lt;a
+
+	
+	
+		href = "https://osf.io/7yptc/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		7yptc &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>data force grav</title><link>http://localhost:1313/butiran/25k47/</link><pubDate>Mon, 24 Nov 2025 04:35:06 +0700</pubDate><guid>http://localhost:1313/butiran/25k47/</guid><description>&lt;h2 id="dec-2025"&gt;dec-2025&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 18-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0231; 691&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0412; 687&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0518; 682&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0623; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0716; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2018; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2121; 682&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 17-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0441; 671&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0744; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1705; 684&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1839; 687&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2035; 694&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 16-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0237; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0436; 671&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0549; 673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0617; 674&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0719; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0752; 673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2220; 677&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 15-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0358; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0446; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0619; 676&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0753; 674&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1259; 667&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1646; 665&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1715; 665&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1740; 667&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1840; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1948; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 14-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0426; 683&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0643; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0718; 679&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0919; 674&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1203; 670&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1257; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1548; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1619; 677&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1808; 679&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1925; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2008; 688&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2137; 685&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 13-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0329; 677&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0509; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1807; 685&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1844; 686&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2008; 692&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 12-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0351; 669&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0433; 669&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0557; 669&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1756; 679&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1858; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1949; 682&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 11-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0443; 676&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0609; 676&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0627; 674&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0817; 677&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1826; 678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0344; 675&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0417; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0825; 671&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1758; 662&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1837; 661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1946; 674&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 09-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0242; 679&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0255; 677&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0354; 681&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0540; 679&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1926; 670&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2024; 685&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;2136; 682&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 08-dec-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0510; 688&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0700; 685&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0755; 683&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1059; 680&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1700; 673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1738; 672&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1814; 673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;1846; 670&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="nov-2025"&gt;nov-2025&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-csv" data-lang="csv"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# 24-nov-2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0337; 663&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;0429; 661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>grav meas</title><link>http://localhost:1313/butiran/25j43/</link><pubDate>Tue, 21 Oct 2025 05:00:50 +0700</pubDate><guid>http://localhost:1313/butiran/25j43/</guid><description>&lt;pre tabindex="0"&gt;&lt;code class="language-none" data-lang="none"&gt;20251021 666, 663, 662, 662
+20251021 660, 654, 650, 650, 648, 660, 655, 654, 660, 669, 668, 671
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>railway jakarta-bogor</title><link>http://localhost:1313/butiran/25i33/</link><pubDate>Mon, 08 Sep 2025 11:48:23 +0700</pubDate><guid>http://localhost:1313/butiran/25i33/</guid><description>&lt;h2 id="data"&gt;data&lt;/h2&gt;
+
+
+
+&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Code&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Station&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Position (km)&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Elevation (m)&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lat&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Long&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Tracks&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Platforms&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;JAKK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Jakarta Kota&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;0+000&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.137579&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.814634&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;JAY&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Jayakarta&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1+400&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.144167&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.825833&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;MGB&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Mangga Besar&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2+480&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.153056&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.825833&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;SW&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Sawah Besar&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3+386&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.162222&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.825833&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;JW&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Juanda&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4+535&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.171111&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.835000&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;GMR&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gambir&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5+540&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.176716&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.830508&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;GDD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gondangdia&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6+550&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.185556&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.832222&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;CKI&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Cikini&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;8+300&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.198611&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.841389&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;MRI&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Manggarai&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;9+890&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.207778&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.852778&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;TEB&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tebet&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;12+045&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.226111&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.856111&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;CW&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Cawang&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;13+730&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.244444&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.859167&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;DRN&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Duren Kalibata&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15+276&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.253611&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.853056&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;PSMB&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Pasar Minggu Baru&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16+100&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+37&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.262778&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.854444&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;PSM&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Pasar Minggu&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18+480&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+36&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.281111&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.840556&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;TNT&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tanjung Barat&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21+300&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.308333&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.836667&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;LNA&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lenteng Agung&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23+971&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+57&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.326667&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.832222&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;UP&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Universitas Pancasila&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25+000&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+57&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.335833&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.834167&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;UI&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Universitas Indonesia&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27+624&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+74&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.360754&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.831748&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;POC&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Pondok Cina&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28+373&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+74&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.368834&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.832155&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;DPB&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Depok Baru&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;31+100&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+93&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.391045&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.821678&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;DP&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Depok&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;32+684&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+93&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.404422&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.817086&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;CTA&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Citayam&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;37+768&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+120&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.448794&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.802412&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;BJD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Bojonggede&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42+965&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+140&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.491667&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.794167&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;CLT&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Cilebut&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47+296&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+171&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.530575&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.800606&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;BOO&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Bogor&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;54+810&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;+246&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-6.594078&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;106.790822&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is obtained from Wikipedia &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Kontributor Wikipedia, &amp;ldquo;Jalur kereta api Jakarta–Bogor&amp;rdquo;, Wikipedia, Ensiklopedia Bebas, 25 Juni 2025, 10.56 UTC, url 
+&lt;a
+
+	
+	
+		href = "https://id.wikipedia.org/w/index.php?oldid=27459992"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://id.wikipedia.org/w/index.php?oldid=27459992 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250908].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>rice plant growth data</title><link>http://localhost:1313/butiran/25h80/</link><pubDate>Wed, 27 Aug 2025 06:39:17 +0700</pubDate><guid>http://localhost:1313/butiran/25h80/</guid><description>&lt;p&gt;&lt;code&gt;27-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h80/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h80.01&lt;/code&gt;
+&lt;/a&gt;
+ Repo creation on gh and a ref for height model &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is part of 
+&lt;a
+
+	
+	
+		href = "/butiran/25c16/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25c16
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ and related to 
+&lt;a
+
+	
+	
+		href = "/butiran/25h81/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25h81
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Roberto Confalonieri, Simone Bregaglio, Alexandra Stella Rosenmund, Marco Acutis, Igor Savin, &amp;ldquo;A model for simulating the height of rice plants&amp;rdquo;, European Journal of Agronomy, vol 34, no 1, p 20-25, Jan 2011, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/j.eja.2010.09.003"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1016/j.eja.2010.09.003 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>chili pepper harvest</title><link>http://localhost:1313/butiran/25h50/</link><pubDate>Mon, 18 Aug 2025 09:08:20 +0700</pubDate><guid>http://localhost:1313/butiran/25h50/</guid><description>&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;date&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;🎽 $\newline$ gb&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;🧱 $\newline$ fp&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;🪜 $\newline$ rp&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;🥛 $\newline$ pc&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;07-sep-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;03-sep-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;02-sep-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;17-aug-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;05-aug-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;25-mar-2025&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Abbrevaiations are gb (green-bag), fp (fence-pot), rp (rack-pot), pg (plastic-cup).&lt;/li&gt;
+&lt;li&gt;There are some undocumented info.&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://getemoji.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://getemoji.com/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250903].&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>categ data</title><link>http://localhost:1313/butiran/25h49/</link><pubDate>Mon, 18 Aug 2025 08:55:01 +0700</pubDate><guid>http://localhost:1313/butiran/25h49/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;19-dec-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25l42/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25l42&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Parabolic motion sim data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-dec-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25l30/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25l30&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Composting data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-dec-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25l06/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25l06&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Commute data home-work.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-dec-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25l02/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25l02&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Curriculum vitae.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-nov-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25k47/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25k47&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Tägliche gravitation-data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i33/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i33&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Train station data jakk-boo.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-aug-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25h80/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25h80&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Rice plant growth data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-aug-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25h50/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25h50&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Chili peppers harvest.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-aug-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25h35/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25h35&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Visiting cats.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-jul-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25g78/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25g78&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Sub-data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-jun-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25f33/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25f33&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Meta-pacakages.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>visiting cats</title><link>http://localhost:1313/butiran/25h35/</link><pubDate>Wed, 13 Aug 2025 05:19:15 +0700</pubDate><guid>http://localhost:1313/butiran/25h35/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;21-oct-2025&lt;/code&gt; Bumil (s) Bumil (s) | 
+
+
+&lt;a href="https://github.com/dudung/
+25h35/blob/main/03/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h35.03&lt;/code&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-oct-2025&lt;/code&gt; - (s) King, Bumil (l) | 
+
+
+&lt;a href="https://github.com/dudung/
+25h35/blob/main/02/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h35.02&lt;/code&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-oct-2025&lt;/code&gt; - (s) - (l) - (a) - (m) X-fi (i) Sokkaki | 
+
+
+&lt;a href="https://github.com/dudung/
+25h35/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h35.01&lt;/code&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-oct-2025&lt;/code&gt; - (s) (King in street).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-oct-2025&lt;/code&gt; Bumil (s) Bumil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;30-sep-2025&lt;/code&gt; - (s) - (d) - (s) - (m) - (i) Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-sep-2025&lt;/code&gt; - (s) - (d) King (a) Sokkaki, Bumil (i) Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-sep-2025&lt;/code&gt; - (s) - (d) King (a) - (i) Sokkaki, Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-sep-2025&lt;/code&gt; Bumil (s) Bumil, Sokkaki.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-sep-2025&lt;/code&gt; - (s) Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-sep-2025&lt;/code&gt; Sokkai (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-sep-2025&lt;/code&gt; - (s) Bumil (fish bone, trash can inside) (a) Sokkaki.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-sep-2025&lt;/code&gt; - (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-sep-2025&lt;/code&gt; - (s) Bigboss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-sep-2025&lt;/code&gt; - (s) Frighten queen + 3 kittens.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-sep-2025&lt;/code&gt; - (s) Frighet kitten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-sep-2025&lt;/code&gt; - (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-sep-2025&lt;/code&gt; - (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-sep-2025&lt;/code&gt; Bumil (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-sep-2025&lt;/code&gt; Bumil (s) Bigboss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-sep-2025&lt;/code&gt; Bumil (s) Bumi, Bigboss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-sep-2025&lt;/code&gt; Bumil (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-sep-2025&lt;/code&gt; - (s) - (i) Bumil, Bigboss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-sep-2025&lt;/code&gt; - (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-sep-2025&lt;/code&gt; - (s) -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-sep-2025&lt;/code&gt; - &amp;lt; ashar &amp;gt; Bigboss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-sep-2025&lt;/code&gt; - Bumil &amp;lt; subuh &amp;gt; - &amp;lt; isya &amp;gt; Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-sep-2025&lt;/code&gt; - Bumil &amp;lt; subuh &amp;gt; -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-sep-2025&lt;/code&gt; - &amp;lt; subuh &amp;gt; -.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;27-aug-2025&lt;/code&gt; - &amp;lt; subuh &amp;gt; Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-aug-2025&lt;/code&gt; Bumil &amp;lt; subuh &amp;gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-aug-2025&lt;/code&gt; Bumil &amp;lt; subuh &amp;gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-aug-2025&lt;/code&gt; - (but 3-4 in agus-terrace) &amp;lt; ashar &amp;gt; Sokkaki.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-aug-2025&lt;/code&gt; (?) &amp;lt; subuh &amp;gt; - &amp;lt; ashar &amp;gt; Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-aug-2025&lt;/code&gt; Bumil (draussen) &amp;lt; subuh &amp;gt; &amp;lt; duha &amp;gt; Hero.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-aug-2025&lt;/code&gt; Hero &amp;lt; subuh &amp;gt; Bumi, Hero.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-aug-2025&lt;/code&gt; Bumil &amp;lt; subuh &amp;gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-aug-2025&lt;/code&gt; Bumil &amp;lt; subuh &amp;gt; &amp;lt; duhur &amp;gt; Bumil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-aug-2025&lt;/code&gt; &amp;lt; subuh &amp;gt; Bumil, Hero, Yellow (in the far).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-aug-2025&lt;/code&gt; &amp;lt; subuh &amp;gt; Hero, Bumil (ins Hause wegen Hero).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-aug-2025&lt;/code&gt; Bumil &amp;lt; subuh &amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-aug-2025&lt;/code&gt; Hero &amp;lt; subuh &amp;gt; Bumil, Hero; &amp;lt; maghrib &amp;gt; Hero.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-aug-2025&lt;/code&gt; Hero &amp;lt; subuh &amp;gt; Bumil, Hero → Pororo-Sokkaki ✗.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The most accurate data in a day is arround subuh time.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>nlp-data-res ai-ayu</title><link>http://localhost:1313/butiran/25h06/</link><pubDate>Sun, 03 Aug 2025 20:15:12 +0700</pubDate><guid>http://localhost:1313/butiran/25h06/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;03-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h06/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h06.01&lt;/code&gt;
+&lt;/a&gt;
+ Info of id-nlp data catalogue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;-, &amp;quot; Indonesian NLP Data Catalogue&amp;quot;, 2025, url 
+&lt;a
+
+	
+	
+		href = "https://indonlp.github.io/nusa-catalogue/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://indonlp.github.io/nusa-catalogue/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250803].&lt;/li&gt;
+&lt;li&gt;There is other data resources as 
+&lt;a
+
+	
+	
+		href = "/butiran/25h04/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25h04
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>data xplore widyawan</title><link>http://localhost:1313/butiran/25h04/</link><pubDate>Sun, 03 Aug 2025 11:08:28 +0700</pubDate><guid>http://localhost:1313/butiran/25h04/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;03-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h04/blob/main/04/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h04.04&lt;/code&gt;
+&lt;/a&gt;
+ Service of pustaka-data for academics.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h04/blob/main/03/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h04.03&lt;/code&gt;
+&lt;/a&gt;
+ Info on database and data scrapping.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h04/blob/main/02/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h04.02&lt;/code&gt;
+&lt;/a&gt;
+ Access offer to xplore at pustaka.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-apr-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h04/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h04.01&lt;/code&gt;
+&lt;/a&gt;
+ Lakehouse for ilum at ugm cloud.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;-, &amp;ldquo;Tentang Pustaka Data&amp;rdquo;, Pustaka Data, Universitas Gadjah Mada, 2025, url 
+&lt;a
+
+	
+	
+		href = "https://pustakadata.id/index.php/tentang/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://pustakadata.id/index.php/tentang/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250803].&lt;/li&gt;
+&lt;li&gt;Widyawan, &amp;ldquo;Pengajuan Akses ke xPlore&amp;rdquo;, Pustaka Data, Universitas Gajah Mada, 2025, url 
+&lt;a
+
+	
+	
+		href = "http://ugm.id/39F"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://ugm.id/39F &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250803].&lt;/li&gt;
+&lt;li&gt;There is other data resources as 
+&lt;a
+
+	
+	
+		href = "/butiran/25h06/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25h06
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>sub-data</title><link>http://localhost:1313/butiran/25g78/</link><pubDate>Tue, 29 Jul 2025 05:11:38 +0700</pubDate><guid>http://localhost:1313/butiran/25g78/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;20251220 1 z
+20251219 9 m
+20251218 1 z
+20251217 13 m
+20251216 9 m
+20251215 14 m
+20251214 1 z
+20251213 14 m
+20251212 12 m
+20251211 1 z
+20251210 10 m
+20251209 14 m
+20251208 1 z
+20251207 1 z
+20251206 1 h
+20251205 1 h
+20251204 1 z
+20251203 12 m
+20251202 13 m
+20251201 1 z
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;20251128 1 (room)
+20251127 1 (room)
+20251126 11
+20251225 (forget) 
+20251124 08
+20251123 16
+..
+20251119 12
+20251118 13
+..
+20251106 09
+20251105 12
+20251104 09
+20251101 14
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;20251029 12
+20251028 14
+20251021 11
+20251021 13
+20251020 1
+20251019 1
+20251018 1
+20251017 1
+20251016 14
+20251015 9
+20251014 16
+20251013 - 
+20251012 - 
+20251011 14
+20251010 16
+20251009 13
+20251008 13
+20251007 16
+20251006 -
+20251005 - (forget to note)
+20251004 - (forget to note)
+20251003 - (forget to note)
+20251002 16
+20251001 15
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;20250930 13
+20250929 16
+20250925 12
+20250924 14
+20250923 14
+20250922 -
+20250921 15
+20250920 16 (?)
+20250919 16
+20250918 17
+20250917 15
+20250916 15 (?)
+20250910 16
+20250909 15
+20250908 12
+20250907 15
+20250906 16
+20250905 11
+20250904 20
+20250903 17
+20250902 21
+20250901 16
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;20250828 14
+20250827 16
+20250826 17
+20250825 12
+20250824 11
+20250823 19
+20250822 17
+20250821 17
+20250820 17
+20250818 19
+20250818 11
+20250817 -
+20250816 15
+20250815 16
+20250814 15
+20250813 16
+20250812 14
+20250811 14
+20250810 12
+20250809 12
+20250808 13
+20250807 19
+20250806 17
+20250805 15
+20250804 9 (*2)
+20250803 -
+20250802 (*1)
+20250801 17
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;*2 Golf Mosque Jatinangor = 4.
+*1 The Trans Mosque, Tel-U Tito, ≈ ≥ 2.5 shaf.&lt;/p&gt;</description></item><item><title>meta packages</title><link>http://localhost:1313/butiran/25f33/</link><pubDate>Mon, 02 Jun 2025 03:44:15 +0700</pubDate><guid>http://localhost:1313/butiran/25f33/</guid><description>&lt;h2 id="25-12"&gt;25-12&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;19-dec-2025&lt;/code&gt; Spät frühabendliches Gebet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-dec-2025&lt;/code&gt; Nicht zur Mq, unruhige Schlafen, vielmal Wach und Pingkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-dec-2025&lt;/code&gt; Zu viele essen bei Dies.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-dec-2025&lt;/code&gt; Kann nischt schlafen and gestriges zu viele Essen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-dec-2025&lt;/code&gt; Doppelfüßer im Badezimmer unten, Geckostimme in der Moschee, unsichtbarer Juckreiz am rechten Ohr; Abende Geckojagd.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-dec-2025&lt;/code&gt; Handschmerzen nach Gartenarbeit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-dec-2025&lt;/code&gt; Subuh zu Hause, unsciheres Fasten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-dec-2025&lt;/code&gt; Halzschmerzen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-dec-2025&lt;/code&gt; Info der Titan über Tod der ersten Hexe am Ende der Sep.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-dec-2025&lt;/code&gt; Leise Geckostimme während Subuh, zu schwer and warm innen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-dec-2025&lt;/code&gt; Ein bischen rotes beim natürlichen Pinkeln.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-11"&gt;25-11&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;27-nov-2025&lt;/code&gt; Unatuerliches Pinkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-nov-2025&lt;/code&gt; Unatuerliches Pinkeln, Hexige Communication.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-nov-2025&lt;/code&gt; Kalte Luft.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-nov-2025&lt;/code&gt; Kalte Luft.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-nov-2025&lt;/code&gt; Leise Geckostimme im Fern.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-nov-2025&lt;/code&gt; Schlaflos, spätes Defäkieren&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-nov-2025&lt;/code&gt; Schlaflos, Pinkeln, spätes Defäkieren.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-nov-2025&lt;/code&gt; Rotes Augen aber besserer Hals, ungeklebte Maus in der Küche.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-nov-2025&lt;/code&gt; Beser wegen Medikamente, noch unatuerliches Pinkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-nov-2025&lt;/code&gt; Halszchemerzen, Kopfschmerzen, Fiber, unatuerliches Pinkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-nov-2025&lt;/code&gt; Noch Halszchemerzen mit leichtes Fiber, gelber Urin, grüner Speichel, Hustenmittel, Unsubuh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-nov-2025&lt;/code&gt; Besser, aber noch alszchemerzen mit leichtes Fiber, gelber Urin, zweimal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-nov-2025&lt;/code&gt; Noch Halszchemerzen mit Fiber.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-nov-2025&lt;/code&gt; Halzschmerzen am Abend, auch Fiber haben.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-nov-2025&lt;/code&gt; Geckostimme unterwegs zu Subuh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-nov-2025&lt;/code&gt; Getoter Hausgekco in Bibliotheck am Abend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-10"&gt;25-10&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;25-oct-2025&lt;/code&gt; Noch nich richtig zur Toilette, noch wenig.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-oct-2025&lt;/code&gt; Wieder Durchfall, zeimal zur Toilette frühmorgen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-oct-2025&lt;/code&gt; Nichts am Morgen, schwarzes Singen und Discussion am Tag, ein getoteter Hausgecko am Abend im Hauptschlafzimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-oct-2025&lt;/code&gt; Noch Durchfall, viemall zur Toilette.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-oct-2025&lt;/code&gt; Durchfall, mehrmal zur Toilette.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-oct-2025&lt;/code&gt; Schlechtes unnatürliches Pinkeln frühmorgen&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-oct-2025&lt;/code&gt; (vergessen oder nicths).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-oct-2025&lt;/code&gt; (vergessen oder nicths).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-oct-2025&lt;/code&gt; (Vergessen oder nicths).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-oct-2025&lt;/code&gt; (Vergessen oder nicths).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-oct-2025&lt;/code&gt; Unsubuh wegen Bauchschmerzen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-oct-2025&lt;/code&gt; Unsubuh wegen Bauchschmerzen, Geist in Traum.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-oct-2025&lt;/code&gt; Undocumentiert, vergessen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-oct-2025&lt;/code&gt; Undocumentiert, vergessen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-oct-2025&lt;/code&gt; Noch andere Schraube im Reifen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-oct-2025&lt;/code&gt; Schraube im Reifen, ein bisschen Ärger in der Luft.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-oct-2025&lt;/code&gt; Zu lange abendschlafen, schlectes unnatürliches Pinkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-oct-2025&lt;/code&gt; Zu häufig zur Toilette, abend Stimme der Hausgeckos, sehr müde.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-oct-2025&lt;/code&gt; Zu spät ins Bett gehen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-oct-2025&lt;/code&gt; Etwas zu einstehen, geklebte große Maus in der Küche, Kakerlake im Badezimmer unten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-oct-2025&lt;/code&gt; Zu müde zu einstehen aber Tahajud and Subuh schaffen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-oct-2025&lt;/code&gt; Einmal Geckostimme in Straße vor Subuh, Mausestimme hinter Küchentür, kleiner Ärger Muttert-Tochter, getoteter Hausgecko im Hauptschlafzimmer, Tausendfüßler unten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-oct-2025&lt;/code&gt; Zu müde zu einstehen aber Tahajud and Subuh schaffen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-09"&gt;25-09&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;30-sep-2025&lt;/code&gt; Mehrmal zur Toilette, zu viel Abendessen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-sep-2025&lt;/code&gt; Zu viel Essen ganztag.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-sep-2025&lt;/code&gt; Bessere Schlafstörungen aber noch wenig Husten, zu viel Essen, morgiger schlecter Furz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-sep-2025&lt;/code&gt; Bessere Schlafstörungen aber noch Husten, serh müde, zu viele y-fernsehen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-sep-2025&lt;/code&gt; Bessere Schlafstörungen aber noch Husten, mit bloßer Hand getöteter kleiner Hausgecko.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-sep-2025&lt;/code&gt; Schlafstörungen durch starken Husten, Husten während Workshop, zu viel Essen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-sep-2025&lt;/code&gt; Frühmorgen frühes Wasserlassen, ein bisshen, kleiner Hausgecko im Badezimmer unten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-sep-2025&lt;/code&gt; Vielmal zur Toilette, noch Halsschmerzen haben, geschlageter junger Gecko.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-sep-2025&lt;/code&gt; Sehr schläfrig, ohne Data von Shubuh, viele Hausgecko-Geräusche in der Ferne.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-sep-2025&lt;/code&gt; Reislöffelbehälter auf dem Boden wegen X, ein kleiner Hausgecko im unteren Badezimmer am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-sep-2025&lt;/code&gt; Winzige Wut, fast zu spät Shubuh, Tausendfüßler am Obergeschoss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-sep-2025&lt;/code&gt; Schwache Geckostimme während Shubuh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-sep-2025&lt;/code&gt; Fruemorgen klatterende Ameisen nach unten am Fuss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-sep-2025&lt;/code&gt; Leise stimme eines Hausgeckos im Fern während in Moschee.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-sep-2025&lt;/code&gt; Schlechtes natürliches Pinkeln frühmorgen während Traum, Unsubuh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-sep-2025&lt;/code&gt; Ein lautes schwarzes Singen am Tag.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-sep-2025&lt;/code&gt; Der geklebte Gecko ist alle von Maus gegessen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-sep-2025&lt;/code&gt; Ein geklebter Gecko neben Kühlschrank.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-sep-2025&lt;/code&gt; Stimme eines Geckos und eines Hausgeckos während Shubuh, ein lautes schwarzes Singen am Tag.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-sep-2025&lt;/code&gt; Ein Hausgecko an der Decke vor Bibliothek.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-sep-2025&lt;/code&gt; Zweimal stimme eines Geckos während Subuh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-sep-2025&lt;/code&gt; N/A (vergessen zu dokumentieren).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-sep-2025&lt;/code&gt; N/A (vergessen zu dokumentieren).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-sep-2025&lt;/code&gt; Mehrmal (4?) stimme eines Geckos während der Maghrib-Zeit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-sep-2025&lt;/code&gt; Ein dunkler Traum der J-sama, tote Kakerlaken (zwei geklebt, eins rückengeklagt).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-sep-2025&lt;/code&gt; Ärger in der Luft wegen vermutender lauten Stimme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-08"&gt;25-08&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;31-aug-2025&lt;/code&gt; Sehr laut schwarzes Singen am Vorabend, stimme eines Hausgeckos und eines Geckos.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;30-aug-2025&lt;/code&gt; Durcfall Am Frühmorgen zweimal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-aug-2025&lt;/code&gt; Schlechtes Pinkel frühmorgen, Unfall am Morgen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-aug-2025&lt;/code&gt; Eine geklebte Spitzmaus in der Küche frühmorgen, schlechtes Pinkeln zwei.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-aug-2025&lt;/code&gt; Verdächtiger Lieferant am Tag, Stimme eines Hausgeckos am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-aug-2025&lt;/code&gt; Stimme eines Hausgeckos am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-aug-2025&lt;/code&gt; Nichts am Morgen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-aug-2025&lt;/code&gt; Ein großer Hausgecko hinter dem Vorhang des Schlafzimmers, getöteter kleiner Hausgecko im Hauptschlafzimmer, schlestes Pinkeln.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-aug-2025&lt;/code&gt; Am Morgen Zwei Housgecko vor der Wand der Bibliothek draußen, Wurm in unterem Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-aug-2025&lt;/code&gt; Am Morgen noch nichts.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-aug-2025&lt;/code&gt; Stimme eines Hausgeckos während Subuh, stimme eines Gecko am Abend, ein Hausgecko in Hauptschlafzimmer getotet, am Abend drei Housgecko vor der Wand der Bibliothek draußen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-aug-2025&lt;/code&gt; Stimme eines Hausgeckos während Subuh, Hausgeckos an der Vorwand des Hauptschlafzimmers.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-aug-2025&lt;/code&gt; Essen Rest rundherum wegen Maus (wegen Asin?), am Abend drei Housgecko vor der Wand der Bibliothek draußen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-aug-2025&lt;/code&gt; Ein kleiner Tausendfüßler vor unteres Badezimmer, noch ein bisschen Fieber, eine Maus vor der Glastür am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-aug-2025&lt;/code&gt; Nicht zu Sub, das Pinkel am morgen, ein bisschen Fieber, fließende Nase.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-aug-2025&lt;/code&gt; Sehr kalte Luft, Hausgecko vor der Wand der Bibliothek draußen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-aug-2025&lt;/code&gt; Tote Kakerlaken vor Badezimmer und Glasstür, eine andere Kakerlake geklebt, Auto-Frontlicht vergessen einzuschalten.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-aug-2025&lt;/code&gt; Plastikdeckel abfällen, Seifenbehälter sich verschieben.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-aug-2025&lt;/code&gt; Eine Kakerlake geklebt in der Küche, ein kleiner Tausendfüßler in Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-aug-2025&lt;/code&gt; Eine Spitzmaus Maus in der Küche, schwarzes Singen am Nachmittag, eine Kakerlake im Badezimmer, auch ein kleiner Tausendfüßler.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-aug-2025&lt;/code&gt; Zu müde und schläfrig.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-aug-2025&lt;/code&gt; Kellerspinne im unteren Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-aug-2025&lt;/code&gt; Bananenspinne auf dem Vorhang vor dem Fenster, eine geklebte Maus in der Küche, vibrierende Glasfenster am Abend, rotes linkes Auge noch.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-aug-2025&lt;/code&gt; Juckreiz an den Füßen seit gestern, Gecko-Geräusch in Moschee, rotes linkes Auge der Frau, Hausgecko in Bibliothek.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-aug-2025&lt;/code&gt; Gecko-Geräusch in Moschee am Golf-JTN, Brille im Urin, Schwarzes Singen mit Discussion.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-aug-2025&lt;/code&gt; Gecko-Geräusch in Moschee.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-aug-2025&lt;/code&gt; Kurzatmigkeit am frühen Morgen wegen der gestrigen Fitness.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-aug-2025&lt;/code&gt; Zwei unbekannte Pakete, über den Zaun geworfen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-aug-2025&lt;/code&gt; Gecko-Geräusch am frühen Morgen vor Tahajjud, der geklebte Hausgecko
+vom Maus gefressen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-07"&gt;25-07&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;31-jul-2025&lt;/code&gt; Ein geklebter Hausgecko, Raupe auf Motorrad-Rückspiegel.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;30-jul-2025&lt;/code&gt; Zwei Kakerlaken geklebt.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-jul-2025&lt;/code&gt; Gecko-Geräusch am frühen Morgen vor Sahur, mehrmal an der Uni, mehmal am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-jul-2025&lt;/code&gt; Schwarzes Singen aber zweimal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-jul-2025&lt;/code&gt; Delivery cost for cod.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-jul-2025&lt;/code&gt; Swaches Gecko-Geräusch am frühen Morgen nach Tahajjud.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-jul-2025&lt;/code&gt; Angriff von Gecko, aber getötet, an Absender gesendet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-jul-2025&lt;/code&gt; Schatten einer sich bewegenden Maus.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-jul-2025&lt;/code&gt; Gecko und Hausgecko-Geräusch mehrmal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-jul-2025&lt;/code&gt; Gecko-Geräusch am frühen Morgen vor Sahur, und am Abend.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-jul-2025&lt;/code&gt; Sehr schläfrig mittag, auch die junge.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-jul-2025&lt;/code&gt; Das Pinkel am morgen, Wut in der Luft, schwarzes Lied.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-jul-2025&lt;/code&gt; Festgeklebte Maus an der Ecke in der Küchenecke.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-jul-2025&lt;/code&gt; Schwarzes Singen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-jul-2025&lt;/code&gt; Austretendes LPG-Gas nach Whoosh.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-jul-2025&lt;/code&gt; Wurm im Untergeschoss Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-jul-2025&lt;/code&gt; Wurm im Obergeschoss Badezimmer, geklebte Kakerlake in der Kueche, Katzenkotze auf Motorrad.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-jul-2025&lt;/code&gt; Schlecter Furz, Haus Eidechse im Obergeschoss Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-jul-2025&lt;/code&gt; Schatten einer sich bewegenden Maus, beim Küchenputzen selbst aufgeklebt.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-jul-2025&lt;/code&gt; Eine tote Kakerlake im Badezimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-jul-2025&lt;/code&gt; Vergessene verpackte Maus, leichte Rückseite bestoßen, Geräusche eines Hausgeckos. (&amp;#x2620;&amp;#xfe0f;&amp;#x1f400;) (&amp;#x1f6f5;&amp;#x1f4a5;&amp;#x1f698;) &amp;#x1f98e;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-06"&gt;25-06&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;30-jun-2025&lt;/code&gt; Schwarzes Singen am Mittag, Teilnehmen der Maus an geklebten Hausgecko und Kakerlake teil am späten Nachmittag. &amp;#x1f3b6; &amp;#x1f400;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-jun-2025&lt;/code&gt; Schlecter Furz, noch unklarer Maus-Fußabdruck auf Küchentisch ganz links.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-jun-2025&lt;/code&gt; Noch unklarer Maus-Fußabdruck auf Küchentisch.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-jun-2025&lt;/code&gt; Das Pinkel am morgen, Erfrischungsgetränk, warm im Inneren, Gecko von Boken getroffen im Schlafzimmer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-jun-2025&lt;/code&gt; Laute Ratten im Dach, auch Hausgecko.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-jun-2025&lt;/code&gt; Bokken töten die Hausgeckos heute und vorherigen Tagen (Selbstmord).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23-jun-2025&lt;/code&gt; Schlecter Furz, fließendes Wasser aus dem Wasserhahn, geklebter Hausgecko, fallende zerbrochene Schüssel.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-jun-2025&lt;/code&gt; Das Pinkel am morgen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-jun-2025&lt;/code&gt; Zahnreparatur nach Schlägerkollision.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-jun-2025&lt;/code&gt; Keines bis 0338.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-jun-2025&lt;/code&gt; Panik bei der Wahl eines Massagetherapeuten, Schwarzes Singen, drei unbekante Anfure.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-jun-2025&lt;/code&gt; Nicht gefangene Maus, chaotische Küchenreste, Verstauchung der kleiner. &amp;#x1f400; &amp;#x1f620;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-jun-2025&lt;/code&gt; Essen Rest rundherum (Waschbecken - Kühlschrank), schlecter Furz. &amp;#x1f400; &amp;#x2601;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-jun-2025&lt;/code&gt; Zwei geklebte Mäuse unter Küchenregal, abend weggelaufener Hausgecko. &amp;#x1f400; &amp;#x274c; &amp;#x1f98e;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-jun-2025&lt;/code&gt; Unklarer Maus-Fußabdruck (Drachenfrucht) auf Küchentisch. &amp;#x1f463; &amp;#x1f400;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-jun-2025&lt;/code&gt; Stimme der Mäuse am Dach 1f, Maus-Fußabdruck auf Küchentisch, Wurm im Badezimmer, Schwarzes Singen. &amp;#x1f463; &amp;#x1f400; &amp;#x1fab1; &amp;#x1f3b6;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-jun-2025&lt;/code&gt; Noch Durchfall aber Hunger haben, Kakerlake in Badezimmer. &amp;#x1fab3;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-jun-2025&lt;/code&gt; Noch Durchfall und ein Ruq3, nach Hause, Maus gefangen. &amp;#x1f400;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-jun-2025&lt;/code&gt; Durchfall und sich erbrechen, schlecter Furz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10-jun-2025&lt;/code&gt; Schwarzes Singen zuhause, Hexe herumlaufen, voller Magen und Durchfall.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-jun-2025&lt;/code&gt; Spinne im Badezimer, schlecter Furz, Schlussel am Motorrad, schlestes Pinkeln. &amp;#x1f577;&amp;#xfe0f; &amp;#x2601;&amp;#xfe0f; &amp;#x1f511; &amp;#x1f6f5;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-jun-2025&lt;/code&gt; Doppelfüßer An der Wand 2f, Stimme der Mäuse am Dach auch 2f, zu viel Essen. &amp;#x1f400; &amp;#x1f41b;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-jun-2025&lt;/code&gt; Stimme der Mäuse am Dach 2f, eine umgedrehte Kakerlake am Flur, drei unbekante Anrufe. &amp;#x1f400; &amp;#x1fab3; &amp;#x1f4de;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-jun-2025&lt;/code&gt; Ein getrockneter Wurm im Badezimmer, Katzenkampf im Garten. &amp;#x1fab1; &amp;#x1f431;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-jun-2025&lt;/code&gt; Stimme der Mäuse am Dach 1f+2f, Baby Hausgecko am flur, drei unbekante Anrufe, eine fallende Kakerlake. &amp;#x1f400; &amp;#x1f98e; &amp;#x1f4de; &amp;#x1fab3;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-jun-2025&lt;/code&gt; Unbekannter Wurm im Badezimmer, auch Kakerlake &amp;ndash; schimmender und klatterner. &amp;#x1fab1; &amp;#x1fab3;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-jun-2025&lt;/code&gt; Eine gestern abend-Mülleimer Made im Badezimmer and drei unbekante Anrufe. &amp;#x1f41b; &amp;#x1f4de;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-jun-2025&lt;/code&gt; Hausgecko und Erdwurm im Badezimmer, Maden in Mülleimer, Splitt am Dach. &amp;#x1f98e; &amp;#x1fab1; &amp;#x1f41b; &amp;#x1faa8;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-may-2025&lt;/code&gt; Gewächshausspinne an der Haustür. &amp;#x1f577;&amp;#xfe0f;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="25-04"&gt;25-04&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;31-may-2025&lt;/code&gt; Art von Kakerlaken in Gartenerde. &amp;#x1fab3;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-may-2025&lt;/code&gt; Seltsames Lied gesungen beim Nachbarn. &amp;#x1f3b6;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-may-2025&lt;/code&gt; Fledermaus morgens herumfliegen. &amp;#x1f987;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-may-2025&lt;/code&gt; Mäuse in der Küche geklebt. &amp;#x1f400; &amp;#x274c;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-may-2025&lt;/code&gt; Ärger in der Luft von Nacht an. &amp;#x1f620;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes prior to May or earlier might not accurate in the date.&lt;/li&gt;
+&lt;li&gt;Emojis used are refered to a cheat sheet &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Discussion attack on 27-may-2025, fa&amp;rsquo;rk accidents news on 02-jun-2025. &amp;#x1f698; u &amp;#x1f3cd;&amp;#xfe0f;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;ikatyang, &amp;ldquo;emoji-cheat-sheet&amp;rdquo;, GitHub, 28 Feb 2025, url 
+&lt;a
+
+	
+	
+		href = "https://github.com/ikatyang/emoji-cheat-sheet/tree/d4ccec71"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/ikatyang/emoji-cheat-sheet/tree/d4ccec71 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

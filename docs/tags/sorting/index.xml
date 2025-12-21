@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sorting on butiran</title><link>http://localhost:1313/butiran/tags/sorting/</link><description>Recent content in Sorting on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 18 Dec 2021 22:06:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/sorting/index.xml" rel="self" type="application/rss+xml"/><item><title>py simple sort</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/29/2021-12-18-py-simple-sort/</link><pubDate>Sat, 18 Dec 2021 22:06:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/29/2021-12-18-py-simple-sort/</guid><description>&lt;p&gt;Bagi kebanyakan orang, bubble sort sepertinya merupakan algoritma mengurutkan pertama yang didengar dalam kuliah sains komputer mereka [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dengan visualisasi prosesnya disertai diagram alir terkait telah tersedia [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Algoritma sederhana ini bekerja buruk dalam penggunaan sebenarnya dan pemanfaatan utama algoritma ini adalah untuk alat edukasi [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam Python telah terdapat metode dan fungsi bawaaan untuk mengurutkan larik berjenis list, yaitu sort() [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan sorted() [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

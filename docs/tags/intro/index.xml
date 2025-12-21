@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intro on butiran</title><link>http://localhost:1313/butiran/tags/intro/</link><description>Recent content in Intro on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 Apr 2022 09:41:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/intro/index.xml" rel="self" type="application/rss+xml"/><item><title>photon short intro</title><link>http://localhost:1313/butiran/0061/</link><pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate><guid>http://localhost:1313/butiran/0061/</guid><description>&lt;p&gt;Hipotesis Plank memberikan konsep yang berbeda dengan sebelumnya mengenai cahaya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada efek fotolistrik energi foton yang diberikan pada elektron dalam bahan digunakan untuk melawan fungsi kerja bahan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan di sini berlaku juga hukum kekekalan energi [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam fisika moderen terdapat dualitas gelombang-partikel [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada hamburan Compton cahaya bersifat sebagai partikel karena memiliki momentum, dan terapat visualisasinya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada eksperimen Davisson-Germer elektron memiliki sifat sebagai gelombang, yang dapat memberikan pola-pola difraksi saat dihamburkan pada bahan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>partial differential equation</title><link>http://localhost:1313/butiran/0017/</link><pubDate>Wed, 23 Mar 2022 09:18:00 +0700</pubDate><guid>http://localhost:1313/butiran/0017/</guid><description>&lt;p&gt;Persamaan diferensial parsial (PDP) merupakan suatu persamaan yang melibatkan fungsi multivariabel dan turunannya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Fungsi yang dimaksud merupakan sesuatu yang belum diketahui dan akan dipecahkan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Metode separasi variabel merupakan salah satu metode yang sering digunakan dalam penyelesaian secara secara analitik [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan untuk numerik dapat digunakan beda hingga [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk lebih mendalami PDP dapat digunakan berbagai sumber yang tersedia seperti buku [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan catatan kuliah [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>curl theorem</title><link>http://localhost:1313/butiran/0016/</link><pubDate>Wed, 23 Mar 2022 04:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0016/</guid><description>&lt;p&gt;Teorema curl merupakan suatu kasus khusus dari teorema Stokes dan suatu generalisasi dari Teorema Green [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teorema ini menghubungkan antara integral suatu curl medan vektor pada suatu permukaan dengan integral garis medan vektor mengelilingi batas permukaan tersebut [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>divergence theorem</title><link>http://localhost:1313/butiran/0015/</link><pubDate>Tue, 22 Mar 2022 19:28:00 +0700</pubDate><guid>http://localhost:1313/butiran/0015/</guid><description>&lt;p&gt;Teorema divergensi merupakan suatu pernyataan matematik mengenai fakta fisis bahwa tanpa adanya penciptaan atau penghancuran materi, kerapatan dalam suatu wilayah ruang hanya dapat berubah dengan adanya aliran masuk ke dalam atau keluar dari wilayah tersebut melalui batasnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teorema ini menghubungkan antara fluks medan vektor yang melewati suatu permukaan tertutup dengan divergensi medan tersebut di dalam volume tertutup [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>electromagnetic waves</title><link>http://localhost:1313/butiran/0008/</link><pubDate>Sun, 20 Mar 2022 17:41:00 +0700</pubDate><guid>http://localhost:1313/butiran/0008/</guid><description>&lt;p&gt;Gelombang elektromagnetik (EM) merupakan salah satu jenis gelombang yang dirambatkan oleh variasi periodik simultan intensitas medan listrik dan magnetik dan yang termasuk dalam jenis gelombang ini adalah gelombang radio, cahaya inframerah, cahaya tampak, cahaya ultraviolet, sinar-x, dan sinar gamma [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Gelombang EM membawa energi, momentum, dan momentum angular menjauh dari partikel sumbernya dan dapat memberikan kuantitas-kuantitas tersebut pada bahan yang dilewatinya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sumber gelombang EM adalah partikel bermuatan yang dipercepat, partikel bermuatan menghasilkan medan listrik dan partikel bermuatan yang bergerak menghasilkan medan magnetik [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Persamaan gelombang yang muncul dari persamaan-persamaan Maxwell mendeskripsikan gelombang EM [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

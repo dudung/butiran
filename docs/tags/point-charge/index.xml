@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Point Charge on butiran</title><link>http://localhost:1313/butiran/tags/point-charge/</link><description>Recent content in Point Charge on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 30 Jan 2022 21:00:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/point-charge/index.xml" rel="self" type="application/rss+xml"/><item><title>gauss's law hollow sphere point charge</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/43/2022-01-29-gauss-law-hollow-sphere-point-charge/</link><pubDate>Sun, 30 Jan 2022 21:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/43/2022-01-29-gauss-law-hollow-sphere-point-charge/</guid><description>&lt;p&gt;Dengan memilih permukaan Gauss yang sesuai dengan simetri yang dimiliki oleh medan listrik akibat suatu distribusi muatan, integral pada hukum Gauss dapat diselesaikan untuk memperoleh rumusan medan listriknya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="system"&gt;system&lt;/h2&gt;
+&lt;p&gt;Bola pejal berongga berbahan konduktor yang berapat muatan seragam dapat diperoleh rumusan medan listriknya pada setiap jarak $r$ dari titik origin yang berhimpit dengan pusat bola. Sistem ini dapat dibuat lebih rumit dengan menempatkan sebuah muatan titik di tengah-tengah rongga bola pejal tersebut, dengan sitemnya diberikan pada gambar berikut.&lt;/p&gt;</description></item><item><title>gauss's law point charge</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/43/2022-01-29-gauss-law-point-charge/</link><pubDate>Sun, 30 Jan 2022 09:54:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/43/2022-01-29-gauss-law-point-charge/</guid><description>&lt;p&gt;Hukum Gauss dapat digunakan untuk memperoleh medan listrik oleh satu titik muatan ataupun distribusi muatan, yang dalam penerapannya perlu memilih permukaan Gauss yang bersesuaian simetrinya sehingga integrasi dapat dilakukan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], setidaknya dengan mudah.&lt;/p&gt;
+&lt;h2 id="system"&gt;system&lt;/h2&gt;
+&lt;p&gt;Sebuah muatan titik $q$ yang terletak di origin akan memberikan medan listrik pada setiap titik di sekitarnya dalam bentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:electric-field-form}
+\vec{E} = E(r) \ \hat{r}
+\end{equation}&lt;/p&gt;
+&lt;p&gt;yang menggambarkan simetri bola.&lt;/p&gt;</description></item><item><title>e field one many point charges</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/36/2022-01-14-e-field-one-many-point-charges/</link><pubDate>Fri, 14 Jan 2022 21:59:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/36/2022-01-14-e-field-one-many-point-charges/</guid><description>&lt;p&gt;Medan listrik oleh banyak muatan titik pada suatu titik amat merupakan penjumlahan secara vektor medan listrik oleh setiap muatan di titik tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang untuk sistem dua muatan titik amat dapat berada segaris dengan kedua muatan ataupun di luar garis yang menghubungkan kedua muatan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan menggunakan simulasi interaktif PhET total medan listrik pada suatu titik amat akibat banyak muatan dapat dengan mudah diilustrasikan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

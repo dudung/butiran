@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Short Intro on butiran</title><link>http://localhost:1313/butiran/tags/short-intro/</link><description>Recent content in Short Intro on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 19 Feb 2022 12:31:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/short-intro/index.xml" rel="self" type="application/rss+xml"/><item><title>bugx visualization js</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/5/00/2022-02-18-bugx-visualization-js/</link><pubDate>Sat, 19 Feb 2022 12:31:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/5/00/2022-02-18-bugx-visualization-js/</guid><description>&lt;p&gt;JavaScript (JS) merupakan satu dari bahasa fondasi pengembangan web, bersama-sama dengan HTML dan CSS, yang membantu sebagian besar halaman-halaman web di internet dan mendukung pengembangan web baik front end maupun back end [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu pemanfaatan JS adalah sebagai alat bantu visualisasi data [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan juga untuk simulasi sederhana dengan memanfaatkan elemen canvas HTML5 [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk bugx akan dimulai program sederhana untuk visualisasi dan simulasi, sambil membangun pustakanya, 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/bugx-vis"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bugx-vis &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>kaggle</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/4/01/2022-02-11-kaggle/</link><pubDate>Fri, 11 Feb 2022 08:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/4/01/2022-02-11-kaggle/</guid><description>&lt;p&gt;Terdapat informasi bahwa Kaggle merupakan suatu platform untuk bersaing dengan orang lain dalam suatu kompetisi mengenai pembelajaran mesin [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Platform ini mengijinkan penggunanya untuk menemukan dan menerbitkan dataset, menjelajah dan membangun model dalam suatu lingkungan sains data berbasis web, bekerja dengan ilmuwan data serta perekayasa pembelajaran mesin lainnya, dan mengikuti kompetisi untuk menyelesaikan tantangan-tantangan sains data [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kaggle memiliki banyak kursus singkat pada berbagai topik terkait dengan sains data, gratis, dan dapat memperoleh sertifikat setelah menyelesaikannya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mengingat bahwa kebanyakan para ilmuan data hanya paham teori dan jarang mendapatkan kesempatan untuk berlatih sebelum dipekerjakan di dunia nyata, Kaggle menjembatani hal ini dengan memberikan mereka suatu platform untuk berinteraksi dan berkompetisi dalam menyelesaikan permasalahan sebenarnya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>online platform</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/4/00/2022-02-11-online-platform/</link><pubDate>Fri, 11 Feb 2022 05:35:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/4/00/2022-02-11-online-platform/</guid><description>&lt;p&gt;Platform daring (en: online platform) telah memiliki berbagai definisi legal yang masing-masing didasari setidaknya oleh sebuah dokumen [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Jenis platform ini mendukung begitu banyak aktivitas keseharian kita sehingga kita menjadi bergantung padanya baik untuk kehidupan pribadi maupun profesi [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Istilah ini digunakan untuk mendeskripsikan sederetan layanan yang tersedia secara daring, meliputi marketplace, mesin pencari, media sosial, builder situs web daring, dan sistem pembayaran [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tmp on butiran</title><link>http://localhost:1313/butiran/tags/tmp/</link><description>Recent content in Tmp on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 Dec 2023 06:03:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/tmp/index.xml" rel="self" type="application/rss+xml"/><item><title>quick note 1</title><link>http://localhost:1313/butiran/0003/</link><pubDate>Mon, 11 Dec 2023 06:03:00 +0800</pubDate><guid>http://localhost:1313/butiran/0003/</guid><description>&lt;h2 id="20-wed"&gt;20-wed&lt;/h2&gt;
+
+
+&lt;h2 id="11-mon"&gt;11-mon&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;0609&lt;/code&gt; SVG for drawing nodes
+
+
+&lt;ul&gt;
+&lt;li&gt;It can not be shown online, but ok while offline with Hugo.&lt;/li&gt;
+&lt;li&gt;JS script seems not executed on GitHub → &lt;code&gt;&amp;lt;&lt;/code&gt; in &lt;code&gt;for&lt;/code&gt; has been identified as open tag.
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;for(let i = 0; i &amp;lt; N; i++) {&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Change loop using &lt;code&gt;of&lt;/code&gt; but there is problem when inluce from file since all variables are already defined.&lt;/li&gt;
+&lt;li&gt;Close at &lt;code&gt;0939&lt;/code&gt; and move to RKI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;0603&lt;/code&gt; Start this as template.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

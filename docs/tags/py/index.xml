@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Py on butiran</title><link>http://localhost:1313/butiran/tags/py/</link><description>Recent content in Py on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 19 Jul 2025 05:51:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/py/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo add py submodule</title><link>http://localhost:1313/butiran/25g53/</link><pubDate>Sat, 19 Jul 2025 05:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/25g53/</guid><description>&lt;h2 id="github"&gt;github&lt;/h2&gt;
+&lt;p&gt;url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/butiran-backend"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/butiran-backend &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="git"&gt;git&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git submodule add https://github.com/dudung/butiran-backend static/py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Cloning into &lt;span style="color:#e6db74"&gt;&amp;#39;M:/butiran/static/py&amp;#39;&lt;/span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Enumerating objects: 30, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;30/30&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;20/20&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Total &lt;span style="color:#ae81ff"&gt;30&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 10&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;24&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;from 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Receiving objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;30/30&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, 6.04 KiB | 3.02 MiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Resolving deltas: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;10/10&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;warning: in the working copy of &lt;span style="color:#e6db74"&gt;&amp;#39;.gitmodules&amp;#39;&lt;/span&gt;, LF will be replaced by CRLF the next time Git touches it
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git add static/py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git commit -a -m &lt;span style="color:#e6db74"&gt;&amp;#34;add py submodule&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[&lt;/span&gt;main 7a3986c&lt;span style="color:#f92672"&gt;]&lt;/span&gt; add py submodule
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; files changed, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt; insertions&lt;span style="color:#f92672"&gt;(&lt;/span&gt;+&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; create mode &lt;span style="color:#ae81ff"&gt;160000&lt;/span&gt; static/py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git push
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Enumerating objects: 18, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;18/18&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Delta compression using up to &lt;span style="color:#ae81ff"&gt;16&lt;/span&gt; threads
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;11/11&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Writing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;11/11&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, 3.19 KiB | 1.60 MiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Total &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 6&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Resolving deltas: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;6/6&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, completed with &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt; local objects.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;To https://github.com/dudung/butiran
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 37b9ad2..7a3986c main -&amp;gt; main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="submodule"&gt;submodule&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git submodule update --remote
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Submodule path &lt;span style="color:#e6db74"&gt;&amp;#39;static/js&amp;#39;&lt;/span&gt;: checked out &lt;span style="color:#e6db74"&gt;&amp;#39;65b01d43c5442a6575cf69fac320221bf7eb3a59&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Enumerating objects: 16, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;16/16&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;9/9&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Total &lt;span style="color:#ae81ff"&gt;13&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;9&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 4&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;from 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Unpacking objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;13/13&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, 1.29 KiB | 29.00 KiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;From https://github.com/dudung/butiran-backend
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 05b9363..7bdd4b7 main -&amp;gt; origin/main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Submodule path &lt;span style="color:#e6db74"&gt;&amp;#39;static/py&amp;#39;&lt;/span&gt;: checked out &lt;span style="color:#e6db74"&gt;&amp;#39;7bdd4b780733ee0fdc0fbaec4d8142fc99791a75&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Your branch is ahead of &lt;span style="color:#e6db74"&gt;&amp;#39;origin/main&amp;#39;&lt;/span&gt; by &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; commit.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#34;git push&amp;#34;&lt;/span&gt; to publish your local commits&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Changes not staged &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; commit:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to update what will be committed&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to discard changes in working directory&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; modified: static/js &lt;span style="color:#f92672"&gt;(&lt;/span&gt;new commits&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; modified: static/py &lt;span style="color:#f92672"&gt;(&lt;/span&gt;new commits&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;no changes added to commit &lt;span style="color:#f92672"&gt;(&lt;/span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#34;git add&amp;#34;&lt;/span&gt; and/or &lt;span style="color:#e6db74"&gt;&amp;#34;git commit -a&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git commit -a -m &lt;span style="color:#e6db74"&gt;&amp;#34;update submodule&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[&lt;/span&gt;main d986d7d&lt;span style="color:#f92672"&gt;]&lt;/span&gt; update submodule
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; files changed, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; insertions&lt;span style="color:#f92672"&gt;(&lt;/span&gt;+&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; deletions&lt;span style="color:#f92672"&gt;(&lt;/span&gt;-&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Your branch is ahead of &lt;span style="color:#e6db74"&gt;&amp;#39;origin/main&amp;#39;&lt;/span&gt; by &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; commits.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#34;git push&amp;#34;&lt;/span&gt; to publish your local commits&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;nothing to commit, working tree clean
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git push
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Enumerating objects: 18, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;18/18&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Delta compression using up to &lt;span style="color:#ae81ff"&gt;16&lt;/span&gt; threads
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;11/11&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Writing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;11/11&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, 1.19 KiB | 1.19 MiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Total &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Resolving deltas: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;8/8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, completed with &lt;span style="color:#ae81ff"&gt;7&lt;/span&gt; local objects.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;To https://github.com/dudung/butiran
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 893313e..d986d7d main -&amp;gt; main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a discussion about it &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;The first and simplest code is on &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;For butiran it is a second submodule proceeding the first one &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-4o, &amp;ldquo;Submodule for Backend Integration&amp;rdquo;, ChatGPT, 19 Jul 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/687ad4b5-1ad0-800a-abf9-c995609b4066"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/687ad4b5-1ad0-800a-abf9-c995609b4066 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250719].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

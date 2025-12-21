@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nt6094 on butiran</title><link>http://localhost:1313/butiran/tags/nt6094/</link><description>Recent content in Nt6094 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2025 15:21:44 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/nt6094/index.xml" rel="self" type="application/rss+xml"/><item><title>zenodo-osf for nt6094</title><link>http://localhost:1313/butiran/25b62/</link><pubDate>Tue, 18 Feb 2025 15:21:44 +0700</pubDate><guid>http://localhost:1313/butiran/25b62/</guid><description/></item><item><title>journal intro with ai</title><link>http://localhost:1313/butiran/1991/</link><pubDate>Wed, 27 Mar 2024 22:15:00 +0700</pubDate><guid>http://localhost:1313/butiran/1991/</guid><description>&lt;p&gt;Journal introduction with AI: AI-assisted content creating&lt;/p&gt;</description></item><item><title>nt6094-01-2023-2 intro</title><link>http://localhost:1313/butiran/1955/</link><pubDate>Wed, 07 Feb 2024 09:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1955/</guid><description>&lt;p&gt;Introduction and information: Platform preparation by assignment 😊&lt;/p&gt;</description></item><item><title>system thinking - system dynamics</title><link>http://localhost:1313/butiran/0088/</link><pubDate>Thu, 05 Oct 2023 07:15:00 +0700</pubDate><guid>http://localhost:1313/butiran/0088/</guid><description>&lt;h2 id="system-thinking"&gt;system thinking&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;System thinking is the ability that an individual or organization to solve tough problems, where with it, individuals use strategic, big-picture thinking to make sense of a complex system (
+&lt;a
+
+	
+	
+		href = "https://www.betterup.com/blog/systems-thinking"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Miles, 2022 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;There are at least six key themes or concepts in system thinking, which are interconnectedness, synthesis, emergence, feedback loops, causality, system mapping (
+&lt;a
+
+	
+	
+		href = "https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Acaroglu, 2017 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;There are at least eight different definitions of system thinking as it is evolving as defined by Richmond, Senge, Rouse, Sweeney &amp;amp; Sterman, Hopper &amp;amp; Stave, Kopainsky, Alessi &amp;amp; Davidsen, Squires, Wade, Dominic &amp;amp; Gelosh, and Forrester (
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/j.procs.2015.03.050"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Arnold &amp;amp; Wade, 2015 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;Applying system thinking to decision making assists in establishing a better understanding of an entity, but with awareness that there will be subjectivity connected to restricted knowledge of the &amp;ldquo;big picture&amp;rdquo; and the different interconnections in it (
+&lt;a
+
+	
+	
+		href = "https://www.linkedin.com/pulse/fallacy-subjectivity-decision-making-anton-hiropoulos/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Hiropoulos, 2017 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="system-dynamics"&gt;system dynamics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Systems dynamics models are continuous simulation models using hypothesized relations across activities and processes. (
+&lt;a
+
+	
+	
+		href = "https://www.sciencedirect.com/topics/computer-science/dynamic-system-model#:~:text=Olson"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Olson, 2003 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;System dynamics is a computer simulation method for analysis of complex dynamic systems, which is made up of stocks and flows, and the factors which affect flows, where stocks are any entity which accumulates or depletes over time, while a flow is the rate of change in a stock, that is usually represented by a differential equation (
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1007/978-3-031-01919-7_8"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Barbrook-Johnson &amp;amp; Penn, 2022 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;System Dynamics model applies for dynamics complexity related problems in which links of different natures are made through various types of variables, flows, auxiliary variables, and parameters, with simulation modelling based on feedback systems theory (
+&lt;a
+
+	
+	
+		href = "https://www.sciencedirect.com/topics/computer-science/dynamic-system-model#:~:text=Moretti"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Moretti et al., 2022 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;System Dynamics is a computer-aided approach for strategy and policy design, whose main goal is to help people make better decisions when confronted with complex, dynamic systems (
+&lt;a
+
+	
+	
+		href = "https://systemdynamics.org/what-is-system-dynamics/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		SDS, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="st-sd-relation"&gt;st-sd relation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;While systems thinking is the ability to perform insightful and comprehensive problem solving of complex systems, the fundamental to systems thinking is system dynamics, an approach used to understand the nonlinear behavior of complex systems over time using stocks, flows, internal feedback-loops, a variety of functions, and time-delays (
+&lt;a
+
+	
+	
+		href = "https://ep.jhu.edu/courses/645781-systems-thinking-and-systems-dynamics/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Montoya, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;There is high probability, especially in United States, that introduction to new learner about system thinking will be system dynamics (
+&lt;a
+
+	
+	
+		href = "https://blog.cabreraresearch.org/system-dynamics-does-not-equal-systems-thinking"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Cabrera, 2015 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;System dynamics is not the only way of practicing systems thinking, but compared to a representative sample of other systems methodologies, system dynamics has a number of advantages (
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1109/ICSMC.2001.971932"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Caulfield &amp;amp; Maj, 2002 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="midterm"&gt;midterm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;System thinking and system dynamics for a reasearch topik (
+&lt;a
+
+	
+	
+		href = "https://cdn-edunex.itb.ac.id/exam/13003/questions/uts_nt6094_01_12oct2023.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		pdf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>intro and indexing</title><link>http://localhost:1313/butiran/0056/</link><pubDate>Thu, 21 Sep 2023 08:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/0056/</guid><description>&lt;h2 id="slides"&gt;slides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; Indeks jurnal, jurnal pemangsa,akses terbuka, sitasi, kuartil (75) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7082128"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7082128 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; Jurnal: Pendahuluan (52) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7103264"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7103264 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Course Introduction for Semester 2023-1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		nt6094 previous materials &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>about scientific journal</title><link>http://localhost:1313/butiran/0034/</link><pubDate>Thu, 07 Sep 2023 13:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/0034/</guid><description>&lt;h2 id="slides"&gt;slides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.3751238"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Pengelolaan Journal Ilmiah &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7058927"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Layanan Akses Publikasi, Jenis Publikasi, Syarat Kelulusan &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="discussion"&gt;discussion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s discuss something related to above given materials.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>nt6094 previous materials</title><link>http://localhost:1313/butiran/0025/</link><pubDate>Wed, 30 Aug 2023 20:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/0025/</guid><description>&lt;p&gt;There are slides for this course from previous semester.&lt;/p&gt;
+&lt;h2 id="slides"&gt;slides&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; NT6094 Teknik Penulisan Jurnal Ilmiah (18) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7039627"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7039627 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; Layanan akses publikasi, jenis publikasi, syarat kelulusan (71) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7058927"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7058927 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; Indeks jurnal, jurnal pemangsa,akses terbuka, sitasi, kuartil (75) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7082128"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7082128 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2022&lt;/code&gt; Jurnal: Pendahuluan (52) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.7103264"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.7103264 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2020&lt;/code&gt; Pengelolaan Jurnal Ilmian (48) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.5281/zenodo.3751238"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.5281/zenodo.3751238 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="articles"&gt;articles&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;2019&lt;/code&gt; Writing Has Never Been Easier: Penulisan Jurnal Ilmia (6) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "http://dx.doi.org/10.17605/osf.io/gp236"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://dx.doi.org/10.17605/osf.io/gp236 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2018&lt;/code&gt; Memotivasi Diri untuk Menulis Artikel Ilmiah (6) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "http://dx.doi.org/10.17605/osf.io/g3vhs"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://dx.doi.org/10.17605/osf.io/g3vhs &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2017&lt;/code&gt; Journal Writing (6) &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "http://dx.doi.org/10.13140/RG.2.2.12151.83366"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://dx.doi.org/10.13140/RG.2.2.12151.83366 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Course Introduction for Semester 2023-1 &lt;br&gt;
+url 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/lecture-notes/0017/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://dudung.github.io/lecture-notes/0017/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>course intro 2023-1</title><link>http://localhost:1313/butiran/0017/</link><pubDate>Thu, 24 Aug 2023 13:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0017/</guid><description>&lt;p&gt;Since writing research papers does not not come naturally to most of people (
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1093/intqhc/mzh053"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Perneger &amp;amp; Hudelson, 2004 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+), there is any simple formula for getting a work published in an academic journal, but at least there are some tips for it (
+&lt;a
+
+	
+	
+		href = "https://www.theguardian.com/education/2015/jan/03/how-to-get-published-in-an-academic-journal-top-tips-from-editors"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Guardian, 2015 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+). By following some suggested guidelines and avoiding common errors, even novice authors can make the publication process streamlined and success (
+&lt;a
+
+	
+	
+		href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474301/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Hoogenboom &amp;amp; Manske, 2012 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+). To make it more structured universities provide science writing course, such as in Standford university, Nature Research, Moscow Institute of Physics and Technology, Duke university, and a scientist personal site (
+&lt;a
+
+	
+	
+		href = "https://www.clippings.me/blog/science-writing-courses/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Clippings.me, 2019 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+). And in Institut Teknologi Bandung, there is NT6094 Scientific Journal Writing for guiding graduate students in publishing their work.&lt;/p&gt;</description></item><item><title>correcting paragraphs</title><link>http://localhost:1313/butiran/0000/</link><pubDate>Fri, 23 Jun 2023 21:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/0000/</guid><description>&lt;p&gt;Terdapat bacaan empat paragraf yang perlu dibaca dengan seksama untuk kemudian diperbaiki.&lt;/p&gt;
+&lt;h1 id="paragraf-1"&gt;paragraf 1&lt;/h1&gt;
+&lt;figure&gt;
+ &lt;blockquote &gt;
+ &lt;p&gt;Untuk menghadapi era revolusi industri 4.0, satuan pendidikan pun dibutuhkan adanya perubahan paradigma pendidikan. Diantaranya pendidik meminimalkan peran sebagai learning material provider, pendidik menjadi penginspirasi bagi tumbuhnya kreativitas peserta didik. Sehingga terjadi perubahan cara belajar oleh peserta didik dan cara mengajar oleh pendidik.&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+ 
+&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;Apakah peran &amp;ldquo;satuan pendidikan&amp;rdquo;? Sebagai obyek atau subyek? Lalu bagaimana menyambungkannya dengan &amp;ldquo;adanya perubahan paradigma pendidikan&amp;rdquo;?&lt;/li&gt;
+&lt;li&gt;Modifikasi dua kalimat terakhir sehingga penggunaan kata &amp;ldquo;Sehingga&amp;rdquo; di awal kalimat dapat dihilangkan.&lt;/li&gt;
+&lt;li&gt;Bahas mengenai penggunaan dua kata &amp;ldquo;oleh&amp;rdquo; dalam kalimat terakhir. Apakah masih diperlukan? Apakah ada makna yang hilang bila kata tersebut tidak digunakan?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="paragraf-2"&gt;paragraf 2&lt;/h1&gt;
+&lt;figure&gt;
+ &lt;blockquote &gt;
+ &lt;p&gt;Untuk mendukung perkembangan ini perlu untuk meningkatkan kompetensi pendidik terutama pendidik di tingkat sekolah menengah (SMP/MTs dan SMA/MA), maka perlu upaya yang dilakukan oleh ITB untuk membantu meningkatkan kualitas guru sains di tingkat sekolah menengah, yang berisikan pendalaman konten sains, pengembangan bahan ajar, praktikum serta media pembelajaran yang berbasis teknologi informasi.&lt;/p&gt;</description></item><item><title>journal introduction</title><link>http://localhost:1313/butiran/1926/</link><pubDate>Thu, 22 Sep 2022 09:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1926/</guid><description>&lt;p&gt;Jurnal: Pendahuluan&lt;/p&gt;</description></item><item><title>journal indexing, predatory, oa, quartil</title><link>http://localhost:1313/butiran/1921/</link><pubDate>Thu, 15 Sep 2022 09:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1921/</guid><description>&lt;p&gt;Indeks jurnal, jurnal pemangsa,akses terbuka, sitasi, kuartil&lt;/p&gt;</description></item><item><title>facility, publication, graduation</title><link>http://localhost:1313/butiran/1917/</link><pubDate>Thu, 08 Sep 2022 09:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1917/</guid><description>&lt;p&gt;Layanan akses publikasi, jenis publikasi, syarat kelulusan&lt;/p&gt;</description></item><item><title>nt6094-01-2022-1 intro</title><link>http://localhost:1313/butiran/1915/</link><pubDate>Thu, 01 Sep 2022 09:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1915/</guid><description>&lt;p&gt;NT6094 Teknik Penulisan Jurnal Ilmiah&lt;/p&gt;</description></item><item><title>we-01 intro reschedule</title><link>http://localhost:1313/butiran/0161/</link><pubDate>Mon, 22 Aug 2022 17:50:00 +0700</pubDate><guid>http://localhost:1313/butiran/0161/</guid><description>&lt;p&gt;Kuliah NT6094-01 dimulai pagi ini pada pukul 1300 di 9533. Hanya dua orang yang hadir secara luring. Sempat salah lantai, lalu salah sisi gedung, dan kembali ke sisi pertama.&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

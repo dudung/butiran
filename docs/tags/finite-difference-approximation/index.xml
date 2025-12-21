@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finite Difference Approximation on butiran</title><link>http://localhost:1313/butiran/tags/finite-difference-approximation/</link><description>Recent content in Finite Difference Approximation on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 15 Mar 2022 17:37:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/finite-difference-approximation/index.xml" rel="self" type="application/rss+xml"/><item><title>finite difference approximation</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/53/2022-03-15-finite-difference-approximation/</link><pubDate>Tue, 15 Mar 2022 17:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/53/2022-03-15-finite-difference-approximation/</guid><description>&lt;p&gt;Pendekatan beda hingga untuk turunan merupakan satu metode tersederhana dan tertua untuk menyelsaikan persamaan diferensial [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Secara umum sulit untuk menyelesaikan persamaan diferensial dengan syarat batas pada sepanjang tepi domain dan amat langka formula analitiknya dapat diperoleh sebagai solusi, di sini metode beda hingga berperan dengan menggantikan turunan pada persamaan diferensial dengan aproksimasi beda hingga, yang menghasilkan sejumlah besar sistem persamaan aljabar untuk dipecahkan, sebagai ganti menyelesaikan persamaan diferensial semula, yang dapat dengan mudah diselesaikan pada suatu komputer [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vanillajs on butiran</title><link>http://localhost:1313/butiran/tags/vanillajs/</link><description>Recent content in Vanillajs on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 16:47:24 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/vanillajs/index.xml" rel="self" type="application/rss+xml"/><item><title>simple stats</title><link>http://localhost:1313/butiran/25e44/</link><pubDate>Thu, 22 May 2025 16:47:24 +0700</pubDate><guid>http://localhost:1313/butiran/25e44/</guid><description>&lt;p&gt;This app accepts numbers only separated by delimiters semicolon or &amp;quot;;&amp;quot;, e.g. &lt;strong&gt;&lt;code&gt;1;2;2;3;3;3;4;4;4;4;5;5&lt;/code&gt;&lt;/strong&gt; that you can copy and paste to the left textarea below.&lt;/p&gt;
+
+&lt;script src="http://localhost:1313/butiran/js/src/25e44.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt0"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+const cnt = document.getElementById("cnt0");
+
+const style1 = {
+ border: "1px solid #888",
+ width: "450px",
+ height: "220px",
+ display: "flex",
+};
+const div = createElement("div", style1);
+
+const style2 = {
+ overflowY: "scroll",
+ flex: "5",
+};
+const inp = createElement("textarea", style2);
+
+const style3 = {
+ flex: "1",
+ height: "32px",
+};
+const btn = createElement("button", style3);
+btn.innerHTML = "Calc";
+
+const style4 = {
+ overflowY: "scroll",
+ flex: "3",
+};
+const out = createElement("textarea", style4);
+out.disabled = true;
+
+cnt.appendChild(div);
+div.appendChild(inp);
+div.appendChild(btn);
+div.appendChild(out);
+
+inp.value = "";
+
+btn.addEventListener("click", calc);
+
+function calc() {
+ const text = calcFromTextarea(inp);
+ out.value = text.join("\n");
+}
+
+ });
+&lt;/script&gt;
+
+&lt;p&gt;Left textarea are for input numbers and right textarea are for output statistics. Click &lt;span style="
+ display: inline-block;
+ padding: 0.35em 0.75em;
+ font-size: 0.875rem;
+ font-family: system-ui, sans-serif;
+ color: black;
+ background-color: #f0f0f0;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-shadow: inset 0 1px 0 #fff;
+ user-select: none;
+ vertical-align: middle;
+ line-height: 1.2;
+"&gt;
+ Calc
+&lt;/span&gt;
+ to obtain the statistics.&lt;/p&gt;</description></item></channel></rss>

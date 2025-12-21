@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming Paradigm on butiran</title><link>http://localhost:1313/butiran/tags/programming-paradigm/</link><description>Recent content in Programming Paradigm on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Jan 2022 22:24:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/programming-paradigm/index.xml" rel="self" type="application/rss+xml"/><item><title>programming paradigm</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-21-programming-paradigm/</link><pubDate>Fri, 21 Jan 2022 22:24:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-21-programming-paradigm/</guid><description>&lt;p&gt;Istilah paradigma pemrograman terkait dengan suatu gaya dalam memrogram dan tidak terkait dengan suatu bahasa pemrograman tertentu [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Suatu bahasa pemrograman dapat diklasifikasikan dalam lebih dari satu paradima [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang sebagai contohnya adalah JavaScript yang mengijinkan untuk membuat kode dalam berbagai paradima berbeda atau mengombinasikannya dalam suatu pendekatan multi-paradigma [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Saat berbicara mengenai empat paradigma utama pemrograman, terdapat imperatif, logikal, fungsional, dan berorientasi-obyek [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun prosedural, berorientasi-obyek, fungsional, dan logikal [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana pada pembagian lain paradigma prosedural dan berorientasi-obyek merupakan bagian dari paradigma imperatif, sedangkan paradigma logikal dan fungsional merupakan bagian dari paradigma deklaratif [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat juga pembagian yang lebih menerus yang sampai menggunakan istilah paradigma yang lebih deklaratif dan paradigma yang lebih imperatif dan terdapat satu kelompok paradigma di antara keduanya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas dua kelompok paradigma, yaitu yang termasuk imperatif dan deklaratif serta beberapa contoh yang termasuk di dalamnya.&lt;/p&gt;</description></item></channel></rss>

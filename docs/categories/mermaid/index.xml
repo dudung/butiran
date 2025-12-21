@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mermaid on butiran</title><link>http://localhost:1313/butiran/categories/mermaid/</link><description>Recent content in Mermaid on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 06 Sep 2025 21:22:35 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/mermaid/index.xml" rel="self" type="application/rss+xml"/><item><title>categ mermaid</title><link>http://localhost:1313/butiran/25i26/</link><pubDate>Sat, 06 Sep 2025 21:22:35 +0700</pubDate><guid>http://localhost:1313/butiran/25i26/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;06-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i25/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i25
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Simplification with subgraphs and connectors.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>mermaid eg-1</title><link>http://localhost:1313/butiran/25i25/</link><pubDate>Sat, 06 Sep 2025 05:09:42 +0700</pubDate><guid>http://localhost:1313/butiran/25i25/</guid><description>&lt;h2 id="result"&gt;result&lt;/h2&gt;
+&lt;div class="mermaid"&gt;
+flowchart
+ %% sg1
+ subgraph " "
+ direction TB
+ B --&gt; I1 --&gt; I2 --&gt; o1a
+ end
+
+ %% sg2
+ subgraph " "
+ direction TB
+ o1b --&gt; P1 --&gt; P2 --&gt; o2a
+ o4b ---&gt; P2
+ end
+ 
+ %% sg3
+ subgraph " "
+ direction TB
+ o2b --&gt; C1
+ C1 --"Y"--&gt; P3 --&gt; o4a
+ C1 --"N"---&gt; o3a
+ end
+ 
+ %% sg4
+ subgraph " "
+ direction TB
+ o3b --&gt; O1 --&gt; O2 --&gt; E
+ end
+ 
+ %% elements
+ B(["Begin"])
+ I1[/"Input 1"/]
+ I2[/"Input 2"/]
+ P1["Process 1"]
+ P2["Process 2"]
+ P3["Process 3"]
+ C1{"i &lt; n"}
+ O1[/"Output 1"/]
+ O2[/"Output 2"/]
+ E(["End"])
+ 
+ %% connectors
+ o1a(("1")):::conn
+ o1b(("1")):::conn
+ o2a(("2")):::conn
+ o2b(("2")):::conn
+ o3a(("3")):::conn
+ o3b(("3")):::conn
+ o4a(("4")):::conn
+ o4b(("4")):::conn
+ 
+ %% classes
+ classDef conn fill:#484, stroke:#040, color:#fff
+
+&lt;/div&gt;
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;flowchart
+ %% sg1
+ subgraph &amp;#34; &amp;#34;
+ direction TB
+ B --&amp;gt; I1 --&amp;gt; I2 --&amp;gt; o1a
+ end
+
+ %% sg2
+ subgraph &amp;#34; &amp;#34;
+ direction TB
+ o1b --&amp;gt; P1 --&amp;gt; P2 --&amp;gt; o2a
+ o4b ---&amp;gt; P2
+ end
+ 
+ %% sg3
+ subgraph &amp;#34; &amp;#34;
+ direction TB
+ o2b --&amp;gt; C1
+ C1 --&amp;#34;Y&amp;#34;--&amp;gt; P3 --&amp;gt; o4a
+ C1 --&amp;#34;N&amp;#34;---&amp;gt; o3a
+ end
+ 
+ %% sg4
+ subgraph &amp;#34; &amp;#34;
+ direction TB
+ o3b --&amp;gt; O1 --&amp;gt; O2 --&amp;gt; E
+ end
+ 
+ %% elements
+ B([&amp;#34;Begin&amp;#34;])
+ I1[/&amp;#34;Input 1&amp;#34;/]
+ I2[/&amp;#34;Input 2&amp;#34;/]
+ P1[&amp;#34;Process 1&amp;#34;]
+ P2[&amp;#34;Process 2&amp;#34;]
+ P3[&amp;#34;Process 3&amp;#34;]
+ C1{&amp;#34;i &amp;lt; n&amp;#34;}
+ O1[/&amp;#34;Output 1&amp;#34;/]
+ O2[/&amp;#34;Output 2&amp;#34;/]
+ E([&amp;#34;End&amp;#34;])
+ 
+ %% connectors
+ o1a((&amp;#34;1&amp;#34;)):::conn
+ o1b((&amp;#34;1&amp;#34;)):::conn
+ o2a((&amp;#34;2&amp;#34;)):::conn
+ o2b((&amp;#34;2&amp;#34;)):::conn
+ o3a((&amp;#34;3&amp;#34;)):::conn
+ o3b((&amp;#34;3&amp;#34;)):::conn
+ o4a((&amp;#34;4&amp;#34;)):::conn
+ o4b((&amp;#34;4&amp;#34;)):::conn
+ 
+ %% classes
+ classDef conn fill:#484, stroke:#040, color:#fff
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There are still not any workarounds for styling a subgraph using classDef &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Until now there is no available Mermaid colour scheme baked into Hugo/Chroma the way there are for mainstream languages &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Some Mermaid keywords and values can be colored differently in &lt;code&gt;render-codeblock-mermaid.html&lt;/code&gt; &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;This will used in other notes, e.g. 
+&lt;a
+
+	
+	
+		href = "/butiran/25i20/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i20
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-5, &amp;ldquo;Mermaid subgraph customization&amp;rdquo;, ChatGPT, 6 Sep 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/68bb6665-cf38-800a-97b2-3c373cd586cc"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/68bb6665-cf38-800a-97b2-3c373cd586cc &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250906].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

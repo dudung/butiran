@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fi3271 on butiran</title><link>http://localhost:1313/butiran/tags/fi3271/</link><description>Recent content in Fi3271 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 06 May 2025 11:48:36 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/fi3271/index.xml" rel="self" type="application/rss+xml"/><item><title>daryl putra</title><link>http://localhost:1313/butiran/25e13/</link><pubDate>Tue, 06 May 2025 11:48:36 +0700</pubDate><guid>http://localhost:1313/butiran/25e13/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;02-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/b837w"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;b837w&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ First contact via teams for internship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In area of jabodetabek, support preferable, supervision required, still learning (only a bootcamp intro to data analyst), credit transfer required, diverse topics.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>fi3271 plan for 2024-2</title><link>http://localhost:1313/butiran/25d57/</link><pubDate>Sun, 20 Apr 2025 04:00:40 +0700</pubDate><guid>http://localhost:1313/butiran/25d57/</guid><description>&lt;p&gt;FI3271 Data Analysis with Machine Learning is a 3-hours course given in about 15-16 weeks. It is a part of 
+&lt;a
+
+	
+	
+		href = "https://six.itb.ac.id/pub/kur2024/102"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		2024 curriculum &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id="topics"&gt;topics&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Computational thinking and algorithm design&lt;/li&gt;
+&lt;li&gt;Concepts in machine learning: supervised and unsupervised learning&lt;/li&gt;
+&lt;li&gt;Probability distributions and their applications&lt;/li&gt;
+&lt;li&gt;Linear models for regression and classification&lt;/li&gt;
+&lt;li&gt;Sampling methods and their role in data analysis&lt;/li&gt;
+&lt;li&gt;Artificial neural networks: structure and training&lt;/li&gt;
+&lt;li&gt;Gaussian process regression for atomic force field modeling&lt;/li&gt;
+&lt;li&gt;Genetic algorithms and evolutionary computation&lt;/li&gt;
+&lt;li&gt;Bayesian optimization and its applications&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="learning-outcome"&gt;learning outcome&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Understand and explain the basic concepts of computational thinking&lt;/li&gt;
+&lt;li&gt;Design algorithms to solve problems involving physical systems and data&lt;/li&gt;
+&lt;li&gt;Apply machine learning techniques to analyze data from physical systems&lt;/li&gt;
+&lt;li&gt;Present scientific findings clearly in both written reports and oral presentations&lt;/li&gt;
+&lt;li&gt;Collaborate effectively in teams and work independently when needed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="conducted-plan-fm"&gt;conducted plan (fm)&lt;/h2&gt;
+
+
+
+&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic ↓ Subtopic&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Computational thinking and algorithm design&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;01.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Concept of computational thinking&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Abstraction and decomposition&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Pattern recognition&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;01.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Algorithmic thinking&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Sampling methods and their role in data analysis&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Data mining&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Data preprocessing&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Linear models for regression and classification&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Linear regression&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;04.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Classification with Support Vector Machine (SVM)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Quiz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;04.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Support Vector Machine kernels&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Concepts in machine learning: supervised and unsupervised learning&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;03.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Principal Component Analysis 1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;03.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Principal Component Analysis 2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;05.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Classification with k-nearest neighbors (k-NN) algorithm 1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;05.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Classification with k-nearest neighbors (k-NN) algorithm 2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Artificial neural networks: structure and training&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;06.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Concept of Artificial Neural Network (ANN)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;06.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Architecture of Multi-Layer Perceptron (MLP) 1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;07.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Architecture of Multi-Layer Perceptron (MLP) 2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;07.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;ANN basic method hands-on&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;08.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Midterm&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;08.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;ANN hierarchy design&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Independent assignment&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="tentative-plan-sv"&gt;tentative plan (sv)&lt;/h2&gt;
+
+
+
+&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic ↓ Subtopic&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Probability distributions and their applications&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;09.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction to probability distributions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Common probability distributions in Machine Learning&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;09.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications in Machine Learning&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Gaussian process regression for atomic force field modeling&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;10.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Background concepts&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Representing atomic environments&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Model training and prediction&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Force field construction&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;10.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;applications&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software and tools&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Limitations and challenges&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Genetic algorithms and evolutionary computation&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;11.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Foundations of Evolutionary Computation&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Genetic Algorithms (GAs)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Evolutionary Strategies (ES)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Genetic Programming (GP)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Differential Evolution (DE)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Other Evolutionary Algorithms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Hybrid and Memetic Algorithms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;11.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Theoretical Aspects&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tools and libraries&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Benchmark problems&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Recent advances and research trends&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Bayesian optimization and its applications&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;12.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Foundations of Bayesian optimization&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Advanced techniques&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Algorithmic implementations&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;12.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications in Machine Learning&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications in Science and Engineering&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Applications in Business and Operations&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software and tools&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Recent research trends&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Research-Based Learning (RBL)&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;13.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Topics proposing and discussion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt; &lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Working group creation&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;13.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Short presentasion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;14.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Progress report presentation 1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;14.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Progress report presentation 2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;15.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Progress report presentation 3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;15.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Progress report presentation 4&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;16.1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Final report presentation&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;16.2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Publishing final report on Medium, OSF, YouTube&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Information from SIX are gathered and mixed with lecturers discussion.&lt;/li&gt;
+&lt;li&gt;There four references from course syllabus &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;, &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;, &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;, &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;, where the first two are main references, while the others are additional ones.&lt;/li&gt;
+&lt;li&gt;There is an additional reference for information related to probability distributions &lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Christopher M. Bishop, &amp;ldquo;Pattern Recognition and Machine Learning&amp;rdquo;, 1st edition, Springer, 2006, url 
+&lt;a
+
+	
+	
+		href = "https://isbnsearch.org/isbn/9780387310732"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://isbnsearch.org/isbn/9780387310732 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ 2dn86 [20250420].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>fi3271-01-2024-2</title><link>http://localhost:1313/butiran/25d15/</link><pubDate>Sat, 05 Apr 2025 19:43:58 +0700</pubDate><guid>http://localhost:1313/butiran/25d15/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;28-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/sq65y"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;sq65y&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Quiz with 50 problems.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/g6q23"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;g6q23&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Pitching rbl ideas.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/6w9mr"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;6w9mr&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Quiz on genetic algorithm for whole class.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/f96nb"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;f96nb&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Genetic algorithm intro, code from webs,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/g4zhx"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;g4zhx&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Random forest, 2-maps, hands-on.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/dyvuc"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;dyvuc&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Review on svm and intro to sd.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/r8cg7"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;r8cg7&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Mid questionnaire &amp;amp; prob-dist.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;27-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/tgbv3"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;tgbv3&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Midterm arrangement.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-feb-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/5vjfw"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;5vjfw&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Teaching plan discussion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="weeks"&gt;weeks&lt;/h2&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;Probability Pistribution and refs.&lt;/li&gt;
+&lt;li&gt;Review of SVM, intro to SD.&lt;/li&gt;
+&lt;li&gt;Decision Tree and Random Forest.&lt;/li&gt;
+&lt;li&gt;Intro to Genetic Algorithm.&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

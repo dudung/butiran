@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on butiran</title><link>http://localhost:1313/butiran/tags/hugo/</link><description>Recent content in Hugo on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 07:56:56 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-flag clear cache</title><link>http://localhost:1313/butiran/25h47/</link><pubDate>Mon, 18 Aug 2025 07:56:56 +0700</pubDate><guid>http://localhost:1313/butiran/25h47/</guid><description>&lt;p&gt;Some notes while running hugo for butiran.&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;To run hugo sever for draft posts with a completely fresh build &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-cmd" data-lang="cmd"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo -D --ignoreCache --cleanDestinationDir
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;The short flag &lt;code&gt;-D&lt;/code&gt; has a long form &lt;code&gt;--buildDrafts&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Start to document clean from 02-sep-2025 due to noticable slowness.
+
+
+
+&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Site&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Clean (ms)&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Build (ms)&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02-sep-2025&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;home&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;9649&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;7419&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02-sep-2025&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;home&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;7112&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02-sep-2025&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;work&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;11723&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;27720&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02-sep-2025&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;work&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;10658&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-5, &amp;ldquo;Clear Hugo cache&amp;rdquo;, ChatGPT, 18 Aug 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/68a27c4a-1edc-800a-a22a-0f964050e5f5"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/68a27c4a-1edc-800a-a22a-0f964050e5f5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250818].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>hugo add js submodule</title><link>http://localhost:1313/butiran/25g50/</link><pubDate>Fri, 18 Jul 2025 19:06:03 +0700</pubDate><guid>http://localhost:1313/butiran/25g50/</guid><description>&lt;p&gt;Add submodule for JS files of a Hugo site.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git submodule add https://github.com/dudung/butiran-frontend.git static/js
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Cloning into &lt;span style="color:#e6db74"&gt;&amp;#39;M:/butiran/static/js&amp;#39;&lt;/span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Enumerating objects: 41, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;41/41&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;35/35&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Total &lt;span style="color:#ae81ff"&gt;41&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;from 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Receiving objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;41/41&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, 111.98 KiB | 319.00 KiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Resolving deltas: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;8/8&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;warning: in the working copy of &lt;span style="color:#e6db74"&gt;&amp;#39;.gitmodules&amp;#39;&lt;/span&gt;, LF will be replaced by CRLF the next time Git touches it
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git add .gitmodules static/js
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git commit -a -m &lt;span style="color:#e6db74"&gt;&amp;#34;add js submodule&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[&lt;/span&gt;main a7d2cfc&lt;span style="color:#f92672"&gt;]&lt;/span&gt; add js submodule
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; files changed, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt; insertions&lt;span style="color:#f92672"&gt;(&lt;/span&gt;+&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; create mode &lt;span style="color:#ae81ff"&gt;100644&lt;/span&gt; .gitmodules
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; create mode &lt;span style="color:#ae81ff"&gt;160000&lt;/span&gt; static/js
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git push
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Enumerating objects: 6, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Counting objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;6/6&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Delta compression using up to &lt;span style="color:#ae81ff"&gt;16&lt;/span&gt; threads
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Compressing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;4/4&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Writing objects: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;4/4&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;449&lt;/span&gt; bytes | 449.00 KiB/s, &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Total &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 1&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;delta 0&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, pack-reused &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;remote: Resolving deltas: 100% &lt;span style="color:#f92672"&gt;(&lt;/span&gt;1/1&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, completed with &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; local object.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;To https://github.com/dudung/butiran
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; a3317d7..a7d2cfc main -&amp;gt; main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Steps are according to a discussion for existing repository on GitHub &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;When changed, main repo should update the submodule &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-4o, &amp;ldquo;Move JS to Submodule&amp;rdquo;, ChatGPT, 18 Jul 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/687a3a59-53e4-800a-ad77-65336a6a2551"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/687a3a59-53e4-800a-ad77-65336a6a2551 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250718].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>hugo build too slow</title><link>http://localhost:1313/butiran/25f34/</link><pubDate>Mon, 02 Jun 2025 06:59:44 +0700</pubDate><guid>http://localhost:1313/butiran/25f34/</guid><description>&lt;p&gt;This note lists steps take to have faster build of Hugo site.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;04-jun-2025&lt;/code&gt; Change nothing, but with 1471 pages with &lt;code&gt;hugo server -D&lt;/code&gt; command. Do not delete &lt;code&gt;public&lt;/code&gt; folder.
+&lt;ul&gt;
+&lt;li&gt;Test at the office: 38040 ms build, 1031 ms a post update.&lt;/li&gt;
+&lt;li&gt;Test at home: 5895 ms, 43 ms a post update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04-jun-2025&lt;/code&gt; Change nothing, but with 1467 pages with &lt;code&gt;hugo server -D&lt;/code&gt; command. Do not delete &lt;code&gt;public&lt;/code&gt; folder.
+&lt;ul&gt;
+&lt;li&gt;Test at home: 5688 ms, 5682 ms, 5638 ms, 6007 ms.&lt;/li&gt;
+&lt;li&gt;Test at the office: 21989 ms, 7864 ms, 10462 ms, 11555 ms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-jun-2025&lt;/code&gt; Change nothing, but with 1467 pages with &lt;code&gt;hugo server -D&lt;/code&gt; command. Do not delete &lt;code&gt;public&lt;/code&gt; folder.
+&lt;ul&gt;
+&lt;li&gt;Test at the office: 26936 ms, 10689 ms, 14335 ms, 9046 ms.&lt;/li&gt;
+&lt;li&gt;Test at home: 8228 ms, 5688 ms, 5856 ms, 5895 ms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-jun-2025&lt;/code&gt; Move &lt;code&gt;font-awesome.min.css&lt;/code&gt; from &lt;code&gt;render-link.html&lt;/code&gt; to &lt;code&gt;head.html&lt;/code&gt; as suggested &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.
+&lt;ul&gt;
+&lt;li&gt;It reduces build time from 37690 ms to 8796 ms on i5-10210U CPU @ 1.60GHz 8 GB RAM at the office for 1465 pages, 47 paginator pages, 13 static files and 1 aliases.&lt;/li&gt;
+&lt;li&gt;With AMD Ryzen 7 5800HS with Radeon Graphics 3.20 GHz 16 GB RAM at home it requires from 5777 ms to 6068 to build ms after delete public folder where previously was about 10427 ms (tested day +1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-4o, &amp;ldquo;Hugo Build Optimization&amp;rdquo;, ChatGPT, 2 Jun 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/683cea31-be54-800a-a5d3-1dfe6d7f8d75"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/683cea31-be54-800a-a5d3-1dfe6d7f8d75 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250602].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>script loader and runner</title><link>http://localhost:1313/butiran/25d48/</link><pubDate>Wed, 16 Apr 2025 16:26:38 +0700</pubDate><guid>http://localhost:1313/butiran/25d48/</guid><description>&lt;h2 id="purpose"&gt;purpose&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The loader loads JavaScript files sfiles from the &lt;code&gt;static/js&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;The runner runs JavaScript within a Hugo post or note.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="script-loader"&gt;script loader&lt;/h2&gt;
+&lt;p&gt;It is saved as &lt;code&gt;loader.html&lt;/code&gt; in folder &lt;code&gt;layouts/shortcodes/script&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $baseURL := site.BaseURL }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ range split .Inner &amp;#34;\n&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- $script := trim . &amp;#34; \r&amp;#34; -}} &lt;span style="color:#75715e"&gt;&amp;lt;!-- Trim spaces and possible trailing \r --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- if ne $script &amp;#34;&amp;#34; -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;script&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;src&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;{{ printf &amp;#34;&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;%&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;sjs&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/%&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;s&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;?&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;v&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;1&amp;#34;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;baseURL&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;script&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;|&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;relURL&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;}}&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style="color:#f92672"&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- end -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ end }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="script-runner"&gt;script runner&lt;/h2&gt;
+&lt;p&gt;It is saved as &lt;code&gt;runner.html&lt;/code&gt; in folder &lt;code&gt;layouts/shortcodes/script&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>github papes with hugo</title><link>http://localhost:1313/butiran/25d46/</link><pubDate>Wed, 16 Apr 2025 08:48:17 +0700</pubDate><guid>http://localhost:1313/butiran/25d46/</guid><description>&lt;h2 id="medium"&gt;medium&lt;/h2&gt;
+&lt;p&gt;A 4-minutes story is posted on medium &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;. It shows steps to deploy Hugo site on GitHub to GitHub Pages website.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://miro.medium.com/v2/resize:fit:600/format:webp/1*BVvvXkBwDi3ppLdhJt3hKQ.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Above result is available on 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butiran/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://dudung.github.io/butiran/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Sparisoma Viridi, &amp;ldquo;GitHub Pages with Hugo: A step-by-step tutorial&amp;rdquo;, Medium 16 Jan 2025, url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/d515e72241ea"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://medium.com/p/d515e72241ea &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250416].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>style shortcode</title><link>http://localhost:1313/butiran/25d45/</link><pubDate>Wed, 16 Apr 2025 07:02:52 +0700</pubDate><guid>http://localhost:1313/butiran/25d45/</guid><description>&lt;h2 id="shortcode"&gt;shortcode&lt;/h2&gt;
+&lt;p&gt;Content of &lt;code&gt;style.html&lt;/code&gt; in &lt;code&gt;layouts/shortcodes&lt;/code&gt; is as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $class := .Get &amp;#34;class&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $css := printf &amp;#34;%s.css&amp;#34; $class }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;link&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;rel&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;href&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;/butiran/css/{{ $css }}?v={{ now.Unix }}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;class&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;{{ $class }}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ .Inner | markdownify }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="css"&gt;css&lt;/h2&gt;
+&lt;p&gt;Content of &lt;code&gt;table-1.css&lt;/code&gt; in &lt;code&gt;atatic/css&lt;/code&gt; is as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;/* table-0.css */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-collapse&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;collapse&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-spacing&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;th&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;padding&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0.1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0.2&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-top&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-bottom&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#f2f2f2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;td&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;padding&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;last-child&lt;/span&gt; &lt;span style="color:#f92672"&gt;td&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-bottom&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;nth-child&lt;/span&gt;&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#f92672"&gt;odd&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* White for even rows */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#ffffff&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;nth-child&lt;/span&gt;&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#f92672"&gt;even&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* Light gray for odd rows */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#f2f2f2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="usage"&gt;usage&lt;/h2&gt;
+&lt;p&gt;In a post use following lines.&lt;/p&gt;</description></item><item><title>new post template</title><link>http://localhost:1313/butiran/25d44/</link><pubDate>Wed, 16 Apr 2025 06:37:30 +0700</pubDate><guid>http://localhost:1313/butiran/25d44/</guid><description>&lt;h2 id="post-template"&gt;post template&lt;/h2&gt;
+&lt;p&gt;Content of &lt;code&gt;default.md&lt;/code&gt; in folder &lt;code&gt;archetypes&lt;/code&gt; is as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;words&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;split&lt;/span&gt; .&lt;span style="color:#a6e22e"&gt;Name&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;-&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;url&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;lower&lt;/span&gt; (&lt;span style="color:#a6e22e"&gt;index&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;words&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;) &lt;span style="color:#f92672"&gt;-&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;title&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;delimit&lt;/span&gt; (&lt;span style="color:#a6e22e"&gt;after&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;words&lt;/span&gt;) &lt;span style="color:#e6db74"&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;+++&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;title&lt;/span&gt; = &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;{{ &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;title&lt;/span&gt; }}&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;date&lt;/span&gt; = &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;{{ .&lt;span style="color:#a6e22e"&gt;Date&lt;/span&gt; }}&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;authors&lt;/span&gt; = [&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;viridi&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;draft&lt;/span&gt; = &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; = &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;notes&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;tags&lt;/span&gt; = []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;categories&lt;/span&gt; = []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;url&lt;/span&gt; = &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;{{ &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;url&lt;/span&gt; }}&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;+++&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;!&lt;span style="color:#f92672"&gt;--&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;more&lt;/span&gt; &lt;span style="color:#f92672"&gt;--&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="usage"&gt;usage&lt;/h2&gt;
+&lt;p&gt;In a CLI perform following.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ hugo new content/posts/25/d/44-new-post-template.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Content &lt;span style="color:#e6db74"&gt;&amp;#34;M:\\butiran\\content\\posts\\25\\d\\44-new-post-template.md&amp;#34;&lt;/span&gt; created
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;OS is Windows 11 version 10.0.26100 build 26100, CLI is Git Bash version 2.42.0.2.&lt;/p&gt;</description></item><item><title>integ slide-article</title><link>http://localhost:1313/butiran/25c19/</link><pubDate>Sat, 08 Mar 2025 03:49:17 +0700</pubDate><guid>http://localhost:1313/butiran/25c19/</guid><description>&lt;ul&gt;
+&lt;li&gt;It integrates a slide and an article in a Hugo post.&lt;/li&gt;
+&lt;li&gt;The slide can be considered as summary of the article.&lt;/li&gt;
+&lt;li&gt;To view the slide, display a post in a browser full screen mode.&lt;/li&gt;
+&lt;li&gt;Displayed vertical scroll bar showing that there is other part below the slide, which is the article.&lt;/li&gt;
+&lt;li&gt;Current limitation: One article can only has one slide.&lt;/li&gt;
+&lt;li&gt;Usage workflow might be necessary to prepare in order to inform how this approach can hande a task more efficient.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>shortcode fsize</title><link>http://localhost:1313/butiran/25a48/</link><pubDate>Fri, 17 Jan 2025 17:38:05 +0700</pubDate><guid>http://localhost:1313/butiran/25a48/</guid><description>&lt;ul&gt;
+&lt;li&gt;Shortcode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;font-size: {{ .Get 0 | default &amp;#39;1&amp;#39; }}em; line-height: calc({{ .Get 0 | default &amp;#39;1&amp;#39; }}em * 1.5);&amp;#34;&lt;/span&gt;&amp;gt;{{ .Inner }}&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fsize&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0.8&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}&lt;span style="color:#a6e22e"&gt;B&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Bachelor&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;M&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Magister&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;D&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Doktor&lt;/span&gt;.{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;fsize&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>shortcode vspace</title><link>http://localhost:1313/butiran/25a38/</link><pubDate>Wed, 15 Jan 2025 05:07:40 +0700</pubDate><guid>http://localhost:1313/butiran/25a38/</guid><description>&lt;ul&gt;
+&lt;li&gt;Shortcode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;height: {{ .Get 0 | default &amp;#39;1&amp;#39; }}em;&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;vspace&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.5&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>list of slides of rusn</title><link>http://localhost:1313/butiran/25a13/</link><pubDate>Mon, 06 Jan 2025 20:38:40 +0700</pubDate><guid>http://localhost:1313/butiran/25a13/</guid><description/></item><item><title>hugo slides progress and others</title><link>http://localhost:1313/butiran/25a12/</link><pubDate>Mon, 06 Jan 2025 04:55:08 +0700</pubDate><guid>http://localhost:1313/butiran/25a12/</guid><description/></item><item><title>static site</title><link>http://localhost:1313/butiran/25a09/</link><pubDate>Sun, 05 Jan 2025 07:06:31 +0700</pubDate><guid>http://localhost:1313/butiran/25a09/</guid><description/></item><item><title>hugo performance score</title><link>http://localhost:1313/butiran/25a08/</link><pubDate>Sun, 05 Jan 2025 06:18:12 +0700</pubDate><guid>http://localhost:1313/butiran/25a08/</guid><description/></item><item><title>hugo sites key features</title><link>http://localhost:1313/butiran/25a07/</link><pubDate>Sun, 05 Jan 2025 05:54:33 +0700</pubDate><guid>http://localhost:1313/butiran/25a07/</guid><description/></item><item><title>hugo intro</title><link>http://localhost:1313/butiran/25a06/</link><pubDate>Sun, 05 Jan 2025 05:32:34 +0700</pubDate><guid>http://localhost:1313/butiran/25a06/</guid><description/></item><item><title>scatter chart.js</title><link>http://localhost:1313/butiran/24j27/</link><pubDate>Tue, 15 Oct 2024 08:22:11 +0700</pubDate><guid>http://localhost:1313/butiran/24j27/</guid><description>&lt;p&gt;Scatter chart support on a Hugo post using 
+&lt;a
+
+	
+	
+		href = "https://www.chartjs.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Chart.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ library.&lt;/p&gt;</description></item><item><title>template customization 3</title><link>http://localhost:1313/butiran/24j26/</link><pubDate>Tue, 15 Oct 2024 07:19:55 +0700</pubDate><guid>http://localhost:1313/butiran/24j26/</guid><description>&lt;p&gt;Third theme customization of a new Hugo site following initial setting.&lt;/p&gt;</description></item><item><title>template customization 2</title><link>http://localhost:1313/butiran/24j17/</link><pubDate>Sat, 12 Oct 2024 20:11:01 +0700</pubDate><guid>http://localhost:1313/butiran/24j17/</guid><description>&lt;p&gt;Second theme customization of a new Hugo site following initial setting.&lt;/p&gt;</description></item><item><title>template customization 1</title><link>http://localhost:1313/butiran/24j15/</link><pubDate>Fri, 11 Oct 2024 21:03:19 +0700</pubDate><guid>http://localhost:1313/butiran/24j15/</guid><description>&lt;p&gt;First theme customization of a new Hugo site following initial setting.&lt;/p&gt;</description></item><item><title>first post again</title><link>http://localhost:1313/butiran/24j14/</link><pubDate>Fri, 11 Oct 2024 17:18:15 +0700</pubDate><guid>http://localhost:1313/butiran/24j14/</guid><description>&lt;p&gt;Create a new post for a new Hugo site (again) with minimum customization.&lt;/p&gt;</description></item><item><title>index.html hugo code 3</title><link>http://localhost:1313/butiran/24j04/</link><pubDate>Sun, 06 Oct 2024 20:25:00 +0700</pubDate><guid>http://localhost:1313/butiran/24j04/</guid><description>&lt;p&gt;List of modifications of &lt;code&gt;index.html&lt;/code&gt; in a Hugo site&lt;/p&gt;</description></item><item><title>log terms and new hugo site</title><link>http://localhost:1313/butiran/2027/</link><pubDate>Wed, 01 May 2024 07:26:00 +0700</pubDate><guid>http://localhost:1313/butiran/2027/</guid><description>&lt;p&gt;Search the right term for new blog on GitHub&lt;/p&gt;</description></item><item><title>old posts migration</title><link>http://localhost:1313/butiran/2021/</link><pubDate>Thu, 25 Apr 2024 09:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/2021/</guid><description>&lt;p&gt;Incomplete documentation for manual migration of old posts&lt;/p&gt;</description></item><item><title>latex equations on hugo</title><link>http://localhost:1313/butiran/2008/</link><pubDate>Fri, 12 Apr 2024 07:12:00 +0700</pubDate><guid>http://localhost:1313/butiran/2008/</guid><description>&lt;p&gt;LaTex equations with KaTex and their code&lt;/p&gt;</description></item><item><title>some html elements with js on hugo</title><link>http://localhost:1313/butiran/2007/</link><pubDate>Thu, 11 Apr 2024 05:19:00 +0700</pubDate><guid>http://localhost:1313/butiran/2007/</guid><description>&lt;p&gt;Display HTML elements on Hugo with JS&lt;/p&gt;</description></item><item><title>Update Hugo due to module incompatibility</title><link>http://localhost:1313/butiran/1809/</link><pubDate>Fri, 12 Jan 2024 07:35:11 +0700</pubDate><guid>http://localhost:1313/butiran/1809/</guid><description>&lt;p&gt;Update Hugo while creating &lt;code&gt;scatter.html&lt;/code&gt; shortcode.&lt;/p&gt;</description></item><item><title>Info from datablock</title><link>http://localhost:1313/butiran/1808/</link><pubDate>Thu, 11 Jan 2024 18:56:49 +0700</pubDate><guid>http://localhost:1313/butiran/1808/</guid><description>&lt;p&gt;Display scatter chart using Chart.js.&lt;/p&gt;</description></item><item><title>Chart.js support</title><link>http://localhost:1313/butiran/1807/</link><pubDate>Thu, 11 Jan 2024 15:48:59 +0700</pubDate><guid>http://localhost:1313/butiran/1807/</guid><description>&lt;p&gt;Add support for 
+&lt;a
+
+	
+	
+		href = "https://www.chartjs.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Chart.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ via shortcodes.&lt;/p&gt;</description></item><item><title>Modify footer.html</title><link>http://localhost:1313/butiran/1806/</link><pubDate>Thu, 11 Jan 2024 11:34:25 +0700</pubDate><guid>http://localhost:1313/butiran/1806/</guid><description>&lt;p&gt;Modify &lt;code&gt;footer.html&lt;/code&gt; and observe the result.&lt;/p&gt;</description></item><item><title>Modify list.html</title><link>http://localhost:1313/butiran/1805/</link><pubDate>Thu, 11 Jan 2024 06:58:48 +0700</pubDate><guid>http://localhost:1313/butiran/1805/</guid><description>&lt;p&gt;Remove summary from list of posts.&lt;/p&gt;</description></item><item><title>Markdown table</title><link>http://localhost:1313/butiran/1804/</link><pubDate>Thu, 11 Jan 2024 06:43:12 +0700</pubDate><guid>http://localhost:1313/butiran/1804/</guid><description>&lt;p&gt;Try code for Markdown table.&lt;/p&gt;</description></item><item><title>Mermaid support</title><link>http://localhost:1313/butiran/1803/</link><pubDate>Thu, 11 Jan 2024 06:09:07 +0700</pubDate><guid>http://localhost:1313/butiran/1803/</guid><description>&lt;p&gt;Add support for drawing flowchart with 
+&lt;a
+
+	
+	
+		href = "https://mermaid.js.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Mermaid &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>KaTeX support</title><link>http://localhost:1313/butiran/1802/</link><pubDate>Thu, 11 Jan 2024 05:18:51 +0700</pubDate><guid>http://localhost:1313/butiran/1802/</guid><description>&lt;p&gt;Add support for displaying LaTeX equations with 
+&lt;a
+
+	
+	
+		href = "https://katex.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		KaTeX &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>Hugo new site, theme, content</title><link>http://localhost:1313/butiran/1801/</link><pubDate>Wed, 10 Jan 2024 20:38:58 +0700</pubDate><guid>http://localhost:1313/butiran/1801/</guid><description>&lt;p&gt;Create Hugo new site, theme and content using cmd and git bash on Windows 11.&lt;/p&gt;</description></item><item><title>svgpath</title><link>http://localhost:1313/butiran/000l/</link><pubDate>Thu, 21 Dec 2023 05:16:00 +0800</pubDate><guid>http://localhost:1313/butiran/000l/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is a Hugo schortcode&lt;/li&gt;
+&lt;li&gt;It draw SVG path.&lt;/li&gt;
+&lt;li&gt;Required parameter is &lt;code&gt;id&lt;/code&gt; that must be unique, &lt;code&gt;width&lt;/code&gt; and &lt;code&gt;height&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current version has only one color according to colorscheme, but not responsive yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;results&lt;/h2&gt;
+
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;svgpath&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;s00&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;300&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;height&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;border&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;M&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;150&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;50&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;100&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;100&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;m&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;m&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;25&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;50&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;l&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;50&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;svgpath&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;SVG &lt;!-- raw HTML omitted --&gt;&amp;rdquo;, W3Schools, url 
+&lt;a
+
+	
+	
+		href = "https://www.w3schools.com/graphics/svg_path.asp"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.w3schools.com/graphics/svg_path.asp &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Creating dynamic SVG elements with JavaScript&amp;rdquo;, Motion Tricks, url 
+&lt;a
+
+	
+	
+		href = "https://www.motiontricks.com/creating-dynamic-svg-elements-with-javascript/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.motiontricks.com/creating-dynamic-svg-elements-with-javascript/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>gene2grid</title><link>http://localhost:1313/butiran/000k/</link><pubDate>Wed, 20 Dec 2023 05:31:00 +0800</pubDate><guid>http://localhost:1313/butiran/000k/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is a Hugo schortcode, which is an advancement of 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		000i &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;It converts characters including spaces in line to grid.&lt;/li&gt;
+&lt;li&gt;Required parameter is &lt;code&gt;id&lt;/code&gt; that must be unique.&lt;/li&gt;
+&lt;li&gt;Optional parameter is &lt;code&gt;display&lt;/code&gt; with value &lt;code&gt;inline-block&lt;/code&gt; for arrange several grids in a line.&lt;/li&gt;
+&lt;li&gt;Current version has only two colors, &lt;code&gt;#000&lt;/code&gt; and &lt;code&gt;#fff&lt;/code&gt; with border &lt;code&gt;#888&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;results&lt;/h2&gt;
+
+
+
+
+
+
+
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;c00&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;display&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;inline-block&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;11111&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;c01&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;display&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;inline-block&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;11110&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;10000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;11100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;10000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;11110&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;c02&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;display&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;inline-block&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;10001&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;01010&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;01010&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;10001&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;c03&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;display&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;inline-block&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;11111&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;00100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;gene2grid&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Create your own shortcodes&amp;rdquo;, Hugo, url 
+&lt;a
+
+	
+	
+		href = "https://gohugo.io/templates/shortcode-templates/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://gohugo.io/templates/shortcode-templates/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How to check whether a string contains a substring in JavaScript?&amp;rdquo;, StackOverflow, url 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/a/1789952/9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://stackoverflow.com/a/1789952/9475509 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How to Remove the Last Element of a JavaScript Array&amp;rdquo;, HackerNoon, url 
+&lt;a
+
+	
+	
+		href = "https://hackernoon.com/how-to-remove-the-last-element-of-a-javascript-array"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://hackernoon.com/how-to-remove-the-last-element-of-a-javascript-array &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;JavaScript Array shift()&amp;rdquo;, W3Schools, url 
+&lt;a
+
+	
+	
+		href = "https://www.w3schools.com/jsref/jsref_shift.asp"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.w3schools.com/jsref/jsref_shift.asp &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;JavaScript split() a String – String to Array JS Method&amp;rdquo;, freeCodeCamp, url 
+&lt;a
+
+	
+	
+		href = "https://www.freecodecamp.org/news/javascript-split-a-string-string-to-array-js-method/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.freecodecamp.org/news/javascript-split-a-string-string-to-array-js-method/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Hugo - Show ShortCode Markdown in Code Block&amp;rdquo;, url 
+&lt;a
+
+	
+	
+		href = "https://digitaldrummerj.me/hugo-show-shortcode-markdown-in-code-block/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://digitaldrummerj.me/hugo-show-shortcode-markdown-in-code-block/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>hugo github workflow error</title><link>http://localhost:1313/butiran/0072/</link><pubDate>Mon, 23 May 2022 08:31:00 +0700</pubDate><guid>http://localhost:1313/butiran/0072/</guid><description>&lt;p&gt;Sembari membantu U3 FI1201 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] berupaya untuk meregistrasi permasalan workflow dari &lt;code&gt;bugx&lt;/code&gt; ini yang belum terpecahkan. Sebelumnya sempat berfungsi dengan baik.&lt;/p&gt;
+&lt;h2 id="solution"&gt;solution&lt;/h2&gt;
+&lt;p&gt;The example is for a private repository (user: 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		dudung &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, repo: 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/bugx-hugo-src"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bugx-hugo-src &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+), but you can adapt it to yours.&lt;/p&gt;</description></item><item><title>clone repo hugo other computer</title><link>http://localhost:1313/butiran/0070/</link><pubDate>Thu, 12 May 2022 08:47:00 +0700</pubDate><guid>http://localhost:1313/butiran/0070/</guid><description>&lt;p&gt;Setelah secara umum Bandung Raya menjadi PPKM Level 2 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan terdapat SE dari institusi [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.&lt;/p&gt;
+&lt;h2 id="update-chrome"&gt;update chrome&lt;/h2&gt;
+&lt;p&gt;Google Chrome sudah terlalu tua sehingga perlu diperbarui.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Settings &amp;gt; About Google Chrome
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;yang akan menjadi&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Google Chrome
+Chrome ist auf dem neuesten Stand
+Version 101.0.4951.64 (Offizieller Build) (32-Bit)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;setelah proses update dilakukan. Atau dapat pula dilakukan dengan mengunduh installernya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>update hugo windows 10</title><link>http://localhost:1313/butiran/0066/</link><pubDate>Sun, 24 Apr 2022 10:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/0066/</guid><description>&lt;p&gt;Tulisan ini dibuat berbarengan dengan update Hugo dari versi 0.95.0 ke 0.97.3 mengikuti suatu informasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk menjalan Hugo digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.&lt;/p&gt;
+&lt;h2 id="current-version"&gt;current version&lt;/h2&gt;
+&lt;p&gt;Versi Hugo yang terinstal saat ini dapat diperoleh dengan&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;L:\home\bugx&amp;gt;hugo version
+hugo v0.95.0-9F2E76AF+extended windows/amd64 
+BuildDate=2022-03-16T14:20:19Z 
+VendorInfo=gohugoio
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] bahwa telah terdapat Hugo rilis 0.97.3 oleh beb (Bjørn Erik Pedersen) pada 18 Apr 2022.&lt;/p&gt;</description></item><item><title>shortcode svg</title><link>http://localhost:1313/butiran/0013/</link><pubDate>Tue, 22 Mar 2022 14:19:00 +0700</pubDate><guid>http://localhost:1313/butiran/0013/</guid><description>&lt;p&gt;Dengan mengikuti bagaimana menyisipkan berkas svg dalam suatu berkas html [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dicoba untuk membuat shortcode agar berkas svg dapat disisipkan ke dalam post dengan bentuk seperti untuk youtube [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dengan mengikuti tutoial singkat membuat shortcode [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="version-22-mar-2022"&gt;version 22-mar-2022&lt;/h2&gt;
+&lt;p&gt;Dengan menggunakan&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; svg &amp;#34;/static/img/bugx/packed-no-fill-color-grains.svg&amp;#34; &amp;#34;#fig1&amp;#34; &amp;#34;1&amp;#34; &amp;#34;Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.&amp;#34; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;akan diperoleh hasil berikut ini&lt;/p&gt;</description></item><item><title>multiple authors</title><link>http://localhost:1313/butiran/0009/</link><pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate><guid>http://localhost:1313/butiran/0009/</guid><description>&lt;p&gt;Fitur yang dapat mengakamodasi penulis lebih dari satu untuk suatu post ingin dibuat. Selain itu juga agar informasi banyak penulis ini dapat muncul di bagian bawah setiap post dalam petunjuk bagaimana merujuk suatu artikel atau post.&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0010"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		shortcode citeas
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>shortcode citeas</title><link>http://localhost:1313/butiran/0010/</link><pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate><guid>http://localhost:1313/butiran/0010/</guid><description>&lt;p&gt;Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang lebih dimengerti setelah menonton videonya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="version-21-mar-2022"&gt;version 21-mar-2022&lt;/h2&gt;
+&lt;p&gt;Hanya satu penulis yang dapat dirujuk. Hasilnya adalah&lt;/p&gt;
+&lt;figure&gt;
+ &lt;blockquote &gt;
+ &lt;p&gt;Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+ 
+&lt;/figure&gt;&lt;p&gt;yang dilengkapi tautan pada author dan artikelnya.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&amp;lt;!-- 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	citeas 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	a Hugo shortcode to put how-to-cite at the bottom of a post
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	Sparisoma Viridi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	https://github.com/dudung
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;	20220321 It can only read one author, link to author nickname and page, border and background.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;--&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;border:1px #eee solid; padding:6px 10px; background: #fafafa;&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Cite as: &amp;lt;&lt;span style="color:#f92672"&gt;a&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;href&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Page.Site.BaseURL }}author/{{ .Page.Params.author }}&amp;#34;&lt;/span&gt;&amp;gt;{{ .Page.Params.author }}&amp;lt;/&lt;span style="color:#f92672"&gt;a&lt;/span&gt;&amp;gt;, &amp;#34;{{ .Page.Params.title }}&amp;#34;, {{ .Page.Site.Title }}, {{ .Page.Params.lastmod.Format &amp;#34;2 Jan 2006&amp;#34; }}, url &amp;lt;&lt;span style="color:#f92672"&gt;a&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;href&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Page.Site.BaseURL }}{{ .Page.Params.url }}&amp;#34;&lt;/span&gt;&amp;gt;{{ .Page.Site.BaseURL }}{{ .Page.Params.url }}&amp;lt;/&lt;span style="color:#f92672"&gt;a&lt;/span&gt;&amp;gt; [{{ now.Format &amp;#34;20060102&amp;#34;}}].
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="version-22-mar-2022"&gt;version 22-mar-2022&lt;/h3&gt;
+&lt;p&gt;Ubah sudut kotak dan warnanya menjadi&lt;/p&gt;</description></item><item><title>create github action workflow</title><link>http://localhost:1313/butiran/0006/</link><pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/0006/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials chartjs</title><link>http://localhost:1313/butiran/0005/</link><pubDate>Sun, 20 Mar 2022 13:54:00 +0700</pubDate><guid>http://localhost:1313/butiran/0005/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials mermaid</title><link>http://localhost:1313/butiran/0004/</link><pubDate>Sun, 20 Mar 2022 13:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0004/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials mathjax</title><link>http://localhost:1313/butiran/0003/</link><pubDate>Sun, 20 Mar 2022 09:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/0003/</guid><description>&lt;p&gt;Salah satu theme Hugo yang disebut Codex telah dapat menampilkan formula matematika dengan MathJax [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Implementasi yang dilakukan belum memuncukan nomor persamaan dan masih menggunakan MathJax versi 2.7.2 [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Cara Untuk memunculkan penomoran persamaan terdapat cara yang berbeda pada MathJax 3 [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dibandingkan dengan pada versi sebelumnya.&lt;/p&gt;
+&lt;h2 id="mathjaxhtml"&gt;mathjax.html&lt;/h2&gt;
+&lt;p&gt;Suatu berkas &lt;code&gt;mathjax.html&lt;/code&gt; berisikan&lt;/p&gt;</description></item><item><title>host hugo site on github</title><link>http://localhost:1313/butiran/0002/</link><pubDate>Sat, 19 Mar 2022 08:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0002/</guid><description>&lt;p&gt;Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder &lt;code&gt;public&lt;/code&gt; dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat pula cara membuat branch &lt;code&gt;gh-pages&lt;/code&gt; yang merupakan orphan branch [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini hanya akan dibahas bagaimana berkas-berkas yang dihasilkan Hugo dan kode dengan artikel disimpan dalam repo terpisah di GitHub [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] sebagai alternatif dari disimpan dalam repo yang sama akan tetapi pada cabang berbeda [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>install hugo windows 10</title><link>http://localhost:1313/butiran/0000/</link><pubDate>Fri, 18 Mar 2022 18:45:00 +0000</pubDate><guid>http://localhost:1313/butiran/0000/</guid><description>&lt;p&gt;Tulisan ini dibuat sebelum instalasi Hugo [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dilakukan, sehingga untuk melihat hasilnya saat disunting menggunakan Notepad++ [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] digunakan Markdown Viewer [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] pada Google Chrome [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Proses instalasi Hugo dilakukan mengikuti langkah-langkah yang diberikan untuk sistem operasi Windows [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Saat ini digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.&lt;/p&gt;</description></item><item><title>create new site hugo</title><link>http://localhost:1313/butiran/0001/</link><pubDate>Fri, 18 Mar 2022 21:10:00 +0700</pubDate><guid>http://localhost:1313/butiran/0001/</guid><description>&lt;p&gt;Tulisan ini dibuat setelah instalasi Hugo [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="version"&gt;version&lt;/h2&gt;
+&lt;p&gt;Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-batch" data-lang="batch"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;L:\home&lt;span style="color:#75715e"&gt;&amp;gt;hugo version&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;yang memberikan informasi v0.95.0.&lt;/p&gt;
+&lt;h2 id="create-a-new-site"&gt;create a new site&lt;/h2&gt;
+&lt;p&gt;Suatu situs baru dibuat dengan cara berikut ini.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-batch" data-lang="batch"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;L:\home&lt;span style="color:#75715e"&gt;&amp;gt;hugo new site new-hugo-site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Congratulations! Your new Hugo site is created in L:\home\new-hugo-site.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Just a few more steps and you&amp;#39;re ready to go:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;1. Download a theme into the same-named folder.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Choose a theme from https://themes.gohugo.io/ or
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; create your own with the &lt;span style="color:#e6db74"&gt;&amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34;&lt;/span&gt; command.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2. Perhaps you want to add some content. You can add single files
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; with &lt;span style="color:#e6db74"&gt;&amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;3. Start the built-in live server via &lt;span style="color:#e6db74"&gt;&amp;#34;hugo server&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Visit https://gohugo.io/ for quickstart guide and full documentation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sebuah folder bernama &lt;code&gt;new-hugo-site&lt;/code&gt; telah dibuat.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Root Finding Method on butiran</title><link>http://localhost:1313/butiran/tags/root-finding-method/</link><description>Recent content in Root Finding Method on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Jan 2022 21:29:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/root-finding-method/index.xml" rel="self" type="application/rss+xml"/><item><title>newton-raphson method</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-newton-raphson-method/</link><pubDate>Wed, 26 Jan 2022 21:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-newton-raphson-method/</guid><description>&lt;p&gt;.. [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Metode Newton-Raphson memerlukan satu titik sebagai syarat awal, yang merupakan tebakan awal untuk akar, misalnya $x_1$. Nilai ini kemudian diperbaiki melalu rumusan iteratif&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:newton-raphson-method}
+x_{n+1} = x_n - \frac{f(x_n)}{f&amp;rsquo;(x_n)},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dengan $f(x)$ adalah fungsi yang ingin dicari akarnya dan $f&amp;rsquo;(x)$ adalah turunan dari fungsi tersebut.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# 0403-newton-raphson.py
+# Impelement Newton-Raphson method
+# Sparisoma Viridi | https://github.com/dudung/bug
+# 20220126 Create this program.
+
+# define a polynomial function and its derivativve
+def poly(x):
+ x1 = 2.0
+ x2 = 5.0
+ x3 = 9.87654321
+ f = (x - x1) * (x - x2) * (x - x3)
+ fx1 = (x - x2) * (x - x3)
+ fx2 = (x - x1) * (x - x3)
+ fx3 = (x - x1) * (x - x2)
+ fx = fx1 + fx2 + fx3
+ return f, fx
+
+# define initial conditions
+x1 = 100
+
+# define accuracy
+eps = 1E-14
+
+# Set initial error
+f1, fx1 = poly(x1)
+err = abs(f1)
+
+# Find a root
+n = 0
+print(&amp;#34;n x&amp;#34;)
+while err &amp;gt; eps:
+ f1, fx1 = poly(x1)
+ x2 = x1 - f1 / fx1
+ f2, fx2 = poly(x2)
+ err = abs(f1)
+ x1 = x2
+ n = n + 1
+ print(n, x2)
+
+# Resume result
+print(&amp;#34;step = &amp;#34;, n, sep=&amp;#39;&amp;#39;)
+print(&amp;#34;err = &amp;#34;, err, sep=&amp;#39;&amp;#39;)
+print(&amp;#34;root = &amp;#34;, x1, sep=&amp;#39;&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;============ RESTART: 0403-newton-raphson.py ===========
+n x
+1 68.57943328973627
+2 47.65146466568203
+3 33.728453898954925
+4 24.490707389328925
+5 18.400427840707824
+6 14.446544420628541
+7 11.977534952176475
+8 10.587696230350925
+9 10.00000625203186
+10 9.881306106256702
+11 9.876550723839335
+12 9.876543210018745
+13 9.87654321
+14 9.87654321
+step = 14
+err = 0.0
+root = 9.87654321
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="note"&gt;note&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="comments"&gt;comments&lt;/h3&gt;
+&lt;p&gt;{% comment %} data-width=&amp;ldquo;390&amp;rdquo; {% endcomment %}&lt;/p&gt;</description></item><item><title>bisection method</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-bisection-method/</link><pubDate>Wed, 26 Jan 2022 18:42:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-bisection-method/</guid><description>&lt;p&gt;Metode bisection dalam bidang matematika merupakan suatu metode pencarian akar yang berlaku untuk sembarang fungsi kontinu dengan ketentuan diperlukan dua nilai fungsi yang berbeda tanda [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kelebihan metode ini adalah adanya jaminan konvergensi, akan tetapi belum dapat mendeteksi bila terdapat banyak akar [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan dua nilai awal, nilai ketiga diperoleh sebagai titik tengah dua nilai sebelumnya yang lalu nilai terbaru ini perlu dipilih untuk menggantikan salah satu dari dua nilai sebelumnya, dengan memperhatikan bahwa akar terdapat di antara dua nilai terakhir yang disimpan, yang bersifat intuitif [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>quadratic formula</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-24-quadratic-formula/</link><pubDate>Tue, 25 Jan 2022 06:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-24-quadratic-formula/</guid><description>&lt;p&gt;Persamaan kuadrat atau disebut juga persamaan dengan derajat dua memiliki bentuk $ax^2 + bx + c = 0$ dengan $a$, $b$, $c$ diketahui, $a \ne 0$, dan $x$ merupakan nilai yang ingin dicari [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Nilai $x$ dapat diperoleh dengan melengkapi bentuk kuadrat dari persamaan kuadrat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga memberikan formula kuadrat [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="equation-and-formula"&gt;equation and formula&lt;/h2&gt;
+&lt;p&gt;Persamaan kuadrat berbentuk&lt;/p&gt;</description></item><item><title>root</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-21-root/</link><pubDate>Fri, 21 Jan 2022 21:56:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-21-root/</guid><description>&lt;p&gt;Dalam matematika akar merupakan suatu solusi dari suatu persamaan, yang biasanya dinyatakan sebagai angka atau formula aljabar [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Solusi yang dimaksud adalah membuat suatu persamaan menjadi bernilai nol sehingga sering dikatakan sebagai pembuat nol [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Namun agar diperhatikan bahwa terdapat penggunaan kata akar sebagai cara ringkas untuk menyatakan akar kuadrat [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat berbagai algoritma untuk mencari akar suatu persamaan dengan salah satu penggolongannya adalah metode kurung, interpolasi, metode iteratif, dan kombinasi berbagai metode [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. ROOT suatu framework analisis data sumber-terbuka, ditulis utamanya dalam C++, yang digunakan dalam fisika energi tinggi dan lainnya menyediakan kelas pencarian akar satu dimensi [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sebagaimana SciPy suatu piranti lunak sumber-terbuka, berbasiskan Python, untuk matematika, sains, dan rekayasa yang menyediakan setidaknya delapan algoritma untuk mencari akar suatu fungsi skalar [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau dapat pula suatu program dituliskan dalam Python tanpa perlu impor modul apapun [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Select on butiran</title><link>http://localhost:1313/butiran/tags/select/</link><description>Recent content in Select on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 18:53:24 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/select/index.xml" rel="self" type="application/rss+xml"/><item><title>select option</title><link>http://localhost:1313/butiran/25k13/</link><pubDate>Thu, 06 Nov 2025 18:53:24 +0700</pubDate><guid>http://localhost:1313/butiran/25k13/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+function addOption(sel, text) {
+ let opt = document.createElement("option");
+ opt.text = text;
+ sel.add(opt);
+}
+
+let cnt = document.getElementById("cnt");
+cnt.style.marginTop = "1em";
+cnt.style.background = "#f8f8f8";
+cnt.style.border = "1px solid #ddd";
+
+let inSel = document.createElement("select");
+inSel.style.width = "320px";
+inSel.size = 10;
+
+addOption(inSel, "Problem 01: Magnetic field near long wire");
+addOption(inSel, "Problem 02: Lorentz force");
+addOption(inSel, "Problem 03: Wave equation");
+addOption(inSel, "Problem 04: Solution of wave equation");
+addOption(inSel, "Problem 05: Standing and traveling waves");
+addOption(inSel, "Problem 06: Electromagnetic wave propagation");
+addOption(inSel, "Problem 07: Snell's law");
+addOption(inSel, "Problem 08: Lenses and mirrors");
+addOption(inSel, "Problem 09: Physics of semiconductor and diode");
+addOption(inSel, "Problem 10: Physics of transistor and active components");
+
+cnt.append(inSel);
+inSel.options[0].selected = true;
+inSel.focus();
+
+ });
+&lt;/script&gt;
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;sel&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;text&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;option&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;text&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;text&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;add&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;getElementById&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;cnt&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;marginTop&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;1em&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;background&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;#f8f8f8&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;border&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;1px solid #ddd&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;select&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;width&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;320px&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;size&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 01: Magnetic field near long wire&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 02: Lorentz force&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 03: Wave equation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 04: Solution of wave equation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 05: Standing and traveling waves&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 06: Electromagnetic wave propagation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 07: Snell&amp;#39;s law&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 08: Lenses and mirrors&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 09: Physics of semiconductor and diode&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 10: Physics of transistor and active components&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;append&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;options&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;selected&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;focus&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>

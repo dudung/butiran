@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matrix on butiran</title><link>http://localhost:1313/butiran/tags/matrix/</link><description>Recent content in Matrix on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 21 May 2025 13:19:31 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>js matrix to canvas</title><link>http://localhost:1313/butiran/25e41/</link><pubDate>Wed, 21 May 2025 13:19:31 +0700</pubDate><guid>http://localhost:1313/butiran/25e41/</guid><description>&lt;p&gt;Content of matrix showing as colored grid on canvas.&lt;/p&gt;
+
+&lt;script src="http://localhost:1313/butiran/js/src/25e41.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt1"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+const cnt = document.getElementById("cnt1");
+
+const style2 = {
+ display: "flex",
+ border: "0px #aaf solid",
+ background: "#fafaff",
+ width: "500px",
+ height: "200px",
+};
+const div = createElement("div", style2);
+
+const style3 = {
+ flex: "3",
+ overflowY: "scroll",
+ background: "#fee",
+};
+const txa = createElement("textarea", style3);
+
+const style4 = {
+ flex: "2",
+ background: "#efe",
+ border: "1px #080 solid",
+};
+const can = createElement("canvas", style4);
+
+cnt.appendChild(div);
+div.append(txa);
+div.append(can);
+
+let m = [
+ [15, 16, 17, 18, 19, 19, 18, 17, 16, 15], // 00
+ [14, 26, 27, 28, 29, 29, 28, 27, 26, 14], // 01
+ [13, 24, 25, 26, 27, 27, 26, 25, 24, 13], // 02
+ [12, 23, 22, 21, 20, 20, 21, 22, 23, 12], // 03
+ [11, 39, 38, 49, 48, 48, 49, 38, 39, 11], // 04
+ [10, 37, 36, 47, 46, 46, 47, 36, 37, 10], // 05
+ [10, 35, 34, 45, 44, 44, 45, 34, 36, 10], // 06
+ [10, 33, 32, 43, 42, 42, 43, 33, 33, 10], // 07
+ [10, 31, 30, 41, 40, 40, 41, 30, 31, 10], // 08
+ [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], // 09
+]
+const ms = matrixToStr(m);
+addTextToTextarea(txa, ms);
+
+drawMatrixOnCanvas(can, m, getColor);
+
+
+ });
+&lt;/script&gt;
+
+&lt;p&gt;Left area is for matrix content and right area is for its visualization representation.&lt;/p&gt;</description></item><item><title>py list matrix pkg</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-pkg/</link><pubDate>Thu, 17 Feb 2022 15:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-pkg/</guid><description>&lt;p&gt;Operasi matriks di Python dapat dilakukan dengan berbantuan berbagai paket, misalnya saja adalan NumPy [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan disajikan paket buatan sendiri tentang matriks yang dapat untuk menjumlahkan dan mengurangkan dua buah matriks, perkalian matriks dengan matriks, perkalian matriks dengan skalar, dan transpos suatu matriks. Digunakan hanya list Python dan pengulangan for.&lt;/p&gt;
+&lt;h2 id="some-packages"&gt;some packages&lt;/h2&gt;
+&lt;p&gt;Selain NumPy, terdapat sekitar 260 paket Python terkait dengan matriks (Matrix) yang telah disaring dengan topik Scientific/Engineering lalu Mathematics [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>py list matrix t</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-t/</link><pubDate>Thu, 17 Feb 2022 13:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-t/</guid><description>&lt;p&gt;Melakukan transpose suatu matriks dalam bahasa pemrograman Python dapat dilakukan pada list dengan bantuan pengulangan for bersarang dua [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau hanya dalam satu baris [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan memanfaatkan paket numerik NumPy perintah keseluruhannya cukup dalam satu baris [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]&lt;/p&gt;
+&lt;h2 id="transpose-a-matrix"&gt;transpose a matrix&lt;/h2&gt;
+&lt;p&gt;Terdapat suat matriks&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-a}
+A = \left[
+\begin{array}{ccc}
+a_{11} &amp;amp; a_{12} &amp;amp; a_{13} &amp;amp; a_{14} \newline
+a_{21} &amp;amp; a_{22} &amp;amp; a_{23} &amp;amp; a_{24}
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;</description></item><item><title>py list matrix 2d mul 2</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-mul-2/</link><pubDate>Thu, 17 Feb 2022 10:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-mul-2/</guid><description>&lt;p&gt;Perkalian dua buah matriks dalam Pyton dapat dilakukan menggunakan pengulangan bersarang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau paket numerik NumPy [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas dengan pengulangan bersarang pada list untuk perkalian matriks, dan karena memang hanya untuk tujuan pembelajaran, diterapkan untuk matriks berukuran kecil.&lt;/p&gt;
+&lt;h2 id="matrix-multiplication-with-matrix"&gt;matrix multiplication with matrix&lt;/h2&gt;
+&lt;p&gt;Terdapat matriks&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-a}
+A = \left[
+\begin{array}{ccc}
+a_{11} &amp;amp; a_{12} &amp;amp; a_{13} \newline
+a_{21} &amp;amp; a_{22} &amp;amp; a_{23} \newline
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;</description></item><item><title>py list matrix 2d mul 1</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-mul-1/</link><pubDate>Thu, 17 Feb 2022 09:56:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-mul-1/</guid><description>&lt;p&gt;Perkalian matriks dengan skalar dalam Pyton dapat dilakukan menggunakan paket NumPy [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang perlu pendekatan tersendiri agar lebih cepat untuk matriks berukuran cukup besar [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas pendekatan yang lebih sederhana menggunakan list, dan karena memang hanya untuk tujuan pembelajaran, diterapkan untuk matriks berukuran kecil.&lt;/p&gt;
+&lt;h2 id="matrix-multiplication-with-scalar"&gt;matrix multiplication with scalar&lt;/h2&gt;
+&lt;p&gt;Terdapat suatu bilangan skalar $c \ne 0$ dan suatu matriks&lt;/p&gt;</description></item><item><title>py list matrix 2d new 0</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-new-0/</link><pubDate>Thu, 17 Feb 2022 08:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-new-0/</guid><description>&lt;p&gt;Dalam Python assignment suatu variabel dengan suatu nilai dapat dilakukan dengan berbagai cara, seperti umumnya dalam bahasa pemrograman lain, melalui tuple untuk asignment beberapa nilai sekaligus, menukar nilai variabel, dan lainnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Para pengembang yang melompat menggunakan bahasa pemrograman Python dari bahasa pemrograman lainnya, seperti C++ dan Java, sering dibingungkan oleh proses melewatkan argumen pada Python, di mana model data terpusat-obyek dan bagaimana model ini memperlakukan assignment adalah penyebab kebingungan ini pada tingkat fundamental [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk menyalin suatu list sebaiknya digunakan methode &lt;code&gt;.copy&lt;/code&gt; agar menjadi obyek yang berbeda [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang bila digunakan operator sama dengan &lt;code&gt;=&lt;/code&gt; hanya akan membuat referensi antar obyek sehingga pengubahan pada obyek yang satu akan mengubah pula obyek yang lain [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas membuat sebuah list dua dimensi baru, sebagai suatu matriks, yang berisi angka nol dengan ukuran yang dikehendaki. Lebih tepatnya adalah membuat suatu matriks nol baru.&lt;/p&gt;</description></item><item><title>py list matrix 2d sub</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-sub/</link><pubDate>Wed, 16 Feb 2022 21:35:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-sub/</guid><description>&lt;p&gt;Pengurangan dua buah matriks dalam Python dapat menggunakan pustaka NumPy [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau cukup dengan list. Pemanfaatan list dalam pengurangan dua buah matriks dan bagaimana menampilkan isinya disajikan di sini secara sederhana dan ringkas. Matriks yang dimaksud adalah matriks 2d.&lt;/p&gt;
+&lt;h2 id="matrix-substraction"&gt;matrix substraction&lt;/h2&gt;
+&lt;p&gt;Terdapat matriks&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-a}
+A = \left[
+\begin{array}{ccc}
+a_{11} &amp;amp; a_{12} &amp;amp; a_{13} \newline
+a_{21} &amp;amp; a_{22} &amp;amp; a_{23}
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-b}
+B = \left[
+\begin{array}{ccc}
+b_{11} &amp;amp; b_{12} &amp;amp; b_{13} \newline
+b_{21} &amp;amp; b_{22} &amp;amp; b_{23}
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;</description></item><item><title>py list matrix 2d add</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-add/</link><pubDate>Wed, 16 Feb 2022 19:23:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d-add/</guid><description>&lt;p&gt;Penjumlahan dua buah matriks memerlukan syarat ukuran keduanya harus sama [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pemanfaatan list tersebut dalam penjumlahan dua buah matriks dan bagaimana menampilkan isinya disajikan di sini secara sederhana dan ringkas. Matriks yang dimaksud adalah matriks 2d.&lt;/p&gt;
+&lt;h2 id="matrix-addition"&gt;matrix addition&lt;/h2&gt;
+&lt;p&gt;Terdapat matriks&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-a}
+A = \left[
+\begin{array}{ccc}
+a_{11} &amp;amp; a_{12} &amp;amp; a_{13} \newline
+a_{21} &amp;amp; a_{22} &amp;amp; a_{23}
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-b}
+B = \left[
+\begin{array}{ccc}
+b_{11} &amp;amp; b_{12} &amp;amp; b_{13} \newline
+b_{21} &amp;amp; b_{22} &amp;amp; b_{23}
+\end{array}
+\right]
+\end{equation}&lt;/p&gt;</description></item><item><title>py list matrix 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d/</link><pubDate>Wed, 16 Feb 2022 18:08:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d/</guid><description>&lt;p&gt;Perlu kehati-hatian dalam memanfaatkan list 2d dalam Python [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pemanfaatan list tersebut sebagai matriks 2d dan bagaimana menampilkan isinya disajikan di sini secara sederhana dan ringkas.&lt;/p&gt;
+&lt;h2 id="2d-matrix"&gt;2d matrix&lt;/h2&gt;
+&lt;p&gt;Suatu matriks 2d dapat dituliskan dalam bentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-2d}
+A = \left[
+\begin{array}{ccc}
+1 &amp;amp; 0 &amp;amp; 8 \newline
+2 &amp;amp; 0 &amp;amp; 7 \newline
+3 &amp;amp; 0 &amp;amp; 6 \newline
+4 &amp;amp; 0 &amp;amp; 5 \newline
+\end{array}
+\right],
+\end{equation}&lt;/p&gt;</description></item></channel></rss>

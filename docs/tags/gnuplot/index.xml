@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gnuplot on butiran</title><link>http://localhost:1313/butiran/tags/gnuplot/</link><description>Recent content in Gnuplot on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2022 21:28:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/gnuplot/index.xml" rel="self" type="application/rss+xml"/><item><title>gnuplot svg quadratic curve</title><link>http://localhost:1313/butiran/0137/</link><pubDate>Sat, 06 Aug 2022 18:47:00 +0700</pubDate><guid>http://localhost:1313/butiran/0137/</guid><description>&lt;p&gt;Persamaan kuadrat dapat dinyatakan dalam bentuk standar, terfaktorkan, dan verteks [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bentuk terfaktorkan kadang disebut juga dengan bentuk memotong [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="gnuplot-features"&gt;gnuplot features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Informasi bentuk fungsi ditampilkan mengikuti nilai koefisiennya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;li&gt;Titik-titik data tersimpan dalam berkas skrip gnuplot dan bukan dalam berkas terpisah [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;li&gt;Terdapat berbagai jenis bentuk titik data [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="standard-form"&gt;standard form&lt;/h2&gt;
+&lt;p&gt;Fungsi kuadrat dalam bentuk standar dapat digambarkan sebagai berikut.&lt;/p&gt;</description></item><item><title>gnuplot out svg for figs</title><link>http://localhost:1313/butiran/0136/</link><pubDate>Sat, 06 Aug 2022 05:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0136/</guid><description>&lt;p&gt;Citra yang disematkan pada suatu situs web dapat berjenis citra raster atau vektor [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana SVG (Scalable Vector Graphics) merupakan salah satu jenis format citra yang menggunakan data vektor dan tidak bergantung pada data piksel [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain terdapat berbagai kelebihan format citra SVG seperti scalability dan ukuran yang kompak [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], terdapat juga beberapa kekurangannya seperti ukuran berkas akan bertambah dengan cepat bila obyek terdiri dari banyak elemen kecil [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Secara umum citra berformat SVG merupakan kode sehingga ideal untuk animasi dan dapat dimanipulasi dengan CSS atau JS, yang sayangnya perlu terdapat upaya lebih untuk mempelajari makna dibalik kode tersebut [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Secara umum SVG ideal untuk menampilkan logo, ikon, dan desain geometris vektor lainnya, yang digunakan untuk elemen grafis yang akan ditampilkan dalam berbagai ukuran pada berbagai devais, serta perlu untuk diperbarui dan disunting [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat berbagai piranti lunak yang bebas dan berbayar untuk menyunting SVG baik berbentuk aplikasi maupun menggunakan penjelajah web secara daring [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>gnuplot multi-slit interference</title><link>http://localhost:1313/butiran/0028/</link><pubDate>Fri, 01 Apr 2022 05:31:00 +0700</pubDate><guid>http://localhost:1313/butiran/0028/</guid><description>&lt;p&gt;Gnuplot merupakan suatu piranti lunak yang dapat menggambarkan kurva menggunakan data dan juga fungsi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana dengan fitur terakhir ini akan digunakan untuk menggambarkan pola intensitas dari interferensi dua, tiga, dan empat celah [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk menggambarkan intensitas, umumnya perlu dirumuskan fungsinya terlebih dahulu [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.&lt;/p&gt;</description></item></channel></rss>

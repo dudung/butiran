@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Discrete on butiran</title><link>http://localhost:1313/butiran/tags/discrete/</link><description>Recent content in Discrete on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 10:45:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/discrete/index.xml" rel="self" type="application/rss+xml"/><item><title>charge distribution</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/28/2022-01-02-charge-distribution/</link><pubDate>Wed, 05 Jan 2022 10:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/28/2022-01-02-charge-distribution/</guid><description>&lt;p&gt;Unit terkecil muatan yang dapat diisolasi secara prinsip adalah muatan suatu elektron tunggal, yang amat kecil nilainya dan jarang kita berurusan langsung dengannya, sehingga lebih nyaman untuk mendeskripsikan muatan sebagai suatu kuantitas yang kontinu pada suatu daerah dalam ruang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Akan tetapi perlu diingat bahwa karena muatan terkuantisasi, tidak terdapat distribusi muatan yang benar-benar kontinu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Seperti halnya rapat massa, rapat muatan dapat bergantung posisi dan dalam teori elektromagnetik klasik rapat muatan diidealisasi sebagai suatu fungsi skalar kontinu dari posisi sebagaimana fluida [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk distribusi muatan kontinu terdapat rapat muatan garis, rapat muatan luas, dan rapat muatan volume [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan menggunakan ketiga rapat muatan ini dan bersama-sama dengan susunan muatan titik, dapat dibuat generalisasi hukum gaya Coulomb untuk keempat macam distribusi muatan (volume, permukaan, linier, dan titik) menjadi penjumlahan dari tiga integral dan satu somasi [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat pula keadaan khusus saat setiap muatan yang melingkupi suatu ruang dengan dimensi jauh lebih kecil dari jaraknya terhadap titik pengamatan dapat dianggap sebagai suatu titik muatan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

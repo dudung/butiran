@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Relative Velocity on butiran</title><link>http://localhost:1313/butiran/tags/relative-velocity/</link><description>Recent content in Relative Velocity on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 23 Oct 2021 07:36:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/relative-velocity/index.xml" rel="self" type="application/rss+xml"/><item><title>river crossing</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-22-river-crossing/</link><pubDate>Sat, 23 Oct 2021 07:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-22-river-crossing/</guid><description>&lt;p&gt;Menyeberangi sungai dengan perahu merupakan suatu problem fisika yang menarik untuk dibahas, yang umumnya adalah mencari waktu minimum untuk menyeberang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], kecepatan perahu menurut kerangka acuan yang diam di pinggir sungai [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sudut gerak perahu agar dapat menyeberang tegak lurus arah aliran sungai [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan jarak sepanjang tepi seberang sungai searah aliran sungai, [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang telah pula divisualisasikan [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], bahkan dengan nilai-nilai kecepatan dan sudut gerak perahu yang dapat diubah [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat pula permasalahan yang melibatkan kecepatan arus sungai yang bergantung posisi sehingga agak tidak nyata [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dibandingkan dengan kecepatan arus sungai pada umumnya [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudian, penyelesaian dengan langkah-langkah terstruktur [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] menggelitik untuk dikaji lebih lanjut dalam mendukung pembelajaran yang lebih efektif dan efisien.&lt;/p&gt;</description></item><item><title>relative velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-20-relative-velocity/</link><pubDate>Fri, 22 Oct 2021 09:27:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-20-relative-velocity/</guid><description>&lt;p&gt;Kecepatan relatif merupakan selisih secara vektor antara kecepatan dua benda atau atau kecepepatan suatu benda terhadap benda lain dengan menganggap benda lain berada dalam keadaan diam [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat pula dipandang sebagai kecepatan suatu obyek relatif terhadap obyek lain, yang merupakan kecepatan obyek pertama menurut pengamat yang bergerak bersama-sama dengan obyek kedua [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam teknis perhitungannya diperlukan kemampuan penjumlahan vektor dan cara berpikir bahwa satu kerangka acuan merupakan perantara adalah satu pendekatan yang amat berguna [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana pendekatan ini memerlukan pemahaman pemanfaatan indeks bawah [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang dituliskan pula dengan notasi berbeda [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

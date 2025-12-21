@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Item Response Theory on butiran</title><link>http://localhost:1313/butiran/tags/item-response-theory/</link><description>Recent content in Item Response Theory on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 04 Feb 2022 06:34:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/item-response-theory/index.xml" rel="self" type="application/rss+xml"/><item><title>mc simul irt</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-02-03-mc-simul-irt/</link><pubDate>Fri, 04 Feb 2022 06:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-02-03-mc-simul-irt/</guid><description>&lt;p&gt;Saat mendapatkan pertanyaan perihal berbagai model estimasi dengan pendekatan teori respons butir [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sama sekali tidak ada ide mengenai hal ini, sempai terbersit apakah ada kaitannya dengan butir-butiran? Hasil telusur singkat mendapatkan bahwa Teori Respons Butir (IRT, Item Response Theory) merupakah salah satu pendekatan, yang lain adalah Teori Klasik, untuk melakukan analisis butir soal [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang salah satu penerapannya adalah pada soal ujian akhir semester matematika kelas VIII berbentuk pilihan ganda [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Setelah diskusi lebih lanjut, fokus pertanyaannya adalah pada metode simulasinya, seperti Monte Carlo. Terdapat artikel pengenalan simulasi Monte Carlo yang mengulas sejarah dan prinsip simulasi ini [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan bidang-bidang penerapan [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

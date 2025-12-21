@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025 on butiran</title><link>http://localhost:1313/butiran/tags/2025/</link><description>Recent content in 2025 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 27 May 2025 07:49:03 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/2025/index.xml" rel="self" type="application/rss+xml"/><item><title>si-np to rice sd</title><link>http://localhost:1313/butiran/25e54/</link><pubDate>Tue, 27 May 2025 07:49:03 +0700</pubDate><guid>http://localhost:1313/butiran/25e54/</guid><description>&lt;p&gt;A discussion has been started on studying influence of Si-NP on rice plant &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;, which is proceeded with simple SD system as follow.&lt;/p&gt;
+&lt;div class="mermaid"&gt;
+flowchart LR
+ %% Inputs
+ WA[/"Water"/]
+ LI[/"Lighting"/]
+ NU[/"Nutrients"/]
+ DI[/"Diseases"/]
+
+ %% Plant
+ P2["Plant i"]
+
+ %% Outputs
+ HE(["Height"])
+ BR(["Branches"])
+ LE(["Leaves"])
+ FR(["Fruit"])
+
+ %% Other plants (competition)
+ P1["Plant i-1"]
+ P3["Plant i+1"]
+
+ %% Influences
+ WA -- "(+)" --&gt; P2
+ LI -- "(+)" --&gt; P2
+ NU -- "(+)" --&gt; P2
+ DI -- "(-)" --&gt; P2
+
+ P2 -- "(+)" --&gt; HE
+ P2 -- "(+)" --&gt; BR
+ P2 -- "(+)" --&gt; LE
+ P2 -- "(+)" --&gt; FR
+
+ %% Competition effects
+ P1 -. "(-)" .-&gt; WA
+ P1 -. "(-)" .-&gt; NU
+ P3 -. "(-)" .-&gt; WA
+ P3 -. "(-)" .-&gt; NU
+
+&lt;/div&gt;
+
+&lt;p&gt;It shows that input for the plant are water, lighting, nutrients, and diseses, while outputs are height, branches, leaves, and fruits. There are also other plants as competitors in gaining the same water and nutrien resources.&lt;/p&gt;</description></item><item><title>p2mi-kk-mult 2025</title><link>http://localhost:1313/butiran/25d65/</link><pubDate>Sat, 26 Apr 2025 11:58:32 +0700</pubDate><guid>http://localhost:1313/butiran/25d65/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;10-dec-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/81/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.81&lt;/code&gt;
+&lt;/a&gt;
+ Result on haki update.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-nov-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/80/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.80&lt;/code&gt;
+&lt;/a&gt;
+ Final report upload.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;09-nov-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/73/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.73&lt;/code&gt;
+&lt;/a&gt;
+ Budget allocation for book and apc&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-nov-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/72/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.72&lt;/code&gt;
+&lt;/a&gt;
+ Re-approval of kjp-melly, correction.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-nov-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/71/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.71&lt;/code&gt;
+&lt;/a&gt;
+ Approval of kjp-melly, kjp-nis-f rejection.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-oct-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/70/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.70&lt;/code&gt;
+&lt;/a&gt;
+ Approval of kjp-nis-f.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-sep-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/69/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.69&lt;/code&gt;
+&lt;/a&gt;
+ Team member addition request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;03-sep-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/45/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.45&lt;/code&gt;
+&lt;/a&gt;
+ Progress report submission to myppm&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-sep-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/44/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.44&lt;/code&gt;
+&lt;/a&gt;
+ Unconfirmed paper id after payment.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;03-sep-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/43/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.43&lt;/code&gt;
+&lt;/a&gt;
+ Materials for progress report.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/42/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.42&lt;/code&gt;
+&lt;/a&gt;
+ Food brigade org with rector.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/41/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.41&lt;/code&gt;
+&lt;/a&gt;
+ Request of progress report-25, result-24.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;20-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/40/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.40&lt;/code&gt;
+&lt;/a&gt;
+ Support offer for ds in if by ak+sk.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/39/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.39&lt;/code&gt;
+&lt;/a&gt;
+ Info data industry bps-brin.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/38/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.38&lt;/code&gt;
+&lt;/a&gt;
+ Online meeting prep workshop data-spatial.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/37/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.37&lt;/code&gt;
+&lt;/a&gt;
+ Discussion fi-92 diks-apspig, salman+datuk.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/36/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.36&lt;/code&gt;
+&lt;/a&gt;
+ Meeting on bps to correct something.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/35/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.35&lt;/code&gt;
+&lt;/a&gt;
+ Members data request for patent proposal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/34/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.34&lt;/code&gt;
+&lt;/a&gt;
+ Notulen for tu-6 from ma-ss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/33/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.33&lt;/code&gt;
+&lt;/a&gt;
+ Discussion in tu-6 about 1230.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/32/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.32&lt;/code&gt;
+&lt;/a&gt;
+ Invitation for discussion in tu-7.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;30-jul-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/31/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.31&lt;/code&gt;
+&lt;/a&gt;
+ The fgd-1 on gas emission research.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-jul-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25d65/blob/main/30/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25d65.30&lt;/code&gt;
+&lt;/a&gt;
+ Preparation fo invitation to fgd-1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;28-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/4gs29"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;4gs29&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Dean decree for the res from gs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/kxf4u"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;kxf4u&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Budget plan rev-3 confirmation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This note triggers 
+&lt;a
+
+	
+	
+		href = "/butiran/25g74/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25g74
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;It was on 
+&lt;a
+
+	
+	
+		href = "https://osf.io/uqfwb/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		uqfwb &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Isma, Ismadi Amrin, &amp;ldquo;Brigade Pangan Kementan, Langkah Strategis Regenerasi dan Swasembada&amp;rdquo;, InfoPublik, 14 Mei 2025, url 
+&lt;a
+
+	
+	
+		href = "https://infopublik.id/kategori/nasional-ekonomi-bisnis/919173/brigade-pangan-kementan-langkah-strategis-regenerasi-dan-swasembada"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://infopublik.id/kategori/nasional-ekonomi-bisnis/919173/brigade-pangan-kementan-langkah-strategis-regenerasi-dan-swasembada &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250730].&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

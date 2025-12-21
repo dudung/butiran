@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Faiz Aulia Rahman on butiran</title><link>http://localhost:1313/butiran/authors/faiz-aulia-rahman/</link><description>Recent content in Faiz Aulia Rahman on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2023 07:40:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/butiran/authors/faiz-aulia-rahman/index.xml" rel="self" type="application/rss+xml"/><item><title>alignment clustering index for boid</title><link>http://localhost:1313/butiran/0043/</link><pubDate>Wed, 13 Sep 2023 07:40:00 +0800</pubDate><guid>http://localhost:1313/butiran/0043/</guid><description>&lt;h2 id="introduction"&gt;introduction&lt;/h2&gt;
+&lt;h3 id="boids"&gt;boids&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Boid stands for bird-oid object, signifying how it has been used to realistically represent flocks of birds or schools of fish without any special intelligence and easily translatable, standardized behaviours (
+&lt;a
+
+	
+	
+		href = "https://medium.com/fragmentblog/simulating-flocking-with-the-boids-algorithm-92aef51b9e00"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Vishwajith, 2021 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;Boid simulation is the simulation of the behaviour of creatures while moving in groups, where this movement pattern can be found in the school of fish, the flock of birds. (
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Shrestha, 2021 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;One application of the ideas involved in Boids and other swarm intelligence simulations is in the field of &amp;ldquo;swarm robotics&amp;rdquo;, where a key component in these systems is communication between individual robots in order to ensure that each is devoted to an appropriate task at hand (
+&lt;a
+
+	
+	
+		href = "https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/boids.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Wong, 2008 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="terminology"&gt;terminology&lt;/h3&gt;
+&lt;p&gt;Some terminology (
+&lt;a
+
+	
+	
+		href = "https://code.tutsplus.com/3-simple-rules-of-flocking-behaviors-alignment-cohesion-and-separation--gamedev-3444t"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Pemmaraju, 2013 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+)&lt;/p&gt;</description></item></channel></rss>

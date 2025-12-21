@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agent-Based Modeling on butiran</title><link>http://localhost:1313/butiran/tags/agent-based-modeling/</link><description>Recent content in Agent-Based Modeling on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 20:49:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/agent-based-modeling/index.xml" rel="self" type="application/rss+xml"/><item><title>agent-based modeling</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/25/2021-12-09-agent-based-modeling/</link><pubDate>Thu, 09 Dec 2021 20:49:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/25/2021-12-09-agent-based-modeling/</guid><description>&lt;p&gt;Dalam pemodelan berbasis agent atau agent-based modeling (ABM), suatu sistem dimodelkan sebagai kumpulan koleksi entitas autonomus yang dapat memberikan keputusan, yang disebut sebagai agen [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. ABM merupakan suatu teknik simulasi bottom-up, di mana kita menganalisa suatu sistem, dengan mendefinisikan metrik tertentu, melalui agen-agent individual sistem yang berinteraksi satu sama lain [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga ABM ini dapat dikatakan sebagai model suatu sistem yang dipengaruhi oleh individual dari sistem tersebut [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tanpa mengurangi kecanggihan yang terdapat pada ABM, salah satu kekurangan utamanya adalah ketidakmampuan untuk menggunakan serta mengintegrasikan data dalam membuat prediksi jangka pendek [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

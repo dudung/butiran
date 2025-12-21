@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mochammad Agoes Moelyadi on butiran</title><link>http://localhost:1313/butiran/tags/mochammad-agoes-moelyadi/</link><description>Recent content in Mochammad Agoes Moelyadi on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Dec 2021 18:52:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/mochammad-agoes-moelyadi/index.xml" rel="self" type="application/rss+xml"/><item><title>num method trans flow</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-21-num-method-trans-flow/</link><pubDate>Fri, 24 Dec 2021 18:52:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-21-num-method-trans-flow/</guid><description>&lt;p&gt;Prediksi yang lebih baik pada aliran transisi, suatu aliran penentu berubahnya aliran laminar menjadi aliran turbulen pada bagian atas, yang mempertimbangkan faktor-faktor yang berpengaruh seperti gradien tekanan, turbulen stream bebas, transfer panas, dan kekasaran permukaan, telah dikembangkan dengan menyelesaikan persamaan IBL (Integral Boundary Layer) dan RANS (Reynolds Average Navier-Stokes), di mana yang pertama solusinya diperoleh melalui metode integrasi ruang Runge-Kutta order dua dengan kode yang ditulis menggunakan Python, sedngkan yang kedua memanfaatkan piranti lunak OpenFOAM yang berbasis metode volume hingga atau Finite Volume Method (FVM), telah memberikan hasil simulasi dengan akurasi yang cukup tinggi saat dibandingkan dengan berbagai data eksperimen yang tersedia bersesuaian dengan faktor pengaruh letak transisi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simpson Rule on butiran</title><link>http://localhost:1313/butiran/tags/simpson-rule/</link><description>Recent content in Simpson Rule on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Mar 2022 16:14:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/simpson-rule/index.xml" rel="self" type="application/rss+xml"/><item><title>simpson rule</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/30/2022-02-26-simpson-rule/</link><pubDate>Wed, 09 Mar 2022 16:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/30/2022-02-26-simpson-rule/</guid><description>&lt;p&gt;Salah satu metode integrasi numerik dengan partisi adalah aturan Simpson, yang membagi luas di bawah kurva dengan partisi-partisi berjumlah genap yang dibatasi kurva parabola dan sumbu mendatar [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Metode ini memerlukan jumlah titik $N \ge 2$ dan $N /2 = \lfloor N/2 \rfloor$. Dengan demikian bila digunakan jumlah partisi $N$ yang dianggap pasti bernilai genap diperoleh faktor pembagi pada lebar partisi yang berbeda [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dibandingkan dengan memilih bahwa $N = 2M$ [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

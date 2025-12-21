@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Learning on butiran</title><link>http://localhost:1313/butiran/tags/machine-learning/</link><description>Recent content in Machine Learning on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 10 May 2024 05:13:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>learn tf with pattern</title><link>http://localhost:1313/butiran/2035/</link><pubDate>Fri, 10 May 2024 05:13:00 +0700</pubDate><guid>http://localhost:1313/butiran/2035/</guid><description>&lt;p&gt;Learning machine learning using tensor flow with intuition&lt;/p&gt;</description></item><item><title>ffnn schematic and matrix</title><link>http://localhost:1313/butiran/2018/</link><pubDate>Mon, 22 Apr 2024 09:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/2018/</guid><description>&lt;p&gt;Schematic for feed forward neural network and its matrix&lt;/p&gt;</description></item><item><title>generate synthetic data for ml</title><link>http://localhost:1313/butiran/2017/</link><pubDate>Sun, 21 Apr 2024 22:19:00 +0700</pubDate><guid>http://localhost:1313/butiran/2017/</guid><description>&lt;p&gt;How to generate synthetic data for ML understanding&lt;/p&gt;</description></item><item><title>stress-strain analysis for ml</title><link>http://localhost:1313/butiran/2014/</link><pubDate>Thu, 18 Apr 2024 03:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/2014/</guid><description>&lt;p&gt;Short intro about stress-stress analysis for machine learning&lt;/p&gt;</description></item><item><title>activation function intro</title><link>http://localhost:1313/butiran/2012/</link><pubDate>Tue, 16 Apr 2024 22:52:00 +0700</pubDate><guid>http://localhost:1313/butiran/2012/</guid><description>&lt;p&gt;Short info about activation function&lt;/p&gt;</description></item><item><title>where to find ml datasets</title><link>http://localhost:1313/butiran/2010/</link><pubDate>Sun, 14 Apr 2024 21:42:00 +0700</pubDate><guid>http://localhost:1313/butiran/2010/</guid><description>&lt;p&gt;Finding machine learning datasets&lt;/p&gt;</description></item><item><title>machine learning on medium</title><link>http://localhost:1313/butiran/2009/</link><pubDate>Sat, 13 Apr 2024 06:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/2009/</guid><description>&lt;p&gt;Finding stories about machine learning on Medium&lt;/p&gt;</description></item><item><title>online ann ml</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/31/2021-12-24-online-ann-ml/</link><pubDate>Fri, 24 Dec 2021 21:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/31/2021-12-24-online-ann-ml/</guid><description>&lt;p&gt;Karena penggunaan istilah artificial intelligence, machine learning, neural network, dan deep learning sering saling dipertukarkan, perlu cara penjelasan yang cukup sederhana untuk menjelaskan keterkaitan antar istilah ini, yang telah secara menarik dan lugas dapat diilustrasikan menggunakan boneka-boneka Rusia yang saling mengisi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana penggambaran menggunakan diagram Venn untuk anggota himpunan mungkin lebih baik [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk mempelajari artificial neural network (ANN), atau lebih dikenal hanya sebagai neural network (NN), dewasa ini dapat dilakukan dengan langsung mencobanya secara daring, mulai dari yang memiliki antarmuka sederhana dan hanya menampilkan arsitektur jaringannya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dilengkapi dengan hyperplane [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sampai dilengkapi visualisasi menarik [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] sehingga dapat dikembangkan menjadi semacam kalkulator NN dalam merancang detektor trojan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat pula platform yang lebih terintegrasi dan dapat diterapkan ke bisnis [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+,
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>slr ls gradient descent</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/21/2021-04-20-slr-ls-gradient-descent/</link><pubDate>Wed, 21 Apr 2021 09:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/21/2021-04-20-slr-ls-gradient-descent/</guid><description>&lt;p&gt;Regresi merupakan salah satu permasalahan dalam machine learning (ML) dengan cara belajar supervised learning [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="linear-regression"&gt;linear regression&lt;/h2&gt;
+&lt;p&gt;Untuk satu variabel bebas $x$ dan satu variabel terikat $y$ suatu prediktor dalam bentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:0265-0}
+y = a + bx,
+\end{equation}&lt;/p&gt;
+&lt;p&gt;nilai $a$ dan $b$ dapat diperoleh menggunakan regresi linier.&lt;/p&gt;
+&lt;h2 id="least-square"&gt;least square&lt;/h2&gt;
+&lt;p&gt;Bila terdapat pasangan data $\{(x_i, y_i) \ | \ i = 1, 2, .., N \}$ nilai $a$ dan $b$ dapat diperoleh menggunakan least square yang menghasilkan&lt;/p&gt;</description></item></channel></rss>

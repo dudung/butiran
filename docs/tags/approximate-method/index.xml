@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Approximate Method on butiran</title><link>http://localhost:1313/butiran/tags/approximate-method/</link><description>Recent content in Approximate Method on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 25 Jan 2022 17:30:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/approximate-method/index.xml" rel="self" type="application/rss+xml"/><item><title>basic method</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/42/2022-01-25-basic-method/</link><pubDate>Tue, 25 Jan 2022 17:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/42/2022-01-25-basic-method/</guid><description>&lt;p&gt;Berdasarkan kebiasaan metode-metode untuk menyelesaikan masalah dalam fisika matematika dapat dibagi menjadi dua kelas, metode analitik (analytical methods) dan metode hampiran (aproximate methods) [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam matematika beberapa masalah dapat dipecahkan secara analitik dan numerik, dengan metoda analitik lebih disukai karena lebih cepat dan solusinya eksak [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Solusi eksak dalam fisika digunakan untuk solusi yang menangkap keseluruhan aspek fisika dan matematika suatu masalah [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], karena tidak menggunakan aproksimasi [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan merupakan representasi simbolik [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang bila cukup dengan jumlah data berhingga akan menjadi bentuk tertutup atau closed form [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam komputasi matematika metode iteratif (iterative method) merupakan prosedur matematika yang menggunakan nilai awal untuk menghasilkan rangkaian hampiran solusi yang lebih baik dengan kriteria penghentian tertentu, di mana metode ini berlawanan dengan metode langsung (direct method) yang menyelesaikan masalah dengan sejumlah berhingga rangkaian operasi [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

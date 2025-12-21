@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Js on butiran</title><link>http://localhost:1313/butiran/tags/js/</link><description>Recent content in Js on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 18:53:24 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/js/index.xml" rel="self" type="application/rss+xml"/><item><title>select option</title><link>http://localhost:1313/butiran/25k13/</link><pubDate>Thu, 06 Nov 2025 18:53:24 +0700</pubDate><guid>http://localhost:1313/butiran/25k13/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+function addOption(sel, text) {
+ let opt = document.createElement("option");
+ opt.text = text;
+ sel.add(opt);
+}
+
+let cnt = document.getElementById("cnt");
+cnt.style.marginTop = "1em";
+cnt.style.background = "#f8f8f8";
+cnt.style.border = "1px solid #ddd";
+
+let inSel = document.createElement("select");
+inSel.style.width = "320px";
+inSel.size = 10;
+
+addOption(inSel, "Problem 01: Magnetic field near long wire");
+addOption(inSel, "Problem 02: Lorentz force");
+addOption(inSel, "Problem 03: Wave equation");
+addOption(inSel, "Problem 04: Solution of wave equation");
+addOption(inSel, "Problem 05: Standing and traveling waves");
+addOption(inSel, "Problem 06: Electromagnetic wave propagation");
+addOption(inSel, "Problem 07: Snell's law");
+addOption(inSel, "Problem 08: Lenses and mirrors");
+addOption(inSel, "Problem 09: Physics of semiconductor and diode");
+addOption(inSel, "Problem 10: Physics of transistor and active components");
+
+cnt.append(inSel);
+inSel.options[0].selected = true;
+inSel.focus();
+
+ });
+&lt;/script&gt;
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;sel&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;text&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;option&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;text&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;text&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;add&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;opt&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;getElementById&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;cnt&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;marginTop&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;1em&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;background&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;#f8f8f8&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;border&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;1px solid #ddd&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;select&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;width&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;320px&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;size&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 01: Magnetic field near long wire&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 02: Lorentz force&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 03: Wave equation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 04: Solution of wave equation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 05: Standing and traveling waves&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 06: Electromagnetic wave propagation&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 07: Snell&amp;#39;s law&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 08: Lenses and mirrors&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 09: Physics of semiconductor and diode&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;addOption&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Problem 10: Physics of transistor and active components&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;append&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;options&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;selected&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;inSel&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;focus&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>canvas xy scatter no axis</title><link>http://localhost:1313/butiran/25k08/</link><pubDate>Tue, 04 Nov 2025 17:57:30 +0700</pubDate><guid>http://localhost:1313/butiran/25k08/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+let cnt = document.getElementById("cnt");
+cnt.style.border = "1px solid magenta";
+cnt.style.display = "flex";
+
+let btnDiv = document.createElement("div");
+btnDiv.style.border = "1px solid red";
+btnDiv.style.width = "140px";
+btnDiv.style.display = "flex";
+btnDiv.style.flex = "1";
+
+let btnDraw = document.createElement("button");
+btnDraw.innerHTML = "Draw";
+btnDraw.style.flex = "1";
+
+let btnClear = document.createElement("button");
+btnClear.innerHTML = "Clear";
+btnClear.style.flex = "1";
+
+let leftDiv = document.createElement("div");
+leftDiv.style.border = "1px solid blue";
+leftDiv.style.width = "140px";
+leftDiv.style.height = "240px";
+leftDiv.style.display = "flex";
+leftDiv.style.flexDirection = "column";
+
+let inTxa = document.createElement("textarea");
+inTxa.style.overflowY = "scroll";
+inTxa.style.flex = "8";
+inTxa.style.height = "150px";
+
+let rightDiv = document.createElement("div");
+rightDiv.style.border = "1px solid green";
+rightDiv.style.width = "240px";
+rightDiv.style.height = "240px";
+rightDiv.style.display = "flex";
+
+cnt.append(leftDiv);
+ leftDiv.append(btnDiv);
+ btnDiv.append(btnDraw);
+ btnDiv.append(btnClear);
+ leftDiv.append(inTxa);
+cnt.append(rightDiv);
+
+ });
+&lt;/script&gt;</description></item><item><title>js button with caption</title><link>http://localhost:1313/butiran/25j66/</link><pubDate>Mon, 27 Oct 2025 21:10:02 +0700</pubDate><guid>http://localhost:1313/butiran/25j66/</guid><description>&lt;h2 id="result"&gt;result&lt;/h2&gt;
+
+
+&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+let cnt = document.getElementById("cnt");
+
+let btn = document.createElement("button");
+btn.innerHTML = "Start";
+btn.style.marginTop = "1em";
+
+cnt.append(btn);
+
+ });
+&lt;/script&gt;
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;runner&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;cnt&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt; = &lt;span style="color:#a6e22e"&gt;document&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;getElementById&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;cnt&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt; = &lt;span style="color:#a6e22e"&gt;document&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;button&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;innerHTML&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;Start&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;marginTop&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;1em&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.append(&lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; &lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#f92672"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;runner&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refs are 
+&lt;a
+
+	
+	
+		href = "/butiran/25a66"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25a66
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/butiran/25d48/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25d48
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, and others.&lt;/li&gt;
+&lt;li&gt;Current example does not use &lt;code&gt;loader&lt;/code&gt; but only &lt;code&gt;runner&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>fetch backend</title><link>http://localhost:1313/butiran/25g54/</link><pubDate>Sat, 19 Jul 2025 09:00:06 +0700</pubDate><guid>http://localhost:1313/butiran/25g54/</guid><description>&lt;script src="http://localhost:1313/butiran/js/src/25e41.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25g54.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt1"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+main_25g54();
+
+ });
+&lt;/script&gt;
+
+&lt;h2 id="apppy"&gt;app.py&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-py" data-lang="py"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# flask --app app run --debug --port=5500&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; flask &lt;span style="color:#f92672"&gt;import&lt;/span&gt; Flask, request, jsonify
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; flask_cors &lt;span style="color:#f92672"&gt;import&lt;/span&gt; CORS
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;app &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Flask(__name__)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CORS(app, resources&lt;span style="color:#f92672"&gt;=&lt;/span&gt;{&lt;span style="color:#e6db74"&gt;r&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;/*&amp;#34;&lt;/span&gt;: {&lt;span style="color:#e6db74"&gt;&amp;#34;origins&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;http://localhost:1313&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;https://dudung.github.io&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;https://dudung.github.io/butiran&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;]}})
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;@app.route&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;/&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;home&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;Request from Origin:&amp;#34;&lt;/span&gt;, request&lt;span style="color:#f92672"&gt;.&lt;/span&gt;headers&lt;span style="color:#f92672"&gt;.&lt;/span&gt;get(&lt;span style="color:#e6db74"&gt;&amp;#34;Origin&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;a response from butiran-backend on pythonanywhere&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="in-post"&gt;in post&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;main_25g54&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main_25g54&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;getElementById&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;cnt1&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;display&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;flex&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style2&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;300px&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;height&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;200px&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;overflowY&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;scroll&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;txa&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;textarea&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;style2&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;txa&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;id&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;txa1&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style3&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;height&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;25px&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;60px&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;button&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;style3&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;innerHTML&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Fetch&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;appendChild&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;txa&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;cnt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;appendChild&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;addEventListener&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, () =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;click&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;baseURL&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;location&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;hostname&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;includes&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;?&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;http://localhost:5500/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;https://butiran.pythonanywhere.com/&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fetch&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;baseURL&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; .&lt;span style="color:#a6e22e"&gt;then&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;response&lt;/span&gt; =&amp;gt; &lt;span style="color:#a6e22e"&gt;response&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;text&lt;/span&gt;())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; .&lt;span style="color:#a6e22e"&gt;then&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;data&lt;/span&gt; =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;txa&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;value&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;data&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; .&lt;span style="color:#66d9ef"&gt;catch&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;error&lt;/span&gt; =&amp;gt; &lt;span style="color:#a6e22e"&gt;txa&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;value&lt;/span&gt; &lt;span style="color:#f92672"&gt;+=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Error fetching data:&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;error&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>simple stats</title><link>http://localhost:1313/butiran/25e44/</link><pubDate>Thu, 22 May 2025 16:47:24 +0700</pubDate><guid>http://localhost:1313/butiran/25e44/</guid><description>&lt;p&gt;This app accepts numbers only separated by delimiters semicolon or &amp;quot;;&amp;quot;, e.g. &lt;strong&gt;&lt;code&gt;1;2;2;3;3;3;4;4;4;4;5;5&lt;/code&gt;&lt;/strong&gt; that you can copy and paste to the left textarea below.&lt;/p&gt;
+
+&lt;script src="http://localhost:1313/butiran/js/src/25e44.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt0"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+const cnt = document.getElementById("cnt0");
+
+const style1 = {
+ border: "1px solid #888",
+ width: "450px",
+ height: "220px",
+ display: "flex",
+};
+const div = createElement("div", style1);
+
+const style2 = {
+ overflowY: "scroll",
+ flex: "5",
+};
+const inp = createElement("textarea", style2);
+
+const style3 = {
+ flex: "1",
+ height: "32px",
+};
+const btn = createElement("button", style3);
+btn.innerHTML = "Calc";
+
+const style4 = {
+ overflowY: "scroll",
+ flex: "3",
+};
+const out = createElement("textarea", style4);
+out.disabled = true;
+
+cnt.appendChild(div);
+div.appendChild(inp);
+div.appendChild(btn);
+div.appendChild(out);
+
+inp.value = "";
+
+btn.addEventListener("click", calc);
+
+function calc() {
+ const text = calcFromTextarea(inp);
+ out.value = text.join("\n");
+}
+
+ });
+&lt;/script&gt;
+
+&lt;p&gt;Left textarea are for input numbers and right textarea are for output statistics. Click &lt;span style="
+ display: inline-block;
+ padding: 0.35em 0.75em;
+ font-size: 0.875rem;
+ font-family: system-ui, sans-serif;
+ color: black;
+ background-color: #f0f0f0;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-shadow: inset 0 1px 0 #fff;
+ user-select: none;
+ vertical-align: middle;
+ line-height: 1.2;
+"&gt;
+ Calc
+&lt;/span&gt;
+ to obtain the statistics.&lt;/p&gt;</description></item><item><title>script loader and runner</title><link>http://localhost:1313/butiran/25d48/</link><pubDate>Wed, 16 Apr 2025 16:26:38 +0700</pubDate><guid>http://localhost:1313/butiran/25d48/</guid><description>&lt;h2 id="purpose"&gt;purpose&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The loader loads JavaScript files sfiles from the &lt;code&gt;static/js&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;The runner runs JavaScript within a Hugo post or note.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="script-loader"&gt;script loader&lt;/h2&gt;
+&lt;p&gt;It is saved as &lt;code&gt;loader.html&lt;/code&gt; in folder &lt;code&gt;layouts/shortcodes/script&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $baseURL := site.BaseURL }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ range split .Inner &amp;#34;\n&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- $script := trim . &amp;#34; \r&amp;#34; -}} &lt;span style="color:#75715e"&gt;&amp;lt;!-- Trim spaces and possible trailing \r --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- if ne $script &amp;#34;&amp;#34; -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;script&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;src&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;{{ printf &amp;#34;&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;%&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;sjs&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/%&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;s&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;?&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;v&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;1&amp;#34;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;baseURL&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;script&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;|&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;relURL&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;}}&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style="color:#f92672"&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{- end -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ end }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="script-runner"&gt;script runner&lt;/h2&gt;
+&lt;p&gt;It is saved as &lt;code&gt;runner.html&lt;/code&gt; in folder &lt;code&gt;layouts/shortcodes/script&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>shortcodes script loader and runner</title><link>http://localhost:1313/butiran/25a66/</link><pubDate>Wed, 29 Jan 2025 17:40:19 +0700</pubDate><guid>http://localhost:1313/butiran/25a66/</guid><description>&lt;ul&gt;
+&lt;li&gt;Shortcodes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;loader&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;experimental&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;js&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;loader&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;runner&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;=&lt;span style="color:#e6db74"&gt;&amp;#34;div1&amp;#34;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;display&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;)&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;on&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;div1&amp;#34;&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;script&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;runner&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src="http://localhost:1313/butiran/js/experimental.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="div1"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+display("Hello, World!").on("div1");
+
+ });
+&lt;/script&gt;</description></item><item><title>future-js</title><link>http://localhost:1313/butiran/25a18/</link><pubDate>Tue, 07 Jan 2025 18:24:43 +0700</pubDate><guid>http://localhost:1313/butiran/25a18/</guid><description/></item><item><title>some html elements with js on hugo</title><link>http://localhost:1313/butiran/2007/</link><pubDate>Thu, 11 Apr 2024 05:19:00 +0700</pubDate><guid>http://localhost:1313/butiran/2007/</guid><description>&lt;p&gt;Display HTML elements on Hugo with JS&lt;/p&gt;</description></item><item><title>fun with random number js css html</title><link>http://localhost:1313/butiran/2006/</link><pubDate>Wed, 10 Apr 2024 21:28:00 +0700</pubDate><guid>http://localhost:1313/butiran/2006/</guid><description>&lt;p&gt;Random number for CSS and HTML using JS&lt;/p&gt;</description></item><item><title>Generate data for circle</title><link>http://localhost:1313/butiran/1811/</link><pubDate>Fri, 12 Jan 2024 16:38:01 +0700</pubDate><guid>http://localhost:1313/butiran/1811/</guid><description>&lt;p&gt;Generate data points for circle using Vanilla JS.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Print on butiran</title><link>http://localhost:1313/butiran/tags/print/</link><description>Recent content in Print on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Feb 2022 18:08:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/print/index.xml" rel="self" type="application/rss+xml"/><item><title>py list matrix 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d/</link><pubDate>Wed, 16 Feb 2022 18:08:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-16-py-list-matrix-2d/</guid><description>&lt;p&gt;Perlu kehati-hatian dalam memanfaatkan list 2d dalam Python [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pemanfaatan list tersebut sebagai matriks 2d dan bagaimana menampilkan isinya disajikan di sini secara sederhana dan ringkas.&lt;/p&gt;
+&lt;h2 id="2d-matrix"&gt;2d matrix&lt;/h2&gt;
+&lt;p&gt;Suatu matriks 2d dapat dituliskan dalam bentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:matrix-2d}
+A = \left[
+\begin{array}{ccc}
+1 &amp;amp; 0 &amp;amp; 8 \newline
+2 &amp;amp; 0 &amp;amp; 7 \newline
+3 &amp;amp; 0 &amp;amp; 6 \newline
+4 &amp;amp; 0 &amp;amp; 5 \newline
+\end{array}
+\right],
+\end{equation}&lt;/p&gt;</description></item></channel></rss>

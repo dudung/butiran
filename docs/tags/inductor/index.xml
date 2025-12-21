@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inductor on butiran</title><link>http://localhost:1313/butiran/tags/inductor/</link><description>Recent content in Inductor on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Mar 2022 06:51:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/inductor/index.xml" rel="self" type="application/rss+xml"/><item><title>ac rlc series</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/57/2022-03-16-ac-rlc-series/</link><pubDate>Wed, 16 Mar 2022 06:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/57/2022-03-16-ac-rlc-series/</guid><description>&lt;p&gt;Pada rangkaian seri arus yang melewati semua komponen listrik memiliki nilai yang sama. Untuk arus bolak-balik prinsip ini pun tetap berlaku. Dengan menggunakan tegangan pada resistor [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], induktor [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan kapasitor [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dapat dibahas tegangan total pada rangkaian RLC seri yang diberik arus bolak-balik.&lt;/p&gt;
+&lt;h2 id="current-source"&gt;current source&lt;/h2&gt;
+&lt;p&gt;Sumber arus bolak-balik memiliki fungsi&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:ac-current-source}
+I(t) = I_m \sin (\omega t + \varphi),
+\end{equation}&lt;/p&gt;</description></item><item><title>ac inductor</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/57/2022-03-16-ac-inductor/</link><pubDate>Wed, 16 Mar 2022 05:38:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/57/2022-03-16-ac-inductor/</guid><description>&lt;p&gt;Arus ketinggalan dengan fasa sebesar $\frac12 \pi$ dari tegangan pada induktor dalam sebuah rangkaian arus bola-balik [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau dapat dikatakan bahwa fasa tegangan mendahului arusnya pada induktor yang diberi arus bolak-balik.&lt;/p&gt;
+&lt;h2 id="current-source"&gt;current source&lt;/h2&gt;
+&lt;p&gt;Sumber arus bolak-balik memiliki fungsi&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:ac-current-source}
+I(t) = I_m \sin (\omega t + \varphi),
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dengan $I(t)$ arus sebagai fungsi waktu, $I_m$ amplitudo atau nilai maksimum arus, $\omega$ frekuensi angular, $t$ waktu, dan $\varphi$ adalah fasa awal.&lt;/p&gt;</description></item></channel></rss>

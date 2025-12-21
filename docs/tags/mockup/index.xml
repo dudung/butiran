@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mockup on butiran</title><link>http://localhost:1313/butiran/tags/mockup/</link><description>Recent content in Mockup on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 24 Jun 2025 07:33:47 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/mockup/index.xml" rel="self" type="application/rss+xml"/><item><title>mockup mult-energ-det</title><link>http://localhost:1313/butiran/25f63/</link><pubDate>Tue, 24 Jun 2025 07:33:47 +0700</pubDate><guid>http://localhost:1313/butiran/25f63/</guid><description>&lt;p&gt;A mockup for multi-energy particles detector mechanism (dark red: lowest energy, dark green: highest energy);&lt;/p&gt;
+
+&lt;script src="http://localhost:1313/butiran/js/src/25e41.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25e60.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f45.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f49.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f51.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f53.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f54.js?v=1766295403"&gt;&lt;/script&gt;&lt;script src="http://localhost:1313/butiran/js/src/25f63.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt1"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+const cnt = document.getElementById("cnt1");
+
+const style2 = {
+ display: "flex",
+ border: "0px #aaf solid",
+ background: "#fafaff",
+ width: "800px",
+ height: "250px",
+};
+const div = createElement("div", style2);
+
+const style3 = {
+ flex: "1",
+ overflowY: "scroll",
+};
+const txa = createElement("textarea", style3);
+
+const style4 = {
+ borderTop: "1px #888 solid",
+ borderBottom: "1px #888 solid",
+ background: "#fafafa",
+ width: "80px",
+};
+const subdiv = createElement("div", style4);
+
+const style5 = {
+ width: "400px",
+ height: "250px",
+ border: "1px #888 solid",
+ flexShrink: "0",
+ boxSizing: "border-box",
+ background: "#fff",
+};
+const can = createElement("canvas", style5);
+can.width = "400";
+can.height = "250";
+can.id = "can-out";
+
+const style6 = {
+ width: "100%",
+ display: "block",
+};
+const btnSample = createElement("button", style6);
+btnSample.innerHTML = "Sample";
+
+const btnRead = createElement("button", style6);
+btnRead.innerHTML = "Read";
+
+const btnAbout = createElement("button", style6);
+btnAbout.innerHTML = "About";
+
+const btnRun = createElement("button", style6);
+btnRun.innerHTML = "Start";
+
+const btnClear = createElement("button", style6);
+btnClear.innerHTML = "Clear";
+
+btnRead.disabled = true;
+btnRun.disabled = true;
+
+const style7 = {
+ border: "1px solid #888",
+ height: "20px",
+ paddingLeft: "0.5em",
+ lineHeight: "1.2em",
+ fontFamily: "Consolas",
+ fontSize: "14px",
+};
+const divTime = createElement("div", style7);
+divTime.id = "div-time";
+
+const style8 = {
+ height: "116px",
+ display: "flex",
+ alignItems: "flex-end",
+ padding: "2px",
+};
+const divBar = createElement("div", style8);
+divBar.id = "div-bar";
+
+
+cnt.appendChild(div);
+ div.append(txa);
+ div.append(subdiv);
+ subdiv.append(btnAbout);
+ subdiv.append(btnSample);
+ subdiv.append(btnClear);
+ subdiv.append(btnRead);
+ subdiv.append(btnRun);
+ subdiv.append(divTime);
+ subdiv.append(divBar);
+ div.append(can);
+
+btnAbout.addEventListener("click", () =&gt; {
+ let text = "";
+ text += "\nProject: mepd";
+ text += "\nAuthor: Sparisoma Viridi";
+ text += "\nVersion: 0.1 (2025)";
+ text += "\nDescription: Mockup for multi-energy particle detection mechanism.";
+ text += "\nGitHub: https://github.com/dudung";
+ alert(text);
+});
+
+btnClear.addEventListener("click", () =&gt; {
+ clearInput(txa);
+ btnRead.disabled = true;
+ btnRun.disabled = true;
+});
+
+btnSample.addEventListener("click", () =&gt; {
+ clearInput(txa);
+ addHeader(txa);
+ addBlankLine(txa);
+ addWorld3(txa); /* v3 */
+ addBlankLine(txa);
+ addEnclosedWall3(txa); /* v3 */
+ addBlankLine(txa);
+ addContainerWall3(txa); /* v3 */
+ addBlankLine(txa);
+
+ addFilters(txa);
+ addBlankLine(txa);
+
+ addMovementProbabilityMatrix3(txa); /* v3 */
+ addAgents3(txa); /* v3 */
+
+ btnRead.disabled = false;
+});
+
+btnRead.addEventListener("click", () =&gt; {
+ let line = getLineFromTextarea(txa, "WORLD");
+ 
+ if(line != undefined) {
+ let dim = getValueAfterKeyword("WORLD", line).map(Number);
+ world = createZeroMatrix(dim[1], dim[0]);
+
+ let lines1 = getLinesFromTextarea(txa, "WALL");
+ for(let l of lines1) {
+ const w = getValueAfterKeyword("WALL", l).map(Number);
+ drawWall(world, [w[0], w[1]], [w[2], w[3]], w[4]);
+ }
+ 
+ agents = [];
+ let lines2 = getLinesFromTextarea(txa, "AGENT");
+ for(let l of lines2) {
+ const a = getValueAfterKeyword("AGENT", l).map(Number);
+ drawAgent(world, [a[0], a[1]], a[2]);
+ 
+ agents.push(a);
+ }
+ 
+ drawMatrixOnCanvas(can, world, getColor)
+ 
+ let blocks = getBlocksFromTextarea(txa, "MPMAT", 3);
+ mpm = {};
+ for(let b of blocks) {
+ const t = getValueAfterKeyword("MPMAT", b[0]);
+ const m = getMatrixAfterKeyWord("MPMAT " + t, b, [3, 3]);
+ mpm[t] = m;
+ }
+ 
+ t = 0;
+ }
+ 
+ btnRun.disabled = false;
+});
+
+txa.addEventListener("input", () =&gt; {
+ btnRead.disabled = false;
+});
+
+btnRun.addEventListener("click", () =&gt; {
+ if(btnRun.innerHTML == "Start") {
+ btnAbout.disabled = true;
+ btnSample.disabled = true;
+ btnClear.disabled = true;
+ btnRead.disabled = true;
+ btnRun.innerHTML = "Stop";
+ timer = setInterval(simulate2, interval);
+ } else {
+ btnAbout.disabled = false;
+ btnSample.disabled = false;
+ btnClear.disabled = false;
+ btnRead.disabled = false;
+ btnRun.innerHTML = "Start";
+ clearInterval(timer);
+ }
+});
+
+ });
+&lt;/script&gt;
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a part of 
+&lt;a
+
+	
+	
+		href = "/butiran/25c26/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25c26
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ project in investigating particles energy.&lt;/li&gt;
+&lt;li&gt;Next plan is to obtain comments and suggestions in the next meeting for improvement.&lt;/li&gt;
+&lt;li&gt;Visualization might be required to display the result (L, M, R values) graphically. ✓&lt;/li&gt;
+&lt;li&gt;Visual illutsration of real system is 
+&lt;a
+
+	
+	
+		href = "https://www.cell.com/cms/10.1016/j.matt.2024.05.029/asset/e0a5bf58-f300-4be3-bca6-2f015c212e0e/main.assets/fx1_lrg.jpg"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		fx1_lrg.jpg &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/j.matt.2024.05.029"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		an artikel &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&amp;#x1f6a7; Next stage is to simulate single granular particle with particular energy (in term of velocity) hitting barrier consists of array of fixed granular particles with certain crystal configuration in order to observe the energy loss during traveling in the barrier material as discussed with rk on 26-jun-2025.
+&lt;ul&gt;
+&lt;li&gt;After this try to oscillated the barrier to get the resonance effect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

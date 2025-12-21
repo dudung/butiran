@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fi4091 on butiran</title><link>http://localhost:1313/butiran/tags/fi4091/</link><description>Recent content in Fi4091 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 09 Nov 2023 19:32:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/fi4091/index.xml" rel="self" type="application/rss+xml"/><item><title>granular column collapse 2</title><link>http://localhost:1313/butiran/0148/</link><pubDate>Thu, 09 Nov 2023 19:32:00 +0800</pubDate><guid>http://localhost:1313/butiran/0148/</guid><description>&lt;h2 id="activities"&gt;activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;09-nov-2023&lt;/code&gt; Online meeting for progress report.
+&lt;ul&gt;
+&lt;li&gt;About 1 hour: 20:06 - 21:07.&lt;/li&gt;
+&lt;li&gt;Google Meet 
+&lt;a
+
+	
+	
+		href = "https://meet.google.com/xpz-eefp-vbn"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		xpz-eefp-vbn &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;GitHub Repo 
+&lt;a
+
+	
+	
+		href = "https://github.com/nawafalfa/final-year-project/tree/e357769d"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		e357769d &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ 07-0ct-2023&lt;/li&gt;
+&lt;li&gt;Comment: $L^*$ and $H^*$ own experiment and others in the same row, do not mix column and row placement.&lt;/li&gt;
+&lt;li&gt;Capilary force decreases as water content increases, make sure it is experiment. ✓&lt;/li&gt;
+&lt;li&gt;Calculate roughly or with image processing the change of center of mass in $x$ and $y$ direction.&lt;/li&gt;
+&lt;li&gt;Formulate a model for it.&lt;/li&gt;
+&lt;li&gt;Calculate μL water conten between three grains to mimic reported result from other.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous note is 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		0113 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, before lecture-notes.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>granular column collapse</title><link>http://localhost:1313/butiran/0113/</link><pubDate>Wed, 25 Oct 2023 18:36:00 +0800</pubDate><guid>http://localhost:1313/butiran/0113/</guid><description>&lt;h2 id="activities"&gt;activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;26-oct-2023&lt;/code&gt; Presenting TA-1 on 1300 in 1204,
+&lt;ul&gt;
+&lt;li&gt;rev 
+&lt;a
+
+	
+	
+		href = "https://www.itb.ac.id/staf/profil/muhammad-rizqie-arbie"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		RQ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+,&lt;/li&gt;
+&lt;li&gt;doc 
+&lt;a
+
+	
+	
+		href = "https://www.instagram.com/p/Cy2hfjCv3_q/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Cy2hfjCv3_q &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+,&lt;/li&gt;
+&lt;li&gt;res 
+&lt;a
+
+	
+	
+		href = "https://osf.io/tdacy"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		tdacy &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25-oct-2023&lt;/code&gt; Slide 
+&lt;a
+
+	
+	
+		href = "https://osf.io/8yhc7"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		8yhc7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17-oct-2023&lt;/code&gt; Form sidang 
+&lt;a
+
+	
+	
+		href = "https://osf.io/96rg2"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		96rg2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-oct-2023&lt;/code&gt; Catatan bimbingan 
+&lt;a
+
+	
+	
+		href = "https://osf.io/ge2vz"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		ge2vz &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16-oct-2023&lt;/code&gt; Draft TA 1 
+&lt;a
+
+	
+	
+		href = "https://osf.io/bhnmx"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bhnmx &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="comments-for-ta1"&gt;comments for ta1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;presentation, animation, video.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is only resume note.&lt;/li&gt;
+&lt;li&gt;Additional note(s), if necessary, will be created and linked from this one.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>statistics for sand</title><link>http://localhost:1313/butiran/0103/</link><pubDate>Thu, 19 Oct 2023 09:32:00 +0800</pubDate><guid>http://localhost:1313/butiran/0103/</guid><description>&lt;h2 id="meetings"&gt;meetings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;23-nov-2023&lt;/code&gt; Make histogram from monocolor and sand example.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-nov-2023&lt;/code&gt; Progress report.
+&lt;ul&gt;
+&lt;li&gt;Able to read JPG with OpenCV.&lt;/li&gt;
+&lt;li&gt;Accessing list element show unknown RBG information.&lt;/li&gt;
+&lt;li&gt;Next is to make histogram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-nov-2023&lt;/code&gt; Presenting Statistics 2 with some examples.
+&lt;ul&gt;
+&lt;li&gt;Next: Generate data, show median, mean, mode will fail, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-oct-2023&lt;/code&gt; Canceled due to health condition, AFN has a cold.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19-oct-2023&lt;/code&gt; Presenting some statistics from MA-USP assistant.
+&lt;ul&gt;
+&lt;li&gt;Next: Data samples to differ the 8 statistical parameters: 
+&lt;a
+
+	
+	
+		href = "http://www.countbio.com/web_pages/left_object/R_for_biology/R_biostatistics_part-1/statistical_parameters.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		mean, median, mode, variance, standard deviation, quartiles, skewness, curtosis &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is only resume note.&lt;/li&gt;
+&lt;li&gt;Additional note(s), if necessary, will be created and linked from this one.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>silver nanoparticles</title><link>http://localhost:1313/butiran/0104/</link><pubDate>Mon, 16 Oct 2023 15:00:00 +0800</pubDate><guid>http://localhost:1313/butiran/0104/</guid><description>&lt;h2 id="meetings"&gt;meetings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;16-oct-2023&lt;/code&gt; Presenting one of Ag-NP fabrication methods 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.3390/bios9020078"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.3390/bios9020078 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, slide 
+&lt;a
+
+	
+	
+		href = "https://github.com/rezafahri11/tugas-akhir/issues/8"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Issue 8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.
+&lt;ul&gt;
+&lt;li&gt;Next: Start to learn to synthesize Ag-NP with PW lab members.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is only resume note.&lt;/li&gt;
+&lt;li&gt;Additional note(s), if necessary, will be created and linked from this one.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

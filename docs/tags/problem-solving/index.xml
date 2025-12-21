@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Problem Solving on butiran</title><link>http://localhost:1313/butiran/tags/problem-solving/</link><description>Recent content in Problem Solving on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Jan 2022 22:24:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/problem-solving/index.xml" rel="self" type="application/rss+xml"/><item><title>programming paradigm</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-21-programming-paradigm/</link><pubDate>Fri, 21 Jan 2022 22:24:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-21-programming-paradigm/</guid><description>&lt;p&gt;Istilah paradigma pemrograman terkait dengan suatu gaya dalam memrogram dan tidak terkait dengan suatu bahasa pemrograman tertentu [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Suatu bahasa pemrograman dapat diklasifikasikan dalam lebih dari satu paradima [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang sebagai contohnya adalah JavaScript yang mengijinkan untuk membuat kode dalam berbagai paradima berbeda atau mengombinasikannya dalam suatu pendekatan multi-paradigma [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Saat berbicara mengenai empat paradigma utama pemrograman, terdapat imperatif, logikal, fungsional, dan berorientasi-obyek [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun prosedural, berorientasi-obyek, fungsional, dan logikal [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana pada pembagian lain paradigma prosedural dan berorientasi-obyek merupakan bagian dari paradigma imperatif, sedangkan paradigma logikal dan fungsional merupakan bagian dari paradigma deklaratif [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat juga pembagian yang lebih menerus yang sampai menggunakan istilah paradigma yang lebih deklaratif dan paradigma yang lebih imperatif dan terdapat satu kelompok paradigma di antara keduanya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas dua kelompok paradigma, yaitu yang termasuk imperatif dan deklaratif serta beberapa contoh yang termasuk di dalamnya.&lt;/p&gt;</description></item><item><title>flowchart</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-20-flowchart/</link><pubDate>Fri, 21 Jan 2022 18:13:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-20-flowchart/</guid><description>&lt;p&gt;Diagram alir (en: flowchart) merupakan jenis diagram yang merepresentasikan suatu algoritma, aliran kerja, atau proses, menggunakan berbagai bentuk kotak bermakna tertentu sebagai langkah-langkah dan panah yang menghubungkan kotak-kotak tersebut sebagai arah langkah-langkah [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat dikatakan bahwa diagram alir merupakan suatu representasi grafis dari suatu algoritma dengan berbagai keuntungan dan kerugiannya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam mengajarkannya dapat dilakukan dengan per tahap, seperti mulai dulu dengan tugas yang sudah akrab, perluas pengetahuan dengan melibatkan pengambilan keputusan, dan akhir dengan terapkan pada pengenalan pola ke instruksi pengulangan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Setidaknya terdapat enam bentuk kotak standar yang digunakan dan berbagai kotak lainnya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang dinamai berbeda. Untuk membuatnya dapat digunakan aplikasi daring seperti Lucidchart [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau luring seperti Visio, yang juga sudah ada versi webnya [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau alternatif-alternatif lainnya yang lintas sistem operasi atau hanya menggunakan penjelajah internet [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>pseudocode</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-18-pseudocode/</link><pubDate>Thu, 20 Jan 2022 19:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-18-pseudocode/</guid><description>&lt;p&gt;Secara harfiah pseudocode berarti kode palsu, yang merupakan cara informal dan dibuat-buat dalam penulisan program dengan menyampaikan urutan tindakan dan instruksi (algoritma) dalam bentuk yang mudah dipahami manusia [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau dapat dikatakan bahwa pseudocode merupakan suatu metodologi yang mengijinkan programer untuk menampilkan implementasi suatu algoritma [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam pseudocode detil yang penting agar mesin (komputer) dapat memahami algoritma, seperti deklarasi variabel dan kode khusus bahasa, diabaikan atau tidak digunakan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mencari luas lapangan sepak bola, menentukan bilangan genap atau ganjil, menghitung mundur, menghitung luas segitiga, dan menghitung luas lingkaran dapat menjadi contoh kasus untuk pseudocode [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>algorithm</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-algorithm/</link><pubDate>Tue, 18 Jan 2022 06:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-algorithm/</guid><description>&lt;p&gt;Dalam arti yang luas algoritma merupakan suatu prosedur langkah-per-langkah untuk memecahkan masalah atau mencapai suatu tujuan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Contoh yang umum untuk suatu algoritma adalah suatu resep, yang berisikan instruksi khusus untuk menyiapkan hidangan atau makanan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau untuk mencapai sekolah dari rumah, menyiapkan roti sandwich keju bakar, dan mencari barang yang diingkan di kelontong [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam istilah komputer, suatu algoritma merupakan seperangkat instruksi yang telah terdefinisi dengan baik untuk menyelesaikan suatu masalah tertentu, yang membutuhkan beberapa masukan dan menghasilkan suatu keluaran [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Algoritma penting bagi komputer dalam memproses data, di mana banyak program komputer berisikan algoritma yang merinci instruksi khusus apa yang harus dilakukan oleh sebuah komputer [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>problem solving</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-problem-solving/</link><pubDate>Mon, 17 Jan 2022 18:09:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-problem-solving/</guid><description>&lt;p&gt;Pemecahan masalah (en: problem solving), yang merupakan istilah umum, dapat membingungkan, terlebih dengan tersedianya berbagai alat bantu, bahkan sampai orang-orang dalam perusahaan yang sama menggunakan pendekatan dan terminologi yang berbeda, sehingga hal ini membuat pemecahan masalah menjadi problematik [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat panduan 14 langkah kritis pertama untuk menyelesaikan suatu masalah [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], 8 langkah untuk menyelesaikan masalah [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], 5 langkah untuk membuat proses pemecahan masalah lebih mudah [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], 4 langkah dasar proses memecahkan masalah yang dilengkapi dengan metodologinya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], 3 langkah dasar pemecahan masalah [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk pemecahan masalah komputasi terdapat lima langkah yang sudah lebih spesifik dengan melibatkan model matematika dan penggunaan komputer [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Walaupun komputer dapat digunakan untuk membantu memecahkan masalah, akan sebelum suatu masalah tersebut ditangani, ia perlu terlebih dahulu dimengerti, yang hal ini dapat dibantu dengan berpikir komputasi (en: computational thinking), yang mengijinkan kita untuk mengambil suatu masalah rumit, memahaminya, dan mengembangkan solusi yang mungkin, dengan solusi dapat dinyatakan dalam bentuk yang dimengerti komputer, manusia atau keduanya [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu versi langkah-langkah berpikir komputasi terdiri dari tiga langkah, yang meliputi spesifikasi masalah (abstraksi, dekomposisi, pengenalan pola), ekspresi algoritma (perancangan algoritma), dan implementasi solusi &amp;amp; evaluasi (generalisasi) [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

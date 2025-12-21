@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Initial Condition on butiran</title><link>http://localhost:1313/butiran/tags/initial-condition/</link><description>Recent content in Initial Condition on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Oct 2021 20:29:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/initial-condition/index.xml" rel="self" type="application/rss+xml"/><item><title>initial condition xva</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</link><pubDate>Wed, 13 Oct 2021 20:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</guid><description>&lt;p&gt;Dalam menerapkan hukum II Newton, yang umumnya merupakan persamaan diferensial, perlu dinyatakan syarat awal berupa kecepatan awal dan posisi awal, di mana permasalahan seperti ini termasuk suatu permasalan nilai awal [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="not-unique"&gt;not unique&lt;/h2&gt;
+&lt;p&gt;Pemilihan syarat awal atau IC (initial condition) tidak unik karena, bila sebelumnya telah diketahui fungsinya hanya akan menentukan konstant integrasi, misalnya&lt;/p&gt;
+&lt;p&gt;$$
+\int 2x \ dx = x^2 + C,
+$$&lt;/p&gt;</description></item></channel></rss>

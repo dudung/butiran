@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daily-Notes on butiran</title><link>http://localhost:1313/butiran/categories/daily-notes/</link><description>Recent content in Daily-Notes on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 04 Dec 2025 03:22:38 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/daily-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>thu 04.12.25</title><link>http://localhost:1313/butiran/25l09/</link><pubDate>Thu, 04 Dec 2025 03:22:38 +0700</pubDate><guid>http://localhost:1313/butiran/25l09/</guid><description>&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;id&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;activity&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;status&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;link&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;beg&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;and&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;doc&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;01&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Daily note init&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25l09/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25l09
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0322&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0325&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Pre fi2151&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/buiran/25i16/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i16
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0325&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0333&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;</description></item><item><title>wed 15.10.25</title><link>http://localhost:1313/butiran/25j36/</link><pubDate>Wed, 15 Oct 2025 01:25:42 +0700</pubDate><guid>http://localhost:1313/butiran/25j36/</guid><description>&lt;link rel="stylesheet" href="http://localhost:1313/butiran/css/table-0.css?v=1766295403"&gt;
+
+&lt;div class="table-0"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;id&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;activity&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;status&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;link&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;beg&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;and&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;doc&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;01&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Daily note init&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j36/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j36
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0126&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0129&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fix int link tue&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j33/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j33
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0129&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0129&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;03&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fix int link mon&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j27/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j27
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0129&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0129&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Qb1 wi2002 06.v5&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j18/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j18
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0132&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0407&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;05&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Prep wi2002 no-q&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25i10/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i10
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0440&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0452&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;06&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Qb1 wi2002 06.v6&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j18/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j18
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0454&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0510&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;07&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Qb1 wi2002 06.v7&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j18/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j18
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0526&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;u0527&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;08&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Presence hris&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0552&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;o0726&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;09&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Trip t3-0607&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0550&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0623&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Conflict git&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j33/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j33
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0634&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0635&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Qb1 wi2002 06.v7&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j18/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j18
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0637&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e0657&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Arch wi2002&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25i10/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i10
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0724&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;u0810&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Prep fi2151 pynb&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25i16/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i16
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0815&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e1248&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Zoom ai-eliza&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j13/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j13
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0905&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e1055&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;✓&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Bima sh-td&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25d09/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25d09
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1304&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e1433&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Discuss marco&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25d24/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25d24
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1440&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e1500&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Discuss efraim&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25j10/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j10
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1527&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;e1653&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Discuss sevi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;
+&lt;a
+
+	
+	
+		href = "/butiran/25c61/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25c61
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1425&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;u1737&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Not all notes are editable and 
+&lt;a
+
+	
+	
+		href = "/butiran/25i70/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25i70
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ lists only the editable ones.&lt;/li&gt;
+&lt;li&gt;Documented notes are indicated with ✓.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+.npprel-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ vertical-align: top;
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 4px;
+ background: #fff;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: inherit;
+ cursor: default;
+}
+.npprel-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.npprel-link {
+ color: inherit;
+}
+.npprel-link:hover {
+ color: blue;
+}
+.npprel-card .text-wrapper {
+ flex-direction: column;
+ text-align: center;
+ padding: 4px 4px;
+}
+.npprel-card .title {
+ font-weight: 600;
+ font-size: 0.8em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 3.6em;
+}
+.npprel-card .link-container {
+ display: flex;
+}
+.npprel-card .link {
+ flex: 1;
+ font-weight: 600;
+ font-size: 0.75em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 1.1em;
+ color: #aaa;
+}
+
+.link:hover {
+ color: blue;
+}
+&lt;/style&gt;
+
+&lt;div class="npprel-card"&gt;
+ &lt;div class="text-wrapper"&gt;
+ 
+ 
+ 
+ &lt;div class="title"&gt;&lt;/div&gt;
+ 
+
+ &lt;div class="link-container"&gt;
+ &lt;a class="link" href="../../butiran//"&gt;view&lt;/a&gt;
+ &lt;a class="link" href="npprel:////.md"&gt;edit&lt;/a&gt; 
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+.npprel-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ vertical-align: top;
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 4px;
+ background: #fff;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: inherit;
+ cursor: default;
+}
+.npprel-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.npprel-link {
+ color: inherit;
+}
+.npprel-link:hover {
+ color: blue;
+}
+.npprel-card .text-wrapper {
+ flex-direction: column;
+ text-align: center;
+ padding: 4px 4px;
+}
+.npprel-card .title {
+ font-weight: 600;
+ font-size: 0.8em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 3.6em;
+}
+.npprel-card .link-container {
+ display: flex;
+}
+.npprel-card .link {
+ flex: 1;
+ font-weight: 600;
+ font-size: 0.75em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 1.1em;
+ color: #aaa;
+}
+
+.link:hover {
+ color: blue;
+}
+&lt;/style&gt;
+
+&lt;div class="npprel-card"&gt;
+ &lt;div class="text-wrapper"&gt;
+ 
+ 
+ &lt;div class="title"&gt;categ notes&lt;/div&gt;
+ 
+
+ &lt;div class="link-container"&gt;
+ &lt;a class="link" href="../../butiran/25h62/"&gt;view&lt;/a&gt;
+ &lt;a class="link" href="npprel:///25/h/62-categ-notes.md"&gt;edit&lt;/a&gt; 
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Medium on butiran</title><link>http://localhost:1313/butiran/categories/medium/</link><description>Recent content in Medium on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 10:57:27 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/medium/index.xml" rel="self" type="application/rss+xml"/><item><title>med install zotero</title><link>http://localhost:1313/butiran/25j35/</link><pubDate>Tue, 14 Oct 2025 10:57:27 +0700</pubDate><guid>http://localhost:1313/butiran/25j35/</guid><description/></item><item><title>med hugo css consistency minify</title><link>http://localhost:1313/butiran/25j26/</link><pubDate>Sun, 12 Oct 2025 15:24:49 +0700</pubDate><guid>http://localhost:1313/butiran/25j26/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title An experience with Hugo ­minify flag&lt;/li&gt;
+&lt;li&gt;subtiel Fixing CSS inconsistencies between local preview and GitHub Pages&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/5b58ed2c40d9"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://medium.com/p/5b58ed2c40d9 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;date 12-oct-2025&lt;/li&gt;
+&lt;li&gt;share
+&lt;ul&gt;
+&lt;li&gt;x 
+&lt;a
+
+	
+	
+		href = "https://x.com/6unpnp/status/1977319454343377275"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		1977319454343377275 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;linkedin 
+&lt;a
+
+	
+	
+		href = "https://lnkd.in/emKY98th"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		emKY98th &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;Photo by Richard Dykes on Unsplash&lt;/p&gt;</description></item><item><title>med python-plain-english</title><link>http://localhost:1313/butiran/25j04/</link><pubDate>Fri, 03 Oct 2025 15:28:06 +0700</pubDate><guid>http://localhost:1313/butiran/25j04/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;03-oct-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25j04/blob/main/02/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25j04.02&lt;/code&gt;
+&lt;/a&gt;
+ Form filling for the offer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-sep-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25j04/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25j04.01&lt;/code&gt;
+&lt;/a&gt;
+ Offer via medium 82aa6ec95be3.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>med npp url protocol win</title><link>http://localhost:1313/butiran/25i68/</link><pubDate>Sun, 21 Sep 2025 20:25:40 +0700</pubDate><guid>http://localhost:1313/butiran/25i68/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title URL protocol to launch Notepad++&lt;/li&gt;
+&lt;li&gt;subtitle Create a protocol in Windows registry and use it on a Hugo post&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/0228e5e57e05"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0228e5e57e05 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;data 21-sep-2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;Click on npp:// protocol will call npp.bat that later launch Notepad++.
+First part of an URI, before the : character, is scheme, which indicates which protocol the browser must use to fetch the resource and it determines how the rest of the URI is structured and interpreted (MDN contributors, 2025). Suppose that you want to create a protocol that does something when the link is clicked, e.g. open a file with certain application, etc. There is straight forward information to create it in Windows by creating a reg file and import it to Windows registry (Tare, 2024). The idea is how to create a protocol that allows a link to a file, when it is clicked, it will launch Notepad++ to edit the file. There is a note (actually a Hugo post) about the process to get it works (Viridi, 2025). Brief steps and the requirements to create such protocol and use it in a Hugo post are given in this story.&lt;/p&gt;</description></item><item><title>med enhanced 2d scatplot</title><link>http://localhost:1313/butiran/25i34/</link><pubDate>Mon, 08 Sep 2025 21:43:29 +0700</pubDate><guid>http://localhost:1313/butiran/25i34/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title Enhanced 2-d scatter plots&lt;/li&gt;
+&lt;li&gt;subtitle Encoding more dimensions with python matplotlib&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/82aa6ec95be3"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		82aa6ec95be3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;date 08-sep-2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;Steps how to add more dimensions to a regular 2-d scattter plots are given in this story. It is assumed that you are already familiar with Python, Matplotlib, Pandas, dan NumPy.&lt;/p&gt;
+&lt;h3 id="data-in-csv"&gt;Data in CSV&lt;/h3&gt;
+&lt;p&gt;Suppose that there is a CSV file with following content.&lt;/p&gt;</description></item><item><title>med css responsiveness</title><link>http://localhost:1313/butiran/25i31/</link><pubDate>Sun, 07 Sep 2025 20:28:39 +0700</pubDate><guid>http://localhost:1313/butiran/25i31/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title CSS responsiveness issues&lt;/li&gt;
+&lt;li&gt;subtitle Showing the problem and not yet the solution&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/fc47ed17f272"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		fc47ed17f272 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;date 07-sep-2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;Normally when I update my Hugo site I do not really care about what it looks in smartphone. But today as I creating calendar card, that is showing day, date, month and year, it behaves differently in notebook screen and in smartphone screen. The first has screen with 2880×1800 pixels, while the second has screen with 720×1612 pixels.&lt;/p&gt;</description></item><item><title>med pepper plant plastic cup</title><link>http://localhost:1313/butiran/25i23/</link><pubDate>Fri, 05 Sep 2025 17:34:01 +0700</pubDate><guid>http://localhost:1313/butiran/25i23/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title Pepper plant in plastic cup&lt;/li&gt;
+&lt;li&gt;subtitle A step into microfarm without a real plan&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/f195dc4ab916"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		f195dc4ab916 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;date 01-sep-2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;This isn’t really a story so much as a handful of images — a quiet record of where my pepper plant has ended up. :-)&lt;/p&gt;
+&lt;h3 id="unplanned-planting"&gt;Unplanned planting&lt;/h3&gt;
+&lt;p&gt;It’s been growing for months now, though I honestly can’t recall exactly when it first appeared as a seedling. What I do remember is that it wasn’t planned at all. It sprouted by accident, tucked into a bit of soil where I hadn’t expected anything, and instead of pulling it out, I decided to keep it. Since then, I’ve just let it grow at its own pace, watching it change little by little. There’s something grounding about that — a small reminder that not everything needs planning to have meaning.&lt;/p&gt;</description></item><item><title>categ medium</title><link>http://localhost:1313/butiran/25i22/</link><pubDate>Fri, 05 Sep 2025 17:10:27 +0700</pubDate><guid>http://localhost:1313/butiran/25i22/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;14-oct-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25j35/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		`25j35&amp;rsquo;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Installing zotero for the first time.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-oct-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25j26/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25j26&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Hugo minify flag for css consistency.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;21-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i68/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i68&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Create url protocol npp:// in Windows.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;08-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i34/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i34&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Enhanced 2-d scatter plots.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;07-sep-2205&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i31/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i31&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ CSS responsiveness issues.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i21/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i21&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Install (again) Inkscape on Windows 11.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-sep-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25i23/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25i23&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Pepper plant in plastic cup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete list is on 
+&lt;a
+
+	
+	
+		href = "https://medium.com/@6unpnp"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		@6unpnp &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;There is also a interaction with editor(s) on 
+&lt;a
+
+	
+	
+		href = "/butiran/25j04/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25j04
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+.npprel-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ vertical-align: top;
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 4px;
+ background: #fff;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: inherit;
+ cursor: default;
+}
+.npprel-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.npprel-link {
+ color: inherit;
+}
+.npprel-link:hover {
+ color: blue;
+}
+.npprel-card .text-wrapper {
+ flex-direction: column;
+ text-align: center;
+ padding: 4px 4px;
+}
+.npprel-card .title {
+ font-weight: 600;
+ font-size: 0.8em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 3.6em;
+}
+.npprel-card .link-container {
+ display: flex;
+}
+.npprel-card .link {
+ flex: 1;
+ font-weight: 600;
+ font-size: 0.75em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 1.1em;
+ color: #aaa;
+}
+
+.link:hover {
+ color: blue;
+}
+&lt;/style&gt;
+
+&lt;div class="npprel-card"&gt;
+ &lt;div class="text-wrapper"&gt;
+ 
+ 
+ 
+ &lt;div class="title"&gt;&lt;/div&gt;
+ 
+
+ &lt;div class="link-container"&gt;
+ &lt;a class="link" href="../../butiran//"&gt;view&lt;/a&gt;
+ &lt;a class="link" href="npprel:////.md"&gt;edit&lt;/a&gt; 
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+.npprel-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ vertical-align: top;
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 4px;
+ background: #fff;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: inherit;
+ cursor: default;
+}
+.npprel-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.npprel-link {
+ color: inherit;
+}
+.npprel-link:hover {
+ color: blue;
+}
+.npprel-card .text-wrapper {
+ flex-direction: column;
+ text-align: center;
+ padding: 4px 4px;
+}
+.npprel-card .title {
+ font-weight: 600;
+ font-size: 0.8em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 3.6em;
+}
+.npprel-card .link-container {
+ display: flex;
+}
+.npprel-card .link {
+ flex: 1;
+ font-weight: 600;
+ font-size: 0.75em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2; 
+ overflow: hidden;
+ word-break: break-word;
+ height: 1.1em;
+ color: #aaa;
+}
+
+.link:hover {
+ color: blue;
+}
+&lt;/style&gt;
+
+&lt;div class="npprel-card"&gt;
+ &lt;div class="text-wrapper"&gt;
+ 
+ 
+ &lt;div class="title"&gt;categ medium&lt;/div&gt;
+ 
+
+ &lt;div class="link-container"&gt;
+ &lt;a class="link" href="../../butiran/25i22/"&gt;view&lt;/a&gt;
+ &lt;a class="link" href="npprel:///25/i/22-categ-medium.md"&gt;edit&lt;/a&gt; 
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;</description></item><item><title>med install inkscape 1.4.2</title><link>http://localhost:1313/butiran/25i21/</link><pubDate>Fri, 05 Sep 2025 16:57:10 +0700</pubDate><guid>http://localhost:1313/butiran/25i21/</guid><description>&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;title Install (again) Inkscape on Windows 11&lt;/li&gt;
+&lt;li&gt;subtitle After can not aligned grouped objects inside Word&lt;/li&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/f84c4693fb1c"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		f84c4693fb1c &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;date 05-sep-2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="content"&gt;content&lt;/h2&gt;
+&lt;p&gt;It is already a year after the last installation, which it was at the beginning of the year 2024 (Viridi, 2024). And I do not remember when I uninstalled it. Today, after I can not align grouped objects in Word, which was worked previously (GPT-4, 2025), Inkscape will be reinstalled. This story is about it.&lt;/p&gt;</description></item><item><title>medium-stories tmp</title><link>http://localhost:1313/butiran/25h89/</link><pubDate>Sat, 30 Aug 2025 01:55:37 +0700</pubDate><guid>http://localhost:1313/butiran/25h89/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;30-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h89/blob/main/03/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h89.03&lt;/code&gt;
+&lt;/a&gt;
+ 6a0e5b982639 (undocu).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h89/blob/main/02/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h89.02&lt;/code&gt;
+&lt;/a&gt;
+ 08b230a0c548 (undocu).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28-aug-2025&lt;/code&gt; 
+
+
+&lt;a href="https://github.com/dudung/
+25h89/blob/main/01/
+README.md" target="_blank" rel="noopener"&gt;
+ &lt;code&gt;25h89.01&lt;/code&gt;
+&lt;/a&gt;
+ 0282dd48468a (undocu).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is stories temporary files, but not every story requires tmp.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>courage to write</title><link>http://localhost:1313/butiran/25e23/</link><pubDate>Tue, 13 May 2025 11:24:55 +0700</pubDate><guid>http://localhost:1313/butiran/25e23/</guid><description>&lt;p&gt;It is a note for reminder in managing Courage to Write, a Medium publication &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id="writer"&gt;writer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;13-may-2025&lt;/code&gt; &lt;code&gt;1131&lt;/code&gt; Finish processing requests in May 2025 until today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Friendly Editor (ed), &amp;ldquo;Courage to Write&amp;rdquo;, Medium, 2025, url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/courage-to-write"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://medium.com/courage-to-write &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250513].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>medium 200-th story</title><link>http://localhost:1313/butiran/25e18/</link><pubDate>Sat, 10 May 2025 09:54:17 +0700</pubDate><guid>http://localhost:1313/butiran/25e18/</guid><description>&lt;p&gt;It is just a just milestone while try to be consistent in writing story on Medium. I can believe that today I have just post the 200-th stroy, whose title is &amp;ldquo;523 at Novotel (5 = 2 + 3)&amp;rdquo; with subtitle &amp;ldquo;About the way to a room&amp;rdquo;, which tells only about views of a hotel room and how to get to if from the elevator &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Sparisoma Viridi, &amp;ldquo;523 at Novotel (5 = 2 + 3)&amp;rdquo;, Medium, 10 May 2025, url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/6c4f317752e6"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://medium.com/p/6c4f317752e6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250510].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>medium trip to smg</title><link>http://localhost:1313/butiran/25d68/</link><pubDate>Sun, 27 Apr 2025 05:11:42 +0700</pubDate><guid>http://localhost:1313/butiran/25d68/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;It is the third time for me visiting Semarang, where the first was in a alumni meeting and the second was in an assignment, and now it is also in another assignment. Unfortunately, both events are not documented. The second was on July 2024 and I forget about the first. It seems that the habit to document a trip on Medium was after July 2024.&lt;/p&gt;
+&lt;p&gt;So, I will document this one as a story on Medium &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;, but I am not very sure what it is about. A title comes up after a discussion &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description></item><item><title>github papes with hugo</title><link>http://localhost:1313/butiran/25d46/</link><pubDate>Wed, 16 Apr 2025 08:48:17 +0700</pubDate><guid>http://localhost:1313/butiran/25d46/</guid><description>&lt;h2 id="medium"&gt;medium&lt;/h2&gt;
+&lt;p&gt;A 4-minutes story is posted on medium &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;. It shows steps to deploy Hugo site on GitHub to GitHub Pages website.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://miro.medium.com/v2/resize:fit:600/format:webp/1*BVvvXkBwDi3ppLdhJt3hKQ.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Above result is available on 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butiran/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://dudung.github.io/butiran/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Sparisoma Viridi, &amp;ldquo;GitHub Pages with Hugo: A step-by-step tutorial&amp;rdquo;, Medium 16 Jan 2025, url 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/d515e72241ea"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://medium.com/p/d515e72241ea &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250416].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>talks on medium</title><link>http://localhost:1313/butiran/25d22/</link><pubDate>Tue, 08 Apr 2025 23:55:15 +0700</pubDate><guid>http://localhost:1313/butiran/25d22/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;08-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/22250916eec3"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;22250916eec3&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Scientific writing.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>html-css on medium</title><link>http://localhost:1313/butiran/25d17/</link><pubDate>Sun, 06 Apr 2025 23:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/25d17/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;07-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/e747d312cd8e"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;e747d312cd8e&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Text and div in div.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/d5fee4adf44f"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;d5fee4adf44f&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Divs in div.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>aidi on medium</title><link>http://localhost:1313/butiran/25d14/</link><pubDate>Sat, 05 Apr 2025 05:05:18 +0700</pubDate><guid>http://localhost:1313/butiran/25d14/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;05-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;osfio&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Creation of note (✓) and osf (×).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-jun-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/16bcabb138a5"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;16bca&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Short intro to prompt engineering.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>car camping on medium</title><link>http://localhost:1313/butiran/25d01/</link><pubDate>Tue, 01 Apr 2025 17:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/25d01/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;02-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/@6unpnp/3ee0c55b17c0"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;3ee0c55b17c0&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ End note of three days.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;02-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/994bba1e71b4"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;994bba1e71b4&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ The return day.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/54b57d4d507e"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;54b57d4d507e&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Very cool morning.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;31-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://medium.com/p/4401879664cb"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;4401879664cb&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ In the field with tent.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>damars on medium</title><link>http://localhost:1313/butiran/25c40/</link><pubDate>Sat, 15 Mar 2025 11:59:09 +0700</pubDate><guid>http://localhost:1313/butiran/25c40/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;16-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/hmxb5"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;hmxb5&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Knowledge exchange on ipb with daad.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/tc8pq"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;tc8pq&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Visit of daad to ipb university.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;13-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/n7c3j"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;n7c3j&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Zoom on biblimetric and citation analysis.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/cu2ta"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;cu2ta&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Organization and medium publication.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;11-may-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/rb2c6"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;rb2c6&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Short tutorial info for medium.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/gbq3d"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;gbq3d&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Workshop on po-bkd in animal-sci, unja.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/ngjt6"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;ngjt6&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Photos from damars-leader (bali, bogor).
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/r2kpq"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;r2kpq&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ AI-assisted tools online workshop.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;15-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/c4wky"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;c4wky&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ General meeting, divisions plan.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/f598v"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;f598v&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Initial meeting, site alternatives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There are various ways in referencing sources and they are not converted to single way for preserving the evolution of this note, e.g. for the 12-may-2025 online meeting a slide is prepared &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;, while for 12-apr-2025, 24-apr-2025, and 22-mar-2025 activities is using &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; tag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Sparisoma Viridi, &amp;ldquo;medium for damars-ers: create account, write story, submit to publication&amp;rdquo;, Medium, 12 May 2025, url 
+&lt;a
+
+	
+	
+		href = "https://osf.io/x4pv5"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://osf.io/x4pv5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250512].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

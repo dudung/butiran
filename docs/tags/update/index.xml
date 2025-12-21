@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Update on butiran</title><link>http://localhost:1313/butiran/tags/update/</link><description>Recent content in Update on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 Apr 2022 22:19:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/update/index.xml" rel="self" type="application/rss+xml"/><item><title>update hugo windows 10</title><link>http://localhost:1313/butiran/0066/</link><pubDate>Sun, 24 Apr 2022 10:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/0066/</guid><description>&lt;p&gt;Tulisan ini dibuat berbarengan dengan update Hugo dari versi 0.95.0 ke 0.97.3 mengikuti suatu informasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk menjalan Hugo digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.&lt;/p&gt;
+&lt;h2 id="current-version"&gt;current version&lt;/h2&gt;
+&lt;p&gt;Versi Hugo yang terinstal saat ini dapat diperoleh dengan&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;L:\home\bugx&amp;gt;hugo version
+hugo v0.95.0-9F2E76AF+extended windows/amd64 
+BuildDate=2022-03-16T14:20:19Z 
+VendorInfo=gohugoio
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] bahwa telah terdapat Hugo rilis 0.97.3 oleh beb (Bjørn Erik Pedersen) pada 18 Apr 2022.&lt;/p&gt;</description></item></channel></rss>

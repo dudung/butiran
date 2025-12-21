@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>For on butiran</title><link>http://localhost:1313/butiran/tags/for/</link><description>Recent content in For on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Dec 2021 07:33:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/for/index.xml" rel="self" type="application/rss+xml"/><item><title>py iterable for list range</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/29/2021-12-19-py-iterable-for-list-range/</link><pubDate>Sun, 19 Dec 2021 07:33:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/29/2021-12-19-py-iterable-for-list-range/</guid><description>&lt;p&gt;Dalam Python loop dengan for digunakan untuk proses berkelanjutan yang berurutan (sequential traversal) seperti pengulangan pada suatu iterable seperti string, tuple, list, array dan lainnya, yang termasuk dalam kategori iterasi terdefinisi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat perbedaan antara range dan list, yang sejak Python 3.x range tidak lagi memproduksi list sehingga elemen-elemennya tidak lagi memerlukan memori untuk menyimpannya, melainkan hanya dibuat on the fly saat iterasi dilakukan, sehingga proses iterasinya menjadi lebih cepat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>install node.js v16.13.1 x64</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-16-install-node-js-v16/</link><pubDate>Thu, 16 Dec 2021 12:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-16-install-node-js-v16/</guid><description>&lt;p&gt;Terdapat suatu email dengan salah satu bagiannya menceritakan secara singkat CLI Netlify [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kemudian mengarahkan pada tulisan blog mengenai hal itu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tulisan tersebut selanjutnya menyediakan tautan untuk lebih menjelaskan bagaimana mempublikasi perlengkapan suatu situs [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan disertai informasi bagaimana memulai berkenalan dengan CLI untuk Netlify [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

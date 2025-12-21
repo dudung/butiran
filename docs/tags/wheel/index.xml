@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wheel on butiran</title><link>http://localhost:1313/butiran/tags/wheel/</link><description>Recent content in Wheel on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 24 Mar 2022 17:48:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/wheel/index.xml" rel="self" type="application/rss+xml"/><item><title>install python windows powershell</title><link>http://localhost:1313/butiran/0018/</link><pubDate>Thu, 24 Mar 2022 05:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/0018/</guid><description>&lt;p&gt;Dengan menggunakan PowerShell, suatu shell perintah moderen lintas platform yang menyertakan fitur terbaik dari shell populer lainnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang menambah kekuatan, fungsionalits dan fleksibilitas Windows Command Prompt [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], instalasi Python pun dapat dilakukan. Sejak Windows 10 version 1607 PowerShell telah terinstal secara default [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Instalasi Python dengan menggunakan PowerShell akan disinggung di sini dan juga pemanfaatan pip yang telah disertakan.&lt;/p&gt;</description></item></channel></rss>

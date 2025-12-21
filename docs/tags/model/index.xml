@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Model on butiran</title><link>http://localhost:1313/butiran/tags/model/</link><description>Recent content in Model on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 11 Apr 2025 11:12:42 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/model/index.xml" rel="self" type="application/rss+xml"/><item><title>aas wasri hasanah</title><link>http://localhost:1313/butiran/25d28/</link><pubDate>Fri, 11 Apr 2025 11:12:42 +0700</pubDate><guid>http://localhost:1313/butiran/25d28/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;12-mar-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/9hrvz"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;9hrvz&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Info and offer for second collab.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>erkata yandri</title><link>http://localhost:1313/butiran/25d27/</link><pubDate>Fri, 11 Apr 2025 10:01:57 +0700</pubDate><guid>http://localhost:1313/butiran/25d27/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;11-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/fn36h"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;fn36h&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Advice on mppt for awh data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;09-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/g8bkx"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;g8bkx&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Offer for 2nd collab model.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ga short introduction</title><link>http://localhost:1313/butiran/0052/</link><pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate><guid>http://localhost:1313/butiran/0052/</guid><description>&lt;p&gt;Algoritma genetik atau genetic algorithm (GA) merupakan algoritma berdasarkan pencarian yang digunakan untuk menyelesaikan permasalahan optimasi di dalam pembelajaran mesin [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam suatu GA solusi dinyatakan dalam bentuk individu yang memiliki sifat-sifat yang tercerminkan dalam kromosomnya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu kelebihan GA adalah dapat mencegah terjadinya konvergensi terlalu dini yang mengarah pada titik optimum lokal alih-alih titik optimum global yang diinginkan dan hal ini dilakukan dengan mempertahankan keberagaman kromosom melalui operasi persilangan (crossover) dan mutasi (mutation) gen-gen pada kromosom [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat banyak contoh penerapan GA pada berbagai permasalahan, seperti optimasi penjadwalan perkuliahan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan perencaan produksi [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk membantu mempelajari GA telah terdapat tutorialnya [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan untuk menerapkannya telah terdapat pengenalan dengan contoh algoritma beserta kodenya dalam Java [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>ann short introduction</title><link>http://localhost:1313/butiran/0040/</link><pubDate>Mon, 04 Apr 2022 16:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/0040/</guid><description>&lt;p&gt;Jaringan saraf tiruan (JST) atau artificial neural networks (ANN) merupakan salah satu teknologi yang paling berpengaruh dalam dekade terakhir ini, di mana teknologi ini merupakah bagian fundamental dari algoritma pembelajaran mendalam (deep learning), dan bagian terdepan dari kecerdasan buatan (artificial intelligence, AI) yang pengembangannya masih dapat dikatan berdarah-darah [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teknologi ini terinspirasi oleh cara kerja sistem saraf biologis, seperti pada sel otak manusia [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau jaringan saraf yang membentuk otak hewan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Otak manusia sendiri masih menyimpan banyak misteri, di mana pemrosesan paralel yang masif mengangkat kinerja otak melebihi AI [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>climbing a incline analogy</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-03-12-climbing-an-incline-analogy/</link><pubDate>Sat, 12 Mar 2022 22:55:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-03-12-climbing-an-incline-analogy/</guid><description>&lt;p&gt;Bidang miring merupakan suatu pesawat sederhana yang terdiri dari permukaan miring untuk mengangkat benda yang berat [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tidak ada yang menemukan bidang miring karena obyek ini ada di dalam dan telah digunakan jauh sebelum prinsip kerjanya dipahami [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Keuntungan mekanik penggunaan bidang miring sama dengan rasio panjang permukaan miring terhadap tinggi bentangnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bila tanpa kecepatan awal sebuah benda titik dapat dibahas bagaimana gerak turunnya pada bidang miring licin dan juga pada bidang miring kasar, yang dapat membuat benda berhenti atau dari awal tidak bergerak [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan kecepatan awal yang mengarah ke atas bidang miring dapat disimulasikan sampai di mana benda akan mendaki dan kemudian diam di atas bidang miring kasar [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Telah terjadi diskusi apakah gerak benda mendaki bidang miring dapat digunakan sebagai analogi sistem di luar sistem fisis [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Beberapa skenario pendakian benda ke atas bidang miring akan disinggung di sini.&lt;/p&gt;</description></item><item><title>simple agriculture modeling</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-03-05-simple-agriculture-modeling/</link><pubDate>Sun, 06 Mar 2022 16:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/3/00/2022-03-05-simple-agriculture-modeling/</guid><description>&lt;p&gt;Untuk melanjutkan persetujuan sebuah surat [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] maka bergabunglah ke suatu grup WhatsApp melalui suatu undangan pada siang hari 3 Mar 2022 [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana grup tersebut telah dibuat sejak 29 Aug 2021.&lt;/p&gt;
+&lt;h2 id="info"&gt;info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;25-feb-2022&lt;/code&gt; Mengisi surat kesediaan untuk mendukung pembimbingan oleh Ramadhani Eka Putra atas Anton Agus Pratomo, Haydar Alfan Nur, Siti Aklima Nur Fadilah, Rizky Nanda Pria Pribadi.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;05-mar-2022&lt;/code&gt; Diskusi pertama kali dalam grup WhatsApp [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan diperoleh beberapa informasi.
+&lt;ul&gt;
+&lt;li&gt;Haydar: Topik Tugas akhir masih didiskusikan dan untuk saat iini terdapat beberapa alternatif, yaitu
+&lt;ul&gt;
+&lt;li&gt;pengaruh media tanam pada hidroponik Dutch Bucket pada komoditas stroberi,&lt;/li&gt;
+&lt;li&gt;ikan gabus yang diberi pakan BSF,&lt;/li&gt;
+&lt;li&gt;penyerbukan stroberi dengan lebah trigona, dan&lt;/li&gt;
+&lt;li&gt;pengendalian hama kutu daun dengan kumbang koksi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Haydar: Kutu daun dan kumbang koksi jumlahnya dapat dihitung sehingga bisa digunakan untuk pemodelan predator-prey. Untuk tahapan sebagai berikut (belum fix karena masih dirancang): Pertama kumbang koksi diperbanyak, sambil nunggu kumbang koksi cukup banyak, tanaman stroberi diinfeksikan kutu daun. Kemudian saat kutu daun sudah banyak dihitung populasi awal, dan setelah itu ditambah kumbang koksi dan diamati perubahan populasi kutu daun.&lt;/li&gt;
+&lt;li&gt;Rizky: Berkaitan dengan pengendalian lebah untuk penyerbukan, rencananya lebah yang digunakan langsung diinputkan ke dalam greenhouse beserta sarangnya, tidak mengendalikan lebah yang masih liar/ di alam langsung.&lt;/li&gt;
+&lt;li&gt;Rizky: Topik yang Haydar sampaikan sebelumnya sebenarnya merupakan 4 topik yang akan masing orang kerjakan Pak. Topik utamanya sebenarnya sistem pertanian terintegrasi dengan melibatkan komponen-komponen yang Haydar sebutkan tadi.&lt;/li&gt;
+&lt;li&gt;Istilah: &lt;!-- raw HTML omitted --&gt;Sistem Pertanian Terintegrasi&lt;!-- raw HTML omitted --&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06-mar-2022&lt;/code&gt; Mencari istilah pemodelan agrikultur dan memperoleh informasi berikut ini.
+&lt;ul&gt;
+&lt;li&gt;Model agrikultur adalah algoritma yang berusaha untuk meniru lingkungan biologis yang kompleks, yang saat ini telah terdapat banyak kelas model dalam perbendaharaan ilmiah dewasa ini, seperti statistik, mekanistik, deterministik, stokastik, dinamik, dan simulasi yang dapat digunakan untuk menjelaskan, memahami, dan meningkatkan unjuk kerja keseluruhan suatu sistem biologi [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;li&gt;Telah terjadi perubahan tatanan pemodelan agrikultur sejak tahun 2002, yang sebagian besar dari sudut pandang perangkat lunak dan membuat suatu kasus terfokuskan pada perangkat lunak
+[
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;li&gt;Terdapat berbagai skala / tingkatan di mana pengembangan model suatu sistem agrikultur dilakukan yang terkait dengan jenis penggunanya dan keputusan serta ketertarikan politiknya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/li&gt;
+&lt;li&gt;Pencarian istilah keliru dari Sistem Pertanian Terpadu menjadi Pemodelan Agrikultur. Akan dikorekis kemudian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="note"&gt;note&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Indra Wibowo, &amp;ldquo;Permohonan Izin Penugasan Sebagai Pembimbing di SITH ITB Untuk mahasiswa Program Studi Rekayasa Pertanian&amp;rdquo;, Surat dari Wakil Dekan Akademik, Sekolah Ilmu dan Teknologi Hayati, Institut Teknologi Bandung, nomor 869/IT1.C11.1/TA.00/2021, 23 Feb 2022, kepada Dekan Fakultas Matematika dan Ilmu Pengetahuan Alam, Institut Teknologi Bandung, url 
+&lt;a
+
+	
+	
+		href = "https://admission.itb.ac.id/home/studi/sith"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://admission.itb.ac.id/home/studi/sith &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220306].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Anton Agus Pratomo, &amp;ldquo;Suasana Tingkat Akhir&amp;rdquo;, WhatsApp Group, created 29 Aug 2021, url 
+&lt;a
+
+	
+	
+		href = "https://chat.whatsapp.com/0000000000000000000000"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chat.whatsapp.com/0000000000000000000000 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220303].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Tom Blair, &amp;ldquo;Agricultural Modeling: a Replacement for Sensors on the Farm?&amp;rdquo;, AgFunderNews, 30 Jun 2016, url 
+&lt;a
+
+	
+	
+		href = "https://agfundernews.com/agriculture-modeling-a-replacement-for-sensors-on-farm"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://agfundernews.com/agriculture-modeling-a-replacement-for-sensors-on-farm &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220306].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Dean P. Holzworth, Val Snow, Sander Janssen, Ioannis N. Athanasiadis, Marcello Donatelli, Gerrit Hoogenboom, Jeffrey W. White, Peter Thorburn, &amp;ldquo;Agricultural production systems modelling and software: Current status and future prospects&amp;rdquo;, Environmental Modelling &amp;amp; Software [Environ Model Softw], vol 72, no, p 276-286, Oct 2015, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/j.envsoft.2014.12.013"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1016/j.envsoft.2014.12.013 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;James W. Jones, John M. Antle, Bruno Basso, Kenneth J. Boote, Richard T. Conant, Ian Foster, H. Charles J.Godfray, Mario Herrero, Richard E. Howitt, Sander Janssen, Brian A. Keating, Rafael Munoz-Carpena, Cheryl H. Porter, Cynthia Rosenzweig, Tim R. Wheeler, &amp;ldquo;Brief history of agricultural systems modeling&amp;rdquo;, Agricultural Systems [Agric Syst], vol 155, no, p 240-254, Jul 2017, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/j.agsy.2016.05.014"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1016/j.agsy.2016.05.014 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="comments"&gt;comments&lt;/h3&gt;
+&lt;p&gt;{% comment %} data-width=&amp;ldquo;390&amp;rdquo; {% endcomment %}&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Browser on butiran</title><link>http://localhost:1313/butiran/tags/browser/</link><description>Recent content in Browser on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Dec 2021 21:46:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/browser/index.xml" rel="self" type="application/rss+xml"/><item><title>show only youtube control</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-06-show-only-youtube-control/</link><pubDate>Mon, 06 Dec 2021 21:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-06-show-only-youtube-control/</guid><description>&lt;p&gt;Dengan menggunakan &lt;code&gt;player_api&lt;/code&gt;, suatu API YouTube, video yang ditanamkan pada suatu halaman web dapat dikendalikan dengan menggunakan tombol di luar obyek video [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudian untuk hanya mengambil informasi audio dapat dirancang tombol kendali dengan &lt;code&gt;iframe_api&lt;/code&gt;, API YouTube lainnya, yang cukup sederhana tampilannya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], hanya sayangnya terdapat tautan yang tidak lagi bekerja untuk citra tombol tersebut. Bentuk panel kendali yang dilengkapi dengan tombol play, progress bar, dan pengaturan suara juga tersedia [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], akan tetapi belum berhasil dicoba. Selain itu terdapat cara lain yang menanamkan video dari YouTube dengan tag &lt;code&gt;iframe&lt;/code&gt; dan kemudian membuat tag parent yang menutupi bagian videonya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana hal ini merupakan hal yang cerdik, akan tetapi hanya masih kurang bagaimana mengakses progress barnya. Untuk cara yang terakhir ini masih dapat dibantu dengan parameter-parameter yang disediakan oleh pemutar video YouTube yang ditanamkan pada suatu halaman web [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>mobile browser emulator</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-05-mobile-browser-emulator/</link><pubDate>Sun, 05 Dec 2021 21:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/22/2021-12-05-mobile-browser-emulator/</guid><description>&lt;p&gt;Dalam pengembangannya aplikas untuk devais mobile perlu dicoba pada emulator, simulator, dan devais sebenarnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk emulator dapat menggunakan yang telah tersedia pada beberapa penjelajah internet [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun mengintstalnya sebagai ekstensi Google Chrome [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="screenshot"&gt;screenshot&lt;/h2&gt;
+&lt;p&gt;Devais Samsung Galaxy A12 [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] digunakan untuk uji coba tata letak suatu halaman web yang hasilnya pada emulator dan devais sebenarnya diberikan pada Gambar 
+&lt;a
+
+	
+	
+		href = "#fig1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ berikut ini.&lt;/p&gt;</description></item></channel></rss>

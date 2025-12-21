@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cookbook on butiran</title><link>http://localhost:1313/butiran/tags/cookbook/</link><description>Recent content in Cookbook on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Jul 2022 06:54:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/cookbook/index.xml" rel="self" type="application/rss+xml"/><item><title>cookbook-on-comp-phys</title><link>http://localhost:1313/butiran/0115/</link><pubDate>Tue, 12 Jul 2022 17:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0115/</guid><description>&lt;p&gt;Berawal dari menyapa kolega di suatu grup WA yang menyampaikan tautan papernya yang baru saja terbit [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana penyampai merupakan penulis korespondensinya, tawaran untuk mengisi kolokium di Departemen Fisika Universitas Hasanuddin dilontarkan. Semula diminta untuk Selasa, 21 Juni 2022 yang dirasakan terlalu cepat dan diundur ke bulan berikutnya. Selanjutnya dikontak oleh rekan penyampai terkait informasi kegiatan dan koordinasi dilakukan dengan WA sampai kegiatan selesai dilaksanakan pada hari ini, Selasa, 12 Juli 2022, 0900 GMT+08, yang dipastikan dengan suatu surat undangan sebelumnya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>python int to binary string</title><link>http://localhost:1313/butiran/0053/</link><pubDate>Wed, 13 Apr 2022 19:00:01 +0700</pubDate><guid>http://localhost:1313/butiran/0053/</guid><description>&lt;p&gt;Terdapat pertanyaan yang menggelitik mengenai bagaimana melakukan konversi suatu bilangan bulat (int) menjadi biner (string) dengan fungsi built-in dalam bahasa pemrograman Python [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini hanya akan disajikan beberapa contoh dan hasilnya, tanpa penjelasan mendetil.&lt;/p&gt;
+&lt;h2 id="output"&gt;output&lt;/h2&gt;
+&lt;p&gt;Beberapa keluaran dan informasinya bagaimana memperolehnya adalah sebagai berikut ini.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-batch" data-lang="batch"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;PS L:\home\cookbook\python\num2str&amp;gt; python int_to_binary.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;num = 11
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;digit = 6
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;f&amp;#39;0b{num:08b}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;0b00001011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;f&amp;#39;{num:010b}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;0000001011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;f&amp;#39;{num:b}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;1011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;bin(num)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;0b1011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;bin(num)[2:]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;1011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;format(num, &amp;#39;06b&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;001011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;format(num, &amp;#39;0{}b&amp;#39;.format(digit))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;001011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;f&amp;#39;{num:0{digit}b}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;001011
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;bb = 0b1111
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(bb)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;15
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cc = 0x17
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(cc)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;23
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;dd = bb + cc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;38 = 15 + 23
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;PS L:\home\cookbook\python\num2str&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hasil di atas diperoleh dengan menjalan program pada bagian berikutnya menggunakan PowerShell 5.1.19041.1320 pada Windows 10 Home 19042.1586 yang memanggil Python 3.10.4.&lt;/p&gt;</description></item><item><title>cookbook</title><link>http://localhost:1313/butiran/0021/</link><pubDate>Sat, 26 Mar 2022 19:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/0021/</guid><description>&lt;p&gt;Terinspirasi dengan metode cookbook dalam mempelajari suatu bahasa pemrograman [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], mulai dibuat suatu cookbook [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], setidaknya untuk mengumpulkan kembali ceceran kode-kode yang dibuat, yang mungkin tidak akan pernah tertelusuri semuanya (tersebar, blog, tagebuch luring dan daring, dan lain-lain).&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0020"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		create new github repository
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0018"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		install python windows powershell
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;John Daniel Leon, &amp;ldquo;The Cookbook Method&amp;rdquo;, 4 Dec 2016, url 
+&lt;a
+
+	
+	
+		href = "https://www.devdungeon.com/cookbook"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.devdungeon.com/cookbook &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220327].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Sparisoma Viridi, &amp;ldquo;a cookbook for me as beginner&amp;rdquo;, GitHub, 26 Mar 2022, url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/cookbook"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/cookbook &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220326].&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backend on butiran</title><link>http://localhost:1313/butiran/tags/backend/</link><description>Recent content in Backend on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 17:26:31 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/backend/index.xml" rel="self" type="application/rss+xml"/><item><title>butiran backend</title><link>http://localhost:1313/butiran/25f58/</link><pubDate>Mon, 23 Jun 2025 17:26:31 +0700</pubDate><guid>http://localhost:1313/butiran/25f58/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;23-jun-2025&lt;/code&gt; Create a repo &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; after a AI-assisted discussion &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; as backend of related notes via shortcodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Sparisoma Viridi, &amp;ldquo;butiran-backend&amp;rdquo;, GitHug, 23 Jun 2025, url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/butiran-backend/tree/817f244f5f074bc440b4e39ed763721b027fda2b"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/butiran-backend &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250623].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;GPT-4o, &amp;ldquo;Hugo Backend Integration&amp;rdquo;, ChatGPT, 23 Jun 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/68592c9a-5100-800a-9231-0a315a092d85"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/68592c9a-5100-800a-9231-0a315a092d85 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250623].&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item></channel></rss>

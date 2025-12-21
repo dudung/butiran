@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interpolation on butiran</title><link>http://localhost:1313/butiran/tags/interpolation/</link><description>Recent content in Interpolation on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Feb 2022 08:38:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/interpolation/index.xml" rel="self" type="application/rss+xml"/><item><title>polynomial interpolation</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-22-polynomial-interpolation/</link><pubDate>Tue, 22 Feb 2022 08:38:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-22-polynomial-interpolation/</guid><description>&lt;p&gt;Fungsi polinomial memiliki banyak kegunaan di dalam matematika, yang salah satunya adalah pada interpolasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dua formula eksplisit interpolasi polinomial yang umum digunakan adalah polinomial Lagrange dan Newton [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang bersama-sama dengan spline dimanfaatkan dalam sains data [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Polinomial Lagrange telah pula diimplementasikan dalam bahasa Wolfram [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>linear interpolation</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-21-linear-interpolation/</link><pubDate>Tue, 22 Feb 2022 05:08:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-21-linear-interpolation/</guid><description>&lt;p&gt;Interpolasi linier merupakan salah satu jenis interpolasi, yang melibatkan pembangkitan nilai baru berdasarkan himpunan nilai-nilai yang ada, yang dicapai dengan membuat secara geometri sebuah garis lurus antara dua titik berurutan pada sebuah grafik atau bidang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Interpolasi dari himpunan titik-titik data didefinisikan sebagai rangkaian interpolan linier antar setiap pasang titik-titik data, yang menghasilkan kurva kontinu akan tetapi dengan turunan diskontinu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam bahasa pemrograman Python dengan menggunakan &lt;code&gt;numpy&lt;/code&gt; interpolasi linier dapat dilakukan dengan hanya satu baris kode [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat banyak kalkulator interpolasi linier yang telah tersedia secara daring [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang juga dilengkapi rumusnya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>interpolation</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-21-interpolation/</link><pubDate>Mon, 21 Feb 2022 13:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-21-interpolation/</guid><description>&lt;p&gt;Interpolasi merupakan proses untuk mencari suatu nilai antara dua titik pada suatu garis atau kurva [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang secara umum dapat menjadi suatu pendekatan bagi suatu fungsi yang melewati semua titik yang diberikan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam bidang perpajakan dan keuangan interpolasi merupakan sebagai metode statistik dengan menggunakan nilai terkait untuk memperkirakan suatu harga atau hasil sekuritas yang tidak diketahui [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

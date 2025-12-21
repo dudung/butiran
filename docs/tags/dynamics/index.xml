@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dynamics on butiran</title><link>http://localhost:1313/butiran/tags/dynamics/</link><description>Recent content in Dynamics on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 06 Nov 2021 10:29:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/dynamics/index.xml" rel="self" type="application/rss+xml"/><item><title>newton's 3rd law</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-05-newtons-3rd-law/</link><pubDate>Sat, 06 Nov 2021 10:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-05-newtons-3rd-law/</guid><description>&lt;p&gt;Dalam beberapa versi hukum III Newton terdapat kata aksi dan reaksi yang kadang, secara kurang tepat, dapat diartikan bahwa kedua benda yang berinteraksi harus bergerak [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], padahal hal yang penting adalah bahwa gaya merupakan hasil interaksi [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Lebih tepatnya tidak ada gaya yang terisolasi, sehingga untuk setiap gaya luar yang bekerja pada suatu benda, ada gaya dengan besar sama tapi arah berlawanan yang bertindak balik pada benda lain penyebab gaya luar tersebut [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Hukum ini dirujuk pula sebagai hukum aksi-reaksi dan masih menjadi kajian yang menarik belum lama ini [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>newton's 2nd law</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-03-newtons-2nd-law/</link><pubDate>Fri, 05 Nov 2021 06:41:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-03-newtons-2nd-law/</guid><description>&lt;p&gt;Hukum II Newton sebenarnya melibatkan hukum I Newton tanpa secara eksplisit dinyatakan, di mana hukum II ini merupakan bentuk yang lebih umumnya dari hukum I [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu yang sering menjadi sumber permasalah dalam memahami hukum ini adalah suku $F = ma$ dianggap sebagai suatu gaya dan bukan jumlah gaya-gaya [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="original-text"&gt;original text&lt;/h2&gt;
+&lt;p&gt;Hukum II Newton menyatakan [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#ref05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#ref06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]&lt;/p&gt;</description></item><item><title>newton's 1st law</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-02-newtons-1st-law/</link><pubDate>Wed, 03 Nov 2021 13:28:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-02-newtons-1st-law/</guid><description>&lt;p&gt;Hukum I Newton yang dirintis oleh Galileo dikenal pula sebagai hukum inersia, yang merupakan suatu lompatan konsep walaupun saat itu Galileo belum dapat melakukan observasi tanpa adanya gesekan, di mana konsep ini memperbaiki formulasi Aristoteles yang menyatakan bahwa bila ada gerak haruslah ada gaya luar yang menghasilkan gerak tersebut [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="original-text"&gt;original text&lt;/h2&gt;
+&lt;p&gt;Newton&amp;rsquo;s first law termasuk ke dalam semantik produktif, di mana setiap generasi membaca dan menemukan pengertiannya, semakin kita mendalami proses mempelajari hukum ini, semakin banyak arti dan aspek yang terungkap, yang teks aslinya adalah&lt;/p&gt;</description></item><item><title>newton's laws of motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-01-newtons-laws-of-motion/</link><pubDate>Tue, 02 Nov 2021 04:09:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/09/2021-11-01-newtons-laws-of-motion/</guid><description>&lt;p&gt;Terdapat tiga hukum Newton tentang gerak yang berpusat pada hukum kedua [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang terkait dengan konsep-konsep lain dalam fisika [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Hukum-hukum ini telah terverifikasi melalui eksperimen dan observasi lebih dari 200 tahun dan merupakan pendekatan yang amat baik untuk skala dan laju sehari-hari [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada abad ke-20 hukum-hukum Newton ini digantikan sebagai hukum-hukum fisika yang paling mendasar oleh mekanika kuantum dan relativitas [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

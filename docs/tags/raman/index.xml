@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raman on butiran</title><link>http://localhost:1313/butiran/tags/raman/</link><description>Recent content in Raman on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 24 Apr 2025 20:04:56 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/raman/index.xml" rel="self" type="application/rss+xml"/><item><title>md palm-oil ml-raman</title><link>http://localhost:1313/butiran/25d61/</link><pubDate>Thu, 24 Apr 2025 20:04:56 +0700</pubDate><guid>http://localhost:1313/butiran/25d61/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;13-oct-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25b11/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25b11&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ The actual note about this research.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;24-apr-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://osf.io/q2uhp"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;q2uhp&lt;/code&gt; &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ Initial discussion on ui for exhibition in oct-2025.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="elements"&gt;elements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware is portable Raman.&lt;/li&gt;
+&lt;li&gt;Data acquisition is YSW-5001 Spectral Analysis Software &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Data processing is Contrastive Spectra Matching program &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; with available dataset &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt; according to a published work &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;, which is conducted by W team.&lt;/li&gt;
+&lt;li&gt;Data visualization is UI by HZH team &lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="mermaid"&gt;
+flowchart LR
+S --&gt; R --&gt; P --&gt; U
+S(["Sample"])
+R(["Portable Raman"])
+P(["Data processing"])
+U(["UI"])
+
+&lt;/div&gt;
+
+&lt;p&gt;Fig 1. Worflow design on 24-apr-2025.&lt;/p&gt;</description></item></channel></rss>

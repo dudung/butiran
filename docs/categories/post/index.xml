@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on butiran</title><link>http://localhost:1313/butiran/categories/post/</link><description>Recent content in Post on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 05:26:02 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/post/index.xml" rel="self" type="application/rss+xml"/><item><title>post ref format</title><link>http://localhost:1313/butiran/25b77/</link><pubDate>Mon, 24 Feb 2025 05:26:02 +0700</pubDate><guid>http://localhost:1313/butiran/25b77/</guid><description>&lt;ul&gt;
+&lt;li&gt;It will be shown in footer and only accomodates single entry.&lt;/li&gt;
+&lt;li&gt;In front matter with TOML format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;ref&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;title&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;post ref format&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;author&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;Sparisoma Viridi&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;source&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;notes, GitHub Pages, 24 Feb 2024&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;updated&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;-&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;url&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;http://dudung.github.io/notes/25b77&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;accessed&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#39;20250224&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Further improvement is required, but first with goal redefinition.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

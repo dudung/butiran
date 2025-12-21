@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Polynomial on butiran</title><link>http://localhost:1313/butiran/tags/polynomial/</link><description>Recent content in Polynomial on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2024 04:49:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/polynomial/index.xml" rel="self" type="application/rss+xml"/><item><title>m-th derivative polynomial zero</title><link>http://localhost:1313/butiran/24j06/</link><pubDate>Mon, 07 Oct 2024 04:49:00 +0700</pubDate><guid>http://localhost:1313/butiran/24j06/</guid><description>&lt;p&gt;$m$-th derivative of a polynomial function at $x=0$&lt;/p&gt;</description></item><item><title>maclaurin series polynomial</title><link>http://localhost:1313/butiran/24j05/</link><pubDate>Sun, 06 Oct 2024 21:01:00 +0700</pubDate><guid>http://localhost:1313/butiran/24j05/</guid><description>&lt;p&gt;An example of Maclaurin series&lt;/p&gt;</description></item><item><title>functions for polynomial</title><link>http://localhost:1313/butiran/000w/</link><pubDate>Tue, 26 Dec 2023 19:11:00 +0800</pubDate><guid>http://localhost:1313/butiran/000w/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When have to work with function representing polynomial, e.g. plot polynomial function, the function can be made by summing all terms manually (Imam, 2018).&lt;/li&gt;
+&lt;li&gt;To calculate $f(x)$ for single value of $x$ there is at least two ways with different time complexity, $O(n^2)$ by adding each term for $x^j$ with multiplication and summation loops, and $O(n)$ by using Horner&amp;rsquo;s method (Taparia, 2022).&lt;/li&gt;
+&lt;li&gt;Python math library can be used to calculate $x^j$ and reduce previous approach with two loops into single loop (Bhojasia, 2022).&lt;/li&gt;
+&lt;li&gt;User-defined class can be constructed to meet only what is needed, coefficients, string representation in LaTeX, and calculate the value for every $x$ using callabes (Klein, 2023).&lt;/li&gt;
+&lt;li&gt;By representing a polynomial in its coefficent NumPy functions can be used to calculate the value for every $x$, finding roots of the the polynomial, perform differential and integral to it (Kitchin, 2013).&lt;/li&gt;
+&lt;li&gt;There are also some series, e.g. power, Chebyshev, Hermite, Laguerre, Legendre, provided by NumPy (Developers, 2022).&lt;/li&gt;
+&lt;li&gt;Here only polynomial functions with constant and variable coefficients are discussed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="constant-coefficents"&gt;constant coefficents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppose there is a polynomial in the form of
+$$\tag{1}
+f(x) = 1 + 2x + 3x^2 + 4x^3 + 5x^4.
+$$&lt;/li&gt;
+&lt;li&gt;There are some approaches to calculate the value of $f(x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-1"&gt;approach 1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y0 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y3 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y4 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y0 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y1 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y2 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y3 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwc33ef"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwc33ef &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+4	1593
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;This approach is straight forward and very clear, but it works only for one specific polynomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-2"&gt;approach 2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; math
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y0 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y3 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y4 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y0 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y1 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y2 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y3 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwcjjud"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwcjjud &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+4	1593
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;This approach is straight forward and also systematic since the power is also clear, but it works only for one specific polynomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-3"&gt;approach 3&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; math
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; c &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y0 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y3 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y4 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[&lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y0 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y1 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y2 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y3 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwcwhvq"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwcwhvq &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1.0
+1	15.0
+2	129.0
+3	547.0
+4	1593.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;It is easier to modify for certain polynomial compared the previous code, since only one line &lt;code&gt;c = [c0, c1, c2, c3, c4]&lt;/code&gt; that has to be changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-4"&gt;approach 4&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; math
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; c &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(len(c)):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; yi &lt;span style="color:#f92672"&gt;=&lt;/span&gt; c[i] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;pow(x, i)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y &lt;span style="color:#f92672"&gt;+&lt;/span&gt; yi
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwd8ve2"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwd8ve2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1.0
+1	15.0
+2	129.0
+3	547.0
+4	1593.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;It is the same the previous code, with more compact in calculating each term using &lt;code&gt;yi = c[i] * math.pow(x, i)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-5"&gt;approach 5&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; c &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [(c[i] &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;i) &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(len(c))]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; sum(y)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwe4z2n"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwe4z2n &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+4	1593
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Using Python feature known as list comprehension more lines can be reduced.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-6"&gt;approach 6&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; c &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [cf &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;n &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; n, cf &lt;span style="color:#f92672"&gt;in&lt;/span&gt; enumerate(c)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; sum(y)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwe8ed8"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwe8ed8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+4	1593
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;With this code, number of lines is still the same but the use of Python &lt;code&gt;enumerate&lt;/code&gt; function make the code more clear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="approach-7"&gt;approach 7&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; sum([c &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;n &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; n, c &lt;span style="color:#f92672"&gt;in&lt;/span&gt; enumerate(coefs)])
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;coefs &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxwf2k3c"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxwf2k3c &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231230].&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+4	1593
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Now the function &lt;code&gt;f(x)&lt;/code&gt; can be in one line and &lt;code&gt;coefs&lt;/code&gt; list is put outside the function.&lt;/li&gt;
+&lt;li&gt;Notice that &lt;code&gt;coefs&lt;/code&gt; can be modified before the function &lt;code&gt;f(x)&lt;/code&gt; is called.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="variable-coefficients"&gt;variable coefficients&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;By modifying previous approach 7, following code can be obtained.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x, coefs):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; sum([c &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;n &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; n, c &lt;span style="color:#f92672"&gt;in&lt;/span&gt; enumerate(coefs)])
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;c1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x, c1), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;c2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x, c2), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Output
+&lt;pre tabindex="0"&gt;&lt;code&gt;x	f(x)
+0	1
+1	15
+2	129
+3	547
+
+x	f(x)
+0	1
+1	4
+2	15
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Notice that there are two polynomials, each with coefficients &lt;code&gt;c1&lt;/code&gt; and &lt;code&gt;c2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Call the function &lt;code&gt;f(x, c)&lt;/code&gt; will calculate polynomial $f(x)$ with coefficients $c$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="challenges"&gt;challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Modify last code to calculate $f(x) = -1 + x - x^2 + x^3$.&lt;/li&gt;
+&lt;li&gt;Calculate other polynomial $f(x) = 32x^7 - x^4 + 0.5$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bhojasia M (2022) &amp;ldquo;Python Program to Compute a Polynomial Equation&amp;rdquo;, Sanfoundy, 30 May 2022, url 
+&lt;a
+
+	
+	
+		href = "https://www.sanfoundry.com/python-program-compute-polynomial-equation-coefficients-list/#google_vignette"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.sanfoundry.com/python-program-compute-polynomial-equation-coefficients-list/#google_vignette &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20131227].&lt;/li&gt;
+&lt;li&gt;Developers N (2022) &amp;ldquo;Polynomials&amp;rdquo;, NumPy, 2008-2022, url 
+&lt;a
+
+	
+	
+		href = "https://numpy.org/doc/stable/reference/routines.polynomials.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://numpy.org/doc/stable/reference/routines.polynomials.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231227].&lt;/li&gt;
+&lt;li&gt;Imam A (2018) &amp;ldquo;Plotting polynomial function in Python&amp;rdquo;, Medium, 27 Dec 2018, url 
+&lt;a
+
+	
+	
+		href = "https://aadhil-imam.medium.com/361230a1e400"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://aadhil-imam.medium.com/361230a1e400 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20131227].&lt;/li&gt;
+&lt;li&gt;Kitchin J (2013) &amp;ldquo;Polynomials in python&amp;rdquo;, The Kitchin Research Group, Chemical Engineering at Carnegie Mellon University, 27 Feb 2013, url 
+&lt;a
+
+	
+	
+		href = "https://kitchingroup.cheme.cmu.edu/blog/2013/01/22/Polynomials-in-python/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://kitchingroup.cheme.cmu.edu/blog/2013/01/22/Polynomials-in-python/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231227].&lt;/li&gt;
+&lt;li&gt;Klein B (2023) &amp;ldquo;14. Polynomial Class&amp;rdquo;, 7 Dec 2023, url 
+&lt;a
+
+	
+	
+		href = "https://python-course.eu/oop/polynomial-class.php"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://python-course.eu/oop/polynomial-class.php &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231227].&lt;/li&gt;
+&lt;li&gt;Taparia A (2022) &amp;ldquo;Python program to Compute a Polynomial Equation&amp;rdquo;, GeeksforGeeks, 21 Jun 2022, url 
+&lt;a
+
+	
+	
+		href = "https://www.geeksforgeeks.org/python-program-to-compute-a-polynomial-equation/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.geeksforgeeks.org/python-program-to-compute-a-polynomial-equation/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231227].&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>polynomial interpolation</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-22-polynomial-interpolation/</link><pubDate>Tue, 22 Feb 2022 08:38:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/50/2022-02-22-polynomial-interpolation/</guid><description>&lt;p&gt;Fungsi polinomial memiliki banyak kegunaan di dalam matematika, yang salah satunya adalah pada interpolasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dua formula eksplisit interpolasi polinomial yang umum digunakan adalah polinomial Lagrange dan Newton [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang bersama-sama dengan spline dimanfaatkan dalam sains data [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Polinomial Lagrange telah pula diimplementasikan dalam bahasa Wolfram [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

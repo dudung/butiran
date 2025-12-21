@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Circular Motion on butiran</title><link>http://localhost:1313/butiran/tags/circular-motion/</link><description>Recent content in Circular Motion on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 20:55:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/circular-motion/index.xml" rel="self" type="application/rss+xml"/><item><title>non-uniform circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-11-01-non-uniform-circular-motion/</link><pubDate>Mon, 01 Nov 2021 20:55:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-11-01-non-uniform-circular-motion/</guid><description>&lt;p&gt;Dalam suatu gerak melingkar berubah beraturan atau GMBB, benda bergerak menyusuri lintasan berbentuk lingkaran akan tidak dengan laju tetap [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga walaupun lintasannya berbentuk lingkaran akan tetapi bersifat non-linear [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk penerapannya, gerak pendulum dalam lintasan lingkaran vertikal dan roller coaster merupakan contoh-contoh GMBB [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="ilustration"&gt;ilustration&lt;/h2&gt;
+&lt;p&gt;Gerak melingkar berubah beraturan atau GMBB, dengan membatasi hanya sampai $\alpha$ bernilai konstan, diberikan ilustrasinya untuk posisi-posisi pada beberapa waktu dan juga dilengkapi dengan animasinya pada gambar berikut.&lt;/p&gt;</description></item><item><title>uniform circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-31-uniform-circular-motion/</link><pubDate>Mon, 01 Nov 2021 10:16:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-31-uniform-circular-motion/</guid><description>&lt;p&gt;Gerak melingkar beraturan atau GMB merupakan suatu jenis gerak di mana benda bergerak menempuh lintasan berbentuk lingkaran dengan laju tetap [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada gerak melingkar dengan laju tetap ini, dapat diturunkan percepatan sentripetal [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang merupakan percepatan yang mengarah ke pusat lintasan lingkaran [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Percepatan ini disebabkan oleh jumlah gaya yang mengarah ke arah yang sama [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-30-circular-motion/</link><pubDate>Sun, 31 Oct 2021 19:03:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-30-circular-motion/</guid><description>&lt;p&gt;Termasuk di dalam gerak 2d adalah gerak melingkar yang dapat diperkenalkan tanpa notasi vektor 2d dalam koordinat kartesian $(x, y)$ dan langsung ke besaran angular $\theta$, $\omega$, $\alpha$ [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], menggunakan ilustrasi penjumlahan vektor untuk mendapatkan percepatan sentripetal bagi gerak melingkar beraturan atau GMB dengan masih tanpa notasi vektor dalam koordinat kartesian secara eksplisit [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan menampillkan gerak melingkar dalam variabel-variabel koordinat kartesian secara eksplisit [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

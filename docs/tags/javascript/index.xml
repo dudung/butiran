@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on butiran</title><link>http://localhost:1313/butiran/tags/javascript/</link><description>Recent content in Javascript on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 16 Apr 2022 13:37:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>start to learn tone.js</title><link>http://localhost:1313/butiran/0059/</link><pubDate>Fri, 15 Apr 2022 17:24:01 +0700</pubDate><guid>http://localhost:1313/butiran/0059/</guid><description>&lt;p&gt;Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah lama tidak membuat lagu dan ingin kembali membuat suatu komposisi, dalam rangka mengikuti hasrat setelah suatu jeda yang panjang, membuat musik dengan kode membawa pada keputusan mepelajari Tone.js sebagai suatu langkah pertama [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat musisi yang membagi pengetahuannya mengenai teori musik dengan Tone.js [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang akan dapat sangat membantu. Tone.js merupakan suatu framework audio web untuk musik interaktif dalam penjelajah internet, yang saat ini telah mencapai rilis kelima belas dengan versi terakhirnya adalah 14.7.39 pada 29 Juli 2020 [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan demikian tidak lagi harus memilih antara melakukan coding atau memproduksi musik, keduanya bisa sejalan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bila tidak ingin menggunakan node.js, dapat digunakan CDN Tone seperti untuk versi 14.7.77 [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau versi 14.8.38 [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan disajikan langkah-langkah mempelajari Tone.js mengikuti suatu tulisan yang cukup baik untuk pemula [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>too slow for stackoverflow</title><link>http://localhost:1313/butiran/0030/</link><pubDate>Fri, 01 Apr 2022 22:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0030/</guid><description>&lt;p&gt;Stack Overflow (SO) merupakan suatu situs web tanya-jawab untuk programer profesional dan antusias [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang sayangnya amat cepat dan dinamis sehingga sebagai pemula akan ketinggalan dalam memberi respons.&lt;/p&gt;
+&lt;h2 id="closed-and-deleted-question"&gt;closed and deleted question&lt;/h2&gt;
+&lt;p&gt;Terdapat suatu pertanyaan dari 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/users/14139816/a100d"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		A100D &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ dengan judul 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/questions/71708318/execution-order-of-nested-loops-in-javascript"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Execution order of nested loops in javascript &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ yang telah dihapus, bersamaan dengan 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/review/suggested-edits/31434792"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		pengusulan penyuntingannya &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. Pengusulan ini dilakukan karena saat akan menjawabnya, telah ditutup di tengah-tengah menjawab. Ya, terlalu lambat untuk Stack Overflow.&lt;/p&gt;</description></item></channel></rss>

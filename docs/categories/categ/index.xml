@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categ on butiran</title><link>http://localhost:1313/butiran/categories/categ/</link><description>Recent content in Categ on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 19:36:43 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/categ/index.xml" rel="self" type="application/rss+xml"/><item><title>manual categ pages</title><link>http://localhost:1313/butiran/25h23/</link><pubDate>Sat, 09 Aug 2025 19:36:43 +0700</pubDate><guid>http://localhost:1313/butiran/25h23/</guid><description>&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discussion is performed with GPT-5 with uncertain time when it evolves previously from GPT-4o &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Taxonomies will not be used for supporting some hidden post and the category pages wll be set up manually &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Automatic redirection from home to a dedicated post as suggested &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt; might be considered but it will not be implemented now.&lt;/li&gt;
+&lt;li&gt;Or simpley archive the landing page in a post, when there is a new landing page.&lt;/li&gt;
+&lt;li&gt;Related note is 
+&lt;a
+
+	
+	
+		href = "/butiran/25h24/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25h24
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Shortcodes can also be used in &lt;code&gt;content/_index.md&lt;/code&gt; &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-5, &amp;ldquo;Model version clarification&amp;rdquo;, ChatGPT, 9 Aug 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/6897449f-179c-800a-a36d-374c43d5737c"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/6897449f-179c-800a-a36d-374c43d5737c &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20250809].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

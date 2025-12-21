@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abm on butiran</title><link>http://localhost:1313/butiran/categories/abm/</link><description>Recent content in Abm on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 12 Jul 2025 08:42:56 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/abm/index.xml" rel="self" type="application/rss+xml"/><item><title>abm aor init cond</title><link>http://localhost:1313/butiran/25g31/</link><pubDate>Sat, 12 Jul 2025 08:42:56 +0700</pubDate><guid>http://localhost:1313/butiran/25g31/</guid><description>&lt;p&gt;Initial condition for abm-aor simulation &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; is discussed in this note.&lt;/p&gt;
+&lt;h2 id="mpm"&gt;mpm&lt;/h2&gt;
+&lt;p&gt;A matrix named as movement probability matrix (MPM) is used to define probable new position of agents, which has form as follow&lt;/p&gt;
+&lt;p&gt;$$\tag{1}
+{\rm MPM} = \left[
+\begin{matrix}
+m_{11} &amp;amp; m_{12} &amp;amp; m_{13} \newline
+m_{21} &amp;amp; m_{22} &amp;amp; m_{23} \newline
+m_{31} &amp;amp; m_{32} &amp;amp; m_{33}
+\end{matrix}
+\right],
+$$&lt;/p&gt;
+&lt;p&gt;where directions represented by each matrix element are given in following table.&lt;/p&gt;</description></item></channel></rss>

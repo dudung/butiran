@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Equations on butiran</title><link>http://localhost:1313/butiran/tags/equations/</link><description>Recent content in Equations on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 21:02:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/equations/index.xml" rel="self" type="application/rss+xml"/><item><title>nlm free fall</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-26-nlm-free-fall/</link><pubDate>Tue, 26 Oct 2021 21:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-26-nlm-free-fall/</guid><description>&lt;p&gt;Gerak jatuh bebas atau GJB dialami oleh benda yang jatuh dengan hanya dipengaruhi oleh gaya gravitasi tanpa mempertimbankan gesekan udara [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Eksperimen untuk mengamati GJB harus dilakukan dalam lingkungan vakum agar hambatan udara tidak mempengaruhi hasil, yang untuk benda-benda kecil dan halus permukaannya sampai suatu massa jenis tertentu eksperimen masih dapat dilakukan dengan adanya udara [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebenarnya suatu GJB dapat lebih umum, di mana benda tidak harus bergerak hanya ke bawah, dengan benda yang bergerak ke atas pun dalam termasuk dalam GJB selama hanya gaya gravitasi yang bekerja padanya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga dapat melingkupi gerak benda-benda langit [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Saat ini hanya dibahas mengenai gerak dekat dengan permukaan bumi sehingga percepatan gravitasi dapat dianggap konstan.&lt;/p&gt;</description></item><item><title>nonuniform linear motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-25-nonuniform-linear-motion/</link><pubDate>Tue, 26 Oct 2021 11:40:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-25-nonuniform-linear-motion/</guid><description>&lt;p&gt;Gerak lurus berubah beraturan atau GLBB adalah gerak dengan percepatan konstan, baik besar maupun arahnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang besarnya percepatan dapat bernilai positif ataupun negatif (bukan nol) [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana gerak ini merupakan salah satu dari dua jenis gerak linier [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat pula nama lainnya yaitu gerak lurus dengan percepatan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>ulm car chase</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-ulm-car-chase/</link><pubDate>Mon, 25 Oct 2021 15:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-ulm-car-chase/</guid><description>&lt;p&gt;Geral lurus beraturan atau GLB [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] memiliki permasalah menarik untuk dibahas, yang salah satunya adalah pengejaran kendaraan oleh kendaraan lain, di mana dapat kendaraan pertama bergerak lebih dahulu dari kendaraan kedua [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau kedua bergerak dengan salah satu kendaraan telah berada di depan kendaraan lainnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kendaraan yang berada di belakang harus memiliki kecepatan tetap lebih besar dari kecepatan tetap kendaraan yang berada di depan. Umumnya pada permasalah pengejaran dua kendaraan, kendaran yang mengejar memiliki percepatan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>uniform linear motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-uniform-linear-motion/</link><pubDate>Sun, 24 Oct 2021 18:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-uniform-linear-motion/</guid><description>&lt;p&gt;Gerak lurus merupakan gerak dari obyek yang mengikuti suatu garis lurus dan beraturan, dalam hal ini, berarti percepatan bernilai nol selama benda bergerak. Dengan demikian gerak lurus beraturan atau GLB merupakan gerak benda mengikuti lintasan lurus dengan kecepatan tetap atau beraturan atau seragam [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. GLB ini merupakan salah satu bagian dari gerak lurus, di mana bagian lainnya adalah gerak lurus dengan percepatan berubah [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>kinematics equations 1d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-23-kinematics-equations-1d/</link><pubDate>Sat, 23 Oct 2021 20:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-23-kinematics-equations-1d/</guid><description>&lt;p&gt;Terdapat persamaan-persamaan kinematika yang berjumlah tiga [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], empat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau lima [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang mengatikan lima variabel kinematika [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Persamaan-persamaan ini dibatasi untuk digunakan hanya pada kasus gerak lurus dalam 1d dengan percepatan tetap.&lt;/p&gt;</description></item></channel></rss>

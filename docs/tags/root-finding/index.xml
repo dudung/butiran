@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Root-Finding on butiran</title><link>http://localhost:1313/butiran/tags/root-finding/</link><description>Recent content in Root-Finding on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jan 2024 05:14:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/root-finding/index.xml" rel="self" type="application/rss+xml"/><item><title>regula-falsi method</title><link>http://localhost:1313/butiran/0016/</link><pubDate>Tue, 09 Jan 2024 05:14:00 +0800</pubDate><guid>http://localhost:1313/butiran/0016/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;Regula-falsi method is one of the bracketing iterative method in finding roots of a non-linear equations, where the approximated root is found by using the straight lines and it is basto Bolzano&amp;rsquo;s theorem for continues functions (Yoweto 2020). After choose two initial guesses a line is formed using the two-point form of the line and by setting $y = 0$ an iterative formula is obtained (Weisstein, 2023). It can be considered as one of the attempts to speed up the bisection method (Tyagi, 2022) but it might be less precise than bisection method (itskawal2000, 2021). This method has been generalized for finding both zeros and extrema of a function (Gomes &amp;amp; Morgado, 2013).&lt;/p&gt;</description></item><item><title>secant method</title><link>http://localhost:1313/butiran/0015/</link><pubDate>Mon, 08 Jan 2024 19:16:00 +0800</pubDate><guid>http://localhost:1313/butiran/0015/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;If the derivative of function, whose root is to be found, does not exist or hard to find, secant method can be used instead of Newton raphson method, since it does not required the derivative but it requires two initial guesses for the roots (Mohan, 2021). Since this method retains only the most recent estimate, the root does not necessary bracketed (Weisstein). Because of that secant method may not converge (Han, 2017). There is a report explaining origin and evolution of secont method in 1-d (Papakonstantinou &amp;amp; Tapia, 2013).&lt;/p&gt;</description></item><item><title>newton-raphson method</title><link>http://localhost:1313/butiran/0014/</link><pubDate>Mon, 08 Jan 2024 13:26:00 +0800</pubDate><guid>http://localhost:1313/butiran/0014/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;The Newton-Raphson method is a method for finding succesively and quickly better approximation for the roots of a real-valued functions (Çapar, 2020). It is one of the most widely used methods for root finding and it can be shown that this technique is quadratically convergent as the root aproached (Smith, 1998). This algorithm is quite versatile with wide-ranging use cases than span many domains, e.g by reframing the function of interest for the value of $x$ that yields a certain value rather than being restricted to $0$ can be searched (Dolphin, 2022). There is a report about historical development of this method (Ypma, 1995), where there are differences between this technique and Newton&amp;rsquo;s technique (Nadhim &amp;amp; Al-Jilawi, 2022).&lt;/p&gt;</description></item><item><title>graphical method</title><link>http://localhost:1313/butiran/000v/</link><pubDate>Tue, 26 Dec 2023 07:04:00 +0800</pubDate><guid>http://localhost:1313/butiran/000v/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The term graphical method related root finding might have lots of meanings as follow.
+&lt;ul&gt;
+&lt;li&gt;The graphical method can also be presented in the form of perpendicular segements representing polynomial coefficients in the process of finding the real roots of pthe polynomial (Eisenberg, 1967).&lt;/li&gt;
+&lt;li&gt;For complex roots the graphical method perform the analysis in the form of contour in complex plane (Pfeiffer, 1979).&lt;/li&gt;
+&lt;li&gt;There is also other graphical technique for nonlinear algebraic equations that employs two graphs of the zero-curves of the real and imaginary parts of the polynomial for locating roots approximate location (Mitsui, 1983).&lt;/li&gt;
+&lt;li&gt;Not to related to topic covered here, graphical study in the other form, e.g. polynomiography, can be very helpful in studying the newly development of root-finding algorithm (Naseem et al., 2023).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In this note the meanings of the graphical method are limited only to the following.
+&lt;ul&gt;
+&lt;li&gt;Graphical method is classified as bracketing methods in root finding methods, which is not very percise (Hedge, 2015).&lt;/li&gt;
+&lt;li&gt;It is used usually to find real roots of an equation (Vaniya, 2020).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="method"&gt;method&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It draws the function $f(x)$ againts $x$ and try to locate as near as possible to get $x = r$, which makes $f(r) = 0$.&lt;/li&gt;
+&lt;li&gt;Choose a range $x \in [x_a, x_b]$ where $x_a &amp;lt; r &amp;lt; x_b$ holds.&lt;/li&gt;
+&lt;li&gt;Zoom in by changing the range to $x \in [x_a', x_b']$ as long as $x_a' &amp;lt; r &amp;lt; x_b'$ holds until expected precision, where $x_a' &amp;gt; x_a$ and $x_b' &amp;lt; x_b$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="example"&gt;example&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppose that there is function
+$$\tag{1}
+f(x) = x^3 + 1.2345x^2 - 9.876x - 1
+$$
+where one root lies between $2$ and $3$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="graphs"&gt;graphs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Figure 1. Plot $f(x)$ for $x \in [0, 10]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 2. Plot $f(x)$ for $x \in [0, 5]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 3. Plot $f(x)$ for $x \in [2, 4]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 4. Plot $f(x)$ for $x \in [2.6, 2.8]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 5. Plot $f(x)$ for $x \in [2.64, 2.66]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 6. Plot $f(x)$ for $x \in [2.642, 2.644]$.
+
+&lt;/li&gt;
+&lt;li&gt;Figure 7. Plot $f(x)$ for $x \in [2.6438, 2.6440]$.
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;From Figure 1 the root is hardly seen, lies between 2 and 3.&lt;/li&gt;
+&lt;li&gt;From Figure 2 it can be said that $r \approx 2.5$.&lt;/li&gt;
+&lt;li&gt;From Figure 3 it can be said that $r \approx 2.6$.&lt;/li&gt;
+&lt;li&gt;From Figure 4 it can be said that $r \approx 2.64$.&lt;/li&gt;
+&lt;li&gt;From Figure 5 it can be said that $r \approx 2.644$.&lt;/li&gt;
+&lt;li&gt;From Figure 6 it lies between $2.6438$ and $2.6440$.&lt;/li&gt;
+&lt;li&gt;From Figure 7 in can be obtained that $r \approx 2.64392$, which gives $f(r) \approx 1.07305 \times 10^{-3}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code 1. Generate data for xy scatter plot using Chart.js.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;generate_data&lt;/span&gt;(xa, xb, n):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; dx &lt;span style="color:#f92672"&gt;=&lt;/span&gt; (xb &lt;span style="color:#f92672"&gt;-&lt;/span&gt; xa) &lt;span style="color:#f92672"&gt;/&lt;/span&gt; n
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xx &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [(xa &lt;span style="color:#f92672"&gt;+&lt;/span&gt; i &lt;span style="color:#f92672"&gt;*&lt;/span&gt; dx) &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n&lt;span style="color:#f92672"&gt;+&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; yy &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; xx:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; f(x)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; yy&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append(y)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; [xx, yy]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y0 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;9.876&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.2345&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y3 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y0 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y1 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y2 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y3
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;n &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;2.6&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2.8&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;2.64&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2.66&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;2.642&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2.644&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[x, y] &lt;span style="color:#f92672"&gt;=&lt;/span&gt; generate_data(&lt;span style="color:#ae81ff"&gt;2.6438&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2.6440&lt;/span&gt;, n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt;, x[i], &lt;span style="color:#e6db74"&gt;&amp;#34;, y:&amp;#34;&lt;/span&gt;, y[i], &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;, sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxhdejsr"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxhdejsr &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="challenges"&gt;challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Try to find $r$ that makes $f(r) \approx 10^{-4}$ for $f(x)$ in Equation (1).&lt;/li&gt;
+&lt;li&gt;Could you try further for $r$ that makes $f(r) \approx 10^{-5}$ for the same equation? Give the result.&lt;/li&gt;
+&lt;li&gt;Why does the function $f(x)$ seem to be linear, when the range becomes narrower?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Eisenberg L (1967) &amp;ldquo;A graphical method for finding the real roots of nth-order polynomials&amp;rdquo;, IEEE Transactions on Automatic Control, vol 12, no 5, pp 629-631, October 1967, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1109/TAC.1967.1098710"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1109/TAC.1967.1098710 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Hedge S (2015) &amp;ldquo;Lecture 04 Finding Roots of equations Bracketing Methods&amp;rdquo;, AML702 Applied Computational Methods, Indian Institute of Technology Delhi, 18 Jan 2015, url 
+&lt;a
+
+	
+	
+		href = "https://web.iitd.ac.in/~hegde/acm/lecture/L04_roots_of_equations.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://web.iitd.ac.in/~hegde/acm/lecture/L04_roots_of_equations.pdf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231226].&lt;/li&gt;
+&lt;li&gt;Mitsui T (1983) &amp;ldquo;A graphical technique for nonlinear algebraic equations&amp;rdquo;, International Journal of Computer Mathematics, vo 13, no 3-4, pp 245-261, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1080/00207168308803367"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1080/00207168308803367 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Naseem A, Rehman M A, Qureshi S, Ide N A D (2023) &amp;ldquo;Graphical and Numerical Study of a Newly Developed Root-Finding Algorithm and Its Engineering Applications&amp;rdquo;, IEEE Access, vol 11, pp 2375-2383, 2023, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1109/ACCESS.2023.3234111"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1109/ACCESS.2023.3234111 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Pfeiffer W (1979) &amp;ldquo;A graphical method for finding complex roots and its application to plasma physics problems&amp;rdquo;,
+Journal of Computational Physics, vol 33, no 3, pp 397-404, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1016/0021-9991%2879%2990164-5"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1016/0021-9991(79)90164-5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Vaniya K (2020) &amp;ldquo;Graphical Method to Find Real Root of an Equation&amp;rdquo;, Mafatlal Gagalbhai Science Institute, Gujarat University, url 
+&lt;a
+
+	
+	
+		href = "https://mgscience.ac.in/wp-content/uploads/2020/07/K-K-VANIYA-SEM-4.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://mgscience.ac.in/wp-content/uploads/2020/07/K-K-VANIYA-SEM-4.pdf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231226].&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>root in math</title><link>http://localhost:1313/butiran/000u/</link><pubDate>Sun, 24 Dec 2023 16:43:00 +0800</pubDate><guid>http://localhost:1313/butiran/000u/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In mathematics a solution to an equation, that can be expressed as a number or an algebraic formula, is known as root (Britannica eds, 2023).&lt;/li&gt;
+&lt;li&gt;Roots can be found algebraically as well as graphically, and the number of roots of a polynomial function gives the degree of the polynomial as shown by the fundamental theorem of algebra (Smith et al., 2023).&lt;/li&gt;
+&lt;li&gt;The roots, which are also called zeros, of an equation $f(x) = 0$, are values of $x$ for which the equation is satisfied (Weisstein, 2023).&lt;/li&gt;
+&lt;li&gt;The term root is sometimes also used as a quick way of saying square root, e.g. root 2 means √2 (Pierce, 2023).&lt;/li&gt;
+&lt;li&gt;Intersection of two functions can also be solved using root finding (Smith, 2022).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="example"&gt;example&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppose there is an equation
+$$\tag{1}
+f(x) = x^3 - 15x^2 + 59x - 45,
+$$
+which is a cubic polynomial or third-degree polynomial.&lt;/li&gt;
+&lt;li&gt;Navigate the mouse on a point to view value of $(x, f(x))$ on following figure of Equation (1).
+
+
+Figure 1. Plot of $f(x)$ against $x$.&lt;/li&gt;
+&lt;li&gt;Equation (1) has three roots, $x_1 = 1$, $x_2 = 5$, and $x_3 = 9$ as shown in previous figure. And the values can also presented in table as follow.&lt;/li&gt;
+&lt;li&gt;Table 1. Values of $x$ and $f(x)$.
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;$x$&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;0&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;1&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;2&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;3&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;4&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;5&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;6&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;7&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;8&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;9&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;10&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;$f(x)$&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-45&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-15&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-24&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-21&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;45&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;Code 1. Generate values of $x$ and $f(x)$.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;coeff &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;45&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;59&lt;/span&gt;, &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; coeff[&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; c &lt;span style="color:#f92672"&gt;in&lt;/span&gt; reversed(coeff[:&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y &lt;span style="color:#f92672"&gt;+&lt;/span&gt; c
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; x &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, f(x), sep&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\t&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxcb973f"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxcb973f &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="flowchart-9888"&gt;flowchart ⚠&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Following flowchart is only for illustration, where further description is given along with algorithm in next section.
+&lt;div class="mermaid"&gt;
+flowchart TD
+ B --&gt; I --&gt; P1 --&gt; o1a
+ o1b --&gt; C1 --"Y"--&gt; O --&gt; o2a
+ C1 --"N"--&gt; o2a
+ o2b --&gt; P2 --&gt; C2
+ C2 --"Y"--&gt; o1c
+ C2 --"N"--&gt; E
+ I[/"xa, xb, &amp;Delta;x"/]
+ P1["x = xa"]
+ P2["x = x + &amp;Delta;x"]
+ C1{"f(x) = 0?"}
+ C2{"x &amp;le; xb?"}
+ O[/"x is a root"/]
+ B(["Begin"])
+ E(["End"])
+ o1a(("1")); o1b(("1")); o1c(("1"))
+ o2a(("2")); o2b(("2"))
+ classDef style1 fill:none, color:inherit
+ classDef style2 fill:#888, color:#fff
+ class B,E,I,P1,P2,C1,C2,O style1
+ class o1a,o1b,o1c,o2a,o2b style2
+ linkStyle default stroke:#8a8
+
+&lt;/div&gt;
+
+Figure 2. Flowchart for finding roots of $f(x)$.&lt;/li&gt;
+&lt;li&gt;Test whether $x$ is a root begins with $x = x_a$ and ends with $x = x_b$, where the increment of $x$ is $\Delta x$.&lt;/li&gt;
+&lt;li&gt;It is assumed that there is already $f(x)$, but when not, it can be put on the input box together with $x_a$, $x_b$, and $\Delta x$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="algorithm-9888"&gt;algorithm ⚠&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Here is an example of root finding algorithm, but it is just as an illustration and will only work for Equation (1) with certain value of parameters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Start.&lt;/li&gt;
+&lt;li&gt;Define initial and final value for $x$, e.g. $x_a$, $x_b$.&lt;/li&gt;
+&lt;li&gt;Define step size to change $x$, e.g. $\Delta x$.&lt;/li&gt;
+&lt;li&gt;Initiate $x = x_a$.&lt;/li&gt;
+&lt;li&gt;If $f(x) = 0$ display message &amp;ldquo;$x$ is a root&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Change $x$ to $x + \Delta x$.&lt;/li&gt;
+&lt;li&gt;If $x \le x_b$ proceed Step 5.&lt;/li&gt;
+&lt;li&gt;Stop.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Code 2. Display roots of $f(x)$.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;coeff &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;45&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;59&lt;/span&gt;, &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; coeff[&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; c &lt;span style="color:#f92672"&gt;in&lt;/span&gt; reversed(coeff[:&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y &lt;span style="color:#f92672"&gt;+&lt;/span&gt; c
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;xa &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;xb &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;dx &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;x &lt;span style="color:#f92672"&gt;=&lt;/span&gt; xa
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; x &lt;span style="color:#f92672"&gt;&amp;lt;=&lt;/span&gt; xb:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; f(x) &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(x, &lt;span style="color:#e6db74"&gt;&amp;#34;is a root&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; x &lt;span style="color:#f92672"&gt;+=&lt;/span&gt; dx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxe2dukg"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxe2dukg &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Result
+&lt;pre tabindex="0"&gt;&lt;code&gt;1 is a root
+5 is a root
+9 is a root
+&lt;/code&gt;&lt;/pre&gt;Code 2 gives the roots of $f(x)$ in Equation (1). It has $x_a = -20$, $x_b = 20$, and $\Delta x = 1$. So it is searching from $-20$ to $20$ with step size $1$.&lt;/li&gt;
+&lt;li&gt;Notice that the code will fail if value of $x$ being evaluated does not match value of the roots, e.g.
+&lt;ul&gt;
+&lt;li&gt;$x_a = -20$,   $x_b = 20$,   $\Delta x = 2$;&lt;/li&gt;
+&lt;li&gt;$x_a = -21.5$,   $x_b = 20$,   $\Delta x = 1$;&lt;/li&gt;
+&lt;li&gt;$x_a = -20$,   $x_b = 0$,   $\Delta x = 1$;&lt;/li&gt;
+&lt;li&gt;and other possible conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="challenges"&gt;challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Find another values of $x_a$, $x_b$, and $\Delta x$ that will fail the given algorithm in finding roots of Equation (1).&lt;/li&gt;
+&lt;li&gt;Suppose that there is an equation
+$$\tag{2}
+g(x) = x^2 - 4.5x + 5
+$$
+and its roots are to find. What whould be the values of $x_a$, $x_b$, and $\Delta x$ so that the previous algorithm works?&lt;/li&gt;
+&lt;li&gt;Give at least four different values, each for $x_a$, $x_b$, and $\Delta x$, that make previous algorithm work.&lt;/li&gt;
+&lt;li&gt;And give also the same amout of different values of them that make the algorithm fail.&lt;/li&gt;
+&lt;li&gt;From the previous answers, what would be then the requirements for $x_a$ and $x_b$, and also for $\Delta x$? Explain them in brief with examples.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Britannica, T E E, Hosch W L, Lotha G (2023) &amp;ldquo;root&amp;rdquo;, Encyclopedia Britannica, 12 Oct 2023, url 
+&lt;a
+
+	
+	
+		href = "https://www.britannica.com/science/root-mathematics"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.britannica.com/science/root-mathematics &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231224]&lt;/li&gt;
+&lt;li&gt;Pierce R (2023) &amp;ldquo;Root Definition (Illustrated Mathematics Dictionary)&amp;rdquo;, Math Is Fun, Ed. Rod Pierce, 8 Sep 2023, url 
+&lt;a
+
+	
+	
+		href = "http://www.mathsisfun.com/definitions/root.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://www.mathsisfun.com/definitions/root.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231224].&lt;/li&gt;
+&lt;li&gt;Smith C (2022) &amp;ldquo;Using fzero() to find the intersection of 2 functions&amp;rdquo;, Oxnard College, LibreTexts Engineering, 29 Oct 2022, url 
+&lt;a
+
+	
+	
+		href = "https://eng.libretexts.org/@go/page/88611"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://eng.libretexts.org/@go/page/88611 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231225].&lt;/li&gt;
+&lt;li&gt;Smith W, et al. (2023) &amp;ldquo;Root | Definition &amp;amp; Meaning&amp;rdquo;, Story of Mathematics, 10 Apr 2023, url 
+&lt;a
+
+	
+	
+		href = "https://www.storyofmathematics.com/glossary/root/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.storyofmathematics.com/glossary/root/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231224].&lt;/li&gt;
+&lt;li&gt;Weisstein, E W (2023) &amp;ldquo;Root&amp;rdquo;, from MathWorld&amp;ndash;A Wolfram Web Resource, 12 Dec 2023, url 
+&lt;a
+
+	
+	
+		href = "https://mathworld.wolfram.com/Root.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://mathworld.wolfram.com/Root.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231224].&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>scanning method</title><link>http://localhost:1313/butiran/000s/</link><pubDate>Sat, 23 Dec 2023 20:27:00 +0800</pubDate><guid>http://localhost:1313/butiran/000s/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;The simplest way to find a root of an equation is by scanning root candidates from an intial value, e.g. $x = x_a$, with increment $\Delta x$ until sign of the function change from previously ${\rm sign}(f(x_a))$, or if possible until $f(x) = 0$ (Rahmansyah &amp;amp; Ahhad, 2013). It is a typical solution in optics if met the physical limit of a resolution (Rom39, 2015).&lt;/p&gt;
+&lt;h2 id="example"&gt;example&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppose that there is a function
+$$\tag{1}
+f(x) = x^2 - 104.25x + 425,
+$$
+whose root is to be find.&lt;/li&gt;
+&lt;li&gt;Navigate the mouse on a point to view value of $(x, f(x))$ on following figure of Equation (1).
+
+
+Figure 1. Plot of $f(x)$ against $x$.&lt;/li&gt;
+&lt;li&gt;The quadratic form of Equation (1) can not be seen since it is only plotted for $x \in [0, 10]$, which seems to be linear but unfortunately not.&lt;/li&gt;
+&lt;li&gt;Following data are used for Figure 1.
+&lt;pre tabindex="0"&gt;&lt;code&gt;x
+[
+0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0,
+3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5,
+7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0
+]
+
+f(x)
+[
+425.0, 373.125, 321.75, 270.875, 220.5,
+170.625, 121.25, 72.375, 24.0, -23.875,
+-71.25, -118.125, -164.5, -210.375,
+-255.75, -300.625, -345.0, -388.875,
+-432.25, -475.125, -517.5
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Code 1. Generate data $x$ and $f(x)$.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(x):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; x&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;104.25&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; x
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y3 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;425&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; y &lt;span style="color:#f92672"&gt;=&lt;/span&gt; y1 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y2 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; y3
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;xx &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;yy &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; ix &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;21&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; x &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0.5&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; ix
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xs &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;{x:&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;x&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;,&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ys &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;y:&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;f(x)&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;},&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(xs, ys)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xx&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append(x)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; yy&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append(f(x))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(xx)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;f(x)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(yy)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zxfanw68"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zxfanw68 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ &lt;br&gt;
+This code generates two types of data, in the form of
+&lt;ul&gt;
+&lt;li&gt;list of dictionary &lt;code&gt;{x: value, y:value}&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;list of $x$ and $f(x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="flowchart"&gt;flowchart&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Following flowchart shows how scanning method works. At the end it average two points, where the root lies, as the root.
+&lt;div class="mermaid"&gt;
+flowchart TD
+ B --&gt; I --&gt; P1 --&gt; P2 --&gt; o2a
+ o1a --&gt; P2
+ o2b --&gt; P3 --&gt; C1 --"N"--&gt; P5 --&gt; o3a
+ C1 --"Y"--&gt; P6 --&gt; o4a
+ o3b --&gt; C2 --"Y"--&gt; o1b
+ C2 --"N"--&gt; O2 --&gt; o5a
+ o4b --&gt; O1 ---&gt; o5b --&gt; E
+ B(["Begin"])
+ I[/"xa, xb, &amp;Delta;x"/]
+ P1["x = xa"]
+ P2["s1 = sign(f(x))"]
+ P3["s2 = sign(f(x+&amp;Delta;x))"]
+ P5["x = x + &amp;Delta;x"]
+ P6["root = x + &amp;Delta;x/2"]
+ C1{"s1 &amp;middot; s2 &lt; 0?"}
+ C2{"x &amp;le; xb?"}
+ O1[/"root"/]
+ O2[/"no root"/]
+ E(["End"])
+ o1a(("1")); o1b(("1"))
+ o2a(("2")); o2b(("2"))
+ o3a(("3")); o3b(("3"))
+ o4a(("4")); o4b(("4"))
+ o5a(("5")); o5b(("5"))
+ classDef style1 fill:none, color:inherit
+ classDef style2 fill:#888, color:#fff
+ class B,E,I,P1,P2,P3,P4,P5,P6,C1,C2,O1,O2 style1
+ class o1a,o1b,o1c,o2a,o2b,o3a,o3b,o4a,o4b,o5a,o5b style2
+ linkStyle default stroke:#8a8
+
+&lt;/div&gt;
+
+Figure 2. Flowchart for finding roots of $f(x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="algorithm"&gt;algorithm&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Start.&lt;/li&gt;
+&lt;li&gt;Define $x_a$, $x_b$, $\Delta x$.&lt;/li&gt;
+&lt;li&gt;Initiate $x = x_a$.&lt;/li&gt;
+&lt;li&gt;Caculate $s_1 = {\rm sign}(f(x))$.&lt;/li&gt;
+&lt;li&gt;Caculate $s_2 = {\rm sign}(f(x + \Delta x))$.&lt;/li&gt;
+&lt;li&gt;If $s_1 s_2 &amp;lt; 0$ go to to Step 11.&lt;/li&gt;
+&lt;li&gt;Advance $x$ with $\Delta x$.&lt;/li&gt;
+&lt;li&gt;If $x \le x_b$ go to Step 4.&lt;/li&gt;
+&lt;li&gt;Display no root found.&lt;/li&gt;
+&lt;li&gt;Go to Step 13.&lt;/li&gt;
+&lt;li&gt;Calculate ${\rm root} = x + \frac12 \Delta x$.&lt;/li&gt;
+&lt;li&gt;Display root value.&lt;/li&gt;
+&lt;li&gt;End.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code 2. Scanning method to find a root of $f(x)$.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Scanning method&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// round to n digit
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;roundn&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;n&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;mag&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Math.&lt;span style="color:#a6e22e"&gt;pow&lt;/span&gt;(&lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;n&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Math.&lt;span style="color:#a6e22e"&gt;round&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;mag&lt;/span&gt;) &lt;span style="color:#f92672"&gt;/&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;mag&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// define a Function
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;&lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;104.25&lt;/span&gt;&lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;425&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// define range and step
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xa&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xb&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;dx&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0.1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xa&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sx&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Math.&lt;span style="color:#a6e22e"&gt;sign&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sxnew&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;x\tf(x)&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xb&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sxnew&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sx&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sx&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Math.&lt;span style="color:#a6e22e"&gt;sign&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xx&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;roundn&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;yy&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;roundn&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;y&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;xx&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;\t&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;yy&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;sx&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sxnew&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;break&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;+=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;dx&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sxnew&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Math.&lt;span style="color:#a6e22e"&gt;sign&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;f&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x1&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;roundn&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;dx&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x2&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;roundn&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Root is located between&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;\t&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;x2&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;url 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/javascript/3zxfe9c7m"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/javascript/3zxfe9c7m &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Result
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ node scanning_method.js
+x f(x)
+0 425
+0.1 414.585
+0.2 404.19
+0.3 393.815
+0.4 383.46
+0.5 373.125
+0.6 362.81
+0.7 352.515
+0.8 342.24
+0.9 331.985
+1 321.75
+1.1 311.535
+1.2 301.34
+1.3 291.165
+1.4 281.01
+1.5 270.875
+1.6 260.76
+1.7 250.665
+1.8 240.59
+1.9 230.535
+2 220.5
+2.1 210.485
+2.2 200.49
+2.3 190.515
+2.4 180.56
+2.5 170.625
+2.6 160.71
+2.7 150.815
+2.8 140.94
+2.9 131.085
+3 121.25
+3.1 111.435
+3.2 101.64
+3.3 91.865
+3.4 82.11
+3.5 72.375
+3.6 62.66
+3.7 52.965
+3.8 43.29
+3.9 33.635
+4 24
+4.1 14.385
+4.2 4.79
+4.3 -4.785
+
+Root is located between
+4.2 4.3
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Discussion
+&lt;ul&gt;
+&lt;li&gt;It finds $4.2 &amp;lt; r_1 &amp;lt; 4.3$, whose value is supposed to be $4.25$.&lt;/li&gt;
+&lt;li&gt;The root can be obtained by averaging the values bracketing it, i.e. $\frac12(4.2 + 4.3) = 4.25$, which is true accidentally for this case.&lt;/li&gt;
+&lt;li&gt;Previous step will not work for general case, e.g. $f(x) = x^2 - 104.125x + 412.5$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="challenges"&gt;challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write code to implement the algorithm or the flowchart using Python. You can modify the given JavaScript code.&lt;/li&gt;
+&lt;li&gt;Is there any relation between increment of $x$, $\Delta x$ with the accuracy of the result? Explain using examples.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rahmansyah A A, Ahhad F M (2013), &amp;ldquo;Metode Scanning, Newton Raphson, Secant - Matlab&amp;rdquo;, Scribd, 8 Oct 2013, url 
+&lt;a
+
+	
+	
+		href = "https://www.scribd.com/document/174418503"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.scribd.com/document/174418503 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231225].&lt;/li&gt;
+&lt;li&gt;Rom38 (2015) &amp;ldquo;Finding all zeroes - mysterious missing roots&amp;rdquo;, comment, Mathematica, 17 Mar 2015, url 
+&lt;a
+
+	
+	
+		href = "https://mathematica.stackexchange.com/q/77389/95975"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://mathematica.stackexchange.com/q/77389/95975 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20231225].&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>bisection method</title><link>http://localhost:1313/butiran/0004/</link><pubDate>Tue, 12 Dec 2023 09:07:00 +0800</pubDate><guid>http://localhost:1313/butiran/0004/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;Bisection method pops up quite often when we talk about root finding methods due its very easy and simple algorithm to implement (Luna, 2020). This method uses the intermediate value theorem iteratively to find roots (Kong et al., 2020). It is also known as the interval halving method, where it provides a systematic approach to finding the root of a function within a given interval (Collimator, 2023). A brief about this method and JavaScript code are given here.&lt;/p&gt;</description></item><item><title>fi3201-01 2021-2</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/2/30/2022-01-11-fi3201-01-2021-2/</link><pubDate>Thu, 17 Feb 2022 16:16:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/2/30/2022-01-11-fi3201-01-2021-2/</guid><description>&lt;p&gt;Fisika Komputasi menyampaikan materi terkait akar-akar persamaan, optimisasi, fitting kurva serta interpolasi, integrasi &amp;ndash; diferensiasi, dan kecerdasan buatan sebagaimana tercantum dalam silabus singkatnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk mata kuliah ini terdapat 5 luaran dan kuliah dilaksanakan dalam 16 minggu pertemuan yang disediakan, dengan silabus lengkapnya meliputi Pendahuluan yang berisi review alur berfikir komputasi, algoritma-pseudicode, bahasa pemrograman terstruktur (C++), dan pengantar Matlab; Metoda pencarian akar persamaan dan garis singgung kurva dengan beberapa metoda; Operasi aljabar menggunakan matriks dan mencari solusi dari program linear dengan beberapa metoda termasuk eliminasi gauss serta solusi persoalan eigen secara numerik; Optimasi sistem, curve fitting, interpolasi dan diferensial-integral numerik; Beberapa metoda untuk solusi numerik Persamaan Differensial Biasa dan Persamaan Differensial Parsial; Khusus untuk Persamaan Differensial parsial metode yang diberikan hanyalah finite difference dengan bantuan tools software Matematica; dan Soft Computing atau kecerdasan buatan yang berisi materi tentang Sistem Jaringan Saraf Tiruan, Kernel Machine dan Genetic Algorithm [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tedapat tiga pustaka utama yang digunakan dengan tahun terbit 2012 [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], 2002 [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan 2001 [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat pula catatan perkuliahan sebelumnya tahun 2016 [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

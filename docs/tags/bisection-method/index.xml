@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bisection Method on butiran</title><link>http://localhost:1313/butiran/tags/bisection-method/</link><description>Recent content in Bisection Method on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Jan 2022 18:42:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/bisection-method/index.xml" rel="self" type="application/rss+xml"/><item><title>bisection method</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-bisection-method/</link><pubDate>Wed, 26 Jan 2022 18:42:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/40/2022-01-26-bisection-method/</guid><description>&lt;p&gt;Metode bisection dalam bidang matematika merupakan suatu metode pencarian akar yang berlaku untuk sembarang fungsi kontinu dengan ketentuan diperlukan dua nilai fungsi yang berbeda tanda [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kelebihan metode ini adalah adanya jaminan konvergensi, akan tetapi belum dapat mendeteksi bila terdapat banyak akar [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan dua nilai awal, nilai ketiga diperoleh sebagai titik tengah dua nilai sebelumnya yang lalu nilai terbaru ini perlu dipilih untuk menggantikan salah satu dari dua nilai sebelumnya, dengan memperhatikan bahwa akar terdapat di antara dua nilai terakhir yang disimpan, yang bersifat intuitif [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Log on butiran</title><link>http://localhost:1313/butiran/tags/log/</link><description>Recent content in Log on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 07:26:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/log/index.xml" rel="self" type="application/rss+xml"/><item><title>log terms and new hugo site</title><link>http://localhost:1313/butiran/2027/</link><pubDate>Wed, 01 May 2024 07:26:00 +0700</pubDate><guid>http://localhost:1313/butiran/2027/</guid><description>&lt;p&gt;Search the right term for new blog on GitHub&lt;/p&gt;</description></item><item><title>introduction</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-09-29-introduction/</link><pubDate>Wed, 29 Sep 2021 09:57:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-09-29-introduction/</guid><description>&lt;p&gt;Some but no complete notes about bug.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;24 Feb 2022&lt;/code&gt; Another milestone with 178 posts, all files counted. &lt;br&gt;
+![]({{ site.baseurl }}/assets/img/0/00/0000-e-178-posts.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10 Jan 2022&lt;/code&gt; Rename and move post related to line charge and surface charge. Not yet come to equilibrium convention for the folders. It only uses numbers and each folder is limited to ten post files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;28 Dec 2021&lt;/code&gt; Fortunately my 
+&lt;a
+
+	
+	
+		href = "https://de.slideshare.net/sparisoma"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		SlideShare &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ works again through Facebook. It is now 105 Präsentationen there after about 11 months vacant. Know it while finishing 
+&lt;a
+
+	
+	
+		href = "http://localhost:4000/pages/0171"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0171 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. ![]({{ site.baseurl }}/assets/img/0/00/0000-d-slideshare-dec2021.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14 Dec 2021&lt;/code&gt; Make 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/bug"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bug &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ private, and use 
+&lt;a
+
+	
+	
+		href = "https://vercel.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Vercel &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ to host the &lt;code&gt;_site&lt;/code&gt;, which is now 
+&lt;a
+
+	
+	
+		href = "https://bugx.vercel.app/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bugx &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ as it was renamed into.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12 Dec 2021&lt;/code&gt; Cancel the use of 
+&lt;a
+
+	
+	
+		href = "https://github.com/NiklasEi/jekyll_custom_permalink"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Jekyll custom permalink &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ by Niklas Eicker, since it works locally but not supported on Github. Yesterday was only for knowing it :-(.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;06 Dec 2021&lt;/code&gt; Put sound on a post using 
+&lt;a
+
+	
+	
+		href = "https://www.youtube.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		YouTube &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ video by hiding the picture and only showing the control buttons. Appearance in mobile device is still different. Fist try is still in 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		0222 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;04 Dec 2021&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://twitter.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Twitter &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ is used as comment box replacing the previous above link. Author should post initial tweet first, then embed it to a bug post. It begins with 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		0200 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;19 Nov 2021&lt;/code&gt; Found one possibility of bug acronym as bridging the understanding gap, which is title of the work of David Gelperin available in 
+&lt;a
+
+	
+	
+		href = "https://www.researchgate.net/publication/311966110"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		RG 311966110 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;17 Nov 2021&lt;/code&gt; Struggle to find info about 
+&lt;a
+
+	
+	
+		href = "https://en.wikipedia.org/wiki/Samsung_Galaxy_A12"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		A12 screen size &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (720 × 1600), which is different than shown by 
+&lt;a
+
+	
+	
+		href = "https://www.mydevice.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		mydevice.io &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ 384px, (385 × 854), (375 × 800), 1.875. Try 
+&lt;a
+
+	
+	
+		href = "https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk/related"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Mobile simulator &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, a Chrome extension, but it does not show the same thing as browser emulator as guided by 
+&lt;a
+
+	
+	
+		href = "https://www.digitalcitizen.life/emulate-mobile-device-desktop-browser/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Rusen &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. Try 
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		using media queries &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ that &lt;code&gt;max-width&lt;/code&gt; is different than &lt;code&gt;max-device-width&lt;/code&gt;, but responsive design does not work. Find solution with &lt;code&gt;meta&lt;/code&gt; as in 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/a/24911272"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		so-24911272 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. Try to allow zoom in remove &lt;code&gt;user-scalable=0&lt;/code&gt; dan set &lt;code&gt;maximum-scale=5&lt;/code&gt;. It works. Finalize margins, which take to much spaces.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14 Nov 2021&lt;/code&gt; A milestone with 60 posts, but not all concepts, dev files counted. &lt;br&gt;
+![]({{ site.baseurl }}/assets/img/0/00/0000-c-60-posts.png)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;25 oct 2021&lt;/code&gt; Move search to 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		progress &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ and modify 
+&lt;a
+
+	
+	
+		href = "/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		home
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+. And find 🐞 in HTML symbol. Keep using • symbol, since can not find any better one. It is microbe 🦠, but a cool symbol.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;code&gt;20 Oct 2021&lt;/code&gt; Someone Geburtstag x0C and inspires new style of the symbol for frame of reference. It is more modern compared to the old fashion way. But it support only the type of $\bigodot$ since it is difficult for the $\bigotimes$ type.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;code&gt;02 Oct 2021&lt;/code&gt; Try to create the first animated bug with 
+&lt;a
+
+	
+	
+		href = "https://flipaclip.us/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		FlipaClip &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ and edit it online using 
+&lt;a
+
+	
+	
+		href = "https://ezgif.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Ezgif &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. It is 150 px × 54 px with 8 bit depth and 41.4 KB in size. By the way, the 
+&lt;a
+
+	
+	
+		href = "https://ezgif.com/maker"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		GIF Maker &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ is interesting to try.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;29 Sep 2021&lt;/code&gt; After 12 days in repairing store (following a week without and a week with antibiotics) and MDs can not find the bug in me, go home, then I think it would be nice if I create this 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/bug"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		bug(6) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ as reminder of our limitation as human. All previous posts are reset and some will be transferred after selection and proper modification.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16 Jun 2021&lt;/code&gt; Try to relate this with 
+&lt;a
+
+	
+	
+		href = "https://knowledge.itb.ac.id/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		KMS ITB &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (Knowledge Management System ITB). Lost some chronologies $\large\color{#c00}\times$. At campus 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/butir/blob/main/log/2021-06-16.txt"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		update gems &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;23 Apr 2021&lt;/code&gt; Change layout catatan (now refs) $\Leftrightarrow$ butir (now  ), refs $\Rightarrow$ notes. Copy two items from butiran 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir/0013"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0013 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (with reduction) and 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir/0014"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		0014 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ (with minimal modification).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;22 Apr 2021&lt;/code&gt; Rename it to 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/butir"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		butir(5) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from previous name on eleven days before today and hope it will remain stable &amp;#x1f603;. Todo: fix history link for the first three posts $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01 Sya 1442&lt;/code&gt; Modify 
+&lt;a
+
+	
+	
+		href = "https://twitter.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Twitter &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ link $\color{#0c0}\checkmark$, for all authors $\large\color{#c00}\times$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12 Apr 2021&lt;/code&gt; Create this first post, use 
+&lt;a
+
+	
+	
+		href = "https://shopify.github.io/liquid/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Liquid &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2×2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;10 Apr 2021&lt;/code&gt; Create 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/item"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		item(4) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/code-failed"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		code(3) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/soal"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		soal(2) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ from 
+&lt;a
+
+	
+	
+		href = "https://butiran.github.io"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		butiran(1) &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{% comment %}
+#:~:text=
+{% endcomment %}&lt;/p&gt;</description></item><item><title>24 jul 2020</title><link>http://localhost:1313/butiran/1900/</link><pubDate>Fri, 24 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1900/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>23 jul 2020</title><link>http://localhost:1313/butiran/1899/</link><pubDate>Thu, 23 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1899/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>22 jul 2020</title><link>http://localhost:1313/butiran/1898/</link><pubDate>Wed, 22 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1898/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>21 jul 2020</title><link>http://localhost:1313/butiran/1897/</link><pubDate>Tue, 21 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1897/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>20 jul 2020</title><link>http://localhost:1313/butiran/1896/</link><pubDate>Mon, 20 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1896/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>18 jul 2020</title><link>http://localhost:1313/butiran/1895/</link><pubDate>Sat, 18 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1895/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>17 jul 2020</title><link>http://localhost:1313/butiran/1894/</link><pubDate>Fri, 17 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1894/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>16 jul 2020</title><link>http://localhost:1313/butiran/1893/</link><pubDate>Thu, 16 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1893/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>15 jul 2020</title><link>http://localhost:1313/butiran/1892/</link><pubDate>Wed, 15 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1892/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>14 jul 2020</title><link>http://localhost:1313/butiran/1891/</link><pubDate>Tue, 14 Jul 2020 22:00:00 +0700</pubDate><guid>http://localhost:1313/butiran/1891/</guid><description>&lt;p&gt;Expand from 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/log"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/log &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

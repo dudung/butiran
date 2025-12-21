@@ -1,0 +1,4030 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Draft on butiran</title><link>http://localhost:1313/butiran/tags/draft/</link><description>Recent content in Draft on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 Jul 2022 10:13:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/draft/index.xml" rel="self" type="application/rss+xml"/><item><title>draft p1 v1 for floating body</title><link>http://localhost:1313/butiran/0123/</link><pubDate>Fri, 22 Jul 2022 17:42:00 +0700</pubDate><guid>http://localhost:1313/butiran/0123/</guid><description>&lt;p&gt;Diskusi bimbingan tesis sudah dilakukan secara luring dan telah dibuat suatu draft awal untuk publikasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mind map dapat digunakan mulai dari mencari ide, mengumpulkan fakta dari literatur, sampai membuat struktur dari makalah [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sayangnya Mermaid belum mendukung fitur pembuatan mind map akan tetapi perkembangan terakhir teramati pada 2020 awal [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>notebook python bubble plot</title><link>http://localhost:1313/butiran/0071/</link><pubDate>Sat, 14 May 2022 11:01:00 +0700</pubDate><guid>http://localhost:1313/butiran/0071/</guid><description>&lt;p&gt;Untuk menggambarkan Bubble plot dalam Python diperlukan Pandas dataframe yang dapat dibuat dari data berbentuk &lt;code&gt;ndarray&lt;/code&gt; [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun langsung dari membaca berkas [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk itu perlu diinstal lebih dulu paket Pandas [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selanjutnya berkas &lt;code&gt;ipynb&lt;/code&gt; lain yang berisi suatu dictionary akan diimpor oleh berkas &lt;code&gt;ipynb&lt;/code&gt; yang disinggung di sini [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Juga digunakan label pada data [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] agar lebih jelas, yang perlu ditampilkan dalam dua baris [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>github fi3201 exam 2</title><link>http://localhost:1313/butiran/0068/</link><pubDate>Sun, 08 May 2022 17:32:00 +0700</pubDate><guid>http://localhost:1313/butiran/0068/</guid><description>&lt;p&gt;Matakuliah Fisika Komputasi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang diberikan pada Semester 2 Tahun Akademik 2021/2022 diakhir dengan suatu bentuk tugas yang akan diunggah ke GitHub [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="stages"&gt;stages&lt;/h2&gt;
+&lt;p&gt;Terdapat empat tahap dalam mengerjakan ujian FI3201 ini.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Menyiapkan folder kerja.&lt;/li&gt;
+&lt;li&gt;Menjawab pertanyaan.&lt;/li&gt;
+&lt;li&gt;Mengunggah jawaban.&lt;/li&gt;
+&lt;li&gt;Memfinalkan ujian.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Keempat langkah tersebut akan diberikan pada bagian di bawah ini atau dapat diakses dalam empat halaman terpisah di Cookbook [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>rbl 2021-2 fi1201-01 check</title><link>http://localhost:1313/butiran/0067/</link><pubDate>Mon, 25 Apr 2022 03:15:00 +0700</pubDate><guid>http://localhost:1313/butiran/0067/</guid><description>&lt;p&gt;Pembuatan induktor solenoida merupakan topik kegiatan RBL (research based learning) dalam matakuliah FI1201 dan FI1202 pada Semester 2 Tahun Ajaran 2021/2021 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan untuk laporannya akan diunggah ke OSF [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="groups"&gt;groups&lt;/h2&gt;
+&lt;p&gt;Terdapat delapan kelompok RBL sebagaimana diberikan pada tabel berikut ini.&lt;/p&gt;
+&lt;p&gt;Tabel &lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;. Kelompok $G$, jumlah anggota $N$, dan tautan pengguna OSF-nya $U$.&lt;/p&gt;</description></item><item><title>svm wta co meteorology params</title><link>http://localhost:1313/butiran/0065/</link><pubDate>Fri, 22 Apr 2022 17:18:00 +0700</pubDate><guid>http://localhost:1313/butiran/0065/</guid><description>&lt;p&gt;Menarik untuk menyinggung penerapan support vector machine [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan wavelet transform analysis [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] untuk penafsiran data konsentrasi CO dan parameter meteorologi di beberapa daerah [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sebagaimana ditugaskan untuk mengulasnya oleh suatu tim [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tengat tidak bisa dipenuhi saat datang surat perihal suatu pertemuan [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Masukan, koreksi, dan komentar baru diberikan beberapa jam sebelum pertemuan tersebut [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atas versi 9 Mei yang merupakan komentar atas versi 10 Apr [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>compton scattering</title><link>http://localhost:1313/butiran/0064/</link><pubDate>Wed, 20 Apr 2022 04:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/0064/</guid><description>&lt;p&gt;Hamburan Compton terjadi saat sinar-x terdefleksi dari jalurnya semula akibat interaksi dengan sebuah elektron [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dalam target karbon. Untuk menjelaskan pengamatannya ini Compton berasumsi bahwa cahaya bersifat sebagai partikel atau foton [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="probability-of-compton-effect"&gt;probability of compton effect&lt;/h2&gt;
+&lt;p&gt;Saat foton masuk ke dalam bahan tidak selalu dapat terjadi efek Compton. Probabilitas terjadinya efek ini [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]&lt;/p&gt;</description></item><item><title>1-d collision illustration</title><link>http://localhost:1313/butiran/0063/</link><pubDate>Tue, 19 Apr 2022 17:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/0063/</guid><description>&lt;p&gt;Tumbukan (en: collision) merupakan peristiwa kontak langsung dua buah benda yang datang secara tiba-tiba dan kuat, seperti dua bola biliard, pemukul golf dan bolanya, palu dan kepala paku, atau obyek yang jatuh dan lantai [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Antara kedua benda yang berinteraksi muncul gaya yang berlangsung dalam waktu yang relatif singkat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk tumbukan 1-d terdapat beberapa kasus yang bergantung pada massa proyektil dan targetnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana proyektil adalah benda yang menumbuk dan target adalah benda yang ditumbuk.&lt;/p&gt;</description></item><item><title>lorentz transformation</title><link>http://localhost:1313/butiran/0062/</link><pubDate>Mon, 18 Apr 2022 12:49:00 +0700</pubDate><guid>http://localhost:1313/butiran/0062/</guid><description>&lt;p&gt;Persamaan-persamaan yang memungkinkan untuk mengubah koordinat spasial dan temporal dari satu sistem inersial ke sistem inersial lain yang bergerak dengan kecepatan berapapun (akan tetapi masih lebih lambat dari laju cahaya) disebut sebagai transformasi Lorentz [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Rentang waktu antara dua kejadian akan berubah dalam suatu transformasi Lorentz yang berbeda dengan dalam transformasi Galilean, akan tetapi bila laju kerangka bergerak jauh lebih kecil dari laju cahaya dalam vakum, transformasi Lorentz dapat didekati dengan transformasi Galilean dan rentang waktu antara dua kejadian menjadi sama pada kedua kerangka [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Transformasi Lorentz secara formal mengekspresikan konsep relatif bahwa ruang dan waktu tidak absolut, bahwa panjang, waktu, dan massa bergantung dari gerak relatif antara para pengamat [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>photon short intro</title><link>http://localhost:1313/butiran/0061/</link><pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate><guid>http://localhost:1313/butiran/0061/</guid><description>&lt;p&gt;Hipotesis Plank memberikan konsep yang berbeda dengan sebelumnya mengenai cahaya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada efek fotolistrik energi foton yang diberikan pada elektron dalam bahan digunakan untuk melawan fungsi kerja bahan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan di sini berlaku juga hukum kekekalan energi [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam fisika moderen terdapat dualitas gelombang-partikel [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada hamburan Compton cahaya bersifat sebagai partikel karena memiliki momentum, dan terapat visualisasinya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada eksperimen Davisson-Germer elektron memiliki sifat sebagai gelombang, yang dapat memberikan pola-pola difraksi saat dihamburkan pada bahan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>start to learn tone.js</title><link>http://localhost:1313/butiran/0059/</link><pubDate>Fri, 15 Apr 2022 17:24:01 +0700</pubDate><guid>http://localhost:1313/butiran/0059/</guid><description>&lt;p&gt;Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah lama tidak membuat lagu dan ingin kembali membuat suatu komposisi, dalam rangka mengikuti hasrat setelah suatu jeda yang panjang, membuat musik dengan kode membawa pada keputusan mepelajari Tone.js sebagai suatu langkah pertama [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat musisi yang membagi pengetahuannya mengenai teori musik dengan Tone.js [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang akan dapat sangat membantu. Tone.js merupakan suatu framework audio web untuk musik interaktif dalam penjelajah internet, yang saat ini telah mencapai rilis kelima belas dengan versi terakhirnya adalah 14.7.39 pada 29 Juli 2020 [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan demikian tidak lagi harus memilih antara melakukan coding atau memproduksi musik, keduanya bisa sejalan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bila tidak ingin menggunakan node.js, dapat digunakan CDN Tone seperti untuk versi 14.7.77 [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau versi 14.8.38 [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan disajikan langkah-langkah mempelajari Tone.js mengikuti suatu tulisan yang cukup baik untuk pemula [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>notebook diagram</title><link>http://localhost:1313/butiran/0057/</link><pubDate>Thu, 14 Apr 2022 14:05:01 +0700</pubDate><guid>http://localhost:1313/butiran/0057/</guid><description>&lt;p&gt;Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python &lt;code&gt;nb-js-diagrammers&lt;/code&gt; yang rilis terbarunya bertanggal 9 Maret 2022 untuk versi 0.0.7 [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan paket ini empat macam diagram JavaScript, meliputi 
+&lt;a
+
+	
+	
+		href = "https://mermaid-js.github.io/mermaid/#/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Mermaid.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "http://flowchart.js.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		flowchart.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://github.com/wavedrom/wavedrom"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		wavedrom &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://wavesurfer-js.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		waversurfer.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, dapat ditampilkan dalam berkas IPython Notebook dengan menggunakan cell magic.&lt;/p&gt;</description></item><item><title>ga short introduction</title><link>http://localhost:1313/butiran/0052/</link><pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate><guid>http://localhost:1313/butiran/0052/</guid><description>&lt;p&gt;Algoritma genetik atau genetic algorithm (GA) merupakan algoritma berdasarkan pencarian yang digunakan untuk menyelesaikan permasalahan optimasi di dalam pembelajaran mesin [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam suatu GA solusi dinyatakan dalam bentuk individu yang memiliki sifat-sifat yang tercerminkan dalam kromosomnya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu kelebihan GA adalah dapat mencegah terjadinya konvergensi terlalu dini yang mengarah pada titik optimum lokal alih-alih titik optimum global yang diinginkan dan hal ini dilakukan dengan mempertahankan keberagaman kromosom melalui operasi persilangan (crossover) dan mutasi (mutation) gen-gen pada kromosom [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat banyak contoh penerapan GA pada berbagai permasalahan, seperti optimasi penjadwalan perkuliahan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan perencaan produksi [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk membantu mempelajari GA telah terdapat tutorialnya [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan untuk menerapkannya telah terdapat pengenalan dengan contoh algoritma beserta kodenya dalam Java [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>relativistic kinetic energy</title><link>http://localhost:1313/butiran/0051/</link><pubDate>Sun, 10 Apr 2022 21:06:00 +0700</pubDate><guid>http://localhost:1313/butiran/0051/</guid><description>&lt;p&gt;Konversi massa menjadi energi sebagai suatu mekanisme astofisika dapat memberikan cara interpretasi baru pada hubungan energi-massa [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana hubungan ini dikenal pula sebagai hubungan dispersi relativistik yang merupakan suatu persamaan relativistik yang menghubungkan energi total (energi relativistik) dengan massa invarian (massa diam) dan momentum [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat penurunan hubungan ini dengan menggunakan segitiga yang menggambarkan proporsi energi kinetik dan energi diam [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan dua cara lain [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang perlu agak dikoreksi detil prosesnya. Di sini akan disinggung terlebih dahulu rumusan energi kinetiknya.&lt;/p&gt;</description></item><item><title>relativistic momentum</title><link>http://localhost:1313/butiran/0050/</link><pubDate>Sun, 10 Apr 2022 20:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/0050/</guid><description>&lt;p&gt;Akibat transformasi Lorentz hukum II Newton tidak lagi memiliki bentuk yang sama dalam kerangka yang berbeda sehingga rumusan terkait momentum perlu disesuaikan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau secara sederhana momentum relativistik tetap menggunakan rumusan momentum akan tetapi massa yang digunakan adalah mass relativistik [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Momentum dalam satu dimensi diberikan oleh [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:momentum-1d}
+p = mv,
+\end{equation}&lt;/p&gt;</description></item><item><title>relativistic mass</title><link>http://localhost:1313/butiran/0049/</link><pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/0049/</guid><description>&lt;p&gt;Terdapat istilah mass diam (rest mass) dan massa relativistik (relativistic mass) dalam teori gerak yang diungkapkan oleh Einstein, teori relativitas khusus [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat peningkatan &amp;lsquo;massa efektif&amp;rsquo; saat benda bergerak dengan laju mendekati laju cahaya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mengapa hal ini dapat terjadi berusaha dijelaskan dengan perubahan konsep mengenai massa dari semula merupakan pengukuran terkait dengan pengaruh gavitasi menjadi terkait dengan fenomena lokal yang disebut sebagai medan Higgs [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan demikian saat elektron bergerak dipercepat dalam suatu senapan elektron (electron gun) perlu dilakukan koreksi massanya karena sekitar 10% laju cahaya telah tercapai [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebenarnya pengamatan telah menceritakan sebelumnya mengapa elektron yang dipercepat tidak dapat memiliki laju lebih cepat dari laju cahaya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk saat ini telah dapat dicapai pada LHC (large hadron collider) proton dengan laju 99.9999991% laju cahaya [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>length contraction</title><link>http://localhost:1313/butiran/0048/</link><pubDate>Sun, 10 Apr 2022 18:50:00 +0700</pubDate><guid>http://localhost:1313/butiran/0048/</guid><description>&lt;p&gt;Saat pengukur waktu bergerak mendekati kecepatan cahaya, detaknya akan melambat (atau pengukuran selang waktunya akan membesar) dan sebagai konsekuensinya jarak yang ditempuhnya akan menjadi lebih pendek [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sampai dua tahun yang lalu kontraksi panjang belum pernah diukur secara langsung akan tetapi efeknya dalam bentuk besaran fisis lain telah dapat teramati [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Apa yang &amp;rsquo;terlihat&amp;rsquo; oleh muon saat begerak menuju bumi juga merupakan eksperimen mendukung adanya kontraksi panjang, yang juga tidak diukur secara langsung [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>relative velocity</title><link>http://localhost:1313/butiran/0045/</link><pubDate>Wed, 06 Apr 2022 13:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/0045/</guid><description>&lt;p&gt;Dalam kehidupan sehari-hari peristiwa terkait kecepatan relatif sering ditemui dan kadang membuat tertegun saat tidak menyadarinya. Beberapa peristiwa yang dimaksud adalah seperti merasa gerbong kereta yang ditempati bergerak mundur hanya karena gerbong di sebelahnya bergerak maju saat berada di stasiun [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], mobil yang dikendarai tersusul oleh mobil lain yang terlihat seperti bergerak lambat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], perahu bergerak tegak lurus sisi meyeberangi sungai tidak sampai ke titik yang dituju [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan bumi bergerak mengelilingi matahari dengan laju cukup besar tanpa disadari penghuninya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>diffraction</title><link>http://localhost:1313/butiran/0043/</link><pubDate>Wed, 06 Apr 2022 04:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/0043/</guid><description>&lt;p&gt;Konsep-konsep terkait difraksi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
+&lt;a
+
+	
+	
+		href = "http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220406].&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>rbl 2021-2 fi1201-01</title><link>http://localhost:1313/butiran/0044/</link><pubDate>Wed, 06 Apr 2022 04:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/0044/</guid><description>&lt;p&gt;RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Telah disediakan informasi bagaimana membuat penurun tegangan AC [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan template laporan&lt;!-- raw HTML omitted --&gt;/&lt;!-- raw HTML omitted --&gt;makalah RBL serta template catatan kemajuan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="concepts"&gt;concepts&lt;/h2&gt;
+&lt;p&gt;Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida seperti pada tabel berikut ini, akan tetapi tidak terbatas hanya konsep-konsep tersebut.&lt;/p&gt;</description></item><item><title>huygens' principle</title><link>http://localhost:1313/butiran/0042/</link><pubDate>Wed, 06 Apr 2022 04:04:00 +0700</pubDate><guid>http://localhost:1313/butiran/0042/</guid><description>&lt;p&gt;Prinsip Hyugens [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;Pernyataan prinsip Huygens [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;Ilustrasi untuk celah tidak sempit [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;Animasi [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url 
+&lt;a
+
+	
+	
+		href = "https://www.thoughtco.com/huygens-principle-2699047"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.thoughtco.com/huygens-principle-2699047 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220406].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url 
+&lt;a
+
+	
+	
+		href = "http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220406].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url 
+&lt;a
+
+	
+	
+		href = "https://en.wikipedia.org/w/index.php?oldid=1080899215"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://en.wikipedia.org/w/index.php?oldid=1080899215 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220406].&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>cylindrical wave cross section</title><link>http://localhost:1313/butiran/0041/</link><pubDate>Wed, 06 Apr 2022 03:13:00 +0700</pubDate><guid>http://localhost:1313/butiran/0041/</guid><description>&lt;p&gt;Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang. Pada tangki riak fenomena gelombang merambat dapat terlihat dalam bentuk riak-riak yang menyebar dan juga dapat menjelaskan berbagai peristiwa terkait gelombang seperti interferensi dan difraksi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="ripple"&gt;ripple&lt;/h2&gt;
+&lt;p&gt;Sebuah gelombang yang berupa riak yang menyebar diilustrasikan untuk waktu-waktu $0$, $\tfrac14 T$, $\tfrac12 T$, dan $\tfrac34 T$ pada gambar-gambar berikut ini.&lt;/p&gt;</description></item><item><title>ann short introduction</title><link>http://localhost:1313/butiran/0040/</link><pubDate>Mon, 04 Apr 2022 16:53:00 +0700</pubDate><guid>http://localhost:1313/butiran/0040/</guid><description>&lt;p&gt;Jaringan saraf tiruan (JST) atau artificial neural networks (ANN) merupakan salah satu teknologi yang paling berpengaruh dalam dekade terakhir ini, di mana teknologi ini merupakah bagian fundamental dari algoritma pembelajaran mendalam (deep learning), dan bagian terdepan dari kecerdasan buatan (artificial intelligence, AI) yang pengembangannya masih dapat dikatan berdarah-darah [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teknologi ini terinspirasi oleh cara kerja sistem saraf biologis, seperti pada sel otak manusia [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau jaringan saraf yang membentuk otak hewan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Otak manusia sendiri masih menyimpan banyak misteri, di mana pemrosesan paralel yang masif mengangkat kinerja otak melebihi AI [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>interference intensity thin film 2</title><link>http://localhost:1313/butiran/0039/</link><pubDate>Mon, 04 Apr 2022 06:40:00 +0700</pubDate><guid>http://localhost:1313/butiran/0039/</guid><description>&lt;p&gt;Syarat interferensi oleh lapisan tipis ditentukan oleh tebal lapisan tipis dan indeks bias medium sebelum dan sesudah lapisan tipis relatif terhadap indeks bias lapisan tipis [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk sementara hanya disajikan beda fasa yang terjadi akibat panjang lintasan yang ditembuh kedua berkas cahaya dan pemantulan masing-masing berkas pada batas medium.&lt;/p&gt;
+&lt;h2 id="wave"&gt;wave&lt;/h2&gt;
+&lt;p&gt;Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-equation-solution}
+\begin{array}{rcl}
+y(x, t) = A \sin (\omega t - kx + \phi)
+\end{array}
+\end{equation}&lt;/p&gt;</description></item><item><title>interference intensity thin film 1</title><link>http://localhost:1313/butiran/0038/</link><pubDate>Mon, 04 Apr 2022 06:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/0038/</guid><description>&lt;p&gt;Syarat interferensi oleh lapisan tipis ditentukan oleh tebal lapisan tipis dan indeks bias medium sebelum dan sesudah lapisan tipis relatif terhadap indeks bias lapisan tipis [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk sementara hanya disajikan beda fasa yang terjadi akibat panjang lintasan yang ditembuh kedua berkas cahaya dan pemantulan masing-masing berkas pada batas medium.&lt;/p&gt;
+&lt;h2 id="wave"&gt;wave&lt;/h2&gt;
+&lt;p&gt;Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-equation-solution}
+\begin{array}{rcl}
+y(x, t) = A \sin (\omega t - kx + \phi)
+\end{array}
+\end{equation}&lt;/p&gt;</description></item><item><title>interference intensity thin film 0</title><link>http://localhost:1313/butiran/0037/</link><pubDate>Mon, 04 Apr 2022 06:13:00 +0700</pubDate><guid>http://localhost:1313/butiran/0037/</guid><description>&lt;p&gt;Syarat interferensi oleh lapisan tipis ditentukan oleh tebal lapisan tipis dan indeks bias medium sebelum dan sesudah lapisan tipis relatif terhadap indeks bias lapisan tipis [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk sementara hanya disajikan beda fasa yang terjadi akibat beda panjang lintasan yang ditembuh kedua berkas cahaya dan pemantulan masing-masing berkas pada batas medium.&lt;/p&gt;
+&lt;h2 id="wave"&gt;wave&lt;/h2&gt;
+&lt;p&gt;Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-equation-solution}
+\begin{array}{rcl}
+y(x, t) = A \sin (\omega t - kx + \phi)
+\end{array}
+\end{equation}&lt;/p&gt;</description></item><item><title>interference intensity slit 2-8</title><link>http://localhost:1313/butiran/0036/</link><pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate><guid>http://localhost:1313/butiran/0036/</guid><description>&lt;p&gt;Intensitas interferensi oleh dua, tiga, empat, dan banyak celah memiliki keteraturan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini hanya disajikan intensitas interferensi sampai delapan celah tanpa penjelasan bagaimana memperolehnya.&lt;/p&gt;
+&lt;h2 id="intensity"&gt;intensity&lt;/h2&gt;
+&lt;p&gt;Intensitas interferensi oleh dua sampai delapan celah diberikan pada gambar-gambar berikut ini.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;t.b.a.&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>interference intensity slit 4</title><link>http://localhost:1313/butiran/0035/</link><pubDate>Mon, 04 Apr 2022 05:56:00 +0700</pubDate><guid>http://localhost:1313/butiran/0035/</guid><description>&lt;p&gt;Distribusi intensitas pada interferensi oleh empat celah dapat diperoleh menggunakan fasor [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang lebih mudah dari menjumlahkan empat fungsi trigonomoetrinya, yang perlu bertahap dengan formula Prosthaphaeresis [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] untuk setiap dua buah fungsi. Fungsi trigonometri yang dimaksud adalah fungsi yang merupakan solusi dari persamaan gelombang untuk medan listrik.&lt;/p&gt;
+&lt;h2 id="phasor"&gt;phasor&lt;/h2&gt;
+&lt;p&gt;Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya ditentukan oleh sudut fasanya. Empat buah fasor yang berbeda fasa $\phi$ antar dua fasor berurutan dapat digambarkan sebagai berikut.&lt;/p&gt;</description></item><item><title>interference intensity slit 3</title><link>http://localhost:1313/butiran/0034/</link><pubDate>Mon, 04 Apr 2022 05:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0034/</guid><description>&lt;p&gt;Distribusi intensitas pada interferensi oleh tiga celah dapat diperoleh menggunakan fasor [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang lebih mudah dari menjumlahkan tiga fungsi trigonomoetrinya, yang perlu bertahap dengan formula Prosthaphaeresis [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] untuk setiap dua buah fungsi. Fungsi trigonometri yang dimaksud adalah fungsi yang merupakan solusi dari persamaan gelombang untuk medan listrik.&lt;/p&gt;
+&lt;h2 id="phasor"&gt;phasor&lt;/h2&gt;
+&lt;p&gt;Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya ditentukan oleh sudut fasanya. Tiga buah fasor yang berbeda fasa $\phi$ antar dua fasor berurutan dapat digambarkan sebagai berikut.&lt;/p&gt;</description></item><item><title>wave phase difference</title><link>http://localhost:1313/butiran/0033/</link><pubDate>Mon, 04 Apr 2022 03:07:00 +0700</pubDate><guid>http://localhost:1313/butiran/0033/</guid><description>&lt;p&gt;Perbedaan fasa dua buah gelombang dapat disebabkan oleh perbedaan panjang lintasan yang ditempuh [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan sebagai tambahan bila terdapat pemantulan dengan kondisi tertentu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="wave"&gt;wave&lt;/h2&gt;
+&lt;p&gt;Solusi persamaan gelombang dapat berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-equation-solution}
+\begin{array}{rcl}
+y(x, t) &amp;amp; = &amp;amp; A \sin (kx - \omega t + \varphi) \newline
+&amp;amp; = &amp;amp; A \sin (\omega t - kx + \phi)
+\end{array}
+\end{equation}&lt;/p&gt;</description></item><item><title>be enthusiast at stack overflow</title><link>http://localhost:1313/butiran/0031/</link><pubDate>Sat, 02 Apr 2022 10:07:00 +0700</pubDate><guid>http://localhost:1313/butiran/0031/</guid><description>&lt;p&gt;Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.&lt;/p&gt;
+&lt;h2 id="visits"&gt;visits&lt;/h2&gt;
+&lt;p&gt;Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/help/badges/26/popular-question?userid=9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Popular Question &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/help/badges/63/tumbleweed?userid=9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Tumbleweed &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/help/badges/260/announcer?userid=9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Announcer &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/help/badges/10/scholar?userid=9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Scholar &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/help/badges/3/editor?userid=9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Editor &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/p&gt;</description></item><item><title>basic animation wave</title><link>http://localhost:1313/butiran/0026/</link><pubDate>Tue, 29 Mar 2022 07:43:00 +0700</pubDate><guid>http://localhost:1313/butiran/0026/</guid><description>&lt;p&gt;Solusi dari persamaan gelombang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dalam bentuk $y(x, t)$ dapat dianimasikan dengan menggunakan Python berbantuan Matplotlib [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini dibahas gelombang yang berosilasi pada arah tegak lurus sumbu $x$ dan merambat pada sumbu $x$ dengan arah positif adalah ke kanan.&lt;/p&gt;
+&lt;h2 id="to-the-right"&gt;to the right&lt;/h2&gt;
+&lt;p&gt;Gelombang yang merambat ke kanan pada pada sumbu $x$ memiliki fungsi berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-to-right}
+y(x, t) = A \sin (kx - \omega t + \phi)
+\end{equation}&lt;/p&gt;</description></item><item><title>wave equation 1-d</title><link>http://localhost:1313/butiran/0025/</link><pubDate>Tue, 29 Mar 2022 02:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0025/</guid><description>&lt;p&gt;Menarik untuk melihat hasil penelusuran bahwa terdapat beberapa konsep berbeda yang berbagi istilah yang sama. Istilah yang dimaksud di sini adalah persamaan gelombang. Istilah ini digunakan untuk persamaan yang menghubungkan laju rambat, frekuensi, dan panjang gelombang suatu gelombang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], fungsi yang menggambarkan bentuk gelombang dan perambatannya sebagai fungsi posisi dan waktu [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan suatu persamaan diferensial parsial linier orde kedua [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r09"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		9 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r10"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		10 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r11"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		11 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Istilah ini mungkin merupakan suatu polisemi [
+&lt;a
+
+	
+	
+		href = "#r12"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		12 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>find right image width</title><link>http://localhost:1313/butiran/0022/</link><pubDate>Sun, 27 Mar 2022 12:18:00 +0700</pubDate><guid>http://localhost:1313/butiran/0022/</guid><description>&lt;p&gt;Masih dalam rangka migrasi bugx yang semula dengan 
+&lt;a
+
+	
+	
+		href = "https://jekyllrb.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Jekyll &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ ke saat ini dengan 
+&lt;a
+
+	
+	
+		href = "https://gohugo.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Hugo &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, perlu disesuaikan lebar gambar yang dapat disisipkan, sebagaimana hal ini juga terjadi pada sistem sebelumnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Ini terlihat terkait dengan saat ini menggunakan theme 
+&lt;a
+
+	
+	
+		href = "https://github.com/jakewies/hugo-theme-codex"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		hugo-theme-codex &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ yang diinisialiasi Jake Wiesler [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>cookbook</title><link>http://localhost:1313/butiran/0021/</link><pubDate>Sat, 26 Mar 2022 19:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/0021/</guid><description>&lt;p&gt;Terinspirasi dengan metode cookbook dalam mempelajari suatu bahasa pemrograman [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], mulai dibuat suatu cookbook [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], setidaknya untuk mengumpulkan kembali ceceran kode-kode yang dibuat, yang mungkin tidak akan pernah tertelusuri semuanya (tersebar, blog, tagebuch luring dan daring, dan lain-lain).&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0020"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		create new github repository
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0018"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		install python windows powershell
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;John Daniel Leon, &amp;ldquo;The Cookbook Method&amp;rdquo;, 4 Dec 2016, url 
+&lt;a
+
+	
+	
+		href = "https://www.devdungeon.com/cookbook"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.devdungeon.com/cookbook &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220327].&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Sparisoma Viridi, &amp;ldquo;a cookbook for me as beginner&amp;rdquo;, GitHub, 26 Mar 2022, url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/cookbook"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/cookbook &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220326].&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>create new github repository</title><link>http://localhost:1313/butiran/0020/</link><pubDate>Fri, 25 Mar 2022 10:31:00 +0700</pubDate><guid>http://localhost:1313/butiran/0020/</guid><description>&lt;p&gt;Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub. Selain itu terdapat pula langkah tambahan untuk menambahkan submodule [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan menghapusnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang belum tentu diperlukan.&lt;/p&gt;</description></item><item><title>python matplotlib animation</title><link>http://localhost:1313/butiran/0019/</link><pubDate>Thu, 24 Mar 2022 17:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0019/</guid><description>&lt;p&gt;Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Grafik telah dapat menjelaskan data, animasi dapat menolong lebih jauh dengan memberikan pehamanan bagaimana keadaan berubah dengan waktu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Matplotlib pada Python dapat dimanfaatkan untuk mengambarkan grafik data yang dianimasikan dengan menunda waktu penggambaran pada setiap titik data atau dengan fungsi terkait animasi yang telah disediakan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], misalnya untuk menampilkan data bacaan potensiometer secara live [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], data multi-dimensi penduduk negara-negara yang berubah dengan tahun [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sistem fisis seperti kurva gelombang, pendulum ganda, dan partikel-partikel dalam kotak yang saling bertumbukan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], serta pola titik-titik air hujan yang jatuh pada suatu permukaan [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>partial differential equation</title><link>http://localhost:1313/butiran/0017/</link><pubDate>Wed, 23 Mar 2022 09:18:00 +0700</pubDate><guid>http://localhost:1313/butiran/0017/</guid><description>&lt;p&gt;Persamaan diferensial parsial (PDP) merupakan suatu persamaan yang melibatkan fungsi multivariabel dan turunannya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Fungsi yang dimaksud merupakan sesuatu yang belum diketahui dan akan dipecahkan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Metode separasi variabel merupakan salah satu metode yang sering digunakan dalam penyelesaian secara secara analitik [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan untuk numerik dapat digunakan beda hingga [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk lebih mendalami PDP dapat digunakan berbagai sumber yang tersedia seperti buku [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan catatan kuliah [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>curl theorem</title><link>http://localhost:1313/butiran/0016/</link><pubDate>Wed, 23 Mar 2022 04:30:00 +0700</pubDate><guid>http://localhost:1313/butiran/0016/</guid><description>&lt;p&gt;Teorema curl merupakan suatu kasus khusus dari teorema Stokes dan suatu generalisasi dari Teorema Green [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teorema ini menghubungkan antara integral suatu curl medan vektor pada suatu permukaan dengan integral garis medan vektor mengelilingi batas permukaan tersebut [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>divergence theorem</title><link>http://localhost:1313/butiran/0015/</link><pubDate>Tue, 22 Mar 2022 19:28:00 +0700</pubDate><guid>http://localhost:1313/butiran/0015/</guid><description>&lt;p&gt;Teorema divergensi merupakan suatu pernyataan matematik mengenai fakta fisis bahwa tanpa adanya penciptaan atau penghancuran materi, kerapatan dalam suatu wilayah ruang hanya dapat berubah dengan adanya aliran masuk ke dalam atau keluar dari wilayah tersebut melalui batasnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Teorema ini menghubungkan antara fluks medan vektor yang melewati suatu permukaan tertutup dengan divergensi medan tersebut di dalam volume tertutup [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>maxwell's equation</title><link>http://localhost:1313/butiran/0014/</link><pubDate>Tue, 22 Mar 2022 17:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/0014/</guid><description>&lt;p&gt;Terdapat persamaan-persamaan Maxwell baik dalam bentuk integral maupun diferensial [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="integral-form"&gt;integral form&lt;/h2&gt;
+&lt;p&gt;Persamaan-persamaan Maxwell dalam bentuk integral adalah&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:gauss-law-electricity-integral}
+\oint \vec{E} \cdot d\vec{A} = \frac{q}{\varepsilon_0},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:gauss-law-magnetism-integral}
+\oint \vec{B} \cdot d\vec{A} = 0,
+\end{equation}&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:faraday-law-integral}
+\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:ampere-law-integral}
+\oint \vec{B} \cdot d\vec{l} = \mu_o I + \frac{1}{c^2} \frac{d\Phi_E}{dt}.
+\end{equation}&lt;/p&gt;
+&lt;p&gt;Persamaan \eqref{eqn:gauss-law-electricity-integral} merupakan hukum Gauss untuk kelistrikan, Persamaan \eqref{eqn:gauss-law-magnetism-integral} merupakan hukum Gauss untuk kemagnetan, Persamaan \eqref{eqn:faraday-law-integral} merupakan hukum induksi Faraday, dan Persamaan \eqref{eqn:ampere-law-integral} merupakan hukum Ampere.&lt;/p&gt;</description></item><item><title>runge-kutta method</title><link>http://localhost:1313/butiran/0012/</link><pubDate>Tue, 22 Mar 2022 05:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/0012/</guid><description>&lt;p&gt;Metode Runge-Kutta merupakan kelas metode yang secara bijak memanfaatkan informasi kemiringan kurva pada lebih dari satu titik untuk mengekstrapolasi solusi pada langkah selanjutnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Metode ini mengintegrasi secara numerik persamaan diferensial biasa menggunakan langkah coba-coba pada titik tengah suatu rentang agar suku kesalahan pada orde lebih rendah saling meniadakan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Anggota keluarga metode Runge-Kutta yang paling dikenal adalah RK4, metode klasik Runge-Kutta atau cukup metode Runge-Kutta [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Telah terdapat contoh penerapan metode ini dalam berbagai bahasa pemrograman [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Metode ini pun dapat dijalankan beberapa processor secara paralel dalam menyelesaikan persamaan diferensial [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>fi3201-01 2021-2</title><link>http://localhost:1313/butiran/0011/</link><pubDate>Tue, 22 Mar 2022 05:22:00 +0700</pubDate><guid>http://localhost:1313/butiran/0011/</guid><description>&lt;p&gt;Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0012"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Metode Runge-Kutta
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url 
+&lt;a
+
+	
+	
+		href = "https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220322].&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>multiple authors</title><link>http://localhost:1313/butiran/0009/</link><pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate><guid>http://localhost:1313/butiran/0009/</guid><description>&lt;p&gt;Fitur yang dapat mengakamodasi penulis lebih dari satu untuk suatu post ingin dibuat. Selain itu juga agar informasi banyak penulis ini dapat muncul di bagian bawah setiap post dalam petunjuk bagaimana merujuk suatu artikel atau post.&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0010"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		shortcode citeas
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>electromagnetic waves</title><link>http://localhost:1313/butiran/0008/</link><pubDate>Sun, 20 Mar 2022 17:41:00 +0700</pubDate><guid>http://localhost:1313/butiran/0008/</guid><description>&lt;p&gt;Gelombang elektromagnetik (EM) merupakan salah satu jenis gelombang yang dirambatkan oleh variasi periodik simultan intensitas medan listrik dan magnetik dan yang termasuk dalam jenis gelombang ini adalah gelombang radio, cahaya inframerah, cahaya tampak, cahaya ultraviolet, sinar-x, dan sinar gamma [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Gelombang EM membawa energi, momentum, dan momentum angular menjauh dari partikel sumbernya dan dapat memberikan kuantitas-kuantitas tersebut pada bahan yang dilewatinya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sumber gelombang EM adalah partikel bermuatan yang dipercepat, partikel bermuatan menghasilkan medan listrik dan partikel bermuatan yang bergerak menghasilkan medan magnetik [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Persamaan gelombang yang muncul dari persamaan-persamaan Maxwell mendeskripsikan gelombang EM [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>create github action workflow</title><link>http://localhost:1313/butiran/0006/</link><pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/0006/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>fi1202-01 2021-2</title><link>http://localhost:1313/butiran/0007/</link><pubDate>Sun, 20 Mar 2022 17:01:00 +0700</pubDate><guid>http://localhost:1313/butiran/0007/</guid><description>&lt;p&gt;Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021&lt;!-- raw HTML omitted --&gt;/&lt;!-- raw HTML omitted --&gt;2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="posts"&gt;posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0008"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Gelombang Elektromagnetik
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+: 
+&lt;a
+
+	
+	
+		href = "/bugx/0015"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Teorema Divergensi
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0016"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Teorema Curl
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0014"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Persamaan-persamaan Maxwell
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+,&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+
+	
+	
+		href = "/bugx/0023"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Inteferensi Dua Celah
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+: 
+&lt;a
+
+	
+	
+		href = "/bugx/0024"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Fungsi Resultan Interferensi Dua Celah
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0027"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Intensitas Inteferensi Dua Celah
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+,&lt;/li&gt;
+&lt;li&gt;Teori Relativitas Khusus: 
+&lt;a
+
+	
+	
+		href = "/bugx/0045"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Kecepatan Relatif
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0046"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Jam Cahaya
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0047"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Dilasi Waktu
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0048"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Kontraksi Panjang
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0049"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Massa Relativistik
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0050"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Momentum Relativistik
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "/bugx/0051"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		Hubungan Energi-Momentum
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url 
+&lt;a
+
+	
+	
+		href = "https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220321].&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials chartjs</title><link>http://localhost:1313/butiran/0005/</link><pubDate>Sun, 20 Mar 2022 13:54:00 +0700</pubDate><guid>http://localhost:1313/butiran/0005/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials mermaid</title><link>http://localhost:1313/butiran/0004/</link><pubDate>Sun, 20 Mar 2022 13:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0004/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>add partials mathjax</title><link>http://localhost:1313/butiran/0003/</link><pubDate>Sun, 20 Mar 2022 09:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/0003/</guid><description>&lt;p&gt;Salah satu theme Hugo yang disebut Codex telah dapat menampilkan formula matematika dengan MathJax [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Implementasi yang dilakukan belum memuncukan nomor persamaan dan masih menggunakan MathJax versi 2.7.2 [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Cara Untuk memunculkan penomoran persamaan terdapat cara yang berbeda pada MathJax 3 [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dibandingkan dengan pada versi sebelumnya.&lt;/p&gt;
+&lt;h2 id="mathjaxhtml"&gt;mathjax.html&lt;/h2&gt;
+&lt;p&gt;Suatu berkas &lt;code&gt;mathjax.html&lt;/code&gt; berisikan&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Franken on butiran</title><link>http://localhost:1313/butiran/categories/franken/</link><description>Recent content in Franken on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 20:51:32 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/categories/franken/index.xml" rel="self" type="application/rss+xml"/><item><title>sim free fall cor</title><link>http://localhost:1313/butiran/25l23/</link><pubDate>Wed, 10 Dec 2025 20:51:32 +0700</pubDate><guid>http://localhost:1313/butiran/25l23/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+
+function getContainer() {
+ let cnt = document.getElementById("cnt");
+ cnt.style.marginTop = "1em";
+ cnt.style.background = "#fff";
+ cnt.style.border = "0px solid #ddd";
+ cnt.style.display = "flex";
+ cnt.style.width = "320px";
+ cnt.style.height = "500px";
+ return cnt;
+}
+
+function addOption(sel, text) {
+ let opt = document.createElement("option");
+ opt.text = text;
+ sel.add(opt);
+}
+
+function createSelectModel() {
+ let sel = document.createElement("select");
+ sel.size = 1;
+ addOption(sel, "Select Model");
+ addOption(sel, "Model 1");
+ addOption(sel, "Model 2");
+ addOption(sel, "Model 3");
+ addOption(sel, "Model 4");
+ sel.options[0].disabled = true;
+ sel.options[0].selected = true;
+ sel.focus();
+ sel.style.flex = "1";
+ return sel;
+}
+
+function createInputParams() {
+ let txa = document. createElement("textarea");
+ txa.style.overflowY = "scroll";
+ txa.style.border = "1px solid #ddd";
+ txa.style.flex = "4";
+ txa.style.borderRadius = "6px";
+ txa.style.fontFamily = "monospace";
+ return txa;
+}
+
+function createOutputData() {
+ let txa = document. createElement("textarea");
+ txa.style.overflowY = "scroll";
+ txa.style.border = "1px solid #ddd";
+ txa.style.flex = "12";
+ txa.style.borderRadius = "6px";
+ return txa;
+}
+
+function createLeftDiv() {
+ let div = document. createElement("div");
+ div.style.border = "0px solid red";
+ div.style.flex = "10";
+ div.style.display = "flex";
+ div.style.flexDirection = "column";
+ return div;
+}
+
+function createBottomDiv() {
+ let div = document. createElement("div");
+ div.style.border = "0px solid red";
+ div.style.flex = "1";
+ div.style.display = "flex";
+ return div;
+}
+
+function createRightDiv() {
+ let div = document. createElement("div");
+ div.style.border = "0px solid blue";
+ div.style.flex = "5";
+ div.style.display = "flex";
+ return div;
+}
+
+function createButton(caption) {
+ let btn = document.createElement("button");
+ btn.innerHTML = caption;
+ btn.style.flex = "1";
+ return btn;
+}
+
+function createDragButton() {
+ let btn = document.createElement("button");
+ btn.innerHTML = "&amp;updownarrow;"
+ btn.style.color = "white";
+ btn.style.fontSize = "14px";
+ btn.style.flex = "1";
+ btn.style.width = "20px";
+ btn.style.height = "20px";
+ btn.style.borderRadius = "10px";
+ btn.style.border = "none";
+ btn.style.background = "#0080FE";
+ btn.style.left = "0px";
+ btn.style.position = "relative";
+ return btn;
+}
+
+function createOutCanvas() {
+ let can = document.createElement("canvas");
+ can.style.border = "1px solid #ddd";
+ can.style.flex = "4";
+ can.width = "100";
+ can.style.width = can.width + "px";
+ can.height = "500";
+ can.style.height = can.height + "px";
+ can.style.background = "#fbfbfb";
+ can.style.borderRadius = "6px";
+ return can;
+}
+
+function updateInput(txa) {
+ let params = "";
+ params += "MODEL " + model + "\n";
+ params += "GRAVI " + gacc + "\n";
+ params += "COEFR " + cor + "\n";
+ params += "YBALL " + yBall + "\n";
+ params += "YBASE " + yBase + "\n";
+ params += "TINIT " + tInit + "\n";
+ params += "TDELT " + tDelt + "";
+ txa.value = params;
+}
+
+function updateCanvas(can) {
+ clearCanvas(can);
+ drawBall(1.0, yBase, 0.2, can, "#5a5", "rgba(0, 255, 0, 0.8)");
+ drawBall(1.0, yBall, 0.2, can, "#d22", "rgba(255, 0, 0, 0.3)");
+}
+
+let cnt, inSel, inTxa, outTxa;
+let leftDiv, bottomDiv, rightDiv;
+let btnClear, btnRead, btnRun;
+let outCan, btnDrag;
+
+cnt = getContainer();
+
+inSel = createSelectModel();
+inTxa = createInputParams();
+outTxa = createOutputData();
+
+btnClear = createButton("Clear");
+btnRead = createButton("Read");
+btnSim = createButton("Start");
+
+outCan = createOutCanvas();
+btnDrag = createDragButton("o");
+
+leftDiv = createLeftDiv();
+bottomDiv = createBottomDiv();
+rightDiv = createRightDiv();
+
+cnt.append(leftDiv);
+ leftDiv.append(inSel);
+ leftDiv.append(inTxa);
+ leftDiv.append(outTxa);
+ leftDiv.append(bottomDiv);
+ bottomDiv.append(btnClear); 
+ bottomDiv.append(btnRead); 
+ bottomDiv.append(btnSim); 
+cnt.append(rightDiv);
+ rightDiv.append(outCan);
+ rightDiv.append(btnDrag);
+
+let isDragging = false;
+let startY = 0;
+let currentOffsetY = 0;
+
+const gacc_ = 10.0;
+const cor_ = 1.0;
+const yBall_ = 4.9;
+const YBall_ = 500;
+const yBase_ = 0.3;
+const model_ = "-1";
+const tInit_ = 0.0;
+const tDelt_ = 0.01;
+const tCurr_ = tInit_;
+const vBall_ = 0;
+const dBall_ = 0.2;
+
+
+let gacc, model;
+let tInit, tDelt, tCurr;
+let yBall, YBall, yBase, vBall, dBall;
+
+
+function resetToDefault() {
+ gacc = gacc_;
+ cor = cor_;
+ yBall = yBall_;
+ YBall = YBall_;
+ yBase = yBase_;
+ model = model_;
+ tInit = tInit_;
+ tDelt = tDelt_;
+ tCurr = tCurr_;
+ vBall = vBall_;
+ dBall = dBall_;
+}
+
+let cid;
+
+btnDrag.addEventListener("mousedown", (e) =&gt; {
+ isDragging = true;
+ startY = e.clientY;
+ btnDrag.style.cursor = "grabbing";
+});
+
+document.addEventListener("mousemove", (e) =&gt; {
+ if (!isDragging) return;
+ 
+ const deltaY = e.clientY - startY;
+ let newY = currentOffsetY + deltaY;
+ 
+ // ---------- BOUNDARIES ----------
+ const btnHeight = btnDrag.offsetHeight;
+ const wrapperHeight = rightDiv.offsetHeight;
+
+ const minY = 0;
+ const maxY = wrapperHeight - btnHeight - btnHeight;
+ // ---------------------------------
+ 
+ if (newY &lt; minY) newY = minY;
+ if (newY &gt; maxY) newY = maxY;
+ 
+ btnDrag.style.transform = `translateY(${newY}px)`;
+
+ YBall = newY + 0.5 * parseInt(btnDrag.style.height);
+ yBall = gety(YBall);
+ 
+ updateInput(inTxa);
+ updateCanvas(outCan)
+});
+
+document.addEventListener("mouseup", () =&gt; {
+ if (!isDragging) return;
+ 
+ // save final Y position
+ const matrix = new DOMMatrix(getComputedStyle(btnDrag).transform);
+ currentOffsetY = matrix.m42;
+
+ isDragging = false;
+ btnDrag.style.cursor = "grab";
+});
+
+function getY(y) {
+ const ymin = 0;
+ const ymax = 5;
+ const YMIN = parseInt(outCan.height);
+ const YMAX = 0;
+ let Y = (y - ymin) / (ymax - ymin);
+ Y *= (YMAX - YMIN)
+ Y += YMIN;
+ return Math.round(Y * 10) / 10; 
+}
+
+function gety(Y) {
+ const ymin = 0;
+ const ymax = 5;
+ const YMIN = parseInt(outCan.height);
+ const YMAX = 0;
+ let y = (Y - YMIN) / (YMAX - YMIN);
+ y *= (ymax - ymin)
+ y += ymin;
+ return Math.round(y * 1000) / 1000; 
+}
+
+function clearCanvas(can) {
+ const width = parseInt(can.width);
+ const height = parseInt(can.height);
+ const ctx = can.getContext("2d");
+ ctx.clearRect(0, 0, width, height, false); // height);
+}
+
+function drawBall(x, y, d, can, stroke, fill) {
+ const X = parseInt(can.width) / 2;
+ const Y = getY(y);
+ const D = 20;
+ const ctx = can.getContext("2d");
+ ctx.strokeStyle = stroke;
+ ctx.lineWidth = "2";
+ ctx.beginPath();
+ ctx.arc(X, Y, 0.5 * D, 0, 2 * Math.PI);
+ ctx.stroke();
+ ctx.fillStyle = fill;
+ ctx.beginPath();
+ ctx.arc(X, Y, 0.5 * D, 0, 2 * Math.PI);
+ ctx.fill();
+}
+
+function clearTextarea(txa) {
+ txa.value = "";
+}
+
+function updateParamsFrom(txa) {
+ const lines = txa.value.split("\n");
+ for(l of lines) {
+ if(l.indexOf("MODEL") &gt; -1) {
+ const val = parseInt(l.split(" ")[1]);
+ model = val;
+ }
+ if(l.indexOf("GRAVI") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ gacc = val;
+ }
+ if(l.indexOf("YBALL") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ yBall = val;
+ }
+ if(l.indexOf("YBASE") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ yBase = val;
+ }
+ if(l.indexOf("TINIT") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ tInit = val;
+ }
+ if(l.indexOf("TDELT") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ tDelt = val;
+ }
+ if(l.indexOf("COEFR") &gt; -1) {
+ const val = parseFloat(l.split(" ")[1]);
+ cor = val;
+ }
+ }
+ // console.log(model, gacc, yBall, yBase);
+}
+
+function updateOutput(txa) {
+ if((txa.value.length) == 0) {
+ txa.value = "t\ty\tv\n"
+ } else {
+ txa.value += "\n";
+ }
+ txa.value += tCurr;
+ txa.value += "\t";
+ txa.value += yBall;
+ txa.value += "\t";
+ txa.value += vBall;
+ txa.scrollTop = txa.scrollHeight;
+}
+
+inSel.addEventListener("change", (e) =&gt; {
+ model = e.target.selectedIndex;
+ updateInput(inTxa);
+});
+
+btnClear.addEventListener("click", () =&gt; {
+ console.log("Clear");
+ clearTextarea(inTxa);
+ clearTextarea(outTxa);
+ clearCanvas(outCan);
+ inSel.selectedIndex = 0;
+ model = -1;
+ resetToDefault()
+ updateInput(inTxa);
+ updateParamsFrom(inTxa);
+ 
+ btnSim.disabled = true;
+});
+
+btnRead.addEventListener("click", () =&gt; {
+ console.log("Read");
+ updateParamsFrom(inTxa);
+ updateCanvas(outCan);
+
+ btnSim.disabled = false;
+});
+
+btnSim.addEventListener("click", (e) =&gt; {
+ const caption = e.target.innerHTML;
+ 
+ if(caption == "Start") {
+ console.log("Start");
+ e.target.innerHTML = "Stop";
+ btnClear.disabled = true;
+ btnRead.disabled = true;
+ cid = setInterval(simulate, 100);
+ } else {
+ console.log("Stop");
+ e.target.innerHTML = "Start";
+ btnClear.disabled = false;
+ btnRead.disabled = false;
+ clearInterval(cid);
+ }
+});
+
+function corModel(vin, cor, mod) {
+ let vout;
+ if(model == -1) {
+ vout = 0;
+ } else if(model == 1) {
+ vout = -cor * vin;
+ } else if(model == 2) {
+ const k = 0.01;
+ vout = -(cor + k * vin) * vin;
+ } else if(model == 3) {
+ const A = 10;
+ const B = cor * A;
+ vout = -(A / (-vin + B)) * vin;
+ } else if(model == 4) {
+ const vopt = 5;
+ const dv = (-vin - vopt) * (-vin - vopt);
+ const k = 0.001;
+ vout = - (cor * Math.exp(-k*dv*dv)) * vin;
+ } 
+ return vout;
+}
+
+function simulate() {
+ if(yBall &gt; yBase) {
+ updateCanvas(outCan);
+ updateOutput(outTxa);
+
+ let acc = -gacc;
+ 
+ if(yBall - yBase &lt; dBall &amp;&amp; vBall &lt; 0) {
+ console.log("Collision");
+ vBall = corModel(vBall, cor, model);
+ vBall = Math.round(vBall * 1000) / 1000;
+ } else {
+ vBall = vBall + acc * tDelt;
+ vBall = Math.round(vBall * 1000) / 1000;
+ }
+ 
+ yBall = yBall + vBall * tDelt;
+ yBall = Math.round(yBall * 1000) / 1000;
+
+ tCurr += tDelt;
+ tCurr = Math.round(tCurr * 1000) / 1000;
+ } else {
+ clearInterval(cid);
+ btnSim.innerHTML = "Start";
+ btnClear.disabled = false;
+ btnRead.disabled = false;
+ }
+}
+
+btnSim.disabled = true;
+resetToDefault();
+updateInput(inTxa);
+
+
+ });
+&lt;/script&gt;</description></item><item><title>categ franken</title><link>http://localhost:1313/butiran/25j60/</link><pubDate>Sun, 26 Oct 2025 11:33:09 +0700</pubDate><guid>http://localhost:1313/butiran/25j60/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;10-dec-2025&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "/butiran/25l23/"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		&lt;code&gt;25l23&lt;/code&gt;
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ Sim free fall cor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The name is inspired by fiction character representing something that is experimental, being assembled, unstable but alive &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;GPT-5, &amp;ldquo;In development category names&amp;rdquo;, ChatGPT, 26 Oct 2025, url 
+&lt;a
+
+	
+	
+		href = "https://chatgpt.com/share/68fcfbad-2250-800a-80cc-d9ec49a6f87a"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://chatgpt.com/share/68fcfbad-2250-800a-80cc-d9ec49a6f87a &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20251026].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item></channel></rss>

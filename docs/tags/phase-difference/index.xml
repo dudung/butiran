@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phase-Difference on butiran</title><link>http://localhost:1313/butiran/tags/phase-difference/</link><description>Recent content in Phase-Difference on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 05:26:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/phase-difference/index.xml" rel="self" type="application/rss+xml"/><item><title>wave phase difference</title><link>http://localhost:1313/butiran/0033/</link><pubDate>Mon, 04 Apr 2022 03:07:00 +0700</pubDate><guid>http://localhost:1313/butiran/0033/</guid><description>&lt;p&gt;Perbedaan fasa dua buah gelombang dapat disebabkan oleh perbedaan panjang lintasan yang ditempuh [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan sebagai tambahan bila terdapat pemantulan dengan kondisi tertentu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="wave"&gt;wave&lt;/h2&gt;
+&lt;p&gt;Solusi persamaan gelombang dapat berbentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:wave-equation-solution}
+\begin{array}{rcl}
+y(x, t) &amp;amp; = &amp;amp; A \sin (kx - \omega t + \varphi) \newline
+&amp;amp; = &amp;amp; A \sin (\omega t - kx + \phi)
+\end{array}
+\end{equation}&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Dynamics on butiran</title><link>http://localhost:1313/butiran/tags/system-dynamics/</link><description>Recent content in System Dynamics on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 11 Dec 2021 09:38:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/system-dynamics/index.xml" rel="self" type="application/rss+xml"/><item><title>system dynamics</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/26/2021-12-10-system-dynamics/</link><pubDate>Sat, 11 Dec 2021 09:38:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/26/2021-12-10-system-dynamics/</guid><description>&lt;p&gt;System dynamics (SD) adalah suatu metodologi berdasarkan sistem umpan-balik yang dipinjam dari teori kontrol, dan metodologi ini dapat dengan mudah menangani ketidaklinieran dan penundaan-waktu dan struktur multi-simpul dari suatu sistem yang kompleks dan dinamis [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam pemodelan dengan system dynamics, variabel-variabel tidak langsung dikecualikan dari pertimbangan jika pengukuran tercatat tentang variabel-variabel ini kurang [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Penambahan kata sifat, berupa kata benda, pada frasa system dynamics, yang semula mencakup penerapan yang lebih luas [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], membuatnya memiliki arti yang lebih khusus dan terbatas seperti digunakan pada multibody system dynamics [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], engineering system dynamics [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan earth system dynamics [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu spesialiasi lebih jauh dari multibody system dynamics menghasilkan vehicle system dynamics [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang bahkan telah tersedia matakuliah khususnya [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Agar lebih tersosialisasikan tedapat pelatihan analisis kebijakan menggunakan pendekatan SD ini [
+&lt;a
+
+	
+	
+		href = "#r09"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		9 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang visualisasinya telah terkamodasi dengan GUI [
+&lt;a
+
+	
+	
+		href = "#r10"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		10 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sk6091 on butiran</title><link>http://localhost:1313/butiran/tags/sk6091/</link><description>Recent content in Sk6091 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Oct 2023 03:59:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/sk6091/index.xml" rel="self" type="application/rss+xml"/><item><title>svg &lt;path&gt; element - bezier</title><link>http://localhost:1313/butiran/0125/</link><pubDate>Sun, 29 Oct 2023 03:59:00 +0700</pubDate><guid>http://localhost:1313/butiran/0125/</guid><description>&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic shapes (
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		MDN, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;Paths (
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		MDN, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;&amp;lt;text&amp;gt; (
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		MDN, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;Answer to &amp;ldquo;vertical alignment of text element in SVG&amp;rdquo; (
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/a/12250444/9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		West &amp;amp; Currie, 2016 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="circle"&gt;circle&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="line"&gt;line&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;line&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x1=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x2=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y1=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y2=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;5&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="text"&gt;text&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;text&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;text-anchor=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;middle&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;alignment-baseline=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;middle&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;(100, 100)&lt;span style="color:#f92672"&gt;&amp;lt;/text&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;5&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;red&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="circle-line-circle"&gt;circle-line-circle&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;4&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;line&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x1=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y1=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x2=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;y2=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;50&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;150&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;4&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="path-bezier"&gt;path bezier&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;M 20 150 Q 100 50 180 150&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="more-points-1"&gt;more points 1&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;520&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 20 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 100 50 180 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 260 250 340 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 420 50 500 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="more-points-1-t-instead-of-q"&gt;more points 1 (T instead of Q)&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;520&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 20 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 100 50 180 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 340 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 500 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="more-points-2"&gt;more points 2&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;520&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 20 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 100 50 180 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 260 250 340 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 420 50 500 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="more-points-2-t-instead-of-q"&gt;more points 2 (T instead of Q)&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;520&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 20 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 100 50 180 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 400 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 500 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;black&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="arbitrary-form-with-z"&gt;arbitrary form with Z&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;600&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 150 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 150 50 250 50
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 350 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 250 250
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Z
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;#f88&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;#fcc&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="arbitrary-form-for-domain--boundary"&gt;arbitrary form for domain &amp;amp; boundary&lt;/h2&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;version=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;1.1&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;600&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;320&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background: #eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;path&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;d=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; M 150 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Q 150 50 250 50
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 400 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 300 250
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; T 150 150
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;#f88&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;#fcc&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>svg &lt;g&gt; and &lt;animate&gt; tags</title><link>http://localhost:1313/butiran/0118/</link><pubDate>Fri, 27 Oct 2023 05:11:00 +0700</pubDate><guid>http://localhost:1313/butiran/0118/</guid><description>&lt;h2 id="results"&gt;results&lt;/h2&gt;
+
+
+&lt;h2 id="codes-slightly-modified"&gt;codes (slightly modified)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;g&amp;gt;&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;viewBox=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;0 0 200 200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background:#eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;g&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;rgba(1, 1, 1, 0.5)&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;red&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke-width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;40&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;40&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;25&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;circle&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cx=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;60&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;cy=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;60&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;r=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;25&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;/g&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;animate&amp;gt;&lt;/code&gt; 
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-svg" data-lang="svg"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;xmlns=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;viewBox=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;0 0 200 200&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;style=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;background:#eee;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;rect&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;width=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;green&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;animate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;attributeName=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;values=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;0;100;150;100;0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;dur=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;2s&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeatCount=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;indefinite&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;/rect&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="combining-elements"&gt;combining elements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		svg &lt;!-- raw HTML omitted --&gt; element &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>svg &lt;g&gt; element</title><link>http://localhost:1313/butiran/0075/</link><pubDate>Sat, 30 Sep 2023 12:50:00 +0700</pubDate><guid>http://localhost:1313/butiran/0075/</guid><description>&lt;h2 id="introduction"&gt;introduction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;&amp;lt;g&amp;gt;&lt;/code&gt; element groups all of its decendants in one group, which makes it is easy to add styles, transformation, interactivity, and even animations to the entire group of objects (
+&lt;a
+
+	
+	
+		href = "https://www.sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Soueidan, 2014 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;Transformation applied to the &lt;code&gt;&amp;lt;g&amp;gt;&lt;/code&gt; element are also performed on its child elements, and its attributes are inherited by its children, including core, styling, conditional, and presentation attributes (
+&lt;a
+
+	
+	
+		href = "https://www.geeksforgeeks.org/svg-g-element/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		taran910, 2022 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;With &lt;code&gt;&amp;lt;g&amp;gt;&lt;/code&gt; element the grouped elements can be reused as if they were a single element, that is an advantage compared to a nested &lt;code&gt;&amp;lt;svg&amp;gt;&lt;/code&gt; element which cannot be the target of transformation itself (
+&lt;a
+
+	
+	
+		href = "https://jenkov.com/tutorials/svg/g-element.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Jenkov, 2014 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;It can also group multiple elements to be referenced later with the &lt;code&gt;&amp;lt;use&amp;gt;&lt;/code&gt; element (
+&lt;a
+
+	
+	
+		href = "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		MDN, 2023 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+) and can apply the same style to a set of elements (
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/a/17342735/9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		LeBeau, 2013 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

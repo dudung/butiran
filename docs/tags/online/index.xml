@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Online on butiran</title><link>http://localhost:1313/butiran/tags/online/</link><description>Recent content in Online on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 18:20:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/online/index.xml" rel="self" type="application/rss+xml"/><item><title>deep learning image based dection</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-25-deep-learning-image-based-detection/</link><pubDate>Fri, 25 Feb 2022 18:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-25-deep-learning-image-based-detection/</guid><description>&lt;p&gt;Pengenalan pola merupakan suatu proses untuk mengenal pola menggunakan algoritma pembelajaran mesin, di mana aspek pengenalan pola ini memiliki aspek penting dalam potensi aplikasinya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bersama-sama dngan pembelajaran mendalam (deep learning), pembelajaran mesin (machine learning) dan pengenalan pola (pattern recognition) merupakan topik-topik yang berkaitan dan umum digunakan dalam bidang robotika dengan kecerdasan buatan, di mana konsep pertama pengenalan pola diperkenal dalam pemrosesan citra [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Informasi yang tersimpan dalam suatu citra dapat digunakan untuk mendeteksi berbagai hal. Bentuk citranya pun dapat berbagai jenis. Untuk citra yang diperoleh dengan menggunakan cahaya tampak, citra yang umumnya dikenal, dapat dimanfaatkan untuk mendeteksi retak pada permukaan rel kereta [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], ukuran buah pada kanopi pohon mangga [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan penyakit tanaman melalui citra daunnya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dari citra sinar-x dada dapat dideteksi keberadaan COVID-19 [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan dari citra sinar inframerah dapat dideteksi peralatan listrik yang terlalu panas pada daerah substation [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu penerapan dari pemanfaatan citra termal disinggung secara singkat di sini, sebagai suatu laporan singkat kehadiran pada suatu webinar.&lt;/p&gt;</description></item><item><title>attended webinars</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-24-attended-webinars/</link><pubDate>Thu, 24 Feb 2022 20:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-24-attended-webinars/</guid><description>&lt;p&gt;Suatu webinar, yang adalah kombinasi dari kata &amp;lsquo;web&amp;rsquo; dan &amp;lsquo;seminar&amp;rsquo;, merupakan suatu kegiatan workshop dengan video, kuliah, atau presentasi yang diselenggarakan secara daring berbantuan peranti lunak webinar [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Daftar yang diikuti diberikan di bawah ini dan belum tentu lengkap. Dimulai sebagai sarana pemulihan dari dark age.&lt;/p&gt;
+&lt;h2 id="the-list"&gt;the list&lt;/h2&gt;
+&lt;h3 id="mar-apr-22"&gt;mar-apr 22&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;UNM, &amp;ldquo;Seminar Nasional Literasi Jaminan Produk Halal Dalam Mendukung Pengembangan Ekonomi Pariwisata Halal&amp;rdquo;, Pusat Halal Lembaga Penelitian dan Pengabdian kepada Masyarakat Universitas Negeri Malang, Halal Center 5 Perguruan Tinggi di Malang, bekerja sama dengan Pemkot Kota Malang, 8 Mar 2022, 0800+07, Zoom 
+&lt;a
+
+	
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		00000000000 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Junianto Yuristiono, Anum Nhamidah, &amp;ldquo;Outlook Industri &amp;amp; Bisnis 2022 &amp;amp; Proyeksi 2023 Onwards&amp;rdquo;, FGD, PII Bidang Industri &amp;amp; Hilirisasi Produk Dalam Negeri, 7 Mar 2022, 1330-1700+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://us02web.zoom.us/j/86555123271"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		86555123271 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Zoom Zoom, &amp;ldquo;Webinar Series: Kiat-kiat Studi di Jerman&amp;rdquo;, PAJ, Unhas, DAAD, SES, 7 Mar 2022 0830+08, Zoom 
+&lt;a
+
+	
+	
+		href = "https://us02web.zoom.us/j/86045030145"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		86045030145 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Nugroho Dwi Hananto, &amp;ldquo;Memacu Riset Samudera, Menghela Ekonomi Biru&amp;rdquo;, Komisariat ITB92, 6 Mar 2022, 1930-2100, Zoom 
+&lt;a
+
+	
+	
+		href = "https://us02web.zoom.us/j/8616356526"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		8616356526 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="jan-feb-22"&gt;jan-feb 22&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khairun Saddami, &amp;ldquo;Pemanfaatan Deep Learning untuk Deteksi Dini Penyakit Berbasis Citra Termal&amp;rdquo;, Weekly Seminar, Indonesian Association for Pattern Recognition (INAPR), Research Center for Artificial Intelligence and Big Data Univ. Padjadjaran, Artificial Intelligence and Scientific Publication Univ. Negeri Surabaya (AIPI Unesa) dan Indonesian Artificial Intelligence Society (IAIS), 25 Feb 2022, 1630+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://zoom.us/j/99616981309"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		99616981309 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Heru Prasetio, &amp;ldquo;Apa Itu Fisika Medis? Apa hubungannya dengan Nuklir?&amp;rdquo;, Webinar 7, Himpunan Masyarakat Nuklir Indonesia (HIMNI), 24 Feb 2022 1600+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://us02web.zoom.us/w/84688014361"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		84688014361 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, YouTube 
+&lt;a
+
+	
+	
+		href = "https://www.youtube.com/watch?v=JCT5VBAl8ZU"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		JCT5VBAl8ZU &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/g6y3x/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		✓ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Puji Lestari, Yasuhiro Takeuchi, Haryo Satriyo Tomo, Nozomu Kurishima, Akikuni Tomonaga, &amp;ldquo;AQCS (Air Quality Control System)&amp;rdquo;, Pekan 2, ITB-Mitsubishi Power Joint Lecture, Lembaga Pengembangan Inovasi dan Kewirausahaan Institut Teknologi Bandung (LPIK ITB), 24 Feb 2022, 0700+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://itb-ac-id.zoom.us/j/91450430353"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		91450430353 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Muhammad Aqil Irham, &amp;ldquo;ToT (Training of Trainer) Pendamping PPH (Proses Produk Halal) Batch 3&amp;rdquo;, Badan Penyelenggara Jaminan Produk Halal, Kementerian Agama Republik Indonesia, 19-25 Feb 2022, 0800+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://zoom.us/j/95947166397"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		95947166397 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Direktorat Jenderal Pendidikan Tinggi, Riset dan Teknologi, &amp;ldquo;Uji Kompetensi dan Keterampilan Bagi Calon Asesor BKD&amp;rdquo;, Direktorat Kepegawaian ITB, 28 Jan 2022, 0800+07, Zoom 
+&lt;a
+
+	
+	
+		href = "https://itb-ac-id.zoom.us/j/98036407175"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		98036407175 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="nov-dec-21"&gt;nov-dec 21&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Sparisoma Viridi, &amp;ldquo;Pembelajaran sains berbasis web&amp;rdquo;, Webinar Nasional: Literasi dan Inovasi Digital dalam Pembelajaran, 27 Desember 2021, Indonesia, Zoom 
+&lt;a
+
+	
+	
+		href = "https://zoom.us/j/88003277054"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		88003277054 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, DOI 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.17605/osf.io/h94cf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		10.17605/osf.io/h94cf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/8g5w6/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		✓ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Sparisoma Viridi Ferry Faizal Fenfen Fenda Florena, &amp;ldquo;Strategi penulisan artikel ilmiah&amp;rdquo;, Webinar &amp;amp; Workshop Series: Penulisan Artikel Jurnal Ilmiah, 23-25 November 2021, Indonesia, Zoom 
+&lt;a
+
+	
+	
+		href = "https://zoom.us/j/3531715501"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		3531715501 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, DOI 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.17605/osf.io/8dwgj"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		10.17605/osf.io/8dwgj &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/9xfzu/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		✓ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="note"&gt;note&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Daniella Alscher, &amp;ldquo;What Is a Webinar? How to Engage and Educate Your Audience&amp;rdquo;, G2.com, Inc., 21 Apr 2020, url 
+&lt;a
+
+	
+	
+		href = "https://www.g2.com/articles/what-is-a-webinar"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.g2.com/articles/what-is-a-webinar &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20220224].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="comments"&gt;comments&lt;/h3&gt;
+&lt;p&gt;{% comment %} data-width=&amp;ldquo;390&amp;rdquo; {% endcomment %}&lt;/p&gt;</description></item><item><title>online ann ml</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/31/2021-12-24-online-ann-ml/</link><pubDate>Fri, 24 Dec 2021 21:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/31/2021-12-24-online-ann-ml/</guid><description>&lt;p&gt;Karena penggunaan istilah artificial intelligence, machine learning, neural network, dan deep learning sering saling dipertukarkan, perlu cara penjelasan yang cukup sederhana untuk menjelaskan keterkaitan antar istilah ini, yang telah secara menarik dan lugas dapat diilustrasikan menggunakan boneka-boneka Rusia yang saling mengisi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana penggambaran menggunakan diagram Venn untuk anggota himpunan mungkin lebih baik [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk mempelajari artificial neural network (ANN), atau lebih dikenal hanya sebagai neural network (NN), dewasa ini dapat dilakukan dengan langsung mencobanya secara daring, mulai dari yang memiliki antarmuka sederhana dan hanya menampilkan arsitektur jaringannya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dilengkapi dengan hyperplane [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sampai dilengkapi visualisasi menarik [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] sehingga dapat dikembangkan menjadi semacam kalkulator NN dalam merancang detektor trojan [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat pula platform yang lebih terintegrasi dan dapat diterapkan ke bisnis [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+,
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

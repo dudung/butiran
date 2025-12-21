@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multiple Integral on butiran</title><link>http://localhost:1313/butiran/tags/multiple-integral/</link><description>Recent content in Multiple Integral on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Dec 2021 14:05:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/multiple-integral/index.xml" rel="self" type="application/rss+xml"/><item><title>numerical integration</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/30/2021-12-19-numerical-integration/</link><pubDate>Sun, 19 Dec 2021 14:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/30/2021-12-19-numerical-integration/</guid><description>&lt;p&gt;Terdapat banyak fungsi yang antiderivatifnya tidak dapat atau tidak secara mudah diekspresikan dalam bentuk tertutup, atau dengan kata lain dalam bentuk fungsi yang diketahui, sehingga ketimbang mengerjakan integral dari fungsi-fungsi tersebut secara langsung, lebih baik mencari jalan lain dengan berbagai teknis integrasi numerik untuk mencari nilai aproksimasi integralnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam matematika suatu jenis aproksimasi dari suatu integral menggunakan jumlah berhingga dikenal sebagai jumlah Riemann, yang penerapan umumnya adalah untuk menghampiri luasan suatu fungsi atau garis pada grafik, dan juga panjang kurva serta hampiran lainnya, di mana jumlah tersebut dihitung dengan membuat partisi daerah menggunakan bentuk-bentuk tertentu, seperti kotak, trapesium, parabola, atau kubik [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pendekatan menggunakan titik kiri kotak (LRAM), titik tengah kotak (MRAM), dan titik kanan kotak (RRAM) termasuk ke dalam metode pendekatan kotak atau rectangular approximation method [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang merupakan contoh formulasi yang dapat bervariasi dari suatu pendekatan. Untuk midpoint rule atau aturan titik tengah, nama lain dari midpoint rectangular approximation method, terdapat contoh kode dalam R [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudian, selain dengan menggunakan partisi, integrasi numerik dapat pula dilakukan dengan menggunakan bilancan acak, seperti pada integrasi Monte Carlo [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

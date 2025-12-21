@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Force on butiran</title><link>http://localhost:1313/butiran/tags/force/</link><description>Recent content in Force on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2024 15:54:59 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/force/index.xml" rel="self" type="application/rss+xml"/><item><title>spring force</title><link>http://localhost:1313/butiran/24j21/</link><pubDate>Sun, 13 Oct 2024 15:54:59 +0700</pubDate><guid>http://localhost:1313/butiran/24j21/</guid><description>&lt;p&gt;Contact force between to objects connected via a spring, or between object and a fixed point, considered in butiran.&lt;/p&gt;</description></item><item><title>electric force</title><link>http://localhost:1313/butiran/24j20/</link><pubDate>Sun, 13 Oct 2024 14:36:45 +0700</pubDate><guid>http://localhost:1313/butiran/24j20/</guid><description>&lt;p&gt;Force between two charges, also between charge and field, considered in butiran.&lt;/p&gt;</description></item><item><title>gravitational force</title><link>http://localhost:1313/butiran/24j19/</link><pubDate>Sun, 13 Oct 2024 06:05:06 +0700</pubDate><guid>http://localhost:1313/butiran/24j19/</guid><description>&lt;p&gt;Force between two masses, also between mass and field, considered in butiran.&lt;/p&gt;</description></item><item><title>magnetic force</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-20-magnetic-force/</link><pubDate>Sun, 20 Feb 2022 21:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-20-magnetic-force/</guid><description>&lt;p&gt;Gaya magnetik merupakan tarikan atau tolakan yang muncul antar dua partikel bermuatan disebabkan oleh gerak relatif antar keduanya, yang berbeda dengan gaya elektrostatik yang akan tetap ada saat kedua partikel dalam keadaan diam relatif satu dengan lainnya, tidak demikian dengan gaya magnetik [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kadang gerak muatan-muatan bersifat amat mikroskopis dan berada dalam bahan yang disebut magnet [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan dibahas gaya magnetik sebagai produk perkalian vektor dari muatan yang bergerak dengan medan magnetik yang mempengaruhinya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>particle accelerator</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-14-particle-accelerator/</link><pubDate>Mon, 14 Feb 2022 05:47:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-14-particle-accelerator/</guid><description>&lt;p&gt;Sebuah pemercepat partikel atau akselerator partikel adalah mesin yang mempercepat partikel-partikel elementer, seperti elektron dan proton, ke energi yang sangat tingggi, dengan kegunaan dasarnya adalah menghasilkan berkas partikel bermuatan untuk berbagai tujuan penelitian [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu jenis pemercepat partikel adalah pemercepat partikel linier yang merupakan perluasan dari ide Wideroe mengenai sel-sel pemercepat yang memanfaatkan tegangan listrik dengan frekuensi radio yang dicocokan dengan gerak partikel [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana dengan cepatnya gerak partikel sel berikutnya perlu berukuran lebih panjang dari sel sebelumnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Prinsip dasar pemercepatannya adalah menggunakan dua keping, seperti keping kapasitor dengan lubang di tengahnya, yang berbeda tegangannya sedemikian rupa sehingga dapat memproduksi medan listrik yang akan menghasilkan gaya listrik yang mempercepat gerak partikel bermuatan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain mempercepat partikel searah dengan arah gerak semula, sistem dengan dua keping tersebut dapat pula mempercepat partikel pada arah tegak lurusnya sehingga membuat partikel berbelok ke satu arah atau ke arah lainnya bergantung pada tanda muatannya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dengan telah terdapat pula demonstrasinya secara daring [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>electric force</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-11-electric-force/</link><pubDate>Sat, 12 Feb 2022 23:05:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-11-electric-force/</guid><description>&lt;p&gt;Hukum Coulomb memberikan rumusan gaya listrik yang bekerja pada suatu muatan titik akibat keberadaan muatan titik lain [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan dengan analogi gaya gravitasi konsep gaya listrik ini dapat diperluas sebagai interaksi antara muatan titik dengan medan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="force-and-field"&gt;force and field&lt;/h2&gt;
+&lt;p&gt;Gaya listrik $\vec{F}$ yang bekerja pada muatan titik $q$ yang berada pada posisi $\vec{r}$ memiliki bentuk&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn:electric-force}
+\vec{F} = q\vec{E},
+\end{equation}&lt;/p&gt;</description></item><item><title>electromagnetic force</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-11-electromagnetic-force/</link><pubDate>Fri, 11 Feb 2022 10:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/46/2022-02-11-electromagnetic-force/</guid><description>&lt;p&gt;Gaya elektromagnetik, yang juga disebut sebagai gaya Lorentz, menjelaskan bagaimana muatan-muatan berinteraksi baik yang diam atau bergerak [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Gaya ini, bersama-sama dengan gaya gravitasi, gaya lemah, dan gaya kuat, merupakan empat gaya-gaya fundamental [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Istilah elektromagnetisme menyatukan gaya listrik dan magnetik menjadi satu kata tunggal karena kedua gaya ini disebabkan oleh suatu fenomena dasar yang sama [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Gaya elektromagnetik ini merupakan suatu gaya dengan rentang pengaruh tak-hingga, yang mematuhi hukum kuadrat terbalik [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>work</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/24/2021-12-07-work/</link><pubDate>Tue, 07 Dec 2021 21:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/24/2021-12-07-work/</guid><description>&lt;p&gt;Kerja mengacu pada suatu aktivitas yang melibatkan gaya dan pergerakan dalam arah gaya tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau merupakan energi yang ditransfer ke atau dari obyek melalui penerapan gaya sepanjang suatu perpindahan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga dapat dikatakan bahwa kerja mengukur transfer energi yang terjadi ketika suatu obyek berpindah menempuh suatu jarak disebabkan oleh gaya luar [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat tiga bahan utama dalam kerja yaitu gaya, perpindahan, dan penyebab, sehingga saat gaya disebut melakukan kerja pada suatu obyek harus terjadi perpindahan dan gaya tersebut yang menyebabkannya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan demikian hal ini dapat menjelaskan terdapatnya definisi bahwa dalam fisika, kerja didefinisikan sebagai suatu gaya yang menyebabkan pergerakan atau perpindahan suatu obyek [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], akan tetapi perlu diingat bahwa kerja bukan gaya. Secara teknis, kerja diperoleh melalui perkalian skalar antara gaya melalui aljabar dan perpindahan atau integral lintasan perpindahan dengan gaya melalui kalkulus [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selanjutnya ukuran kemampuan dari sesuatu untuk melakukan kerja disebut sebagai energi [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kata work dalam bahasa Inggris, yang diberi lambang $W$, diterjemahkan menjadi kerja atau usaha [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>pressure</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/12/2021-11-07-pressure/</link><pubDate>Mon, 08 Nov 2021 06:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/12/2021-11-07-pressure/</guid><description>&lt;p&gt;Tekanan didefinisikan sebagai gaya per satuan luas [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau lebih tepatnya gaya yang tegak lurus dengan permukaan per satuan luas permukaan tersebut [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Tekanan merupakan suatu besaran skalar, yang menghubungkan antara vektor elemen luas dengan gaya normal yang bekerja padanya, sehingga dapat dikatakan sebagai konstanta kesebandingan yang menghubungkan kedua vektor normal tersebut [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain dapat menjelaskan bahwa benda yang lebih kecil luas permukaannya, seperti paku dapat lebih mudah masuk ke dalam dinding dibandingkan dengan benda yang lebih luas permukaannya saat digunakan gaya yang sama [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], tekanan merupakan konsep kunci untuk mekanika fluida, digunakan dalam hukum gas ideal untuk menjelaskan energi gas, dan dimanfaatkan dalam banyak hal-hal lain [
+&lt;a
+
+	
+	
+		href = "#ref05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

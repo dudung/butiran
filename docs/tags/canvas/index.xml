@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Canvas on butiran</title><link>http://localhost:1313/butiran/tags/canvas/</link><description>Recent content in Canvas on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:57:30 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/canvas/index.xml" rel="self" type="application/rss+xml"/><item><title>canvas xy scatter no axis</title><link>http://localhost:1313/butiran/25k08/</link><pubDate>Tue, 04 Nov 2025 17:57:30 +0700</pubDate><guid>http://localhost:1313/butiran/25k08/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+let cnt = document.getElementById("cnt");
+cnt.style.border = "1px solid magenta";
+cnt.style.display = "flex";
+
+let btnDiv = document.createElement("div");
+btnDiv.style.border = "1px solid red";
+btnDiv.style.width = "140px";
+btnDiv.style.display = "flex";
+btnDiv.style.flex = "1";
+
+let btnDraw = document.createElement("button");
+btnDraw.innerHTML = "Draw";
+btnDraw.style.flex = "1";
+
+let btnClear = document.createElement("button");
+btnClear.innerHTML = "Clear";
+btnClear.style.flex = "1";
+
+let leftDiv = document.createElement("div");
+leftDiv.style.border = "1px solid blue";
+leftDiv.style.width = "140px";
+leftDiv.style.height = "240px";
+leftDiv.style.display = "flex";
+leftDiv.style.flexDirection = "column";
+
+let inTxa = document.createElement("textarea");
+inTxa.style.overflowY = "scroll";
+inTxa.style.flex = "8";
+inTxa.style.height = "150px";
+
+let rightDiv = document.createElement("div");
+rightDiv.style.border = "1px solid green";
+rightDiv.style.width = "240px";
+rightDiv.style.height = "240px";
+rightDiv.style.display = "flex";
+
+cnt.append(leftDiv);
+ leftDiv.append(btnDiv);
+ btnDiv.append(btnDraw);
+ btnDiv.append(btnClear);
+ leftDiv.append(inTxa);
+cnt.append(rightDiv);
+
+ });
+&lt;/script&gt;</description></item><item><title>js matrix to canvas</title><link>http://localhost:1313/butiran/25e41/</link><pubDate>Wed, 21 May 2025 13:19:31 +0700</pubDate><guid>http://localhost:1313/butiran/25e41/</guid><description>&lt;p&gt;Content of matrix showing as colored grid on canvas.&lt;/p&gt;
+
+&lt;script src="http://localhost:1313/butiran/js/src/25e41.js?v=1766295403"&gt;&lt;/script&gt;
+
+
+
+&lt;div id="cnt1"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+const cnt = document.getElementById("cnt1");
+
+const style2 = {
+ display: "flex",
+ border: "0px #aaf solid",
+ background: "#fafaff",
+ width: "500px",
+ height: "200px",
+};
+const div = createElement("div", style2);
+
+const style3 = {
+ flex: "3",
+ overflowY: "scroll",
+ background: "#fee",
+};
+const txa = createElement("textarea", style3);
+
+const style4 = {
+ flex: "2",
+ background: "#efe",
+ border: "1px #080 solid",
+};
+const can = createElement("canvas", style4);
+
+cnt.appendChild(div);
+div.append(txa);
+div.append(can);
+
+let m = [
+ [15, 16, 17, 18, 19, 19, 18, 17, 16, 15], // 00
+ [14, 26, 27, 28, 29, 29, 28, 27, 26, 14], // 01
+ [13, 24, 25, 26, 27, 27, 26, 25, 24, 13], // 02
+ [12, 23, 22, 21, 20, 20, 21, 22, 23, 12], // 03
+ [11, 39, 38, 49, 48, 48, 49, 38, 39, 11], // 04
+ [10, 37, 36, 47, 46, 46, 47, 36, 37, 10], // 05
+ [10, 35, 34, 45, 44, 44, 45, 34, 36, 10], // 06
+ [10, 33, 32, 43, 42, 42, 43, 33, 33, 10], // 07
+ [10, 31, 30, 41, 40, 40, 41, 30, 31, 10], // 08
+ [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], // 09
+]
+const ms = matrixToStr(m);
+addTextToTextarea(txa, ms);
+
+drawMatrixOnCanvas(can, m, getColor);
+
+
+ });
+&lt;/script&gt;
+
+&lt;p&gt;Left area is for matrix content and right area is for its visualization representation.&lt;/p&gt;</description></item></channel></rss>

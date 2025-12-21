@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Package on butiran</title><link>http://localhost:1313/butiran/tags/package/</link><description>Recent content in Package on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 17 Feb 2022 15:37:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/package/index.xml" rel="self" type="application/rss+xml"/><item><title>py list matrix pkg</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-pkg/</link><pubDate>Thu, 17 Feb 2022 15:37:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/48/2022-02-17-py-list-matrix-2d-pkg/</guid><description>&lt;p&gt;Operasi matriks di Python dapat dilakukan dengan berbantuan berbagai paket, misalnya saja adalan NumPy [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan disajikan paket buatan sendiri tentang matriks yang dapat untuk menjumlahkan dan mengurangkan dua buah matriks, perkalian matriks dengan matriks, perkalian matriks dengan skalar, dan transpos suatu matriks. Digunakan hanya list Python dan pengulangan for.&lt;/p&gt;
+&lt;h2 id="some-packages"&gt;some packages&lt;/h2&gt;
+&lt;p&gt;Selain NumPy, terdapat sekitar 260 paket Python terkait dengan matriks (Matrix) yang telah disaring dengan topik Scientific/Engineering lalu Mathematics [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

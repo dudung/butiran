@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Refraction on butiran</title><link>http://localhost:1313/butiran/tags/refraction/</link><description>Recent content in Refraction on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 14 Dec 2021 17:15:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/refraction/index.xml" rel="self" type="application/rss+xml"/><item><title>measuring angle</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/27/2021-12-13-measuring-angle/</link><pubDate>Tue, 14 Dec 2021 17:15:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/27/2021-12-13-measuring-angle/</guid><description>&lt;p&gt;Mengukur sudut dalam fisika tidaklah selalu menggunakan referensi yang sama seperti dalam matematika, di mana telah terdapat istilah sudut rujukan $\theta$, yang diukur terhadap sumbu $x$ dan selalu bernilai antara $0$ dan $90$, yang merupakan sudut terkecil (acute angle) yang dibentuk oleh sisi akhir (terminal side) dan sumbu $x$ [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk benda yang meluncur menuruni bidang miring, sudut kemiringan bidang diukur terhadap arah horisontal dan dipilih sudut terkecilnya baik untuk bidang miring licin [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] maupun dengan gesekan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang hubungan sudut ini dengan sudut untuk menguraikan gaya-gaya yang bekerja pada benda kadang masih membingungkan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk pendulum sederhana sudut ayunan diukur terhadap arah vertikal baik untuk gerak dengan sudut simpangan kecil [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun besar [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang memudahkan perumusan aproksimasinya [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Benda yang ditarik sepanjang lantai mendatar sudut gaya diukur terhadap arah mendatar baik untuk gaya tarik [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] ataupun gaya dorong [
+&lt;a
+
+	
+	
+		href = "#r09"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		9 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Acuan arah mendatar ini menjadi arah gerak benda bila lintasannya telah pasti seperti pada rel [
+&lt;a
+
+	
+	
+		href = "#r10"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		10 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau arahnya merupakan informasi yang diketahui [
+&lt;a
+
+	
+	
+		href = "#r11"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		11 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada gelombang sudut datang [
+&lt;a
+
+	
+	
+		href = "#r12"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		12 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sudut pantul [
+&lt;a
+
+	
+	
+		href = "#r13"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		13 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan sudut bias [
+&lt;a
+
+	
+	
+		href = "#r14"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		14 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] diukur terhadap garis normal bidang batas. Untuk gerak parabola sebuah proyektil sudut diukur terhadap arah mendatar ke sisi geraknya [
+&lt;a
+
+	
+	
+		href = "#r15"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		15 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dan untuk onggokan bahan butira, sudut repos (angle of repose) diukur terhadap arah mendatar dari sisi dalam bahan [
+&lt;a
+
+	
+	
+		href = "#r16"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		16 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang dapat diukur menggunakan metode statis atau dinamis [
+&lt;a
+
+	
+	
+		href = "#r17"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		17 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

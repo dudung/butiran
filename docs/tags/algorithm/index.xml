@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm on butiran</title><link>http://localhost:1313/butiran/tags/algorithm/</link><description>Recent content in Algorithm on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Jan 2022 18:13:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/algorithm/index.xml" rel="self" type="application/rss+xml"/><item><title>flowchart</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-20-flowchart/</link><pubDate>Fri, 21 Jan 2022 18:13:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-20-flowchart/</guid><description>&lt;p&gt;Diagram alir (en: flowchart) merupakan jenis diagram yang merepresentasikan suatu algoritma, aliran kerja, atau proses, menggunakan berbagai bentuk kotak bermakna tertentu sebagai langkah-langkah dan panah yang menghubungkan kotak-kotak tersebut sebagai arah langkah-langkah [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat dikatakan bahwa diagram alir merupakan suatu representasi grafis dari suatu algoritma dengan berbagai keuntungan dan kerugiannya [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam mengajarkannya dapat dilakukan dengan per tahap, seperti mulai dulu dengan tugas yang sudah akrab, perluas pengetahuan dengan melibatkan pengambilan keputusan, dan akhir dengan terapkan pada pengenalan pola ke instruksi pengulangan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Setidaknya terdapat enam bentuk kotak standar yang digunakan dan berbagai kotak lainnya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang dinamai berbeda. Untuk membuatnya dapat digunakan aplikasi daring seperti Lucidchart [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau luring seperti Visio, yang juga sudah ada versi webnya [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau alternatif-alternatif lainnya yang lintas sistem operasi atau hanya menggunakan penjelajah internet [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>pseudocode</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-18-pseudocode/</link><pubDate>Thu, 20 Jan 2022 19:34:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-18-pseudocode/</guid><description>&lt;p&gt;Secara harfiah pseudocode berarti kode palsu, yang merupakan cara informal dan dibuat-buat dalam penulisan program dengan menyampaikan urutan tindakan dan instruksi (algoritma) dalam bentuk yang mudah dipahami manusia [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau dapat dikatakan bahwa pseudocode merupakan suatu metodologi yang mengijinkan programer untuk menampilkan implementasi suatu algoritma [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam pseudocode detil yang penting agar mesin (komputer) dapat memahami algoritma, seperti deklarasi variabel dan kode khusus bahasa, diabaikan atau tidak digunakan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mencari luas lapangan sepak bola, menentukan bilangan genap atau ganjil, menghitung mundur, menghitung luas segitiga, dan menghitung luas lingkaran dapat menjadi contoh kasus untuk pseudocode [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>algorithm</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-algorithm/</link><pubDate>Tue, 18 Jan 2022 06:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/38/2022-01-17-algorithm/</guid><description>&lt;p&gt;Dalam arti yang luas algoritma merupakan suatu prosedur langkah-per-langkah untuk memecahkan masalah atau mencapai suatu tujuan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Contoh yang umum untuk suatu algoritma adalah suatu resep, yang berisikan instruksi khusus untuk menyiapkan hidangan atau makanan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau untuk mencapai sekolah dari rumah, menyiapkan roti sandwich keju bakar, dan mencari barang yang diingkan di kelontong [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam istilah komputer, suatu algoritma merupakan seperangkat instruksi yang telah terdefinisi dengan baik untuk menyelesaikan suatu masalah tertentu, yang membutuhkan beberapa masukan dan menghasilkan suatu keluaran [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Algoritma penting bagi komputer dalam memproses data, di mana banyak program komputer berisikan algoritma yang merinci instruksi khusus apa yang harus dilakukan oleh sebuah komputer [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

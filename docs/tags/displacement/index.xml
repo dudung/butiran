@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Displacement on butiran</title><link>http://localhost:1313/butiran/tags/displacement/</link><description>Recent content in Displacement on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 07 Dec 2021 21:44:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/displacement/index.xml" rel="self" type="application/rss+xml"/><item><title>work</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/24/2021-12-07-work/</link><pubDate>Tue, 07 Dec 2021 21:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/24/2021-12-07-work/</guid><description>&lt;p&gt;Kerja mengacu pada suatu aktivitas yang melibatkan gaya dan pergerakan dalam arah gaya tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau merupakan energi yang ditransfer ke atau dari obyek melalui penerapan gaya sepanjang suatu perpindahan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga dapat dikatakan bahwa kerja mengukur transfer energi yang terjadi ketika suatu obyek berpindah menempuh suatu jarak disebabkan oleh gaya luar [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat tiga bahan utama dalam kerja yaitu gaya, perpindahan, dan penyebab, sehingga saat gaya disebut melakukan kerja pada suatu obyek harus terjadi perpindahan dan gaya tersebut yang menyebabkannya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dengan demikian hal ini dapat menjelaskan terdapatnya definisi bahwa dalam fisika, kerja didefinisikan sebagai suatu gaya yang menyebabkan pergerakan atau perpindahan suatu obyek [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], akan tetapi perlu diingat bahwa kerja bukan gaya. Secara teknis, kerja diperoleh melalui perkalian skalar antara gaya melalui aljabar dan perpindahan atau integral lintasan perpindahan dengan gaya melalui kalkulus [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selanjutnya ukuran kemampuan dari sesuatu untuk melakukan kerja disebut sebagai energi [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kata work dalam bahasa Inggris, yang diberi lambang $W$, diterjemahkan menjadi kerja atau usaha [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>displacement 1d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-06-displacement-1d/</link><pubDate>Thu, 07 Oct 2021 21:22:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-06-displacement-1d/</guid><description>&lt;p&gt;Perpindahan suatu benda didefinisikan sebagai suatu vektor yang mengarah mulai dari suatu posisi awal (inisial) ke suatu posisi akhir (final) [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Untuk kasus 1-d perpindahan dihitung menggunakan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-01}
+\Delta x_{i-f} = x_f - x_i,
+\end{equation}&lt;/p&gt;
+&lt;p&gt;yang dapat bernilai positif ataupun negatif karena perpindahan merupakan besaran vektor, dengan indeks $i$ berarti awal (inisial) dan indeks $f$ berarti akhir (final).&lt;/p&gt;
+&lt;h2 id="1-d-motion"&gt;1-d motion&lt;/h2&gt;
+&lt;p&gt;Gambar 
+&lt;a
+
+	
+	
+		href = "#fig1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ berikut memberikan ilustrasi gerak benda dalam 1-d. Abaikan keberadaan sumbu $y$ karena selama benda bergerak, ia terus menempel dengan lantai sehingga hal ini merupakan gerak dalam 1-d.&lt;/p&gt;</description></item><item><title>displacement 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-displacement-2d/</link><pubDate>Tue, 05 Oct 2021 20:09:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-displacement-2d/</guid><description>&lt;p&gt;Perpindahan merupakan suatu besaran vektor yang menyatakan seberapa jauh obyek dari posisi awalnya, atau dengan kata lain merupakan total perubahan posisi obyek [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana perpindahan dihitung dengan mengurangi posisi akhir dengan posisi awal [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Perpindahan dihitung menggunakan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-01}
+\Delta \vec{r} = \vec{r}_f - \vec{r}_i
+\end{equation}&lt;/p&gt;</description></item></channel></rss>

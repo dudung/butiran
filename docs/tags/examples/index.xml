@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Examples on butiran</title><link>http://localhost:1313/butiran/tags/examples/</link><description>Recent content in Examples on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Dec 2021 17:39:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/examples/index.xml" rel="self" type="application/rss+xml"/><item><title>eg heating substance heat capacity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/90/2021-12-06-s211-fi1101-t09-b01/</link><pubDate>Mon, 06 Dec 2021 17:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/90/2021-12-06-s211-fi1101-t09-b01/</guid><description>&lt;p&gt;Penambahan energi berupa panas pada suatu bahan akan meningkatkan temperaturnya, dengan perubahan temperatur yang terjadi bergantung pada panas jenis zat pembentuk benda tersebut [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="problem-1"&gt;problem 1&lt;/h2&gt;
+&lt;p&gt;Kalor sejumlah $325 \ {\rm J}$ ditambahkan pada suatu bahan yang bermassa $30.0 \ {\rm g}$ sehingga temperaturnya berubah dari semula $25.0 \ {^\circ \rm C}$ menjadi $45.0 \ {^\circ \rm C}$. Massa molar bahan adalah $50.0 \ {\rm g/mol}$. Dari informasi yang diberikan dapat diperoleh panas jenis bahan, panas jenis molar bahan, dan jumlah zat.&lt;/p&gt;</description></item><item><title>examples</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-11-04-examples/</link><pubDate>Mon, 06 Dec 2021 06:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-11-04-examples/</guid><description>&lt;p&gt;Some examples of problems with solutions, hopefully, are listed unofficially, unless it is an open problem such RBL. There might be copyright for the below listed materials.&lt;/p&gt;
+&lt;h2 id="elementary-physics"&gt;elementary physics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;2021-1-A&lt;/code&gt;
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1SUlMrP23jKdYAYfbib_pgpJMGhrTQjst/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		01 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1zA2mZmozv0ii2i8RiMXQqPUOnLf11MCq/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		02 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1orvyLrdjB39foD6lAujeOYkpolsorP15/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		03 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1DuQiT1fFRvrybPxjF-9wY6PHbaYHLe9u/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		04 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1AdrxwkW59zMszi0HPmcsKNCFRxnLZvsJ/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		05 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1c032p_PZhIW6GYnJd9cmTu_JrVdUdBOT/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		06 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1B83ujqd7LYcvwk-TLqjSeAreqrjHuEh4/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		07 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1IoLSe2DYl5h9uY6HAjR2EbarccTyJVQg/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		08 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1NMhRQJgMdtMhscC40hxm9l72Yw6PGFmm/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		09 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/11jNPXwHfQyficla7HhKDHrjL5Vg4Lsb4/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		99 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+
+&lt;!-- raw HTML omitted --&gt;&lt;code&gt;2021-1-B&lt;/code&gt;
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/12lQ2zAQnoaKjpsbXw3O3hwzrLHnF1z80/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		01 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1n89xwW8yR2TxS61hT85vzGEHV-lkoLtF/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		02 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1XqfN8YBL25Q7nnXRq1eaJibvwiwNKaTm/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		03 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1TUFZTvAuwU0RpC3s22l-JUvC7mR2IS1E/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		04 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1XsW7Tu6gDly-G-SFTjcy3TiBdIt8sqLD/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		05 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1BbAoGSRJBng75sHpiT-4ziYMgOkloiGz/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		06 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1_lw3M_VBODgZqBJYJBVIr027BBH61QOX/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		07 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/1uEpqjFuCeVlOheemwcjXt5qtu3INDmFD/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		08 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ •
+
+&lt;a
+
+	
+	
+		href = "https://drive.google.com/file/d/11jNPXwHfQyficla7HhKDHrjL5Vg4Lsb4/view?usp=sharing"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		99 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

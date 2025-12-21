@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Migration on butiran</title><link>http://localhost:1313/butiran/tags/migration/</link><description>Recent content in Migration on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 15:07:51 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/migration/index.xml" rel="self" type="application/rss+xml"/><item><title>list copied from others</title><link>http://localhost:1313/butiran/25e29/</link><pubDate>Fri, 16 May 2025 15:07:51 +0700</pubDate><guid>http://localhost:1313/butiran/25e29/</guid><description>&lt;p&gt;This note records copied notes from notes and whether they are already converted to butiran or not.&lt;/p&gt;
+&lt;h2 id="converted-to-butiran"&gt;converted to butiran&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;24j: 33,&lt;/li&gt;
+&lt;li&gt;24l: 02, 05, 06,&lt;/li&gt;
+&lt;li&gt;25a: 22, 25,&lt;/li&gt;
+&lt;li&gt;25b: 11,&lt;/li&gt;
+&lt;li&gt;25c: 12, 16, 26, 27, 40, 47, 48, 49, 56,
+&lt;ul&gt;
+&lt;li&gt;(js for fun, columns) 22, 36, 39, 52,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;25d: 15, 24, 29, 30, 38,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="already-butiran"&gt;already butiran&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;25d: 42-72 (from this point forward).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;17-may-2025&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Copied (not edited)&lt;/li&gt;
+&lt;li&gt;24: others than above,&lt;/li&gt;
+&lt;li&gt;25: others than above,&lt;/li&gt;
+&lt;li&gt;osf/2025: all (slide style is missing).&lt;/li&gt;
+&lt;li&gt;zenodo: all (slide style is missing).&lt;/li&gt;
+&lt;li&gt;Shortcodes to remove: img, url, lissajous, progresslist, rawhtml, tasklist, vspace, details, fsize, graphic, equation, canvas, center.&lt;/li&gt;
+&lt;li&gt;Equation work here e.g. $y = ax^2 + bx + c$, but not in some copied notes from 
+&lt;a
+
+	
+	
+		href = "https://dudung.github.io/notes"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		notes &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.
+&lt;ul&gt;
+&lt;li&gt;update (17/5): 
+&lt;a
+
+	
+	
+		href = "/butiran/25b37"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		25b37
+	&lt;/span&gt; 
+ 
+&lt;/a&gt;
+ math support can be fixed by simply changing type to notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="lecture-notes"&gt;lecture-notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/lecture-notes"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/lecture-notes &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;18-may-2025&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Copied 18-may-2025 (not edited)&lt;/li&gt;
+&lt;li&gt;shortodes code to remove: html, chart, arithm, numpad, button, toc, svg.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="plaintext"&gt;plaintext&lt;/h2&gt;
+&lt;p&gt;url 
+&lt;a
+
+	
+	
+		href = "https://github.com/dudung/plaintext"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.com/dudung/plaintext &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

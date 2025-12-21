@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mermaid on butiran</title><link>http://localhost:1313/butiran/tags/mermaid/</link><description>Recent content in Mermaid on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 09:16:06 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/mermaid/index.xml" rel="self" type="application/rss+xml"/><item><title>check katex mermaid abc 3dmol scatter features</title><link>http://localhost:1313/butiran/25d47/</link><pubDate>Wed, 16 Apr 2025 09:16:06 +0700</pubDate><guid>http://localhost:1313/butiran/25d47/</guid><description>&lt;h2 id="katex"&gt;katex&lt;/h2&gt;
+&lt;p&gt;Example of inline equation is $y = ax^2 + bx + c$, and&lt;/p&gt;
+&lt;p&gt;$$\tag{1}
+x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$&lt;/p&gt;
+&lt;p&gt;is example of block equation.&lt;/p&gt;
+&lt;h2 id="mermaid"&gt;mermaid&lt;/h2&gt;
+&lt;p&gt;Common flowchart with begin, input, condition, process, output, and end.&lt;/p&gt;
+&lt;div class="mermaid"&gt;
+flowchart LR
+%% link elements
+B --&gt; I --&gt; C
+C --"Y"--&gt; P1
+C --"N"--&gt; P2
+P1 &amp; P2 --&gt; O --&gt; E
+%% define elements
+B(["Begin"])
+I[/"Input"/]
+C{"Condition"}
+P1["Process 1"]
+P2["Process 2"]
+O[/"Output"/]
+E(["End"])
+
+&lt;/div&gt;
+
+&lt;h2 id="abcjs"&gt;abcjs&lt;/h2&gt;
+&lt;p&gt;Twinkle-twinkle litle star.&lt;/p&gt;</description></item><item><title>flowchart and mermaid</title><link>http://localhost:1313/butiran/2002/</link><pubDate>Sat, 06 Apr 2024 01:15:00 +0700</pubDate><guid>http://localhost:1313/butiran/2002/</guid><description>&lt;p&gt;Short intro about fowchart and the use of Mermaid&lt;/p&gt;</description></item><item><title>have no idea</title><link>http://localhost:1313/butiran/2001/</link><pubDate>Fri, 05 Apr 2024 20:32:00 +0700</pubDate><guid>http://localhost:1313/butiran/2001/</guid><description>&lt;p&gt;A short story without any purposes&lt;/p&gt;</description></item><item><title>flowchart linkstyle</title><link>http://localhost:1313/butiran/0006/</link><pubDate>Wed, 13 Dec 2023 08:45:00 +0800</pubDate><guid>http://localhost:1313/butiran/0006/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;To create diagrams dynamically in an internet browser you can use Mermaid, which is a diagramming and charting tools based on JavaScript and inspired by Markdown text definitions (Woodward &amp;amp; Biagianti, 2022). It has default style, which should be sufficient. But if an adjustment is necessary, e.g. style of the link &amp;ndash; the line connecting two nodes, can be modified (Drago, 2023) and also the other features.&lt;/p&gt;
+&lt;h2 id="flowchart"&gt;flowchart&lt;/h2&gt;
+&lt;div class="mermaid"&gt;
+flowchart LR
+ B --&gt; I --&gt; P --&gt; O --&gt; E
+ 
+ B(["Begin"])
+ I[/"Input"/]
+ P["Process"]
+ O[/"Output"/]
+ E(["End"])
+ 
+ linkStyle default stroke:red
+ linkStyle 1 stroke:blue
+ linkStyle 3 stroke:green
+
+&lt;/div&gt;
+
+&lt;h2 id="code"&gt;code&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;flowchart LR
+ B --&amp;gt; I --&amp;gt; P --&amp;gt; O --&amp;gt; E
+ 
+ B([&amp;#34;Begin&amp;#34;])
+ I[/&amp;#34;Input&amp;#34;/]
+ P[&amp;#34;Process&amp;#34;]
+ O[/&amp;#34;Output&amp;#34;/]
+ E([&amp;#34;End&amp;#34;])
+ 
+ linkStyle default stroke:red
+ linkStyle 1 stroke:blue
+ linkStyle 3 stroke:green
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="linkstyle"&gt;linkstyle&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;default&lt;/code&gt; is for all lines between two nodes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;n&lt;/code&gt; is for (n+1)-th line, since it begins with &lt;code&gt;0&lt;/code&gt;, and override &lt;code&gt;default&lt;/code&gt; for the line.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; is for second line, the line beetween Input and Process elements.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;3&lt;/code&gt; is for fourth line, the line between Process and End elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="limitation"&gt;limitation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;linkSyle&lt;/code&gt; can not change color of arrow head.&lt;/li&gt;
+&lt;li&gt;There is not any recent information available about it (Greywolf, 2020).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Drago R (2023) &amp;ldquo;Colouring Your Arrow / Link with &lt;code&gt;linkStyle&lt;/code&gt; in Mermaid Markdown&amp;rdquo;, DEV Community, url 
+&lt;a
+
+	
+	
+		href = "https://dev.to/ranggakd/coloring-your-arrow-link-with-linkstyle-in-mermaid-markdown-39kk"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://dev.to/ranggakd/coloring-your-arrow-link-with-linkstyle-in-mermaid-markdown-39kk &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Greywolf J (2020) &amp;ldquo;Custom arrowhead for mermaid class diagram&amp;rdquo;, Stack Overflow, url 
+&lt;a
+
+	
+	
+		href = "https://stackoverflow.com/q/62165026/9475509"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://stackoverflow.com/q/62165026/9475509 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Woodward M, Biagianti A (2022) &amp;ldquo;Include diagrams in your Markdown files with Mermaid&amp;rdquo;, GitHub Blog, url 
+&lt;a
+
+	
+	
+		href = "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>layers with nodes</title><link>http://localhost:1313/butiran/0005/</link><pubDate>Tue, 12 Dec 2023 21:04:00 +0800</pubDate><guid>http://localhost:1313/butiran/0005/</guid><description>&lt;h2 id="intro"&gt;intro&lt;/h2&gt;
+&lt;p&gt;We can use Mermaid, a simple Markdown-like script language for generating charts from text via JavaScript (Mallin, 2018), to draw layers with nodes, where the diagram element used is circle and the feature of subgraph. But this would not be the main purpose of Mermaid, but we can use for it.&lt;/p&gt;
+&lt;h2 id="model"&gt;model&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;From right to left it is a &lt;code&gt;2 &amp;lt;-- 3 &amp;lt;-- 4 &amp;lt;-- 3&lt;/code&gt; architecture.
+&lt;ul&gt;
+&lt;li&gt;Note: Usual notation is from left to right as &lt;code&gt;3-4-3-2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="mermaid"&gt;
+flowchart RL
+ i1--"w11"--&gt;h1;i2--"w12"--&gt;h1;i3--"w13"--&gt;h1;
+ i1--"w21"--&gt;h2;i2--"w22"--&gt;h2;i3--"w23"--&gt;h2;
+ i1--"w31"--&gt;h3;i2--"w32"--&gt;h3;i3--"w33"--&gt;h3;
+ i1--"w41"--&gt;h4;i2--"w42"--&gt;h4;i3--"w43"--&gt;h4;
+ 
+ h1--"v11"--&gt;g1;h2--"v12"--&gt;g1;h3--"v13"--&gt;g1;h4--"v14"--&gt;g1;
+ h1--"v21"--&gt;g2;h2--"v22"--&gt;g2;h3--"v23"--&gt;g2;h4--"v24"--&gt;g2;
+ h1--"v31"--&gt;g3;h2--"v32"--&gt;g3;h3--"v33"--&gt;g3;h4--"v34"--&gt;g3;
+ 
+ g1--"u11"--&gt;o1;g2--"u12"--&gt;o1;g3--"u13"--&gt;o1;
+ g1--"u21"--&gt;o2;g2--"u22"--&gt;o2;g3--"u23"--&gt;o2;
+ 
+ subgraph I
+ i1(("1"))
+ i2(("2"))
+ i3(("3"));
+ end
+ 
+ subgraph H
+ h1(("1"))
+ h2(("2"))
+ h3(("3"))
+ h4(("4"));
+ end
+ 
+ subgraph G
+ g1(("1"))
+ g2(("2"))
+ g3(("3"))
+ end
+ 
+ subgraph O
+ o1(("1"))
+ o2(("2"))
+ end
+ 
+ classDef nodes fill:transparent, color:inherit
+ classDef layers fill:none, color:inherit
+ 
+ class i1,i2,i3 nodes
+ class h1,h2,h3,h4 nodes
+ class g1,g2,g3 nodes
+ class o1,o2 nodes
+ class I,H,G,O layers
+ 
+ linkStyle default stroke:#8a8
+
+&lt;/div&gt;
+
+&lt;h2 id="mermaid"&gt;mermaid&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;flowchart&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-value"&gt;RL&lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w11&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w12&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w13&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w21&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w22&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w23&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w31&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w32&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w33&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w41&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w42&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;w43&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v11&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v12&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v13&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v14&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v21&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v22&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v23&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v24&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v31&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v32&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v33&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;v34&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u11&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u12&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o1&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u13&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u21&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u22&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o2&lt;/span&gt;;&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;u23&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;--&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;o2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;subgraph&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;I&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;1&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;end&lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;subgraph&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;H&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;1&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;4&amp;#34;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;end&lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;subgraph&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;G&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;1&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;3&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;end&lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;subgraph&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;O&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;o1&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;1&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;o2&lt;/span&gt;((&lt;span style="color:#e6db74"&gt;&amp;#34;2&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;end&lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;classDef&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;nodes&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;transparent&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;color&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;inherit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;&lt;span class="mermaid-keyword"&gt;classDef&lt;/span&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;layers&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fill&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;none&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;color&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;inherit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;i1&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;i2&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;i3&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;h1&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;h2&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;h3&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;h4&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;g1&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;g2&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;g3&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;o1&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;o2&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;I&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;H&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;G&lt;/span&gt;,&lt;span style="color:#a6e22e"&gt;O&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;layers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;linkStyle&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;default&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stroke&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;#&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;8&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;style&gt;
+.chroma.mermaid-code {
+ background: #1e1e2f;
+ color: #ddd;
+ padding: 1rem;
+ border-radius: 6px;
+ overflow-x: auto;
+ font-family: "Fira Code", monospace;
+ line-height: 1.45;
+}
+
+ 
+.chroma.mermaid-code .s { color: #a5d6ff; } 
+.chroma.mermaid-code .m { color: #ffa657; } 
+.chroma.mermaid-code .n { color: #8ae9c1; } 
+.chroma.mermaid-code .c { color: #7f7f7f; font-style: italic; } 
+
+ 
+.mermaid-keyword { color: #79c6ff; font-weight: bold; }
+.mermaid-value { color: #fa7bfa; font-weight: bold; }
+&lt;/style&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Input, two hidden, and output layers, each is put in &lt;code&gt;subgraph&lt;/code&gt;-&lt;code&gt;end&lt;/code&gt; block.&lt;/li&gt;
+&lt;li&gt;Nodes are named without name of layers containing them for simplicity.&lt;/li&gt;
+&lt;li&gt;Weights &lt;code&gt;w&lt;/code&gt;, &lt;code&gt;v&lt;/code&gt;, &lt;code&gt;u&lt;/code&gt; maps nodes and indicated with their sub-index.
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;G2 &amp;lt;-- w23 -- H3&lt;/code&gt;, where this means better from right to left.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CSS class is defined using &lt;code&gt;classDef&lt;/code&gt; and later used using &lt;code&gt;class&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;For link or line connecting elements it style is modified via &lt;code&gt;linkStyle&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Wallin M (2018) &amp;ldquo;Generating documentation as code with mermaid and PlantUML&amp;rdquo;, Rule of Tech, url 
+&lt;a
+
+	
+	
+		href = "https://ruleoftech.com/2018/generating-documentation-as-code-with-mermaid-and-plantuml"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://ruleoftech.com/2018/generating-documentation-as-code-with-mermaid-and-plantuml &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>fail use mermaid notebook</title><link>http://localhost:1313/butiran/0056/</link><pubDate>Thu, 14 Apr 2022 12:41:01 +0700</pubDate><guid>http://localhost:1313/butiran/0056/</guid><description>&lt;p&gt;Ketertarikan untuk menggunakan fitur diagram Mermaid dalam IPython Notebook telah membawa pada paket &lt;code&gt;nb-mermaid&lt;/code&gt; dengan satu-satunya versi 0.1.0 dirilis pada 28 Juli 2015 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan paket yang mendukung diagram Mermaid dalam Jupyter Notebook ini ternyata telah deprecated [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Upaya instalasi telah dilakukan dan menemui masalah tanpa jawaban [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;p&gt;Terdapat alternatif lain untuk menggunakan Mermaid dalam Python, seperti melaui penyisipan kode HTML dan memanggil CDN JavaScript Mermaid dan melakukan
+inisialisasinya dengan memanfaatkan suatu fungsi JavaScript, &lt;code&gt;setTimeout()&lt;/code&gt; [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau tanpanya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Alternatif lain adalah dengan merender asset dalam Jupyter Notebook yang dihasilkan oleh JavaScript menggunakan IFrame yang terembedkan dan bekerja tidak hanya untuk 
+&lt;a
+
+	
+	
+		href = "https://mermaid-js.github.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Mermaid &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ akan tetapi juga untuk 
+&lt;a
+
+	
+	
+		href = "https://github.com/wavedrom/wavedrom"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		WaveDrom &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "https://flowchart.js.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		flowchart.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, dan 
+&lt;a
+
+	
+	
+		href = "https://wavesurfer-js.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		wavesurfer.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang sayangnya masih sulit dipahami untuk saat ini.&lt;/p&gt;</description></item><item><title>pip uninstall package</title><link>http://localhost:1313/butiran/0055/</link><pubDate>Thu, 14 Apr 2022 10:52:01 +0700</pubDate><guid>http://localhost:1313/butiran/0055/</guid><description>&lt;p&gt;Setelah beberapa saat dan belum mendapatkan solusi bagaimana dapat menginstal &lt;code&gt;nb-mermaid-0.1.0&lt;/code&gt; dan &lt;code&gt;ipykernel-6.11.0&lt;/code&gt; bersama-sama yang masing-masing membutuhkan versi &lt;code&gt;ipython&lt;/code&gt; berbeda dan tanpa ada irisannya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dilakukan proses uninstalasi paket-paket terkait &lt;code&gt;nb-mermaid&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="dependency"&gt;dependency&lt;/h2&gt;
+&lt;p&gt;Sebelum melakukan uninstal, diperiksa dulu paket-paket yang terinstal bersama-sama dengan &lt;code&gt;nb-mermaid&lt;/code&gt; atau diperlukan olehnya&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid
+Name: nb-mermaid
+Version: 0.1.0
+Summary: Mermaid diagrams in the IPython Notebook
+Home-page: http://github.com/bollwyvl/nb-mermaid
+Author: Nicholas Bollweg
+Author-email: nick.bollweg@gmail.com
+License: BSD
+Location: c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires: IPython, jupyter-pip
+Required-by:
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;dan terdapat &lt;code&gt;ipython&lt;/code&gt; dan &lt;code&gt;jupyter-pip&lt;/code&gt;. Periksa juga paket-paket yang menggunakan keduanya. Untuk &lt;code&gt;jupyter-pip&lt;/code&gt;&lt;/p&gt;</description></item><item><title>install notebook mermaid</title><link>http://localhost:1313/butiran/0054/</link><pubDate>Thu, 14 Apr 2022 02:49:01 +0700</pubDate><guid>http://localhost:1313/butiran/0054/</guid><description>&lt;p&gt;Untuk dapat menggambarkan diagram alir pada bagian Markdown dalam suatu IPython Motebook diperlukan instalasi diagram Mermaid [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="installing-problem"&gt;installing problem&lt;/h2&gt;
+&lt;p&gt;Melakukan instalasi &lt;code&gt;nb-mermaid&lt;/code&gt; dengan &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid
+WARNING: Package(s) not found: nb-mermaid
+PS L:\home\cookbook\notebook&amp;gt; pip install nb-mermaid
+Collecting nb-mermaid
+ Downloading nb-mermaid-0.1.0.tar.gz (161 kB)
+ ---------------------------------------- 161.2/161.2 KB 508.4 kB/s eta 0:00:00
+ Preparing metadata (setup.py) ... done
+Collecting IPython&amp;lt;4.0,&amp;gt;3.0
+ Using cached ipython-3.2.3-py3-none-any.whl (3.4 MB)
+Collecting jupyter-pip
+ Using cached jupyter_pip-0.3.1-py3-none-any.whl
+Building wheels for collected packages: nb-mermaid
+ Building wheel for nb-mermaid (setup.py) ... done
+ Created wheel for nb-mermaid: filename=nb_mermaid-0.1.0-py3-none-any.whl size=163196 sha256=563832728b8f39661501de6d9f336bea79c6cb9b440c8eb96081e9059f883489
+ Stored in directory: c:\users\your name\appdata\local\pip\cache\wheels\54\e5\9c\1b682a060f1a803392b253d1d5e2f2633ec7d24fea64e15060
+Successfully built nb-mermaid
+Installing collected packages: jupyter-pip, IPython, nb-mermaid
+ Attempting uninstall: IPython
+ Found existing installation: ipython 8.2.0
+ Uninstalling ipython-8.2.0:
+ Successfully uninstalled ipython-8.2.0
+ERROR: pip&amp;#39;s dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+ipykernel 6.11.0 requires ipython&amp;gt;=7.23.1, but you have ipython 3.2.3 which is incompatible.
+Successfully installed IPython-3.2.3 jupyter-pip-0.3.1 nb-mermaid-0.1.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Terdapat pesan kesalahan yang perlu ditanggapi.&lt;/p&gt;</description></item><item><title>add partials mermaid</title><link>http://localhost:1313/butiran/0004/</link><pubDate>Sun, 20 Mar 2022 13:46:00 +0700</pubDate><guid>http://localhost:1313/butiran/0004/</guid><description>&lt;p&gt;[
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

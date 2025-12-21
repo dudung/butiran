@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weekly Seminar on butiran</title><link>http://localhost:1313/butiran/tags/weekly-seminar/</link><description>Recent content in Weekly Seminar on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 18:20:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/weekly-seminar/index.xml" rel="self" type="application/rss+xml"/><item><title>deep learning image based dection</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-25-deep-learning-image-based-detection/</link><pubDate>Fri, 25 Feb 2022 18:20:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/6/00/2022-02-25-deep-learning-image-based-detection/</guid><description>&lt;p&gt;Pengenalan pola merupakan suatu proses untuk mengenal pola menggunakan algoritma pembelajaran mesin, di mana aspek pengenalan pola ini memiliki aspek penting dalam potensi aplikasinya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bersama-sama dngan pembelajaran mendalam (deep learning), pembelajaran mesin (machine learning) dan pengenalan pola (pattern recognition) merupakan topik-topik yang berkaitan dan umum digunakan dalam bidang robotika dengan kecerdasan buatan, di mana konsep pertama pengenalan pola diperkenal dalam pemrosesan citra [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Informasi yang tersimpan dalam suatu citra dapat digunakan untuk mendeteksi berbagai hal. Bentuk citranya pun dapat berbagai jenis. Untuk citra yang diperoleh dengan menggunakan cahaya tampak, citra yang umumnya dikenal, dapat dimanfaatkan untuk mendeteksi retak pada permukaan rel kereta [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], ukuran buah pada kanopi pohon mangga [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan penyakit tanaman melalui citra daunnya [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dari citra sinar-x dada dapat dideteksi keberadaan COVID-19 [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan dari citra sinar inframerah dapat dideteksi peralatan listrik yang terlalu panas pada daerah substation [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu penerapan dari pemanfaatan citra termal disinggung secara singkat di sini, sebagai suatu laporan singkat kehadiran pada suatu webinar.&lt;/p&gt;</description></item></channel></rss>

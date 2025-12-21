@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcodes on butiran</title><link>http://localhost:1313/butiran/tags/shortcodes/</link><description>Recent content in Shortcodes on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 07:02:52 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>style shortcode</title><link>http://localhost:1313/butiran/25d45/</link><pubDate>Wed, 16 Apr 2025 07:02:52 +0700</pubDate><guid>http://localhost:1313/butiran/25d45/</guid><description>&lt;h2 id="shortcode"&gt;shortcode&lt;/h2&gt;
+&lt;p&gt;Content of &lt;code&gt;style.html&lt;/code&gt; in &lt;code&gt;layouts/shortcodes&lt;/code&gt; is as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $class := .Get &amp;#34;class&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ $css := printf &amp;#34;%s.css&amp;#34; $class }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;link&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;rel&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;href&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;/butiran/css/{{ $css }}?v={{ now.Unix }}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;class&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;{{ $class }}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{ .Inner | markdownify }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="css"&gt;css&lt;/h2&gt;
+&lt;p&gt;Content of &lt;code&gt;table-1.css&lt;/code&gt; in &lt;code&gt;atatic/css&lt;/code&gt; is as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;/* table-0.css */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-collapse&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;collapse&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-spacing&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;th&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;padding&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0.1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0.2&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-top&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-bottom&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#f2f2f2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;td&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;padding&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;last-child&lt;/span&gt; &lt;span style="color:#f92672"&gt;td&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;border-bottom&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;solid&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;#000&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;nth-child&lt;/span&gt;&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#f92672"&gt;odd&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* White for even rows */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#ffffff&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;table&lt;/span&gt; &lt;span style="color:#f92672"&gt;tr&lt;/span&gt;:&lt;span style="color:#a6e22e"&gt;nth-child&lt;/span&gt;&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#f92672"&gt;even&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* Light gray for odd rows */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;background-color&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;#f2f2f2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="usage"&gt;usage&lt;/h2&gt;
+&lt;p&gt;In a post use following lines.&lt;/p&gt;</description></item><item><title>columns shortcode history</title><link>http://localhost:1313/butiran/25b51/</link><pubDate>Mon, 17 Feb 2025 20:34:02 +0700</pubDate><guid>http://localhost:1313/butiran/25b51/</guid><description>&lt;ul&gt;
+&lt;li&gt;data: first traceable post using it; posts: number of original posts using it; shortcode: original name, deleted after new version available.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>outline</title><link>http://localhost:1313/butiran/25b50/</link><pubDate>Mon, 17 Feb 2025 20:19:38 +0700</pubDate><guid>http://localhost:1313/butiran/25b50/</guid><description/></item><item><title>capturediv shortcode</title><link>http://localhost:1313/butiran/25b20/</link><pubDate>Sat, 15 Feb 2025 17:02:38 +0700</pubDate><guid>http://localhost:1313/butiran/25b20/</guid><description/></item><item><title>capturediv code p3</title><link>http://localhost:1313/butiran/25b19/</link><pubDate>Sat, 15 Feb 2025 16:47:00 +0700</pubDate><guid>http://localhost:1313/butiran/25b19/</guid><description>&lt;ul&gt;
+&lt;li&gt;Code (3/3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;script&lt;/span&gt;&amp;gt; &lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;captureDiv&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;getElementById&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;btn&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;grandParent&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;btn&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;parentElement&lt;/span&gt;&lt;span style="color:#f92672"&gt;?&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;parentElement&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// console.log(grandParent);
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;html2canvas&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;grandParent&lt;/span&gt;, { &lt;span style="color:#a6e22e"&gt;scale&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; }).&lt;span style="color:#a6e22e"&gt;then&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;canvas&lt;/span&gt; =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;let&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;link&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; document.&lt;span style="color:#a6e22e"&gt;createElement&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;link&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;href&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;canvas&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;toDataURL&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;image/png&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;link&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;download&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;{{- .Page.File.BaseFileName -}}&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;link&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;click&lt;/span&gt;(); }); }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>capturediv code p2</title><link>http://localhost:1313/butiran/25b18/</link><pubDate>Sat, 15 Feb 2025 16:42:00 +0700</pubDate><guid>http://localhost:1313/butiran/25b18/</guid><description>&lt;ul&gt;
+&lt;li&gt;Code (2/3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;btn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;onclick&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;captureDiv()&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;cursor: pointer; border: 0px red solid; background: #4f81bd; color: white; position: absolute; top: calc(0.554 * var(--height)); right: calc(0.03 * var(--height)); font-size: calc(0.032 * var(--height)); margin: calc(0.004 * var(--height)); padding-top: calc(0.0 * var(--height)); padding-bottom: calc(0.005 * var(--height)); padding-left: calc(0.015 * var(--height)); padding-right: calc(0.015 * var(--height)); border-radius: calc(0.00 * var(--height));&amp;#34;&lt;/span&gt;&amp;gt;png&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>capturediv code p1</title><link>http://localhost:1313/butiran/25b17/</link><pubDate>Sat, 15 Feb 2025 16:22:40 +0700</pubDate><guid>http://localhost:1313/butiran/25b17/</guid><description>&lt;ul&gt;
+&lt;li&gt;Usage in a post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;{{&lt;/span&gt;&amp;lt; capturediv &amp;gt;&lt;span style="color:#f92672"&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Save code as &lt;code&gt;capturediv.html&lt;/code&gt; in &lt;code&gt;layouts\shortcodes&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;Code (1/3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;script&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;src&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style="color:#f92672"&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>capturediv demo</title><link>http://localhost:1313/butiran/25b16/</link><pubDate>Sat, 15 Feb 2025 05:14:58 +0700</pubDate><guid>http://localhost:1313/butiran/25b16/</guid><description/></item><item><title>shortcode center update</title><link>http://localhost:1313/butiran/25a55/</link><pubDate>Sat, 25 Jan 2025 04:17:49 +0700</pubDate><guid>http://localhost:1313/butiran/25a55/</guid><description>&lt;ul&gt;
+&lt;li&gt;Shortcode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;style&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;display: flex; justify-content: center;&amp;#34;&lt;/span&gt;&amp;gt;{{ .Inner | markdownify }}&amp;lt;/&lt;span style="color:#f92672"&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;center&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}&lt;span style="color:#a6e22e"&gt;Some&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;text&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;to&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;center&lt;/span&gt;{{&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;lt;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;/&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;center&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>scatter chart.js</title><link>http://localhost:1313/butiran/24j27/</link><pubDate>Tue, 15 Oct 2024 08:22:11 +0700</pubDate><guid>http://localhost:1313/butiran/24j27/</guid><description>&lt;p&gt;Scatter chart support on a Hugo post using 
+&lt;a
+
+	
+	
+		href = "https://www.chartjs.org/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		Chart.js &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ library.&lt;/p&gt;</description></item><item><title>template customization 3</title><link>http://localhost:1313/butiran/24j26/</link><pubDate>Tue, 15 Oct 2024 07:19:55 +0700</pubDate><guid>http://localhost:1313/butiran/24j26/</guid><description>&lt;p&gt;Third theme customization of a new Hugo site following initial setting.&lt;/p&gt;</description></item></channel></rss>

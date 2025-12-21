@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Speed on butiran</title><link>http://localhost:1313/butiran/tags/speed/</link><description>Recent content in Speed on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 19 Oct 2021 21:14:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/speed/index.xml" rel="self" type="application/rss+xml"/><item><title>speed</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-19-speed/</link><pubDate>Tue, 19 Oct 2021 21:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-19-speed/</guid><description>&lt;p&gt;Istilah laju kerap digunakan untuk hanya menyatakan nilai skalar dari kecepatan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau jarak yang ditempuh per satuan waktu yang sebetulnya lebih tepat sebagai laju rata [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dan kadang tidak dijelaskan kecuali merupakan besaran skalar, akan tetapi langsung pada istilah laju sesaat dan laju rata-rata [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan digunakan dengan arti sebagai besar dari kecepatan (atau kecepatan sesaat).&lt;/p&gt;</description></item><item><title>average speed</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-17-average-speed/</link><pubDate>Tue, 19 Oct 2021 15:23:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-17-average-speed/</guid><description>&lt;p&gt;Laju rata-rata adalah jarak yang ditempuh dibagi dengan waktu selama gerak itu terjadi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang disebut saja sebagai laju, sebagai suatu definisi yang belum final [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau penyederhanaan untuk kalangan tertentu [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Untuk menghitung laju rata $s_{\rm avg}$ dari waktu inisial $t_i$ sampai waktu final $t_f$, untuk kasus 1d, dapat diperoleh dari fungsi kecepatan $v$&lt;/p&gt;</description></item></channel></rss>

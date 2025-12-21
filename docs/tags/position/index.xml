@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Position on butiran</title><link>http://localhost:1313/butiran/tags/position/</link><description>Recent content in Position on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 20:45:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/position/index.xml" rel="self" type="application/rss+xml"/><item><title>polar coordinates intro</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-10-31-polar-coordinates-intro/</link><pubDate>Sun, 31 Oct 2021 20:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/01/2020-10-31-polar-coordinates-intro/</guid><description>&lt;p&gt;Koordinat polar dapat diperkenalkan dengan contoh pada kehidupan sehari-hari, di mana suatu tempat biasanya dirujuk dari posisi kita dan ke arah mana, misalnya $100 \ \rm km$ ke arah timur laut dari sini, dengan ini selain pemaknaan $r$ dan $\theta$ kerumitan lainnya belum perlu disampaikan [
+&lt;a
+
+	
+	
+		href = "#ref1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Atau langsung dengan perumusannya akan tetapi masih menyembunyikan dimensi ketiganya, yang muncul saat perlu mendefinisikan perkalian silang dua buah vektor [
+&lt;a
+
+	
+	
+		href = "#ref2"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mengaitkannya langsung dengan koordinat silinder merupakan alternatif lain, di mana simbol yang digunakan telah $\phi$ alih-alih $\theta$ [
+&lt;a
+
+	
+	
+		href = "#ref3"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga akan memudahkan transisi dari sistem koordinat 2d ke 3d. Dalam sistem koordinat polar ini fungsi untuk menggambarkan kurva-kurva akan memiliki bentuk berbeda dengan dalam sistem koordinat Kartesius [
+&lt;a
+
+	
+	
+		href = "#ref4"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>consecutive motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-consecutive-motion/</link><pubDate>Thu, 14 Oct 2021 20:22:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-consecutive-motion/</guid><description>&lt;p&gt;Suatu GLB (gerak lurus beraturan) yang dilanjutkan oleh GLBB (gerak lurus berubah beraturan), dan kemudian diteruskan oleh GLB atau GLBB lainnya kadang tidak memiliki istilah yang tegas dan cukup dirujuk dengan kasus yang lebih rumit dalam pembahasan gerak lurus dengan perceptan tetap [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Akan tetapi terdapat pula penggunaan istilah gerak konsekutif [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="initial-condition"&gt;initial condition&lt;/h2&gt;
+&lt;p&gt;Pada suatu gerak konsekutif, umumnya syarat awal diberikan pada rentang waktu pertama. Untuk rentang waktu yang lain, syarat awalnya adalah nilai akhir dari rentang waktu sebelumnya. Sebagai ilustasi bila&lt;/p&gt;</description></item><item><title>kinematics graphs</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-kinematics-graphs/</link><pubDate>Thu, 14 Oct 2021 10:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-kinematics-graphs/</guid><description>&lt;p&gt;Kurang baiknya pemahaman mengenai grafik kinematika, e.g. $x-t$, $v-t$, $a-t$, merupakan studi yang menarik karena terdapat berbagai kebingungan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang masih teramati sampai beberapa saat yang lalu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu pendekatan untuk membantu pemahaman dilakukan dengan memanfaatkan alat bantu microcomputer based laborator atau MBL [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dan untuk menyelamai lebih dalam, pengamatan pergerakan mata saat peserta mengerjakan tes terkait materi ini pun dilakukan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Hal ini menunjukkan pentingnya peran grafik kinematika dalam fisika. Gerak lurus dengan percepatan yang merupakan fungsi waktu dapat pula dianalisis menggunakan grafik selain dengan kalkulus [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudahan menggambarkan grafik pun telah banyak tersedia secara daring, walau masih dengan variabel dummy $y - x$ [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>initial condition xva</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</link><pubDate>Wed, 13 Oct 2021 20:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</guid><description>&lt;p&gt;Dalam menerapkan hukum II Newton, yang umumnya merupakan persamaan diferensial, perlu dinyatakan syarat awal berupa kecepatan awal dan posisi awal, di mana permasalahan seperti ini termasuk suatu permasalan nilai awal [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="not-unique"&gt;not unique&lt;/h2&gt;
+&lt;p&gt;Pemilihan syarat awal atau IC (initial condition) tidak unik karena, bila sebelumnya telah diketahui fungsinya hanya akan menentukan konstant integrasi, misalnya&lt;/p&gt;
+&lt;p&gt;$$
+\int 2x \ dx = x^2 + C,
+$$&lt;/p&gt;</description></item><item><title>position velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-position-velocity/</link><pubDate>Tue, 12 Oct 2021 20:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-position-velocity/</guid><description>&lt;p&gt;Hubungan antara posisi dan kecepatan dapat diperoleh dengan menggunakan persamaan-persaman gerak atau turunan kalkulus [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Analisa posisi, kecepatan, dan juga percepatan dapat dilakukan dengan turunan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="v-from-x"&gt;v from x&lt;/h2&gt;
+&lt;p&gt;Dengan menggunakan diferensial&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-1}
+v = \frac{dx}{dt},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;yang menggambarkan bagaimana informasi fungsi kecepatan $v$ dapat diperoleh dari fungsi posisi $x$, di mana keduanya merupakan fungsi dari waktu $t$. Sebagai contoh bila terdapat fungsi posisi&lt;/p&gt;</description></item><item><title>position</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-03-position/</link><pubDate>Mon, 04 Oct 2021 07:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-03-position/</guid><description>&lt;p&gt;Dengan kerangka acuan merupakan kumpulan sumbu-sumbu dari mana posisi dan gerak suatu benda dideskripsikan, posisi perlu dinyatakan dengan jelas dan pasti relatif terhadap suatu kerangka acuan yang memudahkan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kerangka acuan yang digunakan dalam dinamika dikenal pula sebagai sistem koordinat, dengan sumbu-sumbunya bersumber dari suatu titik yang disebut origin [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="not-unique"&gt;not unique&lt;/h2&gt;
+&lt;p&gt;Pemilihan keranca acuan tidaklah unik dan terdapat tak-hingga pilihan yang mungkin [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bila kerangka acuan tidak unik dan dapat dipilih, dengan memperhatikan bahwa kerangka acuan yang dipilih sebaiknya memudahkan pemecahanan permasalahan, maka posisi suatu benda juga akan menjadi tidak unik karena bergantung pada kerangka acuan dari mana posisi benda dideskripsikan.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sk6090 on butiran</title><link>http://localhost:1313/butiran/tags/sk6090/</link><description>Recent content in Sk6090 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Nov 2023 12:59:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/sk6090/index.xml" rel="self" type="application/rss+xml"/><item><title>coral reef analysis ml</title><link>http://localhost:1313/butiran/0132/</link><pubDate>Thu, 02 Nov 2023 12:59:00 +0700</pubDate><guid>http://localhost:1313/butiran/0132/</guid><description>&lt;h2 id="activities"&gt;activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;23-nov-2023&lt;/code&gt; 3rd progress report. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/e2a7r"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		e2a7r &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-nov-2023&lt;/code&gt; 2nd progress report. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/3xf5k"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		3xf5k &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;12-oct-2023&lt;/code&gt; 1st progress report.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>code of gillette 1983</title><link>http://localhost:1313/butiran/0127/</link><pubDate>Mon, 30 Oct 2023 15:03:00 +0700</pubDate><guid>http://localhost:1313/butiran/0127/</guid><description>&lt;h2 id="notes"&gt;notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skim Gillette (1983) and still do not understand the matrix and spectra connection. Perhaps previous references therein should be read first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="matrices-c-d"&gt;matrices c, d&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mixture spectra matrix
+$$
+\mathbf{D} = \left(
+\begin{array}{ccc}
+0.26 &amp;amp; 0.22 &amp;amp; 0.14 \newline
+0.20 &amp;amp; 0.40 &amp;amp; 0.80 \newline
+1.60 &amp;amp; 1.20 &amp;amp; 0.40 \newline
+0.12 &amp;amp; 0.14 &amp;amp; 0.18
+\end{array}
+\right)
+$$&lt;/li&gt;
+&lt;li&gt;Covariance / correlation marix
+$$
+\mathbf{C} = \left(
+\begin{array}{ccc}
+2.682 &amp;amp; 2.074 &amp;amp; 0.858 \newline
+2.074 &amp;amp; 1.668 &amp;amp; 0.856 \newline
+0.858 &amp;amp; 0.856 &amp;amp; 0.852
+\end{array}
+\right)
+$$&lt;/li&gt;
+&lt;li&gt;Relation
+$$
+\mathbf{C} = \mathbf{D}^T \mathbf{D}.
+$$&lt;/li&gt;
+&lt;li&gt;Code 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zrz763xa"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zrz763xa &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; numpy &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;D &lt;span style="color:#f92672"&gt;=&lt;/span&gt; np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;array(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.26&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.22&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.14&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.20&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.40&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.80&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;1.60&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1.20&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.40&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.12&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.14&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.18&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(D)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;DT &lt;span style="color:#f92672"&gt;=&lt;/span&gt; D&lt;span style="color:#f92672"&gt;.&lt;/span&gt;T
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(DT)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C &lt;span style="color:#f92672"&gt;=&lt;/span&gt; DT &lt;span style="color:#f92672"&gt;@&lt;/span&gt; D
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(C)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Result (confirmed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;0.26 0.22 0.14&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.2 0.4 0.8 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;1.6 1.2 0.4 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.12 0.14 0.18&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;0.26 0.2 1.6 0.12&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.22 0.4 1.2 0.14&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.14 0.8 0.4 0.18&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;2.682 2.074 0.858&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;2.074 1.668 0.856&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.858 0.856 0.852&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="matrices-c-e-l"&gt;matrices c, e, l&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Using previous $\mathbf{C}$.&lt;/li&gt;
+&lt;li&gt;Relation $\mathbf{C}\mathbf{E} = \mathbf{E} \mathbf{L}$.&lt;/li&gt;
+&lt;li&gt;Result
+$$
+\mathbf{E} = \left(
+\begin{array}{ccc}
+0.745 &amp;amp; -0.400 &amp;amp; 0.000 \newline
+0.596 &amp;amp; 0.039 &amp;amp; 0.000 \newline
+0.300 &amp;amp; 0.916 &amp;amp; 0.000
+\end{array}
+\right)
+$$
+$$
+\mathbf{L} = \left(
+\begin{array}{ccc}
+4.688 &amp;amp; 0.000 &amp;amp; 0.000 \newline
+0.000 &amp;amp; 0.514 &amp;amp; 0.000 \newline
+0.000 &amp;amp; 0.000 &amp;amp; 0.000
+\end{array}
+\right)
+$$&lt;/li&gt;
+&lt;li&gt;Code 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zrzg7yfj"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zrzg7yfj &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; numpy &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; numpy &lt;span style="color:#f92672"&gt;import&lt;/span&gt; linalg &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; la
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C &lt;span style="color:#f92672"&gt;=&lt;/span&gt; np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;array(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;2.682&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;2.074&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.858&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;2.074&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1.668&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.856&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.858&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.856&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.852&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; )
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;C =&amp;#34;&lt;/span&gt;,)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(C)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;CE = EL&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;L, E &lt;span style="color:#f92672"&gt;=&lt;/span&gt; la&lt;span style="color:#f92672"&gt;.&lt;/span&gt;eig(C)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;E =&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(E&lt;span style="color:#f92672"&gt;.&lt;/span&gt;round(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;L =&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;diag(L)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;round(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;C @ E =&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print((C &lt;span style="color:#f92672"&gt;@&lt;/span&gt; E)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;round(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;E @ L =&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print((E &lt;span style="color:#f92672"&gt;@&lt;/span&gt; np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;diag(L))&lt;span style="color:#f92672"&gt;.&lt;/span&gt;round(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Result (not confirmed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;2.682 2.074 0.858&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;2.074 1.668 0.856&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.858 0.856 0.852&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CE &lt;span style="color:#f92672"&gt;=&lt;/span&gt; EL
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;E &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;-0.745 -0.535 -0.4 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-0.596 0.802 0.039&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-0.3 -0.267 0.916&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;L &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;4.688 0. 0. &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0. 0. 0. &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0. 0. 0.514&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C @ E &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;-3.491 0. -0.205&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-2.796 0. 0.02 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-1.405 0. 0.471&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;E @ L &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;-3.491 -0. -0.205&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-2.796 0. 0.02 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;-1.405 -0. 0.471&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Notice that eigenvalues are the same but not the eigenvectors.&lt;/li&gt;
+&lt;li&gt;Comparison
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;E&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Gillette (1983)&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;NumPy&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[0.745, 0.596, 0.300]&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[-0.745, -0.596, -0.300]&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[−0.400, 0.039, 0.916]&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[-0.535, 0.802, -0.267]&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[0.000, 0.000, 0.000]&lt;/code&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;code&gt;[-0.400, 0.039, 0.916]&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;Explanation: N/A.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="matrices-a-d-e"&gt;matrices a, d, e&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use previous $\mathbf{D}$ and $\mathbf{E}$ from Gillette (1983).&lt;/li&gt;
+&lt;li&gt;Code 
+&lt;a
+
+	
+	
+		href = "https://onecompiler.com/python/3zrznvmwg"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://onecompiler.com/python/3zrznvmwg &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; numpy &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;D &lt;span style="color:#f92672"&gt;=&lt;/span&gt; np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;array(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.26&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.22&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.14&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.20&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.40&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.80&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;1.60&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1.20&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.40&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.12&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.14&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.18&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; )
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;E &lt;span style="color:#f92672"&gt;=&lt;/span&gt; np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;array(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.745&lt;/span&gt;, &lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;0.400&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.596&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.039&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [&lt;span style="color:#ae81ff"&gt;0.300&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0.916&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; )
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;A &lt;span style="color:#f92672"&gt;=&lt;/span&gt; D &lt;span style="color:#f92672"&gt;@&lt;/span&gt; E
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;D =&amp;#34;&lt;/span&gt;); print(D); print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;E =&amp;#34;&lt;/span&gt;); print(E); print()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;A =&amp;#34;&lt;/span&gt;); print(A&lt;span style="color:#f92672"&gt;.&lt;/span&gt;round(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;)); print()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Result (confirmed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;D &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt;0.26 0.22 0.14&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.2 0.4 0.8 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;1.6 1.2 0.4 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt;0.12 0.14 0.18&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;E &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt; 0.745 -0.4 &lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt; 0.596 0.039&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt; 0.3 0.916&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;A &lt;span style="color:#f92672"&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[[&lt;/span&gt; 0.367 0.033&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt; 0.627 0.668&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt; 2.027 -0.227&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;[&lt;/span&gt; 0.227 0.122&lt;span style="color:#f92672"&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="to-do"&gt;to-do&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;30-oct-2023&lt;/code&gt; Matrices &lt;code&gt;c, d&lt;/code&gt;, &lt;code&gt;c, e, l&lt;/code&gt;, &lt;code&gt;a, d, e&lt;/code&gt;, next last page of main ref.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="refs"&gt;refs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Paul C. Gillette, Jerome B. Lando, Jack L. Koenig, &amp;ldquo;Factor analysis for separation of pure component spectra from mixture spectra&amp;rdquo;, Analytical Chemistry, vol 55, no 4, pp 630-633, Apr 1983, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1021/ac00255a011"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1021/ac00255a011 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/pr5ye"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		pr5ye &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dicussion"&gt;dicussion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;06-nov-2023&lt;/code&gt; Value less that $10^{-8}$ is assumed to be $0$ is proposed by Aria.
+&lt;ul&gt;
+&lt;li&gt;Results: All are confirmed 
+&lt;a
+
+	
+	
+		href = "https://github.com/ariawahyuw/simulasi-spectra/blob/7d9d71e/Simulasi%201/perhitungan.ipynb"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		7d9d71e &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;How to get the mixture spectra matrix $\mathbf{D}$ from the mixture, e.g. Figs. 7 and 8 is still still unknown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;30-oct-2023&lt;/code&gt; A reference, Gillette (1983), is given. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/pr5ye"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		pr5ye &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;26-oct-2023&lt;/code&gt; Google drive links is given for current available data. 
+&lt;a
+
+	
+	
+		href = "https://osf.io/762au"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		762au &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

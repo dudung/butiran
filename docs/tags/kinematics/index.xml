@@ -1,0 +1,2198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kinematics on butiran</title><link>http://localhost:1313/butiran/tags/kinematics/</link><description>Recent content in Kinematics on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 06:56:06 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/kinematics/index.xml" rel="self" type="application/rss+xml"/><item><title>kinematics for successive motion</title><link>http://localhost:1313/butiran/25b88/</link><pubDate>Tue, 25 Feb 2025 06:56:06 +0700</pubDate><guid>http://localhost:1313/butiran/25b88/</guid><description/></item><item><title>piecewise equal stops train</title><link>http://localhost:1313/butiran/25b80/</link><pubDate>Mon, 24 Feb 2025 11:48:49 +0700</pubDate><guid>http://localhost:1313/butiran/25b80/</guid><description>&lt;ul&gt;
+&lt;li&gt;The inspiration comes while in the trip using subway.&lt;/li&gt;
+&lt;li&gt;Assume that visited stations are evenly spaced in a straight line.&lt;/li&gt;
+&lt;li&gt;The train accelerates for some amount of time, moves with a constant speed for some amount of time, and starts decelerating until it reaches the next station such that the same amount of time spent accelerating and decelerating are the same, and the magnitudes of both are the same.&lt;/li&gt;
+&lt;li&gt;What would be a possible function that illustrates this scenario? A continues one but informs the piecewise trips between two stations.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>piecewise const acc</title><link>http://localhost:1313/butiran/25b79/</link><pubDate>Mon, 24 Feb 2025 09:03:04 +0700</pubDate><guid>http://localhost:1313/butiran/25b79/</guid><description>&lt;ul&gt;
+&lt;li&gt;A piecewise-constant acceleration is constant over extended time intervals and changing in value discontinuously from one interval to the next.&lt;/li&gt;
+&lt;li&gt;This is physically unrealistic in any real-life situation, since the acceleration would be expected to change more or less smoothly from instant to instant.&lt;/li&gt;
+&lt;li&gt;In realistic models of collisions the acceleration changes smoothly, but it still can be approximated as continuous for simplification.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>columns shortcode css</title><link>http://localhost:1313/butiran/25b48/</link><pubDate>Mon, 17 Feb 2025 19:58:52 +0700</pubDate><guid>http://localhost:1313/butiran/25b48/</guid><description/></item><item><title>columns shortcode</title><link>http://localhost:1313/butiran/25b47/</link><pubDate>Mon, 17 Feb 2025 19:43:18 +0700</pubDate><guid>http://localhost:1313/butiran/25b47/</guid><description/></item><item><title>shortcode columns, replace prev</title><link>http://localhost:1313/butiran/25b45/</link><pubDate>Mon, 17 Feb 2025 18:02:02 +0700</pubDate><guid>http://localhost:1313/butiran/25b45/</guid><description/></item><item><title>course schedule</title><link>http://localhost:1313/butiran/25b44/</link><pubDate>Mon, 17 Feb 2025 09:11:59 +0700</pubDate><guid>http://localhost:1313/butiran/25b44/</guid><description/></item><item><title>course info</title><link>http://localhost:1313/butiran/25b43/</link><pubDate>Mon, 17 Feb 2025 08:45:26 +0700</pubDate><guid>http://localhost:1313/butiran/25b43/</guid><description>&lt;ul&gt;
+&lt;li&gt;FI5282 Physics in Daily Life (2 credit hours in 16 weeks).&lt;/li&gt;
+&lt;li&gt;Topics
+&lt;ul&gt;
+&lt;li&gt;Physics and technology,&lt;/li&gt;
+&lt;li&gt;Classical physics concepts in everyday life,&lt;/li&gt;
+&lt;li&gt;Modern physics concepts in everyday life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Outcome
+&lt;ul&gt;
+&lt;li&gt;Ability to recognize the physical principles used in technology,&lt;/li&gt;
+&lt;li&gt;Ability to explain physics concepts in everyday life phenomena.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>outline</title><link>http://localhost:1313/butiran/25b40/</link><pubDate>Mon, 17 Feb 2025 08:08:39 +0700</pubDate><guid>http://localhost:1313/butiran/25b40/</guid><description/></item><item><title>kinematics equations</title><link>http://localhost:1313/butiran/25b39/</link><pubDate>Mon, 17 Feb 2025 07:44:39 +0700</pubDate><guid>http://localhost:1313/butiran/25b39/</guid><description/></item><item><title>kinematics equations summaries</title><link>http://localhost:1313/butiran/25b38/</link><pubDate>Mon, 17 Feb 2025 07:14:23 +0700</pubDate><guid>http://localhost:1313/butiran/25b38/</guid><description>&lt;ul&gt;
+&lt;li&gt;There are three to five kinematics equations reported, where from the first two ($v = v_0 + at$ and $x = x_0 + v_0 t + \tfrac12 at^2$), the third can be obtained, also the fourth and the fifth, by eliminating an unknown.&lt;/li&gt;
+&lt;li&gt;The idea of five equations is that each for one unknown, which are $x - x_0$, $v$ (or $v_t)$, $t$ (or $\Delta t$, $t - t_0$), $v_0$, and $a$.&lt;/li&gt;
+&lt;li&gt;They are obtained by integration of constant acceleration $a$ and using initial conditions for velocity $v(t_0) = v_0$ and position $x(t_0) = x_0$ with $t_0 \ne 0$ in general, but it is common to choose $t_0 = 0$.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>the 3rd kine eqns, p3</title><link>http://localhost:1313/butiran/25b37/</link><pubDate>Mon, 17 Feb 2025 06:09:31 +0700</pubDate><guid>http://localhost:1313/butiran/25b37/</guid><description>&lt;ul&gt;
+&lt;li&gt;Rearrange of (I5) will produce
+$$\tag{I6}
+\begin{array}{rcl}
+2a(x - x_0) &amp;amp; = &amp;amp; (v_0 + v)(v - v_0) \\[0.5em]
+(v + v_0)(v - v_0) &amp;amp; = &amp;amp; 2a(x - x_0) \\[0.5em]
+v^2 - v_0^2 &amp;amp; = &amp;amp; 2a(x - x_0) \\[0.5em]
+v^2 &amp;amp; = &amp;amp; v_0^2 + 2a(x - x_0),
+\end{array}
+$$
+which is the third kinematics equation.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>the 3rd kine eqns, p2</title><link>http://localhost:1313/butiran/25b36/</link><pubDate>Mon, 17 Feb 2025 05:52:22 +0700</pubDate><guid>http://localhost:1313/butiran/25b36/</guid><description>&lt;ul&gt;
+&lt;li&gt;From previous equations following can be obtained
+$$\tag{I4}
+x = x_0 + v_0 \left( \frac{v - v_0}{a} \right) + \tfrac12 a \left( \frac{v - v_0}{a} \right)^2.
+$$&lt;/li&gt;
+&lt;li&gt;It can be simplified into
+$$\tag{I5}
+\begin{array}{rcl}
+2a(x - x_0) &amp;amp; = &amp;amp; 2v_0 (v - v_0) + (v - v_0)^2 \newline
+&amp;amp; = &amp;amp; (2v_0 + v - v_0)(v - v_0) \newline
+&amp;amp; = &amp;amp; (v_0 + v)(v - v_0).
+\end{array}
+$$&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>the 3rd kine eqns, p1</title><link>http://localhost:1313/butiran/25b35/</link><pubDate>Mon, 17 Feb 2025 05:42:28 +0700</pubDate><guid>http://localhost:1313/butiran/25b35/</guid><description>&lt;ul&gt;
+&lt;li&gt;First two equations, with $v = v(t)$ and $x = x(t)$, are
+$$\tag{I1}
+v = v_0 + at,
+$$
+$$\tag{I2}
+x = x_0 + v_0 t + \tfrac12 a t^2.
+$$&lt;/li&gt;
+&lt;li&gt;Turn (I1) into following
+$$\tag{I3}
+t = \frac{v - v_0}{a}.
+$$
+and then substitute to (I2)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics, t0 is zero</title><link>http://localhost:1313/butiran/25b34/</link><pubDate>Mon, 17 Feb 2025 05:22:18 +0700</pubDate><guid>http://localhost:1313/butiran/25b34/</guid><description>&lt;ul&gt;
+&lt;li&gt;With $a(t) = a$, $v(t_0) = v_0$, $x(t_0) = x_0$, $t_0 \ne 0$, the equations are
+
+&lt;/li&gt;
+&lt;li&gt;Set $t_0 = 0$, that makes $v(0) = v_0$, $x(0) = x_0$, will turn them into
+
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics, integrate constant a</title><link>http://localhost:1313/butiran/25b33/</link><pubDate>Mon, 17 Feb 2025 05:13:28 +0700</pubDate><guid>http://localhost:1313/butiran/25b33/</guid><description>&lt;ul&gt;
+&lt;li&gt;With initial condition $v(t_0) = v_0$, velocity becomes
+$$\tag{G1}
+v(t) = v_0 + a(t - t_0).
+$$&lt;/li&gt;
+&lt;li&gt;With initial condition $x(t_0) = x_0$, position becomes
+$$\tag{G2}
+x(t) = x_0 + v_0 (t - t_0) + \tfrac12 a (t - t_0)^2.
+$$&lt;/li&gt;
+&lt;li&gt;Are they the same as the first two of common kinematic equations?&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics, integrate v to x</title><link>http://localhost:1313/butiran/25b32/</link><pubDate>Mon, 17 Feb 2025 05:02:33 +0700</pubDate><guid>http://localhost:1313/butiran/25b32/</guid><description>&lt;ul&gt;
+&lt;li&gt;Integrate velocity $v$ to obtain position $x$
+$$\tag{F1}
+x(t) - x(t_0) = \int_{t_0}^t \left[ v_0 + \int_{t_0}^{\tau_2} a(\tau_1) d\tau_1 \right] d\tau_2.
+$$&lt;/li&gt;
+&lt;li&gt;Initial condition $x(t_0) = x_0$, will give
+$$\tag{F2}
+x(t) = x_0 + v_0 (t - t_0) + \int_{t_0}^t \int_{t_0}^{\tau_2} a(\tau_1) d\tau_1 d\tau_2.
+$$&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics, integrate a to v</title><link>http://localhost:1313/butiran/25b31/</link><pubDate>Mon, 17 Feb 2025 04:29:25 +0700</pubDate><guid>http://localhost:1313/butiran/25b31/</guid><description>&lt;ul&gt;
+&lt;li&gt;Integrate acceleration $a$ to obtain velocity $v$
+$$\tag{E1}
+v(t) - v(t_0) = \int_{t_0}^t a(\tau_1) d\tau_1.
+$$&lt;/li&gt;
+&lt;li&gt;Initial condition $v(t_0) = v_0$, will give
+$$\tag{E2}
+v(t) = v_0 + \int_{t_0}^t a(\tau_1) d\tau_1.
+$$&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics equations, assumptions</title><link>http://localhost:1313/butiran/25b30/</link><pubDate>Mon, 17 Feb 2025 03:23:56 +0700</pubDate><guid>http://localhost:1313/butiran/25b30/</guid><description>&lt;ul&gt;
+&lt;li&gt;Integrate acceleration $a$ twice to obtain velocity $v$ and position $x$
+$$\tag{D1}
+v(t) - v(t_0) = \int_{t_0}^t a(\tau) d\tau,
+$$
+$$\tag{D2}
+x(t) - x(t_0) = \int_{t_0}^t v(\tau) d\tau.
+$$&lt;/li&gt;
+&lt;li&gt;Initial conditions are $v(t_0) = v_0$, $x(t_0) = x_0$, and $t_0 = 0$.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>kinematics equations, the unknown</title><link>http://localhost:1313/butiran/25b28/</link><pubDate>Sun, 16 Feb 2025 20:51:36 +0700</pubDate><guid>http://localhost:1313/butiran/25b28/</guid><description/></item><item><title>more common kinematic equations</title><link>http://localhost:1313/butiran/25b27/</link><pubDate>Sun, 16 Feb 2025 20:27:52 +0700</pubDate><guid>http://localhost:1313/butiran/25b27/</guid><description/></item><item><title>five kinematics equations</title><link>http://localhost:1313/butiran/25b26/</link><pubDate>Sun, 16 Feb 2025 18:08:04 +0700</pubDate><guid>http://localhost:1313/butiran/25b26/</guid><description/></item><item><title>relative velocity</title><link>http://localhost:1313/butiran/0045/</link><pubDate>Wed, 06 Apr 2022 13:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/0045/</guid><description>&lt;p&gt;Dalam kehidupan sehari-hari peristiwa terkait kecepatan relatif sering ditemui dan kadang membuat tertegun saat tidak menyadarinya. Beberapa peristiwa yang dimaksud adalah seperti merasa gerbong kereta yang ditempati bergerak mundur hanya karena gerbong di sebelahnya bergerak maju saat berada di stasiun [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], mobil yang dikendarai tersusul oleh mobil lain yang terlihat seperti bergerak lambat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], perahu bergerak tegak lurus sisi meyeberangi sungai tidak sampai ke titik yang dituju [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan bumi bergerak mengelilingi matahari dengan laju cukup besar tanpa disadari penghuninya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>non-uniform circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-11-01-non-uniform-circular-motion/</link><pubDate>Mon, 01 Nov 2021 20:55:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-11-01-non-uniform-circular-motion/</guid><description>&lt;p&gt;Dalam suatu gerak melingkar berubah beraturan atau GMBB, benda bergerak menyusuri lintasan berbentuk lingkaran akan tidak dengan laju tetap [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga walaupun lintasannya berbentuk lingkaran akan tetapi bersifat non-linear [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Untuk penerapannya, gerak pendulum dalam lintasan lingkaran vertikal dan roller coaster merupakan contoh-contoh GMBB [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="ilustration"&gt;ilustration&lt;/h2&gt;
+&lt;p&gt;Gerak melingkar berubah beraturan atau GMBB, dengan membatasi hanya sampai $\alpha$ bernilai konstan, diberikan ilustrasinya untuk posisi-posisi pada beberapa waktu dan juga dilengkapi dengan animasinya pada gambar berikut.&lt;/p&gt;</description></item><item><title>uniform circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-31-uniform-circular-motion/</link><pubDate>Mon, 01 Nov 2021 10:16:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-31-uniform-circular-motion/</guid><description>&lt;p&gt;Gerak melingkar beraturan atau GMB merupakan suatu jenis gerak di mana benda bergerak menempuh lintasan berbentuk lingkaran dengan laju tetap [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Pada gerak melingkar dengan laju tetap ini, dapat diturunkan percepatan sentripetal [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang merupakan percepatan yang mengarah ke pusat lintasan lingkaran [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Percepatan ini disebabkan oleh jumlah gaya yang mengarah ke arah yang sama [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>circular motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-30-circular-motion/</link><pubDate>Sun, 31 Oct 2021 19:03:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-30-circular-motion/</guid><description>&lt;p&gt;Termasuk di dalam gerak 2d adalah gerak melingkar yang dapat diperkenalkan tanpa notasi vektor 2d dalam koordinat kartesian $(x, y)$ dan langsung ke besaran angular $\theta$, $\omega$, $\alpha$ [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], menggunakan ilustrasi penjumlahan vektor untuk mendapatkan percepatan sentripetal bagi gerak melingkar beraturan atau GMB dengan masih tanpa notasi vektor dalam koordinat kartesian secara eksplisit [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan menampillkan gerak melingkar dalam variabel-variabel koordinat kartesian secara eksplisit [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>parabolic motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-29-parabolic-motion/</link><pubDate>Sat, 30 Oct 2021 07:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-29-parabolic-motion/</guid><description>&lt;p&gt;Gerak parabola termasuk dalam gerak-gerak yang dibahas pada kinematika 2d [
+&lt;a
+
+	
+	
+		href = "#ref01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang memiliki banyak contoh, misalnya pada berbagai cabang olahraga seperti lempar cakram, lempar palu, lempar lembing, tolak peluru, bola basket, bola voli, bola golf, baseball, ping-pong, lompat jauh, lompat tinggi [
+&lt;a
+
+	
+	
+		href = "#ref02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dalam keseharian kita seperti bersin, air mengalir dari selang ataupun militer seperti tembakan pistol, menembakkan meriam [
+&lt;a
+
+	
+	
+		href = "#ref03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebagai suatu eksperimen, untuk membuktikan prediksi teori, menembak monyet merupakan aplikasi gerak parabola yang menarik [
+&lt;a
+
+	
+	
+		href = "#ref04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan terdapat pula contoh tayangannya [
+&lt;a
+
+	
+	
+		href = "#ref05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>kinematics 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-27-kinematics-2d/</link><pubDate>Fri, 29 Oct 2021 07:57:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/08/2021-10-27-kinematics-2d/</guid><description>&lt;p&gt;Gerak dalam 2d melibatkan besaran-besaran vektor seperti perpindahan $x$ dan $y$, kecepatan $v_x$ dan $v_y$, serta percepatan $a_x$ dan $a_y$, di mana pada keadaan umum komponen gerak 2d dapat saling dipisahkan sehingga menghasilkan dua gerak 1d yang tak saling bergantung, yang selanjutnya dipecahkan dengan pengetahuan mengenai kinematika 1d [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Yang termasuk dalam kinematika 2d adalah rangkaian beberapa gerak lurus pada arah tegak lurus yang membentuk gerak zigzag, superposisi dua gerak lurus pada arah saling tegak lurus, dan gerak parabola [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], serta ada pula yang menambahkan gerak pada bidang miring dan gerak melingkar [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Mungkin pula dapat ditambahkan gerak yang membentuk kurva Lissajous [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>nlm free fall</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-26-nlm-free-fall/</link><pubDate>Tue, 26 Oct 2021 21:02:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-26-nlm-free-fall/</guid><description>&lt;p&gt;Gerak jatuh bebas atau GJB dialami oleh benda yang jatuh dengan hanya dipengaruhi oleh gaya gravitasi tanpa mempertimbankan gesekan udara [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Eksperimen untuk mengamati GJB harus dilakukan dalam lingkungan vakum agar hambatan udara tidak mempengaruhi hasil, yang untuk benda-benda kecil dan halus permukaannya sampai suatu massa jenis tertentu eksperimen masih dapat dilakukan dengan adanya udara [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebenarnya suatu GJB dapat lebih umum, di mana benda tidak harus bergerak hanya ke bawah, dengan benda yang bergerak ke atas pun dalam termasuk dalam GJB selama hanya gaya gravitasi yang bekerja padanya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sehingga dapat melingkupi gerak benda-benda langit [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Saat ini hanya dibahas mengenai gerak dekat dengan permukaan bumi sehingga percepatan gravitasi dapat dianggap konstan.&lt;/p&gt;</description></item><item><title>nonuniform linear motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-25-nonuniform-linear-motion/</link><pubDate>Tue, 26 Oct 2021 11:40:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-25-nonuniform-linear-motion/</guid><description>&lt;p&gt;Gerak lurus berubah beraturan atau GLBB adalah gerak dengan percepatan konstan, baik besar maupun arahnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang besarnya percepatan dapat bernilai positif ataupun negatif (bukan nol) [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana gerak ini merupakan salah satu dari dua jenis gerak linier [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terdapat pula nama lainnya yaitu gerak lurus dengan percepatan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>ulm car chase</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-ulm-car-chase/</link><pubDate>Mon, 25 Oct 2021 15:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-ulm-car-chase/</guid><description>&lt;p&gt;Geral lurus beraturan atau GLB [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] memiliki permasalah menarik untuk dibahas, yang salah satunya adalah pengejaran kendaraan oleh kendaraan lain, di mana dapat kendaraan pertama bergerak lebih dahulu dari kendaraan kedua [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau kedua bergerak dengan salah satu kendaraan telah berada di depan kendaraan lainnya [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kendaraan yang berada di belakang harus memiliki kecepatan tetap lebih besar dari kecepatan tetap kendaraan yang berada di depan. Umumnya pada permasalah pengejaran dua kendaraan, kendaran yang mengejar memiliki percepatan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>uniform linear motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-uniform-linear-motion/</link><pubDate>Sun, 24 Oct 2021 18:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-24-uniform-linear-motion/</guid><description>&lt;p&gt;Gerak lurus merupakan gerak dari obyek yang mengikuti suatu garis lurus dan beraturan, dalam hal ini, berarti percepatan bernilai nol selama benda bergerak. Dengan demikian gerak lurus beraturan atau GLB merupakan gerak benda mengikuti lintasan lurus dengan kecepatan tetap atau beraturan atau seragam [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. GLB ini merupakan salah satu bagian dari gerak lurus, di mana bagian lainnya adalah gerak lurus dengan percepatan berubah [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>kinematics equations 1d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-23-kinematics-equations-1d/</link><pubDate>Sat, 23 Oct 2021 20:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/06/2021-10-23-kinematics-equations-1d/</guid><description>&lt;p&gt;Terdapat persamaan-persamaan kinematika yang berjumlah tiga [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], empat [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau lima [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang mengatikan lima variabel kinematika [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Persamaan-persamaan ini dibatasi untuk digunakan hanya pada kasus gerak lurus dalam 1d dengan percepatan tetap.&lt;/p&gt;</description></item><item><title>river crossing</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-22-river-crossing/</link><pubDate>Sat, 23 Oct 2021 07:36:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-22-river-crossing/</guid><description>&lt;p&gt;Menyeberangi sungai dengan perahu merupakan suatu problem fisika yang menarik untuk dibahas, yang umumnya adalah mencari waktu minimum untuk menyeberang [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], kecepatan perahu menurut kerangka acuan yang diam di pinggir sungai [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], sudut gerak perahu agar dapat menyeberang tegak lurus arah aliran sungai [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan jarak sepanjang tepi seberang sungai searah aliran sungai, [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] yang telah pula divisualisasikan [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], bahkan dengan nilai-nilai kecepatan dan sudut gerak perahu yang dapat diubah [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Selain itu terdapat pula permasalahan yang melibatkan kecepatan arus sungai yang bergantung posisi sehingga agak tidak nyata [
+&lt;a
+
+	
+	
+		href = "#r07"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		7 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dibandingkan dengan kecepatan arus sungai pada umumnya [
+&lt;a
+
+	
+	
+		href = "#r08"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		8 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudian, penyelesaian dengan langkah-langkah terstruktur [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] menggelitik untuk dikaji lebih lanjut dalam mendukung pembelajaran yang lebih efektif dan efisien.&lt;/p&gt;</description></item><item><title>relative velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-20-relative-velocity/</link><pubDate>Fri, 22 Oct 2021 09:27:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-20-relative-velocity/</guid><description>&lt;p&gt;Kecepatan relatif merupakan selisih secara vektor antara kecepatan dua benda atau atau kecepepatan suatu benda terhadap benda lain dengan menganggap benda lain berada dalam keadaan diam [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dapat pula dipandang sebagai kecepatan suatu obyek relatif terhadap obyek lain, yang merupakan kecepatan obyek pertama menurut pengamat yang bergerak bersama-sama dengan obyek kedua [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dalam teknis perhitungannya diperlukan kemampuan penjumlahan vektor dan cara berpikir bahwa satu kerangka acuan merupakan perantara adalah satu pendekatan yang amat berguna [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana pendekatan ini memerlukan pemahaman pemanfaatan indeks bawah [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang dituliskan pula dengan notasi berbeda [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>speed</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-19-speed/</link><pubDate>Tue, 19 Oct 2021 21:14:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-19-speed/</guid><description>&lt;p&gt;Istilah laju kerap digunakan untuk hanya menyatakan nilai skalar dari kecepatan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau jarak yang ditempuh per satuan waktu yang sebetulnya lebih tepat sebagai laju rata [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dan kadang tidak dijelaskan kecuali merupakan besaran skalar, akan tetapi langsung pada istilah laju sesaat dan laju rata-rata [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Di sini akan digunakan dengan arti sebagai besar dari kecepatan (atau kecepatan sesaat).&lt;/p&gt;</description></item><item><title>average speed</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-17-average-speed/</link><pubDate>Tue, 19 Oct 2021 15:23:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-17-average-speed/</guid><description>&lt;p&gt;Laju rata-rata adalah jarak yang ditempuh dibagi dengan waktu selama gerak itu terjadi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang kadang disebut saja sebagai laju, sebagai suatu definisi yang belum final [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau penyederhanaan untuk kalangan tertentu [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Untuk menghitung laju rata $s_{\rm avg}$ dari waktu inisial $t_i$ sampai waktu final $t_f$, untuk kasus 1d, dapat diperoleh dari fungsi kecepatan $v$&lt;/p&gt;</description></item><item><title>average velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-15-average-velocity/</link><pubDate>Sun, 17 Oct 2021 19:59:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-15-average-velocity/</guid><description>&lt;p&gt;Kecepatan rata-rata dapat didefinisikan sebagai perpindahan dibagi selang waktu [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebagaimana kecepatan satu dari kecepatan rata-rata adalah $\rm m/s$ dan kecepatan rata-rata merupakan besaran vektor.&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Kecepatan rata-rata diperoleh melalui&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-1}
+\bar{v} = \frac{x_f - x_i}{t_f - t_i} \equiv v_{\rm avg},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dengan $x_i$ dan $x_f$ adalah posisi inisial (awal) dan final (akhir), demikian juga dengan $t_i$ dan $t_f$ yang merupakan waktu inisial dan final. Terkadang Persamaan \eqref{eqn-1} dituliskan pula sebagai&lt;/p&gt;</description></item><item><title>velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-15-velocity/</link><pubDate>Sat, 16 Oct 2021 11:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/05/2021-10-15-velocity/</guid><description>&lt;p&gt;Velocity adalah turunan dari posisi terhadap waktu [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang merupakan besaran vektor [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], dan memiliki satuan panjang dibagi dengan waktu [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang dapat pula dirujuk sebagai kecepatan sesaat [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="unit"&gt;unit&lt;/h2&gt;
+&lt;p&gt;Dalam satuan SI (Système International) kecepatan dinyatakan dengan satuan panjang dibagi satu waktu, yaitu $\rm m/s$ atau meter per detik [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Sebaiknya suatu vektor kecepatan dituliskan dalam bentuk&lt;/p&gt;</description></item><item><title>consecutive motion</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-consecutive-motion/</link><pubDate>Thu, 14 Oct 2021 20:22:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-consecutive-motion/</guid><description>&lt;p&gt;Suatu GLB (gerak lurus beraturan) yang dilanjutkan oleh GLBB (gerak lurus berubah beraturan), dan kemudian diteruskan oleh GLB atau GLBB lainnya kadang tidak memiliki istilah yang tegas dan cukup dirujuk dengan kasus yang lebih rumit dalam pembahasan gerak lurus dengan perceptan tetap [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Akan tetapi terdapat pula penggunaan istilah gerak konsekutif [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="initial-condition"&gt;initial condition&lt;/h2&gt;
+&lt;p&gt;Pada suatu gerak konsekutif, umumnya syarat awal diberikan pada rentang waktu pertama. Untuk rentang waktu yang lain, syarat awalnya adalah nilai akhir dari rentang waktu sebelumnya. Sebagai ilustasi bila&lt;/p&gt;</description></item><item><title>kinematics graphs</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-kinematics-graphs/</link><pubDate>Thu, 14 Oct 2021 10:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-14-kinematics-graphs/</guid><description>&lt;p&gt;Kurang baiknya pemahaman mengenai grafik kinematika, e.g. $x-t$, $v-t$, $a-t$, merupakan studi yang menarik karena terdapat berbagai kebingungan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang masih teramati sampai beberapa saat yang lalu [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu pendekatan untuk membantu pemahaman dilakukan dengan memanfaatkan alat bantu microcomputer based laborator atau MBL [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Dan untuk menyelamai lebih dalam, pengamatan pergerakan mata saat peserta mengerjakan tes terkait materi ini pun dilakukan [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Hal ini menunjukkan pentingnya peran grafik kinematika dalam fisika. Gerak lurus dengan percepatan yang merupakan fungsi waktu dapat pula dianalisis menggunakan grafik selain dengan kalkulus [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kemudahan menggambarkan grafik pun telah banyak tersedia secara daring, walau masih dengan variabel dummy $y - x$ [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>initial condition xva</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</link><pubDate>Wed, 13 Oct 2021 20:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-13-initial-condition-xva/</guid><description>&lt;p&gt;Dalam menerapkan hukum II Newton, yang umumnya merupakan persamaan diferensial, perlu dinyatakan syarat awal berupa kecepatan awal dan posisi awal, di mana permasalahan seperti ini termasuk suatu permasalan nilai awal [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="not-unique"&gt;not unique&lt;/h2&gt;
+&lt;p&gt;Pemilihan syarat awal atau IC (initial condition) tidak unik karena, bila sebelumnya telah diketahui fungsinya hanya akan menentukan konstant integrasi, misalnya&lt;/p&gt;
+&lt;p&gt;$$
+\int 2x \ dx = x^2 + C,
+$$&lt;/p&gt;</description></item><item><title>velocity acceleration</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-velocity-acceleration/</link><pubDate>Wed, 13 Oct 2021 17:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-velocity-acceleration/</guid><description>&lt;p&gt;Untuk kasus gerak lurus dengan percepatan konstan hubungan antara kecepatan dan percepatan (juga dengan posisi) bisa didapatkan dengan menggunakan persamaa-persamaan gerak [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Percepatan merupakan laju perubahan kecepatan dibagi selang waktu perubahan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang secara umum percepatan merupakan turunan dari kecepatan terhadap waktu [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="a-from-v"&gt;a from v&lt;/h2&gt;
+&lt;p&gt;Dengan memanfaatkan diferensial&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-1}
+a = \frac{dv}{dt}.
+\end{equation}&lt;/p&gt;</description></item><item><title>position velocity</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-position-velocity/</link><pubDate>Tue, 12 Oct 2021 20:39:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/04/2021-10-12-position-velocity/</guid><description>&lt;p&gt;Hubungan antara posisi dan kecepatan dapat diperoleh dengan menggunakan persamaan-persaman gerak atau turunan kalkulus [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Analisa posisi, kecepatan, dan juga percepatan dapat dilakukan dengan turunan [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="v-from-x"&gt;v from x&lt;/h2&gt;
+&lt;p&gt;Dengan menggunakan diferensial&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-1}
+v = \frac{dx}{dt},
+\end{equation}&lt;/p&gt;
+&lt;p&gt;yang menggambarkan bagaimana informasi fungsi kecepatan $v$ dapat diperoleh dari fungsi posisi $x$, di mana keduanya merupakan fungsi dari waktu $t$. Sebagai contoh bila terdapat fungsi posisi&lt;/p&gt;</description></item><item><title>length</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-12-length/</link><pubDate>Tue, 12 Oct 2021 13:29:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-12-length/</guid><description>&lt;p&gt;Panjang dapat didefinisikan sebagai suatu pengukuran dari besaran fisis jarak [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang merupakan pengukuran satu dimensi spasial [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], menggambarkan seberapa jauh benda-benda secara fisis terpisahkan [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] atau dapat juga didefinisikan sebagai suatu jarak berupa garis lurus antar dua titik di sepanjang suatu obyek [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="unit"&gt;unit&lt;/h2&gt;
+&lt;p&gt;Satuan pengukuran panjang adalah meter atau $\rm m$ yang didefinisikan dengan mengambil nilai numerik laju cahaya dalam vakum $c$ menjadi $299 \ 792 \ 458$ saat diekspresikan dalam satuan $\rm m \ s^{-1}$, di mana detik dinyatakan dalam istilah $\Delta \nu_{\rm CS}$ [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>distance 1d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-10-distance-1d/</link><pubDate>Mon, 11 Oct 2021 20:51:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-10-distance-1d/</guid><description>&lt;p&gt;Jarak yang merupakan besaran skalar merujuk pada seberapa banyak bumi yang dilingkupi oleh suatu obyek selama pergerakannya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Persoalan menjadi lebih kompleks apabila benda bergerak dengan gerak konsekutif (berkelanjutan) [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], yang dapat dengan kecepatan berbeda (kadang dengan percepatan berbeda) pada setiap rentang waktunya.&lt;/p&gt;
+&lt;h2 id="two-velocities"&gt;two velocities&lt;/h2&gt;
+&lt;p&gt;Sebagai ilustrasi diambil kasus gerak lurus dalam 1-d, suatu gerak konsekutif dengan dua kecepatan berbeda, yang fungsi kecepatannya dapat dituliskan sebagai&lt;/p&gt;</description></item><item><title>distance 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-08-distance-2d/</link><pubDate>Fri, 08 Oct 2021 19:58:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-08-distance-2d/</guid><description>&lt;p&gt;Jarak merupakan besaran skalar yang merujuk pada seberapa banyak (seberapa panjang) tanah (lintasan) yang dilingkupi (dijelajahi) selama suatu obyek bergerak [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], atau mungkin lebih tepatnya dapat disebut sebagai panjang lintasan.&lt;/p&gt;
+&lt;h2 id="a-2-d-motion"&gt;a 2-d motion&lt;/h2&gt;
+&lt;p&gt;Suatu benda bergerak dari satu titik ke titik lain mengikuti lintasan garis lulus seperti diberikan oleh Gambar 
+&lt;a
+
+	
+	
+		href = "#fig1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ berikut.&lt;/p&gt;
+&lt;p&gt;![]({{ site.baseurl }}/assets/img/0/03/0034-a.png) &lt;br&gt;
+Gambar &lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;. Benda bergerak mulai dari waktu $t_1$ sampai $t_{10}$, di mana gerak antar titik mengikuti lintasan berupa garis lulus, dengan grid $1 \ {\rm m} \times 1 \ {\rm m}$.&lt;/p&gt;</description></item><item><title>displacement 1d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-06-displacement-1d/</link><pubDate>Thu, 07 Oct 2021 21:22:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-06-displacement-1d/</guid><description>&lt;p&gt;Perpindahan suatu benda didefinisikan sebagai suatu vektor yang mengarah mulai dari suatu posisi awal (inisial) ke suatu posisi akhir (final) [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Untuk kasus 1-d perpindahan dihitung menggunakan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-01}
+\Delta x_{i-f} = x_f - x_i,
+\end{equation}&lt;/p&gt;
+&lt;p&gt;yang dapat bernilai positif ataupun negatif karena perpindahan merupakan besaran vektor, dengan indeks $i$ berarti awal (inisial) dan indeks $f$ berarti akhir (final).&lt;/p&gt;
+&lt;h2 id="1-d-motion"&gt;1-d motion&lt;/h2&gt;
+&lt;p&gt;Gambar 
+&lt;a
+
+	
+	
+		href = "#fig1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ berikut memberikan ilustrasi gerak benda dalam 1-d. Abaikan keberadaan sumbu $y$ karena selama benda bergerak, ia terus menempel dengan lantai sehingga hal ini merupakan gerak dalam 1-d.&lt;/p&gt;</description></item><item><title>displacement 2d</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-displacement-2d/</link><pubDate>Tue, 05 Oct 2021 20:09:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-displacement-2d/</guid><description>&lt;p&gt;Perpindahan merupakan suatu besaran vektor yang menyatakan seberapa jauh obyek dari posisi awalnya, atau dengan kata lain merupakan total perubahan posisi obyek [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], di mana perpindahan dihitung dengan mengurangi posisi akhir dengan posisi awal [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+, 
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="formula"&gt;formula&lt;/h2&gt;
+&lt;p&gt;Perpindahan dihitung menggunakan&lt;/p&gt;
+&lt;p&gt;\begin{equation}\label{eqn-01}
+\Delta \vec{r} = \vec{r}_f - \vec{r}_i
+\end{equation}&lt;/p&gt;</description></item><item><title>relative position</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-relative-position/</link><pubDate>Mon, 04 Oct 2021 18:54:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-04-relative-position/</guid><description>&lt;p&gt;Posisi relative adalah posisi suatu obyek dinyatakan secara relatif terhadap obyek lainnya [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+], misalnya seseorang sedang naik kapal yang menyusuri suatu kanal. Posisi kapal umumnya dinyatakan terhadap bumi (tepi kanal, tanah) dan posisi orang dapat pula dinyatakan terhadap referensi yang sama (tepi kanal, tanah) atau dapat menggunakan posisi relatif terhadap kapal.&lt;/p&gt;
+&lt;h2 id="notation"&gt;notation&lt;/h2&gt;
+&lt;p&gt;Sebagai ilustrasi akan dibahas kembali contoh pada bagian awal, yaitu penumpang $\rm P$ yang sedang menaiki kapal $\rm B$ yang sedang menyusuri kanal $\rm C$ dengan origin untuk kerangka acuan $\rm O$ diambil pada tepi kanal sebagaimana tersaji dalam Gambar 
+&lt;a
+
+	
+	
+		href = "#fig1"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ berikut.&lt;/p&gt;</description></item><item><title>position</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-03-position/</link><pubDate>Mon, 04 Oct 2021 07:45:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/03/2021-10-03-position/</guid><description>&lt;p&gt;Dengan kerangka acuan merupakan kumpulan sumbu-sumbu dari mana posisi dan gerak suatu benda dideskripsikan, posisi perlu dinyatakan dengan jelas dan pasti relatif terhadap suatu kerangka acuan yang memudahkan [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Kerangka acuan yang digunakan dalam dinamika dikenal pula sebagai sistem koordinat, dengan sumbu-sumbunya bersumber dari suatu titik yang disebut origin [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="not-unique"&gt;not unique&lt;/h2&gt;
+&lt;p&gt;Pemilihan keranca acuan tidaklah unik dan terdapat tak-hingga pilihan yang mungkin [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Bila kerangka acuan tidak unik dan dapat dipilih, dengan memperhatikan bahwa kerangka acuan yang dipilih sebaiknya memudahkan pemecahanan permasalahan, maka posisi suatu benda juga akan menjadi tidak unik karena bergantung pada kerangka acuan dari mana posisi benda dideskripsikan.&lt;/p&gt;</description></item></channel></rss>

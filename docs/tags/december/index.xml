@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>December on butiran</title><link>http://localhost:1313/butiran/tags/december/</link><description>Recent content in December on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Dec 2021 18:52:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/december/index.xml" rel="self" type="application/rss+xml"/><item><title>num method trans flow</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-21-num-method-trans-flow/</link><pubDate>Fri, 24 Dec 2021 18:52:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-21-num-method-trans-flow/</guid><description>&lt;p&gt;Prediksi yang lebih baik pada aliran transisi, suatu aliran penentu berubahnya aliran laminar menjadi aliran turbulen pada bagian atas, yang mempertimbangkan faktor-faktor yang berpengaruh seperti gradien tekanan, turbulen stream bebas, transfer panas, dan kekasaran permukaan, telah dikembangkan dengan menyelesaikan persamaan IBL (Integral Boundary Layer) dan RANS (Reynolds Average Navier-Stokes), di mana yang pertama solusinya diperoleh melalui metode integrasi ruang Runge-Kutta order dua dengan kode yang ditulis menggunakan Python, sedngkan yang kedua memanfaatkan piranti lunak OpenFOAM yang berbasis metode volume hingga atau Finite Volume Method (FVM), telah memberikan hasil simulasi dengan akurasi yang cukup tinggi saat dibandingkan dengan berbagai data eksperimen yang tersedia bersesuaian dengan faktor pengaruh letak transisi [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item><item><title>sc np md abm sph</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-22-sc-np-md-abm-sph/</link><pubDate>Thu, 23 Dec 2021 21:44:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-22-sc-np-md-abm-sph/</guid><description>&lt;p&gt;Dengan berbasis partikel simulasi mulai dari model sel punca, jatuhnya sel punca pada nanopattern, relaksasi bentuknya, sampai terbentuknya benang-benang aktin dilakukan menggunakan metode numerik seperti molecular dynamics (MD), agent-based modeling (ABM), dan smoothed-particle hydrodynamics (SPH), yang secara teknis dilakukan menggunakan Python [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="presentation"&gt;presentation&lt;/h2&gt;
+&lt;p&gt;Presentasi sidang tesis 2 dilakukan secara luring (&lt;!-- raw HTML omitted --&gt;dan mungkin daring, tepatnya bauran&lt;!-- raw HTML omitted --&gt;) di Prodi Fisika, FMPA, ITB, pada Kamis, 23 Desember 2021, 0900 bertempat di Ruang Staf Baru (&lt;!-- raw HTML omitted --&gt;tentatif&lt;!-- raw HTML omitted --&gt;), dengan pembimbing pertama Prof. Dr. Eng. Suprijadi, pembimbing kedua Dr.rer.nat. Sparisoma Viridi, pengujip pertama Dr.rer.nat. Freddy Haryanto, dan penguji kedua Acep Purqon, Ph.D.&lt;/p&gt;</description></item><item><title>eis arduino</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-19-eis-arduino/</link><pubDate>Mon, 20 Dec 2021 21:24:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/1/20/2021-12-19-eis-arduino/</guid><description>&lt;p&gt;Sprektroskopi impedans listrik atau electrical impedance spectroscopy (EIS) dapat dibangun purwarupanya dengan komponen elektronik yang tersedia di pasaran, yang perlu dilengkapi dengan mikrokontroler Ardunio agar hasil pengukuran dapat langsung ditampilkan di komputer [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;
+&lt;h2 id="defense"&gt;defense&lt;/h2&gt;
+&lt;p&gt;Sidang Tesis II dilakukan secara bauran antara luring yang bertempat di Ruang Staf Baru, Program Studi Fisika, FMIPA, ITB [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+] dan daring lewat aplikasi Zoom [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

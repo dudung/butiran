@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sk5002 on butiran</title><link>http://localhost:1313/butiran/tags/sk5002/</link><description>Recent content in Sk5002 on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 19 Dec 2025 21:19:41 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/sk5002/index.xml" rel="self" type="application/rss+xml"/><item><title>parabolic motion sim data</title><link>http://localhost:1313/butiran/25l42/</link><pubDate>Fri, 19 Dec 2025 21:19:41 +0700</pubDate><guid>http://localhost:1313/butiran/25l42/</guid><description>&lt;div id="cnt"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded", function () {
+ 
+function createDataDiv(data, label) {
+ let div = document.createElement("div");
+ div.innerHTML = label + " = " + data.join(", ");
+ div.style.margin = "1em";
+ div.style.padding = "0.5em 1em";
+ div.style.fontFamily = "Courier New";
+ div.style.fontSize = "0.8em";
+ div.style.background = "#eee";
+ div.style.overflowWrap = "break-word";
+ div.style.borderRadius = "6px";
+ return div;
+}
+
+function createUserDiv(id) {
+ let div = document.createElement("div");
+ div.id = id;
+ div.style.border = "1px solid #ccc";
+ div.style.borderRadius = "10px";
+ div.style.margin = "1em";
+ div.style.padding = "0em 1em 1em 1em";
+ let h2 = document.createElement("h2");
+ h2.innerHTML = id;
+ h2.style.marginBottom = "-0.2em";
+ div.append(h2);
+ return div;
+}
+
+let cnt = document.getElementById("cnt");
+const ids = ["24625004", "24625006", "24725002", "24725003", "24725004"];
+const x0 = [10, 40, 30, 20, 50];
+const y0 = [20, 50, 10, 40, 30];
+const vx0 = [1, 4, 3, 2, 5];
+const vy0 = [2, 5, 1, 4, 3];
+let i = 0;
+for(id of ids) {
+ let div = createUserDiv(id);
+ cnt.append(div);
+ 
+ const tinfo = [0, 20, 0.5];
+ let tdata = [];
+ let xdata = [];
+ let ydata = [];
+ for(let it = tinfo[0]; it &lt;= tinfo[1]; it++) {
+ 	let t = it * tinfo[2];
+ 	tdata.push(t);
+ 	let x = x0[i] + vx0[i] * t;
+ 	xdata.push(x);
+ 	let y = y0[i] + vy0[i] * t - 0.5 * 10 * t**2;
+ 	ydata.push(y);
+ }
+ 
+ let divt = createDataDiv(tdata, "t");
+ div.append(divt);
+ let divx = createDataDiv(xdata, "x");
+ div.append(divx);
+ let divy = createDataDiv(ydata, "y");
+ div.append(divy);
+ 
+ i += 1;
+}
+
+ });
+&lt;/script&gt;</description></item></channel></rss>

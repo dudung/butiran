@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Very Short on butiran</title><link>http://localhost:1313/butiran/tags/very-short/</link><description>Recent content in Very Short on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Jan 2022 14:21:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/very-short/index.xml" rel="self" type="application/rss+xml"/><item><title>very short intro to github</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/39/2022-01-19-very-short-intro-to-github/</link><pubDate>Thu, 20 Jan 2022 14:21:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/39/2022-01-19-very-short-intro-to-github/</guid><description>&lt;p&gt;GitGub menyatakan bahwa dirinya merupakan tempat di mana para pengembang seluruh dunia membangun piranti lunak bersama-sama, yang saat ini melibatkan 73+ juta pengembang, 4+ juta organisasi, 84% perusahan dalam daftar Fortune 100 [
+&lt;a
+
+	
+	
+		href = "#r01"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		1 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Terkait dengan belajar programing, terdapat pendapat bahwa GitHub bukan tempat para pemula untuk mulai memrogram dikarenakan pemula seharusnya tidak dikuatirkan dulu dengan sintaks dan perintah yang kompleks, tapi lebih mencoba mengerti bagaimana membuat kode, logika dalam menghadapi problem membuat kode, atau mengerti kode orang lain [
+&lt;a
+
+	
+	
+		href = "#r02"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Walaupun demikian ada yang mengibaratkan bahwa bila GitHub merupakan tempat yang baik untuk belajar membuat kode, maka medan perang merupakan tempat yang baik untuk belajar menggunakan senjata api [
+&lt;a
+
+	
+	
+		href = "#r03"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		3 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Salah satu miskonsepsi utama tentang GitHub adalah anggapan bahwa itu adalah suatu alat pengembang, sebagai bagian dari koding seperti bahasa pemrograman dan compiler, sementara yang lebih tepat bahwa GitHub adalah suatu jejaring sosial di mana penggunanya menyimpan program dan kode proyek, dan membagikannya [
+&lt;a
+
+	
+	
+		href = "#r04"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		4 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Git sendiri adalah piranti lunak pengendali versi yang bersifat bebas dan sumber terbuka, dibuat oleh Linus Torvalds pada tahun 2005, yang semula dikembangkan untuk bekerja pada kernel Linux dengan beberapa pengembang [
+&lt;a
+
+	
+	
+		href = "#r05"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		5 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+]. Github merupakan platform hosting pertama untuk Git yang diluncurkan tahun 2008, kemudian diikuti dengan Gitlab yang merupakan platform hosting repositori berbasis git yang dilucurkan tahun 2011, dan terdapat pula BitBucket sebagai layanan hosting kode sumber daring lainnya yang diluncurkan pada tahun 2008 dan mulai menggunakan git sejak Oktober 2011 [
+&lt;a
+
+	
+	
+		href = "#r06"
+
+		
+
+	
+
+	&gt;
+	
+	
+	&lt;span&gt;
+		6 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+].&lt;/p&gt;</description></item></channel></rss>

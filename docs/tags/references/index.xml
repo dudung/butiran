@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>References on butiran</title><link>http://localhost:1313/butiran/tags/references/</link><description>Recent content in References on butiran</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 Oct 2021 15:55:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/butiran/tags/references/index.xml" rel="self" type="application/rss+xml"/><item><title>references</title><link>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-10-21-references/</link><pubDate>Fri, 22 Oct 2021 15:55:00 +0700</pubDate><guid>http://localhost:1313/butiran/posts/0o/bugx-src/0/00/2021-10-21-references/</guid><description>&lt;p&gt;List some of most used references, but it could be not complete.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Format&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Example&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Book&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Marcel Wellner, &amp;ldquo;Elements of Physics&amp;rdquo;, Springer Science &amp;amp; Business Media, Dec 2012, p. 38, url 
+&lt;a
+
+	
+	
+		href = "https://books.google.co.id/books?vid=ISBN9781461538608&amp;amp;printsec=frontcover"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://books.google.co.id/books?vid=ISBN9781461538608&amp;printsec=frontcover &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211021].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Journal&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;P. Klein, S. Becker, S. Küchemann, J. Kuhn, &amp;ldquo;Test of understanding graphs in kinematics: Item objectives confirmed by clustering eye movement transitions&amp;rdquo;, Physical Review Physics Education Research, vol. 17, no. 1, p. 013102, Jan-Jun 2021, url 
+&lt;a
+
+	
+	
+		href = "https://doi.org/10.1103/PhysRevPhysEducRes.17.013102"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://doi.org/10.1103/PhysRevPhysEducRes.17.013102 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;LaTeX2HTML&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Richard Fitzpatrick, &amp;ldquo;Motion with constant acceleration&amp;rdquo;, in Classical Mechanics: An Introductory Course, the University of Texas at Austin, 2 Feb 2006, url 
+&lt;a
+
+	
+	
+		href = "https://farside.ph.utexas.edu/teaching/301/lectures/node18.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://farside.ph.utexas.edu/teaching/301/lectures/node18.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211014]&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Lecture&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Birne Binegar, &amp;ldquo;Lecture 7: Constant of Integration and Initial Conditions&amp;rdquo;, Math 2233 Differential Equations, Spring 1999, p. 29, url 
+&lt;a
+
+	
+	
+		href = "http://lie.math.okstate.edu/~binegar/2233/2233-l07.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://lie.math.okstate.edu/~binegar/2233/2233-l07.pdf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211013].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;HyperPhysics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Carl R. Nave, &amp;ldquo;Relative Velocity&amp;rdquo;, HyperPhysics, 2017, url 
+&lt;a
+
+	
+	
+		href = "http://hyperphysics.phy-astr.gsu.edu/hbase/relmot.html#c2"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		http://hyperphysics.phy-astr.gsu.edu/hbase/relmot.html#c2 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20200901].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Hypertextbook&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Glenn Elert, &amp;ldquo;Equations of Motion&amp;rdquo;, The Physics Hypertextbook, 2021, url 
+&lt;a
+
+	
+	
+		href = "https://physics.info/motion-equations/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://physics.info/motion-equations/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;OpenStax&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;William Moebs, Samuel J. Ling, Jeff Sanny, &amp;ldquo;Instantaneous Velocity and Speed&amp;rdquo; in University Physics Volume 1, OpenStax, Texas, 19 Sep 2016, url 
+&lt;a
+
+	
+	
+		href = "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211019].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Wolfram&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Christopher Stover, &amp;ldquo;SI Prefixes&amp;rdquo;, from MathWorld&amp;ndash;A Wolfram Web Resource, created by Eric W. Weisstein, url 
+&lt;a
+
+	
+	
+		href = "https://mathworld.wolfram.com/SIPrefixes.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://mathworld.wolfram.com/SIPrefixes.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211002].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Organization&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I. Mills, R. Marquardt &amp;ldquo;The New SI - The International System of units is getting a Makeover&amp;rdquo;, IUPAC 100 Stories, International Union of Pure and Applied Chemistry, 15 May 2019, url 
+&lt;a
+
+	
+	
+		href = "https://iupac.org/100/stories/the-new-si/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://iupac.org/100/stories/the-new-si/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211001].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Encyclopedia&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;The Editors of Encyclopaedia Britannica, Yamini Chauhan, Erik Gregersen, Howard Wilk, &amp;ldquo;Electron volt&amp;rdquo;, Encyclopædia Britannica, 05 May 2014, url 
+&lt;a
+
+	
+	
+		href = "https://www.britannica.com/science/electron-volt"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.britannica.com/science/electron-volt &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211002].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Khan Academy&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ldquo;Parametric functions, one parameter&amp;rdquo;, Khan Academy, url 
+&lt;a
+
+	
+	
+		href = "https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/ways-to-represent-multivariable-functions/a/parametric-functions"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/ways-to-represent-multivariable-functions/a/parametric-functions &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211019].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Wikipedia&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wikipedia contributors, &amp;ldquo;Euclidean vector&amp;rdquo;, Wikipedia, The Free Encyclopedia, 15 May 2021, 06:42 UTC, url 
+&lt;a
+
+	
+	
+		href = "https://en.wikipedia.org/w/index.php?oldid=1023234748#Representations"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://en.wikipedia.org/w/index.php?oldid=1023234748#Representations &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20210522].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Dummies&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-, &amp;ldquo;How to Analyze Position, Velocity, and Acceleration with Differentiation&amp;rdquo;, Dummies, John Wiley &amp;amp; Sons, Inc., 2021, url 
+&lt;a
+
+	
+	
+		href = "https://www.dummies.com/education/math/calculus/how-to-analyze-position-velocity-and-acceleration-with-differentiation/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.dummies.com/education/math/calculus/how-to-analyze-position-velocity-and-acceleration-with-differentiation/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211012].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Sciencing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lee Johnson, &amp;ldquo;How to Find Acceleration With Velocity &amp;amp; Distance&amp;rdquo;, Sciencing, Leaf Group Media, 8 Dec 2020, url 
+&lt;a
+
+	
+	
+		href = "https://sciencing.com/acceleration-velocity-distance-7779124.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://sciencing.com/acceleration-velocity-distance-7779124.html &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211013].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;ThoughtCo&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Andrew Zimmerman Jones, &amp;ldquo;What Speed Actually Means in Physics&amp;rdquo;, ThoughtCo, 12 Feb 2020, url 
+&lt;a
+
+	
+	
+		href = "https://www.thoughtco.com/x-2699009"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.thoughtco.com/x-2699009 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211019].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;YouTube&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;CONCEPTREE Learning, &amp;ldquo;Motion in One Dimension-Connected Motion and Consecutive Motion&amp;rdquo;, YouTube, 07.11.2020, url 
+&lt;a
+
+	
+	
+		href = "https://www.youtube.com/watch?v=UBNXLTxViDs"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.youtube.com/watch?v=UBNXLTxViDs &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211014].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Q &amp;amp; A&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Sally, &amp;ldquo;How are acceleration, time and velocity related?&amp;rdquo;, Socratic Q&amp;amp;A, 10 Jun 2014, url 
+&lt;a
+
+	
+	
+		href = "https://socratic.org/answers/104812"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://socratic.org/answers/104812 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211013].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Online App&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ldquo;Graphing Calculator&amp;rdquo;, Desmos, 2021, url 
+&lt;a
+
+	
+	
+		href = "https://www.desmos.com/?lang=en"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.desmos.com/?lang=en &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211014].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;HathiTrust&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;J. Willard Gibbs, Edwin Bidwell Wilson, &amp;ldquo;Vector Analysis&amp;rdquo;, University Press, John Wilson and Son, Cambridge, Dec 1901, p. 125, url 
+&lt;a
+
+	
+	
+		href = "https://babel.hathitrust.org/cgi/pt?id=mdp.39015000962285&amp;amp;view=1up&amp;amp;seq=149"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://babel.hathitrust.org/cgi/pt?id=mdp.39015000962285&amp;view=1up&amp;seq=149 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211019].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;MIT OCW&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Deepto Chakrabarty, Peter Dourmashkin, Michelle Tomasik, Anna Frebel, Vladan Vuletic, &amp;ldquo;Constant Acceleration&amp;rdquo; in Classical Mechanics, MIT OpenCourseWare, Massachusetts Institute of Technology, 2016, url 
+&lt;a
+
+	
+	
+		href = "https://ocw.mit.edu/courses/physics/8-01sc-classical-mechanics-fall-2016/readings/MIT8_01F16_chapter4.5.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://ocw.mit.edu/courses/physics/8-01sc-classical-mechanics-fall-2016/readings/MIT8_01F16_chapter4.5.pdf &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211021].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Isaac Physics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lisa Jardine-Wright, Mark Warner (co-founders), &amp;ldquo;Crossing a River&amp;rdquo;, Isaac Physics, Department for Education, University of Cambridge, url 
+&lt;a
+
+	
+	
+		href = "https://isaacphysics.org/questions/boat_river?stage=all"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://isaacphysics.org/questions/boat_river?stage=all &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211022].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;ISBN&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Halliday, Robert Resnick, Jearl Walker, &amp;ldquo;Fundamentals of Physics&amp;rdquo;, Wiley, 10th Edition, Extended Version, Dec 2013, pp. 88-89, url 
+&lt;a
+
+	
+	
+		href = "https://isbnsearch.org/isbn/9781118230725"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://isbnsearch.org/isbn/9781118230725 &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Unpublished&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Mikrajuddin Abdullah, &amp;ldquo;Fisika Dasar I&amp;rdquo;, Fisika, Institut Teknologi Bandung, Mar 2016, p. 159, url 
+&lt;a
+
+	
+	
+		href = "https://fmipa.itb.ac.id/fisika-dasar-i/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://fmipa.itb.ac.id/fisika-dasar-i/ &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211022].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;The Physics Classroom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tom Henderson, &amp;ldquo;Introduction to Free Fall&amp;rdquo;, The Physics Classroom, 2021, url 
+&lt;a
+
+	
+	
+		href = "https://www.physicsclassroom.com/class/1DKin/Lesson-5/Introduction"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		&gt;
+	
+	
+	&lt;span&gt;
+		https://www.physicsclassroom.com/class/1DKin/Lesson-5/Introduction &lt;i class="fa fa-external-link" style="font-size:14px"&gt;&lt;/i&gt;
+	&lt;/span&gt;
+ 
+&lt;/a&gt;
+ [20211026].&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;{% comment %}
+#:~:text=
+{% endcomment %}&lt;/p&gt;</description></item></channel></rss>
