@@ -1,0 +1,3694 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Indices on butiran</title><link>https://dudung.github.io/butiran/index/</link><description>Recent content in Indices on butiran</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://dudung.github.io/butiran/index/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://dudung.github.io/butiran/idx00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dudung.github.io/butiran/idx00/</guid><description>&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/26a06/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.639"&gt;&lt;path fill="#fff" d="M115.612 0h280.775C459.974 0 512 52.026 512 115.612v278.415c0 63.587-52.026 115.613-115.613 115.613H115.612C52.026 509.64 0 457.614 0 394.027V115.612C0 52.026 52.026 0 115.612 0z"/&gt;&lt;path fill-rule="nonzero" d="M412.037 221.764a90.834 90.834 0 004.648-28.67 90.79 90.79 0 00-12.443-45.87c-16.37-28.496-46.738-46.089-79.605-46.089-6.466 0-12.943.683-19.264 2.04a90.765 90.765 0 00-67.881-30.515h-.576c-.059.002-.149.002-.216.002-39.807 0-75.108 25.686-87.346 63.554-25.626 5.239-47.748 21.31-60.682 44.03a91.873 91.873 0 00-12.407 46.077 91.833 91.833 0 0023.694 61.553 90.802 90.802 0 00-4.649 28.67 90.804 90.804 0 0012.442 45.87c16.369 28.504 46.74 46.087 79.61 46.087a91.81 91.81 0 0019.253-2.04 90.783 90.783 0 0067.887 30.516h.576l.234-.001c39.829 0 75.119-25.686 87.357-63.588 25.626-5.242 47.748-21.312 60.682-44.033a91.718 91.718 0 0012.383-46.035 91.83 91.83 0 00-23.693-61.553l-.004-.005zM275.102 413.161h-.094a68.146 68.146 0 01-43.611-15.8 56.936 56.936 0 002.155-1.221l72.54-41.901a11.799 11.799 0 005.962-10.251V241.651l30.661 17.704c.326.163.55.479.596.84v84.693c-.042 37.653-30.554 68.198-68.21 68.273h.001zm-146.689-62.649a68.128 68.128 0 01-9.152-34.085c0-3.904.341-7.817 1.005-11.663.539.323 1.48.897 2.155 1.285l72.54 41.901a11.832 11.832 0 0011.918-.002l88.563-51.137v35.408a1.1 1.1 0 01-.438.94l-73.33 42.339a68.43 68.43 0 01-34.11 9.12 68.359 68.359 0 01-59.15-34.11l-.001.004zm-19.083-158.36a68.044 68.044 0 0135.538-29.934c0 .625-.036 1.731-.036 2.5v83.801l-.001.07a11.79 11.79 0 005.954 10.242l88.564 51.13-30.661 17.704a1.096 1.096 0 01-1.034.093l-73.337-42.375a68.36 68.36 0 01-34.095-59.143 68.412 68.412 0 019.112-34.085l-.004-.003zm251.907 58.621l-88.563-51.137 30.661-17.697a1.097 1.097 0 011.034-.094l73.337 42.339c21.109 12.195 34.132 34.746 34.132 59.132 0 28.604-17.849 54.199-44.686 64.078v-86.308c.004-.032.004-.065.004-.096 0-4.219-2.261-8.119-5.919-10.217zm30.518-45.93c-.539-.331-1.48-.898-2.155-1.286l-72.54-41.901a11.842 11.842 0 00-5.958-1.611c-2.092 0-4.15.558-5.957 1.611l-88.564 51.137v-35.408l-.001-.061a1.1 1.1 0 01.44-.88l73.33-42.303a68.301 68.301 0 0134.108-9.129c37.704 0 68.281 30.577 68.281 68.281a68.69 68.69 0 01-.984 11.545v.005zm-191.843 63.109l-30.668-17.704a1.09 1.09 0 01-.596-.84v-84.692c.016-37.685 30.593-68.236 68.281-68.236a68.332 68.332 0 0143.689 15.804 63.09 63.09 0 00-2.155 1.222l-72.54 41.9a11.794 11.794 0 00-5.961 10.248v.068l-.05 102.23zm16.655-35.91l39.445-22.782 39.444 22.767v45.55l-39.444 22.767-39.445-22.767v-45.535z"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;6&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;chatgpt&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/idx02/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg"
+aria-label="JavaScript" role="img"
+viewBox="0 0 512 512"&gt;&lt;rect
+width="512" height="512"
+rx="15%"
+fill="#f7df1e"/&gt;&lt;path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;8&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;numlab&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/idx01/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt;
+&lt;radialGradient id="IconifyId17ecdb2904d178eab8626" cx="68.884" cy="124.296" r="70.587" gradientTransform="matrix(-1 -.00434 -.00713 1.6408 131.986 -79.345)" gradientUnits="userSpaceOnUse"&gt;
+&lt;stop offset=".314" stop-color="#0098ff"/&gt;
+&lt;stop offset=".662" stop-color="#006dff"/&gt;
+&lt;stop offset=".972" stop-color="#3643f4"/&gt;
+&lt;/radialGradient&gt;
+&lt;path d="M35.56 40.73c-.57 6.08-.97 16.84 2.62 21.42c0 0-1.69-11.82 13.46-26.65c6.1-5.97 7.51-14.09 5.38-20.18c-1.21-3.45-3.42-6.3-5.34-8.29c-1.12-1.17-.26-3.1 1.37-3.03c9.86.44 25.84 3.18 32.63 20.22c2.98 7.48 3.2 15.21 1.78 23.07c-.9 5.02-4.1 16.18 3.2 17.55c5.21.98 7.73-3.16 8.86-6.14c.47-1.24 2.1-1.55 2.98-.56c8.8 10.01 9.55 21.8 7.73 31.95c-3.52 19.62-23.39 33.9-43.13 33.9c-24.66 0-44.29-14.11-49.38-39.65c-2.05-10.31-1.01-30.71 14.89-45.11c1.18-1.08 3.11-.12 2.95 1.5z" fill="url(#IconifyId17ecdb2904d178eab8626)"/&gt;
+&lt;radialGradient id="IconifyId17ecdb2904d178eab8627" cx="64.921" cy="54.062" r="73.86" gradientTransform="matrix(-.0101 .9999 .7525 .0076 26.154 -11.267)" gradientUnits="userSpaceOnUse"&gt;
+&lt;stop offset=".214" stop-color="#fff176"/&gt;
+&lt;stop offset=".328" stop-color="#fff27d"/&gt;
+&lt;stop offset=".487" stop-color="#fff48f"/&gt;
+&lt;stop offset=".672" stop-color="#fff7ad"/&gt;
+&lt;stop offset=".793" stop-color="#fff9c4"/&gt;
+&lt;stop offset=".822" stop-color="#fff8bd" stop-opacity=".804"/&gt;
+&lt;stop offset=".863" stop-color="#fff6ab" stop-opacity=".529"/&gt;
+&lt;stop offset=".91" stop-color="#fff38d" stop-opacity=".209"/&gt;
+&lt;stop offset=".941" stop-color="#fff176" stop-opacity="0"/&gt;
+&lt;/radialGradient&gt;
+&lt;path d="M76.11 77.42c-9.09-11.7-5.02-25.05-2.79-30.37c.3-.7-.5-1.36-1.13-.93c-3.91 2.66-11.92 8.92-15.65 17.73c-5.05 11.91-4.69 17.74-1.7 24.86c1.8 4.29-.29 5.2-1.34 5.36c-1.02.16-1.96-.52-2.71-1.23a16.09 16.09 0 0 1-4.44-7.6c-.16-.62-.97-.79-1.34-.28c-2.8 3.87-4.25 10.08-4.32 14.47C40.47 113 51.68 124 65.24 124c17.09 0 29.54-18.9 19.72-34.7c-2.85-4.6-5.53-7.61-8.85-11.88z" fill="url(#IconifyId17ecdb2904d178eab8627)"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;24&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;zinking&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;</description></item><item><title/><link>https://dudung.github.io/butiran/idx01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dudung.github.io/butiran/idx01/</guid><description>&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href=""&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"&gt;
+ &lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" /&gt;
+&lt;/svg&gt;
+
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;n/a&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25k27/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" ?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 6.3499998 6.3499998" id="svg8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"&gt;&lt;defs id="defs2"/&gt;&lt;path d="m 0.76754147,2.1171874 a 0.26495279,0.26495279 0 0 0 0.0253906,0.5292969 H 5.556604 a 0.26464845,0.26464845 0 1 0 0,-0.5292969 H 0.7929321 a 0.26460978,0.26460978 0 0 0 -0.0253906,0 z" id="path1920" style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#00001d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:204.09448242;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"/&gt;&lt;path d="m 1.3984008,0.52929682 c -0.47658607,-1e-8 -0.86914057,0.39255453 -0.86914057,0.86914058 v 3.4218749 c 0,0.4765863 0.39255453,0.8691407 0.86914057,0.8691407 h 3.5546875 c 0.4765863,0 0.8671875,-0.3925544 0.8671875,-0.8691407 V 1.3984374 c 0,-0.47658603 -0.3906012,-0.86914059 -0.8671875,-0.86914058 z m 0,0.52929698 h 3.5546875 c 0.192581,0 0.3378907,0.1472627 0.3378907,0.3398436 v 3.4218749 c 0,0.192581 -0.1453097,0.3398438 -0.3378907,0.3398438 H 1.3984008 c -0.1925808,0 -0.3398437,-0.1472628 -0.3398437,-0.3398438 V 1.3984374 c 0,-0.1925809 0.1472629,-0.3398438 0.3398437,-0.3398436 z" id="rect1918" style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#00001d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:204.09448242;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"/&gt;&lt;path d="m 1.587854,1.3222655 a 0.26464847,0.26464847 0 1 0 0,0.5292969 h 0.5292969 a 0.26464845,0.26464845 0 1 0 0,-0.5292969 z" id="path1922" style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff2876;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:204.09448242;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;app-ux&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i11/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512.016 512.016" xml:space="preserve"&gt;
+&lt;rect x="59.336" y="28.656" style="fill:#F2B851;" width="218.672" height="49.136"/&gt;
+&lt;path style="fill:#25B6D2;" d="M326.36,142.784V72.096H89.912c-11.008,0-19.952-8.992-19.952-20.048S78.92,32,89.912,32h225.744V0
+	H89.912C61.272,0,37.96,23.344,37.96,52.048v251.664c0,22.672,6.384,40.064,18.976,51.696c13.632,12.608,29.76,13.824,35.088,13.824
+	c0.992,0,1.616-0.048,1.76-0.064h91.856v-32"/&gt;
+&lt;rect x="209.288" y="169.504" style="fill:#F2B851;" width="218.672" height="49.136"/&gt;
+&lt;path style="fill:#25B6D2;" d="M286.856,98.72c-1.504-1.392-36.368-34.448-2.944-90.992l27.536,16.288
+	c-19.488,32.992-4.464,49.584-2.704,51.376L286.856,98.72z"/&gt;
+&lt;path style="fill:#E04F5F;" d="M453.944,214.864c-3.68-5.712-8.544-18.912,1.216-40.096h8.192v-32H326.36h-32h-56.752
+	c-28.64,0-51.952,23.344-51.952,52.048v142.368v32v77.312c0,22.672,6.384,40.064,18.992,51.696
+	c13.616,12.608,29.744,13.824,35.072,13.824c0.992,0,1.616-0.048,1.76-0.064h232.576V214.864H453.944z M237.608,214.864
+	c-11.008,0-19.952-8.992-19.952-20.048s8.96-20.048,19.952-20.048h183.216c-4.88,16.128-4.192,29.584-1.312,40.096L237.608,214.864
+	L237.608,214.864z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;3&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;books&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h48/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="-1.26 0 70 70" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"&gt;
+ &lt;metadata&gt;
+ &lt;rdf:RDF&gt;
+ &lt;cc:Work&gt;
+ &lt;dc:subject&gt;
+ Code
+ &lt;/dc:subject&gt;
+ &lt;dc:identifier&gt;
+ script-file
+ &lt;/dc:identifier&gt;
+ &lt;dc:title&gt;
+ Script File
+ &lt;/dc:title&gt;
+ &lt;dc:format&gt;
+ image/svg+xml
+ &lt;/dc:format&gt;
+ &lt;dc:publisher&gt;
+ Amido Limited
+ &lt;/dc:publisher&gt;
+ &lt;dc:creator&gt;
+ Richard Slater
+ &lt;/dc:creator&gt;
+ &lt;dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/&gt;
+ &lt;/cc:Work&gt;
+ &lt;/rdf:RDF&gt;
+ &lt;/metadata&gt;
+ &lt;path d="m -107.17588,532.59561 c -3.1726,-0.83124 -5.7284,-3.33809 -6.6453,-6.51798 l -0.3166,-1.0982 0,-27.04305 c 0,-22.20209 0.033,-27.17821 0.1848,-27.79806 0.1017,-0.41526 0.4644,-1.34186 0.8062,-2.05912 0.5312,-1.11483 0.7932,-1.47372 1.8056,-2.47272 1.3547,-1.33667 2.56,-2.0244 4.3293,-2.47015 1.0631,-0.26782 1.5594,-0.27346 23.679799,-0.26872 l 22.594,0.005 7.0428,6.96184 7.0428,6.96184 -0.042,24.22893 -0.042,24.22892 -0.3245,0.96092 c -1.1182,3.31115 -3.4879,5.56776 -6.7131,6.39263 -1.0071,0.25756 -1.7749,0.26496 -26.7195,0.25763 -24.818299,-0.007 -25.716399,-0.0164 -26.682699,-0.26955 z m 52.727399,-5.81193 c 0.9128,-0.44823 1.6362,-1.31557 1.8702,-2.24254 0.099,-0.39302 0.1453,-7.522 0.1453,-22.47714 l 0,-21.90158 -5.5939,-0.0358 -5.5939,-0.0359 -0.036,-5.73121 -0.036,-5.7312 -20.9672,10e-4 -20.967099,0.001 -0.6864,0.32031 c -0.3775,0.17616 -0.9145,0.57341 -1.1934,0.88276 -1.0027,1.11235 -0.9343,-0.93979 -0.9343,28.03679 0,28.12625 -0.036,26.70391 0.7106,27.80828 0.4184,0.61872 1.2041,1.15672 2.0063,1.3738 0.5141,0.1391 5.743899,0.16956 25.561599,0.14889 l 24.9153,-0.026 0.7986,-0.39213 z m -33.7276,-11.18025 c -0.04,-0.0647 2.0556,-7.39758 4.6569,-16.29534 2.6012,-8.89775 4.7295,-16.19758 4.7295,-16.22185 0,-0.0243 0.8958,-0.0441 1.9905,-0.0441 1.0948,0 1.9892,0.0154 1.9875,0.0343 0,0.0189 -2.1522,7.35447 -4.7791,16.30133 l -4.7763,16.26701 -1.8681,0.0381 c -1.0275,0.021 -1.9009,-0.0148 -1.9409,-0.0795 z m -9.1389,-9.85149 c -3.431699,-2.22904 -6.319599,-4.11938 -6.417599,-4.20074 -0.1267,-0.10515 -0.1783,-0.59164 -0.1783,-1.68197 l 0,-1.53402 6.328499,-4.31765 c 3.4807,-2.3747 6.3841,-4.33824 6.4519,-4.3634 0.07,-0.0259 0.1234,0.96002 0.1234,2.27606 l 0,2.32182 -4.5921,2.79826 c -2.5256,1.53904 -4.579599,2.81004 -4.564299,2.82444 0.015,0.0144 2.035299,1.1787 4.489099,2.58732 2.4538,1.40863 4.5093,2.60823 4.5678,2.66579 0.058,0.0576 0.089,1.13341 0.069,2.39077 l -0.038,2.28612 -6.2393,-4.0528 z m 25.6947,1.43114 0.037,-2.35288 4.5088,-2.57636 4.5089,-2.57637 -0.7338,-0.46471 c -0.4036,-0.25559 -2.448,-1.50713 -4.5431,-2.78121 l -3.8094,-2.31649 0,-2.31053 c 0,-1.27079 0.032,-2.31053 0.07,-2.31053 0.038,0 2.911,1.92612 6.3832,4.28027 l 6.3132,4.28026 0,1.59505 0,1.59506 -5.9979,3.90548 c -3.2989,2.14801 -6.1728,4.01357 -6.3865,4.14567 l -0.3886,0.24018 0.038,-2.35289 z" fill="#00bcf2" transform="translate(114.138 -462.867)"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;26&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;butiran&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i37/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 48 48" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48"&gt;
+ &lt;path fill="#D50000" d="M24,6C14.1,6,6,14.1,6,24s8.1,18,18,18s18-8.1,18-18S33.9,6,24,6z M24,10c3.1,0,6,1.1,8.4,2.8L12.8,32.4 C11.1,30,10,27.1,10,24C10,16.3,16.3,10,24,10z M24,38c-3.1,0-6-1.1-8.4-2.8l19.6-19.6C36.9,18,38,20.9,38,24C38,31.7,31.7,38,24,38 z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;cancels&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i53/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"&gt;&lt;title&gt;ionicons-v5-j&lt;/title&gt;&lt;path d="M256,256s-48-96-126-96c-54.12,0-98,43-98,96s43.88,96,98,96c30,0,56.45-13.18,78-32" style="fill:none;stroke:#cc3333;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/&gt;&lt;path d="M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-29.37,0-56.66,13.75-78,32" style="fill:none;stroke:#3333cc;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;clogs&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h82/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 501.333 501.333" xml:space="preserve"&gt;
+&lt;path style="fill:#FEC656;" d="M402.133,337.067H22.4c-11.733,0-22.4-9.6-22.4-22.4V22.4C0,10.667,9.6,0,22.4,0h379.733
+	c11.733,0,22.4,9.6,22.4,22.4v292.267C423.467,327.467,413.867,337.067,402.133,337.067z M44.8,313.6h333.867
+	c11.733,0,22.4-9.6,22.4-22.4V45.867c0-11.733-9.6-22.4-22.4-22.4H44.8c-11.733,0-22.4,9.6-22.4,22.4v246.4
+	C23.467,304,33.067,313.6,44.8,313.6z"/&gt;
+&lt;g&gt;
+	&lt;rect x="0" y="371.2" style="fill:#637888;" width="360.533" height="23.467"/&gt;
+	&lt;path style="fill:#637888;" d="M23.467,35.2v266.667c0,6.4,5.333,11.733,11.733,11.733h158.933h194.133
+		c6.4,0,11.733-5.333,11.733-11.733V174.933V35.2c0-6.4-5.333-11.733-11.733-11.733H35.2C28.8,23.467,23.467,28.8,23.467,35.2z"/&gt;
+&lt;/g&gt;
+&lt;polygon style="fill:#F6F7F8;" points="151.467,276.267 117.333,153.6 139.733,147.2 173.867,269.867 "/&gt;
+&lt;path style="fill:#53C2EF;" d="M501.333,501.333c0-6.4,0-98.133-1.067-104.533c-7.467-46.933-40.533-84.267-84.267-98.133h-72.533
+	c-14.933,4.267-28.8,12.8-40.533,22.4l-68.267,25.6L184.533,268.8c-6.4-9.6-19.2-12.8-28.8-6.4c-9.6,6.4-12.8,19.2-6.4,28.8
+	l59.733,91.733c4.267,6.4,10.667,9.6,18.133,9.6c2.133,0,5.333,0,7.467-1.067l28.8-10.667c-1.067,4.267-2.133,9.6-3.2,13.867
+	c-1.067,6.4-2.133,99.2-2.133,106.667L501.333,501.333L501.333,501.333z"/&gt;
+&lt;ellipse style="fill:#F16D6E;" cx="379.733" cy="241.067" rx="66.133" ry="67.2"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;9&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;courses&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h49/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M190.171429 782.628571l277.942857-277.942857 160.914285 146.285715L870.4 365.714286v555.885714l-687.542857 7.314286z" fill="#F4B1B2" /&gt;&lt;path d="M870.4 928.914286c-14.628571 0-21.942857-7.314286-21.942857-21.942857V387.657143c0-14.628571 7.314286-21.942857 21.942857-21.942857 14.628571 0 21.942857 7.314286 21.942857 21.942857v519.314286c0 14.628571-7.314286 21.942857-21.942857 21.942857zM658.285714 928.914286h-14.628571c-7.314286 0-14.628571-7.314286-14.628572-14.628572V650.971429c0-7.314286 7.314286-14.628571 14.628572-14.628572H658.285714c7.314286 0 14.628571 7.314286 14.628572 14.628572v263.314285c0 7.314286-7.314286 14.628571-14.628572 14.628572zM424.228571 928.914286h-7.314285c-7.314286 0-14.628571-7.314286-14.628572-14.628572V614.4c0-7.314286 7.314286-14.628571 14.628572-14.628571h7.314285c7.314286-7.314286 14.628571 0 14.628572 14.628571v299.885714c0 7.314286-7.314286 14.628571-14.628572 14.628572zM182.857143 928.914286h-21.942857c-7.314286 0-7.314286-7.314286-7.314286-7.314286v-131.657143c0-7.314286 7.314286-7.314286 7.314286-7.314286h21.942857c7.314286 0 7.314286 7.314286 7.314286 7.314286v131.657143s0 7.314286-7.314286 7.314286zM190.171429 614.4l277.942857-256L585.142857 453.485714l219.428572-241.371428 65.828571 73.142857 58.514286-226.742857-241.371429 36.571428 73.142857 80.457143-182.857143 197.485714-109.714285-95.085714-314.514286 292.571429z" fill="#CB2A24" /&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;11&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;data&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j45/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"&gt;&lt;path fill="#292F33" d="M7.042 26c.33 0 .651.121.963.331c1.368-8.106 20.362-8.248 21.755-.29c1.666.412 3.08 4.378 3.748 9.959h-31c.793-5.899 2.522-10 4.534-10z"&gt;&lt;/path&gt;&lt;path fill="#E1E8ED" d="M7.043 23.688C10.966 12.533 6.508 3 17.508 3s8.736 8.173 13.193 19.125c1.119 2.75-1.443 5.908-1.443 5.908s-2.612-4.756-4.75-5.846c-.591 3.277-1.75 6.938-1.75 6.938s-2.581-2.965-5.587-5.587c-.879 1.009-2.065 2.183-3.663 3.462c-.349-1.048-.943-2.339-1.568-3.576c-1.468 2.238-3.182 4.951-3.182 4.951s-2.507-2.435-1.715-4.687z"&gt;&lt;/path&gt;&lt;path fill="#FFCC4D" d="M11.507 5c-4.36 3.059-5.542 2.16-7.812 3.562c-2.125 1.312-2 4.938-.125 8.062c.579-2.661-.5-3.149 6.938-3.149c5 0 7.928.289 7-1c-.927-1.289-10.027.459-6.001-7.475z"&gt;&lt;/path&gt;&lt;path fill="#292F33" d="M16.535 7.517a1.483 1.483 0 1 1-2.967 0c0-.157.031-.305.076-.446h2.816c.044.141.075.289.075.446z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;6&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;eagle-sch&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i70/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M794.22 896.466l-33.481 33.481a1.286 1.286 0 0 1-1.812 0L658.299 829.322a1.286 1.286 0 0 1 0-1.812l33.483-33.483a1.286 1.286 0 0 1 1.812 0L794.22 894.654a1.286 1.286 0 0 1 0 1.812zM229.779 896.466l33.482 33.482a1.286 1.286 0 0 0 1.812 0l100.626-100.626a1.286 1.286 0 0 0 0-1.812l-33.482-33.482a1.286 1.286 0 0 0-1.812 0L229.779 894.654a1.286 1.286 0 0 0 0 1.812z" fill="#152B3C" /&gt;&lt;path d="M913.056 140.623c-53.901-53.901-143.334-59.565-205.127-17.556l-0.387-0.128c-4.504 3.604-10.085 7.941-16.307 13.562-1.587 1.502-3.52 2.575-5.106 4.122-0.729 0.729-1.028 1.713-1.631 2.487-5.752 5.791-11.841 13.389-18.024 21.928 96.855 50.292 172.256 135.906 209.503 239.669 21.286-17.292 40.942-36.346 50.679-52.785 0.475-0.77 0.691-1.587 1.073-2.4C948.373 322.015 960 289.014 960 253.996c0-42.826-16.651-83.08-46.944-113.373z" fill="#FF3B30" /&gt;&lt;path d="M712.558 120.221c-1.536 0.966-3.125 1.827-4.628 2.849l-0.385-0.133c-4.506 3.604-10.086 7.941-16.309 13.562-1.585 1.502-3.52 2.577-5.106 4.123-0.731 0.726-1.028 1.716-1.63 2.487-5.753 5.792-11.844 13.391-18.026 21.927 96.855 50.293 172.256 135.906 209.503 239.669 19.601-15.922 37.455-33.25 47.821-48.748-38.915-102.174-114.797-186.192-211.24-235.736z" fill="#070707" /&gt;&lt;path d="M354.393 160.489c-5.063-6.652-10.125-12.572-14.848-17.379-0.598-0.774-0.941-1.758-1.67-2.487-1.592-1.547-3.476-2.62-5.11-4.122-6.179-5.621-11.755-9.958-16.304-13.562l-0.347 0.128c-61.837-42.01-151.225-36.346-205.122 17.556C80.694 170.916 64 211.17 64 253.996c0 35.018 11.632 68.019 32.272 95.527 0.387 0.813 0.646 1.63 1.072 2.4 8.239 13.907 23.69 29.696 41.114 44.672 39.478-103.419 117.234-187.83 215.935-236.106z" fill="#FF3B30" /&gt;&lt;path d="M100.185 356.021c8.654 12.882 22.508 27.029 38.272 40.573 39.479-103.421 117.236-187.83 215.936-236.103-5.063-6.653-10.125-12.574-14.85-17.381-0.595-0.771-0.939-1.761-1.669-2.487-1.592-1.547-3.476-2.621-5.11-4.123-6.179-5.621-11.755-9.958-16.304-13.562l-0.347 0.133c-1.508-1.027-3.102-1.887-4.641-2.854-96.466 49.548-172.371 133.595-211.287 235.804z" fill="#070707" /&gt;&lt;path d="M511.998 121.065c-215.682 0-391.194 175.509-391.194 391.191 0 134.665 68.401 253.617 172.252 323.998 0 0 31.396 19.107 37.936 22.437 54.156 28.457 115.693 44.757 181.006 44.757 65.356 0 126.85-16.301 181.093-44.757 0 0 30.221-17.091 37.892-22.437 103.851-70.381 172.214-189.333 172.214-323.998-0.001-215.682-175.474-391.191-391.199-391.191zM678.872 759.15c-5.848 4.076-28.875 17.1-28.875 17.1-41.335 21.685-88.196 34.107-137.999 34.107-49.771 0-96.664-12.422-137.931-34.107-4.984-2.539-28.909-17.1-28.909-17.1-79.138-53.632-131.262-144.275-131.262-246.893 0-164.357 133.747-298.099 298.102-298.099 164.389 0 298.105 133.742 298.105 298.099 0 102.618-52.093 193.26-131.231 246.893z" fill="#0DB14B" /&gt;&lt;path d="M492.522 215.145c-6.471-0.423-12.905-0.99-19.481-0.99-164.355 0-298.102 133.742-298.102 298.101 0 102.617 52.124 193.26 131.262 246.892 0 0 23.924 14.561 28.907 17.1 41.268 21.685 88.162 34.107 137.932 34.107 6.55 0 13.04-0.243 19.482-0.667-42.525-2.787-82.617-14.609-118.458-33.44-4.984-2.54-28.907-17.1-28.907-17.1-79.138-53.632-131.262-144.275-131.262-246.892 0.001-157.782 123.356-287 278.627-297.111z" fill="#070707" /&gt;&lt;path d="M511.998 121.064c-6.575 0-12.982 0.665-19.477 0.989C699.17 132.306 864.239 303.15 864.239 512.257c0 134.663-68.361 253.616-172.212 323.996-7.672 5.345-37.892 22.437-37.892 22.437-48.811 25.607-103.525 41.253-161.61 44.153 6.462 0.324 12.934 0.605 19.474 0.605 65.356 0 126.85-16.301 181.093-44.757 0 0 30.221-17.092 37.892-22.437 103.851-70.381 172.212-189.333 172.212-323.996-0.002-215.685-175.475-391.194-391.198-391.194z" fill="#070707" /&gt;&lt;path d="M374.067 776.253c41.267 21.682 88.162 34.105 137.931 34.105 49.803 0 96.664-12.423 137.999-34.105 0 0 23.028-13.029 28.875-17.102 79.137-53.63 131.231-144.276 131.231-246.895 0-164.356-133.716-298.101-298.105-298.101-164.355 0-298.102 133.745-298.102 298.101 0 102.618 52.126 193.264 131.262 246.895 0 0 23.925 14.559 28.909 17.102z" fill="#EEEEEE" /&gt;&lt;path d="M233.375 551.213c0-164.354 133.747-298.101 298.102-298.101 109.245 0 204.676 59.244 256.587 147.111C743.673 291.252 636.746 214.156 512 214.156c-164.357 0-298.102 133.747-298.102 298.101 0 55.409 15.302 107.263 41.746 151.755-14.296-34.821-22.269-72.883-22.269-112.799z" fill="#070707" /&gt;&lt;path d="M684.063 388.295c-8.583-8.583-22.486-8.583-31.069 0l-4.738 4.741c4.839 8.398 4.033 19.145-3.15 26.326L537.138 527.378c4.205 8.882 6.78 18.665 6.78 29.137 0 30.772-20.607 56.527-48.659 64.969 6.21 1.868 12.657 3.177 19.469 3.177 37.593 0 68.147-30.554 68.147-68.145 0-10.472-2.575-20.255-6.78-29.137l107.968-108.016c8.581-8.579 8.581-22.484 0-31.068zM497.744 272.002v219.716s-0.085 0.384-0.085 0.603c3.003 1.027 5.92 31.996 8.754 33.413l30.287-30.296V272.002c0-12.147-9.783-21.971-21.972-21.971-8.583 0-15.858 5.066-19.47 12.274 1.472 2.954 2.486 6.163 2.486 9.697z" fill="#070707" /&gt;&lt;path d="M664.583 419.364L556.615 527.375c4.205 8.886 6.78 18.668 6.78 29.14 0 37.593-30.554 68.147-68.147 68.147-37.548 0-68.102-30.554-68.102-68.147 0-29.869 19.44-55.057 46.302-64.196l-0.172-0.387v-219.93c0-12.147 9.869-21.973 21.971-21.973 12.19 0 21.973 9.826 21.973 21.973v219.714s-0.083 0.387-0.083 0.603a70.258 70.258 0 0 1 8.752 3.647l107.626-107.669c8.581-8.583 22.486-8.583 31.067 0 8.584 8.581 8.584 22.486 0.001 31.067z" fill="#152B3C" /&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;6&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;fenotes&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i22/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="M13 12C13 15.3137 10.3137 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6C10.3137 6 13 8.68629 13 12Z" fill="#0F0F0F"/&gt;
+&lt;path d="M23 12C23 14.7614 22.5523 17 22 17C21.4477 17 21 14.7614 21 12C21 9.23858 21.4477 7 22 7C22.5523 7 23 9.23858 23 12Z" fill="#0F0F0F"/&gt;
+&lt;path d="M17 18C18.6569 18 20 15.3137 20 12C20 8.68629 18.6569 6 17 6C15.3431 6 14 8.68629 14 12C14 15.3137 15.3431 18 17 18Z" fill="#0F0F0F"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;6&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;medium&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h55/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" ?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;defs&gt;
+&lt;style&gt;.cls-1{fill:#04009a;}.cls-2{fill:#77acf1;}&lt;/style&gt;
+&lt;/defs&gt;
+&lt;g data-name="37. Teamwork" id="_37._Teamwork"&gt;
+&lt;path class="cls-1" d="M25,26a5,5,0,1,1,5-5A5.006,5.006,0,0,1,25,26Zm0-8a3,3,0,1,0,3,3A3,3,0,0,0,25,18Z"/&gt;
+&lt;path class="cls-1" d="M22,32H20a1,1,0,0,1-.98-.8l-1-5a1,1,0,0,1,.533-1.091l3.6-1.8a1,1,0,1,1,.894,1.789L20.13,26.553,20.82,30H22a1,1,0,0,1,0,2Z"/&gt;
+&lt;path class="cls-1" d="M30,32H26a1,1,0,0,1,0-2h3.18l.69-3.447L26.953,25.1a1,1,0,1,1,.894-1.789l3.6,1.8A1,1,0,0,1,31.98,26.2l-1,5A1,1,0,0,1,30,32Z"/&gt;
+&lt;path class="cls-1" d="M7,26a5,5,0,1,1,5-5A5.006,5.006,0,0,1,7,26Zm0-8a3,3,0,1,0,3,3A3,3,0,0,0,7,18Z"/&gt;
+&lt;path class="cls-1" d="M4,32H2a1,1,0,0,1-.98-.8l-1-5a1,1,0,0,1,.533-1.091l3.6-1.8A1,1,0,1,1,5.047,25.1L2.13,26.553,2.82,30H4a1,1,0,0,1,0,2Z"/&gt;
+&lt;path class="cls-1" d="M12,32H8a1,1,0,0,1,0-2h3.18l.69-3.447L8.953,25.1a1,1,0,1,1,.894-1.789l3.6,1.8A1,1,0,0,1,13.98,26.2l-1,5A1,1,0,0,1,12,32Z"/&gt;
+&lt;path class="cls-2" d="M16.706,16H15.294A2.3,2.3,0,0,1,13,13.706a.294.294,0,0,0-.441-.255,2.294,2.294,0,0,1-3.135-.84l-.7-1.222a2.3,2.3,0,0,1,.84-3.134.295.295,0,0,0,0-.51,2.3,2.3,0,0,1-.84-3.134l.705-1.222a2.294,2.294,0,0,1,3.135-.84A.294.294,0,0,0,13,2.294,2.3,2.3,0,0,1,15.294,0h1.412A2.3,2.3,0,0,1,19,2.294a.284.284,0,0,0,.147.255.291.291,0,0,0,.294,0,2.294,2.294,0,0,1,3.135.84l.7,1.222a2.3,2.3,0,0,1-.84,3.134.295.295,0,0,0,0,.51,2.3,2.3,0,0,1,.84,3.134l-.7,1.222a2.294,2.294,0,0,1-3.135.84.288.288,0,0,0-.294,0,.284.284,0,0,0-.147.255A2.3,2.3,0,0,1,16.706,16Zm-4-4.592A2.3,2.3,0,0,1,15,13.706a.294.294,0,0,0,.294.294h1.412A.294.294,0,0,0,17,13.706a2.294,2.294,0,0,1,3.441-1.987.281.281,0,0,0,.224.029.285.285,0,0,0,.178-.137l.706-1.222a.293.293,0,0,0-.108-.4,2.295,2.295,0,0,1,0-3.974.293.293,0,0,0,.108-.4h0l-.706-1.222a.285.285,0,0,0-.178-.137.289.289,0,0,0-.224.029A2.294,2.294,0,0,1,17,2.294.294.294,0,0,0,16.706,2H15.294A.294.294,0,0,0,15,2.294a2.294,2.294,0,0,1-3.441,1.987.289.289,0,0,0-.224-.029.285.285,0,0,0-.178.137l-.706,1.222a.293.293,0,0,0,.108.4,2.295,2.295,0,0,1,0,3.974.293.293,0,0,0-.108.4l.706,1.222a.285.285,0,0,0,.178.137.28.28,0,0,0,.224-.029A2.292,2.292,0,0,1,12.706,11.408Z"/&gt;
+&lt;path class="cls-2" d="M16,10a2,2,0,1,1,2-2A2,2,0,0,1,16,10Zm0-2h0Zm0,0h0Zm0,0h0Zm0,0h0Zm0,0h0Zm0,0h0Zm0,0h0Zm0,0h0Z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;5&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;meetups&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i26/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg width="100%" height="100%" viewBox="0 0 491 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"&gt;
+ &lt;path d="M490.16,84.61C490.16,37.912 452.248,0 405.55,0L84.61,0C37.912,0 0,37.912 0,84.61L0,405.55C0,452.248 37.912,490.16 84.61,490.16L405.55,490.16C452.248,490.16 490.16,452.248 490.16,405.55L490.16,84.61Z" style="fill:rgb(255,54,112);"/&gt;
+ &lt;path d="M407.48,111.18C335.587,108.103 269.573,152.338 245.08,220C220.587,152.338 154.573,108.103 82.68,111.18C80.285,168.229 107.577,222.632 154.74,254.82C178.908,271.419 193.35,298.951 193.27,328.27L193.27,379.13L296.9,379.13L296.9,328.27C296.816,298.953 311.255,271.42 335.42,254.82C382.596,222.644 409.892,168.233 407.48,111.18Z" style="fill:white;fill-rule:nonzero;"/&gt;
+&lt;/svg&gt;
+
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;mermaid&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j31/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;path style="fill:#D8D8DA;" d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z
+	 M256,336.842c-44.648,0-80.842-36.194-80.842-80.842s36.194-80.842,80.842-80.842s80.842,36.194,80.842,80.842
+	S300.648,336.842,256,336.842z"/&gt;
+&lt;path style="fill:#D4B6E6;" d="M282.947,188.632h220.076C485.09,122.726,441.507,67.394,383.64,34.044L229.053,188.632H282.947z"/&gt;
+&lt;path style="fill:#EBAFD1;" d="M229.053,188.632L383.639,34.044C346.068,12.39,302.482,0,256,0c-23.319,0-45.899,3.135-67.368,8.978
+	v220.075L229.053,188.632z"/&gt;
+&lt;path style="fill:#E07188;" d="M188.632,229.053V8.978C122.726,26.91,67.394,70.493,34.045,128.36l154.586,154.588V229.053z"/&gt;
+&lt;g&gt;
+	&lt;polygon style="fill:#D8D8DA;" points="188.632,229.053 229.053,188.633 282.947,188.633 282.947,188.632 229.053,188.632 	"/&gt;
+	&lt;polygon style="fill:#D8D8DA;" points="229.053,323.367 188.632,282.947 229.053,323.368 282.947,323.368 323.368,282.947 
+		282.947,323.367 	"/&gt;
+&lt;/g&gt;
+&lt;path style="fill:#B4D8F1;" d="M503.024,188.632H282.947v0.001h0.958l39.463,40.42L477.955,383.64
+	C499.611,346.068,512,302.482,512,256C512,232.681,508.865,210.099,503.024,188.632z"/&gt;
+&lt;path style="fill:#ACFFF4;" d="M323.368,282.947v220.075c65.905-17.932,121.238-61.517,154.586-119.382L323.368,229.053V282.947z"/&gt;
+&lt;path style="fill:#95D5A7;" d="M282.947,323.368L128.361,477.956C165.932,499.61,209.518,512,256,512
+	c23.319,0,45.899-3.135,67.368-8.977V282.947L282.947,323.368z"/&gt;
+&lt;path style="fill:#F8E99B;" d="M229.053,323.368H8.976C26.91,389.274,70.493,444.606,128.36,477.956l154.588-154.588H229.053z"/&gt;
+&lt;path style="fill:#EFC27B;" d="M188.632,282.947L34.045,128.36C12.389,165.932,0,209.518,0,256c0,23.319,3.135,45.901,8.976,67.368
+	h220.076L188.632,282.947z"/&gt;
+&lt;polygon style="fill:#D8D8DA;" points="283.905,188.633 282.947,188.633 323.368,229.053 "/&gt;
+&lt;path style="fill:#B681D5;" d="M503.024,188.632C485.09,122.726,441.507,67.394,383.64,34.044L256,161.684v26.947h26.947H503.024z"
+	/&gt;
+&lt;path style="fill:#E592BF;" d="M383.639,34.044C346.068,12.39,302.482,0,256,0v161.684L383.639,34.044z"/&gt;
+&lt;path style="fill:#80CB93;" d="M256,350.316V512c23.319,0,45.899-3.135,67.368-8.977V282.947l-40.421,40.421L256,350.316z"/&gt;
+&lt;polygon style="fill:#F6E27D;" points="282.947,323.368 256,323.368 256,350.316 "/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;12&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;misc&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h62/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 390.271 390.271" xml:space="preserve"&gt;
+&lt;path style="fill:#56ACE0;" d="M289.972,126.836v53.139h-4.848c-53.139,0-97.034,39.564-104.081,90.505H21.689V126.836H289.972z"/&gt;
+&lt;g&gt;
+	&lt;path style="fill:#FFC10D;" d="M289.972,55.273h-42.796v22.756c0,5.947-4.848,10.861-10.861,10.861
+		c-5.947,0-10.861-4.848-10.861-10.861V55.273H66.166v22.756c0,5.947-4.848,10.861-10.861,10.861S44.444,84.04,44.444,78.028V55.273
+		H21.689v49.842h268.283V55.273z"/&gt;
+	&lt;path style="fill:#FFC10D;" d="M368.582,284.509c0,46.61-37.366,83.976-83.976,83.976c-46.093,0-84.04-37.366-84.04-83.976
+		c0-46.093,37.366-84.04,84.04-84.04S368.582,238.481,368.582,284.509z"/&gt;
+&lt;/g&gt;
+&lt;g&gt;
+	&lt;path style="fill:#194F82;" d="M311.628,182.626V44.412c0-5.947-4.849-10.861-10.861-10.861h-53.657V10.861
+		C247.111,4.913,242.263,0,236.251,0c-5.947,0-10.861,4.848-10.861,10.861v22.756H66.166V10.861C66.166,4.913,61.317,0,55.305,0
+		S44.444,4.848,44.444,10.861v22.756H10.893c-5.947,0-10.861,4.848-10.861,10.861V280.76c0,5.948,4.848,10.861,10.861,10.861
+		h168.533c3.232,54.756,49.325,98.651,105.115,98.651c57.988,0,105.697-47.127,105.697-105.697
+		C390.238,235.766,356.622,194.586,311.628,182.626z M284.541,368.549c-46.093,0-83.976-37.366-83.976-83.976
+		c0-46.093,37.366-83.976,83.976-83.976s83.976,37.947,83.976,83.976C368.582,331.119,331.152,368.549,284.541,368.549z
+		 M21.689,55.273h22.756v22.756c0,5.947,4.848,10.861,10.861,10.861s10.861-4.848,10.861-10.861V55.273h159.354v22.756
+		c0,5.947,4.848,10.861,10.861,10.861c5.947,0,10.861-4.848,10.861-10.861V55.273h42.796v49.842H21.754V55.273H21.689z
+		 M21.689,126.836h268.283v53.139c-1.616,0-3.232,0-4.848,0c-53.139,0-97.034,39.564-104.081,90.505H21.689V126.836z"/&gt;
+	&lt;path style="fill:#194F82;" d="M91.055,151.725H67.782c-5.947,0-10.861,4.848-10.861,10.861s4.848,10.861,10.861,10.861h23.273
+		c5.947,0,10.861-4.848,10.861-10.861S97.067,151.725,91.055,151.725z"/&gt;
+	&lt;path style="fill:#194F82;" d="M167.467,151.725h-23.273c-5.947,0-10.861,4.848-10.861,10.861s4.848,10.861,10.861,10.861h23.273
+		c5.947,0,10.861-4.848,10.861-10.861S173.479,151.725,167.467,151.725z"/&gt;
+	&lt;path style="fill:#194F82;" d="M220.606,173.446h23.273c5.947,0,10.861-4.848,10.861-10.861c0-6.012-4.848-10.861-10.861-10.861
+		h-23.273c-5.947,0-10.861,4.848-10.861,10.861C209.745,168.598,214.659,173.446,220.606,173.446z"/&gt;
+	&lt;path style="fill:#194F82;" d="M91.055,215.143H67.782c-5.947,0-10.861,4.848-10.861,10.861c0,5.947,4.848,10.861,10.861,10.861
+		h23.273c5.947,0,10.861-4.848,10.861-10.861C101.915,220.057,97.067,215.143,91.055,215.143z"/&gt;
+	&lt;path style="fill:#194F82;" d="M167.467,215.143h-23.273c-5.947,0-10.861,4.848-10.861,10.861c0,5.947,4.848,10.861,10.861,10.861
+		h23.273c5.947,0,10.861-4.848,10.861-10.861C178.327,220.057,173.479,215.143,167.467,215.143z"/&gt;
+	&lt;path style="fill:#194F82;" d="M322.489,276.428h-27.087v-53.657c0-5.947-4.848-10.861-10.861-10.861
+		c-5.947,0-10.861,4.848-10.861,10.861v64.517c0,5.947,4.848,10.861,10.861,10.861h37.947c5.947,0,10.861-4.848,10.861-10.861
+		S328.436,276.428,322.489,276.428z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;140&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;notes&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i28/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ width="256"
+ height="256"
+ viewBox="0 0 67.733331 67.733336"
+ version="1.1"
+ id="svg916"
+ inkscape:version="1.0 (4035a4f, 2020-05-01)"
+ sodipodi:docname="scopus.svg"&gt;
+ &lt;defs
+ id="defs910" /&gt;
+ &lt;sodipodi:namedview
+ units="px"
+ fit-margin-bottom="0"
+ fit-margin-right="0"
+ fit-margin-left="0"
+ fit-margin-top="0"
+ id="base"
+ pagecolor="#ffffff"
+ bordercolor="#666666"
+ borderopacity="1.0"
+ inkscape:pageopacity="0.0"
+ inkscape:pageshadow="2"
+ inkscape:zoom="0.24748737"
+ inkscape:cx="-252.70524"
+ inkscape:cy="611.36858"
+ inkscape:document-units="mm"
+ inkscape:current-layer="layer1"
+ inkscape:document-rotation="0"
+ showgrid="false"
+ inkscape:window-width="1252"
+ inkscape:window-height="855"
+ inkscape:window-x="2108"
+ inkscape:window-y="0"
+ inkscape:window-maximized="0" /&gt;
+ &lt;metadata
+ id="metadata913"&gt;
+ &lt;rdf:RDF&gt;
+ &lt;cc:Work
+ rdf:about=""&gt;
+ &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+ &lt;dc:type
+ rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+ &lt;dc:title&gt;&lt;/dc:title&gt;
+ &lt;/cc:Work&gt;
+ &lt;/rdf:RDF&gt;
+ &lt;/metadata&gt;
+ &lt;g
+ transform="translate(-131.72469,-63.613396)"
+ inkscape:label="Layer 1"
+ inkscape:groupmode="layer"
+ id="layer1"&gt;
+ &lt;rect
+ style="opacity:0.999;fill:#e9711c;fill-opacity:1;stroke-width:0.399999;stroke-linecap:square"
+ id="rect1609"
+ width="67.73333"
+ height="67.73333"
+ x="131.72469"
+ y="63.613396" /&gt;
+ &lt;g
+ transform="matrix(8.0000004,0,0,8.0000004,-922.07286,-445.2938)"
+ style="font-style:normal;font-weight:normal;font-size:5.69722px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14243"
+ id="text874"
+ aria-label="SC"&gt;
+ &lt;path
+ id="path2345"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NexusSans;-inkscape-font-specification:NexusSans;fill:#ffffff;stroke-width:0.14243"
+ d="m 135.36567,68.642465 c 0,-0.541236 -0.47857,-0.786216 -0.94004,-1.059683 -0.35893,-0.216494 -0.74064,-0.364622 -0.74064,-0.763427 0,-0.296256 0.21649,-0.620997 0.64378,-0.620997 0.37032,0 0.6267,0.05697 0.95144,0.250678 l 0.0285,-0.450081 c -0.30196,-0.125339 -0.51845,-0.182311 -1.00841,-0.182311 -0.70076,0 -1.12805,0.455778 -1.12805,1.036894 0,0.581117 0.51275,0.831794 0.97992,1.116655 0.34753,0.210797 0.71215,0.353228 0.71215,0.729244 0,0.364622 -0.32474,0.626695 -0.71215,0.626695 -0.38171,0 -0.63239,-0.08546 -0.92295,-0.262073 l -0.0684,0.450081 c 0.29626,0.136733 0.59821,0.199403 1.01411,0.199403 0.58112,0 1.19072,-0.358925 1.19072,-1.071078 z" /&gt;
+ &lt;path
+ id="path2347"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NexusSans;-inkscape-font-specification:NexusSans;fill:#ffffff;stroke-width:0.14243"
+ d="m 139.01082,69.485654 -0.0342,-0.432989 c -0.34753,0.188008 -0.71785,0.262072 -1.08817,0.262072 -0.80901,0 -1.45279,-0.677969 -1.45279,-1.57813 0,-0.951435 0.63239,-1.538249 1.37303,-1.538249 0.46717,0 0.82609,0.07406 1.16793,0.262072 l 0.0342,-0.427292 c -0.31335,-0.148127 -0.56972,-0.216494 -1.14514,-0.216494 -1.10526,0 -1.94275,0.86028 -1.94275,1.954147 0,1.247691 0.99701,1.931357 1.92566,1.931357 0.46717,0 0.85458,-0.06267 1.16223,-0.216494 z" /&gt;
+ &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;
+
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;7&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;outlets&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i03/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"&gt;
+&lt;path d="M23.36 116.32v-7.42c7.4-1.9 67.86 0 81.28 0v7.42c0 4.24-18.2 7.68-40.64 7.68s-40.64-3.44-40.64-7.68z" fill="#8b5738"&gt;
+&lt;/path&gt;
+&lt;ellipse cx="64" cy="108.48" rx="40.64" ry="7.68" fill="#ffb17a"&gt;
+&lt;/ellipse&gt;
+&lt;ellipse cx="64" cy="108.48" rx="40.64" ry="7.68" fill="#cc8552"&gt;
+&lt;/ellipse&gt;
+&lt;path d="M69.96 65.49c-.75-.31-1.07-.92-1.07-1.73c0-.81.25-1.39.98-1.64c4.61-1.86 27.77-10.73 27.77-38.36l-.18-4.82l-66.98-.08l-.12 5.07c0 26.79 23.08 36.25 27.68 38.11c.75.31 1.22.82 1.22 1.73s-.39 1.39-1.13 1.64c-4.61 1.86-27.77 10.73-27.77 38.36a6.95 6.95 0 0 0 5.34 6.5c5.04 1.19 14.38 2.57 30.53 2.57c13.91 0 21.7-1.01 26.03-2.03c3.08-.73 5.29-3.44 5.36-6.6l.01-.61c.01-26.79-23.06-36.25-27.67-38.11z" opacity=".75" fill="#81d4fa"&gt;
+&lt;/path&gt;
+&lt;path d="M97.46 18.94l-66.98-.08l-.11 4.52S37.62 27.1 64 27.1s33.63-3.72 33.63-3.72l-.17-4.44z" opacity=".39" fill="#1d44b3"&gt;
+&lt;/path&gt;
+&lt;path d="M23.36 17.94v-7.87c7.18-.96 70.91 0 81.28 0v7.87c0 3.36-18.2 6.08-40.64 6.08s-40.64-2.72-40.64-6.08z" fill="#8b5738"&gt;
+&lt;/path&gt;
+&lt;ellipse cx="64" cy="10.08" rx="40.64" ry="6.08" fill="#cc8552"&gt;
+&lt;/ellipse&gt;
+&lt;g&gt;
+&lt;path d="M90.59 108.57c.92-.27 1.42-1.31.97-2.16c-3.14-5.94-16.54-6.11-21.61-17.27c-3.38-7.45-3.57-17.81-3.67-22.24c-.14-5.99 2.85-7.28 2.85-7.28c14.16-5.7 24.57-18.86 25.17-30.61c.06-1.17-22.18 9.17-29.83 10.66c-14.14 2.76-28.23-.87-28.31-.37c5.24 11.47 15.79 17.46 22.86 20.32c1.68.69 4.46 3.3 4.37 11.14c-.07 5.61-.77 20.4-10.44 26.69c-3.64 2.37-11.69 5.84-13.19 9.61c-.33.83.14 1.77 1.01 1.99c2.76.7 11.18 1.93 24.27 1.93c10.29.01 20.45-.93 25.55-2.41z" fill="#ffca28"&gt;
+&lt;/path&gt;
+&lt;path d="M42.37 43.29c5.36 2.77 17.12 6.72 22.92 4.72s28.23-16.01 29-19c.96-3.7-26 5.71-35.49 7.91c-6.43 1.49-18.71.72-21.47 1.3c-2.75.57.11 2.52 5.04 5.07z" fill="#e2a610"&gt;
+&lt;/path&gt;
+&lt;/g&gt;
+&lt;g opacity=".6"&gt;
+&lt;path d="M45.79 37.66c1.26 2.94 3.56 9.61.56 10.75c-3 1.15-7.39-3.11-9.47-7.39s-1.89-9.96 1.25-10.05c3.14-.09 5.99 2.8 7.66 6.69z" fill="#ffffff"&gt;
+&lt;/path&gt;
+&lt;/g&gt;
+&lt;g opacity=".6"&gt;
+&lt;path d="M42.9 80.6c-3.13 3.66-5.48 8.58-4.59 13.33c.94 5.01 5.6 3.63 7.22 2.36c5.16-4.05 3.75-9.24 7.74-15.07c.68-1 3.52-4.13 3.12-6.1c-.24-1.17-2.96-1.77-7.91.71c-2.18 1.1-3.97 2.9-5.58 4.77z" fill="#ffffff"&gt;
+&lt;/path&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;4&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;overloads&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j63/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"&gt;&lt;path d="M77.01 40.42l-57.2 61.21s18.24 21.91 47.37 20.59c20.04-.91 32.06-8.38 41.9-19.68c12.02-13.81 14.73-34.07 14.03-43.36c-.91-12.02-9.11-27.69-15.49-32.43S77.01 40.42 77.01 40.42z" fill="#d7ccc6"&gt;&lt;/path&gt;&lt;path d="M25.09 20.93C6.13 37.8-6.4 76.1 19.81 101.63c14.03 13.66 59.93 14.35 81.79-14.25c10.27-13.43 18.51-34.44 12.94-51.15c-2.19-6.56-8.07-11.27-13.3-15.67C76.1-.57 48.23.34 25.09 20.93z" fill="#f1edec"&gt;&lt;/path&gt;&lt;path d="M69.67 124.09l-3.89-.32c.08-.37 8.18-36.77-15.5-60.63c-10.52-10.6-20.21-15.5-28.81-14.55c-8.96.98-14.92 9.28-14.96 9.36l-1.84-3.73c.23-.36 5.51-8.41 16.37-9.6c9.88-1.07 20.67 4.21 32.09 15.71c25.24 25.45 16.9 62.18 16.54 63.76z" fill="#979892"&gt;&lt;/path&gt;&lt;path d="M122 60.81c-.27-.18-26.56-18.79-40.13-30.37C69.67 20.04 53.5 5.51 53.35 5.36l2.81-1.76c.15.14 15.72 13.95 27.88 24.32c13.45 11.47 38.66 29.54 38.93 29.72l-.97 3.17z" fill="#979892"&gt;&lt;/path&gt;&lt;path d="M68.35 16.25c-.5.53-1.79 4.39-2.29 6.54c-.29 1.23-.11 3.14 1.43 3.39c1.72.29 2.37-.7 2.9-2.17c.53-1.47 1.47-4.13 1.47-4.13s2.74-.91 4.09-1.31c1.8-.53 2.33-1.27 2.37-2.21c.04-.94-.94-2.7-3.97-2c-1.87.44-5.27 1.11-6 1.89z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M59.51 8.79c-.43.35-2.49 5.36-2.82 5.99c-.34.63-.55 2.24.63 2.92c1.18.68 2.47-.49 2.92-1.49c.44-1 1.73-3.97 1.73-3.97s3.15-.17 4.28-.33c1.38-.19 2.43-.57 2.35-2.16c-.08-1.59-2.65-1.47-5.3-1.3c-1.67.1-3.5.1-3.79.34z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M53.34 3.01c-.72.33-3.52 3.19-3.89 3.68c-.37.49-.65 1.55.29 2.29s2.25.12 2.94-.37c.7-.49 2-2.09 2-2.09s2.7.04 3.48.08c.78.04 1.8-.57 1.8-1.8s-1.43-1.72-2.62-1.76c-1.18-.03-3.55-.24-4-.03z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M79.66 25.66c-.66.52-2.28 6.33-2.62 7.5c-.34 1.17-.89 3.67.84 4.21c1.82.57 3.04-.24 3.58-2.3c.5-1.9 1.64-5.87 1.64-5.87s4.37-1.61 5.33-1.98c.96-.37 2.07-1.59 1.4-3.09c-.67-1.5-2.58-1.31-3.52-.97c.01.01-6.01 2-6.65 2.5z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M90.94 35.34c-.46.6-2 5.97-2.25 7.08c-.25 1.1-.24 2.86 1.51 3.31c1.43.37 2.58-.37 2.9-1.72c.54-2.24 1.72-5.48 1.72-5.48s3.11-1.76 4.29-2.37c1.19-.61 1.72-2.29.98-3.48s-2.41-1.02-4.05-.45c-1.63.58-4.69 2.58-5.1 3.11z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M102.13 43.78c-.58.87-.74 6.01-.74 6.79s.57 2.82 2.41 2.82c1.64 0 2.33-1.76 2.33-2.66c0-.9.2-4.38.2-4.38s2.11-1.12 2.86-1.64c1.02-.7 2.17-2 1.43-3.39s-2.7-.98-3.97-.45c-.89.39-4.11 2.3-4.52 2.91z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M112.37 52.09c-.36.87-.38 5.72-.3 7.03c.08 1.31 1.19 2.45 2.62 2.41s2.09-1.39 2.04-2.45s.08-4.54.08-4.54s1.9-1.32 2.41-1.68c.78-.53.94-1.8.25-2.78c-.7-.98-2.13-1.27-3.48-.49s-3.48 2.15-3.62 2.5z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M119.96 57.52c-.65 1.12-.04 6.22-.04 6.71c0 .49.16 2.17 1.84 2.17c1.47 0 1.96-.9 2-1.72c.04-.82-.08-5.44-.08-5.44s1.43-.45.82-2.33c-.61-1.87-3.86-.55-4.54.61z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M62.64 121.41c-.56.99-.44 2.29 1.67 3.35c2.12 1.06 2.55 1.12 3 1.15c.79.04 2.6-.57 3.79-1.23c.95-.53 2.12-1.32 1.28-2.86c-.78-1.44-5.02.26-5.02.26s-3.75-2.38-4.72-.67z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M62.37 112.38c-1.17 1.08-.4 2.69 1.98 4.23c2.12 1.37 3.31 2.38 4.23 2.38s4.39-1.75 5.29-2.25c1.37-.75 1.81-2.25.75-3.31s-2.56.04-3.31.44s-2.47 1.23-2.47 1.23s-2.25-1.63-3-2.16s-2.32-1.62-3.47-.56z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M61.23 101.3c-.96 1.44-.4 2.95 1.89 4.23c2.29 1.28 5.16 2.42 6.08 2.56s4.54-3 5.24-3.66s2.64-2.73 1.41-4.14c-1.47-1.68-3.04-.4-4.45.57c-1.08.74-2.34 1.67-2.34 1.67s-2.42-.66-3.83-1.32c-1.4-.66-3.12-1.23-4 .09z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M66.94 89.55s2.51-2.6 3.44-3.48s2.51-1.76 3.7-.35s-.04 3.53-1.15 4.54s-3.92 4.32-4.72 4.45s-6.65-.93-8.33-1.81c-.99-.52-2.56-1.5-1.67-3.48c.73-1.64 2.38-1.45 3.61-1.19s5.12 1.32 5.12 1.32z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M60.96 75.41s2.12-4.32 2.82-5.86c.71-1.54 1.59-2.95 3.57-2.25s1.38 2.57.71 4.36c-.79 2.12-3 7.71-3.97 8.2c-1.18.59-7.4.79-9.56.75c-.97-.02-2.07-.71-2.03-2.03s.86-2.24 3-2.6c1.32-.22 5.46-.57 5.46-.57z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M51.18 61.13c-.22.13-4.77 1.96-5.91 2.29c-1.67.48-2.25 2.16-1.89 3.35s1.98 1.81 3.88 1.23c1.89-.57 7.62-2.03 8.15-2.86s1.41-6.74 1.59-8.28s.22-3.48-1.81-3.79s-2.86 1.06-3.04 2.51c-.11.89-.97 5.55-.97 5.55z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M38.92 51.24s.35-4.01.48-5.2s.57-2.78 2.64-2.64s1.85 2.82 1.85 4.54s-.4 6.21-.66 6.43s-3.04 2.38-4.49 3.35s-3.79 1.62-4.67.3c-.88-1.32.4-3.38 1.81-4.44s3.04-2.34 3.04-2.34z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M26.25 37.75c-2.04.51-1.94 2.64-1.32 4.8s.97 3.92.97 3.92s-1.45 2.25-2.07 3.04s-2.56 3.13-.53 4.8s4.01-1.28 4.76-2.16c.73-.85 3.13-4.05 3.13-4.49c0-1.28-1.32-5.99-1.63-7.01s-1.02-3.47-3.31-2.9z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M11.61 41.12c-.91.62-1.37 2.51-.22 4.14c.94 1.34 1.63 2.73 1.63 2.73s-1.23 3.57-1.72 4.72s-1.06 3.66.97 4.45s3.44-1.41 3.97-3.04c.53-1.63 1.94-5.29 1.98-6.39c.03-.73-1.89-4.32-2.73-5.55c-.84-1.23-2.51-1.98-3.88-1.06z" fill="#ed520a"&gt;&lt;/path&gt;&lt;path d="M8.26 53.68c.23 1.05-.35 4.01-.93 6.52c-.17.74-.42 2.4-2.51 1.89c-1.81-.44-1.06-2.73-.84-3.88c.13-.68.66-2.86.66-2.86s-.96-.52-.93-1.63c.04-1.45.79-1.94 1.98-2.03s2.39 1.2 2.57 1.99z" fill="#ed520a"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;8&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;pitching&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h52/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;path style="fill:#64C37D;" d="M381.06,130.935l-108.598-108.6c-0.545-0.545-1.117-1.058-1.713-1.547
+	c-0.259-0.213-0.538-0.402-0.807-0.604c-0.34-0.254-0.673-0.517-1.021-0.751c-0.326-0.217-0.669-0.408-1.004-0.61
+	c-0.315-0.189-0.625-0.388-0.948-0.56c-0.343-0.183-0.698-0.34-1.052-0.507c-0.337-0.158-0.67-0.327-1.01-0.469
+	c-0.341-0.141-0.694-0.256-1.043-0.382c-0.369-0.133-0.735-0.275-1.109-0.388c-0.346-0.106-0.703-0.183-1.057-0.272
+	c-0.383-0.096-0.763-0.203-1.15-0.281c-0.41-0.082-0.83-0.132-1.246-0.191c-0.337-0.048-0.669-0.112-1.005-0.146
+	c-0.756-0.073-1.522-0.115-2.298-0.115c-0.776,0-1.542,0.042-2.299,0.116c-0.327,0.033-0.653,0.095-0.981,0.141
+	c-0.425,0.061-0.853,0.112-1.271,0.194c-0.375,0.074-0.745,0.18-1.117,0.273c-0.365,0.092-0.735,0.172-1.092,0.281
+	c-0.362,0.11-0.717,0.248-1.072,0.375c-0.36,0.129-0.726,0.248-1.075,0.394c-0.33,0.137-0.652,0.301-0.977,0.453
+	c-0.365,0.172-0.734,0.335-1.088,0.524c-0.306,0.163-0.602,0.355-0.901,0.534c-0.354,0.209-0.711,0.411-1.052,0.638
+	c-0.324,0.219-0.636,0.465-0.954,0.703c-0.292,0.217-0.591,0.422-0.874,0.652c-0.557,0.458-1.098,0.948-1.621,1.466
+	c-0.028,0.025-0.054,0.047-0.081,0.071L130.935,130.934c-9.087,9.089-9.089,23.824,0,32.912c9.087,9.089,23.824,9.087,32.912,0.002
+	l68.88-68.876v285.147c0,12.853,10.42,23.273,23.273,23.273c12.853,0,23.273-10.42,23.273-23.273V94.973l68.875,68.875
+	c4.544,4.544,10.501,6.817,16.455,6.817c5.956,0,11.913-2.273,16.457-6.817C390.149,154.759,390.149,140.023,381.06,130.935z"/&gt;
+&lt;path style="fill:#A9A8AE;" d="M488.727,248.242c-12.853,0-23.273,10.42-23.273,23.273v178.424H46.545V271.515
+	c0-12.853-10.42-23.273-23.273-23.273S0,258.662,0,271.515v201.697c0,12.853,10.42,23.273,23.273,23.273h465.455
+	c12.853,0,23.273-10.42,23.273-23.273V271.515C512,258.662,501.58,248.242,488.727,248.242z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;6&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;proposals&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j17/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;g&gt;
+	&lt;path style="fill:#B3404A;" d="M399.131,512H57.489c-29.259,0-53.063-23.803-53.063-53.063V53.063C4.426,23.804,28.23,0,57.489,0
+		h397.02c29.259,0,53.065,23.804,53.065,53.063v362.028c0,8.148-6.608,14.756-14.756,14.756c-8.148,0-14.756-6.608-14.756-14.756
+		V53.063c0-12.987-10.565-23.552-23.553-23.552H57.489c-12.987,0-23.552,10.565-23.552,23.552v405.875
+		c0,12.987,10.565,23.552,23.553,23.552h341.64c8.148,0,14.756,6.608,14.756,14.756S407.279,512,399.131,512z"/&gt;
+	&lt;path style="fill:#B3404A;" d="M275.612,218.474c0-0.677,0.226-1.58,0.453-2.485l42.017-137.798
+		c2.485-7.906,12.65-11.747,23.041-11.747s20.558,3.841,23.041,11.747l42.243,137.798c0.226,0.903,0.453,1.808,0.453,2.485
+		c0,8.358-12.877,14.458-22.591,14.458c-5.647,0-10.165-1.808-11.521-6.55l-7.68-28.238h-47.664l-7.68,28.238
+		c-1.356,4.744-5.873,6.55-11.521,6.55C288.489,232.932,275.612,226.832,275.612,218.474z M357.613,171.034l-16.49-60.54
+		l-16.491,60.54H357.613z"/&gt;
+&lt;/g&gt;
+&lt;circle style="fill:#F4B2B0;" cx="157.251" cy="149.682" r="52.103"/&gt;
+&lt;g&gt;
+	&lt;path style="fill:#B3404A;" d="M157.25,216.554c-36.87,0-66.866-29.996-66.866-66.866c0-36.869,29.996-66.864,66.866-66.864
+		c36.869,0,66.864,29.996,66.864,66.864C224.114,186.559,194.119,216.554,157.25,216.554z M157.25,112.334
+		c-20.598,0-37.354,16.757-37.354,37.353c0,20.598,16.757,37.354,37.354,37.354c20.596,0,37.353-16.757,37.353-37.354
+		C194.603,129.091,177.846,112.334,157.25,112.334z"/&gt;
+	&lt;path style="fill:#B3404A;" d="M292.385,291.267c0-7.227,7.68-10.844,15.361-10.844h46.31c22.591,0,45.179,8.133,45.179,40.211
+		c0,18.297-7.227,30.27-19.202,35.465c13.78,5.195,23.268,13.555,23.268,36.143v4.744c0,35.691-19.879,48.569-45.405,48.569h-50.149
+		c-9.488,0-15.361-4.97-15.361-10.617V291.267H292.385z M327.4,342.546h23.718c8.585,0,12.877-7.906,12.877-15.587
+		c0-7.906-4.291-15.814-12.877-15.814H327.4V342.546z M349.99,414.833c11.294,0,18.071-6.326,18.071-20.783v-3.614
+		c0-15.361-6.777-20.782-18.071-20.782h-22.591v45.179H349.99z"/&gt;
+&lt;/g&gt;
+&lt;circle style="fill:#F4B2B0;" cx="160.808" cy="362.992" r="52.103"/&gt;
+&lt;path style="fill:#B3404A;" d="M160.808,429.855c-36.87,0-66.866-29.996-66.866-66.864c0-36.87,29.996-66.866,66.866-66.866
+	c36.869,0,66.864,29.996,66.864,66.866C227.672,399.859,197.676,429.855,160.808,429.855z M160.808,325.636
+	c-20.598,0-37.354,16.757-37.354,37.354c0,20.596,16.757,37.353,37.354,37.353c20.596,0,37.353-16.757,37.353-37.353
+	C198.16,342.393,181.404,325.636,160.808,325.636z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;questions&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h53/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;
+
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve"&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;path fill-rule="evenodd" clip-rule="evenodd" fill="#AED581" d="M60,32c6.618,0,12-5.383,12-12S66.618,8,60,8
+			c-6.617,0-12,5.383-12,12S53.383,32,60,32z M60,16c2.211,0,4,1.789,4,4s-1.789,4-4,4s-4-1.789-4-4S57.79,16,60,16z M76.001,8
+			c2.211,0,4-1.789,4-4s-1.789-4-4-4s-4,1.789-4,4S73.79,8,76.001,8z M24,120h8v-8h-8V120z M24,104h8v-8L24,104z M32,104v8h8v-8H32z
+			 M40,88h-8v8h8V88z M48,80h-8v8h8V80z M40,96v8h8v-8H40z M40,120h8v-8h-8V120z M48,104v8h8v-8H48z M56,96v-8h-8v8H56z M64,80h-8v8
+			h8V80z M56,96v8h8v-8H56z M56,120h8v-8h-8V120z M64,104v8h8v-8H64z M72.001,96v-8h-8v8H72.001z M80.001,80h-8v8h8V80z M72.001,96
+			v8h8v-8H72.001z M72.001,120h8v-8h-8V120z M80.001,104v8h8v-8H80.001z M88.001,96v-8h-8v8H88.001z M96.001,104v-8h-8v8H96.001z
+			 M88.001,120h8v-8h-8V120z M96.001,104v8h8v-8H96.001z"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;path fill="#546E7A" d="M110.415,110.047L80.001,58.938V48h4c2.211,0,4-1.789,4-4s-1.789-4-4-4h-8c-2.211,0-4,1.789-4,4v16
+	c0,0.695,0.184,1.383,0.527,1.984l30.645,51.578c0.926,1.203,1.09,2.836,0.418,4.203c-0.676,1.367-2.066,2.234-3.59,2.234H28
+	c-1.523,0-2.914-0.867-3.59-2.234c-0.672-1.367-0.508-3,0.418-4.203l30.645-51.578C55.817,61.383,56,60.695,56,60V44
+	c0-2.211-1.789-4-4-4h-8c-2.211,0-4,1.789-4,4s1.789,4,4,4h4v10.938l-30.418,51.109c-2.127,3.711-2.109,8.273,0.039,11.977
+	S23.723,128,28,128h72c4.277,0,8.23-2.273,10.379-5.977S112.544,113.758,110.415,110.047z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;7&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;research&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h56/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"&gt;&lt;title&gt;file_type_todo&lt;/title&gt;&lt;polygon points="17.866 15.509 17.866 15.509 16.886 16.489 15.906 15.511 15.906 15.511 13.949 13.554 14.926 12.577 16.883 14.534 21.774 9.64 22.754 10.617 17.866 15.509" style="fill:green"/&gt;&lt;rect x="14.454" y="21.443" width="8.303" height="1.383" style="fill:#c00000"/&gt;&lt;path d="M2,5.74V29.449H26.909V5.74ZM25.477,28.189,3.394,28.131,3.417,7.157H25.494ZM6.151,10.951v5.534h5.534V10.951ZM10.3,15.1H7.534V12.334H10.3Zm-4.151,4.22v5.534h5.534V19.323ZM10.3,23.474H7.534V20.709H10.3ZM30,2.551V26.24H28.569L28.549,4l-22.4-.029V2.551H30Z" style="fill:#cfcfcf"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;5&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;reviews&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h54/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;polygon style="fill:#027EA8;" points="334.296,512 6.368,512 6.368,0 334.296,0 334.296,272.007 318.493,272.007 318.493,15.802 
+	22.171,15.802 22.171,496.198 318.493,496.198 318.493,336.032 334.296,336.032 "/&gt;
+&lt;polyline style="fill:#E6E6E6;" points="102.305,336.032 102.305,504.1 14.27,504.1 14.27,7.901 102.305,7.901 102.305,272.006 "/&gt;
+&lt;rect x="70.542" y="72.657" width="104.213" height="15.632"/&gt;
+&lt;rect x="229.987" y="39.31" style="fill:#045A71;" width="15.632" height="15.632"/&gt;
+&lt;rect x="253.956" y="39.31" style="fill:#84DCCF;" width="16.674" height="15.632"/&gt;
+&lt;rect x="278.967" y="39.31" style="fill:#045A71;" width="15.632" height="15.632"/&gt;
+&lt;rect x="70.542" y="103.921" style="fill:#84DCCF;" width="32.306" height="15.632"/&gt;
+&lt;rect x="70.542" y="151.859" style="fill:#027EA8;" width="87.539" height="15.632"/&gt;
+&lt;rect x="174.755" y="151.859" width="47.938" height="15.632"/&gt;
+&lt;rect x="70.542" y="184.165" width="119.845" height="15.632"/&gt;
+&lt;rect x="206.018" y="184.165" style="fill:#027EA8;" width="57.317" height="15.632"/&gt;
+&lt;rect x="70.542" y="216.471" width="32.306" height="15.632"/&gt;
+&lt;rect x="118.48" y="216.471" style="fill:#027EA8;" width="111.508" height="15.632"/&gt;
+&lt;rect x="70.542" y="247.735" style="fill:#84DCCF;" width="192.794" height="15.632"/&gt;
+&lt;rect x="70.542" y="280.041" width="71.907" height="15.632"/&gt;
+&lt;rect x="158.08" y="280.041" style="fill:#0071BC;" width="16.674" height="15.632"/&gt;
+&lt;g&gt;
+	&lt;rect x="70.542" y="312.347" style="fill:#84DCCF;" width="159.446" height="15.632"/&gt;
+	&lt;rect x="70.542" y="399.886" style="fill:#84DCCF;" width="55.233" height="15.632"/&gt;
+&lt;/g&gt;
+&lt;rect x="70.542" y="343.611" style="fill:#027EA8;" width="39.601" height="15.632"/&gt;
+&lt;path style="fill:#FBB03B;" d="M481.735,172.973l11.319-11.319c6.251-6.251,6.251-16.385,0-22.636l0,0
+	c-6.251-6.251-16.385-6.251-22.636,0l-11.319,11.319"/&gt;
+&lt;g&gt;
+	&lt;polyline style="fill:#F14507;" points="357.235,252.199 442.122,167.313 464.758,189.95 379.872,274.837 	"/&gt;
+	&lt;polyline style="fill:#F14507;" points="311.962,342.746 294.985,359.723 261.03,382.359 249.712,371.042 272.349,337.086 
+		289.326,320.109 	"/&gt;
+&lt;/g&gt;
+&lt;rect x="310.589" y="249.455" transform="matrix(0.7071 0.7071 -0.7071 0.7071 308.3488 -149.469)" style="fill:#FBB03B;" width="48.021" height="96.042"/&gt;
+&lt;path d="M498.641,133.431c-9.321-9.322-24.489-9.321-33.81-0.001l-5.732,5.732l-16.977-16.977l-62.178,62.179l11.175,11.174
+	l51.003-51.004l45.345,45.345l11.175-11.174l-5.732-5.732l5.732-5.732C507.962,157.919,507.962,142.752,498.641,133.431z
+	 M487.466,156.067l-5.731,5.732l-11.462-11.462l5.732-5.732c3.159-3.16,8.303-3.16,11.461,0
+	C490.627,147.764,490.627,152.906,487.466,156.067z"/&gt;
+&lt;path d="M442.122,156.139l-84.887,84.887l-5.659-5.659l-17.281,17.281V0H6.368v512h327.928V342.904l62.409-62.409l-5.659-5.659
+	l84.888-84.887L442.122,156.139z M318.493,496.198H22.171V15.802h296.322V268.45l-46,46l5.659,5.659l-11.944,11.944l-26.664,39.995
+	l4.652,4.652l-11.39,11.39l11.175,11.174l11.39-11.39l4.653,4.653l39.995-26.663l11.944-11.944l5.66,5.66l0.871-0.871
+	L318.493,496.198L318.493,496.198z M289.326,331.282l11.462,11.462l-10.837,10.837l-27.914,18.61l-2.158-2.158l18.609-27.913
+	L289.326,331.282z M318.821,336.032h-0.328v0.327l-0.871,0.871L294.84,314.45l56.736-56.736l22.781,22.781L318.821,336.032z
+	 M379.872,263.662l-11.462-11.462l73.713-73.713l11.462,11.462L379.872,263.662z"/&gt;
+&lt;polygon style="fill:#027EA8;" points="225.123,415.519 183.095,415.519 183.095,399.887 219.583,399.887 228.191,392.907 
+	238.037,405.049 "/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;11&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;scripta&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25i13/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 82.38 82.38" xml:space="preserve"
+	&gt;
+&lt;g&gt;
+	&lt;path d="M82.38,64.778v15.706H0V64.778h66.857c0.031-3.323-0.522-7.079-2.625-9.851c-1.854-2.444-4.709-3.817-8.492-4.104
+		c-0.309,0.585-0.904,0.996-1.612,0.996H50.96c-1.021,0-1.849-0.827-1.849-1.849c0-1.022,0.828-1.85,1.849-1.85h3.168
+		c0.827,0,1.501,0.553,1.737,1.301c4.193,0.318,7.385,1.877,9.492,4.656c2.34,3.088,2.955,7.145,2.926,10.698H82.38V64.778z
+		 M41.19,36.269c9.492,0,17.187-7.694,17.187-17.187c0-9.493-7.695-17.186-17.187-17.186c-9.493,0-17.187,7.694-17.187,17.187
+		C24.003,28.576,31.697,36.269,41.19,36.269z M62.24,56.587c-1.23-1.623-3.045-2.606-5.525-2.989
+		c-0.736,0.557-1.638,0.872-2.587,0.872H50.96c-2.397,0-4.349-1.951-4.349-4.35c0-2.397,1.951-4.349,4.349-4.349h3.168
+		c1.257,0,2.412,0.543,3.213,1.442c3.755,0.512,6.786,1.978,9.042,4.365c-0.007-0.089-0.004-0.18-0.012-0.269l-0.791-3.935
+		c-1.93-6.203-6.958-11.046-13.271-12.716c-2.92,2.724-6.822,4.404-11.119,4.404c-4.298,0-8.202-1.681-11.119-4.404
+		c-8.122,2.147-14.137,9.537-14.137,18.322v9.443h48.313C63.994,59.996,63.314,58.003,62.24,56.587z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;4&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;talks&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h57/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 32 32" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.avocado_een{fill:#231F20;}
+	.avocado_negentien{fill:#E0A838;}
+	.avocado_twee{fill:#3D3935;}
+	.st0{fill:#A3AEB5;}
+	.st1{fill:#CC4121;}
+	.st2{fill:#FFFAEE;}
+	.st3{fill:#6F9B45;}
+	.st4{fill:#DBD2C1;}
+	.st5{fill:#EAD13F;}
+	.st6{fill:#8D3E93;}
+	.st7{fill:#BF63C1;}
+	.st8{fill:#C3CC6A;}
+	.st9{fill:#788287;}
+	.st10{fill:#231F20;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path class="avocado_twee" d="M5.5,28.5v-25h3v25H5.5z M17.5,28.5v-25h-3v25H17.5z M26.5,28.5v-25h-3v25H26.5z"/&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;path class="st10" d="M25,13c1.654,0,3,1.346,3,3s-1.346,3-3,3s-3-1.346-3-3S23.346,13,25,13 M25,12c-2.209,0-4,1.791-4,4
+		s1.791,4,4,4s4-1.791,4-4S27.209,12,25,12L25,12z"/&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path class="avocado_negentien" d="M16,25.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S17.93,25.5,16,25.5z
+				 M10.5,10c0-1.93-1.57-3.5-3.5-3.5S3.5,8.07,3.5,10s1.57,3.5,3.5,3.5S10.5,11.93,10.5,10z M28.5,16c0-1.93-1.57-3.5-3.5-3.5
+				s-3.5,1.57-3.5,3.5s1.57,3.5,3.5,3.5S28.5,17.93,28.5,16z"/&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;path class="avocado_een" d="M11,10c0-1.477-0.809-2.752-2-3.445V3H5v3.555C3.809,7.248,3,8.523,3,10s0.809,2.752,2,3.445V29h4
+		V13.445C10.191,12.752,11,11.477,11,10z M6,4h2v2.141C7.679,6.058,7.347,6,7,6S6.321,6.058,6,6.141V4z M8,28H6V13.859
+		C6.321,13.942,6.653,14,7,14s0.679-0.058,1-0.141V28z M7,13c-1.654,0-3-1.346-3-3c0-1.654,1.346-3,3-3s3,1.346,3,3
+		C10,11.654,8.654,13,7,13z M29,16c0-1.477-0.809-2.752-2-3.445V3h-4v9.555c-1.191,0.693-2,1.968-2,3.445s0.809,2.752,2,3.445V29h4
+		v-9.555C28.191,18.752,29,17.477,29,16z M24,4h2v8.141C25.679,12.058,25.347,12,25,12s-0.679,0.058-1,0.141V4z M26,28h-2v-8.141
+		C24.321,19.942,24.653,20,25,20s0.679-0.058,1-0.141V28z M25,19c-1.654,0-3-1.346-3-3c0-1.654,1.346-3,3-3s3,1.346,3,3
+		C28,17.654,26.654,19,25,19z M20,22c0-1.477-0.809-2.752-2-3.445V3h-4v15.555c-1.191,0.693-2,1.968-2,3.445s0.809,2.752,2,3.445V29
+		h4v-3.555C19.191,24.752,20,23.477,20,22z M15,4h2v14.141C16.679,18.058,16.347,18,16,18s-0.679,0.058-1,0.141V4z M17,28h-2v-2.141
+		C15.321,25.942,15.653,26,16,26s0.679-0.058,1-0.141V28z M16,25c-1.654,0-3-1.346-3-3c0-1.654,1.346-3,3-3s3,1.346,3,3
+		C19,23.654,17.654,25,16,25z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;4&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;trainings&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25h64/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;circle style="fill:#84DCCF;" cx="255.997" cy="206.361" r="63.823"/&gt;
+&lt;path style="fill:#027EA8;" d="M256.001,142.534c-17.729,0-33.76,7.238-45.326,18.909c7.427-3.026,15.536-4.726,24.051-4.726
+	c35.25,0,63.825,28.575,63.825,63.824c0,17.52-7.069,33.382-18.498,44.915c23.32-9.501,39.773-32.364,39.773-59.099
+	C319.824,171.109,291.249,142.534,256.001,142.534z"/&gt;
+&lt;path style="fill:#84DCCF;" d="M326.916,475.839H185.085V362.374c0-39.166,31.75-70.916,70.916-70.916l0,0
+	c39.166,0,70.916,31.75,70.916,70.916V475.839z"/&gt;
+&lt;path style="fill:#027EA8;" d="M256.041,291.458c-11.08,0-23.216,2.614-32.558,7.144c38.678,0.565,68.179,32.051,68.179,70.863
+	v106.47h35.336V362.374C326.998,323.207,295.207,291.458,256.041,291.458z"/&gt;
+&lt;circle style="fill:#FFFFFF;" cx="433.29" cy="99.979" r="63.823"/&gt;
+&lt;path style="fill:#E6E6E6;" d="M433.29,36.161c-17.729,0-33.76,7.238-45.326,18.909c7.427-3.026,15.536-4.726,24.051-4.726
+	c35.25,0,63.824,28.575,63.824,63.824c0,17.52-7.069,33.382-18.498,44.916c23.32-9.501,39.773-32.364,39.773-59.099
+	C497.114,64.736,468.539,36.161,433.29,36.161z"/&gt;
+&lt;path style="fill:#FFFFFF;" d="M504.205,369.465H362.374V255.999c0-39.166,31.75-70.916,70.916-70.916l0,0
+	c39.166,0,70.916,31.75,70.916,70.916L504.205,369.465L504.205,369.465z"/&gt;
+&lt;path style="fill:#E6E6E6;" d="M433.026,185.084c-11.08,0-23.368,2.614-32.711,7.144c38.678,0.565,68.027,32.051,68.027,70.863
+	v106.837h35.336V255.999C503.677,216.834,472.191,185.084,433.026,185.084z"/&gt;
+&lt;circle style="fill:#FBB03B;" cx="78.705" cy="99.979" r="63.823"/&gt;
+&lt;path style="fill:#F15A24;" d="M78.71,36.161c-17.729,0-33.76,7.238-45.326,18.909c7.427-3.026,15.536-4.726,24.051-4.726
+	c35.25,0,63.824,28.575,63.824,63.824c0,17.52-7.069,33.382-18.498,44.916c23.32-9.501,39.772-32.364,39.772-59.099
+	C142.534,64.736,113.96,36.161,78.71,36.161z"/&gt;
+&lt;path style="fill:#FBB03B;" d="M149.626,369.465H7.795V255.999c0-39.166,31.75-70.916,70.916-70.916l0,0
+	c39.166,0,70.916,31.75,70.916,70.916V369.465z"/&gt;
+&lt;path style="fill:#F15A24;" d="M79.058,185.084c-11.08,0-23.582,2.614-32.925,7.144c38.678,0.565,67.813,32.051,67.813,70.863
+	v106.837h36.375V255.999C150.319,216.834,118.223,185.084,79.058,185.084z"/&gt;
+&lt;path d="M256.001,277.977c-39.491,0-71.619-32.129-71.619-71.619s32.129-71.618,71.619-71.618s71.618,32.129,71.618,71.618
+	C327.619,245.85,295.491,277.977,256.001,277.977z M256.001,150.329c-30.895,0-56.03,25.135-56.03,56.029
+	c0,30.895,25.135,56.03,56.03,56.03s56.029-25.135,56.029-56.03C312.03,175.464,286.894,150.329,256.001,150.329z"/&gt;
+&lt;path d="M334.71,483.634H177.289v-121.26c0-43.401,35.31-78.71,78.71-78.71s78.71,35.31,78.71,78.71V483.634z M192.878,468.044
+	h126.242V362.374c0-34.805-28.315-63.121-63.12-63.121c-34.806,0-63.121,28.316-63.121,63.121v105.671H192.878z"/&gt;
+&lt;path d="M512,377.26H354.579V255.999c0-43.401,35.31-78.71,78.709-78.71c43.402,0,78.71,35.31,78.71,78.71V377.26H512z
+	 M370.168,361.671h126.242V255.999c0-34.805-28.315-63.121-63.12-63.121s-63.121,28.316-63.121,63.121v105.672H370.168z"/&gt;
+&lt;path d="M157.421,377.26H0V255.999c0-43.401,35.31-78.71,78.71-78.71c43.402,0,78.71,35.31,78.71,78.71V377.26z M15.589,361.671
+	h126.242V255.999c0-34.805-28.316-63.121-63.121-63.121s-63.121,28.316-63.121,63.121V361.671z"/&gt;
+&lt;g&gt;
+	&lt;rect x="249.055" y="318.999" style="fill:#FFFFFF;" width="14.55" height="15.589"/&gt;
+	&lt;rect x="249.055" y="347.06" style="fill:#FFFFFF;" width="14.55" height="15.589"/&gt;
+	&lt;rect x="249.055" y="376.16" style="fill:#FFFFFF;" width="14.55" height="15.589"/&gt;
+&lt;/g&gt;
+&lt;rect x="426.773" y="212.992" width="13.511" height="15.589"/&gt;
+&lt;rect x="426.773" y="241.052" width="13.511" height="15.589"/&gt;
+&lt;rect x="426.773" y="269.113" width="13.511" height="15.589"/&gt;
+&lt;g&gt;
+	&lt;rect x="72.376" y="212.992" style="fill:#FFFFFF;" width="13.511" height="15.589"/&gt;
+	&lt;rect x="72.376" y="241.052" style="fill:#FFFFFF;" width="13.511" height="15.589"/&gt;
+	&lt;rect x="72.376" y="269.113" style="fill:#FFFFFF;" width="13.511" height="15.589"/&gt;
+	&lt;path style="fill:#FFFFFF;" d="M306.344,206.76h-15.589c0-19.746-15.72-35.156-34.427-35.156v-15.589
+		C283.348,156.015,306.344,178.699,306.344,206.76z"/&gt;
+	&lt;path style="fill:#FFFFFF;" d="M289.565,243.881l-10.397-11.616c4.355-3.896,7.677-8.848,9.61-14.319l14.699,5.194
+		C300.673,231.072,295.863,238.244,289.565,243.881z"/&gt;
+&lt;/g&gt;
+&lt;path d="M78.71,171.604c-39.491,0-71.618-32.129-71.618-71.619c0-39.49,32.129-71.618,71.618-71.618
+	c39.491,0,71.619,32.129,71.619,71.618C150.329,139.476,118.201,171.604,78.71,171.604z M78.71,43.956
+	c-30.895,0-56.029,25.135-56.029,56.029c0,30.895,25.135,56.03,56.029,56.03c30.895,0,56.03-25.135,56.03-56.03
+	C134.74,69.091,109.605,43.956,78.71,43.956z"/&gt;
+&lt;g&gt;
+	&lt;path style="fill:#FFFFFF;" d="M129.055,99.713h-15.589c0-18.707-15.11-34.484-34.857-34.484V49.641
+		C106.669,49.641,129.055,72.692,129.055,99.713z"/&gt;
+	&lt;path style="fill:#FFFFFF;" d="M112.275,137.508l-10.397-11.616c4.353-3.896,7.676-8.848,9.61-14.32l14.699,5.195
+		C123.384,124.698,118.573,131.87,112.275,137.508z"/&gt;
+&lt;/g&gt;
+&lt;path d="M433.29,171.604c-39.491,0-71.618-32.129-71.618-71.619c0-39.49,32.128-71.618,71.618-71.618s71.619,32.129,71.619,71.618
+	C504.909,139.476,472.78,171.604,433.29,171.604z M433.29,43.956c-30.895,0-56.029,25.135-56.029,56.029
+	c0,30.895,25.135,56.03,56.029,56.03c30.895,0,56.03-25.135,56.03-56.03C489.32,69.091,464.184,43.956,433.29,43.956z"/&gt;
+&lt;path d="M483.634,99.713h-15.589c0-18.707-15.292-34.484-35.039-34.484V49.641C461.067,49.641,483.634,72.692,483.634,99.713z"/&gt;
+&lt;path d="M466.855,137.507l-10.397-11.615c4.354-3.897,7.676-8.85,9.61-14.321l14.699,5.196
+	C477.962,124.699,473.152,131.87,466.855,137.507z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;20&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;users&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;</description></item><item><title/><link>https://dudung.github.io/butiran/idx02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dudung.github.io/butiran/idx02/</guid><description>&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j61/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 20.00 20.00" xmlns="http://www.w3.org/2000/svg" fill="#000000"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#57a8ff" stroke-width="2.56"&gt; &lt;g id="iceberg-2" transform="translate(-3 -2)"&gt; &lt;path id="secondary" fill="#8ab9ff" d="M6,10l1.42,5.67,2.17.42L12.98,21l3.96-3.49L18,10Z"/&gt; &lt;path id="primary" d="M18,10l-1.06,7.51L13,21,9.59,16.09l-2.17-.42L6,10,7.06,4.59,10,3l3.39,2.49,3.17.9ZM4,10H20" fill="none" stroke="#b3d4ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.82"/&gt; &lt;/g&gt; &lt;/g&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;g id="iceberg-2" transform="translate(-3 -2)"&gt; &lt;path id="secondary" fill="#8ab9ff" d="M6,10l1.42,5.67,2.17.42L12.98,21l3.96-3.49L18,10Z"/&gt; &lt;path id="primary" d="M18,10l-1.06,7.51L13,21,9.59,16.09l-2.17-.42L6,10,7.06,4.59,10,3l3.39,2.49,3.17.9ZM4,10H20" fill="none" stroke="#b3d4ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.82"/&gt; &lt;/g&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;10&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;floating&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j60/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="#000000"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;defs&gt; &lt;style&gt;.cls-1{fill:#6f7dec;}.cls-2{fill:#89a3f0;}.cls-3{fill:#658dec;}.cls-4{fill:#bad0ee;}.cls-5{fill:#e1e9ef;}&lt;/style&gt; &lt;/defs&gt; &lt;g id="Frankenstein"&gt; &lt;path class="cls-1" d="M48.5,26.88v-5h-33v5Z" id="path121899-9"/&gt; &lt;path class="cls-2" d="M39.33,43.86l-2.12-1.24V40.05H26.87v2.57l-7.73,4.52a12.34,12.34,0,0,0-4.53,4.24l2.14,2.74,24.19,0Z" id="path123162-20-2"/&gt; &lt;path class="cls-3" d="M39.33,43.86a18.28,18.28,0,0,1-4.19,4.21c-1.51.93-4.93,1.62-6.87,2a2.42,2.42,0,0,0-1.79,1.59,1.21,1.21,0,0,1-1.86.65l-.21-.15A3.14,3.14,0,0,0,22,51.85a12.25,12.25,0,0,1-7.34-.47,8.33,8.33,0,0,0-1,2.7A1.6,1.6,0,0,0,15.14,56H48.93a1.62,1.62,0,0,0,1.58-1.92c-.61-3.08-2.85-5.36-5.57-6.94Z" id="path271187"/&gt; &lt;path class="cls-4" d="M45.2,18.22s-3.51-5.5-13.16-5.5-13.17,5.5-13.17,5.5c.07,3.91.35,11,1.25,13.21,2.15,5.41,6.68,10.2,11.92,10.2S41.8,36.84,44,31.43C44.85,29.19,45.13,22.13,45.2,18.22Z" id="path266115"/&gt; &lt;path class="cls-3" d="M13.59,19.26a1.9,1.9,0,0,1,1.91,1.91v6.45a1.91,1.91,0,0,1-3.82,0V21.17A1.9,1.9,0,0,1,13.59,19.26Z" id="rect121016-3"/&gt; &lt;path class="cls-3" d="M50.41,19.26a1.9,1.9,0,0,0-1.91,1.91v6.45a1.91,1.91,0,0,0,3.82,0V21.17A1.9,1.9,0,0,0,50.41,19.26Z" id="path121897-5"/&gt; &lt;path class="cls-3" d="M32,8c-7.28,0-13.19,1.11-13.19,8.39,0,.45,0,1.11,0,1.83,0,0,3.52-1.81,13.17-1.81s13.15,1.81,13.16,1.81c0-.72,0-1.38,0-1.83C45.22,9.11,39.32,8,32,8Z" id="path124319-2"/&gt; &lt;path class="cls-5" d="M23.14,19.65a1,1,0,0,0-1,1v.26H18.86a1,1,0,0,0,0,2h3.28v.48a1,1,0,0,0,2,0v-.48h2.45v.48a1,1,0,0,0,2,0v-.48H31v.48a1,1,0,0,0,2,0v-.48h2.44v.48a1,1,0,0,0,2,0v-.48h2.45v.48a1,1,0,0,0,2,0v-.48h3.29a1,1,0,0,0,0-2H41.93v-.26a1,1,0,0,0-2,0v.26H37.48v-.26a1,1,0,0,0-2,0v.26H33v-.26a1,1,0,0,0-2,0v.26H28.59v-.26a1,1,0,0,0-2,0v.26H24.14v-.26A1,1,0,0,0,23.14,19.65Z" id="path122965"/&gt; &lt;path class="cls-4" d="M29.37,43.2a1,1,0,0,0-.66,1.25h0l.53,1.67a1,1,0,0,0,1.25.65h0a1,1,0,0,0,.65-1.25l-.52-1.67A1,1,0,0,0,29.37,43.2Z" id="path126517"/&gt; &lt;path class="cls-4" d="M34.71,43.2a1,1,0,0,0-1.26.65l-.52,1.67a1,1,0,0,0,.65,1.25h0a1,1,0,0,0,1.26-.65h0l.52-1.67a1,1,0,0,0-.65-1.25Z" id="path126599"/&gt; &lt;path class="cls-2" d="M40.53,28.81l-2.21.6a3.48,3.48,0,0,0-2.58,3.35v2.13a1,1,0,0,0,2,0V32.76a1.47,1.47,0,0,1,1.1-1.42l2.21-.59a1,1,0,0,0,.7-1.23h0A1,1,0,0,0,40.53,28.81Z" id="path246018-3-4-6"/&gt; &lt;path class="cls-2" d="M23.54,28.81A1,1,0,0,0,23,30.75h0l2.21.59a1.46,1.46,0,0,1,1.09,1.42v2.13a1,1,0,0,0,2,0V32.76a3.48,3.48,0,0,0-2.57-3.35Z" id="path131420"/&gt; &lt;/g&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;franken&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j68/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000" transform="rotate(90)matrix(1, 0, 0, -1, 0, 0)"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;path style="fill:#7AB9E8;" d="M412.444,213.333h-42.667v-128H256V42.667C256,19.102,236.898,0,213.333,0 s-42.667,19.102-42.667,42.667v42.667H56.889v128h42.667c23.565,0,42.667,19.102,42.667,42.667 c0,23.565-19.102,42.667-42.667,42.667H56.889v128h113.778v42.667c0,23.565,19.102,42.667,42.667,42.667S256,492.898,256,469.333 v-42.667h113.778v-128h42.667c23.565,0,42.667-19.102,42.667-42.667C455.111,232.435,436.009,213.333,412.444,213.333z"/&gt; &lt;path style="fill:#579ADF;" d="M412.444,213.333h-42.667v-128H256V42.667C256,19.102,236.898,0,213.333,0v512 C236.898,512,256,492.898,256,469.333v-42.667h113.778v-128h42.667c23.565,0,42.667-19.102,42.667-42.667 C455.111,232.435,436.009,213.333,412.444,213.333z"/&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;3&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;fuzzle&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j54/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="-51.2 -51.2 614.40 614.40" xmlns="http://www.w3.org/2000/svg" fill="#a4c9ea" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#a4c9ea" stroke-width="5.632"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt;
+&lt;path fill="#067edb" d="M238.406 26.844c-9.653.12-18.926 2.69-30.437 7.062l-157.282 57c-20.984 7.65-21.587 11.834-22.344 33.28L20.937 358.22c-1.207 27.514-.654 33.187 23.25 43.56L229.97 483.19c19.34 8.29 31.906 7.655 45.186 3.218l181.938-56.53c21.95-7.295 25.04-9.627 25.875-36.845l7.686-250.155c.662-17.37-5.667-24.695-18.78-29.625L271.062 34.375c-12.977-5.344-23.003-7.653-32.657-7.53zm.813 24.875c23.637-.053 45.564 8.434 87.874 24.874 95.545 37.123 131.71 53.8 69.687 77.937-74.002 28.802-128.175 45.115-172.28 25.814L113.47 131.75c-34.57-15.127-44.69-27.46 17.843-50.094 55.64-20.14 82.742-29.882 107.906-29.937zm44.718 43.75c-38.284.402-55.285 21.205-56.813 38.936-.873 10.132 2.95 19.6 12.406 26.25 9.456 6.65 25.355 10.56 48.97 5.938 35.817-7.01 61.536-15.056 77.5-22.844 7.982-3.894 13.464-7.737 16.5-10.844 3.036-3.107 3.453-4.942 3.438-6-.016-1.057-.44-2.675-3.313-5.406-2.873-2.73-8.03-6.04-15.22-9.156-14.378-6.233-36.757-11.877-65.717-15.72-6.355-.842-12.28-1.213-17.75-1.155zM59.25 134c10.372-.29 29.217 7.2 63.906 22.656 140.925 62.786 140.52 65.876 130.97 200.656-7.783 109.81-8.797 109.85-128.47 59.282-73.15-30.91-86.806-40.853-85.187-88.97l5.468-162.937c.674-20.034 1.557-30.358 13.312-30.687zm381.938 30.906c29.172-.384 29.1 28.075 26.75 105.25-4.118 135.132-9.05 140.184-120.375 173.72-70.42 21.21-81.49 25.614-78.97-12.032l11-164.156c3.217-48.034 7.588-51.508 94.813-83.907 31.323-11.633 52.534-18.686 66.78-18.874zm-20.438 40.688c-.332-.002-.674.015-1 .03-5.22.263-10.226 2.77-14.188 8.407-3.96 5.638-6.81 14.71-5.687 27.907 1.448 17.033-4.507 38.11-15.156 56.938-10.65 18.827-26.502 35.91-47.814 38.813-29.127 3.968-42.41 23.58-43.5 42.062-.545 9.24 2.108 18.03 7.688 24.594s14.088 11.335 27.187 12.03c41.146 2.185 71.336-10.766 91.595-39.155 20.26-28.39 30.396-73.76 25.875-136.595-1.876-26.076-14.708-34.977-25-35.03zm-246.25 8.844c-.644 0-1.218.063-1.72.187-2.003.494-3.685 1.53-5.655 4.813-1.913 3.186-3.688 8.618-4.406 16.343l-.064.657c-1.388 16.732-8.098 28.602-17.844 35.063-9.745 6.46-20.794 7.808-31.125 9.094-10.33 1.286-20.177 2.39-28.156 5.75-7.977 3.36-14.36 8.38-19.468 19.78-7.2 16.076-7.143 28.027-3.124 38.563 4.018 10.537 12.688 20.106 24.687 28.75 23.998 17.29 60.27 29.956 88.906 41.844 11.386 4.727 20.496 6.484 27.282 6.126 6.787-.358 11.278-2.423 15.375-6.562 8.195-8.28 14.057-27.692 15-57.344 2.024-63.623-18.84-110.284-38.656-130.875-8.668-9.008-16.52-12.193-21.03-12.188zm184.22 6.812c-.95-.003-1.927.035-2.97.094-35.464 1.99-48.477 12.867-52.5 24.062-4.023 11.196.826 27.07 10.844 39.78 11.488 14.58 20.59 15.736 30.437 12.283 9.848-3.455 20.542-14.108 27.376-26.908s9.512-27.397 7.188-36.28c-1.163-4.443-3.144-7.422-6.47-9.626-2.908-1.928-7.274-3.388-13.905-3.406z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;freezed&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j55/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;g&gt;
+	&lt;path style="fill:#B3D8F4;" d="M472.263,449.004c-11.404,11.407-16.995,16.451-30.078,16.451c-0.003,0-0.006,0-0.012,0
+		c-13.075,0-18.671-5.046-30.081-16.454c-12.688-12.687-30.059-30.056-62.914-30.085c-0.029,0-0.059-0.005-0.088-0.005
+		c-32.915,0-50.306,17.392-63.004,30.092c-11.407,11.408-17,16.452-30.079,16.452c-0.002,0-0.005,0-0.006,0
+		c-0.002,0-0.003,0-0.006,0c-13.076,0-18.672-5.046-30.082-16.454c-12.687-12.685-30.056-30.053-62.906-30.085
+		c-0.033,0-0.061-0.005-0.092-0.005c-32.915,0-50.306,17.392-63.004,30.092c-11.407,11.408-17,16.452-30.079,16.452
+		c-0.006,0-0.011,0-0.012,0c-13.078,0-18.674-5.046-30.082-16.455c-9.089-9.089-23.822-9.089-32.912-0.002
+		s-9.09,23.822-0.003,32.912C19.518,494.609,36.907,512,69.812,512c0.011,0,0.019,0,0.023,0c32.903,0,50.292-17.389,62.99-30.087
+		c11.399-11.399,16.995-16.444,30.048-16.457c0.014,0,0.026,0.002,0.039,0.002c13.081,0,18.677,5.044,30.089,16.455
+		c12.699,12.698,30.085,30.085,62.99,30.085c0.008,0,0.008,0,0.011,0c0.003,0,0.008,0,0.011,0c32.903,0,50.292-17.389,62.99-30.087
+		c11.399-11.401,16.998-16.446,30.053-16.457c0.014,0,0.028,0.002,0.04,0.002c13.079,0,18.676,5.044,30.087,16.455
+		c12.699,12.698,30.085,30.085,62.988,30.085c0.006,0,0.016,0,0.023,0c32.905-0.002,50.295-17.391,62.99-30.089
+		c9.086-9.089,9.084-23.825-0.005-32.912C496.085,439.912,481.353,439.913,472.263,449.004z"/&gt;
+	&lt;path style="fill:#B3D8F4;" d="M69.812,418.909c0.011,0,0.019,0,0.023,0c27.277,0,43.888-11.951,56.007-23.273
+		c2.499-2.335,4.813-4.644,6.983-6.814c11.399-11.399,16.995-16.445,30.048-16.457c0.014,0,0.026,0.002,0.039,0.002
+		c13.081,0,18.677,5.044,30.089,16.455c2.171,2.171,4.484,4.479,6.983,6.814c12.119,11.321,28.728,23.273,56.007,23.273
+		c0.008,0,0.008,0,0.011,0c0.003,0,0.008,0,0.011,0c27.277,0,43.888-11.951,56.007-23.273c2.499-2.335,4.813-4.644,6.983-6.814
+		c11.399-11.401,16.998-16.446,30.053-16.457c0.014,0,0.028,0.002,0.04,0.002c13.079,0,18.676,5.044,30.087,16.455
+		c2.171,2.171,4.484,4.479,6.982,6.814c12.119,11.321,28.728,23.273,56.007,23.273c0.006,0,0.016,0,0.023,0
+		c32.905-0.002,50.295-17.391,62.99-30.089c9.086-9.089,9.084-23.825-0.005-32.912c-9.09-9.087-23.822-9.086-32.914,0.005
+		c-11.404,11.407-16.995,16.451-30.078,16.451c-0.003,0-0.006,0-0.012,0c-10.198,0-15.857-3.088-23.263-9.855V46.549H395.64
+		l-139.636,0.008v186.171v139.636h-0.002L256,46.558l-139.636,0.008H93.091v315.949c-7.404,6.763-13.059,9.849-23.26,9.849
+		c-0.006,0-0.011,0-0.012,0c-13.078,0-18.674-5.046-30.082-16.455c-9.089-9.089-23.822-9.089-32.912-0.002
+		s-9.09,23.822-0.003,32.912C19.518,401.518,36.907,418.909,69.812,418.909z M111.717,344.799
+		c-3.703,3.126-7.002,6.327-10.024,9.334C104.716,351.126,108.015,347.926,111.717,344.799z"/&gt;
+&lt;/g&gt;
+&lt;path style="fill:#A78966;" d="M256,46.558l139.636-0.008h23.273l69.82-0.005C501.582,46.544,512,36.124,512,23.271
+	S501.578-0.002,488.726,0L23.271,0.025C10.418,0.026,0,10.445,0,23.299S10.422,46.572,23.274,46.57l69.817-0.005h23.273L256,46.558z
+	"/&gt;
+&lt;path style="fill:#006DF0;" d="M209.455,295.306c12.853,0,23.273-10.42,23.273-23.273v-78.092c0-12.853-10.42-23.273-23.273-23.273
+	c-12.853,0-23.273,10.42-23.273,23.273v78.092C186.182,284.886,196.602,295.306,209.455,295.306z"/&gt;
+&lt;path style="fill:#78B9EB;" d="M302.545,93.091c-12.853,0-23.273,10.418-23.273,23.273v78.094c0,12.853,10.42,23.273,23.273,23.273
+	s23.273-10.42,23.273-23.273v-78.094C325.818,103.509,315.398,93.091,302.545,93.091z"/&gt;
+&lt;path style="fill:#3D9AE2;" d="M116.364,341.101c6.426-4.803,14.01-9.143,23.273-11.961c6.789-2.067,14.474-3.319,23.279-3.319
+	c0.031,0,0.059,0.005,0.092,0.005c27.226,0.028,43.813,11.959,55.92,23.268c2.499,2.337,4.814,4.647,6.986,6.819
+	c11.41,11.408,17.006,16.454,30.082,16.454c0.003,0,0.005,0,0.005,0l0-325.809l-139.636,0.008H93.091v315.949
+	c2.09-1.908,4.309-4.093,6.82-6.603C104.58,351.243,109.888,345.94,116.364,341.101z M186.182,193.941
+	c0-12.853,10.42-23.273,23.273-23.273c12.853,0,23.273,10.42,23.273,23.273v78.092c0,12.853-10.42,23.273-23.273,23.273
+	c-12.853,0-23.273-10.42-23.273-23.273V193.941z"/&gt;
+&lt;g&gt;
+	&lt;path style="fill:#78B9EB;" d="M255.994,465.455c-13.076,0-18.672-5.046-30.082-16.454c-12.687-12.685-30.056-30.053-62.906-30.085
+		c-0.033,0-0.061-0.005-0.092-0.005c-32.915,0-50.306,17.392-63.004,30.092c-11.407,11.408-17,16.452-30.079,16.452
+		c-0.006,0-0.011,0-0.012,0c-13.078,0-18.674-5.046-30.082-16.455c-9.089-9.089-23.822-9.089-32.912-0.002
+		s-9.09,23.822-0.003,32.912C19.518,494.609,36.907,512,69.812,512c0.011,0,0.019,0,0.023,0c32.903,0,50.292-17.389,62.99-30.087
+		c11.399-11.399,16.995-16.444,30.048-16.457c0.014,0,0.026,0.002,0.039,0.002c13.081,0,18.677,5.044,30.089,16.455
+		c12.699,12.698,30.085,30.085,62.99,30.085c0.008,0,0.008,0,0.011,0v-46.545C255.998,465.455,255.997,465.455,255.994,465.455z"/&gt;
+	&lt;path style="fill:#78B9EB;" d="M255.994,372.364c-13.076,0-18.672-5.046-30.082-16.454c-2.171-2.172-4.487-4.482-6.986-6.819
+		c-12.106-11.307-28.694-23.24-55.92-23.268c-0.033,0-0.061-0.005-0.092-0.005c-8.805,0-16.49,1.254-23.279,3.319
+		c-9.263,2.818-16.846,7.159-23.273,11.961c-6.476,4.841-11.784,10.142-16.452,14.811c-2.51,2.51-4.731,4.695-6.82,6.603
+		c-7.402,6.766-13.058,9.852-23.259,9.852c-0.006,0-0.011,0-0.012,0c-13.078,0-18.674-5.046-30.082-16.455
+		c-9.089-9.089-23.822-9.089-32.912-0.002s-9.09,23.822-0.003,32.912c12.698,12.699,30.087,30.09,62.992,30.09
+		c0.011,0,0.019,0,0.023,0c27.277,0,43.888-11.951,56.007-23.273c2.499-2.335,4.813-4.644,6.983-6.814
+		c11.399-11.399,16.995-16.445,30.048-16.457c0.014,0,0.026,0.002,0.039,0.002c13.081,0,18.677,5.044,30.089,16.455
+		c2.171,2.171,4.484,4.479,6.983,6.814c12.119,11.321,28.728,23.273,56.007,23.273c0.008,0,0.008,0,0.011,0v-46.545
+		C256,372.364,255.997,372.364,255.994,372.364z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;flowing&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j58/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path fill="#2980BA" d="M51 22.001c16.016 0 28.999 12.983 28.999 28.999S67.016 79.999 51 79.999 22.001 67.016 22.001 51c0-16.015 12.983-28.999 28.999-28.999z"/&gt;&lt;path fill="#EDF0F1" d="M50 0c27.613 0 50 22.386 50 50s-22.387 50-50 50C22.386 100 0 77.614 0 50S22.386 0 50 0z"/&gt;&lt;path fill="#3B97D3" d="M51 22.001c16.016 0 28.999 12.983 28.999 28.999S67.016 79.999 51 79.999 22.001 67.016 22.001 51c0-16.015 12.983-28.999 28.999-28.999z"/&gt;&lt;path fill="#2980BA" d="M53 77.999c-16.016 0-28.999-12.983-28.999-28.999a28.889 28.889 0 0 1 7.519-19.48c-5.847 5.305-9.519 12.964-9.519 21.48 0 16.016 12.983 28.999 28.999 28.999 8.518 0 16.176-3.672 21.48-9.519A28.887 28.887 0 0 1 53 77.999z"/&gt;&lt;path fill="#35495E" d="M51 38.005c7.177 0 12.995 5.818 12.995 12.995S58.177 63.995 51 63.995 38.005 58.177 38.005 51 43.823 38.005 51 38.005z"/&gt;&lt;path fill="#ffffff" d="M60.003 35.009c3.862 0 6.992 3.133 6.992 6.998s-3.13 6.998-6.992 6.998c-3.86 0-6.992-3.133-6.992-6.998s3.132-6.998 6.992-6.998z"/&gt;&lt;path fill="#BDC2C7" d="M50 4c26.943 0 48.898 21.314 49.949 48 .025-.665.051-1.329.051-2 0-27.614-22.386-50-50-50S0 22.386 0 50c0 .671.024 1.335.051 2C1.102 25.314 23.057 4 50 4z"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;friendly&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j57/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M14.5455 0C13.7421 0 13.0909 0.651222 13.0909 1.45455C13.0909 2.25786 13.7421 2.90909 14.5455 2.90909V7.27273C14.5455 8.07604 15.1967 8.72727 16 8.72727C16.8033 8.72727 17.4545 8.07604 17.4545 7.27273V2.90909C18.2579 2.90909 18.9091 2.25786 18.9091 1.45455C18.9091 0.651222 18.2579 0 17.4545 0H14.5455ZM8.72727 16C8.72727 15.1967 8.07604 14.5455 7.27273 14.5455H2.90909C2.90909 13.7421 2.25786 13.0909 1.45455 13.0909C0.651223 13.0909 0 13.7421 0 14.5455V17.4545C0 18.2579 0.651223 18.9091 1.45455 18.9091C2.25786 18.9091 2.90909 18.2579 2.90909 17.4545H7.27273C8.07604 17.4545 8.72727 16.8033 8.72727 16ZM32 14.5455C32 13.7421 31.3488 13.0909 30.5455 13.0909C29.7421 13.0909 29.0909 13.7421 29.0909 14.5455H24.7273C23.9239 14.5455 23.2727 15.1967 23.2727 16C23.2727 16.8033 23.9239 17.4545 24.7273 17.4545H29.0909C29.0909 18.2579 29.7421 18.9091 30.5455 18.9091C31.3488 18.9091 32 18.2579 32 17.4545V14.5455ZM16 23.2727C15.1967 23.2727 14.5455 23.9239 14.5455 24.7273V29.0909C13.7421 29.0909 13.0909 29.7421 13.0909 30.5455C13.0909 31.3488 13.7421 32 14.5455 32H17.4545C18.2579 32 18.9091 31.3488 18.9091 30.5455C18.9091 29.7421 18.2579 29.0909 17.4545 29.0909V24.7273C17.4545 23.9239 16.8033 23.2727 16 23.2727Z" fill="#3d77db"/&gt; &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M8.86491 6.80783L6.74325 4.68617C7.31126 4.11813 7.31125 3.19718 6.74322 2.62915C6.17519 2.06112 5.25423 2.06111 4.68619 2.62915L2.62915 4.68618C2.06112 5.25423 2.06112 6.17519 2.62915 6.74323C3.19719 7.31126 4.11816 7.31126 4.6862 6.7432L6.80788 8.86488C6.41451 9.37165 6.06544 9.90728 5.76066 10.4718C5.45589 11.0363 5.19955 11.622 4.99164 12.2289C4.78374 12.8358 4.6271 13.4557 4.52172 14.0885C4.41634 14.7213 4.36364 15.3585 4.36364 16C4.36364 16.6415 4.41634 17.2787 4.52172 17.9115C4.6271 18.5443 4.78374 19.1641 4.99164 19.771C5.19955 20.3779 5.45588 20.9636 5.76065 21.5281C6.06542 22.0926 6.41449 22.6283 6.80785 23.1351L4.68622 25.2567C4.11817 24.6887 3.19726 24.6887 2.62924 25.2567C2.06121 25.8248 2.0612 26.7457 2.62924 27.3138L4.68628 29.3708C5.25432 29.9388 6.17528 29.9388 6.74332 29.3708C7.31135 28.8027 7.31135 27.8818 6.74332 27.3138L6.74325 27.3137L8.86488 25.1921C9.37165 25.5855 9.90729 25.9346 10.4718 26.2393C11.0363 26.5441 11.622 26.8005 12.2289 27.0084C12.8358 27.2163 13.4557 27.3729 14.0885 27.4783C14.7213 27.5836 15.3585 27.6363 16 27.6363C16.6416 27.6363 17.2787 27.5836 17.9114 27.4783C18.5443 27.3729 19.1641 27.2163 19.7711 27.0084C20.378 26.8005 20.9637 26.5441 21.5282 26.2393C22.0927 25.9346 22.6284 25.5855 23.1351 25.1921L25.2567 27.3137C24.6886 27.8818 24.6886 28.8027 25.2567 29.3708C25.8247 29.9388 26.7458 29.9388 27.3138 29.3708L29.3708 27.3137C29.9388 26.7457 29.9388 25.8247 29.3708 25.2567C28.8028 24.6887 27.8818 24.6887 27.3138 25.2567L25.1922 23.1351C25.5855 22.6283 25.9345 22.0927 26.2393 21.5282C26.5441 20.9637 26.8004 20.3779 27.0083 19.771C27.2162 19.1641 27.3729 18.5443 27.4783 17.9115C27.5837 17.2787 27.6364 16.6415 27.6364 16C27.6364 15.3584 27.5837 14.7213 27.4783 14.0885C27.3729 13.4556 27.2162 12.8358 27.0083 12.2289C26.8004 11.622 26.5441 11.0363 26.2393 10.4718C25.9345 9.90726 25.5855 9.37162 25.1922 8.86485L27.3136 6.7433L27.3138 6.74336C27.8818 7.31141 28.8028 7.31141 29.3708 6.74336C29.9388 6.17533 29.9388 5.25436 29.3708 4.68633L27.3138 2.62929C26.7456 2.06125 25.8247 2.06125 25.2567 2.62929C24.6886 3.1973 24.6886 4.11823 25.2566 4.68627L23.135 6.80781C22.6282 6.41445 22.0926 6.06538 21.5282 5.76061C20.9637 5.45584 20.378 5.1995 19.7711 4.99161C19.1641 4.78371 18.5443 4.62706 17.9114 4.52167C17.2787 4.4163 16.6416 4.36361 16 4.36361C15.3585 4.36361 14.7213 4.4163 14.0885 4.52169C13.4557 4.62707 12.8358 4.78371 12.2289 4.99161C11.622 5.19951 11.0363 5.45585 10.4718 5.76063C9.90732 6.0654 9.37168 6.41447 8.86491 6.80783Z" fill="url(#paint0_radial_103_1607)"/&gt; &lt;path d="M13.8185 14.5455C15.0235 14.5455 16.0004 13.5687 16.0004 12.3637C16.0004 11.1587 15.0235 10.1819 13.8185 10.1819C12.6136 10.1819 11.6367 11.1587 11.6367 12.3637C11.6367 13.5687 12.6136 14.5455 13.8185 14.5455Z" fill="url(#paint1_linear_103_1607)"/&gt; &lt;path d="M17.4545 21.8182C19.0611 21.8182 20.3636 20.5157 20.3636 18.9091C20.3636 17.3024 19.0611 16 17.4545 16C15.8479 16 14.5454 17.3024 14.5454 18.9091C14.5454 20.5157 15.8479 21.8182 17.4545 21.8182Z" fill="url(#paint2_linear_103_1607)"/&gt; &lt;defs&gt; &lt;radialGradient id="paint0_radial_103_1607" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.0001 9.29831) rotate(68.1061) scale(19.6314)"&gt; &lt;stop stop-color="#b6d0e7"/&gt; &lt;stop offset="0.315385" stop-color="#5f98d8"/&gt; &lt;stop offset="1" stop-color="#346ac5"/&gt; &lt;/radialGradient&gt; &lt;linearGradient id="paint1_linear_103_1607" x1="13.8185" y1="10.1819" x2="13.8185" y2="14.5455" gradientUnits="userSpaceOnUse"&gt; &lt;stop stop-color="#3d77db"/&gt; &lt;stop offset="1" stop-color="#b6d0e7"/&gt; &lt;/linearGradient&gt; &lt;linearGradient id="paint2_linear_103_1607" x1="17.4545" y1="16" x2="17.4545" y2="21.8182" gradientUnits="userSpaceOnUse"&gt; &lt;stop stop-color="#3d77db"/&gt; &lt;stop offset="1" stop-color="#b6d0e7"/&gt; &lt;/linearGradient&gt; &lt;/defs&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;3&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;flawed&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/25j65/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="228px" height="228px" viewBox="0 0 512.00 512.00" xmlns="http://www.w3.org/2000/svg" fill="#bbd3f2" stroke="#bbd3f2" stroke-width="10.751999999999999"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt;
+&lt;path fill="#72a1fd" d="M221.75 17.813c-2.866.013-5.723.092-8.594.25C94.004 24.596 10.79 136.428 17.436 251.155 25.995 398.813 164.3 501.693 306.315 492.562h.03c68.975-4.446 134.884-33.45 186.063-79.562l4.344-3.906-1.625-5.625-29.844-102.595-1.217-4.188-3.97-1.75L378 258.594c14.594-24.457 22.398-53.31 21-82.563-4.3-89.976-83.124-154.5-168.656-158.06-2.85-.12-5.728-.17-8.594-.157zm.125 18.687c1.174-.007 2.36.015 3.53.03L218.5 81.28l-.28 1.75.155.626c-26.733 2.106-53.554 11.503-75.875 28.438l-14.375-47.28c25.05-16.172 54.175-26.346 86.063-28.095 2.567-.142 5.13-.205 7.687-.22zm22.25 1.406c38.27 5.08 74 23.623 99.28 51.375l-34 19.94-.374.218c-19.422-15.903-44.874-24.69-71.592-26.063l-.22-.938 6.907-44.53zm-132 38.5l14.344 47.25.624 2.094c-14.64 15.204-26.215 34.55-32.844 58.125-.675 2.4-1.285 4.79-1.875 7.156l-40.47-33.218c13.17-31.817 33.873-60.15 60.22-81.406zM355.25 104.03c14.607 20.833 23.788 45.562 25.094 72.876.025.52.044 1.044.062 1.563l-35.844 2.874c-.124-2.074-.265-4.16-.5-6.25-2.332-20.82-10.02-38.198-21.343-52.03l32.53-19.033zm-116.125 44.94c2.345.038 4.665.25 6.97.593l-1.47 39.28c-4.208.59-8.338 1.873-12.22 3.907l-43.718-17.813c11.268-15.01 28.152-25.316 47.938-25.937.834-.026 1.668-.045 2.5-.03zm25.47 6.843c14.38 7.937 24.832 22.162 25.217 39.343.145 6.436-1.438 13.01-4.218 18.75-1.47-4.27-3.73-8.338-6.813-12-4.44-5.274-10.04-9.043-16.092-11.22l.593.033 1.314-34.907zm-219.44 20.625l43.032 35.375c-3.903 25.766-2.57 49.148 2.97 69.968L39 275.22c-1.418-8.22-2.41-16.602-2.906-25.158-1.455-25.12 1.79-50.093 9.062-73.625zm134.282 14.875l38.032 15.562c-4.74 7.95-6.338 17.343-4.657 26.313l-28.844 25.125c-6.018-10.772-9.68-22.974-10.157-36.188-.384-10.633 1.657-21.176 5.625-30.813zm200.22 5.937c-3.353 28.986-16.63 56.285-36.75 76.22L321 251.56c13.37-13.268 21.052-31.418 23.188-51.437l35.468-2.875zm-159 53.875c7.497 11.248 19.977 18.867 33.124 21.53l2.782 32.376c-23.827-2.664-46.187-14.117-61.656-31.436l25.75-22.47zm85.28 11.813l22.625 22.625c-15.317 10.92-33.362 18.028-53.25 19.656l-2.718-32c12.847-1.323 23.948-4.934 33.344-10.283zM43.22 294.594l54.718 6.875c9.884 23.128 25.378 42.458 44.593 57.75l-53.936 22.405c-20.91-25.13-36.706-54.492-45.375-87.03zM448.06 310.03l.47.22 26.906 92.563c-30.294 26.24-65.746 46.28-103.688 58.406l8.594-87.033.156-1.562c26.19-14.795 49.554-35.547 67.563-62.594zm-287.28 61.876c26.235 15.822 57.278 25.373 89.593 28.156l-44 61c-39.634-13.116-75.807-35.403-104.53-64.718l58.936-24.438zm199.968 10.53l-8.344 84.22c-15.49 3.766-31.305 6.222-47.28 7.25-27.044 1.742-53.936-.874-79.688-7.312l45.656-63.344 1.72-2.375c29.813-.32 60.02-6.33 87.936-18.438z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;2&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;fossil&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;</description></item></channel></rss>
