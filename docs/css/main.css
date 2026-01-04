@@ -17,6 +17,11 @@
 
   /* Scrollbar (Firefox) */
   scrollbar-color: var(--accent) var(--hover-bg);
+
+  /* Form / JS-created elements */
+  --control-bg: var(--box-bg);
+  --control-fg: var(--fg);
+  --control-border: var(--border);
 }
 
 /* Dark theme overrides */
@@ -31,12 +36,31 @@
     --accent: #58a6ff;
     --hover-bg: #21262d;
 
+    /* Scrollbar (Firefox) */
     scrollbar-color: var(--accent) var(--hover-bg);
+    
+    /* Form / JS-created elements */
+    --control-bg: var(--box-bg);
+    --control-fg: var(--fg);
+    --control-border: var(--border);
   }
 
   .logo-container svg {
     filter: brightness(0.8) saturate(0.85);
   }  
+}
+
+/* JS elements */
+canvas,
+textarea,
+input,
+select {
+  background-color: var(--control-bg);
+  color: var(--control-fg);
+  border: 1px solid var(--control-border);
+}
+
+button {
 }
 
 /* ================================
