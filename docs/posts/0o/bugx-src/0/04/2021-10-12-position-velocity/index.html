@@ -1,0 +1,39 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><meta name=color-scheme content="light dark"><title>position velocity | butiran</title><link rel=stylesheet href=/butiran/css/main.min.f989c0383f4e9afce48ea17803b13b53e50d25d004a17d52380031ad7cf7c7d0.css integrity="sha256-+YnAOD9OmvzkjqF4A7E7U+UNJdAEoX1SOAAxrXz3x9A=" crossorigin=anonymous><script src=/butiran/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css></head><body><header><link rel=stylesheet href='/butiran/css/header.css?v=1767796880'><h1>butiran</h1><nav><ul><li><a href=/butiran/>Home</a></li></ul></nav></header><main><h1>position velocity</h1><time datetime=2021-10-12T20:39:00+07:00>October 12, 2021</time><p>Hubungan antara posisi dan kecepatan dapat diperoleh dengan menggunakan persamaan-persaman gerak atau turunan kalkulus [
+<a href=#r01><span>1 <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>]. Analisa posisi, kecepatan, dan juga percepatan dapat dilakukan dengan turunan [
+<a href=#r02><span>2 <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>].</p><h2 id=v-from-x>v from x</h2><p>Dengan menggunakan diferensial</p><p>\begin{equation}\label{eqn-1}
+v = \frac{dx}{dt},
+\end{equation}</p><p>yang menggambarkan bagaimana informasi fungsi kecepatan $v$ dapat diperoleh dari fungsi posisi $x$, di mana keduanya merupakan fungsi dari waktu $t$. Sebagai contoh bila terdapat fungsi posisi</p><p>$$
+x = -t^4 + 4t^2 - 10t + 2,
+$$</p><p>maka akan diperoleh</p><p>$$
+v = -4t^3 + 8t - 10,
+$$</p><p>yang merupakan fungsi kecepatannya. Terkadang untuk menunjukkan bahwa posisi dan kecepatan merupakan fungsi dari waktu $t$ secara eksplisit, keduanya dituliskan sebagai $x(t)$ dan $v(t)$.</p><h2 id=x-from-v>x from v</h2><p>Dengan menggunakan integral</p><p>\begin{equation}\label{eqn-2}
+x - x_0 = \int_{t_0}^t v \ dt.
+\end{equation}</p><p>Perhatikan urutan dari fungsi posisi $x$ pada ruas kiri, yaitu $x = x(t)$ dan $x_0 = x(t_0)$, terkait dengan batas bawah dan batas atas integral pada ruas kanan, yaitu $t_0$ dan $t$. Sebagai ilustrasi, suatu benda bergerak dengan fungsi kecepatan</p><p>$$
+v = 3t^2 - 2t + 10
+$$</p><p>dan memiliki syarat awal $x(2) = 24$ (atau saat $t_0 = 2$, $x_0 = 24$), maka</p><p>$$
+\require{cancel}
+\begin{array}{rcl}
+x - x(2) & = & \displaystyle \int_2^t (3t^2 - 2t + 10) \ dt \newline
+& = & \displaystyle \left[ t^3 - t^2 + 10t \right]_2^t \newline
+& = & (t^3 - t^2 + 10t) - (2^3 - 2^2 + 10 \cdot 2) \newline
+& = & (t^3 - t^2 + 10t) - (8 - 4 + 20) \newline
+& = & (t^3 - t^2 + 10t) - 24 \newline
+& = & t^3 - t^2 + 10t - 24 \newline
+x - 24 & = & t^3 - t^2 + 10t - 24 \newline
+x & = & t^3 - t^2 + 10t - \cancel{24} + \cancel{24} \newline
+& = & t^3 - t^2 + 10t
+\end{array}
+$$</p><p>adalah fungsi posisinya.</p><h2 id=note>note</h2><ol><li>Glenn Elert, &ldquo;Equations of Motion&rdquo;, The Physics Hypertextbook, 2021, url
+<a href=https://physics.info/motion-equations/ target=_blank rel="nofollow noopener noreferrer"><span>https://physics.info/motion-equations/ <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>[20211012].</li><li>-, &ldquo;How to Analyze Position, Velocity, and Acceleration with Differentiation&rdquo;, Dummies, John Wiley & Sons, Inc., 2021, url
+<a href=https://www.dummies.com/education/math/calculus/how-to-analyze-position-velocity-and-acceleration-with-differentiation/ target=_blank rel="nofollow noopener noreferrer"><span>https://www.dummies.com/education/math/calculus/how-to-analyze-position-velocity-and-acceleration-with-differentiation/ <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>[20211012].</li></ol><h2 id=heading> </h2><p><a><span>position <i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>{% comment %}
+<a><span><i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>•
+<a><span><i class="fa fa-external-link" style=font-size:14px></i>
+</span></a>{% endcomment %}</p></main><footer><link rel=stylesheet href='/butiran/css/footer.css?v=1767796880'><p>Copyright Sparisoma Viridi 2026<a href=/butiran/h2/ style=cursor:text>.</a>
+All rights reserved.
+Unless stated otherwise in a note.</p></footer></body></html>
