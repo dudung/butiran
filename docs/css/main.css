@@ -278,56 +278,58 @@ a[href^="#fn:"]:after {
 }
 
 
-/* ================================
-   Instagram
-   ================================ */
+/* -----------------------------------
+   Instagram container fix
+----------------------------------- */
 
-/* Wrapper controls the final size */
-.instagram-embed-wrapper {
-  max-width: 260px;   /* ← key size control or better 320 */
-  margin: 1rem auto;
+.instagram-butiran-container {
+  overflow: hidden;       /* removes unused scaled space */
+  line-height: 0;         /* removes inline spacing gaps */
+  margin: 1em 0 0 0;              /* ensure no extra margin */
+  border: 0px solid red;
+  display: inline-block;
 }
 
-/* Override Instagram defaults (best effort) */
-.instagram-compact {
-  background: var(--box-bg) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 10px !important;
-  box-shadow: none !important;
-}
-
-/* Reduce padding Instagram adds */
-.instagram-compact > div {
-  padding: 8px !important;
-}
-
-/* Keep it visually calm in dark mode */
-@media (prefers-color-scheme: dark) {
-  .instagram-compact {
-    background: var(--box-bg) !important;
-  }
-}
+/* -----------------------------------
+   Base Instagram embed wrapper
+----------------------------------- */
 
 .instagram-embed-wrapper {
+  width: 540px;           /* Instagram base width */
   transform-origin: top left;
 }
 
-/* Size presets */
+/* -----------------------------------
+   Size presets (scaled)
+----------------------------------- */
+
+/* Small */
 .instagram-embed-wrapper.sm {
   transform: scale(0.55);
+  margin-bottom: -250px;  /* reclaim unused height */
 }
 
+/* Medium */
 .instagram-embed-wrapper.md {
   transform: scale(0.7);
+  margin-bottom: -170px;
 }
 
+/* Large */
 .instagram-embed-wrapper.lg {
   transform: scale(0.85);
+  margin-bottom: -90px;
 }
 
-/* Fix layout collapse after scaling */
-.instagram-embed-wrapper.sm,
-.instagram-embed-wrapper.md,
-.instagram-embed-wrapper.lg {
-  width: 540px; /* Instagram's base width */
+.instagram-placeholder-box {
+  width: 99%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #ccc;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
 }
