@@ -24,7 +24,7 @@ function createArrowKeysKeypad() {
 function createTextarea() {
   let txa = document.createElement("textarea");
   txa.style.width = "150px";
-  txa.style.height = "100px";
+  txa.style.height = "92px";
   txa.style.overflowY = "scroll";
   
   return txa;
