@@ -2040,7 +2040,7 @@ fill="#f7df1e"/&gt;&lt;path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16
 &lt;/svg&gt;
  &lt;/div&gt;
  
- &lt;div class="count"&gt;160&lt;/div&gt;
+ &lt;div class="count"&gt;161&lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="title-wrapper"&gt;
  &lt;div class="title"&gt;notes&lt;/div&gt;
@@ -5296,5 +5296,378 @@ fill="#f7df1e"/&gt;&lt;path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16
  &lt;/div&gt;
  &lt;div class="title-wrapper"&gt;
  &lt;div class="title"&gt;java-script&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;</description></item><item><title/><link>https://dudung.github.io/butiran/idx08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dudung.github.io/butiran/idx08/</guid><description>&lt;p&gt;&lt;strong&gt;küche&lt;/strong&gt; - a cooking pot of ideas&lt;/p&gt;
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href=""&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve"&gt;
+&lt;path style="fill:#CED7E2;" d="M456.923,289.391c-1.556-13.946-4.933-27.332-9.992-39.869
+	c-21.612-53.554-73.56-91.988-134.832-94.499H256h-56.098c-61.193,2.509-113.095,40.842-134.757,94.285
+	c-5.106,12.597-8.503,26.059-10.067,40.083c-0.626,5.621-1.03,11.308-1.03,17.098v33.659c0,46.401,37.746,84.147,84.147,84.147H256
+	h117.806c46.401,0,84.147-37.746,84.147-84.147v-33.659C457.953,300.699,457.549,295.012,456.923,289.391z"/&gt;
+&lt;path style="fill:#D67227;" d="M503.729,266.547c-9.426,14.473-25.356,23.112-42.522,23.112c-1.46,0-2.805-0.112-4.265-0.224
+	c-17.053-1.459-34.554-11.22-41.625-28.161c-14.473-34.893-43.195-64.737-86.391-71.244c-5.834-0.898-11.894-1.346-18.176-1.346
+	H201.248c-6.282,0-12.342,0.449-18.176,1.346c-44.542,6.507-72.479,37.025-86.727,71.918c-6.171,15.371-23.786,26.029-41.287,27.488
+	c-1.46,0.112-2.805,0.224-4.265,0.224c-17.166,0-33.098-8.639-42.522-23.112c-9.422-14.361-10.883-32.425-3.926-48.132
+	C36.432,145.6,105.209,96.346,183.072,88.829c7.068-0.785,14.137-1.122,21.317-1.122h103.219c7.181,0,14.249,0.337,21.317,1.122
+	c77.863,7.517,146.641,56.771,178.727,129.586C514.612,234.122,513.152,252.185,503.729,266.547z"/&gt;
+&lt;path style="fill:#C95C23;" d="M503.729,266.547c-9.426,14.473-25.356,23.112-42.522,23.112c-1.46,0-2.805-0.112-4.265-0.224
+	c-17.053-1.459-34.554-11.22-41.625-28.161c-14.473-34.893-43.195-64.737-86.391-71.244c-5.834-0.898-11.894-1.346-18.176-1.346
+	h-54.752V87.707h51.61c7.181,0,14.249,0.337,21.317,1.122c77.863,7.517,146.641,56.771,178.727,129.586
+	C514.612,234.122,513.152,252.185,503.729,266.547z"/&gt;
+&lt;path style="fill:#575771;" d="M307.609,87.707H204.39c-7.181,0-14.249,0.337-21.317,1.122v335.466h145.855V88.829
+	C321.859,88.042,314.791,87.707,307.609,87.707z"/&gt;
+&lt;path style="fill:#494965;" d="M328.928,88.828v335.465H256V87.706h51.61C314.791,87.707,321.859,88.042,328.928,88.828z"/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;kudapan&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href=""&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="800px" height="800px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="#000000"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;g id="cook_book"&gt; &lt;g&gt; &lt;rect x="46.816" y="460.34" fill="#F4F6F9" width="422.508" height="36.562"/&gt; &lt;/g&gt; &lt;path fill="#E5E8EC" d="M458.668,479.996c0,5.906,4.766,10.672,10.656,10.672V469.34 C463.434,469.34,458.668,474.121,458.668,479.996z"/&gt; &lt;g&gt; &lt;path fill="#96d35f" d="M62.535,469.449h406.789c5.89,0,10.671-4.766,10.671-10.672V10.677c0-5.891-4.781-10.672-10.671-10.672 H74.676c-23.562,0-42.671,19.109-42.671,42.671v0.016v394.867v21.219v21.219c0,17.687,14.327,31.999,31.999,31.999h405.32l0,0 c5.89,0,10.671-4.781,10.671-10.656c0-5.906-4.781-10.671-10.671-10.671h-0.016H64.004c-5.875,0-10.672-4.781-10.672-10.672 C53.332,474.621,57.348,470.168,62.535,469.449z"/&gt; &lt;/g&gt; &lt;path fill="#E5E8EC" d="M170.783,362.67V250.953l-6.562-2.734c-25.171-10.5-41.452-34.921-41.452-62.187 c0-37.14,30.218-67.358,67.358-67.358c23.249,0,23.624-16.531,36.062,3.156l24.827-12l14.172,2.344 c12.437-19.703,33.718,6.5,56.968,6.5c37.14,0,67.342,30.218,67.342,67.358c0,27.266-16.266,51.687-41.437,62.187l-6.562,2.734 V362.67H170.783z"/&gt; &lt;g&gt; &lt;path fill="#4f7a28" d="M322.155,108.003c-7.359,0-14.469,1.031-21.219,2.938c-12.484-9.375-27.984-14.938-44.796-14.938 s-32.327,5.562-44.796,14.938c-6.75-1.906-13.859-2.938-21.218-2.938c-43.094,0-78.015,34.937-78.015,78.029 c0,32.453,19.812,60.265,47.999,72.03v115.279h192.043V258.062c28.202-11.766,48.015-39.578,48.015-72.03 C400.169,142.939,365.248,108.003,322.155,108.003z M343.952,238.375l-13.125,5.469v14.219v93.936h-0.016 c0-5.875-4.781-10.656-10.672-10.656s-10.672,4.781-10.672,10.656h-10.656c0-5.875-4.781-10.656-10.672-10.656 s-10.672,4.781-10.672,10.656h-10.655c0-5.875-4.781-10.656-10.672-10.656s-10.672,4.781-10.672,10.656h-10.655 c0-5.875-4.781-10.656-10.672-10.656s-10.672,4.781-10.672,10.656h-10.656c0-5.875-4.781-10.656-10.672-10.656 c-5.89,0-10.671,4.781-10.671,10.656h-0.016v-93.936v-14.219l-13.125-5.469c-21.188-8.843-34.89-29.39-34.89-52.343 c0-31.265,25.421-56.687,56.687-56.687c1.25,0,2.499,0.047,3.733,0.125c-7.515,11.344-12.015,24.859-12.358,39.421 c-0.109,0.578-0.172,1.172-0.172,1.781c0,5.891,4.781,10.671,10.671,10.671c5.891,0,10.672-4.781,10.672-10.671h0.141 c0-29.406,23.922-53.327,53.327-53.327c28.937,0,52.546,23.156,53.296,51.921c-0.062,0.469-0.109,0.922-0.109,1.406 c0,5.891,4.781,10.671,10.672,10.671s10.672-4.781,10.672-10.671h0.141c0-15.234-4.578-29.39-12.406-41.203 c1.25-0.078,2.484-0.125,3.75-0.125c31.249,0,56.686,25.422,56.686,56.687C378.841,208.985,365.139,229.532,343.952,238.375z"/&gt; &lt;path fill="#4f7a28" d="M224.001,224c0-5.891-4.781-10.656-10.672-10.656S202.673,218.11,202.673,224v0.016v53.328l0,0 c0,5.89,4.766,10.655,10.656,10.655s10.672-4.766,10.672-10.655l0,0v-53.328V224z"/&gt; &lt;path fill="#4f7a28" d="M266.672,224c0-5.891-4.781-10.656-10.672-10.656S245.328,218.11,245.328,224v0.016v53.328l0,0 c0,5.89,4.781,10.655,10.672,10.655s10.672-4.766,10.672-10.655l0,0v-53.328V224z"/&gt; &lt;path fill="#4f7a28" d="M309.327,224c0-5.891-4.766-10.656-10.656-10.656S287.999,218.11,287.999,224v0.016v53.328l0,0 c0,5.89,4.781,10.655,10.672,10.655s10.656-4.766,10.656-10.655l0,0v-53.328V224z"/&gt; &lt;/g&gt; &lt;/g&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;0&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;recipes&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/26a90/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;?xml version="1.0" encoding="utf-8"?&gt;
+
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 370 391" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FF4088;stroke:#C9177E;stroke-width:27;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+&lt;/style&gt;
+&lt;path class="st0" d="M207.5,22.4L321.9,89c13.5,7.9,21.9,22.4,21.9,38v136.4c0,17.3-9.3,33.3-24.5,41.8l-113.5,63.9
+	c-15.1,8.5-33.5,8.4-48.5-0.2L52.8,308.8c-16.4-9.5-26.6-27-26.6-45.9V133.4c0-19.1,9.9-36.8,26.1-46.8l102.8-63.5
+	C171.1,13.2,191.3,13,207.5,22.4z"/&gt;
+&lt;polygon class="st1" points="105.6,298.2 105.6,91 149,91 149,166.5 220.9,166.5 220.9,91 264.4,91 264.4,298.2 220.9,298.2 
+	220.9,207.6 149,207.6 149,298.2 "/&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;short-codes&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/a&gt;
+
+
+&lt;style&gt;
+.category-card {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ width: 80px;
+ height: 80px;
+ margin: 0.3em;
+ border: 1px solid var(--muted-border);
+ border-radius: 8px;
+ padding: 4px;
+ background: var(--box-bg);
+ box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: var(--fg);
+}
+.category-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.category-card .top-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-shrink: 0;
+}
+.category-card .logo-container {
+ width: 20px;
+ height: 20px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.category-card img, .category-card svg {
+ max-width: 100%;
+ max-height: 100%;
+}
+.category-card .count {
+ font-size: 0.75em;
+ color:#888;
+}
+.category-card .title-wrapper {
+ flex: 1;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ text-align: center;
+ padding: 0 6px;
+}
+.category-card .title {
+ font-weight: 600;
+ font-size: 0.85em;
+ line-height: 1.1;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3; 
+ overflow: hidden;
+ word-break: break-word;
+}
+&lt;/style&gt;
+
+
+
+&lt;a class="category-card" href="https://dudung.github.io/butiran/26a92/"&gt;
+ &lt;div class="top-row"&gt;
+ 
+ 
+ 
+ &lt;div class="logo-container"&gt;
+ &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --&gt;
+&lt;svg width="800px" height="800px" viewBox="0 0 64.00 64.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#f5ec00" stroke-width="1.28"&gt;
+&lt;g id="SVGRepo_bgCarrier" stroke-width="0"/&gt;
+&lt;g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/&gt;
+&lt;g id="SVGRepo_iconCarrier"&gt; &lt;path d="M38.86 39.6011V48.4311V54.1011L53.31 39.6011H47.66H38.86Z" fill="#fffbb9"/&gt; &lt;path d="M48.48 9.35107H14.56C12.9687 9.35107 11.4426 9.98321 10.3174 11.1084C9.19213 12.2336 8.56 13.7598 8.56 15.3511V49.2711C8.56 50.8624 9.19213 52.3885 10.3174 53.5137C11.4426 54.6389 12.9687 55.2711 14.56 55.2711H34.86V37.6011C34.86 37.0706 35.0707 36.5619 35.4458 36.1869C35.8208 35.8118 36.3296 35.6011 36.86 35.6011H54.48V15.3511C54.48 13.7598 53.8478 12.2336 52.7226 11.1084C51.5974 9.98321 50.0713 9.35107 48.48 9.35107Z" fill="#fffb00"/&gt; &lt;/g&gt;
+&lt;/svg&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="count"&gt;1&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="title-wrapper"&gt;
+ &lt;div class="title"&gt;zettel&lt;/div&gt;
  &lt;/div&gt;
 &lt;/a&gt;</description></item></channel></rss>
