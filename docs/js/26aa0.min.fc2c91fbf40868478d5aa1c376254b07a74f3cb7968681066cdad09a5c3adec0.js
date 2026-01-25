@@ -1,1 +1,0 @@
-(()=>{window.setContainerStyle=function(e){if(!e)return;e.style.marginTop="1em",e.style.width="360px",e.style.height="120px",e.style.border="0px solid #888",e.style.position="relative",e.style.overflow="hidden",e.style.background="var(--box-bg)"}(()=>{console.log("[marker] 26aa0.js loaded")})()})()
