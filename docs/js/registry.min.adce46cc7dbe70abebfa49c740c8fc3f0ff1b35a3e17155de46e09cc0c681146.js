@@ -1,1 +1,0 @@
-(()=>{window.HugoScripts=window.HugoScripts||Object.create(null),window.registerHugoScript=function(e,t){window.HugoScripts[e]=t}})()
